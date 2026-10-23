@@ -1,0 +1,15 @@
+trait,n_redoxko,n_rf,n_shared,jaccard
+donor_sulfur_oxidation,6,6,2,0.2
+donor_ammonia_oxidation,8,2,2,0.25
+donor_nitrite_oxidation,3,3,0,0.0
+donor_hydrogen_oxidation,7,6,3,0.3
+donor_CO_oxidation,6,2,0,0.0
+donor_iron_oxidation,6,4,2,0.25
+donor_other,6,1,0,0.0
+acceptor_oxygen,5,5,0,0.0
+acceptor_nitrate,6,8,2,0.16666666666666666
+acceptor_sulfate,7,10,6,0.5454545454545454
+acceptor_sulfur,4,2,0,0.0
+acceptor_CO2_methanogen_acetogen,10,4,2,0.16666666666666666
+acceptor_iron,3,1,1,0.3333333333333333
+acceptor_other,8,5,2,0.18181818181818182

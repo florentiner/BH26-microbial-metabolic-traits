@@ -1,0 +1,44 @@
+{
+ "llm_subset_96": 0.6802071193650754,
+ "n_H_genome": 96,
+ "n_H_named": 96,
+ "n_H_gpt_genome": 96,
+ "n_H_gpt_named": 84,
+ "H_genome": {
+  "n": 96,
+  "RedoxKO": 0.6802071193650754,
+  "llm_minus_RedoxKO": -0.10209381587059896,
+  "ci": [
+   -0.15729272278959955,
+   -0.04464721162053911
+  ]
+ },
+ "H_named": {
+  "n": 96,
+  "RedoxKO": 0.6802071193650754,
+  "llm_minus_RedoxKO": 0.0971902705518769,
+  "ci": [
+   0.03895199615183058,
+   0.1467204810746233
+  ]
+ },
+ "H_gpt_genome": {
+  "n": 96,
+  "RedoxKO": 0.6802071193650754,
+  "llm_minus_RedoxKO": -0.0921245205923027,
+  "ci": [
+   -0.1335957097835699,
+   -0.02536740792093593
+  ]
+ },
+ "H_gpt_named": {
+  "n": 84,
+  "RedoxKO": 0.678665244552926,
+  "llm_minus_RedoxKO": 0.052576121088783845,
+  "ci": [
+   -0.007596390426056376,
+   0.09717010055592125
+  ]
+ },
+ "note_kappa": "computed by src/24_label_concordance.py with RF; see rf_label_concordance.csv"
+}

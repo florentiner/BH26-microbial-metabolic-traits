@@ -1,0 +1,301 @@
+mag	habitat	gtdb_taxonomy	checkm2_completeness	checkm2_contamination	ncbi_isolation_source
+GCA_011176535.1	hydrothermal	d__Bacteria;p__Chloroflexota;c__Anaerolineae;o__Anaerolineales;f__DRMV01;g__DUEP01;s__DUEP01 sp011176535	97.42	1.85	sea water from hydrothermal vent
+GCA_021158005.1	hydrothermal	d__Bacteria;p__Aerophobota;c__Aerophobia;o__Aerophobales;f__JAGGVN01;g__JAGGVN01;s__JAGGVN01 sp021158005	92.5	0.58	marine hydrothermal sediment
+GCA_027084145.1	hydrothermal	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales_D;f__Crocinitomicaceae;g__UBA4466;s__UBA4466 sp027084145	93.9	3.7	marine hydrothermal vent
+GCA_015521605.1	hydrothermal	d__Archaea;p__Methanobacteriota_B;c__Thermococci;o__Thermococcales;f__Thermococcaceae;g__Thermococcus;s__Thermococcus sp015521605	99.69	0.71	deep-sea hydrothermal deposit
+GCA_015487435.1	hydrothermal	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Sulfurimonadaceae;g__Sulfurimonas;s__Sulfurimonas sp015487435	92.6	3.67	deep-sea hydrothermal deposit
+GCA_026984335.1	hydrothermal	d__Bacteria;p__Bacteroidota;c__Rhodothermia;o__Rhodothermales;f__ISCAR-4553;g__JALSSK01;s__JALSSK01 sp026984335	96.81	2.96	marine hydrothermal vent
+GCA_026991535.1	hydrothermal	d__Bacteria;p__Calditrichota;c__Calditrichia;o__Calditrichales;f__J004;g__J004;s__J004 sp026991535	95.59	0.58	marine hydrothermal vent
+GCA_027016355.1	hydrothermal	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__Moranbacterales;f__GCA-2747515;g__GCA-2747515;s__GCA-2747515 sp027016355	92.7	2.7	marine hydrothermal vent
+GCA_026981975.1	hydrothermal	d__Bacteria;p__Aquificota;c__Aquificia;o__Aquificales;f__Aquificaceae;g__Hydrogenivirga;s__Hydrogenivirga sp026981975	99.94	0.24	marine hydrothermal vent
+GCA_015520735.1	hydrothermal	d__Archaea;p__Thermoproteota;c__Thermoprotei_A;o__Sulfolobales;f__Desulfurococcaceae;g__JAADCY01;s__JAADCY01 sp015520735	99.77	0.57	deep-sea hydrothermal deposit
+GCA_003229375.1	hydrothermal	d__Bacteria;p__Nitrospinota;c__Nitrospinia;o__SZUA-224;f__SZUA-224;g__SZUA-224;s__SZUA-224 sp003229375	92.95	0.0	marine hydrothermal sulfide sediment TVG13
+GCA_026986005.1	hydrothermal	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Saprospiraceae;g__JADJGA01;s__JADJGA01 sp026986005	96.91	1.48	marine hydrothermal vent
+GCA_021158185.1	hydrothermal	d__Bacteria;p__4484-113;c__4484-113;o__JAGGVC01;f__JAGGVC01;g__JAGGVC01;s__JAGGVC01 sp021158185	91.28	0.64	marine hydrothermal sediment
+GCA_026987795.1	hydrothermal	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__JAADGE01;g__JAADGE01;s__JAADGE01 sp026987795	91.0	1.44	marine hydrothermal vent
+GCA_027039465.1	hydrothermal	d__Bacteria;p__Calditrichota;c__Calditrichia;o__Calditrichales;f__Calditrichaceae;g__Caldithrix;s__Caldithrix sp027039465	95.29	2.7	marine hydrothermal vent
+GCA_003644405.1	hydrothermal	d__Bacteria;p__Omnitrophota;c__Gorgyraeia;o__Duberdicusellales;f__4484-171;g__B7-G16;s__B7-G16 sp003644405	92.51	0.49	deep-sea hydrothermal vent sediments from dive 4569_2 depth 12-15 cm
+GCA_027028625.1	hydrothermal	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__JAADGY01;f__JAADGY01;g__S014-63;s__S014-63 sp027028625	90.84	1.98	marine hydrothermal vent
+GCA_024277025.1	hydrothermal	d__Bacteria;p__Krumholzibacteriota;c__Krumholzibacteriia;o__LZORAL124-64-63;f__LZORAL124-64-63;g__JAGRNP01;s__JAGRNP01 sp024277025	90.71	3.85	active black smoker DFF12
+GCA_002049795.1	hydrothermal	d__Bacteria;p__Desulfobacterota;c__Desulfobaccia;o__Desulfobaccales;f__Desulfobaccaceae;g__Desulfobacca_B;s__Desulfobacca_B sp002049795	93.14	4.22	deep-sea hydrothermal vent sediments
+GCA_024275665.1	hydrothermal	d__Archaea;p__B1Sed10-29;c__B1Sed10-29;o__B1Sed10-29;f__JAJRYS01;g__JAJRYS01;s__JAJRYS01 sp024275665	90.76	0.1	active black smoker DFF12
+GCA_027013865.1	hydrothermal	d__Bacteria;p__Myxococcota_A;c__Polyangia;o__HGW-17;f__JALWFW01;g__JALWFW01;s__JALWFW01 sp027013865	93.78	2.78	marine hydrothermal vent
+GCA_026987955.1	hydrothermal	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Sulfurospirillaceae;g__Sulfurospirillum_A;s__Sulfurospirillum_A sp026987955	99.14	1.69	marine hydrothermal vent
+GCA_026982585.1	hydrothermal	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Geminicoccales;f__Geminicoccaceae;g__HRBIN39;s__HRBIN39 sp026982585	99.99	0.3	marine hydrothermal vent
+GCA_003650925.1	hydrothermal	d__Archaea;p__Thermoproteota;c__Thermoprotei;o__QMSL01;f__QMSL01;g__B12-G16;s__B12-G16 sp003650925	98.57	1.53	deep-sea hydrothermal vent sediments from dive 4569_2 depth 12-15 cm
+GCA_027006785.1	hydrothermal	d__Archaea;p__Thermoplasmatota;c__Thermoplasmata;o__WALJ01;f__WALJ01;g__JALTFR01;s__JALTFR01 sp027006785	90.03	0.57	marine hydrothermal vent
+GCA_019306365.1	hydrothermal	d__Bacteria;p__Desulfobacterota;c__Desulfarculia;o__Adiutricales;f__JAFDHD01;g__JAFDHD01;s__JAFDHD01 sp019306365	90.53	2.45	deep marine sediment from hydrothermal vent
+GCA_015522685.1	hydrothermal	d__Archaea;p__Korarchaeota;c__Korarchaeia;o__Korarchaeales;f__Korarchaeaceae;g__Korarchaeum;s__Korarchaeum sp015522685	92.37	0.66	deep-sea hydrothermal deposit
+GCA_027038295.1	hydrothermal	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Sulfurovaceae;g__UBA1140;s__UBA1140 sp027038295	96.56	3.12	marine hydrothermal vent
+GCA_027068915.1	hydrothermal	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Chromatiales;f__Chromatiaceae;g__Thiolapillus;s__Thiolapillus sp027068915	99.99	0.18	marine hydrothermal vent
+GCA_013152925.1	hydrothermal	d__Bacteria;p__Acidobacteriota;c__Thermoanaerobaculia;o__Thermoanaerobaculales;f__Sulfomarinibacteraceae;g__JAADFK01;s__JAADFK01 sp013152925	95.85	0.84	Deepsea hydrothermal sulfide chimney
+GCA_019310525.1	hydrothermal	d__Bacteria;p__Desulfobacterota;c__DSM-4660;o__Desulfatiglandales;f__HGW-15;g__JAFDEE01;s__JAFDEE01 sp019310525	96.76	3.14	deep marine sediment from hydrothermal vent
+GCA_015488975.1	hydrothermal	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__JALSKU01;g__JALSKU01;s__JALSKU01 sp015488975	91.34	4.47	deep-sea hydrothermal deposit
+GCA_001593935.1	hydrothermal	d__Archaea;p__Thermoproteota;c__Bathyarchaeia;o__Bathyarchaeales;f__B26-1;g__B26-1;s__B26-1 sp001593935	99.82	3.21	marine sediment sample collected by push cores at a deep sea vent site during cruise AT15-25 on Alvin dive 4358; sediment was oily and the sediment surface was covered with a white microbial mat
+GCA_015489315.1	hydrothermal	d__Bacteria;p__Desulfobacterota;c__Dissulfuribacteria;o__Dissulfuribacterales;f__QOAL01;g__JAADCZ01;s__JAADCZ01 sp015489315	95.17	0.9	deep-sea hydrothermal deposit
+GCA_024276115.1	hydrothermal	d__Bacteria;p__Desulfobacterota;c__JAJRXV01;o__JAJRXV01;f__JAJRXV01;g__JAJRXV01;s__JAJRXV01 sp024276115	91.22	3.54	active black smoker DFF12
+GCA_011375345.1	hydrothermal	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__DRLM01;f__DRLM01;g__DRLM01;s__DRLM01 sp011375345	99.03	1.04	rock sample from hydrothermal vent
+GCA_024276815.1	hydrothermal	d__Bacteria;p__JACRDZ01;c__JAJRWM01;o__JAJRWM01;f__JAJRWM01;g__JAJRWM01;s__JAJRWM01 sp024276815	91.42	2.97	active black smoker DFF12
+GCA_011042225.1	hydrothermal	d__Bacteria;p__Desulfobacterota;c__Dissulfuribacteria;o__Dissulfuribacterales;f__UBA3076;g__UBA3076;s__UBA3076 sp011042225	96.38	0.39	marine hydrothermal sediment
+GCA_015521615.1	hydrothermal	d__Archaea;p__Hydrothermarchaeota;c__Hydrothermarchaeia;o__Hydrothermarchaeales;f__BMS3B;g__Pyrohabitans;s__Pyrohabitans sp015521615	93.71	2.54	deep-sea hydrothermal deposit
+GCA_024280835.1	hydrothermal	d__Bacteria;p__Zixibacteria;c__MSB-5A5;o__GN15;f__JACZUZ01;g__JAJRPJ01;s__JAJRPJ01 sp024280835	96.12	0.37	diffuse vent DFF1
+GCA_027064135.1	hydrothermal	d__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Acidaminobacteraceae;g__HSG29;s__HSG29 sp027064135	97.87	1.86	marine hydrothermal vent
+GCA_024275215.1	hydrothermal	d__Bacteria;p__Zixibacteria;c__MSB-5A5;o__JAABVY01;f__JAHJOQ01;g__JAJRZO01;s__JAJRZO01 sp024275215	94.01	1.5	active black smoker DFF12
+GCA_015488885.1	hydrothermal	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__SZUA-229;f__SZUA-229;g__S010-25;s__S010-25 sp015488885	100.0	0.25	deep-sea hydrothermal deposit
+GCA_027013095.1	hydrothermal	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__UBA5972;s__UBA5972 sp027013095	100.0	0.0	marine hydrothermal vent
+GCA_021158305.1	hydrothermal	d__Archaea;p__Thermoproteota;c__Bathyarchaeia;o__Bathyarchaeales;f__DTEX01;g__B63;s__B63 sp021158305	95.12	1.88	marine hydrothermal sediment
+GCA_027081355.1	hydrothermal	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Sulfurovaceae;g__JAADEQ01;s__JAADEQ01 sp027081355	95.63	1.74	marine hydrothermal vent
+GCA_012960345.1	hydrothermal	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Arenicellales;f__UBA868;g__UBA11791;s__UBA11791 sp012960345	91.4	4.68	Guaymas Basin Hydrothermal plume metagenome
+GCA_027068245.1	hydrothermal	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Nitratiruptoraceae;g__Nitratiruptor;s__Nitratiruptor sp027068245	98.58	2.09	marine hydrothermal vent
+GCA_003250975.1	hydrothermal	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Eutrophobiales;f__Eutrophobiaceae;g__SZUA-592;s__SZUA-592 sp003250975	94.54	0.34	marine hydrothermal sulfide sediment TVG12
+GCA_027067055.1	hydrothermal	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Xanthomonadales;f__Marinicellaceae;g__NORP309;s__NORP309 sp027067055	98.25	3.21	marine hydrothermal vent
+GCA_012959465.1	hydrothermal	d__Bacteria;p__Planctomycetota;c__Planctomycetia;o__Pirellulales;f__Pirellulaceae;g__UWMA-0346;s__UWMA-0346 sp012959465	92.12	3.68	Guaymas Basin Hydrothermal plume metagenome
+GCA_026982335.1	hydrothermal	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Phycisphaerales;f__UBA1924;g__UBA1924;s__UBA1924 sp026982335	91.92	0.14	marine hydrothermal vent
+GCA_024276905.1	hydrothermal	d__Bacteria;p__Desulfobacterota;c__Desulfuromonadia;o__Desulfuromonadales;f__Geopsychrobacteraceae;g__Geopsychrobacter;s__Geopsychrobacter sp024276905	92.33	1.7	active black smoker DFF12
+GCA_021161565.1	hydrothermal	d__Bacteria;p__CG03;c__CG03;o__CG03;f__CG03;g__JAGHAK01;s__JAGHAK01 sp021161565	95.23	0.33	marine hydrothermal sediment
+GCA_015485505.1	hydrothermal	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__Phycocordibacterales;f__UBA2100;g__S139-169;s__S139-169 sp015485505	96.33	1.16	deep-sea hydrothermal deposit
+GCA_001766815.1	hydrothermal	d__Archaea;p__Halobacteriota;c__Syntropharchaeia;o__Syntropharchaeales;f__Syntropharchaeaceae;g__Syntropharchaeum;s__Syntropharchaeum caldarium	95.83	0.21	hydrothermal sediments
+GCA_024277325.1	hydrothermal	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__JAADGY01;f__JAADGY01;g__JAJRVN01;s__JAJRVN01 sp024277325	94.38	0.48	active black smoker DFF12
+GCA_015520605.1	hydrothermal	d__Archaea;p__EX4484-52;c__EX4484-52;o__EX4484-52;f__WAPT01;g__WAPT01;s__WAPT01 sp015520605	90.73	0.0	deep-sea hydrothermal deposit
+GCA_027049035.1	hydrothermal	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Sulfurovaceae;g__Sulfurovum;s__Sulfurovum sp027049035	99.78	1.24	marine hydrothermal vent
+GCA_003235555.1	hydrothermal	d__Bacteria;p__Bacteroidota;c__Ignavibacteria;o__UBA10030;f__SZUA-254;g__SZUA-254;s__SZUA-254 sp003235555	90.21	3.67	marine hydrothermal sulfide sediment TVG11
+GCA_028866905.1	acid_mine	d__Archaea;p__Micrarchaeota;c__Micrarchaeia;o__Micrarchaeales;f__Micrarchaeaceae;g__JAGWHI01;s__JAGWHI01 sp028866905	90.38	0.0	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_021851405.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__13-2-20CM-66-19;s__13-2-20CM-66-19 sp021851405	97.41	0.01	acid mine drainage sediment
+GCA_021838715.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_F;g__GJ-E10;s__GJ-E10 sp021838715	96.11	0.05	acid mine drainage sediment
+GCA_021789755.1	acid_mine	d__Bacteria;p__Bacteroidota;c__Ignavibacteria;o__Kryptoniales;f__JAKASW01;g__JAKASW01;s__JAKASW01 sp021789755	93.84	2.04	acid mine drainage sediment
+GCA_021833625.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__UBA1406;f__GWC2-37-13;g__JAKBEU01;s__JAKBEU01 sp021833625	99.56	1.21	acid mine drainage sediment
+GCA_021780535.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Patescibacteriia;o__JAGPKW01;f__JAGPKW01;g__JAJXYN01;s__JAJXYN01 sp021780535	90.95	0.13	acid mine drainage sediment
+GCA_021852345.1	acid_mine	d__Bacteria;p__Actinomycetota;c__Acidimicrobiia;o__Acidimicrobiales;f__JABEUL01;g__JAJZNL01;s__JAJZNL01 sp021852345	94.45	0.07	acid mine drainage sediment
+GCA_021801565.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__UBA6257;f__GWB1-50-10;g__JAKANR01;s__JAKANR01 sp021801565	98.71	0.68	acid mine drainage sediment
+GCA_028869395.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__Phenylobacterium;s__Phenylobacterium sp028869395	90.32	3.87	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_021781955.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__Phycocordibacterales;f__UBA2100;g__UBA10103;s__UBA10103 sp021781955	99.95	0.02	acid mine drainage sediment
+GCA_021816895.1	acid_mine	d__Archaea;p__Micrarchaeota;c__Micrarchaeia;o__Micrarchaeales;f__Micrarchaeaceae;g__JAKAWW01;s__JAKAWW01 sp021816895	95.42	1.13	acid mine drainage sediment
+GCA_021801125.1	acid_mine	d__Bacteria;p__Desulfobacterota;c__Binatia;o__Binatales;f__Binataceae;g__JAJYYI01;s__JAJYYI01 sp021801125	96.01	4.21	acid mine drainage sediment
+GCA_018971565.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Acidocella;s__Acidocella sp018971565	90.1	2.56	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_028865725.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__UBA6257;f__JACRHW01;g__JAGWJP01;s__JAGWJP01 sp028865725	100.0	1.85	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_021836865.1	acid_mine	d__Bacteria;p__Acidobacteriota;c__Terriglobia;o__Terriglobales;f__Acidobacteriaceae;g__Telmatobacter;s__Telmatobacter sp021836865	96.06	0.33	acid mine drainage sediment
+GCA_021785035.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Acidiferrobacterales;f__Acidiferrobacteraceae;g__Acidiferrobacter;s__Acidiferrobacter sp021785035	94.5	0.17	acid mine drainage sediment
+GCA_021845595.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__JAJZVV01;s__JAJZVV01 sp021845595	97.26	0.0	acid mine drainage sediment
+GCA_021833825.1	acid_mine	d__Bacteria;p__Babelota;c__Babeliae;o__Babelales;f__Vermiphilaceae;g__JAKBEL01;s__JAKBEL01 sp021833825	96.33	0.39	acid mine drainage sediment
+GCA_021787395.1	acid_mine	d__Bacteria;p__Chloroflexota;c__Limnocylindria;o__Limnocylindrales;f__CSP1-4;g__CAIXZV01;s__CAIXZV01 sp021787395	91.88	1.66	acid mine drainage sediment
+GCA_028875875.1	acid_mine	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Chitinophagaceae;g__JAGWUV01;s__JAGWUV01 sp028875875	97.54	0.08	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_028868975.1	acid_mine	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Microbacteriaceae;g__Rhodoluna;s__Rhodoluna sp028868975	90.59	3.24	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_021798485.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Magnetospirillaceae;g__JAJZGK01;s__JAJZGK01 sp021798485	92.6	1.12	acid mine drainage sediment
+GCA_021805565.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Rhodopila;s__Rhodopila sp021805565	98.54	0.0	acid mine drainage sediment
+GCA_029850535.1	acid_mine	d__Bacteria;p__Actinomycetota;c__Acidimicrobiia;o__Acidimicrobiales;f__RAAP-2;g__RAAP-2;s__RAAP-2 sp029850535	93.57	3.91	acid mine drainage sediment
+GCA_021814165.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__UBA6257;f__GWB1-50-10;g__JAKAHD01;s__JAKAHD01 sp021814165	93.81	0.23	acid mine drainage sediment
+GCA_028866595.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__Phycocordibacterales;f__UBA6065;g__UBA6065;s__UBA6065 sp028866595	93.82	4.39	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_023475565.1	acid_mine	d__Bacteria;p__Bacillota;c__Desulfotomaculia;o__Desulfotomaculales;f__Desulfocucumaceae;g__BRHc4a;s__BRHc4a sp023475565	99.2	0.28	Fankou acid mine drainage sediment Core B
+GCA_021789865.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__UBA1406;f__GWC2-37-13;g__GWC2-37-13;s__GWC2-37-13 sp021789865	92.34	1.24	acid mine drainage sediment
+GCA_021844025.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__UBA6257;f__JAGOQP01;g__JAKBUF01;s__JAKBUF01 sp021844025	90.14	0.39	acid mine drainage sediment
+GCA_021799015.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Acidiphilium;s__Acidiphilium sp021799015	94.34	0.08	acid mine drainage sediment
+GCA_021791545.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__Levybacterales;f__UBA12049;g__JAJYWL01;s__JAJYWL01 sp021791545	96.08	0.11	acid mine drainage sediment
+GCA_021793275.1	acid_mine	d__Bacteria;p__Desulfobacterota;c__Syntrophobacteria;o__Syntrophobacterales;f__Syntrophobacteraceae;g__SbD1;s__SbD1 sp021793275	97.08	4.47	acid mine drainage sediment
+GCA_021782655.1	acid_mine	d__Bacteria;p__Desulfobacterota;c__Desulfobulbia;o__Desulfobulbales;f__VMSU01;g__VMSU01;s__VMSU01 sp021782655	92.45	1.21	acid mine drainage sediment
+GCA_021782105.1	acid_mine	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Opitutales;f__Opitutaceae;g__MWDT01;s__MWDT01 sp021782105	91.26	4.17	acid mine drainage sediment
+GCA_028877145.1	acid_mine	d__Bacteria;p__Acidobacteriota;c__Terriglobia;o__Acidiferrales;f__UBA7541;g__JAKASX01;s__JAKASX01 sp028877145	90.97	1.49	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_021793235.1	acid_mine	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Streptosporangiales;f__Streptosporangiaceae;g__JAJYTD01;s__JAJYTD01 sp021793235	99.97	0.31	acid mine drainage sediment
+GCA_021778115.1	acid_mine	d__Bacteria;p__Desulfobacterota;c__Desulfuromonadia;o__Geobacterales;f__Pseudopelobacteraceae;g__Trichlorobacter;s__Trichlorobacter sp021778115	99.26	2.05	acid mine drainage sediment
+GCA_028868675.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhizobiales;f__Xanthobacteraceae;g__Bradyrhizobium;s__Bradyrhizobium sp028868675	99.96	0.69	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_021809845.1	acid_mine	d__Bacteria;p__SZUA-79;c__SZUA-79;o__Acidulodesulfobacterales;f__Acidulodesulfobacteraceae;g__Acididesulfobacter;s__Acididesulfobacter sp021809845	91.1	0.0	acid mine drainage sediment
+GCA_021790475.1	acid_mine	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__WQYP01;f__WQYP01;g__JAKBMM01;s__JAKBMM01 sp021790475	91.32	3.32	acid mine drainage sediment
+GCA_021821045.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__JAADHS01;f__JAADHS01;g__JAKACW01;s__JAKACW01 sp021821045	98.46	2.44	acid mine drainage sediment
+GCA_018970865.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_E;g__Quisquiliibacterium;s__Quisquiliibacterium sp018970865	99.63	0.19	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_023473585.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Microgenomatia;o__JAMCYU01;f__JAMCYU01;g__JAMCYU01;s__JAMCYU01 sp023473585	95.1	0.04	Fankou acid mine drainage sediment Core B
+GCA_021798935.1	acid_mine	d__Archaea;p__Micrarchaeota;c__Micrarchaeia;o__Micrarchaeales;f__Micrarchaeaceae;g__Mancarchaeum;s__Mancarchaeum sp021798935	95.95	1.42	acid mine drainage sediment
+GCA_021845805.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Solirhodobacter;s__Solirhodobacter sp021845805	100.0	0.03	acid mine drainage sediment
+GCA_021831685.1	acid_mine	d__Bacteria;p__Bacteroidota;c__Ignavibacteria;o__Ignavibacteriales;f__Ignavibacteriaceae;g__FEN-1297;s__FEN-1297 sp021831685	99.83	0.6	acid mine drainage sediment
+GCA_021793175.1	acid_mine	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Pseudonocardiaceae;g__Saccharomonospora;s__Saccharomonospora sp021793175	91.22	0.17	acid mine drainage sediment
+GCA_021785065.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__Phycocordibacterales;f__JAKAEA01;g__JAKAEA01;s__JAKAEA01 sp021785065	92.1	1.41	acid mine drainage sediment
+GCA_023379385.1	acid_mine	d__Archaea;p__Thermoplasmatota;c__Thermoplasmata;o__Lutacidiplasmatales;f__JAMCUS01;g__JAMCUS01;s__JAMCUS01 sp023379385	93.8	0.51	Fankou acid mine drainage sediment Core A
+GCA_021816155.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Caulobacterales;f__Caulobacteraceae;g__Acaudatibacter;s__Acaudatibacter sp021816155	93.94	1.51	acid mine drainage sediment
+GCA_021850095.1	acid_mine	d__Bacteria;p__Desulfobacterota;c__Desulfuromonadia;o__Geobacterales;f__Pseudopelobacteraceae;g__JACRCG01;s__JACRCG01 sp021850095	90.23	0.89	acid mine drainage sediment
+GCA_021819535.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Acetobacterales;f__Acetobacteraceae;g__Acidibrevibacterium;s__Acidibrevibacterium sp021819535	90.95	2.01	acid mine drainage sediment
+GCA_021789895.1	acid_mine	d__Bacteria;p__Acidobacteriota;c__Terriglobia;o__Terriglobales;f__SCQP01;g__JAKASR01;s__JAKASR01 sp021789895	95.51	0.11	acid mine drainage sediment
+GCA_021848385.1	acid_mine	d__Bacteria;p__Desulfobacterota;c__Desulfuromonadia;o__Geobacterales;f__Geobacteraceae;g__Geomobilimonas;s__Geomobilimonas sp021848385	93.77	1.95	acid mine drainage sediment
+GCA_023379805.1	acid_mine	d__Archaea;p__Thermoproteota;c__Nitrososphaeria;o__Nitrososphaerales;f__JACPRH01;g__JACPRH01;s__JACPRH01 sp023379805	95.44	1.67	Fankou acid mine drainage sediment Core A
+GCA_021813655.1	acid_mine	d__Bacteria;p__Chloroflexota;c__Limnocylindria;o__Limnocylindrales;f__CSP1-4;g__CAIYQJ01;s__CAIYQJ01 sp021813655	93.73	0.29	acid mine drainage sediment
+GCA_021791845.1	acid_mine	d__Bacteria;p__Actinomycetota;c__Acidimicrobiia;o__Acidimicrobiales;f__RAAP-2;g__JAJYVT01;s__JAJYVT01 sp021791845	90.84	3.26	acid mine drainage sediment
+GCA_021785405.1	acid_mine	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Steroidobacterales;f__Steroidobacteraceae;g__Bog-1198;s__Bog-1198 sp021785405	96.35	0.82	acid mine drainage sediment
+GCA_028866155.1	acid_mine	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__Phycocordibacterales;f__SBAW01;g__GWA1-54-10;s__GWA1-54-10 sp028866155	96.63	0.87	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCA_021815365.1	acid_mine	d__Bacteria;p__Bacteroidota;c__Ignavibacteria;o__Ignavibacteriales;f__Ignavibacteriaceae;g__JAKAGZ01;s__JAKAGZ01 sp021815365	99.95	0.71	acid mine drainage sediment
+GCA_900766815.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Colinaster;s__Colinaster sp900766815	94.01	0.11	human stool
+GCA_900768515.1	human_gut	d__Bacteria;p__Verrucomicrobiota;c__Lentisphaeria;o__Victivallales;f__Victivallaceae;g__Victivallis;s__Victivallis sp900768515	94.24	0.26	human stool
+GCA_958449275.1	human_gut	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Rikenellaceae;g__Alistipes;s__Alistipes sp958449275	91.42	0.29	human feces metagenome
+GCA_934101605.1	human_gut	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__RF39;f__UBA660;g__CAKORS01;s__CAKORS01 sp934101605	91.67	2.11	human feces
+GCA_900552795.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Lachnospira;s__Lachnospira sp900552795	92.38	2.68	human gut
+GCA_958454405.1	human_gut	d__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Eggerthellaceae;g__Enteroscipio;s__Enteroscipio sp958454405	93.32	1.23	human feces metagenome
+GCA_934646115.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__JAAYXM01;g__RGIG7332;s__RGIG7332 sp934646115	97.82	0.19	human feces
+GCA_902489575.1	human_gut	d__Bacteria;p__Cyanobacteriota;c__Vampirovibrionia;o__Gastranaerophilales;f__Gastranaerophilaceae;g__Zag111;s__Zag111 sp902489575	99.17	2.24	human gut
+GCA_900544525.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Scybalomonas;s__Scybalomonas sp900544525	93.68	0.0	human gut
+GCA_900770215.1	human_gut	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Muribaculaceae;g__Sodaliphilus;s__Sodaliphilus sp900770215	95.98	0.4	human stool
+GCA_958351385.1	human_gut	d__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Coriobacteriaceae;g__Collinsella;s__Collinsella sp958351385	91.89	0.52	human feces metagenome
+GCA_934270565.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__Pumilibacteraceae;g__UBA10677;s__UBA10677 sp934270565	93.09	0.1	human feces
+GCA_900547435.1	human_gut	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tannerellaceae;g__Parabacteroides;s__Parabacteroides sp900547435	95.37	3.18	human gut
+GCA_934445035.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Acutalibacteraceae;g__UBA737;s__UBA737 sp934445035	99.81	0.34	human feces
+GCA_900769705.1	human_gut	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__RF32;f__CAG-239;g__RUG410;s__RUG410 sp900769705	100.0	0.33	human stool
+GCA_905202215.1	human_gut	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Muribaculaceae;g__CAG-873;s__CAG-873 sp905202215	93.0	0.78	human gut
+GCA_902490045.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Ruminococcaceae;g__Anaerotruncus;s__Anaerotruncus sp902490045	96.0	4.36	human gut
+GCA_934130285.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__TANB77;f__CAG-508;g__UMGS1994;s__UMGS1994 sp934130285	100.0	1.51	human feces
+GCA_902461735.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Coprococcus;s__Coprococcus sp902461735	98.02	0.95	human gut
+GCA_937936045.1	human_gut	d__Bacteria;p__Patescibacteriota;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Nanosynbacter;s__Nanosynbacter sp937936045	98.82	0.17	human gut metagenome
+GCA_934525195.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Acutalibacteraceae;g__Eubacterium_R;s__Eubacterium_R sp934525195	98.87	0.19	human feces
+GCA_900545495.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Oscillospiraceae;g__Vescimonas;s__Vescimonas sp900545495	97.77	0.45	human gut
+GCA_902495595.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Peptostreptococcales;f__Anaerovoracaceae;g__Lentihominibacter;s__Lentihominibacter sp902495595	96.61	0.55	human gut
+GCA_902464635.1	human_gut	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__RFN20;f__CAG-826;g__Alloenteromonas;s__Alloenteromonas sp902464635	92.09	0.58	human gut
+GCA_000437355.1	human_gut	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__RF39;f__UBA660;g__Onthocola_B;s__Onthocola_B sp000437355	94.06	1.64	derived from human gut metagenome
+GCA_000438155.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__Suilimivivens;s__Suilimivivens sp000438155	98.35	1.18	derived from human gut metagenome
+GCA_959608885.1	human_gut	d__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__QAMH01;g__QAMH01;s__QAMH01 sp959608885	99.79	0.25	human feces metagenome
+GCA_934725225.1	human_gut	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__Treponemataceae;g__Treponema_D;s__Treponema_D sp934725225	97.13	0.53	human feces
+GCA_938015835.1	human_gut	d__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Atopobiaceae;g__Lancefieldella;s__Lancefieldella sp938015835	99.09	1.34	human gut metagenome
+GCA_900542355.1	human_gut	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Paludibacteraceae;g__Colicola;s__Colicola sp900542355	99.76	0.07	human gut
+GCA_000434335.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__TANB77;f__CAG-508;g__CAG-492;s__CAG-492 sp000434335	93.66	1.55	derived from human gut metagenome
+GCA_934229395.1	human_gut	d__Bacteria;p__Bacillota;c__Peptococcia;o__Peptococcales;f__Peptococcaceae;g__UMGS1590;s__UMGS1590 sp934229395	97.21	0.07	human feces
+GCA_000433355.1	human_gut	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__UBA932;g__Cryptobacteroides;s__Cryptobacteroides sp000433355	95.99	0.18	derived from human gut metagenome
+GCA_934792465.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__RUG12999;f__RUG12999;g__CAKVOK01;s__CAKVOK01 sp934792465	95.02	1.73	human feces
+GCA_934717805.1	human_gut	d__Bacteria;p__Patescibacteriota;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Nanogingivalis;s__Nanogingivalis sp934717805	98.47	0.05	human feces
+GCA_900543915.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__Borkfalkiaceae;g__UMGS621;s__UMGS621 sp900543915	97.78	0.08	human gut
+GCA_938045405.1	human_gut	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Campylobacteraceae;g__Campylobacter_B;s__Campylobacter_B sp938045405	99.93	0.49	human gut metagenome
+GCA_934351925.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Lachnospiraceae;g__CAG-882;s__CAG-882 sp934351925	99.91	0.55	human feces
+GCA_900538805.1	human_gut	d__Bacteria;p__Bacillota;c__Negativicutes;o__Veillonellales;f__Dialisteraceae;g__Dialister;s__Dialister sp900538805	99.96	0.59	human gut
+GCA_900767875.1	human_gut	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Burkholderiaceae_F;g__Duodenibacillus;s__Duodenibacillus sp900767875	95.74	0.34	human stool
+GCA_902489215.1	human_gut	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Actinomycetales;f__Brevibacteriaceae;g__Brevibacterium;s__Brevibacterium sp902489215	92.53	1.39	human gut
+GCA_934271525.1	human_gut	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Burkholderiales;f__Rhodocyclaceae;g__SFHR01;s__SFHR01 sp934271525	99.56	0.14	human feces
+GCA_900545305.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__CAG-274;g__CAG-274;s__CAG-274 sp900545305	95.06	0.09	human gut
+GCA_934182465.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__TANB77;f__CAG-508;g__Scatovivens;s__Scatovivens sp934182465	100.0	1.98	human feces
+GCA_934462775.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Ruminococcaceae;g__Ruminiclostridium_E;s__Ruminiclostridium_E sp934462775	90.47	0.99	human feces
+GCA_934203205.1	human_gut	d__Bacteria;p__Bacillota;c__Negativicutes;o__Selenomonadales;f__Selenomonadaceae;g__Anaerovibrio;s__Anaerovibrio sp934203205	99.29	0.07	human feces
+GCA_900544545.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__CAG-314;g__UMGS692;s__UMGS692 sp900544545	94.8	0.02	human gut
+GCA_900547015.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Ruminococcaceae;g__Negativibacillus;s__Negativibacillus sp900547015	90.06	0.08	human gut
+GCA_934648845.1	human_gut	d__Bacteria;p__Actinomycetota;c__Coriobacteriia;o__Coriobacteriales;f__Eggerthellaceae;g__CAKUOV01;s__CAKUOV01 sp934648845	95.11	3.57	human feces
+GCA_934202235.1	human_gut	d__Bacteria;p__Bacillota;c__Bacilli;o__Lactobacillales;f__Lactobacillaceae;g__Limosilactobacillus;s__Limosilactobacillus sp934202235	99.8	0.66	human feces
+GCA_958418815.1	human_gut	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Muribaculaceae;g__UBA7173;s__UBA7173 sp958418815	99.99	0.15	human feces metagenome
+GCA_934726055.1	human_gut	d__Bacteria;p__Cyanobacteriota;c__Vampirovibrionia;o__Gastranaerophilales;f__Gastranaerophilaceae;g__UBA6984;s__UBA6984 sp934726055	99.9	0.63	human feces
+GCA_934162655.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__TANB77;f__CAG-465;g__CAG-465;s__CAG-465 sp934162655	96.58	0.01	human feces
+GCA_938034555.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__UBA1242;g__UMGS687;s__UMGS687 sp938034555	95.14	1.07	human gut metagenome
+GCA_905203475.1	human_gut	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__RF39;f__UBA660;g__UMGS2016;s__UMGS2016 sp905203475	91.59	0.61	human gut
+GCA_934552695.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Lachnospirales;f__Anaerotignaceae;g__CAKTER01;s__CAKTER01 sp934552695	90.58	0.35	human feces
+GCA_934675165.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Acutalibacteraceae;g__UMGS1491;s__UMGS1491 sp934675165	95.23	0.21	human feces
+GCA_937925475.1	human_gut	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__UBA1242;g__UBA11490;s__UBA11490 sp937925475	95.1	0.03	human gut metagenome
+GCA_937974295.1	human_gut	d__Bacteria;p__Patescibacteriota;c__Saccharimonadia;o__Saccharimonadales;f__Saccharimonadaceae;g__Saccharimonas;s__Saccharimonas sp937974295	97.32	0.86	human gut metagenome
+GCA_000436255.1	human_gut	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__RF39;f__UBA660;g__CAG-1193;s__CAG-1193 sp000436255	90.8	1.42	derived from human gut metagenome
+GCA_001512545.1	digester	d__Bacteria;p__Bacillota;c__DTU065;o__DTU065;f__DTU065;g__DTU065;s__DTU065 sp001512545	93.02	0.6	pool of bioreactors CSTR01a; CSTR02a; and CSTR03a; thermophilic anaerobic digestion of cattle manure in continuous reactors for biogas production (methane)
+GCA_018433525.1	digester	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Paludibacteraceae;g__MVYY01;s__MVYY01 sp002068215	99.97	1.59	wastewater sludge anaerobic digester phosphite (DPO) enrichment
+GCA_022709715.1	digester	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__UBA6257;f__JAKLIH01;g__JAKLIH01;s__JAKLIH01 sp022709715	98.78	0.75	anaerobic digester sludge
+GCA_029552245.1	digester	d__Bacteria;p__Desulfobacterota;c__Desulfomonilia;o__UBA1062;f__UBA1062;g__MWEI01;s__MWEI01 sp029552245	99.32	1.85	thermophilic anaerobic digester
+GCA_002071445.1	digester	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__Tenuifilaceae;g__MWFE01;s__MWFE01 sp002071445	97.52	0.06	Full-scale anaerobic digester operated by the Champaign-Urbana Sanitary District treating a mixture of municipal and industrial waste activated sludge and municipal sewage
+GCA_029560805.1	digester	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__UBA12059;g__SZUA-370;s__SZUA-370 sp029560805	96.92	1.98	mesophilic anaerobic digester
+GCA_002070355.1	digester	d__Bacteria;p__Patescibacteriota;c__Patescibacteriia;o__UBA2591;f__MWDC01;g__MWDC01;s__MWDC01 sp002070355	95.73	2.93	Full-scale anaerobic digester operated by the Champaign-Urbana Sanitary District treating a mixture of municipal and industrial waste activated sludge and municipal sewage
+GCA_022707965.1	digester	d__Bacteria;p__Bacteroidota;c__Ignavibacteria;o__Kapaibacteriales;f__UBA2268;g__JAKIZO01;s__JAKIZO01 sp022707965	92.44	1.97	anaerobic digester sludge
+GCA_018433865.1	digester	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__UBA8525;s__UBA8525 sp018433865	99.91	0.61	wastewater sludge anaerobic digester phosphite (DPO) enrichment
+GCA_022838705.1	digester	d__Bacteria;p__Bipolaricaulota;c__Bipolaricaulia;o__Bipolaricaulales;f__Bipolaricaulaceae;g__Bipolaricaulis;s__Bipolaricaulis sp022838705	96.19	0.0	Anaerobic digesters
+GCA_029553545.1	digester	d__Bacteria;p__Cloacimonadota;c__Cloacimonadia;o__Cloacimonadales;f__WRIO01;g__JAGOCT01;s__JAGOCT01 sp029553545	100.0	1.37	mesophilic anaerobic digester
+GCA_029777945.1	digester	d__Bacteria;p__Desulfobacterota;c__Syntrophorhabdia;o__Syntrophorhabdales;f__Syntrophorhabdaceae;g__JAKORG01;s__JAKORG01 sp029777945	97.45	2.31	thermophilic anaerobic digester
+GCA_022703645.1	digester	d__Bacteria;p__Patescibacteriota;c__JACPGU01;o__JACPGU01;f__JACPGU01;g__JAKLDG01;s__JAKLDG01 sp022703645	99.28	0.48	anaerobic digester sludge
+GCA_001512435.1	digester	d__Bacteria;p__Bacillota;c__Halanaerobiia;o__Halanaerobiales;f__DTU029;g__DTU029;s__DTU029 sp001512435	95.55	1.17	pool of bioreactors CSTR01a; CSTR02a; and CSTR03a; thermophilic anaerobic digestion of cattle manure in continuous reactors for biogas production (methane)
+GCA_029974225.1	digester	d__Bacteria;p__Bacillota_I;c__Bacilli_A;o__Erysipelotrichales;f__Erysipelotrichaceae;g__UBA1783;s__UBA1783 sp029974225	95.17	0.77	anaerobic digester
+GCA_022710725.1	digester	d__Bacteria;p__Verrucomicrobiota;c__Kiritimatiellia;o__CAIQIC01;f__JAGNIJ01;g__JAGNIJ01;s__JAGNIJ01 sp022710725	94.83	0.24	anaerobic digester sludge
+GCA_002385415.1	digester	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__CAG-272;g__DTU078;s__DTU078 sp002385415	90.0	0.0	anaerobic digester
+GCA_029562975.1	digester	d__Bacteria;p__Acidobacteriota;c__Vicinamibacteria;o__Vicinamibacterales;f__JAKQTR01;g__JAKQTR01;s__JAKQTR01 sp029562975	97.65	2.29	mesophilic anaerobic digester
+GCA_001602955.1	digester	d__Bacteria;p__Campylobacterota;c__Campylobacteria;o__Campylobacterales;f__Sulfurospirillaceae;g__Sulfurospirillum;s__Sulfurospirillum sp001602955	99.98	0.04	3 replicate cellulose-degrading anaerobic digesters sampled at day 96 and day 362
+GCA_029567095.1	digester	d__Bacteria;p__Patescibacteriota;c__Dojkabacteria;o__B142;f__OLB20;g__JAKQLP01;s__JAKQLP01 sp029567095	94.87	3.35	mesophilic anaerobic digester
+GCA_030057555.1	digester	d__Bacteria;p__Bacillota;c__Clostridia;o__Saccharofermentanales;f__Fastidiosipilaceae;g__JAEZYR01;s__JAEZYR01 sp030057555	96.01	0.06	Anaerobic sludge from Kecskemt Biogas Plant
+GCA_002070965.1	digester	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__DTU072;g__MWEH01;s__MWEH01 sp002070965	92.59	2.43	Full-scale anaerobic digester operated by the Champaign-Urbana Sanitary District treating a mixture of municipal and industrial waste activated sludge and municipal sewage
+GCA_029573365.1	digester	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Saprospiraceae;g__OLB9;s__OLB9 sp029573365	95.68	0.86	mesophilic anaerobic digester
+GCA_022711665.1	digester	d__Bacteria;p__Acidobacteriota;c__Aminicenantia;o__Aminicenantales;f__Saccharicenantaceae;g__RBG-16-66-30;s__RBG-16-66-30 sp022711665	94.94	1.68	anaerobic digester sludge
+GCA_029974275.1	digester	d__Bacteria;p__Hydrogenedentota;c__Hydrogenedentia;o__Hydrogenedentales;f__SLHB01;g__JAKJDA01;s__JAKJDA01 sp022706165	100.0	3.58	anaerobic digester
+GCA_029780675.1	digester	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Mycobacteriales;f__Mycobacteriaceae;g__Mycobacterium;s__Mycobacterium sp029780675	92.84	2.26	thermophilic anaerobic digester
+GCA_022710715.1	digester	d__Bacteria;p__Omnitrophota;c__Gorgyraeia;o__Gygaellales;f__Profunditerraquicolaceae;g__JAKLGJ01;s__JAKLGJ01 sp022710715	96.6	0.84	anaerobic digester sludge
+GCA_022706785.1	digester	d__Bacteria;p__Bacillota;c__Clostridia;o__UBA1381;f__UMGS1253;g__JAKJBW01;s__JAKJBW01 sp022706785	90.68	1.7	anaerobic digester sludge
+GCA_001604275.1	digester	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Sphaerochaetales;f__Sphaerochaetaceae;g__Spiro-02;s__Spiro-02 sp001604275	99.73	3.67	3 replicate cellulose-degrading anaerobic digesters sampled at day 96 and day 362
+GCA_029781865.1	digester	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Saprospiraceae;g__Vicinibacter;s__Vicinibacter sp029781865	99.24	0.55	thermophilic anaerobic digester
+GCA_029780855.1	digester	d__Bacteria;p__Patescibacteriota;c__Saccharimonadia;o__Saccharimonadales;f__JAUPVS01;g__JAKOXV01;s__JAKOXV01 sp029780855	97.83	0.04	thermophilic anaerobic digester
+GCA_001604035.1	digester	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Ruminococcaceae;g__Ruminococcus;s__Ruminococcus sp001604035	98.65	1.54	3 replicate cellulose-degrading anaerobic digesters sampled at day 96 and day 362
+GCA_018433245.1	digester	d__Bacteria;p__Elusimicrobiota;c__Endomicrobiia;o__Endomicrobiales;f__Endomicrobiaceae;g__Proruminimicrobium;s__Proruminimicrobium quisquiliarum	100.0	0.4	wastewater sludge anaerobic digester phosphite (DPO) enrichment
+GCA_002069725.1	digester	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__CAG-138;g__Phil1;s__Phil1 sp002069725	92.79	4.08	Full-scale anaerobic digester operated by the Champaign-Urbana Sanitary District treating a mixture of municipal and industrial waste activated sludge and municipal sewage
+GCA_018433675.1	digester	d__Bacteria;p__Bacillota;c__Peptococcia;o__DRI-13;f__SM3-B62;g__SM3-B62;s__SM3-B62 sp018433675	99.94	2.4	wastewater sludge anaerobic digester phosphite (DPO) enrichment
+GCA_023622385.1	digester	d__Bacteria;p__Bacillota;c__Clostridia;o__Caldicoprobacterales;f__Caldicoprobacteraceae;g__Caldicoprobacter;s__Caldicoprobacter sp023622385	94.41	2.56	anaerobic digester
+GCA_002070505.1	digester	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__VadinHA17;g__LD21;s__LD21 sp002070505	92.5	2.0	Full-scale anaerobic digester operated by the Champaign-Urbana Sanitary District treating a mixture of municipal and industrial waste activated sludge and municipal sewage
+GCA_022840825.1	digester	d__Bacteria;p__Bacillota;c__Negativicutes;o__JALHDB01;f__JALHDB01;g__JALHDB01;s__JALHDB01 sp022840825	99.58	1.18	Anaerobic digesters
+GCA_022711335.1	digester	d__Bacteria;p__Patescibacteriota;c__Minisyncoccia;o__Moranbacterales;f__UBA2206;g__JAKLFF01;s__JAKLFF01 sp022711335	99.71	2.36	anaerobic digester sludge
+GCA_029547205.1	digester	d__Bacteria;p__Spirochaetota;c__Spirochaetia;o__Treponematales;f__UBA12059;g__JAKPPT01;s__JAKPPT01 sp029547205	99.6	1.51	mesophilic anaerobic digester
+GCA_002385475.1	digester	d__Bacteria;p__Atribacterota;c__Atribacteria;o__Atribacterales;f__Caldatribacteriaceae;g__Sordicultor;s__Sordicultor fermentans	90.79	0.54	anaerobic digester
+GCA_018433925.1	digester	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Sedimentisphaerales;f__Anaerohalosphaeraceae;g__JAHDQI01;s__JAHDQI01 sp018433925	98.8	2.36	wastewater sludge anaerobic digester phosphite (DPO) enrichment
+GCA_002069125.1	digester	d__Bacteria;p__Spirochaetota;c__UBA4802;o__UBA4802;f__UBA5368;g__MVZN01;s__MVZN01 sp002069125	95.78	1.1	Full-scale anaerobic digester operated by the Champaign-Urbana Sanitary District treating a mixture of municipal and industrial waste activated sludge and municipal sewage
+GCA_900018335.1	digester	d__Bacteria;p__Bacillota;c__Limnochordia;o__Darwinibacteriales;f__Darwinibacteriaceae;g__DTU010;s__DTU010 sp900018335	91.13	0.02	anaerobic digester metagenome
+GCA_022709405.1	digester	d__Bacteria;p__Spirochaetota;c__UBA4802;o__UBA4802;f__UBA5550;g__JAKLIV01;s__JAKLIV01 sp022709405	93.98	2.78	anaerobic digester sludge
+GCA_002071485.1	digester	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Limisphaerales;f__J093;g__MWFF01;s__MWFF01 sp002071485	94.52	0.25	Full-scale anaerobic digester operated by the Champaign-Urbana Sanitary District treating a mixture of municipal and industrial waste activated sludge and municipal sewage
+GCA_029570205.1	digester	d__Bacteria;p__Hinthialibacterota;c__Hinthialibacteria;o__Hinthialibacterales;f__JAKPRU01;g__JAKPRU01;s__JAKPRU01 sp029570205	93.08	4.05	mesophilic anaerobic digester
+GCA_022705945.1	digester	d__Bacteria;p__Omnitrophota;c__Omnitrophia;o__Omnitrophales;f__Aquincolibacteriaceae;g__UBA1443;s__UBA1443 sp022705945	91.23	0.82	anaerobic digester sludge
+GCA_029777855.1	digester	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__JAIEPX01;f__JAIEPX01;g__JAIEPX01;s__JAIEPX01 sp029777855	94.56	1.98	thermophilic anaerobic digester
+GCA_029554865.1	digester	d__Bacteria;p__Zhuqueibacterota;c__Zhuqueibacteria;o__Residuimicrobiales;f__Residuimicrobiaceae;g__JAKPUX01;s__JAKPUX01 sp029554865	94.12	3.78	mesophilic anaerobic digester
+GCA_018436925.1	digester	d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__Smithellaceae;g__UBA8904;s__UBA8904 sp018436925	100.0	2.7	wastewater sludge anaerobic digester phosphite (DPO) enrichment
+GCA_001603665.1	digester	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__F082;g__Limimorpha;s__Limimorpha sp001603665	99.09	0.08	3 replicate cellulose-degrading anaerobic digesters sampled at day 96 and day 362
+GCA_022710585.1	digester	d__Bacteria;p__Desulfobacterota;c__Syntrophia;o__Syntrophales;f__Smithellaceae;g__Smithella;s__Smithella sp022710585	94.97	1.31	anaerobic digester sludge
+GCA_029551395.1	digester	d__Bacteria;p__Armatimonadota;c__UBA5829;o__UBA5829;f__DTLH01;g__JAKPFN01;s__JAKPFN01 sp029551395	98.71	2.8	thermophilic anaerobic digester
+GCA_029565915.1	digester	d__Bacteria;p__Myxococcota_A;c__Polyangia;o__JAAYKL01;f__JAAYKL01;g__JAKQNG01;s__JAKQNG01 sp029565915	90.32	4.9	mesophilic anaerobic digester
+GCA_018433595.1	digester	d__Bacteria;p__Synergistota;c__Synergistia;o__Synergistales;f__Aminithiophilaceae;g__Aminithiophilus;s__Aminithiophilus sp018433595	99.65	0.2	wastewater sludge anaerobic digester phosphite (DPO) enrichment
+GCA_029561955.1	digester	d__Bacteria;p__Cloacimonadota;c__Cloacimonadia;o__Cloacimonadales;f__Cloacimonadaceae;g__UBA3900;s__UBA3900 sp029561955	99.52	0.81	mesophilic anaerobic digester
+GCA_022710185.1	digester	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__JAGNHN01;g__JAGNHN01;s__JAGNHN01 sp022710185	92.02	2.36	anaerobic digester sludge
+GCA_002070735.1	digester	d__Bacteria;p__Patescibacteriota;c__Patescibacteriia;o__Patescibacteriales;f__UBA12465;g__GCA-002841655;s__GCA-002841655 sp002070735	97.52	1.31	Full-scale anaerobic digester operated by the Champaign-Urbana Sanitary District treating a mixture of municipal and industrial waste activated sludge and municipal sewage
+GCA_001512765.1	digester	d__Bacteria;p__Bacillota;c__Clostridia;o__Oscillospirales;f__Acutalibacteraceae;g__DTU053;s__DTU053 sp001512765	98.51	0.04	pool of bioreactors CSTR01a; CSTR02a; and CSTR03a; thermophilic anaerobic digestion of cattle manure in continuous reactors for biogas production (methane)
+GCA_022760475.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__J057;f__J057;g__JALEFZ01;s__JALEFZ01 sp022760475	100.0	0.42	seawater surrounding coral Acropora digitifera under normal condition
+GCA_030424545.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Schleiferiaceae;g__JAUHWL01;s__JAUHWL01 sp030424545	99.97	0.01	biofloc rearing seawater
+GCA_030427805.1	marine_surface	d__Bacteria;p__Bdellovibrionota;c__Bdellovibrionia;o__Bdellovibrionales;f__JAGQZY01;g__JAUHWN01;s__JAUHWN01 sp030427805	98.93	0.85	biofloc rearing seawater
+GCA_030432455.1	marine_surface	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Phycisphaerales;f__SM1A02;g__GCA-002862325;s__GCA-002862325 sp030432455	91.86	4.62	biofloc rearing seawater
+GCA_019090895.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Kangiellaceae;g__GCA-002733465;s__GCA-002733465 sp019090895	91.26	0.44	dilbit-coated clay beads in seawater
+GCA_018664045.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Comchoanobacterales;f__Comchoanobacteraceae;g__JABJPE01;s__JABJPE01 sp018664045	91.3	1.48	hypoxic seawater
+GCA_030425285.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__Hanstruepera;s__Hanstruepera sp030425285	99.99	0.06	biofloc rearing seawater
+GCA_030433275.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Nitrococcales;f__Nitrococcaceae;g__Nitrococcus;s__Nitrococcus sp030433275	100.0	0.95	biofloc rearing seawater
+GCA_018658105.1	marine_surface	d__Bacteria;p__Patescibacteriota;c__Gracilibacteria;o__UBA1369;f__2-02-FULL-48-14;g__JABHVW01;s__JABHVW01 sp018658105	97.07	0.67	hypoxic seawater
+GCA_013373265.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Terasakiellaceae;g__Terasakiella;s__Terasakiella sp013373265	90.11	0.21	surface seawater inoculated into a synthetic phycosphere
+GCA_017643395.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Rhodothermia;o__Rhodothermales;f__UBA10348;g__JABDJZ01;s__JABDJZ01 sp017643395	98.43	0.04	non-axenic culture inoculated from ocean water sample
+GCA_022450155.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Arenicellales;f__UBA868;g__REDSEA-S09-B13;s__REDSEA-S09-B13 sp003447825	95.5	2.34	ocean water sample from Hawaii Ocean Time-series (HOT) cruises
+GCA_012269595.1	marine_surface	d__Bacteria;p__Planctomycetota;c__UBA8108;o__UBA1146;f__UBA1146;g__UBA12191;s__UBA12191 sp012269595	93.07	1.25	seawater
+GCA_030425925.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__JAUHZO01;s__JAUHZO01 sp030425925	95.9	0.0	biofloc rearing seawater
+GCA_030430385.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__Psychroserpens;s__Psychroserpens sp030430385	99.91	0.63	biofloc rearing seawater
+GCA_018669475.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Bacteroidales;f__UBA12481;g__JABHCC01;s__JABHCC01 sp018669475	95.4	0.93	hypoxic seawater
+GCA_030426665.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Chitinophagaceae;g__Nemorincola;s__Nemorincola sp030426665	99.98	0.84	biofloc rearing seawater
+GCA_018652595.1	marine_surface	d__Bacteria;p__Patescibacteriota;c__Patescibacteriia;o__Magasanikbacterales;f__UBA922;g__JABIBU01;s__JABIBU01 sp018652595	95.12	0.31	hypoxic seawater
+GCA_022763345.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Chitinophagales;f__Saprospiraceae;g__Phaeodactylibacter;s__Phaeodactylibacter sp022763345	99.9	1.31	seawater surrounding coral Acropora digitifera under thermal stress
+GCA_030752605.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__GCA-2731375;f__GCA-2731375;g__GCA-2731375;s__GCA-2731375 sp002731375	94.65	4.64	anoxic seawater
+GCA_018700525.1	marine_surface	d__Bacteria;p__Verrucomicrobiota;c__Verrucomicrobiia;o__Opitutales;f__Opitutaceae;g__Pelagisphaera;s__Pelagisphaera sp018700525	96.47	0.43	hypoxic seawater
+GCA_018660505.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__RS24;f__RS24;g__UBA8337;s__UBA8337 sp018660505	94.08	0.19	hypoxic seawater
+GCA_030429565.1	marine_surface	d__Bacteria;p__Acidobacteriota;c__Holophagae;o__Acanthopleuribacterales;f__Acanthopleuribacteraceae;g__Acanthopleuribacter;s__Acanthopleuribacter sp030429565	94.63	2.5	biofloc rearing seawater
+GCA_030740435.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__UBA2966;f__UBA2966;g__GCA-2690215;s__GCA-2690215 sp030740435	98.64	3.12	oxycline seawater
+GCA_002292285.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Ga0077536;f__Ga0077536;g__UBA981;s__UBA981 sp002292285	97.63	1.4	Subsurface seawater
+GCA_018656005.1	marine_surface	d__Bacteria;p__Elusimicrobiota;c__Elusimicrobia;o__Elusimicrobiales;f__Elusimicrobiaceae;g__Pseudelusimicrobium;s__Pseudelusimicrobium marinum	92.75	0.32	hypoxic seawater
+GCA_030750825.1	marine_surface	d__Bacteria;p__Planctomycetota;c__Phycisphaerae;o__Phycisphaerales;f__SM1A02;g__UBA12567;s__UBA12567 sp003520025	92.49	2.34	anoxic seawater
+GCA_938083135.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Bin95;f__Bin95;g__VMCJ01;s__VMCJ01 sp938083135	99.99	0.55	Seawater
+GCA_013214815.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__Gilvibacter;s__Gilvibacter sp013214815	93.38	0.36	ocean water from marine abyssalpelagic zone
+GCA_024686035.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Balneatricaceae;g__Njordibacter;s__Njordibacter sp024686035	94.01	1.07	surface coastal seawater
+GCA_018671575.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__JABHGC01;f__JABHGC01;g__JABHHM01;s__JABHHM01 sp018671575	90.48	0.23	hypoxic seawater
+GCA_017643905.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Marivita;s__Marivita sp017643905	95.04	0.8	non-axenic culture inoculated from ocean water sample
+GCA_030428205.1	marine_surface	d__Bacteria;p__Bdellovibrionota_C;c__UBA2361;o__UBA2361;f__RFPC01;g__JAUIBK01;s__JAUIBK01 sp030428205	92.3	1.57	biofloc rearing seawater
+GCA_018658265.1	marine_surface	d__Archaea;p__Nanobdellota;c__Nanobdellia;o__SCGC-AAA011-G17;f__UBA489;g__JABIKK01;s__JABIKK01 sp018658265	92.04	0.81	hypoxic seawater
+GCA_001438145.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Pseudohongiellaceae;g__UBA9145;s__UBA9145 sp001438145	98.15	2.53	surface water; brackish water collected from the surface of the Baltic Sea
+GCA_017642855.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Azotimanducaceae;g__UBA9659;s__UBA9659 sp017642855	100.0	1.13	non-axenic culture inoculated from ocean water sample
+GCA_013214945.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Enterobacterales;f__Psychrobiaceae;g__Psychrobium;s__Psychrobium sp013214945	100.0	1.47	ocean water from marine abyssalpelagic zone
+GCA_013373325.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__Leisingera;s__Leisingera sp013373325	90.54	4.1	surface seawater inoculated into a synthetic phycosphere
+GCA_011522975.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Puniceispirillales;f__UBA1172;g__JAGWAQ01;s__JAGWAQ01 sp011522975	92.3	0.05	coral reef seawater
+GCA_030428255.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__UBA7985;f__JAUIBT01;g__JAUIBT01;s__JAUIBT01 sp030428255	99.24	0.04	biofloc rearing seawater
+GCA_018647265.1	marine_surface	d__Bacteria;p__Fidelibacterota;c__Marinisomatia;o__Marinisomatales;f__TCS55;g__TCS55;s__TCS55 sp018647265	96.65	0.22	hypoxic seawater
+GCA_013213975.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__Winogradskyella;s__Winogradskyella sp013213975	97.32	0.6	ocean water from marine abyssalpelagic zone
+GCA_938030705.1	marine_surface	d__Archaea;p__Thermoplasmatota;c__Poseidoniia;o__Poseidoniales;f__Poseidoniaceae;g__Poseidonia;s__Poseidonia sp938030705	90.19	1.3	Seawater
+GCA_030748955.1	marine_surface	d__Bacteria;p__Fidelibacterota;c__Marinisomatia;o__SCGC-AAA003-L08;f__D37C17;g__D37C17;s__D37C17 sp030748955	91.19	4.2	anoxic seawater
+GCA_018667355.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__GCA-002705445;f__GCA-002716945;g__GCA-2698665;s__GCA-2698665 sp018667355	94.38	0.08	hypoxic seawater
+GCA_030427785.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Schleiferiaceae;g__Owenweeksia;s__Owenweeksia sp030427785	92.04	3.32	biofloc rearing seawater
+GCA_029212375.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Pseudomonadales;f__Spongiibacteraceae;g__Spongiibacter;s__Spongiibacter sp029212375	100.0	0.0	four week timepoint of microcosm treated with crude oil after inoculation with natural surface seawater; biological replicate 1
+GCA_030426725.1	marine_surface	d__Bacteria;p__Actinomycetota;c__Actinomycetes;o__Propionibacteriales;f__Propionibacteriaceae;g__Arachnia;s__Arachnia sp030426725	99.93	3.24	biofloc rearing seawater
+GCA_949372595.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodobacterales;f__Rhodobacteraceae;g__CPC320;s__CPC320 sp002336405	99.73	1.6	seawater
+GCA_030748535.1	marine_surface	d__Bacteria;p__Krumholzibacteriota;c__Krumholzibacteriia;o__JACNKJ01;f__JACNKJ01;g__JASMLU01;s__JASMLU01 sp030748535	99.16	0.0	anoxic seawater
+GCA_030431615.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Geminicoccales;f__Geminicoccaceae;g__SLRI01;s__SLRI01 sp030431615	96.91	4.94	biofloc rearing seawater
+GCA_938082715.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__UBA8316;s__UBA8316 sp938082715	93.94	0.64	Seawater
+GCA_013215775.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Gammaproteobacteria;o__Nitrosococcales;f__Methylophagaceae;g__GCA-002733105;s__GCA-002733105 sp013215775	99.82	1.26	ocean water from marine abyssalpelagic zone
+GCA_017643215.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhizobiales;f__Stappiaceae;g__Roseibium;s__Roseibium sp017643215	99.99	0.34	non-axenic culture inoculated from ocean water sample
+GCA_016840425.1	marine_surface	d__Archaea;p__Asgardarchaeota;c__Wukongarchaeia;o__Wukongarchaeales;f__Wukongarchaeaceae;g__Wukongarchaeum;s__Wukongarchaeum yapensis	92.0	3.26	seawater
+GCA_018648645.1	marine_surface	d__Bacteria;p__Bacillota;c__Clostridia;o__Christensenellales;f__SZUA-584;g__JABGQS01;s__JABGQS01 sp018648645	95.0	0.34	hypoxic seawater
+GCA_017640505.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Rhodospirillales;f__Casp-alpha2;g__UBA4479;s__UBA4479 sp017640505	98.55	0.01	non-axenic culture inoculated from ocean water sample
+GCA_030145825.1	marine_surface	d__Bacteria;p__Bacteroidota;c__Bacteroidia;o__Flavobacteriales;f__Flavobacteriaceae;g__Flavobacterium;s__Flavobacterium sp030145825	95.4	1.8	300 m depth seawater
+GCA_030746555.1	marine_surface	d__Bacteria;p__Planctomycetota;c__UBA1135;o__UBA1135;f__GCA-002686595;g__GCA-2686265;s__GCA-2686265 sp030746555	91.33	1.56	anoxic seawater
+GCA_018675425.1	marine_surface	d__Bacteria;p__Pseudomonadota;c__Alphaproteobacteria;o__Sphingomonadales;f__Emcibacteraceae;g__Pseudemcibacter;s__Pseudemcibacter sp018675425	99.62	2.61	hypoxic seawater

@@ -1,0 +1,3 @@
+trait,selection,fired,tp,n_pos,heldout_precision,heldout_recall
+uses_O2,main,928,904,2208,0.9741,0.4094
+uses_O2,strict,1757,1720,2208,0.9789,0.7790

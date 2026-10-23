@@ -1,0 +1,5 @@
+arm,n_traits,macro_auprc,ci_low,ci_high
+Frequency baseline,9,0.1830,0.1726,0.1944
+Curated marker rules,9,0.3383,0.3180,0.3630
+ESM-2,9,0.4207,0.3857,0.4680
+Random forest,9,0.5545,0.5169,0.6018

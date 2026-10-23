@@ -1,0 +1,92 @@
+group_a,group_b,n_genera,n_genera_both,phi_genus_level,p_across_genera,p_within_phylum,shares_kos,q_across_genera,q_within_phylum,verdict
+Nitrite oxidizing (NOB),Nitrate-reducing (denitrifiers),266,81,0.5054,0.0002,0.0002,True,0.0007,0.0026,artefact of shared KOs
+Sulfur oxidizing (SOB),Sulfate-reducing (SRB),266,198,0.3232,0.0002,0.0002,True,0.0007,0.0026,artefact of shared KOs
+Nitrite oxidizing (NOB),Aerobic respiration,266,81,0.2825,0.0002,0.0010,True,0.0007,0.0101,artefact of shared KOs
+Methane oxidizing (methanotroph),Aerobic respiration,266,140,0.2580,0.0002,0.0042,True,0.0007,0.0201,artefact of shared KOs
+Nitrite oxidizing (NOB),Methane oxidizing (methanotroph),266,60,0.2312,0.0002,0.1408,True,0.0007,0.3462,artefact of shared KOs
+CO oxidizing (carboxydotroph),Acetogens (homoacetogens),266,130,0.1902,0.0044,0.0002,True,0.0095,0.0026,artefact of shared KOs
+Ammonia oxidizing (AOB/AOA),Aerobic respiration,266,71,0.1547,0.0128,0.5741,True,0.0243,0.9329,artefact of shared KOs
+CO oxidizing (carboxydotroph),Aerobic respiration,266,115,-0.1422,0.0256,0.9924,True,0.0431,1.0000,artefact of shared KOs
+Ammonia oxidizing (AOB/AOA),Methane oxidizing (methanotroph),266,27,-0.2712,0.0002,0.1122,True,0.0007,0.2917,artefact of shared KOs
+Sulfur oxidizing (SOB),Aerobic respiration,266,221,0.5522,0.0002,0.0002,False,0.0007,0.0026,co-occur beyond phylum identity
+Aerobic respiration,Nitrate-reducing (denitrifiers),266,165,0.4942,0.0002,0.0010,False,0.0007,0.0101,co-occur beyond phylum identity
+CO oxidizing (carboxydotroph),Formate oxidizing,266,116,0.4528,0.0002,0.0002,False,0.0007,0.0026,co-occur beyond phylum identity
+Hydrogen oxidizing,Sulfur-reducing,266,100,0.3857,0.0002,0.0002,False,0.0007,0.0026,co-occur beyond phylum identity
+Ammonia oxidizing (AOB/AOA),Nitrate-reducing (DNRA),266,45,0.3392,0.0002,0.0016,False,0.0007,0.0121,co-occur beyond phylum identity
+Hydrogen oxidizing,Aerobic respiration,266,149,0.3255,0.0002,0.0092,False,0.0007,0.0364,co-occur beyond phylum identity
+Sulfate-reducing (SRB),Sulfur-reducing,266,115,0.3205,0.0002,0.0012,False,0.0007,0.0109,co-occur beyond phylum identity
+Sulfur-reducing,Methanogens (hydrogenotrophic),266,87,0.3189,0.0002,0.0026,False,0.0007,0.0158,co-occur beyond phylum identity
+Sulfur oxidizing (SOB),Nitrate-reducing (denitrifiers),266,165,0.3083,0.0002,0.0100,False,0.0007,0.0379,co-occur beyond phylum identity
+CO oxidizing (carboxydotroph),Nitrate-reducing (DNRA),266,68,0.3074,0.0002,0.0016,False,0.0007,0.0121,co-occur beyond phylum identity
+Sulfate-reducing (SRB),Methanogens (hydrogenotrophic),266,124,0.3021,0.0002,0.0002,False,0.0007,0.0026,co-occur beyond phylum identity
+Hydrogen oxidizing,Nitrate-reducing (DNRA),266,70,0.2676,0.0002,0.0020,False,0.0007,0.0140,co-occur beyond phylum identity
+Ammonia oxidizing (AOB/AOA),Sulfate-reducing (SRB),266,72,0.2658,0.0004,0.0022,False,0.0013,0.0143,co-occur beyond phylum identity
+Hydrogen oxidizing,Sulfate-reducing (SRB),266,135,0.2410,0.0002,0.0036,False,0.0007,0.0201,co-occur beyond phylum identity
+Nitrate-reducing (DNRA),Acetogens (homoacetogens),266,86,0.2277,0.0002,0.0060,False,0.0007,0.0260,co-occur beyond phylum identity
+Hydrogen oxidizing,Nitrate-reducing (denitrifiers),266,113,0.2096,0.0012,0.0068,False,0.0033,0.0281,co-occur beyond phylum identity
+Aerobic respiration,Sulfur-reducing,266,115,0.1756,0.0066,0.0038,False,0.0133,0.0201,co-occur beyond phylum identity
+Sulfur oxidizing (SOB),Nitrate-reducing (DNRA),266,88,0.1570,0.0172,0.0040,False,0.0313,0.0201,co-occur beyond phylum identity
+Aerobic respiration,Nitrate-reducing (DNRA),266,83,0.1512,0.0180,0.0050,False,0.0321,0.0227,co-occur beyond phylum identity
+Nitrate-reducing (DNRA),Sulfur-reducing,266,63,0.3241,0.0002,0.0300,False,0.0007,0.1092,lineage-bound
+Nitrate-reducing (DNRA),Methanogens (hydrogenotrophic),266,62,0.2381,0.0002,0.0808,False,0.0007,0.2297,lineage-bound
+Sulfur oxidizing (SOB),Hydrogen oxidizing,266,153,0.2242,0.0008,0.0430,False,0.0023,0.1397,lineage-bound
+Ammonia oxidizing (AOB/AOA),Methanogens (hydrogenotrophic),266,52,0.2047,0.0014,0.0698,False,0.0036,0.2049,lineage-bound
+Ammonia oxidizing (AOB/AOA),Hydrogen oxidizing,266,57,0.2009,0.0016,0.0314,False,0.0039,0.1099,lineage-bound
+Ammonia oxidizing (AOB/AOA),Sulfur-reducing,266,48,0.2000,0.0014,0.1504,False,0.0036,0.3509,lineage-bound
+Methane oxidizing (methanotroph),Nitrate-reducing (denitrifiers),266,108,0.1987,0.0016,0.3101,False,0.0039,0.6040,lineage-bound
+Methane oxidizing (methanotroph),Acetogens (homoacetogens),266,136,0.1940,0.0024,0.5099,False,0.0056,0.8593,lineage-bound
+CO oxidizing (carboxydotroph),Sulfur-reducing,266,81,0.1933,0.0030,0.6939,False,0.0068,0.9960,lineage-bound
+Sulfur oxidizing (SOB),Methane oxidizing (methanotroph),266,145,0.1788,0.0056,0.0534,False,0.0116,0.1675,lineage-bound
+Sulfur oxidizing (SOB),Nitrite oxidizing (NOB),266,80,0.1690,0.0054,0.1952,False,0.0114,0.4228,lineage-bound
+Formate oxidizing,Nitrate-reducing (DNRA),266,64,0.1601,0.0126,0.2925,False,0.0243,0.5916,lineage-bound
+Sulfur oxidizing (SOB),Sulfur-reducing,266,121,0.1482,0.0250,0.0364,False,0.0429,0.1227,lineage-bound
+CO oxidizing (carboxydotroph),Methanogens (hydrogenotrophic),266,85,0.1473,0.0200,0.6855,False,0.0350,0.9960,lineage-bound
+Hydrogen oxidizing,Methane oxidizing (methanotroph),266,80,-0.1498,0.0168,0.8078,False,0.0312,1.0000,lineage-bound
+Aerobic respiration,Methanogens (hydrogenotrophic),266,110,-0.1579,0.0106,0.9392,False,0.0210,1.0000,lineage-bound
+CO oxidizing (carboxydotroph),Nitrate-reducing (denitrifiers),266,79,-0.1869,0.0034,0.9528,False,0.0075,1.0000,lineage-bound
+Formate oxidizing,Aerobic respiration,266,126,-0.1986,0.0018,0.6427,False,0.0043,0.9960,lineage-bound
+Formate oxidizing,Methane oxidizing (methanotroph),266,77,-0.2143,0.0006,0.4313,False,0.0018,0.7696,lineage-bound
+Methane oxidizing (methanotroph),Sulfate-reducing (SRB),266,103,-0.2414,0.0006,0.7720,False,0.0018,1.0000,lineage-bound
+Nitrate-reducing (denitrifiers),Methanogens (hydrogenotrophic),266,72,-0.2464,0.0002,0.5077,False,0.0007,0.8593,lineage-bound
+Nitrite oxidizing (NOB),Methanogens (hydrogenotrophic),266,27,-0.2507,0.0006,0.3991,False,0.0018,0.7264,lineage-bound
+CO oxidizing (carboxydotroph),Methane oxidizing (methanotroph),266,64,-0.2702,0.0002,0.9606,False,0.0007,1.0000,lineage-bound
+Methane oxidizing (methanotroph),Nitrate-reducing (DNRA),266,32,-0.3062,0.0002,0.6587,False,0.0007,0.9960,lineage-bound
+Methane oxidizing (methanotroph),Sulfur-reducing,266,50,-0.3272,0.0002,0.7874,False,0.0007,1.0000,lineage-bound
+Methane oxidizing (methanotroph),Methanogens (hydrogenotrophic),266,52,-0.4088,0.0002,0.1266,False,0.0007,0.3200,lineage-bound
+Ammonia oxidizing (AOB/AOA),Nitrate-reducing (denitrifiers),266,56,0.1380,0.0360,0.0602,False,0.0596,0.1826,not significant
+Sulfur oxidizing (SOB),Ammonia oxidizing (AOB/AOA),266,74,0.1295,0.0442,0.1034,False,0.0700,0.2851,not significant
+Hydrogen oxidizing,Methanogens (hydrogenotrophic),266,91,0.1293,0.0396,0.2388,False,0.0643,0.5053,not significant
+Nitrate-reducing (DNRA),Sulfate-reducing (SRB),266,76,0.1255,0.0446,0.5863,False,0.0700,0.9360,not significant
+Formate oxidizing,Sulfur-reducing,266,82,0.0955,0.1280,0.9124,False,0.1974,1.0000,not significant
+Aerobic respiration,Sulfate-reducing (SRB),266,177,0.0891,0.1608,0.1710,False,0.2438,0.3795,not significant
+Formate oxidizing,Acetogens (homoacetogens),266,138,0.0806,0.2388,0.7942,False,0.3504,1.0000,not significant
+Hydrogen oxidizing,Acetogens (homoacetogens),266,136,0.0736,0.2344,0.1458,False,0.3496,0.3491,not significant
+CO oxidizing (carboxydotroph),Sulfate-reducing (SRB),266,115,0.0722,0.2452,0.8846,False,0.3541,1.0000,not significant
+Nitrite oxidizing (NOB),Formate oxidizing,266,53,0.0714,0.2765,0.6849,False,0.3872,0.9960,not significant
+Ammonia oxidizing (AOB/AOA),Nitrite oxidizing (NOB),266,27,0.0697,0.3151,0.3663,True,0.4156,0.6803,not significant
+Hydrogen oxidizing,CO oxidizing (carboxydotroph),266,90,0.0686,0.3135,0.1622,False,0.4156,0.3689,not significant
+Formate oxidizing,Methanogens (hydrogenotrophic),266,88,0.0675,0.3069,0.9232,False,0.4156,1.0000,not significant
+Ammonia oxidizing (AOB/AOA),Formate oxidizing,266,49,0.0558,0.4125,0.6671,False,0.5021,0.9960,not significant
+Nitrate-reducing (denitrifiers),Nitrate-reducing (DNRA),266,60,0.0520,0.4163,0.2595,False,0.5021,0.5368,not significant
+Methanogens (hydrogenotrophic),Acetogens (homoacetogens),266,119,0.0505,0.4945,0.3643,False,0.5769,0.6803,not significant
+Nitrate-reducing (denitrifiers),Sulfate-reducing (SRB),266,132,0.0468,0.4501,0.3119,False,0.5319,0.6040,not significant
+Ammonia oxidizing (AOB/AOA),CO oxidizing (carboxydotroph),266,43,0.0310,0.6787,0.8062,False,0.7624,1.0000,not significant
+Nitrate-reducing (denitrifiers),Acetogens (homoacetogens),266,142,0.0245,0.7353,0.5377,False,0.8061,0.8896,not significant
+Sulfur oxidizing (SOB),Acetogens (homoacetogens),266,205,0.0164,1.0000,1.0000,False,1.0000,1.0000,not significant
+Hydrogen oxidizing,Formate oxidizing,266,96,0.0150,0.9078,0.8866,False,0.9388,1.0000,not significant
+Nitrite oxidizing (NOB),Sulfate-reducing (SRB),266,63,0.0112,0.8854,0.8536,False,0.9261,1.0000,not significant
+Sulfate-reducing (SRB),Acetogens (homoacetogens),266,172,0.0034,1.0000,1.0000,False,1.0000,1.0000,not significant
+Nitrite oxidizing (NOB),Hydrogen oxidizing,266,48,-0.0019,1.0000,1.0000,False,1.0000,1.0000,not significant
+Sulfur oxidizing (SOB),Methanogens (hydrogenotrophic),266,127,-0.0138,0.8312,1.0000,False,0.8906,1.0000,not significant
+Ammonia oxidizing (AOB/AOA),Acetogens (homoacetogens),266,63,-0.0161,0.8472,0.9760,False,0.8965,1.0000,not significant
+Aerobic respiration,Acetogens (homoacetogens),266,188,-0.0178,0.8318,0.7005,False,0.8906,0.9960,not significant
+Nitrate-reducing (denitrifiers),Sulfur-reducing,266,78,-0.0246,0.7047,0.8086,False,0.7820,1.0000,not significant
+Nitrite oxidizing (NOB),Nitrate-reducing (DNRA),266,25,-0.0415,0.5801,0.7532,False,0.6682,1.0000,not significant
+Nitrite oxidizing (NOB),Acetogens (homoacetogens),266,66,-0.0423,0.5975,0.7544,False,0.6796,1.0000,not significant
+Sulfur-reducing,Acetogens (homoacetogens),266,103,-0.0538,0.4125,0.1114,False,0.5021,0.2917,not significant
+Nitrite oxidizing (NOB),Sulfur-reducing,266,35,-0.0551,0.4193,0.9084,False,0.5021,1.0000,not significant
+Sulfur oxidizing (SOB),CO oxidizing (carboxydotroph),266,130,-0.0573,0.3909,0.8906,False,0.4941,1.0000,not significant
+Formate oxidizing,Sulfate-reducing (SRB),266,120,-0.0604,0.3747,0.4817,False,0.4803,0.8430,not significant
+Nitrite oxidizing (NOB),CO oxidizing (carboxydotroph),266,40,-0.0631,0.3585,0.9206,False,0.4661,1.0000,not significant
+Formate oxidizing,Nitrate-reducing (denitrifiers),266,97,-0.0645,0.3027,0.9944,False,0.4156,1.0000,not significant
+Sulfur oxidizing (SOB),Formate oxidizing,266,144,-0.0771,0.2601,0.7908,False,0.3699,1.0000,not significant

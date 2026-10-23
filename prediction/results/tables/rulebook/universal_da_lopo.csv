@@ -1,0 +1,197 @@
+task,trait,cls,held_out_phylum,rule,hits,correct
+da,donor_sulfur_oxidation,has trait,Aquificota,IF sqr (K17218) present AND soxX (K17223) present THEN has donor_sulfur_oxidation,7,5
+da,donor_sulfur_oxidation,has trait,Aquificota,IF sqr (K17218) present AND soxB (K17224) present THEN has donor_sulfur_oxidation,6,4
+da,donor_sulfur_oxidation,has trait,Aquificota,IF korA (K00174) present AND sqr (K17218) present AND soxY (K17226) present THEN has donor_sulfur_oxidation,4,2
+da,donor_sulfur_oxidation,has trait,Campylobacterota,IF cooS (K00198) absent AND sorB (K00386) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,1,1
+da,donor_sulfur_oxidation,has trait,Campylobacterota,IF cooS (K00198) absent AND sqr (K17218) present AND soxZ (K17227) present THEN has donor_sulfur_oxidation,6,6
+da,donor_sulfur_oxidation,has trait,Campylobacterota,IF sorB (K00386) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,1,1
+da,donor_sulfur_oxidation,has trait,Chlorobiota,IF cooS (K00198) absent AND sqr (K17218) present AND soxY (K17226) present THEN has donor_sulfur_oxidation,3,3
+da,donor_sulfur_oxidation,has trait,Chlorobiota,IF cooS (K00198) absent AND soxX (K17223) present THEN has donor_sulfur_oxidation,2,2
+da,donor_sulfur_oxidation,has trait,Chlorobiota,IF soxZ (K17227) present THEN has donor_sulfur_oxidation,6,6
+da,donor_sulfur_oxidation,has trait,Pseudomonadota,IF cooS (K00198) absent AND soxY (K17226) present THEN has donor_sulfur_oxidation,104,72
+da,donor_sulfur_oxidation,has trait,Pseudomonadota,IF cooS (K00198) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,99,72
+da,donor_sulfur_oxidation,has trait,Pseudomonadota,IF soxY (K17226) present THEN has donor_sulfur_oxidation,104,72
+da,donor_sulfur_oxidation,has trait,Thermodesulfobacteriota,IF cooS (K00198) absent AND sorB (K00386) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,has trait,Thermodesulfobacteriota,IF cooS (K00198) absent AND sqr (K17218) present AND soxY (K17226) present THEN has donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,has trait,Thermodesulfobacteriota,IF sorB (K00386) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,has trait,Thermoproteota,IF cooS (K00198) absent AND sorB (K00386) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,has trait,Thermoproteota,IF cooS (K00198) absent AND sqr (K17218) present AND soxY (K17226) present THEN has donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,has trait,Thermoproteota,IF sorB (K00386) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,lacks trait,Aquificota,IF dsrA (K11180) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,3,3
+da,donor_sulfur_oxidation,lacks trait,Aquificota,IF dsrA (K11180) absent AND sqr (K17218) absent AND fccB (K17229) absent THEN lacks donor_sulfur_oxidation,3,3
+da,donor_sulfur_oxidation,lacks trait,Aquificota,IF aprB (K00395) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,3,3
+da,donor_sulfur_oxidation,lacks trait,Campylobacterota,IF dsrA (K11180) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,3,3
+da,donor_sulfur_oxidation,lacks trait,Campylobacterota,IF dsrA (K11180) absent AND sqr (K17218) absent AND fccB (K17229) absent THEN lacks donor_sulfur_oxidation,3,3
+da,donor_sulfur_oxidation,lacks trait,Campylobacterota,IF aprB (K00395) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,3,3
+da,donor_sulfur_oxidation,lacks trait,Chlorobiota,IF dsrA (K11180) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,lacks trait,Chlorobiota,IF dsrA (K11180) absent AND sqr (K17218) absent AND fccB (K17229) absent THEN lacks donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,lacks trait,Chlorobiota,IF aprB (K00395) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,lacks trait,Pseudomonadota,IF dsrA (K11180) absent AND sqr (K17218) absent THEN lacks donor_sulfur_oxidation,28,22
+da,donor_sulfur_oxidation,lacks trait,Pseudomonadota,IF aprB (K00395) absent AND sqr (K17218) absent THEN lacks donor_sulfur_oxidation,29,22
+da,donor_sulfur_oxidation,lacks trait,Pseudomonadota,IF korC (K00177) present AND dsrA (K11180) absent AND soxA (K17222) absent THEN lacks donor_sulfur_oxidation,0,0
+da,donor_sulfur_oxidation,lacks trait,Thermodesulfobacteriota,IF sqr (K17218) absent AND soxX (K17223) absent AND tsdA (K19713) absent THEN lacks donor_sulfur_oxidation,27,22
+da,donor_sulfur_oxidation,lacks trait,Thermodesulfobacteriota,IF sorB (K00386) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,26,22
+da,donor_sulfur_oxidation,lacks trait,Thermodesulfobacteriota,IF sorB (K00386) absent AND sqr (K17218) absent AND fccB (K17229) absent THEN lacks donor_sulfur_oxidation,26,22
+da,donor_sulfur_oxidation,lacks trait,Thermoproteota,IF dsrA (K11180) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,1,0
+da,donor_sulfur_oxidation,lacks trait,Thermoproteota,IF dsrA (K11180) absent AND sqr (K17218) absent AND fccB (K17229) absent THEN lacks donor_sulfur_oxidation,1,0
+da,donor_sulfur_oxidation,lacks trait,Thermoproteota,IF aprB (K00395) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,2,1
+da,donor_ammonia_oxidation,lacks trait,Nitrososphaerota,IF ctaA (K02259) absent AND amoB (K10945) absent THEN lacks donor_ammonia_oxidation,0,0
+da,donor_ammonia_oxidation,lacks trait,Nitrososphaerota,IF ctaB (K02257) absent AND amoB (K10945) absent THEN lacks donor_ammonia_oxidation,0,0
+da,donor_ammonia_oxidation,lacks trait,Nitrososphaerota,IF petC (K00413) present AND amoB (K10945) absent THEN lacks donor_ammonia_oxidation,0,0
+da,donor_ammonia_oxidation,lacks trait,Pseudomonadota,IF ctaA (K02259) absent AND amoB (K10945) absent THEN lacks donor_ammonia_oxidation,39,39
+da,donor_ammonia_oxidation,lacks trait,Pseudomonadota,IF coxL (K03520) absent AND amoB (K10945) absent THEN lacks donor_ammonia_oxidation,81,79
+da,donor_ammonia_oxidation,lacks trait,Pseudomonadota,IF amoB (K10945) absent THEN lacks donor_ammonia_oxidation,114,112
+da,donor_hydrogen_oxidation,has trait,Actinomycetota,IF korC (K00177) present AND hdrB2 (K03389) absent AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Actinomycetota,IF hybC (K05922) present AND hyaB (K06281) present THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Actinomycetota,IF korD (K00176) present AND cooS (K00198) absent THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Aquificota,IF korC (K00177) present AND hdrB2 (K03389) absent AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Aquificota,IF korC (K00177) present AND ctaB (K02257) absent AND hcp (K05601) absent THEN has donor_hydrogen_oxidation,3,2
+da,donor_hydrogen_oxidation,has trait,Aquificota,IF korD (K00176) present AND cooS (K00198) absent THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Bacillota,IF hybC (K05922) present AND hyaB (K06281) present THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Bacillota,IF korD (K00176) present AND cooS (K00198) absent THEN has donor_hydrogen_oxidation,1,1
+da,donor_hydrogen_oxidation,has trait,Bacillota,IF korC (K00177) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,24,21
+da,donor_hydrogen_oxidation,has trait,Campylobacterota,IF korC (K00177) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,7,7
+da,donor_hydrogen_oxidation,has trait,Campylobacterota,IF petC (K00413) absent AND hcp (K05601) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,6,6
+da,donor_hydrogen_oxidation,has trait,Campylobacterota,IF cooS (K00198) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Methanobacteriota,IF korC (K00177) present AND hdrB2 (K03389) absent AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,2,2
+da,donor_hydrogen_oxidation,has trait,Methanobacteriota,IF hybC (K05922) present AND hyaB (K06281) present THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Methanobacteriota,IF korC (K00177) present AND hdrB2 (K03389) absent AND dmsA (K07306) absent THEN has donor_hydrogen_oxidation,1,1
+da,donor_hydrogen_oxidation,has trait,Pseudomonadota,IF hdrB2 (K03389) absent AND hcp (K05601) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,4,0
+da,donor_hydrogen_oxidation,has trait,Pseudomonadota,IF korC (K00177) present AND hdrB2 (K03389) absent AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,1,0
+da,donor_hydrogen_oxidation,has trait,Pseudomonadota,IF cooS (K00198) absent AND hdrC2 (K03390) absent AND hyaB (K06281) present THEN has donor_hydrogen_oxidation,46,31
+da,donor_hydrogen_oxidation,has trait,Thermodesulfobacteriota,IF hybC (K05922) present AND hyaB (K06281) present THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Thermodesulfobacteriota,IF petC (K00413) absent AND hcp (K05601) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,6,5
+da,donor_hydrogen_oxidation,has trait,Thermodesulfobacteriota,IF korC (K00177) present AND hcp (K05601) present THEN has donor_hydrogen_oxidation,29,23
+da,donor_hydrogen_oxidation,has trait,Thermoproteota,IF korC (K00177) present AND hdrB2 (K03389) absent AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,1,1
+da,donor_hydrogen_oxidation,has trait,Thermoproteota,IF hybC (K05922) present AND hyaB (K06281) present THEN has donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,has trait,Thermoproteota,IF korD (K00176) present AND cooS (K00198) absent THEN has donor_hydrogen_oxidation,1,1
+da,donor_hydrogen_oxidation,lacks trait,Actinomycetota,IF ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,18,11
+da,donor_hydrogen_oxidation,lacks trait,Actinomycetota,IF cooS (K00198) absent AND hcp (K05601) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,18,11
+da,donor_hydrogen_oxidation,lacks trait,Actinomycetota,IF cooS (K00198) absent AND ctaB (K02257) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,18,11
+da,donor_hydrogen_oxidation,lacks trait,Aquificota,IF korD (K00176) absent AND cooS (K00198) absent AND ctaB (K02257) absent THEN lacks donor_hydrogen_oxidation,4,1
+da,donor_hydrogen_oxidation,lacks trait,Aquificota,IF ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,lacks trait,Aquificota,IF cooS (K00198) absent AND hcp (K05601) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,1,1
+da,donor_hydrogen_oxidation,lacks trait,Bacillota,IF ctaB (K02257) present AND coxL (K03520) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,5,1
+da,donor_hydrogen_oxidation,lacks trait,Bacillota,IF korC (K00177) absent AND ctaB (K02257) absent AND hybC (K05922) absent THEN lacks donor_hydrogen_oxidation,16,0
+da,donor_hydrogen_oxidation,lacks trait,Bacillota,IF korC (K00177) absent AND coxL (K03520) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,16,1
+da,donor_hydrogen_oxidation,lacks trait,Campylobacterota,IF ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,lacks trait,Campylobacterota,IF cooS (K00198) absent AND hcp (K05601) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,4,3
+da,donor_hydrogen_oxidation,lacks trait,Campylobacterota,IF cooS (K00198) absent AND ctaB (K02257) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,3,3
+da,donor_hydrogen_oxidation,lacks trait,Methanobacteriota,IF coxL (K03520) absent AND hcp (K05601) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,8,0
+da,donor_hydrogen_oxidation,lacks trait,Methanobacteriota,IF ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,lacks trait,Methanobacteriota,IF hcp (K05601) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,8,0
+da,donor_hydrogen_oxidation,lacks trait,Thermodesulfobacteriota,IF ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,lacks trait,Thermodesulfobacteriota,IF cooS (K00198) absent AND hcp (K05601) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,1,0
+da,donor_hydrogen_oxidation,lacks trait,Thermodesulfobacteriota,IF cooS (K00198) absent AND ctaB (K02257) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,lacks trait,Thermoproteota,IF cooS (K00198) absent AND hcp (K05601) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,21,10
+da,donor_hydrogen_oxidation,lacks trait,Thermoproteota,IF cooS (K00198) absent AND ctaB (K02257) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,21,10
+da,donor_hydrogen_oxidation,lacks trait,Thermoproteota,IF korD (K00176) absent AND cooS (K00198) absent AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,21,10
+da,donor_CO_oxidation,lacks trait,Actinomycetota,IF cooS (K00198) absent AND hdrA2 (K03388) absent AND coxL (K03520) absent THEN lacks donor_CO_oxidation,1,1
+da,donor_CO_oxidation,lacks trait,Actinomycetota,IF cooS (K00198) absent AND hdrB2 (K03389) absent AND coxL (K03520) absent THEN lacks donor_CO_oxidation,1,1
+da,donor_CO_oxidation,lacks trait,Actinomycetota,IF cooS (K00198) absent AND hdrA2 (K03388) absent AND coxS (K03518) absent THEN lacks donor_CO_oxidation,1,1
+da,donor_CO_oxidation,lacks trait,Bacillota,IF coxL (K03520) absent AND mvhD (K14127) absent THEN lacks donor_CO_oxidation,31,14
+da,donor_CO_oxidation,lacks trait,Bacillota,IF coxS (K03518) absent AND mvhD (K14127) absent THEN lacks donor_CO_oxidation,24,10
+da,donor_CO_oxidation,lacks trait,Bacillota,IF hdrB2 (K03389) absent AND coxL (K03520) absent AND dmsA (K07306) absent THEN lacks donor_CO_oxidation,25,10
+da,donor_CO_oxidation,lacks trait,Methanobacteriota,IF cooS (K00198) absent AND coxL (K03520) absent THEN lacks donor_CO_oxidation,25,23
+da,donor_CO_oxidation,lacks trait,Methanobacteriota,IF cooS (K00198) absent AND coxS (K03518) absent THEN lacks donor_CO_oxidation,25,23
+da,donor_CO_oxidation,lacks trait,Methanobacteriota,IF coxL (K03520) absent AND hcp (K05601) absent THEN lacks donor_CO_oxidation,8,6
+da,donor_iron_oxidation,lacks trait,Bacillota,IF korD (K00176) present AND petC (K00413) absent THEN lacks donor_iron_oxidation,30,28
+da,donor_iron_oxidation,lacks trait,Bacillota,IF korA (K00174) present AND petC (K00413) absent AND ctaA (K02259) present THEN lacks donor_iron_oxidation,3,1
+da,donor_iron_oxidation,lacks trait,Bacillota,IF ctaB (K02257) absent AND hdrB2 (K03389) absent AND hcp (K05601) present THEN lacks donor_iron_oxidation,27,25
+da,donor_iron_oxidation,lacks trait,Pseudomonadota,IF korD (K00176) present AND mvhD (K14127) present THEN lacks donor_iron_oxidation,0,0
+da,donor_iron_oxidation,lacks trait,Pseudomonadota,IF korC (K00177) present AND petC (K00413) absent AND hdrB2 (K03389) absent THEN lacks donor_iron_oxidation,0,0
+da,donor_iron_oxidation,lacks trait,Pseudomonadota,IF korC (K00177) present AND petC (K00413) absent AND hdrC2 (K03390) absent THEN lacks donor_iron_oxidation,0,0
+da,donor_iron_oxidation,lacks trait,Thermoproteota,IF korD (K00176) present AND mvhD (K14127) present THEN lacks donor_iron_oxidation,0,0
+da,donor_iron_oxidation,lacks trait,Thermoproteota,IF korC (K00177) present AND petC (K00413) absent AND hdrB2 (K03389) absent THEN lacks donor_iron_oxidation,1,1
+da,donor_iron_oxidation,lacks trait,Thermoproteota,IF korC (K00177) present AND mvhD (K14127) present THEN lacks donor_iron_oxidation,0,0
+da,acceptor_oxygen,has trait,Actinomycetota,IF ccoO (K00405) absent AND petC (K00413) present AND coxB (K02275) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Actinomycetota,IF ccoO (K00405) absent AND petC (K00413) present AND coxA (K02274) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Actinomycetota,IF cydB (K00426) present AND ctaB (K02257) present AND ctaA (K02259) present THEN has acceptor_oxygen,18,13
+da,acceptor_oxygen,has trait,Aquificota,IF cydB (K00426) present AND ctaA (K02259) present THEN has acceptor_oxygen,1,1
+da,acceptor_oxygen,has trait,Aquificota,IF ctaA (K02259) present AND coxL (K03520) absent THEN has acceptor_oxygen,2,2
+da,acceptor_oxygen,has trait,Aquificota,IF cydA (K00425) present AND coxL (K03520) present THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Campylobacterota,IF cydB (K00426) present AND ctaA (K02259) present THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Campylobacterota,IF ctaA (K02259) present AND coxL (K03520) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Campylobacterota,IF cydA (K00425) present AND coxL (K03520) present THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Nitrososphaerota,IF ccoO (K00405) absent AND petC (K00413) present AND coxB (K02275) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Nitrososphaerota,IF ccoO (K00405) absent AND petC (K00413) present AND coxA (K02274) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Nitrososphaerota,IF ccoO (K00405) absent AND petC (K00413) present THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Nitrospirota,IF ccoO (K00405) absent AND petC (K00413) present AND coxB (K02275) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Nitrospirota,IF ccoO (K00405) absent AND petC (K00413) present AND coxA (K02274) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Nitrospirota,IF ccoO (K00405) absent AND petC (K00413) present THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Pseudomonadota,IF ctaA (K02259) present THEN has acceptor_oxygen,89,73
+da,acceptor_oxygen,has trait,Thermoproteota,IF ccoO (K00405) absent AND petC (K00413) present AND coxB (K02275) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Thermoproteota,IF ccoO (K00405) absent AND petC (K00413) present AND coxA (K02274) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,has trait,Thermoproteota,IF ccoO (K00405) absent AND petC (K00413) present THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Actinomycetota,IF petC (K00413) absent AND cydB (K00426) absent AND ctaB (K02257) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Actinomycetota,IF ctaB (K02257) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Actinomycetota,IF cydA (K00425) present AND ctaA (K02259) absent AND coxL (K03520) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Aquificota,IF petC (K00413) absent AND cydB (K00426) absent AND ctaB (K02257) absent THEN lacks acceptor_oxygen,1,0
+da,acceptor_oxygen,lacks trait,Aquificota,IF ctaB (K02257) absent THEN lacks acceptor_oxygen,9,3
+da,acceptor_oxygen,lacks trait,Aquificota,IF cydA (K00425) present AND ctaA (K02259) absent THEN lacks acceptor_oxygen,8,3
+da,acceptor_oxygen,lacks trait,Campylobacterota,IF petC (K00413) absent AND cydB (K00426) absent AND ctaB (K02257) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Campylobacterota,IF ctaB (K02257) absent THEN lacks acceptor_oxygen,11,6
+da,acceptor_oxygen,lacks trait,Campylobacterota,IF cydA (K00425) present AND ctaA (K02259) absent AND coxL (K03520) absent THEN lacks acceptor_oxygen,8,6
+da,acceptor_oxygen,lacks trait,Nitrososphaerota,IF petC (K00413) absent AND cydB (K00426) absent AND ctaB (K02257) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Nitrososphaerota,IF ctaB (K02257) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Nitrososphaerota,IF cydA (K00425) present AND ctaA (K02259) absent AND coxL (K03520) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Nitrospirota,IF petC (K00413) absent AND cydB (K00426) absent AND ctaB (K02257) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Nitrospirota,IF petC (K00413) absent AND cydA (K00425) present AND ctaB (K02257) absent THEN lacks acceptor_oxygen,8,2
+da,acceptor_oxygen,lacks trait,Nitrospirota,IF cydA (K00425) present AND coxB (K02275) absent AND coxL (K03520) absent THEN lacks acceptor_oxygen,8,2
+da,acceptor_oxygen,lacks trait,Pseudomonadota,IF petC (K00413) absent AND cydB (K00426) absent AND ctaB (K02257) absent THEN lacks acceptor_oxygen,0,0
+da,acceptor_oxygen,lacks trait,Pseudomonadota,IF ctaB (K02257) absent THEN lacks acceptor_oxygen,36,12
+da,acceptor_oxygen,lacks trait,Pseudomonadota,IF petC (K00413) absent AND cydA (K00425) present AND ctaA (K02259) absent THEN lacks acceptor_oxygen,3,0
+da,acceptor_oxygen,lacks trait,Thermoproteota,IF ccoP (K00406) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks acceptor_oxygen,22,5
+da,acceptor_oxygen,lacks trait,Thermoproteota,IF petC (K00413) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks acceptor_oxygen,22,5
+da,acceptor_oxygen,lacks trait,Thermoproteota,IF petC (K00413) absent AND cydB (K00426) absent THEN lacks acceptor_oxygen,22,5
+da,acceptor_nitrate,has trait,Actinomycetota,IF nirS (K15864) present THEN has acceptor_nitrate,0,0
+da,acceptor_nitrate,has trait,Actinomycetota,IF napB (K02568) present THEN has acceptor_nitrate,0,0
+da,acceptor_nitrate,has trait,Actinomycetota,IF napA (K02567) present AND norB (K04561) present THEN has acceptor_nitrate,0,0
+da,acceptor_nitrate,has trait,Aquificota,IF napA (K02567) present AND nrfA (K03385) absent AND nrfH (K15876) absent THEN has acceptor_nitrate,1,1
+da,acceptor_nitrate,has trait,Bacillota,IF nirS (K15864) present THEN has acceptor_nitrate,0,0
+da,acceptor_nitrate,has trait,Bacillota,IF napB (K02568) present THEN has acceptor_nitrate,0,0
+da,acceptor_nitrate,has trait,Bacillota,IF napA (K02567) present AND nrfA (K03385) absent THEN has acceptor_nitrate,1,0
+da,acceptor_nitrate,lacks trait,Actinomycetota,IF korA (K00174) present AND korD (K00176) absent AND narH (K00371) absent THEN lacks acceptor_nitrate,4,1
+da,acceptor_nitrate,lacks trait,Actinomycetota,IF korD (K00176) present AND cooS (K00198) absent AND napB (K02568) absent THEN lacks acceptor_nitrate,0,0
+da,acceptor_nitrate,lacks trait,Actinomycetota,IF korD (K00176) absent AND petC (K00413) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,1,1
+da,acceptor_nitrate,lacks trait,Aquificota,IF korD (K00176) present AND cooS (K00198) absent AND napB (K02568) absent THEN lacks acceptor_nitrate,0,0
+da,acceptor_nitrate,lacks trait,Aquificota,IF korD (K00176) absent AND petC (K00413) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,0,0
+da,acceptor_nitrate,lacks trait,Aquificota,IF korA (K00174) present AND korD (K00176) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,2,2
+da,acceptor_nitrate,lacks trait,Bacillota,IF korC (K00177) present AND narG (K00370) absent AND napA (K02567) absent THEN lacks acceptor_nitrate,26,21
+da,acceptor_nitrate,lacks trait,Bacillota,IF korD (K00176) present AND cooS (K00198) absent AND napB (K02568) absent THEN lacks acceptor_nitrate,1,1
+da,acceptor_nitrate,lacks trait,Bacillota,IF korC (K00177) present AND napA (K02567) absent AND nrfA (K03385) absent THEN lacks acceptor_nitrate,20,16
+da,acceptor_nitrate,lacks trait,Campylobacterota,IF korA (K00174) present AND cooS (K00198) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,6,3
+da,acceptor_nitrate,lacks trait,Campylobacterota,IF cooS (K00198) absent AND petC (K00413) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,5,3
+da,acceptor_nitrate,lacks trait,Campylobacterota,IF korD (K00176) absent AND petC (K00413) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,0,0
+da,acceptor_nitrate,lacks trait,Pseudomonadota,IF korD (K00176) absent AND narK (K02575) absent AND norB (K04561) absent THEN lacks acceptor_nitrate,44,38
+da,acceptor_nitrate,lacks trait,Pseudomonadota,IF korD (K00176) present AND cooS (K00198) absent AND napB (K02568) absent THEN lacks acceptor_nitrate,1,1
+da,acceptor_nitrate,lacks trait,Pseudomonadota,IF korD (K00176) absent AND narG (K00370) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,65,47
+da,acceptor_sulfate,has trait,Bacillota,IF korA (K00174) present AND dsrM (K27187) present THEN has acceptor_sulfate,14,12
+da,acceptor_sulfate,has trait,Bacillota,IF aprA (K00394) present AND hcp (K05601) present THEN has acceptor_sulfate,19,11
+da,acceptor_sulfate,lacks trait,Bacillota,IF korD (K00176) absent AND dsrM (K27187) absent THEN lacks acceptor_sulfate,17,17
+da,acceptor_sulfate,lacks trait,Bacillota,IF korD (K00176) absent AND dmsA (K07306) absent AND dsrA (K11180) absent THEN lacks acceptor_sulfate,16,16
+da,acceptor_sulfate,lacks trait,Bacillota,IF korD (K00176) absent AND sat (K00958) absent THEN lacks acceptor_sulfate,15,14
+da,acceptor_sulfate,lacks trait,Thermodesulfobacteriota,IF korD (K00176) absent AND dsrM (K27187) absent THEN lacks acceptor_sulfate,0,0
+da,acceptor_sulfate,lacks trait,Thermodesulfobacteriota,IF korD (K00176) absent AND dmsA (K07306) absent AND dsrA (K11180) absent THEN lacks acceptor_sulfate,0,0
+da,acceptor_sulfate,lacks trait,Thermodesulfobacteriota,IF korD (K00176) absent AND sat (K00958) absent AND dmsA (K07306) absent THEN lacks acceptor_sulfate,0,0
+da,acceptor_sulfur,lacks trait,Aquificota,IF mvhD (K14127) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,6,2
+da,acceptor_sulfur,lacks trait,Aquificota,IF korD (K00176) absent AND hdrB2 (K03389) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,1,1
+da,acceptor_sulfur,lacks trait,Aquificota,IF hdrB2 (K03389) absent AND psrA (K08352) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,1,1
+da,acceptor_sulfur,lacks trait,Bacillota,IF korA (K00174) absent AND hdrB2 (K03389) absent THEN lacks acceptor_sulfur,8,7
+da,acceptor_sulfur,lacks trait,Bacillota,IF korA (K00174) absent AND asrC (K16952) absent THEN lacks acceptor_sulfur,9,8
+da,acceptor_sulfur,lacks trait,Bacillota,IF korD (K00176) absent AND hdrB2 (K03389) absent AND psrA (K08352) absent THEN lacks acceptor_sulfur,14,14
+da,acceptor_sulfur,lacks trait,Campylobacterota,IF hdrA2 (K03388) absent AND hdrB2 (K03389) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,0,0
+da,acceptor_sulfur,lacks trait,Campylobacterota,IF korD (K00176) absent AND hdrB2 (K03389) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,0,0
+da,acceptor_sulfur,lacks trait,Campylobacterota,IF hdrB2 (K03389) absent AND psrA (K08352) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,0,0
+da,acceptor_sulfur,lacks trait,Thermodesulfobacteriota,IF hdrA2 (K03388) absent AND hdrB2 (K03389) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,0,0
+da,acceptor_sulfur,lacks trait,Thermodesulfobacteriota,IF korD (K00176) absent AND hdrB2 (K03389) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,0,0
+da,acceptor_sulfur,lacks trait,Thermodesulfobacteriota,IF hdrB2 (K03389) absent AND psrA (K08352) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,0,0
+da,acceptor_sulfur,lacks trait,Thermoproteota,IF korA (K00174) present AND korD (K00176) absent AND hdrB2 (K03389) absent THEN lacks acceptor_sulfur,14,8
+da,acceptor_sulfur,lacks trait,Thermoproteota,IF korA (K00174) present AND korD (K00176) absent AND asrB (K16951) absent THEN lacks acceptor_sulfur,21,10
+da,acceptor_sulfur,lacks trait,Thermoproteota,IF hdrA2 (K03388) absent AND hdrB2 (K03389) absent AND asrB (K16951) present THEN lacks acceptor_sulfur,0,0
+da,acceptor_CO2_methanogen_acetogen,lacks trait,Bacillota,IF korA (K00174) present AND mcrA (K00399) absent AND acsB (K14138) absent THEN lacks acceptor_CO2_methanogen_acetogen,5,5
+da,acceptor_CO2_methanogen_acetogen,lacks trait,Bacillota,IF korA (K00174) present AND hdrC2 (K03390) absent THEN lacks acceptor_CO2_methanogen_acetogen,23,5
+da,acceptor_CO2_methanogen_acetogen,lacks trait,Bacillota,IF korA (K00174) present AND cdhD (K00194) absent AND cooS (K00198) absent THEN lacks acceptor_CO2_methanogen_acetogen,4,4
+da,acceptor_CO2_methanogen_acetogen,lacks trait,Methanobacteriota,IF korA (K00174) present AND acsB (K14138) absent THEN lacks acceptor_CO2_methanogen_acetogen,42,7
+da,acceptor_CO2_methanogen_acetogen,lacks trait,Methanobacteriota,IF korA (K00174) present AND cdhD (K00194) absent THEN lacks acceptor_CO2_methanogen_acetogen,6,1
+da,acceptor_CO2_methanogen_acetogen,lacks trait,Methanobacteriota,IF korA (K00174) present AND cooS (K00198) absent THEN lacks acceptor_CO2_methanogen_acetogen,24,3

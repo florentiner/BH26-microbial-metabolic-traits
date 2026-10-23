@@ -1,0 +1,84 @@
+{
+ "cells": {
+  "acceptor_CO2_methanogen_acetogen": {
+   "positives": 75,
+   "grade_AB": 44
+  },
+  "acceptor_iron": {
+   "positives": 32,
+   "grade_AB": 10
+  },
+  "acceptor_nitrate": {
+   "positives": 102,
+   "grade_AB": 29
+  },
+  "acceptor_other": {
+   "positives": 23,
+   "grade_AB": 7
+  },
+  "acceptor_oxygen": {
+   "positives": 177,
+   "grade_AB": 100
+  },
+  "acceptor_sulfate": {
+   "positives": 63,
+   "grade_AB": 27
+  },
+  "acceptor_sulfur": {
+   "positives": 50,
+   "grade_AB": 27
+  },
+  "donor_CO_oxidation": {
+   "positives": 45,
+   "grade_AB": 28
+  },
+  "donor_ammonia_oxidation": {
+   "positives": 32,
+   "grade_AB": 20
+  },
+  "donor_hydrogen_oxidation": {
+   "positives": 208,
+   "grade_AB": 131
+  },
+  "donor_iron_oxidation": {
+   "positives": 43,
+   "grade_AB": 13
+  },
+  "donor_nitrite_oxidation": {
+   "positives": 12,
+   "grade_AB": 5
+  },
+  "donor_other": {
+   "positives": 23,
+   "grade_AB": 7
+  },
+  "donor_sulfur_oxidation": {
+   "positives": 131,
+   "grade_AB": 58
+  }
+ },
+ "positives": 1016,
+ "positives_AB": 506,
+ "genus": {
+  "RedoxKO_all": 0.6124297397974693,
+  "taxonomic_all": 0.47241683283659885,
+  "RedoxKO_AB": 0.5165727774127563,
+  "taxonomic_AB": 0.38010878277549554,
+  "diff_AB": 0.13646399463726078,
+  "diff_AB_ci": [
+   0.09563023830019424,
+   0.18954415419878357
+  ]
+ },
+ "family": {
+  "RedoxKO_all": 0.561779055240491,
+  "taxonomic_all": 0.3798248628579784,
+  "RedoxKO_AB": 0.47699288428702313,
+  "taxonomic_AB": 0.2895006364970984,
+  "diff_AB": 0.18749224778992474,
+  "diff_AB_ci": [
+   0.1376065552538247,
+   0.239639490069654
+  ]
+ }
+}

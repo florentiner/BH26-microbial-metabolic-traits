@@ -1,0 +1,2 @@
+task,trait,core_marker,carriers,carriers_labelled,share_of_carriers_labelled,share_of_trait_with_marker,n_phyla_with_marker
+ox,uses_O2,aa3 oxidase coxABC,1488,1445,0.9711,0.6544,17

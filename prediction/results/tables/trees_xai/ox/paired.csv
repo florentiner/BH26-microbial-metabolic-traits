@@ -1,0 +1,21 @@
+task,split_level,contrast,delta_macro_auprc,ci_low,ci_high,tied
+ox,genus,DT - RF,-0.0207,-0.0297,-0.0130,False
+ox,genus,RF - DT,0.0207,0.0130,0.0297,False
+ox,genus,ET - RF,-0.0002,-0.0024,0.0021,True
+ox,genus,ET - DT,0.0205,0.0125,0.0296,False
+ox,genus,L1 - RF,-0.0038,-0.0098,0.0019,True
+ox,genus,L1 - DT,0.0169,0.0086,0.0261,False
+ox,genus,FIGS - RF,-0.0224,-0.0315,-0.0133,False
+ox,genus,FIGS - DT,-0.0016,-0.0114,0.0076,True
+ox,genus,NN - RF,-0.0066,-0.0127,-0.0010,False
+ox,genus,NN - DT,0.0141,0.0062,0.0223,False
+ox,family,DT - RF,-0.0219,-0.0346,-0.0109,False
+ox,family,RF - DT,0.0219,0.0109,0.0346,False
+ox,family,ET - RF,0.0016,0.0001,0.0036,False
+ox,family,ET - DT,0.0235,0.0132,0.0357,False
+ox,family,L1 - RF,-0.0041,-0.0099,0.0015,True
+ox,family,L1 - DT,0.0179,0.0076,0.0300,False
+ox,family,FIGS - RF,-0.0322,-0.0492,-0.0187,False
+ox,family,FIGS - DT,-0.0103,-0.0270,0.0053,True
+ox,family,NN - RF,-0.0014,-0.0061,0.0035,True
+ox,family,NN - DT,0.0205,0.0108,0.0321,False

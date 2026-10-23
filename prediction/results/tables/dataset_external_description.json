@@ -1,0 +1,44 @@
+{
+ "genomes": 582,
+ "taxa": {
+  "phylum": 23,
+  "family": 168,
+  "genus": 357
+ },
+ "positives": {
+  "acceptor_sulfate": 45,
+  "acceptor_sulfur": 113,
+  "acceptor_CO2_methanogen_acetogen": 58,
+  "acceptor_iron": 59,
+  "acceptor_nitrate": 231,
+  "donor_hydrogen_oxidation": 36,
+  "donor_sulfur_oxidation": 49,
+  "donor_iron_oxidation": 19,
+  "acceptor_oxygen": 291
+ },
+ "phyla": {
+  "Proteobacteria": 236,
+  "Firmicutes": 109,
+  "Euryarchaeota": 75,
+  "Actinobacteria": 69,
+  "Bacteroidetes": 34,
+  "Crenarchaeota": 9,
+  "Thermotogae": 9,
+  "Deinococcus-Thermus": 8,
+  "Cyanobacteria": 5,
+  "Acidobacteria": 5,
+  "Synergistetes": 4,
+  "Thaumarchaeota": 3,
+  "Spirochaetes": 3,
+  "Chloroflexi": 3,
+  "Chrysiogenetes": 2,
+  "Chlorobi": 1,
+  "Calditrichaeota": 1,
+  "Ignavibacteriae": 1,
+  "Deferribacteres": 1,
+  "Aquificae": 1,
+  "Dictyoglomi": 1,
+  "Gemmatimonadetes": 1,
+  "Fusobacteria": 1
+ }
+}

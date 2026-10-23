@@ -1,0 +1,91 @@
+{
+  "n_genomes": 174,
+  "traits": [
+    "nitrate_reduction",
+    "methanogenesis",
+    "sulfur_reduction",
+    "sulfur_oxidation",
+    "hydrogen_oxidation"
+  ],
+  "positives": {
+    "nitrate_reduction": 39,
+    "methanogenesis": 32,
+    "sulfur_reduction": 30,
+    "sulfur_oxidation": 40,
+    "hydrogen_oxidation": 31
+  },
+  "cv_genus": {
+    "macro_auprc_hackathon_only": 0.6334772966063016,
+    "macro_auprc_full_model_same_genomes": 0.7252481740691836,
+    "diff": -0.09177087746288204,
+    "diff_ci": [
+      -0.1403099853496929,
+      -0.025582841947000945
+    ],
+    "per_trait": {
+      "nitrate_reduction": {
+        "hackathon_only": 0.5820973209931979,
+        "full": 0.7808650914856347
+      },
+      "methanogenesis": {
+        "hackathon_only": 1.0,
+        "full": 1.0
+      },
+      "sulfur_reduction": {
+        "hackathon_only": 0.5627207799907418,
+        "full": 0.6523231713737179
+      },
+      "sulfur_oxidation": {
+        "hackathon_only": 0.6320712971045079,
+        "full": 0.7495468372558729
+      },
+      "hydrogen_oxidation": {
+        "hackathon_only": 0.39049708494306,
+        "full": 0.4435057702306925
+      }
+    }
+  },
+  "cv_family": {
+    "macro_auprc_hackathon_only": 0.6100883875096617,
+    "macro_auprc_full_model_same_genomes": 0.658581377368837,
+    "diff": -0.048492989859175384,
+    "diff_ci": [
+      -0.14073953661556135,
+      0.04706991113807462
+    ],
+    "per_trait": {
+      "nitrate_reduction": {
+        "hackathon_only": 0.6474114851069537,
+        "full": 0.7672190663147114
+      },
+      "methanogenesis": {
+        "hackathon_only": 0.8523691925555645,
+        "full": 1.0
+      },
+      "sulfur_reduction": {
+        "hackathon_only": 0.713765927920556,
+        "full": 0.5914202598970535
+      },
+      "sulfur_oxidation": {
+        "hackathon_only": 0.4510636708517047,
+        "full": 0.6061843923517782
+      },
+      "hydrogen_oxidation": {
+        "hackathon_only": 0.38583166111352907,
+        "full": 0.328083168280642
+      }
+    }
+  },
+  "cv_genus_full_model_all_3378_same_traits": 0.7268452020691627,
+  "new_species": {
+    "tests": 137,
+    "traits_with_both_classes": 4,
+    "macro_auroc_hackathon_only": 0.6710786279227008,
+    "macro_auroc_full": 0.7545636979731749,
+    "diff": -0.08348507005047412,
+    "diff_ci": [
+      -0.23324651664522228,
+      0.08229736873785164
+    ]
+  }
+}

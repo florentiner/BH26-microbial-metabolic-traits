@@ -1,0 +1,6 @@
+model,auroc,lo,hi
+RedoxKO-ens-BF,0.7459,0.6280,0.8734
+RedoxKO,0.7322,0.6226,0.8298
+RedoxKO-ens,0.7053,0.5998,0.8108
+Bacformer-large alone,0.6795,0.5423,0.8344
+ESM-C alone,0.6668,0.5402,0.8028

@@ -1,0 +1,70 @@
+{
+  "prereg_sha256": "d66d2c1d84d0788aad4894b3130640d2a9e5481d935d022265d7cfdba536d3ae",
+  "faprotax": "1.2.12",
+  "faprotax_groups_missing": [
+    "acetogenesis"
+  ],
+  "faprotax_category_groups": {
+    "acceptor_oxygen": [
+      "aerobic_ammonia_oxidation",
+      "aerobic_chemoheterotrophy",
+      "aerobic_nitrite_oxidation",
+      "nitrification"
+    ],
+    "acceptor_nitrate": [
+      "denitrification",
+      "nitrate_denitrification",
+      "nitrate_reduction",
+      "nitrate_respiration",
+      "nitrogen_respiration"
+    ],
+    "acceptor_sulfate": [
+      "sulfate_respiration"
+    ],
+    "acceptor_sulfur": [
+      "sulfite_respiration",
+      "sulfur_respiration",
+      "thiosulfate_respiration"
+    ],
+    "acceptor_iron": [
+      "iron_respiration"
+    ],
+    "acceptor_CO2_methanogen_acetogen": [
+      "hydrogenotrophic_methanogenesis",
+      "methanogenesis",
+      "methanogenesis_by_CO2_reduction_with_H2",
+      "methanogenesis_by_disproportionation_of_methyl_groups",
+      "methanogenesis_by_reduction_of_methyl_compounds_with_H2",
+      "methanogenesis_using_formate",
+      "reductive_acetogenesis"
+    ],
+    "donor_sulfur_oxidation": [
+      "dark_oxidation_of_sulfur_compounds",
+      "dark_sulfide_oxidation",
+      "dark_sulfite_oxidation",
+      "dark_sulfur_oxidation",
+      "dark_thiosulfate_oxidation"
+    ],
+    "donor_hydrogen_oxidation": [
+      "dark_hydrogen_oxidation"
+    ],
+    "donor_iron_oxidation": [
+      "dark_iron_oxidation"
+    ],
+    "donor_ammonia_oxidation": [
+      "aerobic_ammonia_oxidation"
+    ],
+    "donor_nitrite_oxidation": [
+      "aerobic_nitrite_oxidation"
+    ],
+    "donor_CO_oxidation": []
+  },
+  "faprotax_coverage": 0.27,
+  "taxNN_rank_counts": {
+    "family": 32,
+    "domain": 24,
+    "order": 17,
+    "phylum": 15,
+    "class": 12
+  }
+}

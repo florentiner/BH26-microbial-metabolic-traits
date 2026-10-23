@@ -1,0 +1,5 @@
+task,trait,best_model,rule,support,agrees_with_model,precision_vs_labels
+ox,uses_O2,RF,K02259 absent AND K07390 absent AND K01597 present,85,0.9059,0.8235
+ox,uses_O2,RF,K02259 absent AND K07390 present AND K00198 absent,211,1.0000,0.9526
+ox,uses_O2,RF,K02259 present AND K04070 absent,1891,1.0000,0.9804
+ox,uses_O2,RF,K02259 present AND K04070 present AND K01596 absent,12,1.0000,0.6667

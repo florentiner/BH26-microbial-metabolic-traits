@@ -1,0 +1,7 @@
+split_level,contrast,delta_macro_auprc,ci_low,ci_high,p_boot,tied
+genus,RF - B2,0.0402,-0.0010,0.0647,0.0579,True
+genus,RF - null_taxNN,0.1314,0.0917,0.1769,0.0020,False
+genus,B2 - null_taxNN,0.0912,0.0610,0.1511,0.0020,False
+family,RF - B2,0.0035,-0.0400,0.0385,0.9930,True
+family,RF - null_taxNN,0.1724,0.1356,0.2115,0.0020,False
+family,B2 - null_taxNN,0.1689,0.1232,0.2229,0.0020,False

@@ -1,0 +1,1533 @@
+[
+ {
+  "species": "Foliimonas ilicis",
+  "strain": "SB112T",
+  "genus": "Foliimonas",
+  "refseq_accession": "GCF_039939195.1",
+  "year_described": 2025,
+  "description_reference": "Banerjee S, Táncsics A, Wu Z, Stafioiu T, Gao J, Tóth E, Baka E, Bending G, Schäfer H. (2025). Foliimonas ilicis gen. nov., sp. nov., a carbon monoxide-oxidizing bacterium belonging to a novel genus of the family Phyllobacteriaceae isolated from leaves of Ilex aquifolium. International journal of systematic and evolutionary microbiology. doi:10.1099/ijsem.0.006953",
+  "description_url": "https://doi.org/10.1099/ijsem.0.006953",
+  "evidence_tier": "A",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41182829%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/41182829/",
+   "https://api.openalex.org/works/doi:10.1099/ijsem.0.006953",
+   "https://europepmc.org/articles/PMC12582533"
+  ],
+  "oxygen_relationship": "Aerobic: 'The strain was Gram reaction-negative, aerobic, rod-shaped, motile with a polar flagellum and non-spore-forming.' Anaerobic LB +/- KNO3: 'In the anaerobic growth monitoring experiment, there was weak growth observed after incubation.'",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "tested_positive",
+    "substrates": "CO (100 ppm, minimal medium with 250 mg/l yeast extract; GC-monitored CO consumption, data partly not shown; not shown as CO-dependent growth)",
+    "quote": "The initial degradation of 100 ppm CO by strain SB112 T was slow (~37 days), but degradation rates increased significantly in subsequent reinjections, likely due to microbial growth and enhanced metabolic activity.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12582533/fullTextXML"
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth on LB)",
+    "quote": "The strain was Gram reaction-negative, aerobic, rod-shaped, motile with a polar flagellum and non-spore-forming.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12582533/fullTextXML"
+   },
+   "acceptor_nitrate": {
+    "status": "tested_negative",
+    "substrates": "nitrate; API/kit test (API 20NE aerobic NO3- reduction negative). Anaerobic LB +/- 0.15% KNO3 gave only 'weak growth', not reported separately for nitrate",
+    "quote": "For API 20NE, strain SB112 T showed positive results for urease activity, but it was negative for aesculin ferric citrate ( β -glucosidase) hydrolysis and aerobic NO 3 - reduction.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12582533/fullTextXML"
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Desulfurivibrio nitratireducens",
+  "strain": "C05AmBT",
+  "genus": "Desulfurivibrio",
+  "refseq_accession": "GCF_044068515.1",
+  "year_described": 2026,
+  "description_reference": "Khomyakova MA, Merkel AY, Kopitsyn DS, Slobodkin AI. (2026). Desulfurivibrio nitratireducens sp. nov. and Desulfurivibrio modestus sp. nov., two novel alkaliphilic anaerobes isolated from terrestrial mud volcanoes. Systematic and applied microbiology. doi:10.1016/j.syapm.2026.126693",
+  "description_url": "https://doi.org/10.1016/j.syapm.2026.126693",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41643531%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/41643531/",
+   "https://api.openalex.org/works/doi:10.1016/j.syapm.2026.126693"
+  ],
+  "oxygen_relationship": "'The isolates were strict anaerobes with respiratory metabolism' (no aerobic test reported in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "tested_positive",
+    "substrates": "elemental sulfur, sulfide (with nitrate); also disproportionation of S0, sulfite, thiosulfate",
+    "quote": "Strain C05AmBT utilized additionally elemental sulfur and sulfide as electron donors with nitrate as electron acceptor, while strain D14AmBT was incapable of nitrate reduction.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41643531%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "tested_positive",
+    "substrates": "molecular hydrogen (with sulfur compounds as acceptors)",
+    "quote": "The isolates were strict anaerobes with respiratory metabolism, utilizing organic substrates or molecular hydrogen as electron donors with sulfur compounds as electron acceptors.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41643531%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "tested_positive",
+    "substrates": "organic substrates (unspecified in abstract; enrichment with 4-aminobenzoic acid)",
+    "quote": "The isolates were strict anaerobes with respiratory metabolism, utilizing organic substrates or molecular hydrogen as electron donors with sulfur compounds as electron acceptors.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41643531%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "tested_positive",
+    "substrates": "nitrate (with S0 or sulfide as donor)",
+    "quote": "Strain C05AmBT utilized additionally elemental sulfur and sulfide as electron donors with nitrate as electron acceptor, while strain D14AmBT was incapable of nitrate reduction.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41643531%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "tested_positive",
+    "substrates": "'sulfur compounds' (not specified in abstract); disproportionation of elemental sulfur, sulfite, thiosulfate",
+    "quote": "The isolates were strict anaerobes with respiratory metabolism, utilizing organic substrates or molecular hydrogen as electron donors with sulfur compounds as electron acceptors.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:41643531%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Rhodoferax lithotrophicus",
+  "strain": "MIZ03T",
+  "genus": "Rhodoferax",
+  "refseq_accession": "GCF_019973615.1",
+  "year_described": 2024,
+  "description_reference": "Kato S, Itoh T, Iino T, Sakamoto M, Ohkuma M. (2024). Rhodoferax lithotrophicus sp. nov., a neutrophilic iron-oxidizing and -reducing bacterium isolated from iron-rich freshwater sediments. International journal of systematic and evolutionary microbiology. doi:10.1099/ijsem.0.006439",
+  "description_url": "https://doi.org/10.1099/ijsem.0.006439",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38922322%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/38922322/",
+   "https://api.openalex.org/works/doi:10.1099/ijsem.0.006439"
+  ],
+  "oxygen_relationship": "'It could grow not only chemolithoautotrophically but also chemoorganotrophically by aerobic respiration and fermentation.'",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "tested_positive",
+    "substrates": "Fe(II) (neutrophilic iron oxidation; chemolithoautotrophic growth)",
+    "quote": "A neutrophilic iron-oxidizing and -reducing bacterium, strain MIZ03T, was previously isolated from a wetland in Ibaraki, Japan.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38922322%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic respiration)",
+    "quote": "It could grow not only chemolithoautotrophically but also chemoorganotrophically by aerobic respiration and fermentation.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38922322%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "tested_positive",
+    "substrates": "Fe(III)",
+    "quote": "A neutrophilic iron-oxidizing and -reducing bacterium, strain MIZ03T, was previously isolated from a wetland in Ibaraki, Japan.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:38922322%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Desulfofustis limnaeus",
+  "strain": "PPLLT",
+  "genus": "Desulfofustis",
+  "refseq_accession": "GCF_023169885.1",
+  "year_described": 2022,
+  "description_reference": "Watanabe M, Takahashi A, Kojima H, Miyata N, Fukui M. (2022). Desulfofustis limnaeus sp. nov., a freshwater sulfate-reducing bacterium isolated from marsh soil. Archives of microbiology. doi:10.1007/s00203-022-03261-6",
+  "description_url": "https://doi.org/10.1007/s00203-022-03261-6",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36166176%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/36166176/",
+   "https://api.openalex.org/works/doi:10.1007/s00203-022-03261-6"
+  ],
+  "oxygen_relationship": "Not stated in abstract (sulfate-reducing bacterium; no aerobic test reported).",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "tested_positive",
+    "substrates": "H2, only with acetate or yeast extract present (carbon source)",
+    "quote": "Hydrogen is used only in the presence acetate or yeast extract.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36166176%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "tested_positive",
+    "substrates": "lactate, succinate, fumarate, formate, malate",
+    "quote": "Lactate, succinate, fumarate, formate and malate were utilized as electron donors for sulfate reduction.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36166176%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "tested_positive",
+    "substrates": "sulfate",
+    "quote": "Lactate, succinate, fumarate, formate and malate were utilized as electron donors for sulfate reduction.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36166176%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_sulfur": {
+    "status": "tested_positive",
+    "substrates": "sulfite, thiosulfate, elemental sulfur",
+    "quote": "Besides sulfate, sulfite, thiosulfate and elemental sulfur were utilized as electron acceptors.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:36166176%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Marinobacter orientalis",
+  "strain": "W62T",
+  "genus": "Marinobacter",
+  "refseq_accession": "GCF_012956055.1",
+  "year_described": 2021,
+  "description_reference": "Lian FB, Chen XY, Jiang S, Li GY, Du ZJ. (2021). Marinobacter orientalis sp. nov., a thiosulfate-oxidizing bacterium isolated from a marine solar saltern. Antonie van Leeuwenhoek. doi:10.1007/s10482-021-01556-0",
+  "description_url": "https://doi.org/10.1007/s10482-021-01556-0",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33751321%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/33751321/",
+   "https://api.openalex.org/works/doi:10.1007/s10482-021-01556-0"
+  ],
+  "oxygen_relationship": "'A facultatively anaerobic bacterium, strain W62T, was isolated from the marine solar saltern in Weihai, China.'",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "tested_positive",
+    "substrates": "thiosulfate (phenotype stated in the title; abstract also mentions genome sox system - status rests on the title claim, not on genes)",
+    "quote": "Marinobacter orientalis sp. nov., a thiosulfate-oxidizing bacterium isolated from a marine solar saltern.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33751321%20AND%20SRC:MED&format=json&resultType=core (article title)"
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (facultatively anaerobic)",
+    "quote": "A facultatively anaerobic bacterium, strain W62T, was isolated from the marine solar saltern in Weihai, China.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:33751321%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Thermococcus indicus",
+  "strain": "IOH1T",
+  "genus": "Thermococcus",
+  "refseq_accession": "GCF_006274605.1",
+  "year_described": 2020,
+  "description_reference": "Lim JK, Kim YJ, Yang JA, Namirimu T, Yang SH, Park MJ, Kwon YM, Lee HS, Kang SG, Lee JH, Kwon KK. (2020). Thermococcus indicus sp. nov., a Fe(III)-reducing hyperthermophilic archaeon isolated from the Onnuri Vent Field of the Central Indian Ocean ridge. Journal of microbiology (Seoul, Korea). doi:10.1007/s12275-020-9424-9",
+  "description_url": "https://doi.org/10.1007/s12275-020-9424-9",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32239454%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/32239454/",
+   "https://api.openalex.org/works/doi:10.1007/s12275-020-9424-9"
+  ],
+  "oxygen_relationship": "'A strictly anaerobic, dissimilatory Fe(III)-reducing hyperthermophilic archaeon' (no aerobic test reported in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "tested_positive",
+    "substrates": "elemental sulfur (growth enhanced)",
+    "quote": "Growth of strain IOH1T was enhanced by starch, pyruvate, D(+)-maltose and maltodextrin as a carbon sources, and elemental sulfur as an electron acceptor; clearly different from those of related species T. celecrescens DSM 17994T and T. siculi DSM 12349T.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32239454%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "tested_positive",
+    "substrates": "soluble Fe(III)-citrate",
+    "quote": "Strain IOH1T, T. celercrescence DSM 17994T, and T. siculi DSM 12349T reduced soluble Fe(III)-citrate present in the medium, whereas the amount of total cellular proteins increased with the concomitant accumulation of Fe(II).",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:32239454%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Rhodobacter thermarum",
+  "strain": "YIM 73036T",
+  "genus": "Rhodobacter",
+  "refseq_accession": "GCF_003574395.1",
+  "year_described": 2019,
+  "description_reference": "Khan IU, Habib N, Xiao M, Li MM, Xian WD, Hejazi MS, Tarhriz V, Zhi XY, Li WJ. (2019). Rhodobacter thermarum sp. nov., a novel phototrophic bacterium isolated from sediment of a hot spring. Antonie van Leeuwenhoek. doi:10.1007/s10482-018-01219-7",
+  "description_url": "https://doi.org/10.1007/s10482-018-01219-7",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:30798491%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/30798491/",
+   "https://api.openalex.org/works/doi:10.1007/s10482-018-01219-7"
+  ],
+  "oxygen_relationship": "Not stated explicitly in abstract; chemo-organoheterotrophic and chemolithoautotrophic growth reported, conditions (oxic/anoxic) not given.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Thermoanaerobacterium butyriciformans",
+  "strain": "USBA-019T",
+  "genus": "Thermoanaerobacterium",
+  "refseq_accession": "GCF_017874545.1",
+  "year_described": 2017,
+  "description_reference": "López G, Cañas-Duarte SJ, Pinzón-Velasco AM, Vega-Vela NE, Rodríguez M, Restrepo S, Baena S. (2017). Description of a new anaerobic thermophilic bacterium, Thermoanaerobacterium butyriciformans sp. nov. Systematic and applied microbiology. doi:10.1016/j.syapm.2016.11.006",
+  "description_url": "https://doi.org/10.1016/j.syapm.2016.11.006",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28057375%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/28057375/",
+   "https://api.openalex.org/works/doi:10.1016/j.syapm.2016.11.006"
+  ],
+  "oxygen_relationship": "'USBA-019T cells are gram-positive, strictly anaerobic, ...' (no aerobic test reported in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "tested_positive",
+    "substrates": "nitrate",
+    "quote": "Thiosulfate, elemental sulfur and nitrate were utilized as electron acceptors.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28057375%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "tested_positive",
+    "substrates": "thiosulfate, elemental sulfur",
+    "quote": "Thiosulfate, elemental sulfur and nitrate were utilized as electron acceptors.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:28057375%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Desulfocurvus thunnarius",
+  "strain": "Olac 40T",
+  "genus": "Desulfocurvus",
+  "refseq_accession": "GCF_055390965.1",
+  "year_described": 2013,
+  "description_reference": "Hamdi O, Ben Hania W, Postec A, Bartoli M, Hamdi M, Bouallagui H, Fauque G, Ollivier B, Fardeau ML. (2013). Isolation and characterization of Desulfocurvus thunnarius sp. nov., a sulfate-reducing bacterium isolated from an anaerobic sequencing batch reactor treating cooking wastewater. International journal of systematic and evolutionary microbiology. doi:10.1099/ijs.0.051664-0",
+  "description_url": "https://doi.org/10.1099/ijs.0.051664-0",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23811135%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/23811135/",
+   "https://api.openalex.org/works/doi:10.1099/ijs.0.051664-0"
+  ],
+  "oxygen_relationship": "'A novel anaerobic, chemo-organotrophic, sulfate-reducing bacterium' (no aerobic test reported in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "tested_positive",
+    "substrates": "H2 (with acetate as carbon source)",
+    "quote": "Growth was observed on H2 only in the presence of acetate as carbon source.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23811135%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "tested_positive",
+    "substrates": "lactate, pyruvate, formate (with sulfate or thiosulfate)",
+    "quote": "In the presence of sulfate or thiosulfate, strain Olac 40(T) used lactate, pyruvate and formate as energy sources.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23811135%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "tested_negative",
+    "substrates": "nitrate, nitrite (not used)",
+    "quote": "Sulfate, thiosulfate and sulfite were used as terminal electron acceptors, but not elemental sulfur, nitrate or nitrite.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23811135%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_sulfate": {
+    "status": "tested_positive",
+    "substrates": "sulfate",
+    "quote": "Sulfate, thiosulfate and sulfite were used as terminal electron acceptors, but not elemental sulfur, nitrate or nitrite.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23811135%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_sulfur": {
+    "status": "tested_positive",
+    "substrates": "thiosulfate, sulfite positive; elemental sulfur NOT used",
+    "quote": "Sulfate, thiosulfate and sulfite were used as terminal electron acceptors, but not elemental sulfur, nitrate or nitrite.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:23811135%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Desulfobulbus alkaliphilus",
+  "strain": "APS1T",
+  "genus": "Desulfobulbus",
+  "refseq_accession": "GCF_016918545.1",
+  "year_described": 2012,
+  "description_reference": "Sorokin DY, Tourova TP, Panteleeva AN, Muyzer G. (2012). Desulfonatronobacter acidivorans gen. nov., sp. nov. and Desulfobulbus alkaliphilus sp. nov., haloalkaliphilic heterotrophic sulfate-reducing bacteria from soda lakes. International journal of systematic and evolutionary microbiology. doi:10.1099/ijs.0.029777-0",
+  "description_url": "https://doi.org/10.1099/ijs.0.029777-0",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22039002%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/22039002/",
+   "https://api.openalex.org/works/doi:10.1099/ijs.0.029777-0"
+  ],
+  "oxygen_relationship": "Isolated from anoxic sediments; sulfate-reducing; no O2 test reported in abstract.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "tested_positive",
+    "substrates": "propionate, pyruvate (propionate oxidized incompletely to acetate)",
+    "quote": "Strain APT2(T) grew by complete oxidation of C(3)-C(8) fatty acids with thiosulfate or sulfate as the electron acceptor, while strains APS1(T) and ASS1 were much less versatile and utilized only propionate and pyruvate as the electron donor and carbon source with sulfate or sulfite as the electron acceptor.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22039002%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "tested_positive",
+    "substrates": "sulfate",
+    "quote": "Strain APT2(T) grew by complete oxidation of C(3)-C(8) fatty acids with thiosulfate or sulfate as the electron acceptor, while strains APS1(T) and ASS1 were much less versatile and utilized only propionate and pyruvate as the electron donor and carbon source with sulfate or sulfite as the electron acceptor.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22039002%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_sulfur": {
+    "status": "tested_positive",
+    "substrates": "sulfite (thiosulfate/S0 not mentioned for APS1)",
+    "quote": "Strain APT2(T) grew by complete oxidation of C(3)-C(8) fatty acids with thiosulfate or sulfate as the electron acceptor, while strains APS1(T) and ASS1 were much less versatile and utilized only propionate and pyruvate as the electron donor and carbon source with sulfate or sulfite as the electron acceptor.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:22039002%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Methylophaga thiooxidans",
+  "strain": "not stated in abstract",
+  "genus": "Methylophaga",
+  "refseq_accession": "GCF_000156355.1",
+  "year_described": 2010,
+  "description_reference": "Boden R, Kelly DP, Murrell JC, Schäfer H. (2010). Oxidation of dimethylsulfide to tetrathionate by Methylophaga thiooxidans sp. nov.: a new link in the sulfur cycle. Environmental microbiology. doi:10.1111/j.1462-2920.2010.02238.x",
+  "description_url": "https://doi.org/10.1111/j.1462-2920.2010.02238.x",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20482741%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/20482741/",
+   "https://api.openalex.org/works/doi:10.1111/j.1462-2920.2010.02238.x"
+  ],
+  "oxygen_relationship": "Not stated in abstract.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "tested_positive",
+    "substrates": "thiosulfate (to tetrathionate; ATP-coupled; chemolithoheterotrophic growth with DMS or methanol)",
+    "quote": "Thiosulfate oxidation was coupled to ATP synthesis, and M. thiooxidans could also use exogenous thiosulfate as an energy source during chemolithoheterotrophic growth on DMS or methanol.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20482741%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "tested_positive",
+    "substrates": "dimethylsulfide, methanol (growth substrates)",
+    "quote": "Thiosulfate oxidation was coupled to ATP synthesis, and M. thiooxidans could also use exogenous thiosulfate as an energy source during chemolithoheterotrophic growth on DMS or methanol.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:20482741%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Caldisericum exile",
+  "strain": "AZM16c01T",
+  "genus": "Caldisericum",
+  "refseq_accession": "GCF_000284335.1",
+  "year_described": 2009,
+  "description_reference": "Mori K, Yamaguchi K, Sakiyama Y, Urabe T, Suzuki K. (2009). Caldisericum exile gen. nov., sp. nov., an anaerobic, thermophilic, filamentous bacterium of a novel bacterial phylum, Caldiserica phyl. nov., originally called the candidate phylum OP5, and description of Caldisericaceae fam. nov., Caldisericales ord. nov. and Caldisericia classis nov. International journal of systematic and evolutionary microbiology. doi:10.1099/ijs.0.010033-0",
+  "description_url": "https://doi.org/10.1099/ijs.0.010033-0",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19628600%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/19628600/",
+   "https://api.openalex.org/works/doi:10.1099/ijs.0.010033-0"
+  ],
+  "oxygen_relationship": "'An anaerobic, thermophilic, thiosulfate-reducing bacterium' (no aerobic test reported in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "tested_positive",
+    "substrates": "thiosulfate (described as thiosulfate-reducing; details of growth test not in abstract)",
+    "quote": "An anaerobic, thermophilic, thiosulfate-reducing bacterium, strain AZM16c01(T), isolated from a hot spring in Japan [Mori, K., Sunamura, M., Yanagawa, K., Ishibashi, J., Miyoshi, Y., Iino, T., Suzuki, K. & Urabe, T. (2008).",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:19628600%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Roseinatronobacter monicus",
+  "strain": "type strain not named in abstract (strains ROS 10 and ROS 35)",
+  "genus": "Roseinatronobacter",
+  "refseq_accession": "GCF_006716865.1",
+  "year_described": 2007,
+  "description_reference": "Boldareva EN, Briantseva IA, Tsapin A, Nelson K, Sorokin DIu, Turova TP, Boĭchenko VA, Stadnichuk IN, Gorlenko VM. (2007). [The new bacteriochlorophyll a-containing bacterium Roseinatronobacter monicus sp. nov. from the hypersaline soda Mono Lake (California, United States)]. Mikrobiologiia. doi:10.1134/s0026261707010122",
+  "description_url": "https://doi.org/10.1134/s0026261707010122",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17410880%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/17410880/",
+   "https://api.openalex.org/works/doi:10.1134/s0026261707010122"
+  ],
+  "oxygen_relationship": "'The strains were obligately aerobic, ...' and 'They were obligately heterotrophic and grew aerobically in the dark and in the light.'",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "tested_positive",
+    "substrates": "thiosulfate (to sulfate), sulfide, polysulfide - oxidized during organotrophic growth; strains obligately heterotrophic (no lithotrophic growth)",
+    "quote": "In the course of organotrophic growth, the bacteria could oxidize thiosulfate to sulfate; sulfide and polysulfide could also be oxidized.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17410880%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2",
+    "quote": "They were obligately heterotrophic and grew aerobically in the dark and in the light.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:17410880%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Ectothiorhodosinus mongolicum",
+  "strain": "M9T",
+  "genus": "Ectothiorhodosinus",
+  "refseq_accession": "GCF_022406875.1",
+  "year_described": 2004,
+  "description_reference": "Gorlenko VM, Briantseva IA, Panteleeva EE, Turova TP, Kolganova TV, Makhneva ZK, Moskalenko AA. (2004). [Ectothiorhodosinus mongolicum gen. nov., sp. nov.,--a new purple sulfur bacterium from soda lake in Mongolia]. Mikrobiologiia. doi:10.1023/b:mici.0000016371.80123.45",
+  "description_url": "https://doi.org/10.1023/b:mici.0000016371.80123.45",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15074045%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/15074045/",
+   "https://api.openalex.org/works/doi:10.1023/b:mici.0000016371.80123.45"
+  ],
+  "oxygen_relationship": "'The bacterium is an anaerobe and facultative photoorganoheterotroph.' (no aerobic test reported in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "tested_positive",
+    "substrates": "sulfide (photolithoautotrophic growth 'scarce'), thiosulfate (only with organic matter); oxidized to sulfate via S0 globules",
+    "quote": "Thiosulfate is utilized as an electron donor only in the presence of organic matter.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15074045%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Vulcanisaeta distributa",
+  "strain": "IC 017T",
+  "genus": "Vulcanisaeta",
+  "refseq_accession": "GCF_000148385.1",
+  "year_described": 2002,
+  "description_reference": "Itoh T, Suzuki K, Nakase T. (2002). Vulcanisaeta distributa gen. nov., sp. nov., and Vulcanisaeta souniana sp. nov., novel hyperthermophilic, rod-shaped crenarchaeotes isolated from hot springs in Japan. International journal of systematic and evolutionary microbiology. doi:10.1099/00207713-52-4-1097",
+  "description_url": "https://doi.org/10.1099/00207713-52-4-1097",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12148613%20AND%20SRC:MED&format=json&resultType=core",
+   "https://pubmed.ncbi.nlm.nih.gov/12148613/",
+   "https://api.openalex.org/works/doi:10.1099/00207713-52-4-1097"
+  ],
+  "oxygen_relationship": "'heterotrophic, anaerobic, hyperthermophilic crenarchaeotes' (no aerobic test reported in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "tested_positive",
+    "substrates": "sulfur, thiosulfate ('possible electron acceptors'; statement covers the eight characterized strains of both species)",
+    "quote": "They utilized yeast extract, peptone, beef extract, Casamino acids, gelatin, starch, maltose and malate as carbon sources and sulfur and thiosulfate as possible electron acceptors.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:12148613%20AND%20SRC:MED&format=json&resultType=core (abstract)"
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ }
+]

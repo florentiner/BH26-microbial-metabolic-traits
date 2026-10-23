@@ -1,0 +1,241 @@
+task,trait,fold,cls,rule,heldout_support,heldout_correct
+da,donor_sulfur_oxidation,0,1,IF K00459 (K00459) absent AND sqr (K17218) present AND soxZ (K17227) present THEN has donor_sulfur_oxidation,14,14
+da,donor_sulfur_oxidation,0,1,IF tth (K27925) present THEN has donor_sulfur_oxidation,4,4
+da,donor_sulfur_oxidation,0,1,IF soxZ (K17227) present AND K27196 (K27196) present THEN has donor_sulfur_oxidation,7,7
+da,donor_sulfur_oxidation,0,0,IF K00459 (K00459) present AND sat (K00958) absent AND soxZ (K17227) absent THEN lacks donor_sulfur_oxidation,4,3
+da,donor_sulfur_oxidation,0,0,IF sat (K00958) absent AND soxZ (K17227) absent AND tth (K27925) absent THEN lacks donor_sulfur_oxidation,20,19
+da,donor_sulfur_oxidation,1,1,IF K00459 (K00459) absent AND sqr (K17218) present AND soxZ (K17227) present THEN has donor_sulfur_oxidation,5,5
+da,donor_sulfur_oxidation,1,1,IF petB/C (K00410) absent AND K00459 (K00459) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,5,5
+da,donor_sulfur_oxidation,1,1,IF K27196 (K27196) present THEN has donor_sulfur_oxidation,5,4
+da,donor_sulfur_oxidation,1,0,IF sat (K00958) absent AND soxZ (K17227) absent AND tth (K27925) absent THEN lacks donor_sulfur_oxidation,29,28
+da,donor_sulfur_oxidation,1,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,15,15
+da,donor_sulfur_oxidation,2,1,IF K00459 (K00459) absent AND sqr (K17218) present AND soxZ (K17227) present THEN has donor_sulfur_oxidation,16,15
+da,donor_sulfur_oxidation,2,1,IF petB/C (K00410) absent AND K00459 (K00459) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,16,15
+da,donor_sulfur_oxidation,2,1,IF tth (K27925) present THEN has donor_sulfur_oxidation,4,4
+da,donor_sulfur_oxidation,2,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,26,26
+da,donor_sulfur_oxidation,2,0,IF sat (K00958) absent AND soxZ (K17227) absent AND tth (K27925) absent THEN lacks donor_sulfur_oxidation,32,32
+da,donor_sulfur_oxidation,3,1,IF K00459 (K00459) absent AND sqr (K17218) present AND soxZ (K17227) present THEN has donor_sulfur_oxidation,7,7
+da,donor_sulfur_oxidation,3,1,IF K00459 (K00459) absent AND K02299 (K02299) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,9,7
+da,donor_sulfur_oxidation,3,1,IF soxZ (K17227) present AND K27196 (K27196) present THEN has donor_sulfur_oxidation,5,5
+da,donor_sulfur_oxidation,3,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,19,18
+da,donor_sulfur_oxidation,3,0,IF sat (K00958) absent AND soxZ (K17227) absent AND tth (K27925) absent THEN lacks donor_sulfur_oxidation,25,24
+da,donor_sulfur_oxidation,4,1,IF K00459 (K00459) absent AND sqr (K17218) present AND soxZ (K17227) present THEN has donor_sulfur_oxidation,8,8
+da,donor_sulfur_oxidation,4,1,IF petB/C (K00410) absent AND K00459 (K00459) absent AND soxZ (K17227) present THEN has donor_sulfur_oxidation,8,8
+da,donor_sulfur_oxidation,4,1,IF tth (K27925) present THEN has donor_sulfur_oxidation,3,3
+da,donor_sulfur_oxidation,4,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks donor_sulfur_oxidation,22,22
+da,donor_sulfur_oxidation,4,0,IF sat (K00958) absent AND soxZ (K17227) absent AND tth (K27925) absent THEN lacks donor_sulfur_oxidation,33,33
+da,donor_ammonia_oxidation,0,1,IF amoB (K10945) present AND K26139 (K26139) absent THEN has donor_ammonia_oxidation,6,6
+da,donor_ammonia_oxidation,0,0,IF amoB (K10945) absent AND K26139 (K26139) absent THEN lacks donor_ammonia_oxidation,50,50
+da,donor_ammonia_oxidation,0,0,IF amoB (K10945) absent THEN lacks donor_ammonia_oxidation,64,64
+da,donor_ammonia_oxidation,1,1,IF amoB (K10945) present AND K26139 (K26139) absent THEN has donor_ammonia_oxidation,3,3
+da,donor_ammonia_oxidation,1,1,IF amoB (K10945) present THEN has donor_ammonia_oxidation,3,3
+da,donor_ammonia_oxidation,1,0,IF amoB (K10945) absent THEN lacks donor_ammonia_oxidation,66,63
+da,donor_ammonia_oxidation,1,0,IF K26139 (K26139) present THEN lacks donor_ammonia_oxidation,10,7
+da,donor_ammonia_oxidation,2,1,IF amoB (K10945) present AND K26139 (K26139) absent THEN has donor_ammonia_oxidation,6,6
+da,donor_ammonia_oxidation,2,1,IF amoB (K10945) present THEN has donor_ammonia_oxidation,6,6
+da,donor_ammonia_oxidation,2,0,IF amoB (K10945) absent AND K26139 (K26139) absent THEN lacks donor_ammonia_oxidation,49,48
+da,donor_ammonia_oxidation,2,0,IF amoB (K10945) absent THEN lacks donor_ammonia_oxidation,67,66
+da,donor_ammonia_oxidation,3,1,IF amoB (K10945) present AND K26139 (K26139) absent THEN has donor_ammonia_oxidation,5,3
+da,donor_ammonia_oxidation,3,1,IF amoB (K10945) present THEN has donor_ammonia_oxidation,7,3
+da,donor_ammonia_oxidation,3,0,IF amoB (K10945) absent AND K26139 (K26139) absent THEN lacks donor_ammonia_oxidation,59,58
+da,donor_ammonia_oxidation,3,0,IF amoB (K10945) absent THEN lacks donor_ammonia_oxidation,67,66
+da,donor_ammonia_oxidation,4,1,IF amoB (K10945) present AND K26139 (K26139) absent THEN has donor_ammonia_oxidation,8,8
+da,donor_ammonia_oxidation,4,1,IF amoB (K10945) present THEN has donor_ammonia_oxidation,9,8
+da,donor_ammonia_oxidation,4,0,IF amoB (K10945) absent AND K26139 (K26139) absent THEN lacks donor_ammonia_oxidation,51,51
+da,donor_ammonia_oxidation,4,0,IF amoB (K10945) absent THEN lacks donor_ammonia_oxidation,62,62
+da,donor_nitrite_oxidation,0,0,IF K00332 (K00332) absent THEN lacks donor_nitrite_oxidation,36,36
+da,donor_nitrite_oxidation,0,0,IF korA (K00174) present AND ccoP (K00406) absent THEN lacks donor_nitrite_oxidation,38,38
+da,donor_nitrite_oxidation,1,0,IF K01679 (K01679) absent THEN lacks donor_nitrite_oxidation,43,42
+da,donor_nitrite_oxidation,1,0,IF K00332 (K00332) absent THEN lacks donor_nitrite_oxidation,35,35
+da,donor_nitrite_oxidation,2,0,IF korA (K00174) present AND ccoP (K00406) absent THEN lacks donor_nitrite_oxidation,37,37
+da,donor_nitrite_oxidation,2,0,IF K00332 (K00332) absent THEN lacks donor_nitrite_oxidation,41,41
+da,donor_nitrite_oxidation,3,0,IF korA (K00174) present THEN lacks donor_nitrite_oxidation,45,44
+da,donor_nitrite_oxidation,3,0,IF K00332 (K00332) absent THEN lacks donor_nitrite_oxidation,48,48
+da,donor_nitrite_oxidation,4,0,IF K00332 (K00332) absent THEN lacks donor_nitrite_oxidation,32,32
+da,donor_nitrite_oxidation,4,0,IF korA (K00174) present AND ccoP (K00406) absent THEN lacks donor_nitrite_oxidation,32,32
+da,donor_hydrogen_oxidation,0,1,IF K01678 (K01678) present AND K15986 (K15986) present THEN has donor_hydrogen_oxidation,6,6
+da,donor_hydrogen_oxidation,0,1,IF K00338 (K00338) absent AND K01678 (K01678) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,11,11
+da,donor_hydrogen_oxidation,0,1,IF K00342 (K00342) absent AND K01678 (K01678) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,12,12
+da,donor_hydrogen_oxidation,0,0,IF K01962 (K01962) present AND hyaB (K06281) absent AND fwdE (K11261) absent THEN lacks donor_hydrogen_oxidation,16,11
+da,donor_hydrogen_oxidation,0,0,IF K00342 (K00342) absent AND ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,5,4
+da,donor_hydrogen_oxidation,1,1,IF K00338 (K00338) absent AND K01678 (K01678) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,8,8
+da,donor_hydrogen_oxidation,1,1,IF K01678 (K01678) present AND K15986 (K15986) present THEN has donor_hydrogen_oxidation,16,16
+da,donor_hydrogen_oxidation,1,1,IF K00342 (K00342) absent AND K01678 (K01678) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,8,8
+da,donor_hydrogen_oxidation,1,0,IF K00342 (K00342) absent AND ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,0,0
+da,donor_hydrogen_oxidation,1,0,IF K01678 (K01678) absent AND K01962 (K01962) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,15,12
+da,donor_hydrogen_oxidation,2,1,IF K00342 (K00342) absent AND K01678 (K01678) present THEN has donor_hydrogen_oxidation,21,19
+da,donor_hydrogen_oxidation,2,1,IF K01678 (K01678) present AND K15986 (K15986) present THEN has donor_hydrogen_oxidation,13,13
+da,donor_hydrogen_oxidation,2,1,IF K00338 (K00338) absent AND K00342 (K00342) absent AND K03885 (K03885) absent THEN has donor_hydrogen_oxidation,19,18
+da,donor_hydrogen_oxidation,2,0,IF K00338 (K00338) present AND hyaB (K06281) absent AND fwdE (K11261) absent THEN lacks donor_hydrogen_oxidation,28,19
+da,donor_hydrogen_oxidation,2,0,IF K01678 (K01678) absent AND hyaB (K06281) absent AND fwdE (K11261) absent THEN lacks donor_hydrogen_oxidation,26,19
+da,donor_hydrogen_oxidation,3,1,IF K00338 (K00338) absent AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,18,16
+da,donor_hydrogen_oxidation,3,1,IF K00342 (K00342) absent AND K01677 (K01677) present AND K01962 (K01962) absent THEN has donor_hydrogen_oxidation,11,6
+da,donor_hydrogen_oxidation,3,1,IF K01678 (K01678) present AND K15986 (K15986) present THEN has donor_hydrogen_oxidation,10,10
+da,donor_hydrogen_oxidation,3,0,IF ctaA (K02259) present AND hyaB (K06281) absent AND fwdE (K11261) absent THEN lacks donor_hydrogen_oxidation,10,5
+da,donor_hydrogen_oxidation,3,0,IF K00380 (K00380) absent AND ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,10,5
+da,donor_hydrogen_oxidation,4,1,IF K00338 (K00338) absent AND K01678 (K01678) present AND hyaB (K06281) absent THEN has donor_hydrogen_oxidation,16,16
+da,donor_hydrogen_oxidation,4,1,IF K01678 (K01678) present AND K15986 (K15986) present THEN has donor_hydrogen_oxidation,16,16
+da,donor_hydrogen_oxidation,4,1,IF K01678 (K01678) present AND K01962 (K01962) absent THEN has donor_hydrogen_oxidation,20,17
+da,donor_hydrogen_oxidation,4,0,IF ctaA (K02259) present AND hyaB (K06281) absent AND fwdE (K11261) absent THEN lacks donor_hydrogen_oxidation,16,14
+da,donor_hydrogen_oxidation,4,0,IF ctaA (K02259) present AND hyaB (K06281) absent THEN lacks donor_hydrogen_oxidation,18,16
+da,donor_CO_oxidation,0,0,IF K00459 (K00459) absent AND K00640 (K00640) present AND K15553 (K15553) absent THEN lacks donor_CO_oxidation,22,22
+da,donor_CO_oxidation,0,0,IF K01500 (K01500) absent AND K15553 (K15553) absent AND K24998 (K24998) absent THEN lacks donor_CO_oxidation,41,41
+da,donor_CO_oxidation,1,0,IF K00459 (K00459) absent AND K00640 (K00640) present AND K15553 (K15553) absent THEN lacks donor_CO_oxidation,16,16
+da,donor_CO_oxidation,1,0,IF K00640 (K00640) present AND K01500 (K01500) absent AND K15553 (K15553) absent THEN lacks donor_CO_oxidation,28,28
+da,donor_CO_oxidation,2,0,IF K00459 (K00459) absent AND K15553 (K15553) absent THEN lacks donor_CO_oxidation,35,33
+da,donor_CO_oxidation,2,0,IF K01500 (K01500) absent AND K15553 (K15553) absent AND K24998 (K24998) absent THEN lacks donor_CO_oxidation,49,46
+da,donor_CO_oxidation,3,0,IF K00459 (K00459) absent AND K00640 (K00640) present AND K19793 (K19793) absent THEN lacks donor_CO_oxidation,17,15
+da,donor_CO_oxidation,3,0,IF K00459 (K00459) absent AND K00640 (K00640) present AND K15553 (K15553) absent THEN lacks donor_CO_oxidation,14,14
+da,donor_CO_oxidation,4,0,IF K00640 (K00640) present AND K01500 (K01500) absent AND K15553 (K15553) absent THEN lacks donor_CO_oxidation,37,35
+da,donor_CO_oxidation,4,0,IF K00640 (K00640) present AND K01938 (K01938) absent AND K15553 (K15553) absent THEN lacks donor_CO_oxidation,32,30
+da,donor_iron_oxidation,0,0,IF sorB (K00386) absent AND fccB (K17229) present THEN lacks donor_iron_oxidation,13,13
+da,donor_iron_oxidation,0,0,IF K00262 (K00262) present AND coxA (K02274) present THEN lacks donor_iron_oxidation,7,7
+da,donor_iron_oxidation,1,1,IF sorB (K00386) absent AND K14449 (K14449) absent AND tth (K27925) present THEN has donor_iron_oxidation,5,2
+da,donor_iron_oxidation,1,0,IF sorB (K00386) absent AND fccB (K17229) present THEN lacks donor_iron_oxidation,8,8
+da,donor_iron_oxidation,1,0,IF fccB (K17229) present THEN lacks donor_iron_oxidation,10,9
+da,donor_iron_oxidation,2,0,IF sorB (K00386) absent AND fccB (K17229) present THEN lacks donor_iron_oxidation,20,20
+da,donor_iron_oxidation,2,0,IF korC (K00177) present AND K00262 (K00262) absent THEN lacks donor_iron_oxidation,12,12
+da,donor_iron_oxidation,3,0,IF sorB (K00386) absent AND coxA (K02274) present THEN lacks donor_iron_oxidation,13,12
+da,donor_iron_oxidation,3,0,IF sorB (K00386) absent AND fccB (K17229) present THEN lacks donor_iron_oxidation,9,9
+da,donor_iron_oxidation,4,0,IF korC (K00177) present AND K00262 (K00262) absent THEN lacks donor_iron_oxidation,24,23
+da,donor_iron_oxidation,4,0,IF korC (K00177) absent AND K00262 (K00262) present THEN lacks donor_iron_oxidation,20,19
+da,donor_other,0,0,IF ctaB (K02257) absent AND K03972 (K03972) absent THEN lacks donor_other,19,19
+da,donor_other,0,0,IF ctaB (K02257) absent AND K02446 (K02446) absent THEN lacks donor_other,27,24
+da,donor_other,1,0,IF ctaB (K02257) absent AND K03972 (K03972) absent THEN lacks donor_other,18,18
+da,donor_other,1,0,IF narG (K00370) absent AND ctaB (K02257) absent THEN lacks donor_other,30,28
+da,donor_other,2,0,IF ctaB (K02257) absent AND K03972 (K03972) absent THEN lacks donor_other,31,31
+da,donor_other,2,0,IF narG (K00370) absent AND K03972 (K03972) absent THEN lacks donor_other,41,39
+da,donor_other,3,0,IF ctaB (K02257) absent AND K03972 (K03972) absent THEN lacks donor_other,17,17
+da,donor_other,3,0,IF narG (K00370) absent AND ctaB (K02257) absent THEN lacks donor_other,29,28
+da,donor_other,4,0,IF ctaB (K02257) absent AND K03972 (K03972) absent THEN lacks donor_other,25,25
+da,donor_other,4,0,IF K03972 (K03972) absent AND K10831 (K10831) absent AND K15633 (K15633) present THEN lacks donor_other,11,11
+da,acceptor_oxygen,0,1,IF petC (K00413) present AND K01007 (K01007) absent AND hcp (K05601) absent THEN has acceptor_oxygen,3,3
+da,acceptor_oxygen,0,1,IF petC (K00413) present AND hcp (K05601) absent THEN has acceptor_oxygen,19,16
+da,acceptor_oxygen,0,1,IF cooS (K00198) absent AND hcp (K05601) absent AND mvhD (K14127) absent THEN has acceptor_oxygen,36,32
+da,acceptor_oxygen,0,0,IF K01007 (K01007) absent AND hcp (K05601) present THEN lacks acceptor_oxygen,6,4
+da,acceptor_oxygen,0,0,IF cooS (K00198) present AND K01007 (K01007) absent THEN lacks acceptor_oxygen,5,4
+da,acceptor_oxygen,1,1,IF petC (K00413) present AND K01007 (K01007) absent AND hcp (K05601) absent THEN has acceptor_oxygen,2,2
+da,acceptor_oxygen,1,1,IF cooS (K00198) absent AND hcp (K05601) absent AND mvhD (K14127) absent THEN has acceptor_oxygen,38,29
+da,acceptor_oxygen,1,1,IF cdhE (K00197) absent AND ctaB (K02257) present AND hdrB2 (K03389) absent THEN has acceptor_oxygen,31,23
+da,acceptor_oxygen,1,0,IF cooS (K00198) present AND hdrB2 (K03389) present THEN lacks acceptor_oxygen,12,10
+da,acceptor_oxygen,1,0,IF cooS (K00198) present THEN lacks acceptor_oxygen,23,20
+da,acceptor_oxygen,2,1,IF petC (K00413) present AND K01007 (K01007) absent AND hcp (K05601) absent THEN has acceptor_oxygen,0,0
+da,acceptor_oxygen,2,1,IF petC (K00413) present AND hcp (K05601) absent THEN has acceptor_oxygen,28,21
+da,acceptor_oxygen,2,1,IF petC (K00413) present AND ctaB (K02257) present THEN has acceptor_oxygen,16,11
+da,acceptor_oxygen,2,0,IF hdrA2 (K03388) present AND hdrB2 (K03389) present THEN lacks acceptor_oxygen,14,12
+da,acceptor_oxygen,2,0,IF hdrB2 (K03389) present AND hcp (K05601) present THEN lacks acceptor_oxygen,13,11
+da,acceptor_oxygen,3,1,IF petC (K00413) present AND K01007 (K01007) absent AND hcp (K05601) absent THEN has acceptor_oxygen,11,10
+da,acceptor_oxygen,3,1,IF cooS (K00198) absent AND hcp (K05601) absent AND mvhD (K14127) absent THEN has acceptor_oxygen,46,39
+da,acceptor_oxygen,3,1,IF petC (K00413) present AND K01007 (K01007) absent AND ctaB (K02257) present THEN has acceptor_oxygen,10,9
+da,acceptor_oxygen,3,0,IF cooS (K00198) present AND hdrB2 (K03389) present AND nirS (K15864) absent THEN lacks acceptor_oxygen,7,7
+da,acceptor_oxygen,3,0,IF hdrA2 (K03388) present AND hdrB2 (K03389) present THEN lacks acceptor_oxygen,13,13
+da,acceptor_oxygen,4,1,IF petC (K00413) present AND hcp (K05601) absent AND nirS (K15864) absent THEN has acceptor_oxygen,24,20
+da,acceptor_oxygen,4,1,IF petC (K00413) present AND hcp (K05601) absent THEN has acceptor_oxygen,30,26
+da,acceptor_oxygen,4,1,IF cooS (K00198) absent AND hcp (K05601) absent AND mvhD (K14127) absent THEN has acceptor_oxygen,39,33
+da,acceptor_oxygen,4,0,IF cooS (K00198) present AND hdrB2 (K03389) present AND nirS (K15864) absent THEN lacks acceptor_oxygen,16,16
+da,acceptor_oxygen,4,0,IF hdrA2 (K03388) present AND hdrB2 (K03389) present THEN lacks acceptor_oxygen,19,19
+da,acceptor_nitrate,0,1,IF K00265 (K00265) present AND nosZ (K00376) present AND napB (K02568) present THEN has acceptor_nitrate,6,5
+da,acceptor_nitrate,0,1,IF nosZ (K00376) present AND K01678 (K01678) absent AND napB (K02568) present THEN has acceptor_nitrate,6,5
+da,acceptor_nitrate,0,1,IF K00265 (K00265) present AND napB (K02568) present AND norB (K04561) present THEN has acceptor_nitrate,9,7
+da,acceptor_nitrate,0,0,IF K00265 (K00265) absent AND K01491 (K01491) absent AND norB (K04561) absent THEN lacks acceptor_nitrate,17,16
+da,acceptor_nitrate,0,0,IF narJ (K00373) absent AND K01491 (K01491) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,18,17
+da,acceptor_nitrate,1,1,IF nirB (K00362) absent AND nosZ (K00376) present AND norC (K02305) present THEN has acceptor_nitrate,7,6
+da,acceptor_nitrate,1,1,IF K00265 (K00265) present AND nosZ (K00376) present AND norC (K02305) present THEN has acceptor_nitrate,6,5
+da,acceptor_nitrate,1,1,IF nosZ (K00376) present AND K01678 (K01678) absent AND napB (K02568) present THEN has acceptor_nitrate,2,2
+da,acceptor_nitrate,1,0,IF K01491 (K01491) absent AND narK (K02575) absent AND norB (K04561) absent THEN lacks acceptor_nitrate,16,14
+da,acceptor_nitrate,1,0,IF narJ (K00373) absent AND K01491 (K01491) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,17,15
+da,acceptor_nitrate,2,1,IF nosZ (K00376) present AND cysI (K00381) absent AND norC (K02305) present THEN has acceptor_nitrate,2,1
+da,acceptor_nitrate,2,1,IF nirB (K00362) absent AND nosZ (K00376) present AND napB (K02568) present THEN has acceptor_nitrate,1,0
+da,acceptor_nitrate,2,1,IF nirB (K00362) absent AND nosZ (K00376) present AND norC (K02305) present THEN has acceptor_nitrate,2,1
+da,acceptor_nitrate,2,0,IF K01678 (K01678) absent AND coxC (K02276) absent AND norC (K02305) absent THEN lacks acceptor_nitrate,26,23
+da,acceptor_nitrate,2,0,IF narJ (K00373) absent AND K01491 (K01491) absent AND coxC (K02276) absent THEN lacks acceptor_nitrate,26,24
+da,acceptor_nitrate,3,1,IF narI (K00374) present AND cysI (K00381) absent AND coxC (K02276) present THEN has acceptor_nitrate,5,4
+da,acceptor_nitrate,3,1,IF nosZ (K00376) present AND K01648 (K01648) absent AND norC (K02305) present THEN has acceptor_nitrate,1,1
+da,acceptor_nitrate,3,1,IF nirB (K00362) present AND norC (K02305) absent AND narK (K02575) present THEN has acceptor_nitrate,9,7
+da,acceptor_nitrate,3,0,IF K00265 (K00265) absent AND K01491 (K01491) absent AND norB (K04561) absent THEN lacks acceptor_nitrate,14,14
+da,acceptor_nitrate,3,0,IF K00265 (K00265) absent AND narJ (K00373) absent AND K01491 (K01491) absent THEN lacks acceptor_nitrate,13,13
+da,acceptor_nitrate,4,1,IF cysI (K00381) absent AND coxC (K02276) present AND norB (K04561) present THEN has acceptor_nitrate,3,1
+da,acceptor_nitrate,4,1,IF K00265 (K00265) present AND napB (K02568) present AND narK (K02575) present THEN has acceptor_nitrate,3,2
+da,acceptor_nitrate,4,1,IF narI (K00374) present AND cysI (K00381) absent AND coxC (K02276) present THEN has acceptor_nitrate,2,2
+da,acceptor_nitrate,4,0,IF K01491 (K01491) absent AND K01678 (K01678) absent AND coxC (K02276) absent THEN lacks acceptor_nitrate,2,2
+da,acceptor_nitrate,4,0,IF K01491 (K01491) absent AND K01678 (K01678) absent AND narK (K02575) absent THEN lacks acceptor_nitrate,1,1
+da,acceptor_sulfate,0,1,IF korC (K00177) present AND dsrK (K27188) present THEN has acceptor_sulfate,17,15
+da,acceptor_sulfate,0,1,IF psrA (K08352) present AND fwdE (K11261) present AND dsrK (K27188) present THEN has acceptor_sulfate,17,15
+da,acceptor_sulfate,0,1,IF fdoH (K00124) present AND dsrB (K11181) present AND fwdE (K11261) present THEN has acceptor_sulfate,15,13
+da,acceptor_sulfate,0,0,IF korD (K00176) absent AND dsrM (K27187) absent THEN lacks acceptor_sulfate,34,34
+da,acceptor_sulfate,0,0,IF korD (K00176) absent AND psrA (K08352) absent AND dsrA (K11180) absent THEN lacks acceptor_sulfate,33,33
+da,acceptor_sulfate,1,1,IF korC (K00177) present AND sat (K00958) present AND dsrO (K27190) present THEN has acceptor_sulfate,9,9
+da,acceptor_sulfate,1,1,IF korC (K00177) present AND psrA (K08352) present AND dsrO (K27190) present THEN has acceptor_sulfate,8,8
+da,acceptor_sulfate,1,1,IF korC (K00177) present AND sat (K00958) present AND dsrB (K11181) present THEN has acceptor_sulfate,11,11
+da,acceptor_sulfate,1,0,IF korD (K00176) absent AND dsrA (K11180) absent THEN lacks acceptor_sulfate,36,35
+da,acceptor_sulfate,1,0,IF korC (K00177) absent AND psrA (K08352) absent AND fwdE (K11261) absent THEN lacks acceptor_sulfate,32,32
+da,acceptor_sulfate,2,1,IF korC (K00177) present AND sat (K00958) present AND dsrO (K27190) present THEN has acceptor_sulfate,3,3
+da,acceptor_sulfate,2,1,IF korC (K00177) present AND psrA (K08352) present AND dsrO (K27190) present THEN has acceptor_sulfate,3,3
+da,acceptor_sulfate,2,1,IF korC (K00177) present AND sat (K00958) present AND dsrB (K11181) present THEN has acceptor_sulfate,4,4
+da,acceptor_sulfate,2,0,IF korD (K00176) absent AND dsrM (K27187) absent THEN lacks acceptor_sulfate,34,34
+da,acceptor_sulfate,2,0,IF korD (K00176) absent AND psrA (K08352) absent AND dsrA (K11180) absent THEN lacks acceptor_sulfate,32,32
+da,acceptor_sulfate,3,1,IF korC (K00177) present AND psrA (K08352) present AND dsrO (K27190) present THEN has acceptor_sulfate,3,3
+da,acceptor_sulfate,3,1,IF korC (K00177) present AND sat (K00958) present AND dsrO (K27190) present THEN has acceptor_sulfate,5,5
+da,acceptor_sulfate,3,1,IF fdoI (K00127) present AND fwdE (K11261) present AND dsrO (K27190) present THEN has acceptor_sulfate,2,2
+da,acceptor_sulfate,3,0,IF korD (K00176) absent AND dsrM (K27187) absent THEN lacks acceptor_sulfate,51,51
+da,acceptor_sulfate,3,0,IF korC (K00177) absent AND psrA (K08352) absent AND fwdE (K11261) absent THEN lacks acceptor_sulfate,32,32
+da,acceptor_sulfate,4,1,IF korC (K00177) present AND sat (K00958) present AND dsrO (K27190) present THEN has acceptor_sulfate,7,7
+da,acceptor_sulfate,4,1,IF korC (K00177) present AND sat (K00958) present AND dsrB (K11181) present THEN has acceptor_sulfate,7,7
+da,acceptor_sulfate,4,1,IF fdoH (K00124) present AND korC (K00177) present AND K00533 (K00533) absent THEN has acceptor_sulfate,5,5
+da,acceptor_sulfate,4,0,IF korC (K00177) absent AND psrA (K08352) absent THEN lacks acceptor_sulfate,37,36
+da,acceptor_sulfate,4,0,IF korD (K00176) absent AND dsrM (K27187) absent THEN lacks acceptor_sulfate,42,42
+da,acceptor_sulfur,0,0,IF K00831 (K00831) present AND mvhD (K14127) absent AND K15553 (K15553) absent THEN lacks acceptor_sulfur,16,16
+da,acceptor_sulfur,0,0,IF K00831 (K00831) present AND K01007 (K01007) present AND mvhD (K14127) absent THEN lacks acceptor_sulfur,23,23
+da,acceptor_sulfur,1,0,IF K00831 (K00831) present AND K01007 (K01007) present AND mvhD (K14127) absent THEN lacks acceptor_sulfur,19,19
+da,acceptor_sulfur,1,0,IF K00831 (K00831) present AND mvhD (K14127) absent AND K15553 (K15553) absent THEN lacks acceptor_sulfur,19,19
+da,acceptor_sulfur,2,0,IF K00831 (K00831) present AND mvhD (K14127) absent AND K15553 (K15553) absent THEN lacks acceptor_sulfur,28,28
+da,acceptor_sulfur,2,0,IF K00831 (K00831) present AND K01007 (K01007) present AND mvhD (K14127) absent THEN lacks acceptor_sulfur,30,30
+da,acceptor_sulfur,3,0,IF K00831 (K00831) present AND K01007 (K01007) present AND mvhD (K14127) absent THEN lacks acceptor_sulfur,12,12
+da,acceptor_sulfur,3,0,IF K00831 (K00831) present AND mvhD (K14127) absent AND K15553 (K15553) absent THEN lacks acceptor_sulfur,16,16
+da,acceptor_sulfur,4,0,IF K00831 (K00831) present AND mvhD (K14127) absent THEN lacks acceptor_sulfur,37,35
+da,acceptor_sulfur,4,0,IF K15553 (K15553) present THEN lacks acceptor_sulfur,16,14
+da,acceptor_CO2_methanogen_acetogen,0,1,IF K00233 (K00233) absent AND K00338 (K00338) absent AND acsB (K14138) present THEN has acceptor_CO2_methanogen_acetogen,5,0
+da,acceptor_CO2_methanogen_acetogen,0,1,IF cdhD (K00194) present AND K00338 (K00338) absent AND fwdE (K11261) present THEN has acceptor_CO2_methanogen_acetogen,14,9
+da,acceptor_CO2_methanogen_acetogen,0,1,IF cdhD (K00194) present AND asrA (K16950) present THEN has acceptor_CO2_methanogen_acetogen,1,1
+da,acceptor_CO2_methanogen_acetogen,0,0,IF cdhD (K00194) absent AND K00338 (K00338) present THEN lacks acceptor_CO2_methanogen_acetogen,45,44
+da,acceptor_CO2_methanogen_acetogen,0,0,IF cdhD (K00194) absent AND fwdE (K11261) absent THEN lacks acceptor_CO2_methanogen_acetogen,41,40
+da,acceptor_CO2_methanogen_acetogen,1,1,IF K00338 (K00338) absent AND asrA (K16950) present THEN has acceptor_CO2_methanogen_acetogen,6,6
+da,acceptor_CO2_methanogen_acetogen,1,1,IF asrA (K16950) present THEN has acceptor_CO2_methanogen_acetogen,7,6
+da,acceptor_CO2_methanogen_acetogen,1,1,IF cdhD (K00194) present AND fwdE (K11261) present AND acsB (K14138) absent THEN has acceptor_CO2_methanogen_acetogen,4,3
+da,acceptor_CO2_methanogen_acetogen,1,0,IF cdhD (K00194) absent AND K00338 (K00338) present THEN lacks acceptor_CO2_methanogen_acetogen,46,46
+da,acceptor_CO2_methanogen_acetogen,1,0,IF cdhD (K00194) absent AND fwdE (K11261) absent THEN lacks acceptor_CO2_methanogen_acetogen,37,37
+da,acceptor_CO2_methanogen_acetogen,2,1,IF K00338 (K00338) absent AND asrA (K16950) present THEN has acceptor_CO2_methanogen_acetogen,8,8
+da,acceptor_CO2_methanogen_acetogen,2,1,IF cdhD (K00194) present AND asrA (K16950) present THEN has acceptor_CO2_methanogen_acetogen,8,8
+da,acceptor_CO2_methanogen_acetogen,2,1,IF cdhD (K00194) present AND K00338 (K00338) absent AND fwdE (K11261) present THEN has acceptor_CO2_methanogen_acetogen,19,17
+da,acceptor_CO2_methanogen_acetogen,2,0,IF cdhD (K00194) absent AND K00338 (K00338) present THEN lacks acceptor_CO2_methanogen_acetogen,51,51
+da,acceptor_CO2_methanogen_acetogen,2,0,IF cdhD (K00194) absent AND fwdE (K11261) absent THEN lacks acceptor_CO2_methanogen_acetogen,47,47
+da,acceptor_CO2_methanogen_acetogen,3,1,IF K00338 (K00338) absent AND asrA (K16950) present THEN has acceptor_CO2_methanogen_acetogen,9,8
+da,acceptor_CO2_methanogen_acetogen,3,1,IF cdhD (K00194) present AND asrA (K16950) present THEN has acceptor_CO2_methanogen_acetogen,9,8
+da,acceptor_CO2_methanogen_acetogen,3,1,IF cdhD (K00194) present AND fwdE (K11261) present AND acsB (K14138) absent THEN has acceptor_CO2_methanogen_acetogen,2,1
+da,acceptor_CO2_methanogen_acetogen,3,0,IF cdhD (K00194) absent AND K00338 (K00338) present THEN lacks acceptor_CO2_methanogen_acetogen,49,49
+da,acceptor_CO2_methanogen_acetogen,3,0,IF cdhD (K00194) absent AND fwdE (K11261) absent THEN lacks acceptor_CO2_methanogen_acetogen,41,41
+da,acceptor_CO2_methanogen_acetogen,4,1,IF cdhD (K00194) present AND asrA (K16950) present THEN has acceptor_CO2_methanogen_acetogen,8,7
+da,acceptor_CO2_methanogen_acetogen,4,1,IF cdhD (K00194) present AND acsB (K14138) absent AND sqr (K17218) absent THEN has acceptor_CO2_methanogen_acetogen,12,8
+da,acceptor_CO2_methanogen_acetogen,4,1,IF cdhD (K00194) present AND K00338 (K00338) absent AND sqr (K17218) absent THEN has acceptor_CO2_methanogen_acetogen,16,12
+da,acceptor_CO2_methanogen_acetogen,4,0,IF K00338 (K00338) present AND acsB (K14138) absent THEN lacks acceptor_CO2_methanogen_acetogen,44,42
+da,acceptor_CO2_methanogen_acetogen,4,0,IF cdhD (K00194) absent AND K00338 (K00338) present THEN lacks acceptor_CO2_methanogen_acetogen,42,42
+da,acceptor_iron,0,0,IF petC (K00413) present THEN lacks acceptor_iron,24,23
+da,acceptor_iron,0,0,IF K00031 (K00031) absent AND K00239 (K00239) present AND K15635 (K15635) absent THEN lacks acceptor_iron,2,2
+da,acceptor_iron,1,0,IF K00239 (K00239) present AND petC (K00413) present THEN lacks acceptor_iron,18,17
+da,acceptor_iron,1,0,IF petC (K00413) present THEN lacks acceptor_iron,18,17
+da,acceptor_iron,2,0,IF K00031 (K00031) absent AND K01739 (K01739) absent AND K01895 (K01895) present THEN lacks acceptor_iron,19,18
+da,acceptor_iron,2,0,IF K00239 (K00239) present AND petC (K00413) present THEN lacks acceptor_iron,32,32
+da,acceptor_iron,3,0,IF K00239 (K00239) present AND petC (K00413) present THEN lacks acceptor_iron,28,27
+da,acceptor_iron,3,0,IF petC (K00413) present THEN lacks acceptor_iron,28,27
+da,acceptor_iron,4,0,IF K00031 (K00031) absent AND K00239 (K00239) present AND K01895 (K01895) present THEN lacks acceptor_iron,8,7
+da,acceptor_iron,4,0,IF K00031 (K00031) absent AND K01895 (K01895) present THEN lacks acceptor_iron,9,8
+da,acceptor_other,0,0,IF K01725 (K01725) present THEN lacks acceptor_other,17,17
+da,acceptor_other,0,0,IF K00031 (K00031) absent THEN lacks acceptor_other,20,19
+da,acceptor_other,1,0,IF K01725 (K01725) present THEN lacks acceptor_other,15,15
+da,acceptor_other,1,0,IF K00616 (K00616) present AND dmsA (K07306) absent AND K14470 (K14470) absent THEN lacks acceptor_other,43,39
+da,acceptor_other,2,0,IF K01725 (K01725) present THEN lacks acceptor_other,15,15
+da,acceptor_other,2,0,IF K03882 (K03882) absent AND dmsA (K07306) absent AND K14470 (K14470) absent THEN lacks acceptor_other,64,62
+da,acceptor_other,3,0,IF K00031 (K00031) absent AND K00616 (K00616) present THEN lacks acceptor_other,15,14
+da,acceptor_other,3,0,IF K01725 (K01725) present THEN lacks acceptor_other,18,18
+da,acceptor_other,4,0,IF K01725 (K01725) present THEN lacks acceptor_other,11,11
+da,acceptor_other,4,0,IF K00031 (K00031) absent THEN lacks acceptor_other,23,22

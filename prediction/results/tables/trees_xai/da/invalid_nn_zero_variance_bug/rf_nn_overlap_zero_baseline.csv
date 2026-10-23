@@ -1,0 +1,15 @@
+trait,n_rf_stable,n_nn_stable,n_shared,share_of_nn_in_rf
+acceptor_CO2_methanogen_acetogen,4,3,0,0.000
+acceptor_iron,1,2,0,0.000
+acceptor_nitrate,8,1,0,0.000
+acceptor_other,5,1,0,0.000
+acceptor_oxygen,5,2,0,0.000
+acceptor_sulfate,10,2,0,0.000
+acceptor_sulfur,2,1,0,0.000
+donor_CO_oxidation,2,1,0,0.000
+donor_ammonia_oxidation,2,2,0,0.000
+donor_hydrogen_oxidation,6,1,0,0.000
+donor_iron_oxidation,4,2,0,0.000
+donor_nitrite_oxidation,3,2,0,0.000
+donor_other,1,2,0,0.000
+donor_sulfur_oxidation,6,1,0,0.000

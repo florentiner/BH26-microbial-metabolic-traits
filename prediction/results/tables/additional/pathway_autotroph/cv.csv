@@ -1,0 +1,6 @@
+level,model,macro_auprc,diff,ci_low,ci_high
+genus,"EnergyKO-M (final, all genomes)",0.5291,,,
+genus,EnergyKO-M_auto,0.5094,-0.0197,-0.0358,-0.0042
+genus,ET_auto,0.5088,-0.0204,-0.0353,-0.0015
+family,"EnergyKO-M (final, all genomes)",0.5018,,,
+family,EnergyKO-M_auto,0.4814,-0.0204,-0.0378,-0.0013

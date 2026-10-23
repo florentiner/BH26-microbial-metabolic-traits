@@ -1,0 +1,101 @@
+functional_group,KO,phenotype,phenotype_source,n_kos_in_group,n,n_marker_present,n_phenotype_pos,tp,fp,fn,tn,precision,recall,f1,mcc_per_genome,odds_ratio,p_fisher_naive,mcc_genus_level,mcc_genus_ci_low,mcc_genus_ci_high,p_genus_permutation,q_bh_permutation
+Acetogens (homoacetogens),K00198,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,102,75,52,50,23,233,0.5098,0.6933,0.5876,0.4658,10.3297,0.0000,0.4242,0.3867,0.4555,0.0005,0.0012
+Acetogens (homoacetogens),K14138,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,73,75,39,34,36,249,0.5342,0.5200,0.5270,0.4039,7.8263,0.0000,0.3611,0.3250,0.3866,0.0005,0.0012
+Acetogens (homoacetogens),K03616,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,205,75,60,145,15,138,0.2927,0.8000,0.4286,0.2366,3.7154,0.0000,0.1938,0.1599,0.2317,0.0125,0.0219
+Acetogens (homoacetogens),K00625,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,56,75,16,40,59,243,0.2857,0.2133,0.2443,0.0806,1.6673,0.1518,0.1029,0.0860,0.1464,0.3923,0.4727
+Acetogens (homoacetogens),K03612,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,117,75,30,87,45,196,0.2564,0.4000,0.3125,0.0803,1.5054,0.1307,0.0070,-0.0226,0.0284,0.3638,0.4443
+Acetogens (homoacetogens),K03615,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,108,75,29,79,46,204,0.2685,0.3867,0.3169,0.0953,1.6319,0.0890,-0.0021,-0.0322,0.0135,0.3128,0.4011
+Acetogens (homoacetogens),K03617,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,108,75,29,79,46,204,0.2685,0.3867,0.3169,0.0953,1.6319,0.0890,-0.0021,-0.0323,0.0135,0.2929,0.3803
+Acetogens (homoacetogens),K03613,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,109,75,29,80,46,203,0.2661,0.3867,0.3152,0.0920,1.6038,0.0911,-0.0071,-0.0322,0.0135,0.3398,0.4248
+Acetogens (homoacetogens),K03614,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,110,75,29,81,46,202,0.2636,0.3867,0.3135,0.0886,1.5763,0.1209,-0.0124,-0.0423,0.0033,0.3258,0.4125
+Acetogens (homoacetogens),K00925,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,203,75,40,163,35,120,0.1970,0.5333,0.2878,-0.0350,0.8408,0.5152,-0.0272,-0.0521,0.0014,0.7136,0.7757
+Aerobic respiration,K02275,acceptor_oxygen,curated donor/acceptor labels,13,358,150,177,119,31,58,150,0.7933,0.6723,0.7278,0.5077,9.7597,0.0000,0.4540,0.3918,0.5034,0.0005,0.0012
+Aerobic respiration,K00406,acceptor_oxygen,curated donor/acceptor labels,13,358,150,177,114,36,63,145,0.7600,0.6441,0.6972,0.4511,7.1879,0.0000,0.4373,0.3896,0.4854,0.0005,0.0012
+Aerobic respiration,K00405,acceptor_oxygen,curated donor/acceptor labels,13,358,134,177,99,35,78,146,0.7388,0.5593,0.6367,0.3781,5.2307,0.0000,0.4210,0.3646,0.4650,0.0005,0.0012
+Aerobic respiration,K02274,acceptor_oxygen,curated donor/acceptor labels,13,358,137,177,107,30,70,151,0.7810,0.6045,0.6815,0.4513,7.5741,0.0000,0.4158,0.3508,0.4804,0.0005,0.0012
+Aerobic respiration,K00404,acceptor_oxygen,curated donor/acceptor labels,13,358,122,177,92,30,85,151,0.7541,0.5198,0.6154,0.3734,5.3739,0.0000,0.3956,0.3485,0.4404,0.0005,0.0012
+Aerobic respiration,K02276,acceptor_oxygen,curated donor/acceptor labels,13,358,123,177,93,30,84,151,0.7561,0.5254,0.6200,0.3787,5.4963,0.0000,0.3203,0.2554,0.3751,0.0005,0.0012
+Aerobic respiration,K03520,acceptor_oxygen,curated donor/acceptor labels,13,358,79,177,65,14,112,167,0.8228,0.3672,0.5078,0.3495,6.7257,0.0000,0.2906,0.2271,0.3462,0.0010,0.0023
+Aerobic respiration,K10945,acceptor_oxygen,curated donor/acceptor labels,13,358,32,177,26,6,151,175,0.8125,0.1469,0.2488,0.1993,4.7228,0.0002,0.1916,0.1066,0.2664,0.0360,0.0598
+Aerobic respiration,K10946,acceptor_oxygen,curated donor/acceptor labels,13,358,31,177,25,6,152,175,0.8065,0.1412,0.2404,0.1922,4.5148,0.0003,0.1810,0.1063,0.2857,0.0405,0.0653
+Aerobic respiration,K10944,acceptor_oxygen,curated donor/acceptor labels,13,358,9,177,8,1,169,180,0.8889,0.0452,0.0860,0.1267,6.0344,0.0189,0.1595,0.0850,0.1828,0.1304,0.1947
+Aerobic respiration,K00426,acceptor_oxygen,curated donor/acceptor labels,13,358,191,177,104,87,73,94,0.5445,0.5876,0.5652,0.1071,1.5355,0.0449,0.0527,-0.0000,0.1076,0.2349,0.3262
+Aerobic respiration,K00425,acceptor_oxygen,curated donor/acceptor labels,13,358,207,177,112,95,65,86,0.5411,0.6328,0.5833,0.1092,1.5557,0.0424,0.0276,-0.0189,0.0813,0.2244,0.3160
+Ammonia oxidizing (AOB/AOA),K10945,donor_ammonia_oxidation,curated donor/acceptor labels,4,358,32,32,27,5,5,321,0.8438,0.8438,0.8438,0.8284,292.2727,0.0000,0.8218,0.7518,0.8721,0.0005,0.0012
+Ammonia oxidizing (AOB/AOA),K10946,donor_ammonia_oxidation,curated donor/acceptor labels,4,358,31,32,26,5,6,321,0.8387,0.8125,0.8254,0.8087,238.3147,0.0000,0.8218,0.7518,0.8721,0.0005,0.0012
+Ammonia oxidizing (AOB/AOA),K10944,donor_ammonia_oxidation,curated donor/acceptor labels,4,358,9,32,4,5,28,321,0.4444,0.1250,0.1951,0.1999,9.2297,0.0049,0.2626,0.2150,0.2769,0.0340,0.0576
+Ammonia oxidizing (AOB/AOA),K10535,donor_ammonia_oxidation,curated donor/acceptor labels,4,358,60,32,16,44,16,282,0.2667,0.5000,0.3478,0.2788,6.3483,0.0000,0.1237,0.1033,0.1716,0.0015,0.0032
+Anammox,K20932,acceptor_other,curated donor/acceptor labels,4,358,1,23,1,0,22,335,1.0000,0.0435,0.0833,0.2020,44.7333,0.0642,0.2482,0.2246,0.2684,0.0020,0.0039
+Anammox,K20933,acceptor_other,curated donor/acceptor labels,4,358,1,23,1,0,22,335,1.0000,0.0435,0.0833,0.2020,44.7333,0.0642,0.2482,0.2246,0.2799,0.0025,0.0048
+Anammox,K20934,acceptor_other,curated donor/acceptor labels,4,358,1,23,1,0,22,335,1.0000,0.0435,0.0833,0.2020,44.7333,0.0642,0.2482,0.2179,0.2799,0.0020,0.0039
+Anammox,K20935,acceptor_other,curated donor/acceptor labels,4,358,1,23,1,0,22,335,1.0000,0.0435,0.0833,0.2020,44.7333,0.0642,0.2482,0.2246,0.2799,0.0030,0.0057
+CO oxidizing (carboxydotroph),K03518,donor_CO_oxidation,curated donor/acceptor labels,4,358,121,45,32,89,13,224,0.2645,0.7111,0.3855,0.2991,6.0387,0.0000,0.2585,0.1973,0.3194,0.0010,0.0023
+CO oxidizing (carboxydotroph),K00198,donor_CO_oxidation,curated donor/acceptor labels,4,358,102,45,29,73,16,240,0.2843,0.6444,0.3946,0.3020,5.8501,0.0000,0.2502,0.1889,0.3079,0.0020,0.0039
+CO oxidizing (carboxydotroph),K03519,donor_CO_oxidation,curated donor/acceptor labels,4,358,92,45,17,75,28,238,0.1848,0.3778,0.2482,0.1048,1.9397,0.0665,0.1365,0.0637,0.2074,0.2829,0.3768
+CO oxidizing (carboxydotroph),K03520,donor_CO_oxidation,curated donor/acceptor labels,4,358,79,45,14,65,31,248,0.1772,0.3111,0.2258,0.0827,1.7464,0.1261,0.0908,0.0336,0.1526,0.4253,0.5063
+Formate oxidizing,K00123,donor_other,curated donor/acceptor labels,2,358,208,23,17,191,6,144,0.0817,0.7391,0.1472,0.0840,2.0315,0.1298,0.0970,0.0181,0.1750,0.2864,0.3768
+Formate oxidizing,K00122,donor_other,curated donor/acceptor labels,2,358,16,23,0,16,23,319,0.0000,0.0000,0.0000,-0.0567,0.4120,0.6119,-0.0389,-0.0461,-0.0272,0.2614,0.3580
+Hydrogen oxidizing,K06281,donor_hydrogen_oxidation,curated donor/acceptor labels,4,358,159,208,106,53,102,97,0.6667,0.5096,0.5777,0.1552,1.8935,0.0036,0.2152,0.1559,0.2729,0.0590,0.0936
+Hydrogen oxidizing,K05922,donor_hydrogen_oxidation,curated donor/acceptor labels,4,358,23,208,19,4,189,146,0.8261,0.0913,0.1645,0.1302,3.3500,0.0154,0.1705,0.1201,0.2029,0.0905,0.1413
+Hydrogen oxidizing,K00533,donor_hydrogen_oxidation,curated donor/acceptor labels,4,358,9,208,9,0,199,150,1.0000,0.0433,0.0829,0.1364,14.3333,0.0119,0.1601,0.1478,0.1751,0.0365,0.0598
+Methane oxidizing (methanotroph),K10946,donor_other,curated donor/acceptor labels,9,358,31,23,3,28,20,307,0.0968,0.1304,0.1111,0.0408,1.8421,0.4359,0.0519,-0.0596,0.1992,0.7701,0.8281
+Methane oxidizing (methanotroph),K10945,donor_other,curated donor/acceptor labels,9,358,32,23,3,29,20,306,0.0938,0.1304,0.1091,0.0377,1.7739,0.4465,0.0425,-0.0630,0.1995,0.7891,0.8395
+Methane oxidizing (methanotroph),K14028,donor_other,curated donor/acceptor labels,9,358,12,23,1,11,22,324,0.0833,0.0435,0.0571,0.0145,1.8812,0.5550,-0.0236,-0.0336,0.2193,0.9940,1.0000
+Methane oxidizing (methanotroph),K14029,donor_other,curated donor/acceptor labels,9,358,12,23,1,11,22,324,0.0833,0.0435,0.0571,0.0145,1.8812,0.5550,-0.0236,-0.0338,0.2193,0.9930,1.0000
+Methane oxidizing (methanotroph),K10944,donor_other,curated donor/acceptor labels,9,358,9,23,0,9,23,326,0.0000,0.0000,0.0000,-0.0421,0.7312,1.0000,-0.0331,-0.0398,-0.0248,0.2849,0.3768
+Methane oxidizing (methanotroph),K23995,donor_other,curated donor/acceptor labels,9,358,31,23,2,29,21,306,0.0645,0.0870,0.0741,0.0003,1.2081,1.0000,-0.0535,-0.0691,0.0834,1.0000,1.0000
+Methane oxidizing (methanotroph),K01601,donor_other,curated donor/acceptor labels,9,358,173,23,11,162,12,173,0.0636,0.4783,0.1122,-0.0026,0.9823,1.0000,-0.0712,-0.1690,0.0201,0.9985,1.0000
+Methane oxidizing (methanotroph),K00855,donor_other,curated donor/acceptor labels,9,358,25,23,0,25,23,310,0.0000,0.0000,0.0000,-0.0718,0.2591,0.3891,-0.0719,-0.0891,-0.0547,0.2219,0.3160
+Methanogens (hydrogenotrophic),K00401,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,6,358,40,75,35,5,40,278,0.8750,0.4667,0.6087,0.5800,44.3850,0.0000,0.5972,0.5283,0.6375,0.0005,0.0012
+Methanogens (hydrogenotrophic),K00399,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,6,358,40,75,35,5,40,278,0.8750,0.4667,0.6087,0.5800,44.3850,0.0000,0.5858,0.5283,0.6375,0.0005,0.0012
+Methanogens (hydrogenotrophic),K00402,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,6,358,40,75,35,5,40,278,0.8750,0.4667,0.6087,0.5800,44.3850,0.0000,0.5830,0.5283,0.6375,0.0005,0.0012
+Methanogens (hydrogenotrophic),K03388,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,6,358,106,75,50,56,25,227,0.4717,0.6667,0.5525,0.4179,7.9741,0.0000,0.3273,0.2947,0.3626,0.0005,0.0012
+Methanogens (hydrogenotrophic),K03390,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,6,358,121,75,49,72,26,211,0.4050,0.6533,0.5000,0.3432,5.4492,0.0000,0.2652,0.2245,0.3001,0.0005,0.0012
+Methanogens (hydrogenotrophic),K03389,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,6,358,164,75,49,115,26,168,0.2988,0.6533,0.4100,0.2017,2.7251,0.0002,0.1553,0.1086,0.1857,0.0280,0.0483
+Nitrate-reducing (DNRA),K00363,acceptor_nitrate,curated donor/acceptor labels,4,358,34,102,25,9,77,247,0.7353,0.2451,0.3676,0.3232,8.5722,0.0000,0.2086,0.1282,0.2709,0.0015,0.0032
+Nitrate-reducing (DNRA),K00362,acceptor_nitrate,curated donor/acceptor labels,4,358,34,102,25,9,77,247,0.7353,0.2451,0.3676,0.3232,8.5722,0.0000,0.2038,0.1443,0.2663,0.0010,0.0023
+Nitrate-reducing (DNRA),K15876,acceptor_nitrate,curated donor/acceptor labels,4,358,61,102,17,44,85,212,0.2787,0.1667,0.2086,-0.0063,0.9774,1.0000,-0.0049,-0.0472,0.0450,0.9365,0.9756
+Nitrate-reducing (DNRA),K03385,acceptor_nitrate,curated donor/acceptor labels,4,358,26,102,6,20,96,236,0.2308,0.0588,0.0938,-0.0336,0.7771,0.6543,-0.0430,-0.1099,0.0300,0.6142,0.7060
+Nitrate-reducing (denitrifiers),K00373,acceptor_nitrate,curated donor/acceptor labels,12,358,87,102,55,32,47,224,0.6322,0.5392,0.5820,0.4359,8.0711,0.0000,0.4297,0.3604,0.4858,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K00374,acceptor_nitrate,curated donor/acceptor labels,12,358,84,102,54,30,48,226,0.6429,0.5294,0.5806,0.4391,8.3449,0.0000,0.4224,0.3642,0.4948,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K00371,acceptor_nitrate,curated donor/acceptor labels,12,358,96,102,59,37,43,219,0.6146,0.5784,0.5960,0.4421,8.0063,0.0000,0.4159,0.3542,0.4864,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K00376,acceptor_nitrate,curated donor/acceptor labels,12,358,40,102,32,8,70,248,0.8000,0.3137,0.4507,0.4047,13.4773,0.0000,0.4158,0.3512,0.4767,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K15864,acceptor_nitrate,curated donor/acceptor labels,12,358,39,102,32,7,70,249,0.8205,0.3137,0.4539,0.4149,15.3357,0.0000,0.4097,0.3490,0.4830,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K00370,acceptor_nitrate,curated donor/acceptor labels,12,358,92,102,56,36,46,220,0.6087,0.5490,0.5773,0.4219,7.3403,0.0000,0.4042,0.3298,0.4720,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K02567,acceptor_nitrate,curated donor/acceptor labels,12,358,53,102,36,17,66,239,0.6792,0.3529,0.4645,0.3642,7.5117,0.0000,0.3977,0.3349,0.4603,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K02568,acceptor_nitrate,curated donor/acceptor labels,12,358,39,102,30,9,72,247,0.7692,0.2941,0.4255,0.3752,10.9601,0.0000,0.3956,0.3346,0.4569,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K04561,acceptor_nitrate,curated donor/acceptor labels,12,358,87,102,52,35,50,221,0.5977,0.5098,0.5503,0.3926,6.4865,0.0000,0.3914,0.3076,0.4679,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K02305,acceptor_nitrate,curated donor/acceptor labels,12,358,71,102,41,30,61,226,0.5775,0.4020,0.4740,0.3224,5.0112,0.0000,0.3799,0.3078,0.4564,0.0005,0.0012
+Nitrate-reducing (denitrifiers),K00372,acceptor_nitrate,curated donor/acceptor labels,12,358,84,102,43,41,59,215,0.5119,0.4216,0.4624,0.2784,3.7964,0.0000,0.2180,0.1329,0.2935,0.0015,0.0032
+Nitrate-reducing (denitrifiers),K00368,acceptor_nitrate,curated donor/acceptor labels,12,358,63,102,21,42,81,214,0.3333,0.2059,0.2545,0.0496,1.3314,0.3588,0.0438,-0.0360,0.1333,0.5647,0.6566
+Nitrite oxidizing (NOB),K00370,donor_nitrite_oxidation,curated donor/acceptor labels,5,358,92,12,11,81,1,265,0.1196,0.9167,0.2115,0.2811,24.9755,0.0000,0.3550,0.3130,0.3837,0.0005,0.0012
+Nitrite oxidizing (NOB),K00371,donor_nitrite_oxidation,curated donor/acceptor labels,5,358,96,12,10,86,2,260,0.1042,0.8333,0.1852,0.2376,12.6486,0.0001,0.2985,0.2511,0.3659,0.0055,0.0098
+Nitrite oxidizing (NOB),K10945,donor_nitrite_oxidation,curated donor/acceptor labels,5,358,32,12,2,30,10,316,0.0625,0.1667,0.0909,0.0504,2.4707,0.2918,0.0455,-0.0545,0.1495,0.6992,0.7683
+Nitrite oxidizing (NOB),K10946,donor_nitrite_oxidation,curated donor/acceptor labels,5,358,31,12,2,29,10,317,0.0645,0.1667,0.0930,0.0530,2.5626,0.2787,0.0455,-0.0545,0.1495,0.6402,0.7275
+Nitrite oxidizing (NOB),K10944,donor_nitrite_oxidation,curated donor/acceptor labels,5,358,9,12,0,9,12,337,0.0000,0.0000,0.0000,-0.0299,1.4211,1.0000,-0.0316,-0.0354,-0.0295,0.6922,0.7683
+Sulfate-reducing (SRB),K11181,acceptor_sulfate,curated donor/acceptor labels,8,358,92,63,56,36,7,259,0.6087,0.8889,0.7226,0.6683,53.5589,0.0000,0.6245,0.5936,0.6526,0.0005,0.0012
+Sulfate-reducing (SRB),K11180,acceptor_sulfate,curated donor/acceptor labels,8,358,90,63,55,35,8,260,0.6111,0.8730,0.7190,0.6622,47.9130,0.0000,0.6193,0.5889,0.6452,0.0005,0.0012
+Sulfate-reducing (SRB),K00395,acceptor_sulfate,curated donor/acceptor labels,8,358,114,63,55,59,8,236,0.4825,0.8730,0.6215,0.5501,25.9530,0.0000,0.5958,0.5565,0.6404,0.0005,0.0012
+Sulfate-reducing (SRB),K00394,acceptor_sulfate,curated donor/acceptor labels,8,358,110,63,53,57,10,238,0.4818,0.8413,0.6127,0.5349,21.1342,0.0000,0.5688,0.5392,0.6146,0.0005,0.0012
+Sulfate-reducing (SRB),K00958,acceptor_sulfate,curated donor/acceptor labels,8,358,143,63,55,88,8,207,0.3846,0.8730,0.5340,0.4468,15.3091,0.0000,0.4334,0.4094,0.4591,0.0005,0.0012
+Sulfate-reducing (SRB),K16951,acceptor_sulfate,curated donor/acceptor labels,8,358,101,63,26,75,37,220,0.2574,0.4127,0.3171,0.1341,2.0638,0.0137,0.0652,0.0186,0.0996,0.1074,0.1653
+Sulfate-reducing (SRB),K16950,acceptor_sulfate,curated donor/acceptor labels,8,358,33,63,5,28,58,267,0.1515,0.0794,0.1042,-0.0205,0.8824,0.8143,0.0135,-0.0245,0.0208,0.8831,0.9295
+Sulfate-reducing (SRB),K16952,acceptor_sulfate,curated donor/acceptor labels,8,358,20,63,1,19,62,276,0.0500,0.0159,0.0241,-0.0805,0.3403,0.2216,-0.1339,-0.1455,-0.0870,0.3643,0.4443
+Sulfur oxidizing (SOB),K17227,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,120,131,89,31,42,196,0.7417,0.6794,0.7092,0.5539,13.1367,0.0000,0.5629,0.5239,0.6047,0.0005,0.0012
+Sulfur oxidizing (SOB),K17229,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,99,131,75,24,56,203,0.7576,0.5725,0.6522,0.5027,11.0993,0.0000,0.5579,0.5125,0.6010,0.0005,0.0012
+Sulfur oxidizing (SOB),K17222,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,106,131,82,24,49,203,0.7736,0.6260,0.6920,0.5489,13.8435,0.0000,0.5480,0.5002,0.5945,0.0005,0.0012
+Sulfur oxidizing (SOB),K17226,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,125,131,89,36,42,191,0.7120,0.6794,0.6953,0.5262,11.0487,0.0000,0.5332,0.4943,0.5722,0.0005,0.0012
+Sulfur oxidizing (SOB),K17224,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,109,131,81,28,50,199,0.7431,0.6183,0.6750,0.5181,11.2970,0.0000,0.5287,0.4873,0.5763,0.0005,0.0012
+Sulfur oxidizing (SOB),K17223,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,119,131,84,35,47,192,0.7059,0.6412,0.6720,0.4980,9.6464,0.0000,0.5042,0.4685,0.5510,0.0005,0.0012
+Sulfur oxidizing (SOB),K17218,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,197,131,117,80,14,147,0.5939,0.8931,0.7134,0.5236,14.8479,0.0000,0.4914,0.4531,0.5240,0.0005,0.0012
+Sulfur oxidizing (SOB),K17230,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,119,131,76,43,55,184,0.6387,0.5802,0.6080,0.3995,5.8462,0.0000,0.4577,0.4149,0.5070,0.0005,0.0012
+Sulfur oxidizing (SOB),K19713,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,53,131,35,18,96,209,0.6604,0.2672,0.3804,0.2548,4.1659,0.0000,0.3061,0.2572,0.3516,0.0020,0.0039
+Sulfur oxidizing (SOB),K00958,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,143,131,74,69,57,158,0.5175,0.5649,0.5401,0.2566,2.9548,0.0000,0.2261,0.1797,0.2773,0.0040,0.0073
+Sulfur oxidizing (SOB),K17225,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,61,131,40,21,91,206,0.6557,0.3053,0.4167,0.2727,4.2512,0.0000,0.2246,0.1776,0.2803,0.0035,0.0065
+Sulfur oxidizing (SOB),K01725,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,77,131,37,40,94,187,0.4805,0.2824,0.3558,0.1245,1.8372,0.0230,0.1190,0.0465,0.1898,0.1344,0.1977
+Sulfur oxidizing (SOB),K11181,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,92,131,43,49,88,178,0.4674,0.3282,0.3857,0.1239,1.7725,0.0237,0.0962,0.0478,0.1311,0.1284,0.1946
+Sulfur oxidizing (SOB),K11180,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,90,131,42,48,89,179,0.4667,0.3206,0.3801,0.1212,1.7575,0.0235,0.0944,0.0500,0.1263,0.1504,0.2180
+Sulfur oxidizing (SOB),K00395,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,114,131,46,68,85,159,0.4035,0.3511,0.3755,0.0533,1.2664,0.3466,0.0319,-0.0135,0.0721,0.4988,0.5868
+Sulfur oxidizing (SOB),K00394,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,110,131,43,67,88,160,0.3909,0.3282,0.3568,0.0345,1.1687,0.5527,0.0260,-0.0112,0.0616,0.6587,0.7401
+Sulfur-reducing,K08352,acceptor_sulfur,curated donor/acceptor labels,2,358,148,50,38,110,12,198,0.2568,0.7600,0.3838,0.2836,5.5329,0.0000,0.2965,0.2504,0.3414,0.0005,0.0012
+Sulfur-reducing,K17219,acceptor_sulfur,curated donor/acceptor labels,2,358,7,50,6,1,44,307,0.8571,0.1200,0.2105,0.2923,29.9438,0.0000,0.2203,0.1526,0.2755,0.0005,0.0012

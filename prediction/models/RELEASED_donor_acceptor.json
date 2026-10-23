@@ -1,0 +1,149 @@
+{
+  "released_arm": "RF",
+  "selection_rule": "highest-ranked pre-registered arm on internal genus-level macro AUPRC that is not significantly worse than another pre-registered arm on the external novel-genus set (docs/deviations.md #16, #21); a research-loop variant displaces it only if it also confirms externally.",
+  "internally_tied_top_set": [
+    "B2E",
+    "B2E_large",
+    "B2LGE",
+    "B2XLC",
+    "B2XLE",
+    "B2XLE_large"
+  ],
+  "externally_confirmed_variants": [],
+  "preregistered_rule_choice": "B2",
+  "excluded_by_external_check": {
+    "E_large": [
+      "B2"
+    ]
+  },
+  "macro_auprc_genus": {
+    "B2XLE_large": 0.625,
+    "B2XLC": 0.616,
+    "B2E_large": 0.6125,
+    "B2LGE": 0.6107,
+    "B2XLE": 0.6099,
+    "B2E": 0.6042,
+    "B2XL": 0.6019,
+    "B2C": 0.601,
+    "ENS": 0.589,
+    "E_large": 0.5769,
+    "B2": 0.5756,
+    "C_large": 0.5738,
+    "B1r": 0.5725,
+    "E_large_MAG": 0.5598,
+    "E": 0.5513,
+    "D": 0.544,
+    "C": 0.544,
+    "E_MAG": 0.5404,
+    "A": 0.3173
+  },
+  "paired_macro_delta_released_minus_arm_genus": {
+    "B2XLE_large": {
+      "delta": -0.0494,
+      "ci_low": -0.0694,
+      "ci_high": -0.0115
+    },
+    "B2XLC": {
+      "delta": -0.0405,
+      "ci_low": -0.0584,
+      "ci_high": -0.0116
+    },
+    "B2E_large": {
+      "delta": -0.0369,
+      "ci_low": -0.0558,
+      "ci_high": -0.0061
+    },
+    "B2LGE": {
+      "delta": -0.0351,
+      "ci_low": -0.0557,
+      "ci_high": -0.012
+    },
+    "B2XLE": {
+      "delta": -0.0343,
+      "ci_low": -0.0516,
+      "ci_high": -0.0092
+    },
+    "B2E": {
+      "delta": -0.0286,
+      "ci_low": -0.0479,
+      "ci_high": -0.0087
+    },
+    "B2XL": {
+      "delta": -0.0263,
+      "ci_low": -0.0386,
+      "ci_high": -0.0027
+    },
+    "B2C": {
+      "delta": -0.0254,
+      "ci_low": -0.0426,
+      "ci_high": -0.0033
+    },
+    "ENS": {
+      "delta": -0.0134,
+      "ci_low": -0.0291,
+      "ci_high": 0.0084
+    },
+    "E_large": {
+      "delta": -0.0013,
+      "ci_low": -0.0312,
+      "ci_high": 0.0533
+    },
+    "C_large": {
+      "delta": 0.0018,
+      "ci_low": -0.0281,
+      "ci_high": 0.055
+    },
+    "B1r": {
+      "delta": 0.003,
+      "ci_low": -0.0195,
+      "ci_high": 0.0391
+    },
+    "E_large_MAG": {
+      "delta": 0.0158,
+      "ci_low": -0.0126,
+      "ci_high": 0.0685
+    },
+    "E": {
+      "delta": 0.0243,
+      "ci_low": -0.0059,
+      "ci_high": 0.0671
+    },
+    "D": {
+      "delta": 0.0316,
+      "ci_low": -0.0004,
+      "ci_high": 0.0666
+    },
+    "C": {
+      "delta": 0.0316,
+      "ci_low": -0.0005,
+      "ci_high": 0.0758
+    },
+    "E_MAG": {
+      "delta": 0.0352,
+      "ci_low": 0.0079,
+      "ci_high": 0.0824
+    },
+    "A": {
+      "delta": 0.2583,
+      "ci_low": 0.229,
+      "ci_high": 0.3119
+    }
+  },
+  "tied_with_released": [
+    "ENS",
+    "E_large",
+    "C_large",
+    "B1r",
+    "E_large_MAG",
+    "E",
+    "D",
+    "C"
+  ],
+  "note": "arms whose 95% cluster-bootstrap CI of the macro-AUPRC difference includes 0 are statistically tied with the released arm; the choice among tied arms is not a claim of superiority",
+  "deployment_arm_togomcp": "B2XLE_large",
+  "deployment_fallback": "B2",
+  "deployment_note": "Decision of the authors 2026-09-21: deploy the KO + Bacformer-large fusion for TogoMCP. Basis: best internal macro AUPRC (0.625 vs 0.576, significant) and the top rank among five saved models on 100 novel organisms (AUROC 0.746 vs B2 0.732, AUPRC 0.858 vs 0.851; differences not statistically resolved). B2 remains the pre-registered rule's choice and is the CPU-only fallback for genomes without a Bacformer-large vector. Both models are trained on all 358 labelled genomes with per-trait class balancing (class_weight=balanced for logistic regression, scale_pos_weight=n_neg/n_pos for XGBoost).",
+  "previous_released_arm": "B2",
+  "released_name": "RedoxKO",
+  "switch_note": "21 October 2026: the random forest on the 852-KO panel replaced B2 (now RedoxKO-LX) after it did better on the external genomes (+0.043 macro AUPRC [0.018, 0.069], also without FAPROTAX-derived labels), in yes/no calls on new species (MCC +0.056 [0.006, 0.115]) and on incomplete MAGs; decision made after these tests, reported in Supplementary Note 1."
+}

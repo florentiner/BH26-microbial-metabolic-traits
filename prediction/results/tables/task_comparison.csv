@@ -1,0 +1,7 @@
+task,arm,split_level,n_traits,mean_prevalence,macro_auprc,macro_auprc_lift,macro_mcc,macro_delta_vs_taxonomic_null,n_beating_null_q05,frac_beating_null
+donors/acceptors,B2,genus,14,0.2027,0.5756,3.8312,0.4713,0.1032,4,0.2857
+pathways,PB3,genus,20,0.0639,0.5012,17.8273,0.5063,0.1616,16,0.8000
+pathways (KEGG module rule),PA,genus,20,0.0639,0.2127,6.0886,0.2601,-0.1269,2,0.1000
+donors/acceptors,B2,family,14,0.2027,0.5599,3.9761,0.4164,0.1801,9,0.6429
+pathways,PB3,family,20,0.0639,0.4544,16.4672,0.4635,0.1734,15,0.7500
+pathways (KEGG module rule),PA,family,20,0.0639,0.2127,6.0886,0.2589,-0.0683,3,0.1500

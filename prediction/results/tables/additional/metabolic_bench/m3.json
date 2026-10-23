@@ -1,0 +1,68 @@
+{
+  "n_pairs": 379,
+  "categories": [
+    "donor_sulfur_oxidation",
+    "donor_ammonia_oxidation",
+    "donor_nitrite_oxidation",
+    "donor_hydrogen_oxidation",
+    "donor_CO_oxidation",
+    "donor_iron_oxidation",
+    "acceptor_nitrate",
+    "acceptor_sulfate",
+    "acceptor_sulfur",
+    "acceptor_CO2_methanogen_acetogen",
+    "acceptor_iron",
+    "acceptor_oxygen"
+  ],
+  "bins": {
+    "50-70": {
+      "pairs": 53,
+      "agree_RedoxKO": 0.9261006289308176,
+      "agree_METABOLIC": 0.940251572327044,
+      "d_agree": -0.014150943396226467,
+      "d_agree_ci": [
+        -0.03930817610062898,
+        0.011006289308176154
+      ],
+      "lost_pos_RedoxKO": 0.28888888888888886,
+      "lost_pos_METABOLIC": 0.2,
+      "d_lost_ci": [
+        -0.02369604058363324,
+        0.19067144756135782
+      ]
+    },
+    "70-90": {
+      "pairs": 134,
+      "agree_RedoxKO": 0.9465174129353234,
+      "agree_METABOLIC": 0.9695273631840796,
+      "d_agree": -0.023009950248756184,
+      "d_agree_ci": [
+        -0.03606965174129351,
+        -0.011194029850746245
+      ],
+      "lost_pos_RedoxKO": 0.16901408450704225,
+      "lost_pos_METABOLIC": 0.07414829659318638,
+      "d_lost_ci": [
+        0.05085992828394742,
+        0.14007244660272905
+      ]
+    },
+    "90-100": {
+      "pairs": 192,
+      "agree_RedoxKO": 0.9826388888888888,
+      "agree_METABOLIC": 0.9874131944444444,
+      "d_agree": -0.00477430555555558,
+      "d_agree_ci": [
+        -0.01215277777777779,
+        0.0017361111111110494
+      ],
+      "lost_pos_RedoxKO": 0.05513784461152882,
+      "lost_pos_METABOLIC": 0.029045643153526972,
+      "d_lost_ci": [
+        0.0033115744405136953,
+        0.04958106506689664
+      ]
+    }
+  },
+  "M3_primary_success": false
+}

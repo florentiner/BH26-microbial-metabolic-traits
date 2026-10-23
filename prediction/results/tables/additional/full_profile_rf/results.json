@@ -1,0 +1,120 @@
+{
+  "n_training_genomes": 358,
+  "n_varying_kos": 7814,
+  "HF1_HF2_primary100": {
+    "n_tests": 255,
+    "macro_auroc_RF_panel": 0.7352585380758256,
+    "macro_auroc_RF_full": 0.7003503277232996,
+    "d_macro_auroc": -0.034908210352526,
+    "d_macro_auroc_ci": [
+      -0.10105990557126217,
+      0.027258794257341366
+    ],
+    "success_lower_gt_0": false,
+    "mcc_RF_panel": 0.42048881492556983,
+    "mcc_RF_full": 0.37927115964796104,
+    "d_mcc": -0.04121765527760879,
+    "d_mcc_ci": [
+      -0.13278577071570422,
+      0.04508680228619742
+    ],
+    "sens_RF_panel": 0.5555555555555556,
+    "sens_RF_full": 0.48366013071895425,
+    "spec_RF_panel": 0.8627450980392157,
+    "spec_RF_full": 0.8823529411764706
+  },
+  "HF3_withheld43": {
+    "n_tests": 75,
+    "macro_auroc_RF_panel": 0.6194444444444445,
+    "macro_auroc_RF_full": 0.6123737373737373,
+    "d_macro_auroc": -0.007070707070707116,
+    "d_macro_auroc_ci": [
+      -0.39684794372294363,
+      0.2039880952380952
+    ],
+    "success_lower_gt_0": false,
+    "mcc_RF_panel": 0.4879556219509579,
+    "mcc_RF_full": 0.5144957554275266,
+    "d_mcc": 0.026540133476568695,
+    "d_mcc_ci": [
+      -0.043910255526481014,
+      0.11548103554328969
+    ],
+    "sens_RF_panel": 0.5208333333333334,
+    "sens_RF_full": 0.5,
+    "spec_RF_panel": 0.9629629629629629,
+    "spec_RF_full": 1.0
+  },
+  "HF3_same_sign": {
+    "d_macro_auroc": true,
+    "d_mcc": false
+  },
+  "HF4_cv_genus": {
+    "macro_auprc_RF_panel": 0.6124297397974692,
+    "macro_auprc_RF_full": 0.5689343837337485,
+    "d": -0.04349535606372068,
+    "d_ci": [
+      -0.06566853912262882,
+      -0.00463851759887383
+    ],
+    "non_inferior_margin_-0.02": false,
+    "per_trait": {
+      "donor_sulfur_oxidation": {
+        "RF_panel": 0.8963344401935786,
+        "RF_full": 0.8797138709778708
+      },
+      "donor_ammonia_oxidation": {
+        "RF_panel": 0.8687492437263358,
+        "RF_full": 0.8354678297620048
+      },
+      "donor_nitrite_oxidation": {
+        "RF_panel": 0.6721060836028361,
+        "RF_full": 0.3309084947774963
+      },
+      "donor_hydrogen_oxidation": {
+        "RF_panel": 0.8801535173311855,
+        "RF_full": 0.8858389957257614
+      },
+      "donor_CO_oxidation": {
+        "RF_panel": 0.5027511043372205,
+        "RF_full": 0.48009745532027776
+      },
+      "donor_iron_oxidation": {
+        "RF_panel": 0.4355893975231835,
+        "RF_full": 0.5011203528910995
+      },
+      "donor_other": {
+        "RF_panel": 0.13481004702405158,
+        "RF_full": 0.12090622542939598
+      },
+      "acceptor_oxygen": {
+        "RF_panel": 0.7984941340511391,
+        "RF_full": 0.7934180445380439
+      },
+      "acceptor_nitrate": {
+        "RF_panel": 0.6882855286195917,
+        "RF_full": 0.655608282531252
+      },
+      "acceptor_sulfate": {
+        "RF_panel": 0.915392152629162,
+        "RF_full": 0.9103709826576593
+      },
+      "acceptor_sulfur": {
+        "RF_panel": 0.5841333736253045,
+        "RF_full": 0.46932922702016916
+      },
+      "acceptor_CO2_methanogen_acetogen": {
+        "RF_panel": 0.8704076308092502,
+        "RF_full": 0.8259412289334676
+      },
+      "acceptor_iron": {
+        "RF_panel": 0.22278147185130484,
+        "RF_full": 0.1778793150311085
+      },
+      "acceptor_other": {
+        "RF_panel": 0.10402823184042478,
+        "RF_full": 0.09848106667687201
+      }
+    }
+  }
+}

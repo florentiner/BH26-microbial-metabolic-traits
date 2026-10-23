@@ -1,0 +1,167 @@
+[
+ {
+  "species": "Dedyshia acidiphila",
+  "genus": "Dedyshia",
+  "accession": "GCF_051025295.1",
+  "pmid": "42377362",
+  "pmcid": "",
+  "title": "Description of Candidatus Dedyshia acidiphila gen. nov., sp. nov., isolated from Kogelberg Nature Reserve in South Africa.",
+  "journal": "International journal of systematic and evolutionary microbiology",
+  "year": "2026",
+  "abstract": "A Gram-stain-negative, aerobic, capsule-forming strain, designated DAS-389T, was isolated from soil collected in the Kogelberg Nature Reserve, Western Cape, South Africa. The strain formed small pink colonies, with cells that multiplied by binary division. Optimum growth was observed at 20 &#xb0;C to 26 &#xb0;C and pH 5.5 to 6.5, and it tolerated a NaCl concentration up to 1.5% (w/v). DAS-389T is chemoorganotrophic, with growth substrate preferences for sugars and polysaccharides, including fructose and starch, respectively. The genome of DAS-389T had a genome size of 4,136,282 bp with an average G+C content of 63.49 mol% and encodes for an assortment of enzymes, carbohydrate metabolic pathways and several genes involved in stress and survival responses. Major fatty acids (&gt;5%) of strain DAS-389T were iso-C15:0, iso-C17:0, summed feature 3 (C16:1 &#x3c9;7c and/or C16:1 &#x3c9;6c) and summed feature 9 (iso-C17:1 &#x3c9;9c and/or C16:0 10-methyl). Comparative analysis of 16S rRNA gene sequences revealed that strain DAS-389T shared the highest similarity with Alloacidobacterium dinghuense 4Y35T (96.6%), followed by Acidipila rosea AP8T (96.6%) and Paracidobacterium acidisoli 4G-K13T (96.3%). Phylogenetic analysis based on 16S rRNA gene sequences and the whole proteome placed DAS-389T within a distinct clade, separate from recognized genera in the family Acidobacteriaceae. We therefore propose that strain DAS-389&#x1d40; represents a novel genus and species, Candidatus Dedyshia acidiphila gen. nov., sp. nov., within the family Acidobacteriaceae, order Terriglobia. The whole-genome sequence of strain DAS-389&#x1d40; [accession number: JBMGJV000000000 (PRJNA1221820)] is designated as the nomenclatural type."
+ },
+ {
+  "species": "Aeoliella fuhlenseeensis",
+  "genus": "Aeoliella",
+  "accession": "GCF_052161615.1",
+  "pmid": "42373847",
+  "pmcid": "PMC13315336",
+  "title": "Two novel strains isolated from a brackish lake constitute Aeoliella fuhlenseeensis sp. nov. and Bythopirellula superficialaquae sp. nov. in the family Lacipirellulaceae.",
+  "journal": "Scientific reports",
+  "year": "2026",
+  "abstract": "The strain collection of Heinz Schlesner (Kiel University, Germany) largely consists of budding bacteria collected from the 1980s to early 2000s. It still holds an untapped diversity of bacteria with uncommon morphologies and cell division modes. Here, we characterize two strains from his collection, SH292T and SH678T, that he isolated from Lake Fuhlensee, a slightly brackish lake in Northern Germany. Phylogenetic tree reconstruction places the novel strains in the family Lacipirellulaceae within the phylum Planctomycetota. More detailed analyses based on five phylogenetic markers suggest positions within the genera Aeoliella and Bythopirellula, respectively. The novel isolates have an aerobic and heterotrophic lifestyle and a mesophilic and neutrophilic growth profile. Optimal growth was observed at 25&#xa0;&#xb0;C and pH 7.0-7.5. Genome sequencing revealed slightly smaller genomes of 5.6-6.0 Mbp compared to those of the close relatives (6.1-7.8 Mbp). An analysis of genome-encoded features suggests differences in the portfolio of secondary metabolite-associated biosynthetic gene clusters and carbohydrate-active enzymes. Genomic and morphological differences support the results of the phylogenetic inferences that together delineate the novel strains from previously described species. Hence, we conclude that the two novel isolates belong to two novel species, for which we introduce the names Aeoliella fuhlenseeensis sp. nov. and Bythopirellula superficialaquae sp. nov. The novel taxa are represented by strains SH292T (=&#x2009;DSM 116587T&#x2009;=&#x2009;KCTC 102092T) and SH678T (=&#x2009;DSM 116729T&#x2009;=&#x2009;KCTC 102079T) as the corresponding type strains."
+ },
+ {
+  "species": "Bythopirellula superficialaquae",
+  "genus": "Bythopirellula",
+  "accession": "GCF_059632245.1",
+  "pmid": "42373847",
+  "pmcid": "PMC13315336",
+  "title": "Two novel strains isolated from a brackish lake constitute Aeoliella fuhlenseeensis sp. nov. and Bythopirellula superficialaquae sp. nov. in the family Lacipirellulaceae.",
+  "journal": "Scientific reports",
+  "year": "2026",
+  "abstract": "The strain collection of Heinz Schlesner (Kiel University, Germany) largely consists of budding bacteria collected from the 1980s to early 2000s. It still holds an untapped diversity of bacteria with uncommon morphologies and cell division modes. Here, we characterize two strains from his collection, SH292T and SH678T, that he isolated from Lake Fuhlensee, a slightly brackish lake in Northern Germany. Phylogenetic tree reconstruction places the novel strains in the family Lacipirellulaceae within the phylum Planctomycetota. More detailed analyses based on five phylogenetic markers suggest positions within the genera Aeoliella and Bythopirellula, respectively. The novel isolates have an aerobic and heterotrophic lifestyle and a mesophilic and neutrophilic growth profile. Optimal growth was observed at 25&#xa0;&#xb0;C and pH 7.0-7.5. Genome sequencing revealed slightly smaller genomes of 5.6-6.0 Mbp compared to those of the close relatives (6.1-7.8 Mbp). An analysis of genome-encoded features suggests differences in the portfolio of secondary metabolite-associated biosynthetic gene clusters and carbohydrate-active enzymes. Genomic and morphological differences support the results of the phylogenetic inferences that together delineate the novel strains from previously described species. Hence, we conclude that the two novel isolates belong to two novel species, for which we introduce the names Aeoliella fuhlenseeensis sp. nov. and Bythopirellula superficialaquae sp. nov. The novel taxa are represented by strains SH292T (=&#x2009;DSM 116587T&#x2009;=&#x2009;KCTC 102092T) and SH678T (=&#x2009;DSM 116729T&#x2009;=&#x2009;KCTC 102079T) as the corresponding type strains."
+ },
+ {
+  "species": "Fictibacillus tiangongensis",
+  "genus": "Fictibacillus",
+  "accession": "GCF_048083785.1",
+  "pmid": "42345222",
+  "pmcid": "",
+  "title": "Fictibacillus tiangongensis sp. nov., isolated from the China Space Station.",
+  "journal": "International journal of systematic and evolutionary microbiology",
+  "year": "2026",
+  "abstract": "The identification of novel microbial species in extreme environments significantly enhances our comprehension of Earth's biodiversity and concurrently offers invaluable resources and critical insights for scientific research, biotechnological innovation and environmental conservation. As part of the China Space Station Habitation Area Microbiome Program (CHAMP), a Gram-positive, facultatively anaerobic, motile, spore-forming, rod-shaped strain, designated JL2B1089T, was isolated from the surface of hardware within the genus Fictibacillus. The strain grows optimally at 30-37&#x2009;&#xb0;C&#x2009;and pH 7-8 with 0-2.0% (w/v) NaCl. Phylogenetic analyses based on the genomic data revealed that JL2B1089T is closely related to Fictibacillus phosphorivorans Ca7T, with average nucleotide identity and digital DNA-DNA hybridization values of 90.0 and 40.6%, respectively; both values are below the recommended thresholds for species delineation. Chemotaxonomic characteristics, including the major cellular fatty acids iso-C15:0 and anteiso-C15:0, the predominant menaquinone-7 and a cell-wall peptidoglycan containing meso-diaminopimelic acid, are consistent with those of the closely related taxa F. phosphorivorans Ca7T and Fictibacillus halophilus AS8T. Additionally, strain JL2B1089T shows specificity in utilizing certain substrates, such as amino acids and carboxylic acids. Pan-genome analysis and divergence analysis of the bacillithiol biosynthesis deacetylase (BshB1) protein suggest that this strain may adapt to the space environment through mechanisms involved in coping with cell morphological alterations, osmotic fluctuations and oxidative damage under microgravity conditions. Based on phenotypic, chemotaxonomic and genomic characteristics, strain JL2B1089T represents a novel species within the genus Fictibacillus, for which the name Fictibacillus tiangongensis sp. nov. is proposed. The type strain is JL2B1089T (=GDMCC 1.4870T=KCTC 43746T)."
+ },
+ {
+  "species": "Aliikangiella litoralis",
+  "genus": "Aliikangiella",
+  "accession": "GCF_052495765.1",
+  "pmid": "42252975",
+  "pmcid": "PMC13576998",
+  "title": "Aliikangiella litoralis sp. nov. and Aliikangiella aequoris sp. nov., isolated from coastal seawaters of the Yellow Sea.",
+  "journal": "Journal of microbiology (Seoul, Korea)",
+  "year": "2026",
+  "abstract": "Three Gram-stain-negative, strictly aerobic, motile bacterial strains, designated IMCC44359T, IMCC44632T, and IMCC44653, were isolated from coastal surface seawater collected near Jangbong Island in the Yellow Sea. Phylogenetic analyses based on 16S rRNA gene and whole-genome sequences assigned the isolates to the genus Aliikangiella. Strains IMCC44632T and IMCC44653 shared identical 16S rRNA gene sequences and exhibited high genomic relatedness (99.0% average nucleotide identity and 92.0% digital DNA-DNA hybridization), indicating that they represent a single species. In contrast, strain IMCC44359T showed low genomic relatedness to these strains and to previously validly published Aliikangiella species, supporting its recognition as a distinct species. The genome of IMCC44359T (5.95 Mbp; 36.5 mol% G + C) is substantially larger than those of IMCC44632T and IMCC44653 (~3.75 Mbp; 40.1-40.2 mol% G + C), and all genomes encode aerobic chemoorganotrophic metabolism and biochemical capacities consistent with adaptation to marine environments. The isolates grew under mesophilic and moderately halophilic conditions typical of coastal seawater bacteria, with growth occurring at ranges at 10-40&#x2103;, pH 6.0-9.0, and 0.5-7.5% NaCl (optimum, 30&#x2103;, pH 7.0-8.0, and 2.0-3.0% NaCl). All strains contained ubiquinone-8 (Q-8) as the sole respiratory quinone, and phosphatidylethanolamine, phosphatidylglycerol, and diphosphatidylglycerol were the major polar lipids. The dominant cellular fatty acids were iso-C15:0 and summed feature 9 (iso-C17:1 &#x3c9;9c and/or C16:0 10-methyl). Integrated phylogenetic, genomic, phenotypic evidence supported the recognition of two novel species within the genus Aliikangiella, for which the names Aliikangiella litoralis sp. nov. (type strain IMCC44359T = KCTC 18089T = JCM 37879T = HNIBRBA19635T) and Aliikangiella aequoris sp. nov. (type strain IMCC44632T = KCTC 18090T = JCM 37880T = HNIBRBA19636T) are proposed."
+ },
+ {
+  "species": "Pseudocolwellia antarctica",
+  "genus": "Pseudocolwellia",
+  "accession": "GCF_049933045.1",
+  "pmid": "42236523",
+  "pmcid": "PMC13473541",
+  "title": "Genomic and phenotypic insights into Pseudocolwellia antarctica sp. nov., a novel psychrotolerant bacterium with symbiotic potential from Antarctic zooplankton.",
+  "journal": "Scientific reports",
+  "year": "2026",
+  "abstract": "Zooplankton in the Southern Ocean represent unique microhabitats for microbial communities that contribute significantly to polar biogeochemical cycles. In this study, we performed a polyphasic and genomic characterization of two Gram-negative, psychrotolerant bacterial strains, HL-MZ7T and HL-MZ19, isolated from Antarctic zooplankton. Phylogenetic and phylogenomic analyses clearly placed these isolates within the genus Pseudocolwellia, forming a sister clade to Pseudocolwellia agarivorans QM50T. The complete genomes of HL-MZ7T (4.5 Mbp) and HL-MZ19 (4.6 Mbp) exhibited DNA G&#x2009;+&#x2009;C contents of 36.0% and 35.9%, respectively. Average nucleotide identity (ANI) and digital DNA-DNA hybridization (dDDH) values confirmed that both strains represent a novel genomic species, distinct from P. agarivorans QM50T (79.5% ANI and 24.0% dDDH). Comparative genomic analysis revealed a rich repertoire of genes associated with cold environmental adaptation and host-microbe interactions. Notably, we identified biosynthetic gene clusters of aryl polyenes and homoserine lactones, alongside genes involved in surface adhesion and nutrient acquisition, suggesting a specialized symbiotic potential within the zooplankton micro-niche. Phenotypically, the strains are characterized as strictly aerobic, with optimal growth at 15-20&#xa0;&#xb0;C and 3.0% (w/v) sea salts. These findings expand the genomic and ecological understanding of zooplankton-associated bacteria in polar marine ecosystems, and support the proposal of Pseudocolwellia antarctica sp. nov."
+ },
+ {
+  "species": "Pedobacter jaeyakensis",
+  "genus": "Pedobacter",
+  "accession": "GCF_054461315.1",
+  "pmid": "42177378",
+  "pmcid": "",
+  "title": "Duganella paludis sp. nov. and Pedobacter jaeyakensis sp. nov., isolated from the wetland fresh water.",
+  "journal": "Antonie van Leeuwenhoek",
+  "year": "2026",
+  "abstract": "Two bacterial strains, PWIR1&#x1d40; and PWIIR3&#x1d40;, were isolated from freshwater collected from a wetland and characterized using a polyphasic taxonomic approach. Phylogenetic analysis based on 16S rRNA gene sequences and whole-genome comparisons showed that strain PWIR1&#x1d40; is affiliated with the genus Duganella, whereas strain PWIIR3&#x1d40; belongs to the genus Pedobacter. The genome sizes were 6.79&#xa0;Mb with a G&#x2009;+&#x2009;C content of 63.5% for PWIR1&#x1d40; and 4.41&#xa0;Mb with a G&#x2009;+&#x2009;C content of 40.5% for PWIIR3&#x1d40;. Genome analyses revealed genes potentially involved in diverse metabolic functions in wetland environments, including polysaccharide degradation, nitrogen fixation, cyanate detoxification, and vitamin biosynthesis. Cells of both strains were Gram-negative, facultatively anaerobic and rod-shaped. Chemotaxonomic analyses revealed that ubiquinone-8 was the predominant respiratory quinone in strain PWIR1&#x1d40;, while strain PWIIR3&#x1d40; contained menaquinone-7. The major fatty acid and polar lipid compositions were consistent with those reported for the respective genera. Phylogenomic analyses clearly indicated that strains PWIR1T and PWIIR3T represent two novel species. This conclusion is supported by phenotypic and chemotaxonomic characteristics. Therefore, the names Duganella paludis sp. nov. and Pedobacter jaeyakensis sp. nov. are proposed."
+ },
+ {
+  "species": "Kothea flammea",
+  "genus": "Kothea",
+  "accession": "GCF_052161645.1",
+  "pmid": "42162076",
+  "pmcid": "PMC13190842",
+  "title": "Characterisation of Kothea flammea gen. nov., sp. nov., a planctomycete of the family Pirellulaceae isolated from Fjord Schlei in the Baltic Sea.",
+  "journal": "Scientific reports",
+  "year": "2026",
+  "abstract": "The flame-like reddish to orange-pigmented planctomycetal strain SH139T was isolated from brackish water obtained from Fjord Schlei in Northern Germany as part of an isolation effort led by Heinz Schlesner at Kiel University between the 1980s and early 2000s. Single gene- and whole genome-based analyses employing five established phylogenetic markers indicate that the novel isolate constitutes a novel genus and species within the family Pirellulaceae in the phylum Planctomycetota. The strain is aerobic, heterotrophic, mesophilic, and exhibits neutrophilic to slight alkaliphilic properties. Its genome size and DNA G&#x2009;+&#x2009;C content of 7.8&#xa0;Mb and 55.8%, respectively, are comparable to the current closest relatives. The results of the phenotypic and phylogenetic analyses are supported by comprehensive comparative genomic data, including pangenome reconstruction and profiling of carbohydrate-active enzymes and biosynthetic gene clusters. We thus introduce Kothea flammea gen. nov., sp. nov., that is constituted by the here characterized isolate SH139T (=&#x2009;KCTC 102020T&#x2009;=&#x2009;DSM 116129T) as type strain. The novel genus is named after Prof. Erika Kothe (Friedrich Schiller University Jena, Germany) in recognition of her pioneering work on microbial communication."
+ },
+ {
+  "species": "Ornithinibacillus proteolyticus",
+  "genus": "Ornithinibacillus",
+  "accession": "GCF_039581225.1",
+  "pmid": "42154618",
+  "pmcid": "",
+  "title": "Phylogenomic insights, protease-related genes and protease of Ornithinibacillus proteolyticus sp. nov. isolated from fermented fish (Pla-ra).",
+  "journal": "International journal of systematic and evolutionary microbiology",
+  "year": "2026",
+  "abstract": "A Gram-stain-positive, aerobic, spore-forming, moderately halophilic bacterium, designated JPR2-1T, was isolated from fermented fish (pla-ra). Optimal growth was observed at 30-37&#x2009;&#xb0;C, pH 7.0-7.5 and in the presence of 2-4% (w/v) NaCl. It contained l-Orn-d-Asp in the cell wall peptidoglycan and MK-7 as the major menaquinone. The predominant fatty acids were iso-C15:0, anteiso-C15&#x200a;:0 and anteiso-C17:0. The polar lipid profile included diphosphatidylglycerol, phosphatidylglycerol, an unidentified phospholipid and an unidentified lipid. Strain JPR2-1&#x1d40; belonged to the genus Ornithinibacillus and was based on 16S rRNA gene sequence similarity of 99.76, 99.76, 98.50, 98.18 and 98.08% with 'Ornithinibacillus massiliensis' Marseille-P3601&#x1d40;, 'Ornithinibacillus hominis' BX22T, Ornithinibacillus scapharcae TW25T, Ornithinibacillus californiensis MB-9&#x1d40; and Ornithinibacillus bavariensis WSBC 24001&#x1d40;, respectively. The whole genome of strain JPR2-1T comprised 3,856,660 bp with 3,936 coding genes and a DNA G+C content of 37.3 mol%. The strain exhibited the average nucleotide identity values below 95% and lower than 70% of digital DNA-DNA hybridization in comparison to Ornithinibacillus species, except 'O. massiliensis' Marseille-P3601&#x1d40; and 'O. hominis' BX22T. This strain carried nine groups of intracellular hydrolytic genes (such as the rhomboid family and CAAX proteases) and three groups of extracellular proteolytic genes (the S8 family, the S9 family and zinc metallopeptidases). The highest specific activity of protease measured was 8.8&#x2009;U mg-1 with the addition of 2.5% (w/v) NaCl. The results of this polyphasic study indicate that strain JPR2-1T is a novel species in the genus Ornithinibacillus, and the name Ornithinibacillus proteolyticus sp. nov. is proposed. The type strain is JPR2-1T (=JCM 32622T=KCTC 33904T=TISTR 2557T). In this study, 'O. massiliensis' and 'O. hominis' should be reclassified as a later heterotypic synonym of O. proteolyticus."
+ },
+ {
+  "species": "Parasediminibacterium schistidii",
+  "genus": "Parasediminibacterium",
+  "accession": "GCF_046546515.1",
+  "pmid": "42118194",
+  "pmcid": "",
+  "title": "Parasediminibacterium schistidii sp. nov., a novel member of the family Chitinophagaceae isolated from a glacier moss ball in the Canadian High Arctic.",
+  "journal": "Antonie van Leeuwenhoek",
+  "year": "2026",
+  "abstract": "An aerobic, Gram-stain-negative bacterium, designated strain NIPR152T, was isolated from a glacier moss ball (glacier mice; Schistidium agassizii) collected from Ellesmere Island in the Canadian High Arctic. Cells were non-motile, rod-shaped, and formed orange-pigmented colonies. The strain grew at 4-30&#xa0;&#xb0;C (optimum, 18&#xa0;&#xb0;C), at pH 5.5-8.0 (optimum, pH 7.0-7.5), and tolerated up to 1.0% (w/v) NaCl. Strain NIPR152T exhibited psychrotolerant growth and hydrolyzed starch and cellulose, distinguishing it from its closest known relative. Phylogenetic analysis based on 16S rRNA gene sequences placed the strain within the genus Parasediminibacterium (family Chitinophagaceae), with the highest similarity (95.29%) to Parasediminibacterium paludis HME6815&#x1d40;. Genome-based analyses supported its novelty, with OrthoANIu and in silico DNA-DNA hybridization values of 71.84% and 20.80%, respectively, while genus-level metrics including average amino acid identity (70.9%) and percentage of conserved proteins (52.1%) supported its placement within the genus Parasediminibacterium. Compared with P. paludis HME6815T, strain NIPR152T possessed a larger genome and showed differences in functional gene composition, including relatively higher representation of selected nitrogen-related and hemicellulose-associated functions, whereas P. paludis showed higher densities of several stress- and photoprotection-related genes. The major respiratory quinone was menaquinone-7 (MK-7), and the dominant fatty acids were summed feature 3 (C16:1&#x3c9;7c and/or C16:1&#x3c9;6c), iso-C15:0, and C15:1&#x3c9;6c. The genomic G&#x2009;+&#x2009;C content was 40.38%. Phenotypic, chemotaxonomic, and genotypic characteristics support the classification of strain NIPR152T as representing a novel species of the genus Parasediminibacterium, for which the name Parasediminibacterium schistidii sp. nov. is proposed. The type strain is NIPR152T (=&#x2009;JCM 36343T&#x2009;=&#x2009;KCTC 102165T)."
+ },
+ {
+  "species": "Verruconatronum alginivorum",
+  "genus": "Verruconatronum",
+  "accession": "GCF_056590205.1",
+  "pmid": "42112890",
+  "pmcid": "PMC13274419",
+  "title": "Physiology, functional genomics, and proteomics of Verruconatronum alginivorum gen. nov., sp. nov., the first isolated haloalkaliphile within Verrucomicrobiota, representing a new family, Verruconatronumaceae fam. nov.",
+  "journal": "Applied and environmental microbiology",
+  "year": "2026",
+  "abstract": "Despite the successful cultivation of many microbes from rich bacterial communities inhabiting alkaline soda lakes, members of the bacterial phylum Verrucomicrobiota have so far been detected only through metagenomics. Here, we used alginate as a selective substrate to enrich and isolate two strains of haloalkaliphilic Verrucomicrobiota. The isolates share identical 16S rRNA gene sequences representing a new genus lineage, and, together with other metagenome assembled genomes, a new family within Opitutales. Cells of strains AB-alg1T (from soda lakes) and AB-alg4 (from soda solonchak soils) are small and motile cocci forming submerged colonies in soft alginate agar. They are saccharolytic heterotrophs growing aerobically on polysaccharides (alginate, starch, and inulin) and sugars (glucose, fructose, mannose, sucrose, melezitose, maltose, and cellobiose). They also grow anaerobically by fermentation of alginate and D-mannose and by coupling incomplete denitrification to oxidation of alginate. Both isolates are obligately alkaliphilic and moderately salt-tolerant. The dominant membrane phospholipids include phosphatidylcholines and diphosphatidylglycerols (cardiolipins). The genome of AB-alg1T features polysaccharide lyases of the PL6, 7, 15, 17, 38, and 39 families for depolymerization of alginate. Based on distinct phenotype and phylogeny, we propose classification of strains AB-alg1T (JCM 35393T=UQM 41574T) and AB-alg4 as Verruconatronum alginivorum gen. nov., sp. nov. within a new family Verruconatronumaceae.IMPORTANCEAlkaline soda lakes and soils are extreme habitats dominated by obligate haloalkaliphic prokaryotes, some of which can produce alkali- and salt-stable polysaccharide-degrading exoenzymes useful for industrial and domestic applications. However, so far, little was known about the microbial potential for mineralization of acidic polysaccharides, such as alginate, in these habitats. The described isolates are the first representatives of a new family within the phylum Verrucomicrobiota specializing in the degradation of alginate and related polysaccharides. We present the key enzymatic machinery for alginate breakdown. These enzymes are high-pH tolerant and have potential for industry applications, for example, in washing powders and biomass waste recycling. Furthermore, the new family is one of the most abundant taxa in alkaline environments, and these environments are not known to harbor signature alginate producing biota, such as brown algae. This way, our study opens a new window on polysaccharide turnover in alkaline environments."
+ },
+ {
+  "species": "Kineococcus anabasis",
+  "genus": "Kineococcus",
+  "accession": "GCF_054590795.1",
+  "pmid": "42103916",
+  "pmcid": "",
+  "title": "Kineococcus anabasis sp. nov., isolated from seeds of Anabasis brevifolia.",
+  "journal": "The Journal of antibiotics",
+  "year": "2026",
+  "abstract": "A novel actinomycete, designated as NUM-3379T, was isolated from seeds of Anabasis brevifolia collected from Urgun Soum, Dornogovi Province, Mongolia. The cells of the strain were aerobic, Gram-positive, motile, non-spore-forming, and coccus-shaped. 16S rRNA gene sequence analysis indicated that strain NUM-3379T belonged to the genus Kineococcus and showed the highest similarity to Kineococcus glutinatus DSM 26692T and Kineococcus xinjiangensis DSM 22857T, with both sharing 98.87% sequence similarity. The chemotaxonomic characteristics of the strain NUM-3379T were consistent with those of the genus Kineococcus. The diagnostic diamino acid for peptidoglycans was meso-diaminopimelic acid. The whole-cell sugars included glucose, galactose, mannose, and arabinose. The major menaquinone was MK-9(H2). The polar lipid profile was comprised of phosphatidylglycerol, diphosphatidylglycerol, and two unidentified phospholipids. The major fatty acids were anteiso-C15:0 and iso-C17:0 3-OH. In contrast, digital DNA-DNA hybridization and average nucleotide identity values revealed low relatedness between strain NUM-3379T and other type strains of the genus Kineococcus. Furthermore, strain NUM-3379T exhibited several phenotypic properties that distinguished it from other closely related species. Based on the genotypic and phenotypic data, strain NUM-3379T represents a novel species within the genus Kineococcus, for which the name Kineococcus anabasis sp. nov. is proposed. The type strain is NUM-3379T (=NBRC 117252T&#x2009;=&#x2009;TBRC 21100T)."
+ },
+ {
+  "species": "Daquilactobacillus linshuiensis",
+  "genus": "Daquilactobacillus",
+  "accession": "GCF_052828685.1",
+  "pmid": "42101957",
+  "pmcid": "",
+  "title": "Daquilactobacillus linshuiensis gen. nov., sp. nov., a novel lactic acid bacterium isolated from Nongxiangxing Baijiu Daqu.",
+  "journal": "International journal of systematic and evolutionary microbiology",
+  "year": "2026",
+  "abstract": "A facultatively anaerobic, Gram-stain-positive, non-spore-forming, non-motile, short-rod-shaped lactic acid bacterium, designated strain DQM5&#x1d40;, was isolated from Nongxiangxing Baijiu Daqu, a traditional Chinese fermentation starter. On the basis of 16S rRNA gene sequence similarity, strain DQM5&#x1d40; exhibited the highest similarity to Companilactobacillus mishanensis (93.87%). In the 16S rRNA gene-based phylogenetic tree, strain DQM5&#x1d40; formed a distinct lineage located between the Companilactobacillus and Latilactobacillus clades. Phylogenomic analysis revealed that the average amino acid identity, average nucleotide identity and digital DNA-DNA hybridization values between strain DQM5&#x1d40; and its most closely related taxa were at most 58.6%, 70.1% and 26.5%, respectively, which are well below the thresholds for genus and species delineation. Notably, the genome size (1.40 Mbp) and DNA G+C content (30.8 mol%) of strain DQM5&#x1d40; are significantly different from those of related taxa. The peptidoglycan contains lysine as the diagnostic diamino acid. The major cellular fatty acids are C&#x2081;&#x2088;:&#x2081; &#x3c9;9c and C&#x2081;&#x2086;:&#x2080;. These distinctive genomic features, together with other phenotypic, chemotaxonomic and phylogenetic differences, provide strong evidence for proposing a completely new genus. Therefore, strain DQM5&#x1d40; represents a novel species of a new genus within the family Lactobacillaceae, for which the name Daquilactobacillus linshuiensis gen. nov., sp. nov. is proposed. The type strain is DQM5&#x1d40; (=GDMCC 1.5776&#x1d40;=JCM 38144&#x1d40;)."
+ },
+ {
+  "species": "Pilosibacter rotomagensis",
+  "genus": "Pilosibacter",
+  "accession": "GCF_045062245.2",
+  "pmid": "42047869",
+  "pmcid": "",
+  "title": "Pilosibacter rotomagensis sp. nov., a Butyrate-Producing Bacterium Isolated from Human Faeces.",
+  "journal": "Current microbiology",
+  "year": "2026",
+  "abstract": "Isolating bacteria from the human gut microbiota and analyzing their phenotypes is essential for complementing the data obtained by metagenomics and for characterizing the functions of these microorganisms in human physiology. In this study, we isolated bacteria from the gut microbiota of healthy individuals and identified an uncharacterized bacterial strain that we designated HC1M1C21T. Phylogenetic analyses based on 16S rRNA and whole genome sequences indicated that this strain belongs to the family Lachnospiraceae. The closest relative of strain HC1M1C21T is Pilosibacter fragilis CSJ-4T (97.0% 16S rRNA gene sequence identity). P. fragilis was initially classified in the family Clostridiaceae. Based on our phylogenetic analyses, we propose to transfer the genus Pilosibacter from the family Clostridiaceae to the family Lachnospiraceae. HC1M1C21T has a DNA G&#x2009;+&#x2009;C content of 48.7%. This strain is anaerobic, Gram-stain-positive, non-motile and non-spore-forming. HC1M1C21T cells appear as single rods or chained rods with tapered ends. Optimal growth was observed at 37&#xb0;C, at pH between 5.7 and 7.0 and at salinity below 10&#xa0;g/L. HC1M1C21T is a potent butyrate producer. On the basis of these data, HC1M1C21T represents a novel species from the genus Pilosibacter, for which the name Pilosibacter rotomagensis sp. nov. is proposed. The type strain of P. rotomagensis is HC1M1C21T (=&#x2009;DSM 119410T=LMG 33828T)."
+ },
+ {
+  "species": "Hydrophilobacter chitinilyticus",
+  "genus": "Hydrophilobacter",
+  "accession": "GCF_049860745.1",
+  "pmid": "42007536",
+  "pmcid": "",
+  "title": "Hydrophilobacter chitinilyticus gen. nov., sp. nov., a new member of the family Comamonadaceae isolated from freshwater.",
+  "journal": "International journal of systematic and evolutionary microbiology",
+  "year": "2026",
+  "abstract": "A novel Gram-stain-negative, aerobic, rod-shaped and non-motile bacterium, designated strain 25HG05S-68&#x1d40;, was isolated from freshwater of the Seomgang River, Republic of Korea. Phylogenetic analysis based on the 16S rRNA gene sequence placed the strain within the family Comamonadaceae, showing &#x2264;97.2% similarity to type strains of validly published species, indicating that it represents a novel genus and species. The complete genome comprises a single circular chromosome of 6.12&#x2009;Mb with a G+C content of 61.5&#x2009;mol%. Average nucleotide identity (73.4-75.0%), average amino acid identity (68.9-71.0%), digital DNA-DNA hybridization (19.6-20.4%) and percentage of conserved proteins (44.7-58.2%) values between strain 25HG05S-68&#x1d40; and its closest relatives were well below the accepted thresholds for both species and genus delineation. Phylogenomic analyses using both the Type (Strain) Genome Server and the up-to-date bacterial core gene pipeline confirmed that the strain formed a separate and well-supported clade distinct from all described genera within the family. The genome encoded a full complement of genes for the Embden-Meyerhof-Parnas pathway, gluconeogenesis, the tricarboxylic acid cycle and assimilatory sulphate reduction. Phenotypically, the strain grew at 20-35&#x2009;&#xb0;C (optimum, 25&#x2009;&#xb0;C), pH 4.0-9.0 (optimum, pH 7.0) and tolerated up to 1.0% (w/v) NaCl. It exhibited positive catalase and oxidase activities and showed hydrolytic activity towards chitin, hypoxanthine and l-tyrosine. The major cellular fatty acids of strain 25HG05S-68&#x1d40; were summed feature 3 (C16:1 &#x2009;&#x3c9;6c and/or C16:1 &#x2009;&#x3c9;7c), C10:0 3-OH and C15:1 &#x2009;&#x3c9;6c. The predominant respiratory quinone was ubiquinone-8, and the polar lipid profile included diphosphatidylglycerol, phosphatidylglycerol and phosphatidylethanolamine. Comprehensive evidence from phylogenetic, genomic, phenotypic and chemotaxonomic analyses supports the classification of strain 25HG05S-68&#x1d40; as a novel genus and species within the family Comamonadaceae, for which the name Hydrophilobacter chitinilyticus gen. nov., sp. nov. is proposed. The type strain is 25HG05S-68&#x1d40; (=FBCC-B19484&#x1d40; =MCCC 1K10059&#x1d40;)."
+ }
+]

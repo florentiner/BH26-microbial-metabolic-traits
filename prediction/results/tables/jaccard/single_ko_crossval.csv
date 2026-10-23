@@ -1,0 +1,16 @@
+functional_group,phenotype,n_kos,n_pos,mcc_any_ko_rule,mcc_single_ko_out_of_genus,mcc_single_ko_ci_low,mcc_single_ko_ci_high,gain_out_of_genus,most_chosen_ko,selection_stability,kos_ever_chosen,verdict
+Methanogens (hydrogenotrophic),acceptor_CO2_methanogen_acetogen,6,75,0.2036,0.5800,0.5800,0.5800,0.3764,K00399,1.0000,K00399:100,single KO better (robust)
+Sulfate-reducing (SRB),acceptor_sulfate,8,63,0.2949,0.6581,0.6568,0.6622,0.3632,K11181,0.8000,"K11181:80, K11180:20",single KO better (robust)
+Acetogens (homoacetogens),acceptor_CO2_methanogen_acetogen,10,75,0.0871,0.4355,0.3906,0.4658,0.3484,K00198,0.9100,"K00198:91, K14138:9",single KO better (robust)
+Ammonia oxidizing (AOB/AOA),donor_ammonia_oxidation,4,32,0.5032,0.8284,0.8284,0.8284,0.3252,K10945,1.0000,K10945:100,single KO better (robust)
+Sulfur oxidizing (SOB),donor_sulfur_oxidation,16,131,0.3132,0.4470,0.3919,0.5075,0.1338,K17227,0.5100,"K17227:51, K17218:26, K17222:23",single KO better (robust)
+Nitrate-reducing (DNRA),acceptor_nitrate,4,102,0.2139,0.3232,0.3232,0.3232,0.1093,K00362,1.0000,K00362:100,single KO better (robust)
+Nitrite oxidizing (NOB),donor_nitrite_oxidation,5,12,0.2527,0.2811,0.2811,0.2811,0.0284,K00370,1.0000,K00370:100,single KO better (robust)
+Aerobic respiration,acceptor_oxygen,13,177,0.4589,0.4843,0.4202,0.5077,0.0255,K02275,0.9400,"K02275:94, K00406:6",no robust difference
+Formate oxidizing,donor_other,2,23,0.0826,0.0840,0.0840,0.0840,0.0014,K00123,1.0000,K00123:100,single KO better (robust)
+Anammox,acceptor_other,4,23,0.2020,0.2020,0.2020,0.2020,0.0000,K20932,1.0000,K20932:100,group rule better
+Methane oxidizing (methanotroph),donor_other,9,23,0.0137,-0.0317,-0.0779,0.0267,-0.0454,K10946,0.5600,"K10946:56, K10945:19, K14028:13, K01601:12",no robust difference
+Hydrogen oxidizing,donor_hydrogen_oxidation,4,208,0.1660,0.0706,-0.0164,0.1456,-0.0954,K06281,0.6600,"K06281:66, K00533:21, K05922:13",group rule better
+Nitrate-reducing (denitrifiers),acceptor_nitrate,12,102,0.4327,0.3329,0.2369,0.4078,-0.0998,K00371,0.4400,"K00371:44, K00374:19, K15864:12, K00373:11",group rule better
+Sulfur-reducing,acceptor_sulfur,2,50,0.2974,0.1567,0.0725,0.2392,-0.1407,K17219,0.5700,"K17219:57, K08352:43",group rule better
+CO oxidizing (carboxydotroph),donor_CO_oxidation,4,45,0.3309,0.1835,0.1296,0.2310,-0.1474,K03518,0.5500,"K03518:55, K00198:45",group rule better

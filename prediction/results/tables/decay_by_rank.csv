@@ -1,0 +1,13 @@
+arm,lowest_shared_rank,n_genomes,n_traits_evaluable,macro_auprc,macro_prevalence
+B2,family,215,14,0.6050,0.2037
+B2,order,82,12,0.5616,0.2398
+B2,class,33,13,0.6907,0.2308
+B2,phylum,22,10,0.6404,0.2364
+E,family,215,14,0.5870,0.2037
+E,order,82,12,0.5436,0.2398
+E,class,33,13,0.6513,0.2308
+E,phylum,22,10,0.6369,0.2364
+null_taxNN,family,215,14,0.4959,0.2037
+null_taxNN,order,82,12,0.4714,0.2398
+null_taxNN,class,33,13,0.5219,0.2308
+null_taxNN,phylum,22,10,0.5969,0.2364

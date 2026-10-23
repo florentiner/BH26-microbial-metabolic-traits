@@ -1,0 +1,27 @@
+trait,cls,hits,correct,phyla,precision_in_unseen_phyla
+acceptor_CO2_methanogen_acetogen,has trait,0,0,2,0.0000
+acceptor_CO2_methanogen_acetogen,lacks trait,66,13,2,0.1970
+acceptor_iron,has trait,0,0,3,0.0000
+acceptor_iron,lacks trait,0,0,3,0.0000
+acceptor_nitrate,has trait,2,1,5,0.5000
+acceptor_nitrate,lacks trait,105,76,5,0.7238
+acceptor_other,has trait,0,0,1,0.0000
+acceptor_other,lacks trait,0,0,1,0.0000
+acceptor_oxygen,has trait,109,88,7,0.8073
+acceptor_oxygen,lacks trait,90,28,7,0.3111
+acceptor_sulfate,has trait,22,13,2,0.5909
+acceptor_sulfate,lacks trait,18,17,2,0.9444
+acceptor_sulfur,has trait,0,0,5,0.0000
+acceptor_sulfur,lacks trait,43,27,5,0.6279
+donor_CO_oxidation,has trait,0,0,3,0.0000
+donor_CO_oxidation,lacks trait,66,44,3,0.6667
+donor_ammonia_oxidation,has trait,0,0,2,0.0000
+donor_ammonia_oxidation,lacks trait,114,112,2,0.9825
+donor_hydrogen_oxidation,has trait,118,88,8,0.7458
+donor_hydrogen_oxidation,lacks trait,77,26,8,0.3377
+donor_iron_oxidation,has trait,0,0,3,0.0000
+donor_iron_oxidation,lacks trait,49,43,3,0.8776
+donor_other,has trait,0,0,1,0.0000
+donor_other,lacks trait,0,0,1,0.0000
+donor_sulfur_oxidation,has trait,123,89,6,0.7236
+donor_sulfur_oxidation,lacks trait,64,51,6,0.7969

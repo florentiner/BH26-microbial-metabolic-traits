@@ -1,0 +1,3 @@
+task,trait,best_model,predictable,rule_set,best_precision,best_recall,best_mcc,rule_precision,rule_recall,rule_mcc,delta_mcc_best_minus_rule,delta_ci_low,delta_ci_high,kappa_rule_vs_model,n_rule_right_model_wrong,n_rule_wrong_model_right,p_mcnemar
+ox,uses_O2,RF,True,tree rules (DT),0.9634,0.9887,0.8990,0.9606,0.9611,0.8404,0.0586,0.0376,0.0822,0.8967,22,87,0.0000
+ox,uses_O2,RF,True,marker rule (K02274 or K02275 or K02276 or K00404 or K00405 or K00406),0.9634,0.9887,0.8990,0.9540,0.9017,0.7310,0.1680,0.1260,0.2112,0.7495,38,243,0.0000

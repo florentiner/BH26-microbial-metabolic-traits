@@ -1,0 +1,587 @@
+genome_id	checkm2_completeness	checkm2_contamination	quality_ok	assembly_level
+GCF_000008665.1	99.99	0.25	True	Complete Genome
+GCF_016757965.1	99.99	0.13	True	Contig
+GCF_000385565.1	99.87	0.51	True	Complete Genome
+GCF_000194625.1	99.99	0.11	True	Complete Genome
+GCF_000025505.1	99.98	0.03	True	Complete Genome
+GCF_000789255.1	99.99	0.05	True	Complete Genome
+GCF_001006045.1	99.99	0.05	True	Complete Genome
+GCF_017874455.1	99.79	0.22	True	Contig
+GCF_018141185.1	99.92	0.03	True	Complete Genome
+GCF_000746075.1	99.99	2.65	True	Scaffold
+GCF_002287175.1	100.0	4.11	True	Contig
+GCF_900095295.1	99.95	0.13	True	Complete Genome
+GCF_000191585.1	99.88	0.22	True	Complete Genome
+GCF_054656995.1			False	Contig
+GCF_055387505.1			False	Complete Genome
+GCF_050433505.1	99.99	0.51	True	Contig
+GCF_019931065.1	99.24	0.65	True	Scaffold
+GCF_002813695.1	98.19	0.22	True	Complete Genome
+GCF_000745485.1	100.0	2.61	True	Scaffold
+GCF_001316345.1			False	Contig
+GCF_002072215.1	99.6	0.29	True	Contig
+GCF_001639285.1	94.69	0.33	True	Contig
+GCF_003385755.1	99.99	0.09	True	Scaffold
+GCF_000145295.1	99.81	0.18	True	Complete Genome
+GCF_027554905.1	99.99	0.03	True	Complete Genome
+GCF_025397995.1	99.8	0.03	True	Complete Genome
+GCF_055392295.1			False	Complete Genome
+GCF_000739065.1	99.92	0.03	True	Complete Genome
+GCF_000023985.1	99.87	0.04	True	Complete Genome
+GCF_049554935.1	99.25	0.0	True	Complete Genome
+GCF_000092305.1	99.78	0.05	True	Complete Genome
+GCF_000091665.1	99.92	0.16	True	Complete Genome
+GCF_902827225.1	98.72	0.02	True	Complete Genome
+GCF_000371805.1	96.83	0.03	True	Contig
+GCF_000024625.1	99.82	0.1	True	Complete Genome
+GCF_047915675.1	99.96	0.09	True	Contig
+GCF_000214415.1	99.95	0.39	True	Complete Genome
+GCF_000017185.1	99.8	0.0	True	Complete Genome
+GCF_000011585.1	99.23	0.31	True	Complete Genome
+GCF_000017165.1	99.96	0.28	True	Complete Genome
+GCF_000179575.2	99.2	0.1	True	Complete Genome
+GCF_000376965.1	99.38	1.63	True	Contig
+GCF_004310395.1	99.67	0.04	True	Contig
+GCF_026891975.1	99.19	0.32	True	Contig
+GCF_026891935.1	97.42	0.23	True	Contig
+GCF_032714495.1	96.26	0.56	True	Contig
+GCF_001602375.1	99.85	0.76	True	Contig
+GCF_004102725.1	99.98	1.57	True	Scaffold
+GCF_017357525.1	99.76	0.51	True	Complete Genome
+GCF_004297185.1	98.51	0.5	True	Contig
+GCF_024662215.1	99.1	0.18	True	Complete Genome
+GCF_000013445.1	99.97	1.57	True	Complete Genome
+GCF_046244385.1	99.9	1.45	True	Complete Genome
+GCF_000970025.1	99.88	0.94	True	Complete Genome
+GCF_001304615.2	99.99	0.27	True	Complete Genome
+GCF_000744315.1	99.96	1.65	True	Contig
+GCF_002287235.1	99.9	1.62	True	Contig
+GCF_000969885.1	99.95	0.78	True	Complete Genome
+GCF_000969905.1	99.99	0.86	True	Complete Genome
+GCF_000007185.1	99.97	0.22	True	Complete Genome
+GCF_900248165.1	99.37	0.11	True	Complete Genome
+GCF_002906215.1	99.39	0.14	True	Complete Genome
+GCF_000241145.1	95.01	8.21	False	Contig
+GCF_000220175.1	99.68	0.01	True	Contig
+GCF_000242875.2	87.11	2.01	False	Contig
+GCF_000956175.1	99.88	0.18	True	Complete Genome
+GCF_000018465.1	99.59	0.03	True	Complete Genome
+GCF_000875775.1	99.86	0.1	True	Complete Genome
+GCF_009861625.1	98.88	0.43	True	Scaffold
+GCF_900696045.1	99.26	0.11	True	Complete Genome
+GCF_001870125.1	99.89	0.52	True	Complete Genome
+GCF_000802205.1	99.75	0.58	True	Complete Genome
+GCF_000303155.1	99.85	0.67	True	Complete Genome
+GCF_900177045.1	99.78	0.29	True	Chromosome
+GCF_900143675.1	99.93	0.24	True	Contig
+GCF_002787055.1	99.97	0.07	True	Complete Genome
+GCF_000685395.1	98.15	0.11	True	Contig
+GCF_000955905.1	99.93	0.0	True	Complete Genome
+GCF_000723185.1	99.7	0.02	True	Contig
+GCF_000017945.1	99.93	0.21	True	Complete Genome
+GCF_055379715.1			False	Complete Genome
+GCF_001462395.1	99.79	0.0	True	Contig
+GCF_000223395.1	99.53	0.06	True	Complete Genome
+GCF_009428885.1	99.91	0.72	True	Contig
+GCF_003201835.2	100.0	0.55	True	Complete Genome
+GCF_000213215.1	99.94	0.26	True	Complete Genome
+GCF_009729545.1	99.98	0.41	True	Contig
+GCF_002116695.1	99.98	1.33	True	Complete Genome
+GCF_003201765.2	99.95	0.03	True	Complete Genome
+GCF_000632495.1	99.83	0.96	True	Contig
+GCF_000204925.1	99.88	0.03	True	Complete Genome
+GCF_001315825.1	75.56	1.69	False	Contig
+GCF_003201675.2	100.0	0.47	True	Complete Genome
+GCF_021654415.1	99.99	0.3	True	Complete Genome
+GCF_000016605.1	99.99	0.38	True	Complete Genome
+GCF_013343295.1	99.99	1.2	True	Complete Genome
+GCF_000243315.1	99.98	0.28	True	Scaffold
+GCF_009729035.1	99.98	0.51	True	Complete Genome
+GCF_019704315.1	99.99	0.36	True	Complete Genome
+GCF_000012285.1	100.0	0.16	True	Complete Genome
+GCF_036967215.1	99.94	1.12	True	Complete Genome
+GCF_009729515.1	99.92	0.16	True	Contig
+GCF_041154675.1	99.54	0.95	True	Complete Genome
+GCF_014202105.1	99.92	0.62	True	Contig
+GCF_000011205.1	99.97	0.28	True	Complete Genome
+GCF_000007225.1	99.74	0.17	True	Complete Genome
+GCF_000016385.1	99.98	0.03	True	Complete Genome
+GCF_000015205.1	99.95	0.12	True	Complete Genome
+GCF_000019805.1	99.98	0.14	True	Complete Genome
+GCF_000253055.1	100.0	0.37	True	Complete Genome
+GCF_000023265.1	99.51	0.26	True	Complete Genome
+GCF_023130475.1	85.4	0.09	False	Scaffold
+GCF_001543895.1	98.94	1.26	True	Contig
+GCF_039524635.1	99.99	0.92	True	Scaffold
+GCF_039524715.1	99.89	0.06	True	Scaffold
+GCF_002102175.1	99.99	0.0	True	Contig
+GCF_001938725.1	100.0	0.75	True	Complete Genome
+GCF_025822705.1	99.99	0.0	True	Scaffold
+GCF_042658305.1	92.16	0.21	True	Scaffold
+GCF_000691525.1	100.0	0.0	True	Contig
+GCF_010725485.1	100.0	0.03	True	Complete Genome
+GCF_002102345.1	100.0	0.08	True	Contig
+GCF_001583415.1	100.0	0.0	True	Complete Genome
+GCF_009192875.1	100.0	0.0	True	Contig
+GCF_001552715.1	100.0	0.27	True	Contig
+GCF_048288345.1	100.0	2.66	True	Complete Genome
+GCF_900115005.1	99.99	3.92	True	Scaffold
+GCF_003945385.1	100.0	3.11	True	Complete Genome
+GCF_000196675.2	100.0	1.52	True	Chromosome
+GCF_014235185.1	99.2	1.99	True	Complete Genome
+GCF_000008625.1	99.99	0.45	True	Complete Genome
+GCF_054656935.1			False	Contig
+GCF_003664005.1	99.94	0.24	True	Contig
+GCF_055385515.1			False	Complete Genome
+GCF_000010785.1	99.99	0.27	True	Complete Genome
+GCF_000025605.1	100.0	0.09	True	Complete Genome
+GCF_000702425.1	99.98	0.16	True	Scaffold
+GCF_900142435.1	100.0	0.08	True	Chromosome
+GCF_000512735.1	100.0	0.16	True	Complete Genome
+GCF_003688665.1	99.95	0.02	True	Scaffold
+GCF_016617615.1	99.99	0.2	True	Contig
+GCF_900215515.1	100.0	0.94	True	Contig
+GCF_000021565.1	100.0	0.42	True	Complete Genome
+GCF_000021545.1	99.99	0.66	True	Complete Genome
+GCF_000619805.1	99.95	0.31	True	Scaffold
+GCF_000173615.1	82.67	1.65	False	Contig
+GCF_900182795.1	99.93	0.37	True	Contig
+GCF_900182585.1	99.91	0.27	True	Scaffold
+GCF_900188395.1	99.71	0.28	True	Scaffold
+GCF_054656775.1			False	Contig
+GCF_001968985.1	99.98	0.01	True	Contig
+GCF_055384745.1			False	Complete Genome
+GCF_000191045.1	99.98	0.0	True	Complete Genome
+GCF_004339575.1	99.4	0.02	True	Scaffold
+GCF_000185805.1	99.99	0.08	True	Complete Genome
+GCF_003633715.1	99.98	0.01	True	Scaffold
+GCF_055380895.1			False	Complete Genome
+GCF_048984885.1	99.84	0.14	True	Contig
+GCF_002804065.1	99.99	0.49	True	Complete Genome
+GCF_000092905.1	99.99	0.35	True	Complete Genome
+GCF_003633725.1	99.07	1.58	True	Scaffold
+GCF_001653195.1	99.57	2.67	True	Contig
+GCF_001484725.1	100.0	0.64	True	Complete Genome
+GCF_001038625.1	100.0	6.41	False	Complete Genome
+GCF_001636835.1	100.0	1.59	True	Contig
+GCF_003096175.1	100.0	1.57	True	Complete Genome
+GCF_000143685.1	100.0	1.92	True	Complete Genome
+GCF_900129955.1	99.28	7.57	False	Scaffold
+GCF_001675165.1	100.0	2.38	True	Contig
+GCF_000968375.1	100.0	1.76	True	Complete Genome
+GCF_012933365.1	99.8	6.98	False	Contig
+GCF_039623705.1	83.98	1.38	False	Complete Genome
+GCF_900115975.1	99.99	0.24	True	Scaffold
+GCF_000233715.2	100.0	3.04	True	Complete Genome
+GCF_000021925.1	100.0	1.05	True	Complete Genome
+GCF_001029285.1	100.0	0.17	True	Contig
+GCF_000235605.1	100.0	2.68	True	Complete Genome
+GCF_002933875.1	84.72	1.03	False	Contig
+GCF_001263355.1	100.0	2.27	True	Scaffold
+GCF_047456275.1	99.98	0.12	True	Complete Genome
+GCF_014284475.1	100.0	2.63	True	Contig
+GCF_014284495.1	100.0	3.64	True	Contig
+GCF_008086595.1	100.0	2.43	True	Contig
+GCF_008086615.1	99.99	1.69	True	Contig
+GCF_001766835.1	99.99	3.14	True	Contig
+GCF_000247605.1	100.0	0.33	True	Complete Genome
+GCF_003317055.1	100.0	0.18	True	Scaffold
+GCF_900142645.1	100.0	1.36	True	Scaffold
+GCF_000807675.2	100.0	1.16	True	Complete Genome
+GCF_000024205.1	100.0	3.28	True	Complete Genome
+GCF_900129285.1	99.99	0.13	True	Scaffold
+GCF_000214705.1	100.0	1.02	True	Complete Genome
+GCF_030813795.1	99.98	0.13	True	Contig
+GCF_003627965.1	99.98	0.6	True	Scaffold
+GCF_000686645.1	99.99	0.01	True	Scaffold
+GCF_001592105.1	99.99	3.02	True	Contig
+GCF_002607855.1			False	Contig
+GCF_900129195.1	100.0	0.57	True	Scaffold
+GCF_001263415.1	99.9	0.55	True	Scaffold
+GCF_900103135.1	98.97	2.99	True	Scaffold
+GCF_000144695.1	99.61	0.71	True	Complete Genome
+GCF_900112085.1	98.57	0.3	True	Scaffold
+GCF_034356035.1	98.69	0.59	True	Complete Genome
+GCF_010669205.1	100.0	4.33	True	Complete Genome
+GCF_013304825.1	100.0	0.04	True	Contig
+GCF_002207765.1	99.96	2.65	True	Scaffold
+GCF_037477935.1	99.89	0.24	True	Complete Genome
+GCF_001594015.1	100.0	0.19	True	Contig
+GCF_002995805.1	99.99	5.81	False	Contig
+GCF_024733845.1	99.23	0.36	True	Contig
+GCF_001267435.1	99.97	0.0	True	Complete Genome
+GCF_900168025.1	99.92	0.3	True	Scaffold
+GCF_002080475.1	99.92	0.52	True	Complete Genome
+GCF_000009205.2	99.98	0.61	True	Complete Genome
+GCF_017357865.1	100.0	0.15	True	Complete Genome
+GCF_000024605.1	99.59	0.52	True	Complete Genome
+GCF_003368535.1	99.38	0.1	True	Contig
+GCF_000427565.1	99.57	0.26	True	Scaffold
+GCF_000012865.1	99.42	0.06	True	Complete Genome
+GCF_001950325.1	94.24	0.0	True	Scaffold
+GCF_001950255.1	99.24	0.05	True	Scaffold
+GCF_000305935.1	99.98	0.84	True	Complete Genome
+GCF_000763575.1	99.99	0.77	True	Complete Genome
+GCF_003815015.1	99.98	0.93	True	Contig
+GCF_000174415.1	99.49	1.77	True	Contig
+GCF_035593305.1	99.07	0.45	True	Complete Genome
+GCF_000445445.2	100.0	7.66	False	Complete Genome
+GCF_002257705.2	100.0	6.41	False	Complete Genome
+GCF_001941975.2	99.99	1.17	True	Complete Genome
+GCF_007641255.1	100.0	4.78	True	Complete Genome
+GCF_000219125.1	99.93	1.57	True	Scaffold
+GCF_002119425.1	99.99	4.37	True	Contig
+GCF_900101285.1	100.0	0.27	True	Scaffold
+GCF_000420385.1	99.61	0.0	True	Contig
+GCF_000744435.1	99.19	0.02	True	Contig
+GCF_000526195.1	99.99	0.0	True	Contig
+GCF_030296055.1	100.0	4.42	True	Complete Genome
+GCF_040436365.1	100.0	0.03	True	Complete Genome
+GCF_032850805.1	100.0	0.03	True	Complete Genome
+GCF_016593255.1	100.0	1.02	True	Complete Genome
+GCF_000183725.1	100.0	0.48	True	Complete Genome
+GCF_017357825.1	99.99	4.22	True	Complete Genome
+GCF_000147355.1	100.0	0.06	True	Complete Genome
+GCF_005217605.1	100.0	0.23	True	Contig
+GCF_000012965.1	100.0	0.36	True	Complete Genome
+GCF_039645995.1	100.0	0.23	True	Complete Genome
+GCF_000242915.1	100.0	0.38	True	Complete Genome
+GCF_000445475.1	100.0	0.18	True	Contig
+GCF_009068765.1	100.0	0.88	True	Complete Genome
+GCF_009192995.1	100.0	0.01	True	Contig
+GCF_009258225.1	99.99	3.13	True	Complete Genome
+GCF_014905095.1	99.89	0.33	True	Complete Genome
+GCF_030577135.1	99.99	0.22	True	Contig
+GCF_014905135.1	100.0	0.0	True	Complete Genome
+GCF_014905115.1	99.99	1.9	True	Complete Genome
+GCF_009258045.1	100.0	0.18	True	Complete Genome
+GCF_000186245.1	100.0	0.02	True	Complete Genome
+GCF_055385215.1			False	Complete Genome
+GCF_014931715.1	99.98	0.13	True	Complete Genome
+GCF_000987835.1	100.0	0.13	True	Complete Genome
+GCF_020911965.1			False	Complete Genome
+GCF_001595645.1	100.0	0.84	True	Contig
+GCF_019972135.1	99.94	3.45	True	Contig
+GCF_019972115.1	99.98	2.67	True	Contig
+GCF_005843985.1	100.0	0.0	True	Complete Genome
+GCF_003752135.1	99.99	0.01	True	Contig
+GCF_054657155.1			False	Contig
+GCF_002335445.1	100.0	0.0	True	Contig
+GCF_055388085.1			False	Complete Genome
+GCF_054656815.1			False	Contig
+GCF_000021725.1	100.0	0.01	True	Complete Genome
+GCF_027946175.1	99.99	0.0	True	Complete Genome
+GCF_015100395.1	99.95	0.01	True	Complete Genome
+GCF_027943725.1	99.99	0.18	True	Complete Genome
+GCF_014466985.1	100.0	0.02	True	Complete Genome
+GCF_055392745.1			False	Complete Genome
+GCF_001747405.1	99.98	0.59	True	Complete Genome
+GCF_000020505.1	99.94	0.12	True	Complete Genome
+GCF_000006985.1	99.98	0.31	True	Complete Genome
+GCF_006265165.1	99.97	0.05	True	Contig
+GCF_011601315.1	99.16	0.41	True	Scaffold
+GCF_000020465.1	99.99	0.16	True	Complete Genome
+GCF_982375525.1			False	Complete Genome
+GCF_000012485.1	99.99	0.22	True	Complete Genome
+GCF_000020645.1	99.99	0.32	True	Complete Genome
+GCF_003182595.1	99.99	1.08	True	Contig
+GCF_006265245.1	100.0	0.75	True	Contig
+GCF_000021945.1	99.99	1.04	True	Complete Genome
+GCF_000018865.1	99.95	0.5	True	Complete Genome
+GCF_000735195.1	99.97	0.79	True	Contig
+GCF_002532075.1	100.0	0.98	True	Contig
+GCF_004762035.2	99.84	1.22	True	Scaffold
+GCF_008362905.1	99.9	0.0	True	Contig
+GCF_000341545.2	99.94	1.22	True	Scaffold
+GCF_946900835.1	96.0	0.64	True	Complete Genome
+GCF_000755505.1	99.8	0.09	True	Contig
+GCF_000284315.1	99.97	0.07	True	Complete Genome
+GCF_001458695.1	99.99	0.25	True	Complete Genome
+GCF_905220995.1	99.99	3.39	True	Contig
+GCF_059568365.1			False	Contig
+GCF_001273775.1	99.99	5.91	False	Complete Genome
+GCF_014701235.1	100.0	0.0	True	Complete Genome
+GCF_040450955.1	99.99	0.0	True	Complete Genome
+GCF_001753675.2	99.1	0.5	True	Scaffold
+GCF_011066545.1	99.99	0.74	True	Complete Genome
+GCF_023277115.1	100.0	0.11	True	Contig
+GCF_001931655.1	100.0	0.95	True	Scaffold
+GCF_000175575.2	100.0	1.65	True	Complete Genome
+GCF_010378095.2	100.0	0.23	True	Complete Genome
+GCF_003966655.1	99.99	1.25	True	Complete Genome
+GCF_018854775.1	99.98	0.19	True	Contig
+GCF_016250455.1	99.99	0.0	True	Complete Genome
+GCF_000021485.1	100.0	0.73	True	Complete Genome
+GCF_003721225.2	99.99	0.07	True	Complete Genome
+GCF_009662475.1	100.0	2.32	True	Complete Genome
+GCF_038070005.1	100.0	0.01	True	Contig
+GCF_048300925.1	100.0	0.01	True	Complete Genome
+GCF_033842475.1	100.0	0.43	True	Contig
+GCF_000745425.1	100.0	0.43	True	Scaffold
+GCF_003992725.1	100.0	0.02	True	Contig
+GCF_000218565.1	100.0	0.59	True	Complete Genome
+GCF_029030725.1	99.9	0.19	True	Complete Genome
+GCF_013752735.1	100.0	0.73	True	Complete Genome
+GCF_000013885.1	100.0	0.65	True	Complete Genome
+GCF_014863355.1	100.0	0.3	True	Contig
+GCF_000017145.1	99.99	0.34	True	Complete Genome
+GCF_037023865.1	100.0	0.58	True	Complete Genome
+GCF_004339465.1	99.85	0.0	True	Contig
+GCF_027922345.1	99.95	0.01	True	Scaffold
+GCF_027922285.1	99.94	0.44	True	Scaffold
+GCF_023016525.1	99.31	0.13	True	Contig
+GCF_000092925.1	100.0	0.54	True	Complete Genome
+GCF_018390695.1	99.99	1.02	True	Scaffold
+GCF_014195655.1	99.88	1.09	True	Scaffold
+GCF_030813595.1	100.0	0.23	True	Contig
+GCF_000473085.1	99.99	0.1	True	Scaffold
+GCF_030814935.1	100.0	1.3	True	Contig
+GCF_043193655.1	100.0	0.59	True	Contig
+GCF_005871085.1	99.99	0.04	True	Scaffold
+GCF_016807805.1	99.95	2.82	True	Complete Genome
+GCF_027925205.1	99.98	0.65	True	Scaffold
+GCF_008364685.1	99.99	0.27	True	Scaffold
+GCF_014206845.1	98.97	0.46	True	Scaffold
+GCF_007668225.1	100.0	1.0	True	Contig
+GCF_004063735.1	100.0	1.02	True	Complete Genome
+GCF_008824185.1	99.99	0.11	True	Complete Genome
+GCF_900156255.1	99.92	0.04	True	Scaffold
+GCF_003387045.1	99.98	0.5	True	Scaffold
+GCF_029909795.1	99.7	1.3	True	Complete Genome
+GCF_004345735.1	99.93	0.34	True	Scaffold
+GCF_003046545.1	99.98	0.14	True	Scaffold
+GCF_041020385.1	99.96	0.13	True	Contig
+GCF_003053725.1	99.94	0.05	True	Contig
+GCF_004339675.1	99.98	0.64	True	Contig
+GCF_024128855.1	99.92	0.11	True	Contig
+GCF_002085925.2	100.0	0.18	True	Complete Genome
+GCF_000714535.1	100.0	0.14	True	Contig
+GCF_018069895.1	99.95	0.31	True	Contig
+GCF_003217355.1	99.98	0.22	True	Scaffold
+GCF_008364955.1	100.0	0.99	True	Scaffold
+GCF_001305595.1	100.0	0.27	True	Complete Genome
+GCF_001746755.1	99.99	0.15	True	Contig
+GCF_029318635.1	98.31	0.01	True	Complete Genome
+GCF_002845745.1	100.0	0.19	True	Scaffold
+GCF_902859695.1	100.0	0.59	True	Contig
+GCF_033096405.1	100.0	0.22	True	Complete Genome
+GCF_000219915.2	99.99	3.87	True	Complete Genome
+GCF_000482785.1	99.32	0.01	True	Scaffold
+GCF_914271435.1	100.0	0.48	True	Contig
+GCF_000196015.1	100.0	1.22	True	Complete Genome
+GCF_000009285.1	100.0	1.32	True	Complete Genome
+GCF_001592245.1	100.0	0.58	True	Contig
+GCF_019602855.1	100.0	2.63	True	Complete Genome
+GCF_000307735.3	100.0	0.19	True	Contig
+GCF_023913775.1	100.0	1.22	True	Scaffold
+GCF_042665235.1	100.0	0.12	True	Scaffold
+GCF_030160815.1	100.0	0.11	True	Scaffold
+GCF_001571145.1	100.0	0.01	True	Contig
+GCF_042648585.1	100.0	0.02	True	Scaffold
+GCF_001571225.1	100.0	0.02	True	Contig
+GCF_004353865.1	100.0	0.58	True	Complete Genome
+GCF_001592305.1	100.0	0.0	True	Contig
+GCF_040105105.1	99.97	0.92	True	Complete Genome
+GCF_001955735.1	100.0	0.12	True	Complete Genome
+GCF_000696225.1	100.0	0.49	True	Scaffold
+GCF_000828915.1	100.0	0.09	True	Complete Genome
+GCF_000828895.1	99.99	0.55	True	Complete Genome
+GCF_048305125.1	100.0	0.18	True	Complete Genome
+GCF_001189915.1	99.98	0.22	True	Contig
+GCF_000818395.1	100.0	3.04	True	Scaffold
+GCF_009760915.1	99.49	5.53	False	Scaffold
+GCF_000430725.1	100.0	7.33	False	Scaffold
+GCF_001571085.1	99.79	1.17	True	Contig
+GCF_004342485.1	100.0	0.24	True	Scaffold
+GCF_000420125.1	99.99	0.26	True	Contig
+GCF_039822265.1	99.97	0.0	True	Contig
+GCF_055379455.1			False	Complete Genome
+GCF_000253115.1	100.0	0.17	True	Chromosome
+GCF_900088825.1	99.99	0.17	True	Scaffold
+GCF_002028405.1	100.0	0.03	True	Complete Genome
+GCF_055383445.1			False	Complete Genome
+GCF_000377645.1	99.71	0.44	True	Scaffold
+GCF_000733775.1	100.0	0.86	True	Contig
+GCF_000174355.1	100.0	0.47	True	Scaffold
+GCF_013168275.1	99.95	0.43	True	Complete Genome
+GCF_018324385.1	99.87	0.0	True	Complete Genome
+GCF_000974685.2	99.98	0.01	True	Complete Genome
+GCF_000746095.1	99.96	0.07	True	Scaffold
+GCF_000025705.1	100.0	0.19	True	Complete Genome
+GCF_902459525.1	99.98	1.43	True	Complete Genome
+GCF_003046585.1	100.0	0.07	True	Contig
+GCF_900143275.1	99.95	0.01	True	Contig
+GCF_000009145.1	100.0	0.6	True	Complete Genome
+GCF_000014765.1	99.99	0.34	True	Complete Genome
+GCF_900107165.1	99.21	0.2	True	Scaffold
+GCF_900103035.1	99.85	0.1	True	Contig
+GCF_003051105.1	100.0	0.16	True	Contig
+GCF_003011925.2	100.0	0.2	True	Scaffold
+GCF_000619905.2	99.96	0.07	True	Complete Genome
+GCF_000355765.4	99.95	0.11	True	Complete Genome
+GCF_000196355.1	99.87	0.08	True	Complete Genome
+GCF_000832065.1	99.86	0.23	True	Contig
+GCF_003966565.1	100.0	0.0	True	Complete Genome
+GCF_004323595.1	100.0	0.0	True	Complete Genome
+GCF_003663955.1	99.99	0.0	True	Scaffold
+GCF_000828635.1	100.0	0.25	True	Complete Genome
+GCF_000297055.2	99.99	1.36	True	Complete Genome
+GCF_000971475.1	100.0	0.01	True	Scaffold
+GCF_003851125.1	100.0	0.56	True	Scaffold
+GCF_009937995.1	99.94	0.05	True	Complete Genome
+GCF_009938015.1	100.0	1.82	True	Complete Genome
+GCF_002162035.1	99.91	0.1	True	Complete Genome
+GCF_003864975.1	96.85	0.12	True	Scaffold
+GCF_011764585.1	100.0	0.85	True	Complete Genome
+GCF_004346685.1	100.0	1.35	True	Contig
+GCF_004346085.1	100.0	0.01	True	Contig
+GCF_054961475.1			False	Complete Genome
+GCF_000373385.1	100.0	0.11	True	Scaffold
+GCF_055378705.1			False	Complete Genome
+GCF_002795805.1	99.99	0.19	True	Complete Genome
+GCF_002795825.1	99.99	0.01	True	Complete Genome
+GCF_000153765.1	99.75	1.27	True	Scaffold
+GCF_001895085.1	99.97	0.08	True	Contig
+GCF_013387475.1	99.95	0.04	True	Contig
+GCF_013387455.1	99.78	0.05	True	Contig
+GCF_002355735.1	99.93	0.05	True	Complete Genome
+GCF_002355415.1	100.0	0.2	True	Complete Genome
+GCF_013385175.1	99.99	0.47	True	Contig
+GCF_009720725.1	100.0	0.55	True	Contig
+GCF_000379525.1	100.0	1.97	True	Scaffold
+GCF_004343155.1	100.0	0.37	True	Scaffold
+GCF_000224005.2	99.96	0.09	True	Complete Genome
+GCF_000024725.1	99.98	0.56	True	Complete Genome
+GCF_000012805.1	99.98	0.34	True	Complete Genome
+GCF_004421105.1	100.0	1.04	True	Complete Genome
+GCF_009664085.1	99.97	0.65	True	Complete Genome
+GCF_021228795.1	99.99	1.02	True	Complete Genome
+GCF_016583985.1	100.0	2.06	True	Contig
+GCF_000223985.1	99.99	2.42	True	Contig
+GCF_016583835.1	99.99	1.77	True	Contig
+GCF_000327045.1	99.91	0.33	True	Complete Genome
+GCF_014145225.1	99.75	0.26	True	Contig
+GCF_000754095.2	100.0	0.06	True	Contig
+GCF_016584115.1	99.95	0.07	True	Scaffold
+GCF_016583625.1	99.99	0.3	True	Contig
+GCF_002356555.2	99.98	0.31	True	Complete Genome
+GCF_003751635.1	99.85	0.0	True	Contig
+GCF_000153205.1	100.0	0.19	True	Scaffold
+GCF_003337735.1	99.7	2.01	True	Scaffold
+GCF_000321415.2	100.0	0.49	True	Complete Genome
+GCF_000227685.2	100.0	0.23	True	Complete Genome
+GCF_000025545.1	99.96	0.24	True	Complete Genome
+GCF_000021985.1	100.0	0.14	True	Complete Genome
+GCF_000378965.1	99.99	2.78	True	Scaffold
+GCF_000385215.1	100.0	1.04	True	Contig
+GCF_004339085.1	100.0	0.1	True	Scaffold
+GCF_000227725.2	98.28	0.18	True	Scaffold
+GCF_001663815.1	99.99	0.03	True	Complete Genome
+GCF_004361875.1	99.95	0.12	True	Scaffold
+GCF_000828615.1	100.0	0.25	True	Complete Genome
+GCF_002009425.1	100.0	0.32	True	Complete Genome
+GCF_034479635.1	100.0	0.01	True	Complete Genome
+GCF_023555375.1	99.91	0.16	True	Contig
+GCF_003932505.1	91.87	1.89	True	Contig
+GCF_004001245.1	100.0	0.04	True	Complete Genome
+GCF_900102855.1	99.76	0.29	True	Scaffold
+GCF_004366735.1	100.0	0.05	True	Scaffold
+GCF_001399755.1	99.89	1.29	True	Contig
+GCF_900112605.1	99.99	0.09	True	Scaffold
+GCF_004786015.1	100.0	0.2	True	Complete Genome
+GCF_000384235.1	100.0	0.09	True	Scaffold
+GCF_000526715.1	100.0	0.22	True	Contig
+GCF_000711315.1	100.0	0.26	True	Contig
+GCF_055383025.1			False	Complete Genome
+GCF_900141795.1	99.99	0.01	True	Contig
+GCF_004001325.1	99.96	0.32	True	Complete Genome
+GCF_000381085.1	99.95	0.16	True	Scaffold
+GCF_013391695.1	99.98	0.1	True	Contig
+GCF_000483485.1	99.99	0.1	True	Scaffold
+GCF_013391765.2	100.0	0.2	True	Contig
+GCF_054656895.1			False	Contig
+GCF_021654855.1	100.0	0.18	True	Complete Genome
+GCF_004293625.1	99.99	0.11	True	Complete Genome
+GCF_017571465.1	99.99	0.64	True	Contig
+GCF_005885815.1	99.99	0.27	True	Complete Genome
+GCF_013282625.1	100.0	0.03	True	Complete Genome
+GCF_000227665.2	100.0	0.02	True	Complete Genome
+GCF_000214825.1	100.0	0.0	True	Complete Genome
+GCF_000934765.1	100.0	0.2	True	Scaffold
+GCF_000711195.1	100.0	0.04	True	Contig
+GCF_011398355.1	100.0	0.15	True	Complete Genome
+GCF_011398155.1	100.0	0.18	True	Complete Genome
+GCF_001305575.3	100.0	0.1	True	Complete Genome
+GCF_900107695.1	100.0	0.08	True	Scaffold
+GCF_017349355.1	100.0	1.24	True	Contig
+GCF_000621325.1	100.0	0.16	True	Scaffold
+GCF_017901135.1	100.0	0.59	True	Complete Genome
+GCF_016772315.1	100.0	1.57	True	Complete Genome
+GCF_017901175.1	100.0	0.95	True	Complete Genome
+GCF_021650935.1	100.0	1.53	True	Complete Genome
+GCF_002149925.1	99.89	0.04	True	Contig
+GCF_001293165.1	100.0	0.1	True	Complete Genome
+GCF_023195885.1	100.0	0.25	True	Contig
+GCF_003574215.1	99.94	0.0	True	Complete Genome
+GCF_019049855.1	99.96	0.01	True	Contig
+GCF_008014345.1	98.83	0.0	True	Contig
+GCF_000014865.1	99.99	0.22	True	Complete Genome
+GCF_002109495.1	99.81	0.56	True	Contig
+GCF_001577525.1	99.97	0.55	True	Chromosome
+GCF_000143965.1	99.98	0.54	True	Complete Genome
+GCF_000931935.2	97.82	5.37	False	Scaffold
+GCF_000195295.1	99.89	0.86	True	Complete Genome
+GCF_900142135.1	100.0	0.11	True	Scaffold
+GCF_003261095.1	100.0	4.77	True	Scaffold
+GCF_054657595.1			False	Contig
+GCF_900176365.1	98.42	3.13	True	Scaffold
+GCF_000020365.1	100.0	3.94	True	Complete Genome
+GCF_000420085.1	100.0	5.9	False	Contig
+GCF_000421285.1	98.02	2.83	True	Contig
+GCF_000350545.1	96.84	3.82	True	Contig
+GCF_900167235.1	99.98	0.39	True	Scaffold
+GCF_017377355.1	97.8	3.82	True	Complete Genome
+GCF_022968795.1	99.68	3.02	True	Contig
+GCF_001293685.1	97.99	2.89	True	Contig
+GCF_009688945.1	97.05	7.54	False	Complete Genome
+GCF_048565275.1	100.0	9.55	False	Complete Genome
+GCF_009688965.1	96.97	7.52	False	Complete Genome
+GCF_019703855.1	95.6	2.36	True	Complete Genome
+GCF_000092205.1	100.0	0.17	True	Complete Genome
+GCF_000341395.1	100.0	0.64	True	Complete Genome
+GCF_016919005.1	97.62	0.58	True	Contig
+GCF_000266945.1	99.99	2.72	True	Complete Genome
+GCF_000620765.1	100.0	0.61	True	Scaffold
+GCF_900114115.1	99.99	1.56	True	Scaffold
+GCF_014873765.1	99.99	1.87	True	Scaffold
+GCF_000934745.1	99.26	2.0	True	Scaffold
+GCF_000717475.1	99.26	0.06	True	Contig
+GCF_000174435.1	97.71	0.33	True	Scaffold
+GCF_018704065.1	98.64	0.0	True	Scaffold
+GCF_900243745.1	99.99	0.48	True	Complete Genome
+GCF_007625075.1	99.74	1.72	True	Scaffold
+GCF_978936825.1			False	Complete Genome
+GCF_012979235.1	99.13	0.27	True	Contig
+GCF_900129305.1	99.2	0.94	True	Scaffold
+GCF_027925305.1	99.44	2.57	True	Contig
+GCF_003751385.1	98.65	1.95	True	Scaffold
+GCF_000421585.1	99.99	0.29	True	Contig
+GCF_001642325.1	99.95	0.66	True	Contig
+GCF_000217795.1	99.93	0.21	True	Complete Genome
+GCF_001548275.1	100.0	0.13	True	Complete Genome
+GCF_000215975.1	100.0	0.04	True	Complete Genome
+GCF_000746255.1	100.0	0.2	True	Scaffold
+GCF_001652585.1	99.96	0.72	True	Contig
+GCF_012317585.1	99.96	0.44	True	Complete Genome
+GCF_011207455.1	100.0	0.35	True	Complete Genome
+GCF_003057965.1	99.99	0.05	True	Complete Genome
+GCF_000212395.1	99.99	0.08	True	Complete Genome
+GCF_000297255.1	95.39	4.39	True	Contig
+GCF_001547735.1	99.99	0.31	True	Complete Genome
+GCF_000297415.1	99.93	0.08	True	Contig
+GCF_000019665.1	99.97	0.77	True	Complete Genome
+GCF_007475525.1	99.99	0.34	True	Complete Genome
+GCF_902143385.2	99.6	3.67	True	Contig
+GCF_903064525.1	99.89	0.51	True	Complete Genome
+GCF_902143375.2	99.32	1.04	True	Contig
+GCF_022026155.1	99.95	0.29	True	Complete Genome

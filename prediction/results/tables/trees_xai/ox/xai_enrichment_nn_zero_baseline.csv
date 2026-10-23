@@ -1,0 +1,2 @@
+task,model,trait,n_known_markers_in_features,n_stable_top,n_stable_top_known,expected_by_chance,p_hypergeom,stable_top_kos,q_bh
+ox,NN,uses_O2,14,6,0,0.0111,1,"K02956, K01588, K03470, K00600, K00800, K01933",1

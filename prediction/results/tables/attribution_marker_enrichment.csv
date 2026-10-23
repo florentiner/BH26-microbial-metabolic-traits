@@ -1,0 +1,15 @@
+trait,n_rule_markers_in_features,n_rule_markers_in_top15,best_marker_rank,n_features,n_folds_used
+donor_sulfur_oxidation,15,4,3.0,585,5
+donor_ammonia_oxidation,4,3,1.0,585,5
+donor_nitrite_oxidation,2,0,279.0,585,5
+donor_hydrogen_oxidation,3,1,5.0,585,5
+donor_CO_oxidation,4,1,11.0,585,5
+donor_iron_oxidation,0,0,,585,5
+donor_other,8,0,97.0,585,5
+acceptor_oxygen,8,1,14.0,585,5
+acceptor_nitrate,14,8,1.0,585,5
+acceptor_sulfate,5,1,5.0,585,5
+acceptor_sulfur,5,1,2.0,585,5
+acceptor_CO2_methanogen_acetogen,4,0,418.0,585,5
+acceptor_iron,0,0,,585,5
+acceptor_other,4,0,210.0,585,5

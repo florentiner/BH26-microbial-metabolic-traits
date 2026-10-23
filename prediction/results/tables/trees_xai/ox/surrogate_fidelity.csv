@@ -1,0 +1,2 @@
+task,trait,best_model,predictable,fidelity_accuracy,fidelity_kappa,fidelity_on_model_positives,surrogate_mcc_vs_labels
+ox,uses_O2,RF,True,0.9648,0.9033,0.9603,0.8640

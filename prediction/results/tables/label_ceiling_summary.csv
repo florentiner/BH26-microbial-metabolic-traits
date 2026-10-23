@@ -1,0 +1,15 @@
+trait,n_pos,n_genera_ge2_genomes,n_genera_with_positive,n_genera_mixed_labels,frac_positive_genera_mixed,n_near_identical_pairs_with_a_positive,discordance_rate_near_identical,identical_B2_vector_irreducible_errors,annotation_consistency_auprc_knn_no_holdout
+donor_sulfur_oxidation,131,75,33,13,0.3939,0,,0,0.6859
+donor_ammonia_oxidation,32,75,11,4,0.3636,1,0.0000,0,0.7581
+donor_nitrite_oxidation,12,75,3,1,0.3333,0,,0,0.4834
+donor_hydrogen_oxidation,208,75,57,29,0.5088,2,0.5000,1,0.7758
+donor_CO_oxidation,45,75,16,13,0.8125,1,0.0000,0,0.4792
+donor_iron_oxidation,43,75,15,11,0.7333,0,,0,0.4320
+donor_other,23,75,16,16,1.0000,0,,0,0.1033
+acceptor_oxygen,177,75,48,21,0.4375,2,0.5000,1,0.7401
+acceptor_nitrate,102,75,34,26,0.7647,1,0.0000,0,0.5046
+acceptor_sulfate,63,75,11,4,0.3636,0,,0,0.7011
+acceptor_sulfur,50,75,14,11,0.7857,0,,0,0.4298
+acceptor_CO2_methanogen_acetogen,75,75,18,4,0.2222,1,0.0000,0,0.7608
+acceptor_iron,32,75,15,15,1.0000,0,,0,0.1431
+acceptor_other,23,75,12,12,1.0000,1,1.0000,1,0.0732

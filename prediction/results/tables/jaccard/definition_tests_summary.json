@@ -1,0 +1,9 @@
+{
+  "tests": [
+    "A shared KOs",
+    "B marker breadth",
+    "C genome quality",
+    "D co-occurrence"
+  ],
+  "seed": 20260918
+}

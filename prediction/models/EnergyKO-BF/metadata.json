@@ -1,0 +1,7 @@
+{
+ "arm": "PE",
+ "trained_on": "3378 labelled genomes (all)",
+ "date": "2026-09-22",
+ "feature_set": "bh26_full_ko_profile (PB2 model) + bacformer_large_mean (logistic probe), averaged",
+ "note": "deployment requires a Bacformer-large genome vector; PB3 is the released arm"
+}

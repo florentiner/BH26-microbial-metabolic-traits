@@ -1,0 +1,8 @@
+set,genomes,autotroph_like,subset,tests,macro_auroc,macro_auprc,categories,auroc_diff_auto_minus_other,ci_low,ci_high
+training (358),358,0.7961,,,,,,,,
+external genomes,562,0.5071,all,4962.0000,0.7952,0.5113,9.0000,,,
+external genomes,285,0.5071,autotroph-like,2506.0000,0.7829,0.5318,9.0000,,,
+external genomes,277,0.5071,other,2456.0000,0.8227,0.4558,9.0000,-0.0399,-0.0898,0.0113
+new species,100,0.4600,all,255.0000,0.7321,0.8511,9.0000,,,
+new species,46,0.4600,autotroph-like,118.0000,0.8295,0.9285,9.0000,,,
+new species,54,0.4600,other,137.0000,0.7922,0.8602,8.0000,0.0373,-0.1277,0.1765

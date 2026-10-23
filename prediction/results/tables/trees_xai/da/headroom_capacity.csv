@@ -1,0 +1,15 @@
+trait,n_pos,in_sample_auprc
+donor_sulfur_oxidation,131,1.0000
+donor_ammonia_oxidation,32,1.0000
+donor_nitrite_oxidation,12,1.0000
+donor_hydrogen_oxidation,208,1.0000
+donor_CO_oxidation,45,1.0000
+donor_iron_oxidation,43,1.0000
+donor_other,23,1.0000
+acceptor_oxygen,177,1.0000
+acceptor_nitrate,102,1.0000
+acceptor_sulfate,63,1.0000
+acceptor_sulfur,50,1.0000
+acceptor_CO2_methanogen_acetogen,75,1.0000
+acceptor_iron,32,1.0000
+acceptor_other,23,0.9963

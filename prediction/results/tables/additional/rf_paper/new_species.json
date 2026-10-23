@@ -1,0 +1,192 @@
+{
+ "released_categories": {
+  "genus": [
+   "acceptor_nitrate",
+   "acceptor_sulfate",
+   "acceptor_sulfur",
+   "donor_CO_oxidation",
+   "donor_ammonia_oxidation",
+   "donor_sulfur_oxidation"
+  ],
+  "family": [
+   "acceptor_CO2_methanogen_acetogen",
+   "acceptor_oxygen",
+   "acceptor_sulfate",
+   "acceptor_sulfur",
+   "donor_ammonia_oxidation",
+   "donor_sulfur_oxidation"
+  ]
+ },
+ "t3_RedoxKO": {
+  "auroc": 0.7348806091264681,
+  "accuracy": 0.6784313725490196,
+  "mcc": 0.42048881492556983,
+  "sensitivity": 0.5555555555555556,
+  "specificity": 0.8627450980392157,
+  "ppv": 0.8585858585858586,
+  "npv": 0.5641025641025641,
+  "n": 255,
+  "auroc_ci": [
+   0.6193682837361643,
+   0.8432824660580573
+  ]
+ },
+ "t3_RedoxKO-LX": {
+  "auroc": 0.7320981291990933,
+  "accuracy": 0.6470588235294118,
+  "mcc": 0.364246398192887,
+  "sensitivity": 0.5163398692810458,
+  "specificity": 0.8431372549019608,
+  "ppv": 0.8315789473684211,
+  "npv": 0.5375,
+  "n": 255,
+  "auroc_ci": [
+   0.6240471482416837,
+   0.8287095180083428
+  ]
+ },
+ "released_only_RF": {
+  "calls": 141,
+  "accuracy": 0.723404255319149
+ },
+ "iron_RF": {
+  "tests": 28,
+  "errors": 21,
+  "released": false
+ },
+ "all143": {
+  "RedoxKO": 0.7324519132478362,
+  "RedoxKO-LX": 0.715198970082264
+ },
+ "t3_no_small_categories_auroc": {
+  "RedoxKO": 0.7591322117340303
+ },
+ "t4": {
+  "RedoxKO_mcc": 0.42048881492556983,
+  "RedoxKO_auroc": 0.7348806091264681,
+  "METABOLIC_minus_RedoxKO": 0.09828863831305962,
+  "METABOLIC_minus_RedoxKO_ci": [
+   -0.024999164891811823,
+   0.22354154740235826
+  ]
+ },
+ "t4_released_categories": {
+  "categories": [
+   "acceptor_CO2_methanogen_acetogen",
+   "acceptor_oxygen",
+   "acceptor_sulfate",
+   "acceptor_sulfur",
+   "donor_ammonia_oxidation",
+   "donor_sulfur_oxidation"
+  ],
+  "tests": 141,
+  "RedoxKO": 0.5284699162750804,
+  "METABOLIC": 0.5643001337383505,
+  "DRAM": 0.5910902677989359,
+  "METABOLIC_minus_RedoxKO_ci": [
+   -0.09798629259856867,
+   0.17611005305991898
+  ],
+  "DRAM_minus_RedoxKO_ci": [
+   -0.06262256852109858,
+   0.18470754162535039
+  ]
+ },
+ "t4_microbe_decoder": {
+  "categories": [
+   "acceptor_CO2_methanogen_acetogen",
+   "acceptor_nitrate",
+   "acceptor_oxygen"
+  ],
+  "tests": 111,
+  "MD_mcc": 0.5076929876611919,
+  "RedoxKO_mcc": 0.6600405307520664,
+  "MD_auroc": 0.8079746532759445,
+  "RedoxKO_auroc": 0.9432030129124821
+ },
+ "t4_oxygen": {
+  "tests": 49,
+  "BacDive_auroc": 0.975609756097561,
+  "RedoxKO_auroc": 0.9847560975609756,
+  "RedoxKO_mcc": 0.6650386626085942
+ },
+ "within_metabolic_positive_primary": {
+  "n": 152,
+  "RedoxKO": 0.6888141295206056,
+  "RedoxKO_ci": [
+   0.6065727424180606,
+   0.7703179340712762
+  ]
+ },
+ "within_metabolic_positive_withheld": {
+  "n": 44,
+  "RedoxKO": 0.8245614035087718,
+  "RedoxKO_ci": [
+   0.6399632802937577,
+   1.0
+  ]
+ },
+ "withheld": {
+  "species": 43,
+  "tests": 75,
+  "auroc": 0.6194444444444445,
+  "mcc": 0.4879556219509579,
+  "METABOLIC_mcc": 0.5550686201007294,
+  "METABOLIC_minus_RedoxKO_ci": [
+   -0.10554317042233313,
+   0.23194310275772972
+  ]
+ },
+ "per_category_balanced_accuracy": {
+  "acceptor_CO2_methanogen_acetogen": {
+   "tests": 5,
+   "RedoxKO": 0.75,
+   "METABOLIC": 0.75
+  },
+  "acceptor_iron": {
+   "tests": 28,
+   "RedoxKO": 0.45238095238095244,
+   "METABOLIC": 0.5
+  },
+  "acceptor_nitrate": {
+   "tests": 57,
+   "RedoxKO": 0.7779411764705882,
+   "METABOLIC": 0.8117647058823529
+  },
+  "acceptor_oxygen": {
+   "tests": 49,
+   "RedoxKO": 0.9146341463414633,
+   "METABOLIC": 0.8003048780487805
+  },
+  "acceptor_sulfate": {
+   "tests": 31,
+   "RedoxKO": 0.8333333333333333,
+   "METABOLIC": 0.8207070707070707
+  },
+  "acceptor_sulfur": {
+   "tests": 44,
+   "RedoxKO": 0.5701149425287356,
+   "METABOLIC": 0.6919540229885057
+  },
+  "donor_CO_oxidation": {
+   "tests": 1,
+   "RedoxKO": 1.0,
+   "METABOLIC": 0.0
+  },
+  "donor_hydrogen_oxidation": {
+   "tests": 21,
+   "RedoxKO": 0.4411764705882353,
+   "METABOLIC": 0.7279411764705883
+  },
+  "donor_iron_oxidation": {
+   "tests": 7,
+   "RedoxKO": 0.5,
+   "METABOLIC": 0.2
+  },
+  "donor_sulfur_oxidation": {
+   "tests": 12,
+   "RedoxKO": 0.6,
+   "METABOLIC": 0.45
+  }
+ }
+}

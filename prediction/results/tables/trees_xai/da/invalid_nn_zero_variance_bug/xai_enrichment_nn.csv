@@ -1,0 +1,15 @@
+task,model,trait,n_known_markers_in_features,n_stable_top,n_stable_top_known,expected_by_chance,p_hypergeom,stable_top_kos,q_bh
+da,NN,donor_sulfur_oxidation,16,0,0,0,,,
+da,NN,donor_ammonia_oxidation,4,0,0,0,,,
+da,NN,donor_nitrite_oxidation,5,0,0,0,,,
+da,NN,donor_hydrogen_oxidation,3,0,0,0,,,
+da,NN,donor_CO_oxidation,4,0,0,0,,,
+da,NN,donor_iron_oxidation,0,0,0,0,,,
+da,NN,donor_other,8,0,0,0,,,
+da,NN,acceptor_oxygen,12,0,0,0,,,
+da,NN,acceptor_nitrate,16,0,0,0,,,
+da,NN,acceptor_sulfate,8,0,0,0,,,
+da,NN,acceptor_sulfur,5,0,0,0,,,
+da,NN,acceptor_CO2_methanogen_acetogen,16,1,0,0.02735,1,K17725,1
+da,NN,acceptor_iron,0,0,0,0,,,
+da,NN,acceptor_other,4,0,0,0,,,

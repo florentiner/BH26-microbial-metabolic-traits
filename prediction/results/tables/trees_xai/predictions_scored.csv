@@ -1,0 +1,30 @@
+id,prediction,verdict,evidence,preregistered
+T1 (da),RF within ±0.03 macro AUPRC of the best existing arm,supported,RF − B2XL = +0.011 (genus),True
+T2 (da),"DT loses ≥ 0.05 to RF, but a depth ≤ 3 tree reaches precision ≥ 0.7 for single-marker traits",supported,"DT − RF = -0.157 (genus); second clause (depth ≤ 3 tree, held-out precision ≥ 0.7): donor_ammonia_oxidation: precision 0.83 (30 calls); acceptor_sulfate: precision 0.92 (49 calls)",True
+A-P2 (da),FIGS beats DT by ≥ 0.03 and is within 0.05 of RF,not supported,FIGS − DT = -0.024; FIGS − RF = -0.181,True
+T3 (da),stable RF top-10 enriched for known markers in ≥ 70 % of predictable traits,not supported,3 of 7 predictable traits enriched (q < 0.05),True
+A-P1 (da),≥ 50 % of RF stable top-10 genes of predictable traits are A1 (CMH) significant,not supported,12 of 35 (34%),True
+D-P1 (da),best model beats tree rules on MCC for ≥ 70 % of predictable traits,not supported,significantly better on 2 of 7 (point estimate better on 4),True
+D-P2 (da),marker rule within 0.10 MCC of the best model for single-marker traits,not supported,1 of 2 within 0.10: donor_ammonia_oxidation: Δ -0.09; acceptor_sulfate: Δ +0.13,True
+D-P3 (da),depth-3 surrogate fidelity ≥ 0.90 for predictable traits,not supported,4 of 7 traits ≥ 0.90 (range 0.75–0.98),True
+C-P1 (da),"≥ 40 % of NN-stable genes also RF-stable, predictable traits (IG, all-absent baseline)",not supported,median 0% over 7 predictable traits — its stable genes are near-universal (median prevalence 0.92): the all-absent baseline favours housekeeping genes regardless of trait,True
+C-P1* (da),"same, POST HOC with Expected Gradients (training-genome baselines)",not supported,"median 17% over 7 predictable traits (post hoc, not in the tally)",False
+T2 (ox),"DT loses ≥ 0.05 to RF, but a depth ≤ 3 tree reaches precision ≥ 0.7 for single-marker traits",not supported,DT − RF = -0.021 (genus),True
+A-P2 (ox),FIGS beats DT by ≥ 0.03 and is within 0.05 of RF,not supported,FIGS − DT = -0.002; FIGS − RF = -0.022,True
+T3 (ox),stable RF top-10 enriched for known markers in ≥ 70 % of predictable traits,not supported,0 of 1 predictable traits enriched (q < 0.05),True
+A-P1 (ox),≥ 50 % of RF stable top-10 genes of predictable traits are A1 (CMH) significant,supported,2 of 2 (100%),True
+D-P1 (ox),best model beats tree rules on MCC for ≥ 70 % of predictable traits,supported,significantly better on 1 of 1 (point estimate better on 1),True
+D-P3 (ox),depth-3 surrogate fidelity ≥ 0.90 for predictable traits,supported,1 of 1 traits ≥ 0.90 (range 0.96–0.96),True
+C-P1 (ox),"≥ 40 % of NN-stable genes also RF-stable, predictable traits (IG, all-absent baseline)",not supported,median 0% over 1 predictable traits — its stable genes are near-universal (median prevalence 0.99): the all-absent baseline favours housekeeping genes regardless of trait,True
+C-P1* (ox),"same, POST HOC with Expected Gradients (training-genome baselines)",not supported,"median 0% over 1 predictable traits (post hoc, not in the tally)",False
+T1 (pw),RF within ±0.03 macro AUPRC of the best existing arm,supported,RF − PB2 = -0.002 (genus),True
+T2 (pw),"DT loses ≥ 0.05 to RF, but a depth ≤ 3 tree reaches precision ≥ 0.7 for single-marker traits",pending,DT − RF = -0.188 (genus); second clause not yet evaluated (depth ≤ 3 tree not run),True
+A-P2 (pw),FIGS beats DT by ≥ 0.03 and is within 0.05 of RF,not supported,FIGS − DT = +0.046; FIGS − RF = -0.142,True
+T3 (pw),stable RF top-10 enriched for known markers in ≥ 70 % of predictable traits,not supported,4 of 8 predictable traits enriched (q < 0.05),True
+A-P1 (pw),≥ 50 % of RF stable top-10 genes of predictable traits are A1 (CMH) significant,supported,32 of 32 (100%),True
+D-P1/D-P2 (pw),rules versus the best model,pending,,True
+D-P3 (pw),depth-3 surrogate fidelity ≥ 0.90 for predictable traits,pending,,True
+C-P1 (pw),≥ 40 % of NN-stable genes also RF-stable (NN on PW only 'if time allows'),not run,,False
+T4 (ox),top-3 SHAP genes include an aa3/cbb3 subunit and not cytochrome bd,not supported,"top-3 by mean |SHAP|: K06886, K02259, K01772",True
+A-P3 (ox),strongest positive A1 (CMH) gene is an aa3/cbb3 subunit; bd weaker,not supported,strongest positive: K01589,True
+T5 (da),hao (K10535) not among the stable RF top-10 for ammonia oxidation,supported,hao absent from the stable set,True

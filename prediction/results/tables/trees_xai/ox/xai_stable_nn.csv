@@ -1,0 +1,4 @@
+trait,KO,n_folds_top10,mean_rank,mean_score,stability,ig_direction,mean_abs_ig,known_marker
+uses_O2,K11741,3,4.6667,0.0903,0.6000,0.1011,0.0903,False
+uses_O2,K00179,3,5.3333,0.0899,0.6000,-0.1957,0.0899,False
+uses_O2,K06888,3,6.3333,0.0883,0.6000,0.1029,0.0883,False

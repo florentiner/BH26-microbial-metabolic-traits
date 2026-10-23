@@ -1,0 +1,15 @@
+category,positives,negatives,positive_rate,genera_with_a_positive
+donor_sulfur_oxidation,131,227,0.366,76
+donor_ammonia_oxidation,32,326,0.089,15
+donor_nitrite_oxidation,12,346,0.034,8
+donor_hydrogen_oxidation,208,150,0.581,123
+donor_CO_oxidation,45,313,0.126,25
+donor_iron_oxidation,43,315,0.12,26
+donor_other,23,335,0.064,19
+acceptor_oxygen,177,181,0.494,93
+acceptor_nitrate,102,256,0.285,64
+acceptor_sulfate,63,295,0.176,50
+acceptor_sulfur,50,308,0.14,40
+acceptor_CO2_methanogen_acetogen,75,283,0.209,34
+acceptor_iron,32,326,0.089,28
+acceptor_other,23,335,0.064,22

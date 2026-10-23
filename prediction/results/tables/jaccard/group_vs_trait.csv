@@ -1,0 +1,16 @@
+functional_group,role,phenotype,phenotype_source,n_kos_in_group,n,n_marker_present,n_phenotype_pos,tp,fp,fn,tn,precision,recall,f1,mcc_per_genome,odds_ratio,p_fisher_naive,mcc_genus_level,mcc_genus_ci_low,mcc_genus_ci_high,p_genus_permutation,q_bh_permutation
+Nitrate-reducing (denitrifiers),acceptor,acceptor_nitrate,curated donor/acceptor labels,12,358,205,102,93,112,9,144,0.4537,0.9118,0.6059,0.4327,12.6416,0.0000,0.4592,0.4132,0.5117,0.0005,0.0011
+Aerobic respiration,acceptor,acceptor_oxygen,curated donor/acceptor labels,13,358,285,177,174,111,3,70,0.6105,0.9831,0.7532,0.4589,31.5240,0.0000,0.3937,0.3682,0.4310,0.0005,0.0011
+Ammonia oxidizing (AOB/AOA),donor,donor_ammonia_oxidation,curated donor/acceptor labels,4,358,77,32,28,49,4,277,0.3636,0.8750,0.5138,0.5032,35.5051,0.0000,0.3890,0.3376,0.4328,0.0005,0.0011
+Sulfur-reducing,acceptor,acceptor_sulfur,curated donor/acceptor labels,2,358,149,50,39,110,11,198,0.2617,0.7800,0.3920,0.2974,6.1702,0.0000,0.3071,0.2614,0.3468,0.0005,0.0011
+Nitrite oxidizing (NOB),donor,donor_nitrite_oxidation,curated donor/acceptor labels,5,358,126,12,12,114,0,232,0.0952,1.0000,0.1739,0.2527,50.7642,0.0000,0.3069,0.2898,0.3311,0.0015,0.0028
+Sulfate-reducing (SRB),acceptor,acceptor_sulfate,curated donor/acceptor labels,8,358,239,63,61,178,2,117,0.2552,0.9683,0.4040,0.2949,16.1933,0.0000,0.3047,0.2833,0.3263,0.0005,0.0011
+CO oxidizing (carboxydotroph),donor,donor_CO_oxidation,curated donor/acceptor labels,4,358,186,45,43,143,2,170,0.2312,0.9556,0.3723,0.3309,20.6739,0.0000,0.2901,0.2439,0.3316,0.0005,0.0011
+Sulfur oxidizing (SOB),donor,donor_sulfur_oxidation,curated donor/acceptor labels,16,358,306,131,131,175,0,52,0.4281,1.0000,0.5995,0.3132,78.6752,0.0000,0.2670,0.2474,0.2875,0.0005,0.0011
+Anammox,acceptor,acceptor_other,curated donor/acceptor labels,4,358,1,23,1,0,22,335,1.0000,0.0435,0.0833,0.2020,44.7333,0.0642,0.2482,0.2246,0.2799,0.0020,0.0033
+Hydrogen oxidizing,donor,donor_hydrogen_oxidation,curated donor/acceptor labels,4,358,171,208,114,57,94,93,0.6667,0.5481,0.6016,0.1660,1.9702,0.0019,0.2426,0.1862,0.2992,0.0330,0.0412
+Methanogens (hydrogenotrophic),acceptor,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,6,358,168,75,50,118,25,165,0.2976,0.6667,0.4115,0.2036,2.7659,0.0001,0.1446,0.1084,0.1760,0.0305,0.0412
+Acetogens (homoacetogens),acceptor,acceptor_CO2_methanogen_acetogen,curated donor/acceptor labels,10,358,286,75,65,221,10,62,0.2273,0.8667,0.3601,0.0871,1.7602,0.1076,0.1215,0.0809,0.1577,0.3263,0.3496
+Nitrate-reducing (DNRA),acceptor,acceptor_nitrate,curated donor/acceptor labels,4,358,97,102,43,54,59,202,0.4433,0.4216,0.4322,0.2139,2.7164,0.0001,0.1076,0.0536,0.1660,0.0110,0.0165
+Formate oxidizing,donor,donor_other,curated donor/acceptor labels,2,358,209,23,17,192,6,143,0.0813,0.7391,0.1466,0.0826,2.0070,0.1314,0.0890,0.0162,0.1770,0.2984,0.3443
+Methane oxidizing (methanotroph),donor,donor_other,curated donor/acceptor labels,9,358,193,23,13,180,10,155,0.0674,0.5652,0.1204,0.0137,1.1076,0.8322,-0.0612,-0.1546,0.0368,0.8921,0.8921

@@ -1,0 +1,355 @@
+arm,level,config,n_outer_folds_selected
+A,family,"{""model"": ""rule"", ""theta"": ""0.5""}",10
+A,family,"{""model"": ""rule"", ""theta"": ""1.0""}",24
+A,family,"{""model"": ""rule"", ""theta"": "">0""}",36
+A,genus,"{""model"": ""rule"", ""theta"": ""0.5""}",9
+A,genus,"{""model"": ""rule"", ""theta"": ""1.0""}",24
+A,genus,"{""model"": ""rule"", ""theta"": "">0""}",37
+B1,family,"{""C"": 0.01, ""model"": ""logreg""}",18
+B1,family,"{""C"": 0.1, ""model"": ""logreg""}",16
+B1,family,"{""C"": 1.0, ""model"": ""logreg""}",3
+B1,family,"{""C"": 10.0, ""model"": ""logreg""}",2
+B1,family,"{""max_depth"": 2, ""model"": ""xgb""}",12
+B1,family,"{""max_depth"": 4, ""model"": ""xgb""}",19
+B1,genus,"{""C"": 0.01, ""model"": ""logreg""}",21
+B1,genus,"{""C"": 0.1, ""model"": ""logreg""}",8
+B1,genus,"{""C"": 1.0, ""model"": ""logreg""}",2
+B1,genus,"{""C"": 10.0, ""model"": ""logreg""}",5
+B1,genus,"{""max_depth"": 2, ""model"": ""xgb""}",9
+B1,genus,"{""max_depth"": 4, ""model"": ""xgb""}",25
+B1r,family,"{""C"": 0.01, ""model"": ""logreg""}",16
+B1r,family,"{""C"": 0.1, ""model"": ""logreg""}",16
+B1r,family,"{""C"": 1.0, ""model"": ""logreg""}",3
+B1r,family,"{""C"": 10.0, ""model"": ""logreg""}",1
+B1r,family,"{""max_depth"": 2, ""model"": ""xgb""}",11
+B1r,family,"{""max_depth"": 4, ""model"": ""xgb""}",23
+B1r,genus,"{""C"": 0.01, ""model"": ""logreg""}",17
+B1r,genus,"{""C"": 0.1, ""model"": ""logreg""}",11
+B1r,genus,"{""C"": 1.0, ""model"": ""logreg""}",2
+B1r,genus,"{""C"": 10.0, ""model"": ""logreg""}",2
+B1r,genus,"{""max_depth"": 2, ""model"": ""xgb""}",13
+B1r,genus,"{""max_depth"": 4, ""model"": ""xgb""}",25
+B2,family,"{""C"": 0.01, ""model"": ""logreg""}",29
+B2,family,"{""C"": 0.1, ""model"": ""logreg""}",5
+B2,family,"{""C"": 1.0, ""model"": ""logreg""}",3
+B2,family,"{""C"": 10.0, ""model"": ""logreg""}",4
+B2,family,"{""max_depth"": 2, ""model"": ""xgb""}",9
+B2,family,"{""max_depth"": 4, ""model"": ""xgb""}",20
+B2,genus,"{""C"": 0.01, ""model"": ""logreg""}",24
+B2,genus,"{""C"": 0.1, ""model"": ""logreg""}",4
+B2,genus,"{""C"": 1.0, ""model"": ""logreg""}",5
+B2,genus,"{""C"": 10.0, ""model"": ""logreg""}",1
+B2,genus,"{""max_depth"": 2, ""model"": ""xgb""}",15
+B2,genus,"{""max_depth"": 4, ""model"": ""xgb""}",21
+B2B1r,family,"{""C"": 0.01, ""model"": ""logreg""}",25
+B2B1r,family,"{""C"": 0.1, ""model"": ""logreg""}",11
+B2B1r,family,"{""C"": 1.0, ""model"": ""logreg""}",2
+B2B1r,family,"{""C"": 10.0, ""model"": ""logreg""}",5
+B2B1r,family,"{""max_depth"": 2, ""model"": ""xgb""}",13
+B2B1r,family,"{""max_depth"": 4, ""model"": ""xgb""}",14
+B2B1r,genus,"{""C"": 0.01, ""model"": ""logreg""}",23
+B2B1r,genus,"{""C"": 0.1, ""model"": ""logreg""}",7
+B2B1r,genus,"{""C"": 1.0, ""model"": ""logreg""}",2
+B2B1r,genus,"{""C"": 10.0, ""model"": ""logreg""}",5
+B2B1r,genus,"{""max_depth"": 2, ""model"": ""xgb""}",18
+B2B1r,genus,"{""max_depth"": 4, ""model"": ""xgb""}",15
+B2C,family,"{""C"": 0.01, ""model"": ""logreg""}",16
+B2C,family,"{""C"": 0.1, ""model"": ""logreg""}",5
+B2C,family,"{""C"": 1.0, ""model"": ""logreg""}",7
+B2C,family,"{""C"": 10.0, ""model"": ""logreg""}",8
+B2C,family,"{""max_depth"": 2, ""model"": ""xgb""}",17
+B2C,family,"{""max_depth"": 4, ""model"": ""xgb""}",17
+B2C,genus,"{""C"": 0.01, ""model"": ""logreg""}",16
+B2C,genus,"{""C"": 0.1, ""model"": ""logreg""}",5
+B2C,genus,"{""C"": 1.0, ""model"": ""logreg""}",8
+B2C,genus,"{""C"": 10.0, ""model"": ""logreg""}",10
+B2C,genus,"{""max_depth"": 2, ""model"": ""xgb""}",14
+B2C,genus,"{""max_depth"": 4, ""model"": ""xgb""}",17
+B2E,family,"{""C"": 0.01, ""model"": ""logreg""}",27
+B2E,family,"{""C"": 0.1, ""model"": ""logreg""}",3
+B2E,family,"{""C"": 1.0, ""model"": ""logreg""}",3
+B2E,family,"{""C"": 10.0, ""model"": ""logreg""}",9
+B2E,family,"{""max_depth"": 2, ""model"": ""xgb""}",9
+B2E,family,"{""max_depth"": 4, ""model"": ""xgb""}",19
+B2E,genus,"{""C"": 0.01, ""model"": ""logreg""}",22
+B2E,genus,"{""C"": 0.1, ""model"": ""logreg""}",9
+B2E,genus,"{""C"": 1.0, ""model"": ""logreg""}",4
+B2E,genus,"{""C"": 10.0, ""model"": ""logreg""}",6
+B2E,genus,"{""max_depth"": 2, ""model"": ""xgb""}",14
+B2E,genus,"{""max_depth"": 4, ""model"": ""xgb""}",15
+B2E_large,family,"{""C"": 0.01, ""model"": ""logreg""}",26
+B2E_large,family,"{""C"": 0.1, ""model"": ""logreg""}",7
+B2E_large,family,"{""C"": 1.0, ""model"": ""logreg""}",5
+B2E_large,family,"{""C"": 10.0, ""model"": ""logreg""}",4
+B2E_large,family,"{""max_depth"": 2, ""model"": ""xgb""}",9
+B2E_large,family,"{""max_depth"": 4, ""model"": ""xgb""}",19
+B2E_large,genus,"{""C"": 0.01, ""model"": ""logreg""}",22
+B2E_large,genus,"{""C"": 0.1, ""model"": ""logreg""}",7
+B2E_large,genus,"{""C"": 1.0, ""model"": ""logreg""}",4
+B2E_large,genus,"{""C"": 10.0, ""model"": ""logreg""}",6
+B2E_large,genus,"{""max_depth"": 2, ""model"": ""xgb""}",14
+B2E_large,genus,"{""max_depth"": 4, ""model"": ""xgb""}",17
+B2LG,family,"{""C"": 0.01, ""model"": ""logreg""}",22
+B2LG,family,"{""C"": 0.1, ""model"": ""logreg""}",10
+B2LG,family,"{""C"": 1.0, ""model"": ""logreg""}",6
+B2LG,family,"{""C"": 10.0, ""model"": ""logreg""}",5
+B2LG,family,"{""max_depth"": 2, ""model"": ""xgb""}",9
+B2LG,family,"{""max_depth"": 4, ""model"": ""xgb""}",18
+B2LG,genus,"{""C"": 0.01, ""model"": ""logreg""}",32
+B2LG,genus,"{""C"": 0.1, ""model"": ""logreg""}",6
+B2LG,genus,"{""C"": 1.0, ""model"": ""logreg""}",3
+B2LG,genus,"{""C"": 10.0, ""model"": ""logreg""}",3
+B2LG,genus,"{""max_depth"": 2, ""model"": ""xgb""}",8
+B2LG,genus,"{""max_depth"": 4, ""model"": ""xgb""}",18
+B2LGE,family,"{""C"": 0.01, ""model"": ""logreg""}",20
+B2LGE,family,"{""C"": 0.1, ""model"": ""logreg""}",11
+B2LGE,family,"{""C"": 1.0, ""model"": ""logreg""}",6
+B2LGE,family,"{""C"": 10.0, ""model"": ""logreg""}",8
+B2LGE,family,"{""max_depth"": 2, ""model"": ""xgb""}",7
+B2LGE,family,"{""max_depth"": 4, ""model"": ""xgb""}",18
+B2LGE,genus,"{""C"": 0.01, ""model"": ""logreg""}",27
+B2LGE,genus,"{""C"": 0.1, ""model"": ""logreg""}",10
+B2LGE,genus,"{""C"": 1.0, ""model"": ""logreg""}",4
+B2LGE,genus,"{""C"": 10.0, ""model"": ""logreg""}",4
+B2LGE,genus,"{""max_depth"": 2, ""model"": ""xgb""}",12
+B2LGE,genus,"{""max_depth"": 4, ""model"": ""xgb""}",13
+B2RP,family,"{""C"": 0.01, ""model"": ""logreg""}",32
+B2RP,family,"{""C"": 0.1, ""model"": ""logreg""}",7
+B2RP,family,"{""C"": 1.0, ""model"": ""logreg""}",2
+B2RP,family,"{""C"": 10.0, ""model"": ""logreg""}",4
+B2RP,family,"{""max_depth"": 2, ""model"": ""xgb""}",7
+B2RP,family,"{""max_depth"": 4, ""model"": ""xgb""}",18
+B2RP,genus,"{""C"": 0.01, ""model"": ""logreg""}",33
+B2RP,genus,"{""C"": 0.1, ""model"": ""logreg""}",7
+B2RP,genus,"{""C"": 1.0, ""model"": ""logreg""}",4
+B2RP,genus,"{""C"": 10.0, ""model"": ""logreg""}",1
+B2RP,genus,"{""max_depth"": 2, ""model"": ""xgb""}",10
+B2RP,genus,"{""max_depth"": 4, ""model"": ""xgb""}",15
+B2XL,family,"{""C"": 0.01, ""model"": ""logreg""}",44
+B2XL,family,"{""C"": 0.1, ""model"": ""logreg""}",5
+B2XL,family,"{""C"": 1.0, ""model"": ""logreg""}",2
+B2XL,family,"{""C"": 10.0, ""model"": ""logreg""}",8
+B2XL,family,"{""max_depth"": 4, ""model"": ""xgb""}",11
+B2XL,genus,"{""C"": 0.01, ""model"": ""logreg""}",39
+B2XL,genus,"{""C"": 0.1, ""model"": ""logreg""}",5
+B2XL,genus,"{""C"": 1.0, ""model"": ""logreg""}",4
+B2XL,genus,"{""C"": 10.0, ""model"": ""logreg""}",9
+B2XL,genus,"{""max_depth"": 4, ""model"": ""xgb""}",13
+B2XLC,family,"{""C"": 0.01, ""model"": ""logreg""}",24
+B2XLC,family,"{""C"": 0.1, ""model"": ""logreg""}",8
+B2XLC,family,"{""C"": 1.0, ""model"": ""logreg""}",13
+B2XLC,family,"{""C"": 10.0, ""model"": ""logreg""}",15
+B2XLC,family,"{""max_depth"": 4, ""model"": ""xgb""}",10
+B2XLC,genus,"{""C"": 0.01, ""model"": ""logreg""}",21
+B2XLC,genus,"{""C"": 0.1, ""model"": ""logreg""}",7
+B2XLC,genus,"{""C"": 1.0, ""model"": ""logreg""}",15
+B2XLC,genus,"{""C"": 10.0, ""model"": ""logreg""}",15
+B2XLC,genus,"{""max_depth"": 4, ""model"": ""xgb""}",12
+B2XLE,family,"{""C"": 0.01, ""model"": ""logreg""}",30
+B2XLE,family,"{""C"": 0.1, ""model"": ""logreg""}",4
+B2XLE,family,"{""C"": 1.0, ""model"": ""logreg""}",8
+B2XLE,family,"{""C"": 10.0, ""model"": ""logreg""}",11
+B2XLE,family,"{""max_depth"": 4, ""model"": ""xgb""}",17
+B2XLE,genus,"{""C"": 0.01, ""model"": ""logreg""}",25
+B2XLE,genus,"{""C"": 0.1, ""model"": ""logreg""}",12
+B2XLE,genus,"{""C"": 1.0, ""model"": ""logreg""}",7
+B2XLE,genus,"{""C"": 10.0, ""model"": ""logreg""}",12
+B2XLE,genus,"{""max_depth"": 4, ""model"": ""xgb""}",14
+B2XLE_large,family,"{""C"": 0.01, ""model"": ""logreg""}",28
+B2XLE_large,family,"{""C"": 0.1, ""model"": ""logreg""}",15
+B2XLE_large,family,"{""C"": 1.0, ""model"": ""logreg""}",4
+B2XLE_large,family,"{""C"": 10.0, ""model"": ""logreg""}",12
+B2XLE_large,family,"{""max_depth"": 4, ""model"": ""xgb""}",11
+B2XLE_large,genus,"{""C"": 0.01, ""model"": ""logreg""}",28
+B2XLE_large,genus,"{""C"": 0.1, ""model"": ""logreg""}",8
+B2XLE_large,genus,"{""C"": 1.0, ""model"": ""logreg""}",12
+B2XLE_large,genus,"{""C"": 10.0, ""model"": ""logreg""}",10
+B2XLE_large,genus,"{""max_depth"": 4, ""model"": ""xgb""}",12
+B2cnt,family,"{""C"": 0.01, ""model"": ""logreg""}",24
+B2cnt,family,"{""C"": 0.1, ""model"": ""logreg""}",5
+B2cnt,family,"{""C"": 1.0, ""model"": ""logreg""}",5
+B2cnt,family,"{""C"": 10.0, ""model"": ""logreg""}",3
+B2cnt,family,"{""max_depth"": 2, ""model"": ""xgb""}",11
+B2cnt,family,"{""max_depth"": 4, ""model"": ""xgb""}",22
+B2cnt,genus,"{""C"": 0.01, ""model"": ""logreg""}",27
+B2cnt,genus,"{""C"": 0.1, ""model"": ""logreg""}",7
+B2cnt,genus,"{""C"": 1.0, ""model"": ""logreg""}",4
+B2cnt,genus,"{""C"": 10.0, ""model"": ""logreg""}",3
+B2cnt,genus,"{""max_depth"": 2, ""model"": ""xgb""}",16
+B2cnt,genus,"{""max_depth"": 4, ""model"": ""xgb""}",13
+B2tax,family,"{""C"": 0.01, ""exclude"": ""family"", ""model"": ""logreg""}",26
+B2tax,family,"{""C"": 0.1, ""exclude"": ""family"", ""model"": ""logreg""}",10
+B2tax,family,"{""C"": 1.0, ""exclude"": ""family"", ""model"": ""logreg""}",3
+B2tax,family,"{""C"": 10.0, ""exclude"": ""family"", ""model"": ""logreg""}",3
+B2tax,family,"{""exclude"": ""family"", ""max_depth"": 2, ""model"": ""xgb""}",9
+B2tax,family,"{""exclude"": ""family"", ""max_depth"": 4, ""model"": ""xgb""}",19
+B2tax,genus,"{""C"": 0.01, ""exclude"": ""genus"", ""model"": ""logreg""}",27
+B2tax,genus,"{""C"": 0.1, ""exclude"": ""genus"", ""model"": ""logreg""}",7
+B2tax,genus,"{""C"": 1.0, ""exclude"": ""genus"", ""model"": ""logreg""}",3
+B2tax,genus,"{""C"": 10.0, ""exclude"": ""genus"", ""model"": ""logreg""}",1
+B2tax,genus,"{""exclude"": ""genus"", ""max_depth"": 2, ""model"": ""xgb""}",13
+B2tax,genus,"{""exclude"": ""genus"", ""max_depth"": 4, ""model"": ""xgb""}",19
+B3,family,"{""C"": 0.01, ""model"": ""logreg""}",13
+B3,family,"{""C"": 0.1, ""model"": ""logreg""}",11
+B3,family,"{""C"": 1.0, ""model"": ""logreg""}",9
+B3,family,"{""C"": 10.0, ""model"": ""logreg""}",5
+B3,family,"{""max_depth"": 2, ""model"": ""xgb""}",20
+B3,family,"{""max_depth"": 4, ""model"": ""xgb""}",12
+B3,genus,"{""C"": 0.01, ""model"": ""logreg""}",17
+B3,genus,"{""C"": 0.1, ""model"": ""logreg""}",3
+B3,genus,"{""C"": 1.0, ""model"": ""logreg""}",11
+B3,genus,"{""C"": 10.0, ""model"": ""logreg""}",5
+B3,genus,"{""max_depth"": 2, ""model"": ""xgb""}",15
+B3,genus,"{""max_depth"": 4, ""model"": ""xgb""}",19
+B3ENS,family,"{""C"": 0.01, ""model"": ""logreg""}",19
+B3ENS,family,"{""C"": 0.1, ""model"": ""logreg""}",15
+B3ENS,family,"{""C"": 1.0, ""model"": ""logreg""}",6
+B3ENS,family,"{""C"": 10.0, ""model"": ""logreg""}",10
+B3ENS,family,"{""max_depth"": 2, ""model"": ""xgb""}",13
+B3ENS,family,"{""max_depth"": 4, ""model"": ""xgb""}",7
+B3ENS,genus,"{""C"": 0.01, ""model"": ""logreg""}",23
+B3ENS,genus,"{""C"": 0.1, ""model"": ""logreg""}",5
+B3ENS,genus,"{""C"": 1.0, ""model"": ""logreg""}",6
+B3ENS,genus,"{""C"": 10.0, ""model"": ""logreg""}",12
+B3ENS,genus,"{""max_depth"": 2, ""model"": ""xgb""}",11
+B3ENS,genus,"{""max_depth"": 4, ""model"": ""xgb""}",13
+C,family,"{""C"": 0.01, ""model"": ""logreg"", ""pooling"": ""max""}",9
+C,family,"{""C"": 0.01, ""model"": ""logreg"", ""pooling"": ""mean""}",10
+C,family,"{""C"": 0.1, ""model"": ""logreg"", ""pooling"": ""max""}",6
+C,family,"{""C"": 0.1, ""model"": ""logreg"", ""pooling"": ""mean""}",12
+C,family,"{""C"": 1.0, ""model"": ""logreg"", ""pooling"": ""max""}",7
+C,family,"{""C"": 1.0, ""model"": ""logreg"", ""pooling"": ""mean""}",8
+C,family,"{""C"": 10.0, ""model"": ""logreg"", ""pooling"": ""max""}",6
+C,family,"{""C"": 10.0, ""model"": ""logreg"", ""pooling"": ""mean""}",12
+C,genus,"{""C"": 0.01, ""model"": ""logreg"", ""pooling"": ""max""}",13
+C,genus,"{""C"": 0.01, ""model"": ""logreg"", ""pooling"": ""mean""}",8
+C,genus,"{""C"": 0.1, ""model"": ""logreg"", ""pooling"": ""max""}",6
+C,genus,"{""C"": 0.1, ""model"": ""logreg"", ""pooling"": ""mean""}",10
+C,genus,"{""C"": 1.0, ""model"": ""logreg"", ""pooling"": ""max""}",4
+C,genus,"{""C"": 1.0, ""model"": ""logreg"", ""pooling"": ""mean""}",13
+C,genus,"{""C"": 10.0, ""model"": ""logreg"", ""pooling"": ""max""}",9
+C,genus,"{""C"": 10.0, ""model"": ""logreg"", ""pooling"": ""mean""}",7
+C_large,family,"{""C"": 0.01, ""model"": ""logreg"", ""pooling"": ""max""}",15
+C_large,family,"{""C"": 0.01, ""model"": ""logreg"", ""pooling"": ""mean""}",16
+C_large,family,"{""C"": 0.1, ""model"": ""logreg"", ""pooling"": ""max""}",3
+C_large,family,"{""C"": 0.1, ""model"": ""logreg"", ""pooling"": ""mean""}",22
+C_large,family,"{""C"": 1.0, ""model"": ""logreg"", ""pooling"": ""max""}",5
+C_large,family,"{""C"": 1.0, ""model"": ""logreg"", ""pooling"": ""mean""}",2
+C_large,family,"{""C"": 10.0, ""model"": ""logreg"", ""pooling"": ""max""}",5
+C_large,family,"{""C"": 10.0, ""model"": ""logreg"", ""pooling"": ""mean""}",2
+C_large,genus,"{""C"": 0.01, ""model"": ""logreg"", ""pooling"": ""max""}",18
+C_large,genus,"{""C"": 0.01, ""model"": ""logreg"", ""pooling"": ""mean""}",17
+C_large,genus,"{""C"": 0.1, ""model"": ""logreg"", ""pooling"": ""max""}",5
+C_large,genus,"{""C"": 0.1, ""model"": ""logreg"", ""pooling"": ""mean""}",13
+C_large,genus,"{""C"": 1.0, ""model"": ""logreg"", ""pooling"": ""max""}",1
+C_large,genus,"{""C"": 1.0, ""model"": ""logreg"", ""pooling"": ""mean""}",5
+C_large,genus,"{""C"": 10.0, ""model"": ""logreg"", ""pooling"": ""max""}",10
+C_large,genus,"{""C"": 10.0, ""model"": ""logreg"", ""pooling"": ""mean""}",1
+D,family,"{""model"": ""abmil"", ""prefilter"": false}",42
+D,family,"{""model"": ""abmil"", ""prefilter"": true}",28
+D,genus,"{""model"": ""abmil"", ""prefilter"": true}",70
+E,family,"{""C"": 0.01, ""model"": ""logreg""}",27
+E,family,"{""C"": 0.1, ""model"": ""logreg""}",21
+E,family,"{""C"": 1.0, ""model"": ""logreg""}",13
+E,family,"{""C"": 10.0, ""model"": ""logreg""}",9
+E,genus,"{""C"": 0.01, ""model"": ""logreg""}",26
+E,genus,"{""C"": 0.1, ""model"": ""logreg""}",26
+E,genus,"{""C"": 1.0, ""model"": ""logreg""}",8
+E,genus,"{""C"": 10.0, ""model"": ""logreg""}",10
+ENS,family,"{""C"": 0.01, ""model"": ""logreg""}",23
+ENS,family,"{""C"": 0.1, ""model"": ""logreg""}",11
+ENS,family,"{""C"": 1.0, ""model"": ""logreg""}",4
+ENS,family,"{""C"": 10.0, ""model"": ""logreg""}",7
+ENS,family,"{""max_depth"": 2, ""model"": ""xgb""}",6
+ENS,family,"{""max_depth"": 4, ""model"": ""xgb""}",19
+ENS,genus,"{""C"": 0.01, ""model"": ""logreg""}",32
+ENS,genus,"{""C"": 0.1, ""model"": ""logreg""}",4
+ENS,genus,"{""C"": 1.0, ""model"": ""logreg""}",3
+ENS,genus,"{""C"": 10.0, ""model"": ""logreg""}",5
+ENS,genus,"{""max_depth"": 2, ""model"": ""xgb""}",14
+ENS,genus,"{""max_depth"": 4, ""model"": ""xgb""}",12
+ENSH,family,"{""C"": 0.01, ""model"": ""logreg""}",23
+ENSH,family,"{""C"": 0.1, ""model"": ""logreg""}",10
+ENSH,family,"{""C"": 1.0, ""model"": ""logreg""}",4
+ENSH,family,"{""C"": 10.0, ""model"": ""logreg""}",9
+ENSH,family,"{""max_depth"": 2, ""model"": ""xgb""}",7
+ENSH,family,"{""max_depth"": 4, ""model"": ""xgb""}",17
+ENSH,genus,"{""C"": 0.01, ""model"": ""logreg""}",26
+ENSH,genus,"{""C"": 0.1, ""model"": ""logreg""}",5
+ENSH,genus,"{""C"": 1.0, ""model"": ""logreg""}",2
+ENSH,genus,"{""C"": 10.0, ""model"": ""logreg""}",9
+ENSH,genus,"{""max_depth"": 2, ""model"": ""xgb""}",16
+ENSH,genus,"{""max_depth"": 4, ""model"": ""xgb""}",12
+E_MAG,family,"{""C"": 0.01, ""model"": ""logreg""}",22
+E_MAG,family,"{""C"": 0.1, ""model"": ""logreg""}",28
+E_MAG,family,"{""C"": 1.0, ""model"": ""logreg""}",9
+E_MAG,family,"{""C"": 10.0, ""model"": ""logreg""}",11
+E_MAG,genus,"{""C"": 0.01, ""model"": ""logreg""}",18
+E_MAG,genus,"{""C"": 0.1, ""model"": ""logreg""}",32
+E_MAG,genus,"{""C"": 1.0, ""model"": ""logreg""}",9
+E_MAG,genus,"{""C"": 10.0, ""model"": ""logreg""}",11
+E_large,family,"{""C"": 0.01, ""model"": ""logreg""}",47
+E_large,family,"{""C"": 0.1, ""model"": ""logreg""}",8
+E_large,family,"{""C"": 1.0, ""model"": ""logreg""}",6
+E_large,family,"{""C"": 10.0, ""model"": ""logreg""}",9
+E_large,genus,"{""C"": 0.01, ""model"": ""logreg""}",41
+E_large,genus,"{""C"": 0.1, ""model"": ""logreg""}",21
+E_large,genus,"{""C"": 1.0, ""model"": ""logreg""}",2
+E_large,genus,"{""C"": 10.0, ""model"": ""logreg""}",6
+E_large_MAG,family,"{""C"": 0.01, ""model"": ""logreg""}",41
+E_large_MAG,family,"{""C"": 0.1, ""model"": ""logreg""}",15
+E_large_MAG,family,"{""C"": 1.0, ""model"": ""logreg""}",3
+E_large_MAG,family,"{""C"": 10.0, ""model"": ""logreg""}",11
+E_large_MAG,genus,"{""C"": 0.01, ""model"": ""logreg""}",38
+E_large_MAG,genus,"{""C"": 0.1, ""model"": ""logreg""}",17
+E_large_MAG,genus,"{""C"": 1.0, ""model"": ""logreg""}",7
+E_large_MAG,genus,"{""C"": 10.0, ""model"": ""logreg""}",8
+LG,family,"{""C"": 0.01, ""model"": ""logreg""}",27
+LG,family,"{""C"": 0.1, ""model"": ""logreg""}",6
+LG,family,"{""C"": 1.0, ""model"": ""logreg""}",4
+LG,family,"{""C"": 10.0, ""model"": ""logreg""}",5
+LG,family,"{""max_depth"": 2, ""model"": ""xgb""}",8
+LG,family,"{""max_depth"": 4, ""model"": ""xgb""}",20
+LG,genus,"{""C"": 0.01, ""model"": ""logreg""}",31
+LG,genus,"{""C"": 0.1, ""model"": ""logreg""}",6
+LG,genus,"{""C"": 1.0, ""model"": ""logreg""}",1
+LG,genus,"{""C"": 10.0, ""model"": ""logreg""}",4
+LG,genus,"{""max_depth"": 2, ""model"": ""xgb""}",10
+LG,genus,"{""max_depth"": 4, ""model"": ""xgb""}",18
+SEL,family,"{""C"": 0.01, ""features"": ""B2"", ""model"": ""logreg""}",11
+SEL,family,"{""C"": 0.01, ""features"": ""B2LG"", ""model"": ""logreg""}",3
+SEL,family,"{""C"": 0.01, ""features"": ""LG"", ""model"": ""logreg""}",11
+SEL,family,"{""C"": 0.1, ""features"": ""B2LG"", ""model"": ""logreg""}",5
+SEL,family,"{""C"": 0.1, ""features"": ""LG"", ""model"": ""logreg""}",4
+SEL,family,"{""C"": 1.0, ""features"": ""B2"", ""model"": ""logreg""}",2
+SEL,family,"{""C"": 1.0, ""features"": ""B2LG"", ""model"": ""logreg""}",1
+SEL,family,"{""C"": 1.0, ""features"": ""LG"", ""model"": ""logreg""}",2
+SEL,family,"{""C"": 10.0, ""features"": ""B2"", ""model"": ""logreg""}",2
+SEL,family,"{""C"": 10.0, ""features"": ""B2LG"", ""model"": ""logreg""}",1
+SEL,family,"{""C"": 10.0, ""features"": ""LG"", ""model"": ""logreg""}",2
+SEL,family,"{""features"": ""B2"", ""max_depth"": 2, ""model"": ""xgb""}",3
+SEL,family,"{""features"": ""B2"", ""max_depth"": 4, ""model"": ""xgb""}",3
+SEL,family,"{""features"": ""B2LG"", ""max_depth"": 2, ""model"": ""xgb""}",3
+SEL,family,"{""features"": ""B2LG"", ""max_depth"": 4, ""model"": ""xgb""}",4
+SEL,family,"{""features"": ""LG"", ""max_depth"": 2, ""model"": ""xgb""}",4
+SEL,family,"{""features"": ""LG"", ""max_depth"": 4, ""model"": ""xgb""}",9
+SEL,genus,"{""C"": 0.01, ""features"": ""B2"", ""model"": ""logreg""}",6
+SEL,genus,"{""C"": 0.01, ""features"": ""B2LG"", ""model"": ""logreg""}",8
+SEL,genus,"{""C"": 0.01, ""features"": ""LG"", ""model"": ""logreg""}",14
+SEL,genus,"{""C"": 0.1, ""features"": ""B2"", ""model"": ""logreg""}",1
+SEL,genus,"{""C"": 0.1, ""features"": ""B2LG"", ""model"": ""logreg""}",2
+SEL,genus,"{""C"": 0.1, ""features"": ""LG"", ""model"": ""logreg""}",2
+SEL,genus,"{""C"": 1.0, ""features"": ""B2"", ""model"": ""logreg""}",2
+SEL,genus,"{""C"": 1.0, ""features"": ""B2LG"", ""model"": ""logreg""}",1
+SEL,genus,"{""C"": 1.0, ""features"": ""LG"", ""model"": ""logreg""}",1
+SEL,genus,"{""C"": 10.0, ""features"": ""LG"", ""model"": ""logreg""}",3
+SEL,genus,"{""features"": ""B2"", ""max_depth"": 2, ""model"": ""xgb""}",6
+SEL,genus,"{""features"": ""B2"", ""max_depth"": 4, ""model"": ""xgb""}",9
+SEL,genus,"{""features"": ""B2LG"", ""max_depth"": 2, ""model"": ""xgb""}",2
+SEL,genus,"{""features"": ""B2LG"", ""max_depth"": 4, ""model"": ""xgb""}",6
+SEL,genus,"{""features"": ""LG"", ""max_depth"": 2, ""model"": ""xgb""}",4
+SEL,genus,"{""features"": ""LG"", ""max_depth"": 4, ""model"": ""xgb""}",3
+STACK,family,"{""C2"": 0.1, ""model"": ""stack""}",52
+STACK,family,"{""C2"": 1.0, ""model"": ""stack""}",18
+STACK,genus,"{""C2"": 0.1, ""model"": ""stack""}",52
+STACK,genus,"{""C2"": 1.0, ""model"": ""stack""}",18

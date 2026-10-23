@@ -1,0 +1,264 @@
+task,trait,fold,cls,rule,heldout_support,heldout_correct
+pw,denitrification,0,0,IF nosZ (K00376) absent AND norB (K04561) absent THEN lacks denitrification,507,507
+pw,denitrification,0,0,IF napB (K02568) absent AND norB (K04561) absent THEN lacks denitrification,464,464
+pw,denitrification,1,0,IF nosZ (K00376) absent AND norB (K04561) absent THEN lacks denitrification,506,499
+pw,denitrification,1,0,IF napB (K02568) absent AND norB (K04561) absent AND K19341 (K19341) absent THEN lacks denitrification,454,447
+pw,denitrification,2,0,IF nosZ (K00376) absent AND norB (K04561) absent THEN lacks denitrification,494,493
+pw,denitrification,2,0,IF napB (K02568) absent AND norB (K04561) absent THEN lacks denitrification,493,491
+pw,denitrification,3,0,IF nosZ (K00376) absent AND norB (K04561) absent THEN lacks denitrification,499,497
+pw,denitrification,3,0,IF napB (K02568) absent AND norB (K04561) absent AND K19341 (K19341) absent THEN lacks denitrification,449,447
+pw,denitrification,4,0,IF nosZ (K00376) absent AND norB (K04561) absent THEN lacks denitrification,509,502
+pw,denitrification,4,0,IF norB (K04561) absent AND K19341 (K19341) absent AND K19345 (K19345) absent THEN lacks denitrification,497,489
+pw,dnra,0,0,IF K02573 (K02573) absent AND nrfH (K15876) absent THEN lacks dnra,570,565
+pw,dnra,0,0,IF K02573 (K02573) absent AND nrfA (K03385) absent THEN lacks dnra,566,561
+pw,dnra,1,0,IF K02573 (K02573) absent AND nrfH (K15876) absent THEN lacks dnra,588,584
+pw,dnra,1,0,IF K02573 (K02573) absent AND nrfA (K03385) absent THEN lacks dnra,587,583
+pw,dnra,2,0,IF K02573 (K02573) absent AND nrfH (K15876) absent THEN lacks dnra,545,542
+pw,dnra,2,0,IF K02573 (K02573) absent AND nrfA (K03385) absent THEN lacks dnra,550,547
+pw,dnra,3,0,IF K02573 (K02573) absent AND nrfA (K03385) absent THEN lacks dnra,533,530
+pw,dnra,3,0,IF K02573 (K02573) absent AND nrfH (K15876) absent THEN lacks dnra,546,543
+pw,dnra,4,0,IF K02573 (K02573) absent AND nrfH (K15876) absent THEN lacks dnra,573,569
+pw,dnra,4,0,IF K02573 (K02573) absent AND nrfA (K03385) absent THEN lacks dnra,575,571
+pw,nitrate_reduction,0,1,IF K00116 (K00116) present AND narH (K00371) present AND nosZ (K00376) present THEN has nitrate_reduction,4,4
+pw,nitrate_reduction,0,1,IF nirB (K00362) present AND narH (K00371) present AND nosZ (K00376) present THEN has nitrate_reduction,15,13
+pw,nitrate_reduction,0,1,IF nirD (K00363) present AND nosZ (K00376) present AND nirS (K15864) absent THEN has nitrate_reduction,11,5
+pw,nitrate_reduction,0,0,IF K00116 (K00116) absent AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,234,198
+pw,nitrate_reduction,0,0,IF K00116 (K00116) absent AND napB (K02568) absent AND narK (K02575) absent THEN lacks nitrate_reduction,241,201
+pw,nitrate_reduction,1,1,IF K00116 (K00116) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,12,11
+pw,nitrate_reduction,1,1,IF narH (K00371) present AND norC (K02305) present AND nirS (K15864) present THEN has nitrate_reduction,19,14
+pw,nitrate_reduction,1,1,IF K00116 (K00116) present AND nirB (K00362) absent AND narG (K00370) present THEN has nitrate_reduction,54,48
+pw,nitrate_reduction,1,0,IF K00116 (K00116) absent AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,222,187
+pw,nitrate_reduction,1,0,IF K00116 (K00116) absent AND napB (K02568) absent AND narK (K02575) absent THEN lacks nitrate_reduction,229,190
+pw,nitrate_reduction,2,1,IF K00116 (K00116) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,10,10
+pw,nitrate_reduction,2,1,IF nirB (K00362) present AND narI (K00374) present AND norC (K02305) present THEN has nitrate_reduction,5,4
+pw,nitrate_reduction,2,1,IF nirD (K00363) absent AND narH (K00371) present AND K05916 (K05916) present THEN has nitrate_reduction,86,76
+pw,nitrate_reduction,2,0,IF K00116 (K00116) absent AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,219,187
+pw,nitrate_reduction,2,0,IF K00116 (K00116) absent AND napB (K02568) absent AND narK (K02575) absent THEN lacks nitrate_reduction,232,192
+pw,nitrate_reduction,3,1,IF K00116 (K00116) present AND nirD (K00363) absent AND narI (K00374) present THEN has nitrate_reduction,38,34
+pw,nitrate_reduction,3,1,IF K00116 (K00116) present AND nirD (K00363) absent AND narH (K00371) present THEN has nitrate_reduction,39,35
+pw,nitrate_reduction,3,1,IF K00116 (K00116) present AND nirB (K00362) absent AND narI (K00374) present THEN has nitrate_reduction,31,28
+pw,nitrate_reduction,3,0,IF K00116 (K00116) absent AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,224,183
+pw,nitrate_reduction,3,0,IF K00116 (K00116) absent AND napB (K02568) absent AND narK (K02575) absent THEN lacks nitrate_reduction,235,189
+pw,nitrate_reduction,4,1,IF K00116 (K00116) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,5,5
+pw,nitrate_reduction,4,1,IF K00116 (K00116) present AND nirB (K00362) absent AND narG (K00370) present THEN has nitrate_reduction,49,42
+pw,nitrate_reduction,4,1,IF K00116 (K00116) present AND nirD (K00363) absent AND narG (K00370) present THEN has nitrate_reduction,53,46
+pw,nitrate_reduction,4,0,IF K00116 (K00116) absent AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,220,184
+pw,nitrate_reduction,4,0,IF K00116 (K00116) absent AND napB (K02568) absent AND narK (K02575) absent THEN lacks nitrate_reduction,227,187
+pw,nitrogen_fixation,0,0,IF K02224 (K02224) absent AND K02587 (K02587) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,272,272
+pw,nitrogen_fixation,0,0,IF K02224 (K02224) absent AND nifK (K02591) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,270,270
+pw,nitrogen_fixation,1,0,IF K02224 (K02224) absent AND K02587 (K02587) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,272,272
+pw,nitrogen_fixation,1,0,IF K02224 (K02224) absent AND nifK (K02591) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,267,267
+pw,nitrogen_fixation,2,0,IF K02224 (K02224) absent AND K02587 (K02587) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,290,290
+pw,nitrogen_fixation,2,0,IF K02224 (K02224) absent AND K02587 (K02587) absent THEN lacks nitrogen_fixation,311,310
+pw,nitrogen_fixation,3,0,IF K02224 (K02224) absent AND K02587 (K02587) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,246,246
+pw,nitrogen_fixation,3,0,IF K02224 (K02224) absent AND nifK (K02591) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,245,245
+pw,nitrogen_fixation,4,0,IF K02224 (K02224) absent AND K02587 (K02587) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,255,255
+pw,nitrogen_fixation,4,0,IF K02224 (K02224) absent AND nifK (K02591) absent AND K09667 (K09667) absent THEN lacks nitrogen_fixation,251,251
+pw,methanogenesis,0,1,IF mcrA (K00399) present THEN has methanogenesis,27,27
+pw,methanogenesis,0,0,IF mcrA (K00399) absent THEN lacks methanogenesis,651,651
+pw,methanogenesis,1,1,IF mcrA (K00399) present THEN has methanogenesis,24,24
+pw,methanogenesis,1,0,IF mcrA (K00399) absent THEN lacks methanogenesis,665,665
+pw,methanogenesis,2,1,IF mcrA (K00399) present THEN has methanogenesis,29,28
+pw,methanogenesis,2,0,IF mcrA (K00399) absent THEN lacks methanogenesis,642,642
+pw,methanogenesis,3,1,IF mcrA (K00399) present THEN has methanogenesis,28,28
+pw,methanogenesis,3,0,IF mcrA (K00399) absent THEN lacks methanogenesis,634,634
+pw,methanogenesis,4,1,IF mcrA (K00399) present THEN has methanogenesis,25,25
+pw,methanogenesis,4,0,IF mcrA (K00399) absent THEN lacks methanogenesis,653,653
+pw,acetogenesis,0,0,IF K05299 (K05299) absent AND K07321 (K07321) absent THEN lacks acetogenesis,570,570
+pw,acetogenesis,0,0,IF K01500 (K01500) absent AND K07321 (K07321) absent THEN lacks acetogenesis,507,507
+pw,acetogenesis,1,0,IF K05299 (K05299) absent AND K07321 (K07321) absent THEN lacks acetogenesis,525,525
+pw,acetogenesis,1,0,IF K07321 (K07321) absent AND K22015 (K22015) absent THEN lacks acetogenesis,516,515
+pw,acetogenesis,2,0,IF K05299 (K05299) absent AND K07321 (K07321) absent THEN lacks acetogenesis,584,584
+pw,acetogenesis,2,0,IF K01500 (K01500) absent AND K07321 (K07321) absent THEN lacks acetogenesis,517,517
+pw,acetogenesis,3,0,IF K05299 (K05299) absent AND acsB (K14138) absent THEN lacks acetogenesis,617,616
+pw,acetogenesis,3,0,IF K05299 (K05299) absent AND K15023 (K15023) absent THEN lacks acetogenesis,614,613
+pw,acetogenesis,4,0,IF K05299 (K05299) absent AND K07321 (K07321) absent THEN lacks acetogenesis,586,586
+pw,acetogenesis,4,0,IF K01500 (K01500) absent AND K07321 (K07321) absent THEN lacks acetogenesis,533,533
+pw,sulfate_reduction,0,1,IF K16885 (K16885) present AND asrB (K16951) absent AND K27191 (K27191) absent THEN has sulfate_reduction,1,1
+pw,sulfate_reduction,0,1,IF K16885 (K16885) present AND K27191 (K27191) absent THEN has sulfate_reduction,1,1
+pw,sulfate_reduction,0,1,IF aprB (K00395) present AND dsrB (K11181) present AND K27191 (K27191) absent THEN has sulfate_reduction,1,1
+pw,sulfate_reduction,0,0,IF dsrB (K11181) absent AND asrB (K16951) absent THEN lacks sulfate_reduction,579,579
+pw,sulfate_reduction,0,0,IF aprB (K00395) absent AND asrB (K16951) absent THEN lacks sulfate_reduction,580,580
+pw,sulfate_reduction,1,1,IF K16885 (K16885) present AND K27191 (K27191) absent THEN has sulfate_reduction,2,2
+pw,sulfate_reduction,1,1,IF aprB (K00395) present AND dsrB (K11181) present AND K27191 (K27191) absent THEN has sulfate_reduction,5,3
+pw,sulfate_reduction,1,0,IF dsrB (K11181) absent AND asrB (K16951) absent THEN lacks sulfate_reduction,594,593
+pw,sulfate_reduction,1,0,IF asrB (K16951) absent AND dsrM (K27187) absent THEN lacks sulfate_reduction,591,590
+pw,sulfate_reduction,2,1,IF K16885 (K16885) present AND asrB (K16951) absent AND K27191 (K27191) absent THEN has sulfate_reduction,3,3
+pw,sulfate_reduction,2,1,IF K16885 (K16885) present AND K27191 (K27191) absent THEN has sulfate_reduction,4,4
+pw,sulfate_reduction,2,1,IF aprB (K00395) present AND dsrB (K11181) present AND K27191 (K27191) absent THEN has sulfate_reduction,5,5
+pw,sulfate_reduction,2,0,IF dsrB (K11181) absent AND asrB (K16951) absent THEN lacks sulfate_reduction,593,593
+pw,sulfate_reduction,2,0,IF asrB (K16951) absent AND dsrM (K27187) absent THEN lacks sulfate_reduction,592,592
+pw,sulfate_reduction,3,1,IF K16885 (K16885) present AND asrB (K16951) absent AND K27191 (K27191) absent THEN has sulfate_reduction,5,5
+pw,sulfate_reduction,3,1,IF K16885 (K16885) present AND K27191 (K27191) absent THEN has sulfate_reduction,8,8
+pw,sulfate_reduction,3,1,IF aprB (K00395) present AND dsrB (K11181) present AND K27191 (K27191) absent THEN has sulfate_reduction,8,8
+pw,sulfate_reduction,3,0,IF dsrB (K11181) absent AND asrB (K16951) absent THEN lacks sulfate_reduction,570,568
+pw,sulfate_reduction,3,0,IF asrB (K16951) absent AND dsrM (K27187) absent THEN lacks sulfate_reduction,569,567
+pw,sulfate_reduction,4,1,IF K16885 (K16885) present AND K27191 (K27191) absent THEN has sulfate_reduction,11,10
+pw,sulfate_reduction,4,1,IF aprB (K00395) present AND dsrB (K11181) present AND K27191 (K27191) absent THEN has sulfate_reduction,12,10
+pw,sulfate_reduction,4,0,IF dsrB (K11181) absent AND asrB (K16951) absent THEN lacks sulfate_reduction,604,604
+pw,sulfate_reduction,4,0,IF asrB (K16951) absent AND dsrM (K27187) absent THEN lacks sulfate_reduction,603,603
+pw,sulfur_reduction,0,1,IF K18367 (K18367) present AND dsrM (K27187) present AND K27191 (K27191) absent THEN has sulfur_reduction,1,1
+pw,sulfur_reduction,0,1,IF K00432 (K00432) absent AND dsrM (K27187) present AND K27191 (K27191) absent THEN has sulfur_reduction,4,1
+pw,sulfur_reduction,0,1,IF K00179 (K00179) present AND dsrA (K11180) present AND K18367 (K18367) present THEN has sulfur_reduction,4,1
+pw,sulfur_reduction,0,0,IF K02291 (K02291) present AND K18367 (K18367) absent THEN lacks sulfur_reduction,290,290
+pw,sulfur_reduction,0,0,IF sat (K00958) absent AND K02291 (K02291) present AND psrA (K08352) absent THEN lacks sulfur_reduction,281,281
+pw,sulfur_reduction,1,1,IF dsrA (K11180) present AND K18367 (K18367) present AND K27191 (K27191) absent THEN has sulfur_reduction,8,6
+pw,sulfur_reduction,1,1,IF aprA (K00394) present AND dsrA (K11180) present AND K27191 (K27191) absent THEN has sulfur_reduction,5,4
+pw,sulfur_reduction,1,1,IF aprA (K00394) present AND dsrA (K11180) present AND dsrO (K27190) absent THEN has sulfur_reduction,5,4
+pw,sulfur_reduction,1,0,IF K02291 (K02291) present AND K18367 (K18367) absent THEN lacks sulfur_reduction,256,256
+pw,sulfur_reduction,1,0,IF sat (K00958) absent AND K02291 (K02291) present AND psrA (K08352) absent THEN lacks sulfur_reduction,262,262
+pw,sulfur_reduction,2,1,IF K18367 (K18367) present AND dsrM (K27187) present AND K27189 (K27189) absent THEN has sulfur_reduction,4,4
+pw,sulfur_reduction,2,1,IF K02291 (K02291) absent AND K06897 (K06897) present AND dsrA (K11180) present THEN has sulfur_reduction,17,14
+pw,sulfur_reduction,2,1,IF K00179 (K00179) present AND K02291 (K02291) absent AND dsrA (K11180) present THEN has sulfur_reduction,24,20
+pw,sulfur_reduction,2,0,IF K02291 (K02291) present AND psrA (K08352) absent THEN lacks sulfur_reduction,336,335
+pw,sulfur_reduction,2,0,IF K02291 (K02291) present AND K06897 (K06897) absent THEN lacks sulfur_reduction,323,322
+pw,sulfur_reduction,3,1,IF K18367 (K18367) present AND dsrM (K27187) present AND K27191 (K27191) absent THEN has sulfur_reduction,6,5
+pw,sulfur_reduction,3,1,IF aprA (K00394) present AND dsrM (K27187) present AND dsrO (K27190) absent THEN has sulfur_reduction,8,6
+pw,sulfur_reduction,3,1,IF K02291 (K02291) absent AND dsrA (K11180) present AND dsrO (K27190) absent THEN has sulfur_reduction,8,6
+pw,sulfur_reduction,3,0,IF K02291 (K02291) present AND K18367 (K18367) absent THEN lacks sulfur_reduction,253,253
+pw,sulfur_reduction,3,0,IF sat (K00958) absent AND K02291 (K02291) present AND psrA (K08352) absent THEN lacks sulfur_reduction,222,222
+pw,sulfur_reduction,4,1,IF aprA (K00394) present AND dsrA (K11180) present AND K27191 (K27191) absent THEN has sulfur_reduction,12,9
+pw,sulfur_reduction,4,1,IF aprA (K00394) present AND dsrA (K11180) present AND dsrO (K27190) absent THEN has sulfur_reduction,12,9
+pw,sulfur_reduction,4,1,IF aprA (K00394) present AND dsrM (K27187) present AND K27191 (K27191) absent THEN has sulfur_reduction,12,9
+pw,sulfur_reduction,4,0,IF K02291 (K02291) present AND K18367 (K18367) absent THEN lacks sulfur_reduction,299,299
+pw,sulfur_reduction,4,0,IF sat (K00958) absent AND K02291 (K02291) present AND psrA (K08352) absent THEN lacks sulfur_reduction,250,250
+pw,sulfur_oxidation,0,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxY (K17226) absent THEN lacks sulfur_oxidation,355,355
+pw,sulfur_oxidation,0,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks sulfur_oxidation,361,361
+pw,sulfur_oxidation,1,1,IF aprA (K00394) present AND dsrA (K11180) present AND soxX (K17223) present THEN has sulfur_oxidation,8,4
+pw,sulfur_oxidation,1,1,IF sat (K00958) present AND dsrA (K11180) present AND soxX (K17223) present THEN has sulfur_oxidation,9,4
+pw,sulfur_oxidation,1,1,IF dsrA (K11180) present AND soxX (K17223) present AND fccB (K17229) present THEN has sulfur_oxidation,8,3
+pw,sulfur_oxidation,1,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxY (K17226) absent THEN lacks sulfur_oxidation,323,322
+pw,sulfur_oxidation,1,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks sulfur_oxidation,329,328
+pw,sulfur_oxidation,2,1,IF dsrA (K11180) present AND soxA (K17222) present AND K17230 (K17230) present THEN has sulfur_oxidation,9,3
+pw,sulfur_oxidation,2,1,IF dsrA (K11180) present AND soxA (K17222) present AND soxB (K17224) present THEN has sulfur_oxidation,9,3
+pw,sulfur_oxidation,2,1,IF dsrA (K11180) present AND soxA (K17222) present THEN has sulfur_oxidation,9,3
+pw,sulfur_oxidation,2,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks sulfur_oxidation,329,328
+pw,sulfur_oxidation,2,0,IF sat (K00958) absent AND sqr (K17218) absent AND K22622 (K22622) absent THEN lacks sulfur_oxidation,328,327
+pw,sulfur_oxidation,3,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxY (K17226) absent THEN lacks sulfur_oxidation,314,314
+pw,sulfur_oxidation,3,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks sulfur_oxidation,331,331
+pw,sulfur_oxidation,4,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxY (K17226) absent THEN lacks sulfur_oxidation,289,289
+pw,sulfur_oxidation,4,0,IF sat (K00958) absent AND sqr (K17218) absent AND soxX (K17223) absent THEN lacks sulfur_oxidation,307,307
+pw,iron_reduction,0,0,IF K03605 (K03605) absent AND K03738 (K03738) absent AND hcp (K05601) absent THEN lacks iron_reduction,345,345
+pw,iron_reduction,0,0,IF K03605 (K03605) absent AND K03738 (K03738) absent AND K07714 (K07714) absent THEN lacks iron_reduction,441,440
+pw,iron_reduction,1,0,IF hcp (K05601) absent AND K07714 (K07714) absent AND K08358 (K08358) absent THEN lacks iron_reduction,436,432
+pw,iron_reduction,1,0,IF K03605 (K03605) absent AND hcp (K05601) absent AND K08358 (K08358) absent THEN lacks iron_reduction,356,355
+pw,iron_reduction,2,0,IF K03605 (K03605) absent AND K03738 (K03738) absent AND hcp (K05601) absent THEN lacks iron_reduction,356,354
+pw,iron_reduction,2,0,IF K03605 (K03605) absent AND hcp (K05601) absent AND K05772 (K05772) absent THEN lacks iron_reduction,343,341
+pw,iron_reduction,3,0,IF K03605 (K03605) absent AND K03738 (K03738) absent AND K07714 (K07714) absent THEN lacks iron_reduction,372,371
+pw,iron_reduction,3,0,IF K03605 (K03605) absent AND K03738 (K03738) absent AND hcp (K05601) absent THEN lacks iron_reduction,323,323
+pw,iron_reduction,4,0,IF K03605 (K03605) absent AND K03738 (K03738) absent AND hcp (K05601) absent THEN lacks iron_reduction,389,387
+pw,iron_reduction,4,0,IF K03605 (K03605) absent AND hcp (K05601) absent AND K05772 (K05772) absent THEN lacks iron_reduction,339,337
+pw,iron_oxidation,0,0,IF K02217 (K02217) present THEN lacks iron_oxidation,215,215
+pw,iron_oxidation,0,0,IF K02217 (K02217) absent THEN lacks iron_oxidation,463,455
+pw,iron_oxidation,1,0,IF K02217 (K02217) present THEN lacks iron_oxidation,226,226
+pw,iron_oxidation,1,0,IF K02217 (K02217) absent THEN lacks iron_oxidation,463,453
+pw,iron_oxidation,2,0,IF K02217 (K02217) present THEN lacks iron_oxidation,253,253
+pw,iron_oxidation,2,0,IF K02217 (K02217) absent THEN lacks iron_oxidation,418,409
+pw,iron_oxidation,3,0,IF K02217 (K02217) present THEN lacks iron_oxidation,211,211
+pw,iron_oxidation,3,0,IF K02217 (K02217) absent THEN lacks iron_oxidation,451,443
+pw,iron_oxidation,4,0,IF K02217 (K02217) present THEN lacks iron_oxidation,199,199
+pw,iron_oxidation,4,0,IF K02217 (K02217) absent THEN lacks iron_oxidation,479,470
+pw,manganese_reduction,0,0,IF fdoH (K00124) absent AND K06917 (K06917) absent THEN lacks manganese_reduction,375,374
+pw,manganese_reduction,0,0,IF K06917 (K06917) absent THEN lacks manganese_reduction,487,486
+pw,manganese_reduction,1,0,IF fdoH (K00124) absent AND K06917 (K06917) absent THEN lacks manganese_reduction,371,371
+pw,manganese_reduction,1,0,IF K06917 (K06917) absent THEN lacks manganese_reduction,483,483
+pw,manganese_reduction,2,0,IF K06917 (K06917) absent THEN lacks manganese_reduction,508,507
+pw,manganese_reduction,2,0,IF fdoH (K00124) absent THEN lacks manganese_reduction,460,459
+pw,manganese_reduction,3,0,IF fdoH (K00124) absent AND K06917 (K06917) absent THEN lacks manganese_reduction,336,336
+pw,manganese_reduction,3,0,IF K06917 (K06917) absent THEN lacks manganese_reduction,452,452
+pw,manganese_reduction,4,0,IF K06917 (K06917) absent THEN lacks manganese_reduction,515,514
+pw,manganese_reduction,4,0,IF fdoH (K00124) absent THEN lacks manganese_reduction,468,468
+pw,arsenate_reduction,0,0,IF K28467 (K28467) absent THEN lacks arsenate_reduction,664,660
+pw,arsenate_reduction,0,0,IF K28466 (K28466) absent THEN lacks arsenate_reduction,663,660
+pw,arsenate_reduction,1,0,IF K28466 (K28466) absent THEN lacks arsenate_reduction,682,677
+pw,arsenate_reduction,1,0,IF K28467 (K28467) absent THEN lacks arsenate_reduction,682,677
+pw,arsenate_reduction,2,0,IF K28466 (K28466) absent THEN lacks arsenate_reduction,665,661
+pw,arsenate_reduction,2,0,IF K28467 (K28467) absent THEN lacks arsenate_reduction,666,662
+pw,arsenate_reduction,3,0,IF K28466 (K28466) absent THEN lacks arsenate_reduction,647,644
+pw,arsenate_reduction,3,0,IF K28467 (K28467) absent THEN lacks arsenate_reduction,647,644
+pw,arsenate_reduction,4,0,IF K28466 (K28466) absent THEN lacks arsenate_reduction,667,666
+pw,arsenate_reduction,4,0,IF K28467 (K28467) absent THEN lacks arsenate_reduction,667,666
+pw,fumarate_reduction,0,0,IF K07792 (K07792) absent THEN lacks fumarate_reduction,616,606
+pw,fumarate_reduction,0,0,IF K07792 (K07792) present THEN lacks fumarate_reduction,62,54
+pw,fumarate_reduction,1,0,IF K07792 (K07792) absent THEN lacks fumarate_reduction,636,628
+pw,fumarate_reduction,1,0,IF K07792 (K07792) present THEN lacks fumarate_reduction,53,43
+pw,fumarate_reduction,2,0,IF K07792 (K07792) absent THEN lacks fumarate_reduction,630,623
+pw,fumarate_reduction,2,0,IF K07792 (K07792) present THEN lacks fumarate_reduction,41,32
+pw,fumarate_reduction,3,0,IF K07792 (K07792) absent THEN lacks fumarate_reduction,613,609
+pw,fumarate_reduction,3,0,IF K07792 (K07792) present THEN lacks fumarate_reduction,49,36
+pw,fumarate_reduction,4,0,IF K07792 (K07792) absent THEN lacks fumarate_reduction,655,648
+pw,fumarate_reduction,4,0,IF K07792 (K07792) present THEN lacks fumarate_reduction,23,11
+pw,hydrogen_oxidation,0,0,IF K01678 (K01678) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,387,382
+pw,hydrogen_oxidation,0,0,IF K01677 (K01677) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,384,379
+pw,hydrogen_oxidation,1,0,IF K01678 (K01678) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,378,376
+pw,hydrogen_oxidation,1,0,IF K01677 (K01677) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,377,375
+pw,hydrogen_oxidation,2,0,IF K01678 (K01678) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,411,411
+pw,hydrogen_oxidation,2,0,IF K01677 (K01677) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,401,401
+pw,hydrogen_oxidation,3,0,IF K01678 (K01678) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,358,355
+pw,hydrogen_oxidation,3,0,IF K01677 (K01677) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,351,348
+pw,hydrogen_oxidation,4,0,IF K01678 (K01678) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,424,423
+pw,hydrogen_oxidation,4,0,IF K01677 (K01677) absent AND K04653 (K04653) absent THEN lacks hydrogen_oxidation,412,411
+pw,fermentation,0,1,IF K00625 (K00625) present AND K01902 (K01902) absent AND K15024 (K15024) present THEN has fermentation,30,22
+pw,fermentation,0,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K15024 (K15024) present THEN has fermentation,28,22
+pw,fermentation,0,0,IF K01895 (K01895) present AND K01902 (K01902) present AND K13788 (K13788) absent THEN lacks fermentation,257,252
+pw,fermentation,0,0,IF K00625 (K00625) absent AND K01895 (K01895) present AND K13788 (K13788) absent THEN lacks fermentation,240,234
+pw,fermentation,1,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K15024 (K15024) present THEN has fermentation,16,13
+pw,fermentation,1,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K13788 (K13788) absent THEN has fermentation,52,37
+pw,fermentation,1,1,IF K00625 (K00625) present AND K01902 (K01902) absent AND K13788 (K13788) absent THEN has fermentation,48,37
+pw,fermentation,1,0,IF K00625 (K00625) absent AND K01895 (K01895) present AND K13788 (K13788) absent THEN lacks fermentation,208,199
+pw,fermentation,1,0,IF K01895 (K01895) present AND K13788 (K13788) absent AND K15024 (K15024) absent THEN lacks fermentation,226,217
+pw,fermentation,2,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K15024 (K15024) present THEN has fermentation,9,5
+pw,fermentation,2,1,IF K00625 (K00625) present AND K01902 (K01902) absent AND K15024 (K15024) present THEN has fermentation,9,5
+pw,fermentation,2,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K01902 (K01902) absent THEN has fermentation,54,30
+pw,fermentation,2,0,IF K01895 (K01895) present AND K01902 (K01902) present AND K13788 (K13788) absent THEN lacks fermentation,274,264
+pw,fermentation,2,0,IF K00239 (K00239) present AND K01895 (K01895) present AND K13788 (K13788) absent THEN lacks fermentation,274,264
+pw,fermentation,3,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K15024 (K15024) present THEN has fermentation,18,13
+pw,fermentation,3,1,IF K00625 (K00625) present AND K01902 (K01902) absent AND K13788 (K13788) absent THEN has fermentation,50,32
+pw,fermentation,3,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K01902 (K01902) absent THEN has fermentation,45,30
+pw,fermentation,3,0,IF K01895 (K01895) present AND K01902 (K01902) present AND K13788 (K13788) absent THEN lacks fermentation,291,279
+pw,fermentation,3,0,IF K00239 (K00239) present AND K01895 (K01895) present AND K13788 (K13788) absent THEN lacks fermentation,282,270
+pw,fermentation,4,1,IF K00625 (K00625) present AND K01902 (K01902) absent AND K13788 (K13788) absent THEN has fermentation,36,24
+pw,fermentation,4,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K15024 (K15024) present THEN has fermentation,11,10
+pw,fermentation,4,1,IF K00239 (K00239) absent AND K00625 (K00625) present AND K01902 (K01902) absent THEN has fermentation,32,22
+pw,fermentation,4,0,IF K01895 (K01895) present AND K01902 (K01902) present AND K13788 (K13788) absent THEN lacks fermentation,295,283
+pw,fermentation,4,0,IF K00625 (K00625) absent AND K01895 (K01895) present AND K13788 (K13788) absent THEN lacks fermentation,298,286
+pw,aerobic_chemoheterotrophy,0,0,IF ccoP (K00406) absent AND K01724 (K01724) absent AND coxB (K02275) absent THEN lacks aerobic_chemoheterotrophy,171,166
+pw,aerobic_chemoheterotrophy,0,0,IF petC (K00413) absent AND K01724 (K01724) absent AND coxB (K02275) absent THEN lacks aerobic_chemoheterotrophy,174,169
+pw,aerobic_chemoheterotrophy,1,0,IF petC (K00413) absent AND K01724 (K01724) absent AND coxB (K02275) absent THEN lacks aerobic_chemoheterotrophy,197,193
+pw,aerobic_chemoheterotrophy,1,0,IF petC (K00413) absent AND coxB (K02275) absent AND coxL (K03520) absent THEN lacks aerobic_chemoheterotrophy,220,213
+pw,aerobic_chemoheterotrophy,2,0,IF ccoP (K00406) absent AND K01724 (K01724) absent AND coxB (K02275) absent THEN lacks aerobic_chemoheterotrophy,167,167
+pw,aerobic_chemoheterotrophy,2,0,IF ccoP (K00406) absent AND K01724 (K01724) absent AND coxA (K02274) absent THEN lacks aerobic_chemoheterotrophy,173,172
+pw,aerobic_chemoheterotrophy,3,0,IF ccoP (K00406) absent AND K01724 (K01724) absent AND coxB (K02275) absent THEN lacks aerobic_chemoheterotrophy,167,163
+pw,aerobic_chemoheterotrophy,3,0,IF petC (K00413) absent AND K01724 (K01724) absent AND coxB (K02275) absent THEN lacks aerobic_chemoheterotrophy,170,166
+pw,aerobic_chemoheterotrophy,4,0,IF ccoP (K00406) absent AND K01724 (K01724) absent AND coxB (K02275) absent THEN lacks aerobic_chemoheterotrophy,149,148
+pw,aerobic_chemoheterotrophy,4,0,IF ccoP (K00406) absent AND K01724 (K01724) absent AND coxA (K02274) absent THEN lacks aerobic_chemoheterotrophy,155,153
+pw,photoautotrophy,0,0,IF K10960 (K10960) absent THEN lacks photoautotrophy,638,638
+pw,photoautotrophy,0,0,IF K02594 (K02594) absent AND pufL (K08928) absent THEN lacks photoautotrophy,553,553
+pw,photoautotrophy,1,0,IF K10960 (K10960) absent THEN lacks photoautotrophy,650,650
+pw,photoautotrophy,1,0,IF K02594 (K02594) absent AND pufL (K08928) absent THEN lacks photoautotrophy,585,585
+pw,photoautotrophy,2,0,IF K10960 (K10960) absent THEN lacks photoautotrophy,629,629
+pw,photoautotrophy,2,0,IF K02594 (K02594) absent AND pufL (K08928) absent THEN lacks photoautotrophy,573,573
+pw,photoautotrophy,3,0,IF K10960 (K10960) absent THEN lacks photoautotrophy,627,627
+pw,photoautotrophy,3,0,IF K02594 (K02594) absent AND pufL (K08928) absent THEN lacks photoautotrophy,564,564
+pw,photoautotrophy,4,0,IF K10960 (K10960) absent THEN lacks photoautotrophy,627,627
+pw,photoautotrophy,4,0,IF K02594 (K02594) absent AND pufL (K08928) absent THEN lacks photoautotrophy,569,569
+pw,photoheterotrophy,0,0,IF pufL (K08928) absent THEN lacks photoheterotrophy,650,650
+pw,photoheterotrophy,0,0,IF K08926 (K08926) absent THEN lacks photoheterotrophy,650,650
+pw,photoheterotrophy,1,0,IF pufL (K08928) absent THEN lacks photoheterotrophy,656,656
+pw,photoheterotrophy,1,0,IF K08926 (K08926) absent THEN lacks photoheterotrophy,656,656
+pw,photoheterotrophy,2,0,IF K08926 (K08926) absent THEN lacks photoheterotrophy,636,635
+pw,photoheterotrophy,2,0,IF K13992 (K13992) absent THEN lacks photoheterotrophy,652,638
+pw,photoheterotrophy,3,0,IF pufL (K08928) absent THEN lacks photoheterotrophy,638,638
+pw,photoheterotrophy,3,0,IF K08926 (K08926) absent THEN lacks photoheterotrophy,639,639
+pw,photoheterotrophy,4,0,IF pufL (K08928) absent THEN lacks photoheterotrophy,631,630
+pw,photoheterotrophy,4,0,IF K08926 (K08926) absent THEN lacks photoheterotrophy,631,630
+pw,methylotrophy,0,0,IF K00830 (K00830) absent AND K08094 (K08094) absent AND K08691 (K08691) absent THEN lacks methylotrophy,431,429
+pw,methylotrophy,0,0,IF K00830 (K00830) absent AND K08094 (K08094) absent AND xoxF (K23995) absent THEN lacks methylotrophy,461,459
+pw,methylotrophy,1,0,IF K00830 (K00830) absent AND K08094 (K08094) absent AND xoxF (K23995) absent THEN lacks methylotrophy,451,448
+pw,methylotrophy,1,0,IF K00830 (K00830) absent AND K08094 (K08094) absent AND K08691 (K08691) absent THEN lacks methylotrophy,425,423
+pw,methylotrophy,2,0,IF K00830 (K00830) absent AND K08094 (K08094) absent AND K08692 (K08692) absent THEN lacks methylotrophy,464,460
+pw,methylotrophy,2,0,IF K00830 (K00830) absent AND K08094 (K08094) absent AND mxaF (K14028) absent THEN lacks methylotrophy,461,458
+pw,methylotrophy,3,0,IF K08094 (K08094) absent AND K08692 (K08692) absent AND xoxF (K23995) absent THEN lacks methylotrophy,537,531
+pw,methylotrophy,3,0,IF K08093 (K08093) absent AND K08692 (K08692) absent AND xoxF (K23995) absent THEN lacks methylotrophy,561,553
+pw,methylotrophy,4,0,IF K00830 (K00830) absent AND K08094 (K08094) absent AND K08691 (K08691) absent THEN lacks methylotrophy,406,402
+pw,methylotrophy,4,0,IF K00830 (K00830) absent AND K08094 (K08094) absent AND xoxF (K23995) absent THEN lacks methylotrophy,450,446

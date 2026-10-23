@@ -1,0 +1,18 @@
+species,category,before,after,training_label
+Desulfococcus multivorans,donor_hydrogen_oxidation,1,0,1
+Acetobacterium fimetarium,donor_CO_oxidation,0,1,1
+Acetobacterium woodii,donor_CO_oxidation,1,0,1
+Acetohalobium arabaticum,donor_CO_oxidation,0,1,1
+Acidithiobacillus thiooxidans,donor_iron_oxidation,1,0,1
+Sulfolobus acidocaldarius,donor_iron_oxidation,1,0,1
+Ferriphaselus amnicola,donor_sulfur_oxidation,1,0,1
+Desulfotignum balticum,acceptor_nitrate,1,0,1
+Thioalbus denitrificans,acceptor_nitrate,0,1,1
+Desulfitobacterium hafniense,acceptor_sulfate,1,0,1
+Acidianus hospitalis,acceptor_sulfur,1,0,1
+Thermodesulfovibrio autotrophicus,acceptor_sulfur,0,1,0
+Acidithiobacillus thiooxidans,acceptor_iron,1,0,1
+Alicyclobacillus tolerans,acceptor_iron,0,1,1
+Methanosarcina barkeri,acceptor_iron,0,1,1
+Sulfurisphaera javensis,acceptor_iron,0,1,1
+Thermodesulfovibrio autotrophicus,acceptor_iron,0,1,1

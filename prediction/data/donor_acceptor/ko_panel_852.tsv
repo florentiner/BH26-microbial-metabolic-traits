@@ -1,0 +1,853 @@
+KO	threshold	score_type	definition	in_energy_brite	is_marker
+K00018	328.6	domain	glycerate dehydrogenase [EC:1.1.1.29]	True	False
+K00024	356.87	domain	malate dehydrogenase [EC:1.1.1.37]	True	False
+K00025	544.37	full	malate dehydrogenase [EC:1.1.1.37]	True	False
+K00026	502.03	full	malate dehydrogenase [EC:1.1.1.37]	True	False
+K00028	706.37	domain	malate dehydrogenase (decarboxylating) [EC:1.1.1.39]	True	False
+K00029	294.5	domain	malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40]	True	False
+K00031	97.37	domain	isocitrate dehydrogenase [EC:1.1.1.42]	True	False
+K00051	626.83	full	malate dehydrogenase (NADP+) [EC:1.1.1.82]	True	False
+K00058	324.53	full	D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399]	True	False
+K00093	568.33	full	methanol dehydrogenase [EC:1.1.1.244]	True	False
+K00121	620.63	full	S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1]	True	False
+K00122	265.23	domain	formate dehydrogenase [EC:1.17.1.9]	True	True
+K00123	850.07	full	formate dehydrogenase major subunit [EC:1.17.1.9]	True	True
+K00124	154.97	full	formate dehydrogenase iron-sulfur subunit	True	False
+K00125	212.83	full	formate dehydrogenase (coenzyme F420) beta subunit [EC:1.17.98.3 1.8.98.6]	True	False
+K00126	49.67	domain	formate dehydrogenase subunit delta [EC:1.17.1.9]	True	False
+K00127	69.3	domain	formate dehydrogenase subunit gamma	True	False
+K00134	408.6	full	glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12]	True	False
+K00148	404.3	full	glutathione-independent formaldehyde dehydrogenase [EC:1.2.1.46]	True	False
+K00150	278.7	domain	glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) [EC:1.2.1.59]	True	False
+K00169	300.1	domain	pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1]	True	False
+K00170	351.13	full	pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1]	True	False
+K00171	103.23	domain	pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1]	True	False
+K00172	189.5	full	pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1]	True	False
+K00174	261.57	full	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11]	True	False
+K00175	234.17	domain	2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11]	True	False
+K00176	67.97	domain	2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3]	True	False
+K00177	144.03	full	2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3]	True	False
+K00184	248.6	full	dimethyl sulfoxide reductase iron-sulfur subunit	True	False
+K00185	310.93	full	dimethyl sulfoxide reductase membrane subunit	True	False
+K00189	296.0	full	2-oxoisovalerate/pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.7 1.2.7.1]	True	False
+K00192	422.37	full	anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit alpha [EC:1.2.7.4]	True	False
+K00193	621.4	full	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit beta [EC:2.3.1.169]	True	False
+K00194	272.93	full	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245]	True	False
+K00195	99.73	full	anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit epsilon	True	False
+K00196	154.3	domain	anaerobic carbon-monoxide dehydrogenase iron sulfur subunit	True	False
+K00197	350.0	full	acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma [EC:2.1.1.245]	True	False
+K00198	463.03	full	anaerobic carbon-monoxide dehydrogenase catalytic subunit [EC:1.2.7.4]	True	True
+K00200	306.03	full	formylmethanofuran dehydrogenase subunit A [EC:1.2.7.12]	True	False
+K00201	185.1	full	formylmethanofuran dehydrogenase subunit B [EC:1.2.7.12]	True	False
+K00202	158.57	full	formylmethanofuran dehydrogenase subunit C [EC:1.2.7.12]	True	False
+K00203	119.07	domain	formylmethanofuran dehydrogenase subunit D [EC:1.2.7.12]	True	False
+K00204	172.93	domain	4Fe-4S ferredoxin	True	False
+K00205	175.07	domain	4Fe-4S ferredoxin	True	False
+K00233	955.2	full	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1 7.1.1.12]	True	False
+K00234	1162.0	full	succinate dehydrogenase (ubiquinone) flavoprotein subunit [EC:1.3.5.1]	True	False
+K00235	486.07	full	succinate dehydrogenase (ubiquinone) iron-sulfur subunit [EC:1.3.5.1]	True	False
+K00236	129.67	full	succinate dehydrogenase (ubiquinone) cytochrome b560 subunit	True	False
+K00237	98.97	full	succinate dehydrogenase (ubiquinone) membrane anchor subunit	True	False
+K00239	637.13	domain	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	True	False
+K00240	169.07	domain	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	True	False
+K00241	50.7	domain	succinate dehydrogenase cytochrome b subunit	True	False
+K00242	61.43	domain	succinate dehydrogenase membrane anchor subunit	True	False
+K00244	682.93	full	succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]	True	False
+K00245	296.43	full	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1]	True	False
+K00246	51.8	full	succinate dehydrogenase subunit C	True	False
+K00247	41.97	full	succinate dehydrogenase subunit D	True	False
+K00260	633.33	domain	glutamate dehydrogenase [EC:1.4.1.2]	True	False
+K00261	536.17	full	glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3]	True	False
+K00262	440.87	domain	glutamate dehydrogenase (NADP+) [EC:1.4.1.4]	True	False
+K00264	2592.47	full	glutamate synthase (NADH) [EC:1.4.1.14]	True	False
+K00265	1986.63	domain	glutamate synthase (NADPH) large chain [EC:1.4.1.13]	True	False
+K00266	539.23	domain	glutamate synthase (NADPH) small chain [EC:1.4.1.13]	True	False
+K00284	2290.0	full	glutamate synthase (ferredoxin) [EC:1.4.7.1]	True	False
+K00297	178.07	domain	methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54]	True	False
+K00299	90.73	domain	FMN reductase [EC:1.5.1.38]	True	False
+K00300	347.53	full	methylenetetrahydrofolate/methylenetetrahydromethanopterin dehydrogenase (NADP+) [EC:1.5.1.5 1.5.1.-]	True	False
+K00317	703.37	full	dimethylamine/trimethylamine dehydrogenase [EC:1.5.8.1 1.5.8.2]	True	False
+K00319	330.67	full	methylenetetrahydromethanopterin dehydrogenase [EC:1.5.98.1]	True	False
+K00320	221.97	full	5,10-methylenetetrahydromethanopterin reductase [EC:1.5.98.2]	True	False
+K00330	129.03	full	NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]	True	False
+K00331	247.57	domain	NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]	True	False
+K00332	180.77	domain	NADH-quinone oxidoreductase subunit C [EC:7.1.1.2]	True	False
+K00333	532.97	domain	NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]	True	False
+K00334	150.2	domain	NADH-quinone oxidoreductase subunit E [EC:7.1.1.2]	True	False
+K00335	610.97	domain	NADH-quinone oxidoreductase subunit F [EC:7.1.1.2]	True	False
+K00336	727.17	domain	NADH-quinone oxidoreductase subunit G [EC:7.1.1.2]	True	False
+K00337	405.03	full	NADH-quinone oxidoreductase subunit H [EC:7.1.1.2]	True	False
+K00338	115.8	domain	NADH-quinone oxidoreductase subunit I [EC:7.1.1.2]	True	False
+K00339	128.23	full	NADH-quinone oxidoreductase subunit J [EC:7.1.1.2]	True	False
+K00340	94.0	domain	NADH-quinone oxidoreductase subunit K [EC:7.1.1.2]	True	False
+K00341	569.5	full	NADH-quinone oxidoreductase subunit L [EC:7.1.1.2]	True	False
+K00342	561.9	full	NADH-quinone oxidoreductase subunit M [EC:7.1.1.2]	True	False
+K00343	325.77	domain	NADH-quinone oxidoreductase subunit N [EC:7.1.1.2]	True	False
+K00360	556.53	domain	assimilatory nitrate reductase electron transfer subunit [EC:1.7.99.-]	True	False
+K00361	1745.53	full	nitrite reductase [NAD(P)H] [EC:1.7.1.4]	True	False
+K00362	1283.83	domain	nitrite reductase (NADH) large subunit [EC:1.7.1.15]	True	True
+K00363	141.37	domain	nitrite reductase (NADH) small subunit [EC:1.7.1.15]	True	True
+K00366	594.6	full	ferredoxin-nitrite reductase [EC:1.7.7.1]	True	False
+K00367	1039.03	domain	ferredoxin-nitrate reductase [EC:1.7.7.2]	True	False
+K00368	194.27	full	nitrite reductase (NO-forming) [EC:1.7.2.1]	True	True
+K00370	835.47	full	nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]	True	True
+K00371	375.5	full	nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-]	True	True
+K00372	1012.5	domain	assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-]	True	True
+K00373	69.1	domain	nitrate reductase molybdenum cofactor assembly chaperone NarJ/NarW	False	True
+K00374	202.87	domain	nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-]	True	True
+K00376	367.83	full	nitrous-oxide reductase [EC:1.7.2.4]	True	True
+K00380	540.0	full	sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2]	True	False
+K00381	514.67	domain	sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2]	True	False
+K00385	254.97	full	anaerobic sulfite reductase subunit C	True	False
+K00386	66.57	domain	sulfite dehydrogenase (cytochrome) subunit B [EC:1.8.2.1]	True	False
+K00387	451.43	domain	sulfite oxidase [EC:1.8.3.1]	True	False
+K00390	155.93	full	phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10]	True	False
+K00392	601.6	full	sulfite reductase (ferredoxin) [EC:1.8.7.1]	True	False
+K00394	360.8	full	adenylylsulfate reductase, subunit A [EC:1.8.99.2]	True	True
+K00395	83.33	domain	adenylylsulfate reductase, subunit B [EC:1.8.99.2]	True	True
+K00399	741.4	full	methyl-coenzyme M reductase alpha subunit [EC:2.8.4.1]	True	True
+K00400	426.47	domain	methyl coenzyme M reductase system, component A2	True	False
+K00401	505.47	full	methyl-coenzyme M reductase beta subunit [EC:2.8.4.1]	True	True
+K00402	360.97	full	methyl-coenzyme M reductase gamma subunit [EC:2.8.4.1]	True	True
+K00404	692.93	full	cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9]	True	True
+K00405	282.47	domain	cytochrome c oxidase cbb3-type subunit II	True	True
+K00406	96.83	domain	cytochrome c oxidase cbb3-type subunit III	True	True
+K00407	21.97	domain	cytochrome c oxidase cbb3-type subunit IV	True	False
+K00410	1155.7	full	ubiquinol-cytochrome c reductase cytochrome b/c1 subunit	True	False
+K00411	79.8	domain	ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	True	False
+K00412	322.43	full	ubiquinol-cytochrome c reductase cytochrome b subunit	True	False
+K00413	52.37	domain	ubiquinol-cytochrome c reductase cytochrome c1 subunit	True	False
+K00414	766.63	full	ubiquinol-cytochrome c reductase core subunit 1	True	False
+K00415	381.63	full	ubiquinol-cytochrome c reductase core subunit 2	True	False
+K00416	34.57	full	ubiquinol-cytochrome c reductase subunit 6	True	False
+K00417	35.03	domain	ubiquinol-cytochrome c reductase subunit 7	True	False
+K00418	41.4	domain	ubiquinol-cytochrome c reductase subunit 8	True	False
+K00419	33.07	full	ubiquinol-cytochrome c reductase subunit 9	True	False
+K00420	25.33	domain	ubiquinol-cytochrome c reductase subunit 10	True	False
+K00424	32.47	domain	cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7]	True	False
+K00425	122.67	full	cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]	True	True
+K00426	59.93	full	cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]	True	True
+K00440	306.8	full	coenzyme F420 hydrogenase subunit alpha [EC:1.12.98.1]	True	False
+K00441	223.37	full	coenzyme F420 hydrogenase subunit beta [EC:1.12.98.1]	True	False
+K00442	132.87	full	coenzyme F420 hydrogenase subunit delta	True	False
+K00443	166.6	full	coenzyme F420 hydrogenase subunit gamma [EC:1.12.98.1]	True	False
+K00459	164.93	domain	nitronate monooxygenase [EC:1.13.12.16]	True	False
+K00531	152.57	full	nitrogenase delta subunit [EC:1.18.6.1]	True	False
+K00532	919.57	full	ferredoxin hydrogenase [EC:1.12.7.2]	False	True
+K00533	562.93	full	ferredoxin hydrogenase large subunit [EC:1.12.7.2]	False	True
+K00577	122.53	full	tetrahydromethanopterin S-methyltransferase subunit A [EC:7.2.1.4]	True	False
+K00578	80.83	full	tetrahydromethanopterin S-methyltransferase subunit B [EC:7.2.1.4]	True	False
+K00579	206.3	full	tetrahydromethanopterin S-methyltransferase subunit C [EC:7.2.1.4]	True	False
+K00580	274.93	full	tetrahydromethanopterin S-methyltransferase subunit D [EC:7.2.1.4]	True	False
+K00581	375.87	full	tetrahydromethanopterin S-methyltransferase subunit E [EC:7.2.1.4]	True	False
+K00582	62.43	domain	tetrahydromethanopterin S-methyltransferase subunit F [EC:7.2.1.4]	True	False
+K00583	85.33	domain	tetrahydromethanopterin S-methyltransferase subunit G [EC:7.2.1.4]	True	False
+K00584	359.4	full	tetrahydromethanopterin S-methyltransferase subunit H [EC:7.2.1.4]	True	False
+K00600	85.4	full	glycine hydroxymethyltransferase [EC:2.1.2.1]	True	False
+K00615	215.0	domain	transketolase [EC:2.2.1.1]	True	False
+K00616	131.23	domain	transaldolase [EC:2.2.1.2]	True	False
+K00625	390.17	domain	phosphate acetyltransferase [EC:2.3.1.8]	True	True
+K00626	511.2	full	acetyl-CoA C-acetyltransferase [EC:2.3.1.9]	True	False
+K00640	93.67	domain	serine O-acetyltransferase [EC:2.3.1.30]	True	False
+K00641	83.83	domain	homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46]	True	False
+K00651	262.87	domain	homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31]	True	False
+K00672	209.13	full	formylmethanofuran--tetrahydromethanopterin N-formyltransferase [EC:2.3.1.101]	True	False
+K00814	404.87	full	alanine transaminase [EC:2.6.1.2]	True	False
+K00830	411.03	full	alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase [EC:2.6.1.44 2.6.1.45 2.6.1.51]	True	False
+K00831	125.37	full	phosphoserine aminotransferase [EC:2.6.1.52]	True	False
+K00850	350.87	full	6-phosphofructokinase 1 [EC:2.7.1.11]	True	False
+K00855	220.4	full	phosphoribulokinase [EC:2.7.1.19]	True	True
+K00860	331.57	domain	adenylylsulfate kinase [EC:2.7.1.25]	True	False
+K00863	577.63	full	triose/dihydroxyacetone kinase / FAD-AMP lyase (cyclizing) [EC:2.7.1.28 2.7.1.29 4.6.1.15]	True	False
+K00918	224.93	full	ADP-dependent phosphofructokinase/glucokinase [EC:2.7.1.146 2.7.1.147]	True	False
+K00925	121.83	domain	acetate kinase [EC:2.7.2.1]	True	True
+K00926	101.67	domain	carbamate kinase [EC:2.7.2.2]	True	False
+K00927	103.07	full	phosphoglycerate kinase [EC:2.7.2.3]	True	False
+K00937	267.5	full	polyphosphate kinase [EC:2.7.4.1]	True	False
+K00955	768.3	full	bifunctional enzyme CysN/CysC [EC:2.7.7.4 2.7.1.25]	True	False
+K00956	526.47	domain	sulfate adenylyltransferase subunit 1 [EC:2.7.7.4]	True	False
+K00957	187.97	domain	sulfate adenylyltransferase subunit 2 [EC:2.7.7.4]	True	False
+K00958	275.23	domain	sulfate adenylyltransferase [EC:2.7.7.4]	True	True
+K00988	154.47	full	sulfate adenylyltransferase (ADP) / ATP adenylyltransferase [EC:2.7.7.5 2.7.7.53]	True	False
+K01006	335.87	domain	pyruvate, orthophosphate dikinase [EC:2.7.9.1]	True	False
+K01007	390.2	domain	pyruvate, water dikinase [EC:2.7.9.2]	True	False
+K01011	192.03	domain	thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2]	True	False
+K01070	129.9	full	S-formylglutathione hydrolase [EC:3.1.2.12]	True	False
+K01079	138.67	full	phosphoserine phosphatase [EC:3.1.3.3]	True	False
+K01082	183.1	domain	3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7]	True	False
+K01086	581.3	domain	fructose-1,6-bisphosphatase I / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37]	True	False
+K01100	331.07	full	sedoheptulose-bisphosphatase [EC:3.1.3.37]	True	False
+K01455	265.6	full	formamidase [EC:3.5.1.49]	True	False
+K01491	423.03	domain	methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9]	True	False
+K01499	289.0	full	methenyltetrahydromethanopterin cyclohydrolase [EC:3.5.4.27]	True	False
+K01500	197.23	domain	methenyltetrahydrofolate cyclohydrolase [EC:3.5.4.9]	True	False
+K01501	213.93	domain	nitrilase [EC:3.5.5.1]	True	False
+K01507	19.13	domain	inorganic pyrophosphatase [EC:3.6.1.1]	True	False
+K01535	586.3	domain	H+-transporting ATPase [EC:7.1.2.1]	True	False
+K01542	1794.7	full	H+/K+-exchanging ATPase subunit alpha [EC:7.2.2.19]	True	False
+K01543	385.03	domain	H+/K+-exchanging ATPase subunit beta [EC:7.2.2.19]	True	False
+K01544	1872.0	full	non-gastric H+/K+-exchanging ATPase [EC:7.2.2.19]	True	False
+K01549	61.2	full	F-type H+-transporting ATP synthase subunit e	True	False
+K01595	40.67	full	phosphoenolpyruvate carboxylase [EC:4.1.1.31]	True	False
+K01601	321.87	full	ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39]	True	True
+K01602	40.77	domain	ribulose-bisphosphate carboxylase small chain [EC:4.1.1.39]	True	False
+K01610	90.83	full	phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49]	True	False
+K01622	156.77	full	fructose 1,6-bisphosphate aldolase/phosphatase [EC:4.1.2.13 3.1.3.11]	True	False
+K01623	34.53	full	fructose-bisphosphate aldolase, class I [EC:4.1.2.13]	True	False
+K01624	85.37	full	fructose-bisphosphate aldolase, class II [EC:4.1.2.13]	True	False
+K01648	584.3	full	ATP citrate (pro-S)-lyase [EC:2.3.3.8]	True	False
+K01672	302.0	domain	carbonic anhydrase [EC:4.2.1.1]	True	False
+K01673	17.43	domain	carbonic anhydrase [EC:4.2.1.1]	True	False
+K01674	247.8	domain	carbonic anhydrase [EC:4.2.1.1]	True	False
+K01675	89.4	full	fumarate hydratase D [EC:4.2.1.2]	True	False
+K01676	349.47	full	fumarate hydratase, class I [EC:4.2.1.2]	True	False
+K01677	309.3	domain	fumarate hydratase subunit alpha [EC:4.2.1.2]	True	False
+K01678	233.67	domain	fumarate hydratase subunit beta [EC:4.2.1.2]	True	False
+K01679	620.43	full	fumarate hydratase, class II [EC:4.2.1.2]	True	False
+K01681	1371.97	full	aconitate hydratase [EC:4.2.1.3]	True	False
+K01682	660.43	full	aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99]	True	False
+K01689	255.03	domain	enolase 1/2/3 [EC:4.2.1.11]	True	False
+K01725	78.07	full	cyanate lyase [EC:4.2.1.104]	True	True
+K01738	427.2	domain	cysteine synthase [EC:2.5.1.47]	True	False
+K01739	417.07	full	cystathionine gamma-synthase [EC:2.5.1.48]	True	False
+K01743	260.07	full	carbonic anhydrase [EC:4.2.1.1]	True	False
+K01774	196.73	full	fumarate hydratase E [EC:4.2.1.2]	True	False
+K01783	248.0	full	ribulose-phosphate 3-epimerase [EC:5.1.3.1]	True	False
+K01803	27.97	full	triosephosphate isomerase (TIM) [EC:5.3.1.1]	True	False
+K01807	52.23	full	ribose 5-phosphate isomerase A [EC:5.3.1.6]	True	False
+K01808	171.5	domain	ribose 5-phosphate isomerase B [EC:5.3.1.6]	True	False
+K01834	148.97	full	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	True	False
+K01847	632.0	full	methylmalonyl-CoA mutase [EC:5.4.99.2]	True	False
+K01848	834.27	domain	methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2]	True	False
+K01849	179.67	domain	methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2]	True	False
+K01895	768.33	domain	acetyl-CoA synthetase [EC:6.2.1.1]	True	False
+K01902	398.43	domain	succinyl-CoA synthetase alpha subunit [EC:6.2.1.5]	True	False
+K01903	497.63	domain	succinyl-CoA synthetase beta subunit [EC:6.2.1.5]	True	False
+K01915	48.07	domain	glutamine synthetase [EC:6.3.1.2]	True	False
+K01938	907.83	domain	formate--tetrahydrofolate ligase [EC:6.3.4.3]	True	False
+K01948	2286.67	full	carbamoyl-phosphate synthase (ammonia) [EC:6.3.4.16]	True	False
+K01958	825.57	full	pyruvate carboxylase [EC:6.4.1.1]	True	False
+K01959	759.73	full	pyruvate carboxylase subunit A [EC:6.4.1.1]	True	False
+K01960	749.97	domain	pyruvate carboxylase subunit B [EC:6.4.1.1]	True	False
+K01961	740.7	domain	acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14]	True	False
+K01962	407.87	domain	acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15]	True	False
+K01963	379.7	domain	acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15]	True	False
+K01964	983.37	full	acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3]	True	False
+K02045	434.93	domain	sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3]	True	False
+K02046	292.17	domain	sulfate/thiosulfate transport system permease protein	True	False
+K02047	291.7	full	sulfate/thiosulfate transport system permease protein	True	False
+K02048	509.63	domain	sulfate/thiosulfate transport system substrate-binding protein	True	False
+K02092	248.93	domain	allophycocyanin alpha subunit	True	False
+K02093	219.63	full	allophycocyanin beta subunit	True	False
+K02094	117.1	full	phycobilisome core linker protein	True	False
+K02095	235.0	domain	allophycocyanin-B	True	False
+K02096	790.07	full	phycobilisome core-membrane linker protein	True	False
+K02097	245.7	domain	phycobilisome core component	True	False
+K02107	45.1	domain	V/A-type H+/Na+-transporting ATPase subunit G/H	True	False
+K02108	157.5	full	F-type H+-transporting ATPase subunit a	True	False
+K02109	41.83	domain	F-type H+-transporting ATPase subunit b	True	False
+K02110	67.87	domain	F-type H+-transporting ATPase subunit c	True	False
+K02111	426.53	domain	F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1]	True	False
+K02112	464.47	domain	F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1]	True	False
+K02113	45.33	domain	F-type H+-transporting ATPase subunit delta	True	False
+K02114	93.57	domain	F-type H+-transporting ATPase subunit epsilon	True	False
+K02115	244.47	full	F-type H+-transporting ATPase subunit gamma	True	False
+K02117	806.93	domain	V/A-type H+/Na+-transporting ATPase subunit A [EC:7.1.2.2 7.2.2.1]	True	False
+K02118	698.9	domain	V/A-type H+/Na+-transporting ATPase subunit B	True	False
+K02119	116.6	full	V/A-type H+/Na+-transporting ATPase subunit C	True	False
+K02120	162.47	domain	V/A-type H+/Na+-transporting ATPase subunit D	True	False
+K02121	95.9	domain	V/A-type H+/Na+-transporting ATPase subunit E	True	False
+K02122	62.63	domain	V/A-type H+/Na+-transporting ATPase subunit F	True	False
+K02123	316.0	full	V/A-type H+/Na+-transporting ATPase subunit I	True	False
+K02124	79.3	domain	V/A-type H+/Na+-transporting ATPase subunit K	True	False
+K02125	20.97	domain	F-type H+-transporting ATPase subunit 8	True	False
+K02126	269.73	full	F-type H+-transporting ATPase subunit a	True	False
+K02127	81.93	full	F-type H+-transporting ATPase subunit b	True	False
+K02128	95.1	full	F-type H+-transporting ATPase subunit c	True	False
+K02129	55.33	domain	F-type H+-transporting ATPase subunit e	True	False
+K02130	124.67	domain	F-type H+-transporting ATPase subunit f	True	False
+K02131	52.0	domain	F-type H+-transporting ATPase subunit 6	True	False
+K02132	984.43	full	F-type H+-transporting ATPase subunit alpha	True	False
+K02133	1028.9	full	F-type H+-transporting ATPase subunit beta [EC:7.1.2.2]	True	False
+K02134	116.53	full	F-type H+-transporting ATPase subunit delta	True	False
+K02135	34.43	full	F-type H+-transporting ATPase subunit epsilon	True	False
+K02136	317.1	full	F-type H+-transporting ATPase subunit gamma	True	False
+K02137	185.7	full	F-type H+-transporting ATPase subunit O	True	False
+K02138	37.67	full	F-type H+-transporting ATPase subunit d	True	False
+K02139	50.87	domain	F-type H+-transporting ATPase subunit f	True	False
+K02140	34.2	domain	F-type H+-transporting ATPase subunit g	True	False
+K02141	65.13	full	F-type H+-transporting ATPase subunit h	True	False
+K02142	51.9	full	F-type H+-transporting ATPase subunit j	True	False
+K02143	40.87	full	F-type H+-transporting ATPase subunit k	True	False
+K02144	110.67	full	V-type H+-transporting ATPase subunit H	True	False
+K02145	894.73	full	V-type H+-transporting ATPase subunit A [EC:7.1.2.2]	True	False
+K02146	167.57	full	V-type H+-transporting ATPase subunit d	True	False
+K02147	807.9	full	V-type H+-transporting ATPase subunit B	True	False
+K02148	59.13	full	V-type H+-transporting ATPase subunit C	True	False
+K02149	181.97	full	V-type H+-transporting ATPase subunit D	True	False
+K02150	92.0	full	V-type H+-transporting ATPase subunit E	True	False
+K02151	65.63	full	V-type H+-transporting ATPase subunit F	True	False
+K02152	38.63	full	V-type H+-transporting ATPase subunit G	True	False
+K02153	29.67	full	V-type H+-transporting ATPase subunit e	True	False
+K02154	329.77	full	V-type H+-transporting ATPase subunit a	True	False
+K02155	130.47	full	V-type H+-transporting ATPase 16kDa proteolipid subunit	True	False
+K02160	94.37	domain	acetyl-CoA carboxylase biotin carboxyl carrier protein	True	False
+K02203	146.8	full	phosphoserine / homoserine phosphotransferase [EC:3.1.3.3 2.7.1.39]	True	False
+K02256	900.6	domain	cytochrome c oxidase subunit 1 [EC:7.1.1.9]	True	False
+K02257	124.37	full	heme o synthase [EC:2.5.1.141]	True	False
+K02258	72.93	full	cytochrome c oxidase assembly protein subunit 11	True	False
+K02259	65.43	full	heme a synthase [EC:1.17.99.9]	True	False
+K02260	42.9	full	cytochrome c oxidase assembly protein subunit 17	True	False
+K02261	334.47	full	cytochrome c oxidase subunit 2	True	False
+K02262	416.87	full	cytochrome c oxidase subunit 3	True	False
+K02263	62.83	full	cytochrome c oxidase subunit 4	True	False
+K02264	97.5	full	cytochrome c oxidase subunit 5a	True	False
+K02265	29.4	domain	cytochrome c oxidase subunit 5b	True	False
+K02266	32.97	domain	cytochrome c oxidase subunit 6a	True	False
+K02267	45.97	domain	cytochrome c oxidase subunit 6b	True	False
+K02268	45.63	full	cytochrome c oxidase subunit 6c	True	False
+K02269	35.9	full	cytochrome c oxidase subunit 7	True	False
+K02270	17.63	domain	cytochrome c oxidase subunit 7a	True	False
+K02271	94.97	full	cytochrome c oxidase subunit 7b	True	False
+K02272	28.63	domain	cytochrome c oxidase subunit 7c	True	False
+K02273	22.1	full	cytochrome c oxidase subunit 8	True	False
+K02274	747.13	domain	cytochrome c oxidase subunit I [EC:7.1.1.9]	True	True
+K02275	212.9	full	cytochrome c oxidase subunit II [EC:7.1.1.9]	True	True
+K02276	181.43	domain	cytochrome c oxidase subunit III [EC:7.1.1.9]	True	True
+K02277	49.17	domain	cytochrome c oxidase subunit IV [EC:7.1.1.9]	True	False
+K02284	217.17	full	phycocyanin alpha chain	True	False
+K02285	261.9	full	phycocyanin beta chain	True	False
+K02286	359.53	domain	phycocyanin-associated rod linker protein	True	False
+K02287	94.6	domain	phycocyanin-associated, rod	True	False
+K02288	264.33	full	phycocyanobilin lyase subunit alpha [EC:4.4.1.32]	True	False
+K02289	136.57	full	phycocyanobilin lyase subunit beta [EC:4.4.1.32]	True	False
+K02290	204.37	domain	phycobilisome rod-core linker protein	True	False
+K02297	318.53	full	cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3]	True	False
+K02298	976.1	full	cytochrome o ubiquinol oxidase subunit I [EC:7.1.1.3]	True	False
+K02299	269.53	full	cytochrome o ubiquinol oxidase subunit III	True	False
+K02300	81.87	full	cytochrome o ubiquinol oxidase subunit IV	True	False
+K02305	88.7	domain	nitric oxide reductase subunit C	True	True
+K02439	94.13	domain	thiosulfate sulfurtransferase [EC:2.8.1.1]	True	False
+K02446	487.97	full	fructose-1,6-bisphosphatase II [EC:3.1.3.11]	True	False
+K02567	750.7	full	nitrate reductase (cytochrome) [EC:1.9.6.1]	True	True
+K02568	59.57	full	nitrate reductase (cytochrome), electron transfer subunit	True	True
+K02575	147.47	full	MFS transporter, NNP family, nitrate/nitrite transporter	True	False
+K02586	558.1	domain	nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1]	True	False
+K02588	365.53	full	nitrogenase iron protein NifH	True	False
+K02591	424.9	domain	nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1]	True	False
+K02628	348.53	full	phycoerythrocyanin alpha chain	True	False
+K02629	339.77	full	phycoerythrocyanin beta chain	True	False
+K02630	456.83	domain	phycoerythrocyanin-associated rod linker protein	True	False
+K02631	419.17	full	phycoerythrocyanin alpha-cysteine-84 phycoviolobilin lyase/isomerase subunit PecE [EC:4.4.1.31]	True	False
+K02632	221.23	full	phycoerythrocyanin alpha-cysteine-84 phycoviolobilin lyase/isomerase subunit PecF [EC:4.4.1.31]	True	False
+K02634	288.47	full	apocytochrome f	True	False
+K02635	356.37	full	cytochrome b6	True	False
+K02636	115.83	full	cytochrome b6-f complex iron-sulfur subunit [EC:7.1.1.6]	True	False
+K02637	167.8	full	cytochrome b6-f complex subunit 4	True	False
+K02638	86.27	domain	plastocyanin	True	False
+K02639	114.6	domain	ferredoxin	True	False
+K02640	58.17	full	cytochrome b6-f complex subunit 5	True	False
+K02641	302.07	full	ferredoxin--NADP+ reductase [EC:1.18.1.2]	True	False
+K02642	28.6	full	cytochrome b6-f complex subunit 6	True	False
+K02643	39.73	full	cytochrome b6-f complex subunit 7	True	False
+K02689	895.4	full	photosystem I P700 chlorophyll a apoprotein A1 [EC:1.97.1.12]	True	False
+K02690	780.33	domain	photosystem I P700 chlorophyll a apoprotein A2 [EC:1.97.1.12]	True	False
+K02691	153.17	full	photosystem I iron-sulfur center [EC:1.97.1.12]	True	False
+K02692	155.67	full	photosystem I subunit II	True	False
+K02693	62.7	full	photosystem I subunit IV	True	False
+K02694	109.63	domain	photosystem I subunit III	True	False
+K02695	126.3	full	photosystem I subunit VI	True	False
+K02696	33.1	full	photosystem I subunit VIII	True	False
+K02697	47.67	full	photosystem I subunit IX	True	False
+K02698	42.97	full	photosystem I subunit X	True	False
+K02699	191.53	domain	photosystem I subunit XI	True	False
+K02700	36.9	full	photosystem I subunit XII	True	False
+K02701	131.53	full	photosystem I subunit PsaN	True	False
+K02702	49.3	domain	photosystem I 4.8kDa protein	True	False
+K02703	336.23	full	photosystem II P680 reaction center D1 protein [EC:1.10.3.9]	True	False
+K02704	350.2	full	photosystem II CP47 chlorophyll apoprotein	True	False
+K02705	342.47	full	photosystem II CP43 chlorophyll apoprotein	True	False
+K02706	407.0	full	photosystem II P680 reaction center D2 protein [EC:1.10.3.9]	True	False
+K02707	129.53	full	photosystem II cytochrome b559 subunit alpha	True	False
+K02708	70.17	domain	photosystem II cytochrome b559 subunit beta	True	False
+K02709	113.53	full	photosystem II PsbH protein	True	False
+K02710	54.5	full	photosystem II PsbI protein	True	False
+K02711	47.4	full	photosystem II PsbJ protein	True	False
+K02712	48.4	domain	photosystem II PsbK protein	True	False
+K02713	65.53	full	photosystem II PsbL protein	True	False
+K02714	34.03	full	photosystem II PsbM protein	True	False
+K02716	103.13	full	photosystem II oxygen-evolving enhancer protein 1	True	False
+K02717	76.0	full	photosystem II oxygen-evolving enhancer protein 2	True	False
+K02718	35.47	full	photosystem II PsbT protein	True	False
+K02719	104.27	full	photosystem II PsbU protein	True	False
+K02720	113.87	full	photosystem II cytochrome c550	True	False
+K02721	46.3	full	photosystem II PsbW protein	True	False
+K02722	48.83	full	photosystem II PsbX protein	True	False
+K02723	24.57	domain	photosystem II PsbY protein	True	False
+K02724	48.7	full	photosystem II PsbZ protein	True	False
+K02826	375.2	full	cytochrome aa3-600 menaquinol oxidase subunit II [EC:7.1.1.5]	True	False
+K02827	988.23	full	cytochrome aa3-600 menaquinol oxidase subunit I [EC:7.1.1.5]	True	False
+K02828	279.9	domain	cytochrome aa3-600 menaquinol oxidase subunit III [EC:7.1.1.5]	True	False
+K02829	97.97	full	cytochrome aa3-600 menaquinol oxidase subunit IV [EC:7.1.1.5]	True	False
+K03119	330.23	full	taurine dioxygenase [EC:1.14.11.17]	True	False
+K03385	273.37	full	nitrite reductase (cytochrome c-552) [EC:1.7.2.2]	True	True
+K03388	595.3	full	heterodisulfide reductase subunit A2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6]	True	True
+K03389	330.27	domain	heterodisulfide reductase subunit B2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6]	True	True
+K03390	126.23	full	heterodisulfide reductase subunit C2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6]	True	True
+K03396	119.77	full	S-(hydroxymethyl)glutathione synthase [EC:4.4.1.22]	True	False
+K03421	275.67	full	methyl-coenzyme M reductase subunit C	True	False
+K03422	82.17	full	methyl-coenzyme M reductase subunit D	True	False
+K03518	245.33	domain	aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3]	False	True
+K03519	270.1	domain	aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3]	False	True
+K03520	851.77	full	aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3]	False	True
+K03532	387.6	full	trimethylamine-N-oxide reductase (cytochrome c), cytochrome c-type subunit TorC	True	False
+K03533	139.77	full	TorA specific chaperone	True	False
+K03541	72.53	full	photosystem II 10kDa protein	True	False
+K03542	97.8	full	photosystem II 22kDa protein	True	False
+K03612	119.17	domain	H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit G	False	True
+K03613	241.03	full	H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E	False	True
+K03614	291.27	full	H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2]	False	True
+K03615	274.3	domain	H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.1.1.11 7.2.1.2]	False	True
+K03616	75.6	domain	H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2]	False	True
+K03617	252.47	full	H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A	False	True
+K03661	118.43	domain	V-type H+-transporting ATPase 21kDa proteolipid subunit	True	False
+K03662	81.5	domain	V-type H+-transporting ATPase S1 subunit	True	False
+K03689	37.5	domain	cytochrome b6-f complex subunit 8	True	False
+K03737	429.4	domain	pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.8.1]	True	False
+K03841	205.4	full	fructose-1,6-bisphosphatase I [EC:3.1.3.11]	True	False
+K03878	445.27	full	NADH-ubiquinone oxidoreductase chain 1 [EC:7.1.1.2]	True	False
+K03879	342.3	domain	NADH-ubiquinone oxidoreductase chain 2 [EC:7.1.1.2]	True	False
+K03880	183.5	full	NADH-ubiquinone oxidoreductase chain 3 [EC:7.1.1.2]	True	False
+K03881	520.2	domain	NADH-ubiquinone oxidoreductase chain 4 [EC:7.1.1.2]	True	False
+K03882	102.77	domain	NADH-ubiquinone oxidoreductase chain 4L [EC:7.1.1.2]	True	False
+K03883	648.23	domain	NADH-ubiquinone oxidoreductase chain 5 [EC:7.1.1.2]	True	False
+K03884	242.5	full	NADH-ubiquinone oxidoreductase chain 6 [EC:7.1.1.2]	True	False
+K03885	201.8	domain	NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9]	True	False
+K03886	143.03	domain	quinol---cytochrome c reductase iron-sulfur subunit, bacillus type [EC:7.1.1.8]	True	False
+K03887	277.07	domain	quinol---cytochrome c reductase cytochrome b subunit, bacillus type [EC:7.1.1.8]	True	False
+K03888	175.9	domain	quinol---cytochrome c reductase cytochrome c subunit, bacillus type [EC:7.1.1.8]	True	False
+K03889	184.57	full	quinol---cytochrome-c reductase cytochrome c subunit [EC:7.1.1.8]	True	False
+K03890	179.4	full	quinol---cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8]	True	False
+K03891	485.4	full	quinol---cytochrome-c reductase cytochrome b subunit [EC:7.1.1.8]	True	False
+K03934	1093.53	full	NADH dehydrogenase (ubiquinone) Fe-S protein 1 [EC:7.1.1.2]	True	False
+K03935	852.77	full	NADH dehydrogenase (ubiquinone) Fe-S protein 2 [EC:7.1.1.2]	True	False
+K03936	336.5	full	NADH dehydrogenase (ubiquinone) Fe-S protein 3 [EC:7.1.1.2]	True	False
+K03937	110.77	domain	NADH dehydrogenase (ubiquinone) Fe-S protein 4	True	False
+K03938	36.5	domain	NADH dehydrogenase (ubiquinone) Fe-S protein 5	True	False
+K03939	35.9	full	NADH dehydrogenase (ubiquinone) Fe-S protein 6	True	False
+K03940	380.97	full	NADH dehydrogenase (ubiquinone) Fe-S protein 7 [EC:7.1.1.2]	True	False
+K03941	361.97	full	NADH dehydrogenase (ubiquinone) Fe-S protein 8 [EC:7.1.1.2]	True	False
+K03942	889.0	full	NADH dehydrogenase (ubiquinone) flavoprotein 1 [EC:7.1.1.2]	True	False
+K03943	331.67	full	NADH dehydrogenase (ubiquinone) flavoprotein 2 [EC:7.1.1.2]	True	False
+K03944	42.07	domain	NADH dehydrogenase (ubiquinone) flavoprotein 3	True	False
+K03945	28.77	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 1	True	False
+K03946	72.63	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 2	True	False
+K03947	45.6	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 3	True	False
+K03948	67.5	domain	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 4	True	False
+K03949	64.0	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 5	True	False
+K03950	58.8	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 6	True	False
+K03951	65.07	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 7	True	False
+K03952	62.03	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 8	True	False
+K03953	245.33	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 9	True	False
+K03954	140.37	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 10	True	False
+K03955	103.87	full	NADH dehydrogenase (ubiquinone) 1 alpha/beta subcomplex 1, acyl-carrier protein	True	False
+K03956	67.7	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 11	True	False
+K03957	40.17	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 1	True	False
+K03958	43.87	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 2	True	False
+K03959	33.73	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 3	True	False
+K03960	52.03	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 4	True	False
+K03961	105.13	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 5	True	False
+K03962	48.87	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 6	True	False
+K03963	41.17	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 7	True	False
+K03964	69.07	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 8	True	False
+K03965	48.43	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 9	True	False
+K03966	27.6	domain	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 10	True	False
+K03967	68.6	full	NADH dehydrogenase (ubiquinone) 1 subunit C1	True	False
+K03968	43.57	full	NADH dehydrogenase (ubiquinone) 1 subunit C2	True	False
+K03972	88.63	domain	thiosulfate sulfurtransferase [EC:2.8.1.1]	True	False
+K04041	477.13	full	fructose-1,6-bisphosphatase III [EC:3.1.3.11]	True	False
+K04091	331.5	full	alkanesulfonate monooxygenase [EC:1.14.14.5 1.14.14.34]	True	False
+K04480	578.57	full	methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase [EC:2.1.1.90]	True	False
+K04561	129.37	full	nitric oxide reductase subunit B [EC:1.7.2.5]	True	True
+K05298	653.23	full	glyceraldehyde-3-phosphate dehydrogenase (NADP+) (phosphorylating) [EC:1.2.1.13]	True	False
+K05299	1242.53	domain	formate dehydrogenase (NADP+) alpha subunit [EC:1.17.1.10]	True	False
+K05301	441.43	domain	sulfite dehydrogenase (cytochrome) subunit A [EC:1.8.2.1]	True	False
+K05376	203.2	full	phycoerythrin alpha chain	True	False
+K05377	244.9	domain	phycoerythrin beta chain	True	False
+K05378	300.17	domain	phycoerythrin-associated linker protein	True	False
+K05379	371.97	domain	phycoerythrin-associated linker protein	True	False
+K05380	345.7	domain	phycoerythrin-associated linker protein	True	False
+K05381	115.8	full	phycoerythrin-associated linker protein	True	False
+K05382	155.03	full	phycoerythrin-associated linker protein	True	False
+K05383	159.6	full	CpeT protein	True	False
+K05384	223.4	full	bilin biosynthesis protein	True	False
+K05385	290.3	full	bilin biosynthesis protein	True	False
+K05386	144.47	domain	bilin biosynthesis protein	True	False
+K05572	477.3	full	NAD(P)H-quinone oxidoreductase subunit 1 [EC:7.1.1.2]	True	False
+K05573	467.67	full	NAD(P)H-quinone oxidoreductase subunit 2 [EC:7.1.1.2]	True	False
+K05574	173.5	full	NAD(P)H-quinone oxidoreductase subunit 3 [EC:7.1.1.2]	True	False
+K05575	567.47	domain	NAD(P)H-quinone oxidoreductase subunit 4 [EC:7.1.1.2]	True	False
+K05576	139.3	domain	NAD(P)H-quinone oxidoreductase subunit 4L [EC:7.1.1.2]	True	False
+K05577	705.2	domain	NAD(P)H-quinone oxidoreductase subunit 5 [EC:7.1.1.2]	True	False
+K05578	180.83	full	NAD(P)H-quinone oxidoreductase subunit 6 [EC:7.1.1.2]	True	False
+K05579	467.0	full	NAD(P)H-quinone oxidoreductase subunit H [EC:7.1.1.2]	True	False
+K05580	153.07	domain	NAD(P)H-quinone oxidoreductase subunit I [EC:7.1.1.2]	True	False
+K05581	211.2	full	NAD(P)H-quinone oxidoreductase subunit J [EC:7.1.1.2]	True	False
+K05582	255.53	full	NAD(P)H-quinone oxidoreductase subunit K [EC:7.1.1.2]	True	False
+K05583	67.93	domain	NAD(P)H-quinone oxidoreductase subunit L [EC:7.1.1.2]	True	False
+K05584	169.7	full	NAD(P)H-quinone oxidoreductase subunit M [EC:7.1.1.2]	True	False
+K05585	141.47	full	NAD(P)H-quinone oxidoreductase subunit N [EC:7.1.1.2]	True	False
+K05586	207.47	domain	bidirectional [NiFe] hydrogenase diaphorase subunit [EC:7.1.1.2]	True	False
+K05587	816.87	full	bidirectional [NiFe] hydrogenase diaphorase subunit [EC:7.1.1.2]	True	False
+K05588	317.77	full	bidirectional [NiFe] hydrogenase diaphorase subunit [EC:7.1.1.2]	True	False
+K05601	112.57	full	hydroxylamine reductase [EC:1.7.99.1]	True	False
+K05606	74.0	domain	methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1]	True	False
+K05884	357.8	full	L-2-hydroxycarboxylate dehydrogenase (NAD+) [EC:1.1.1.337]	True	False
+K05907	482.7	full	adenylyl-sulfate reductase (glutathione) [EC:1.8.4.9]	True	False
+K05908	233.2	full	thiosulfate dehydrogenase (quinone) [EC:1.8.5.2]	True	False
+K05922	777.77	full	quinone-reactive Ni/Fe-hydrogenase large subunit [EC:1.12.5.1]	False	True
+K05979	57.83	full	2-phosphosulfolactate phosphatase [EC:3.1.3.71]	True	False
+K06019	192.53	domain	pyrophosphatase PpaX [EC:3.6.1.1]	True	False
+K06034	167.7	domain	sulfopyruvate decarboxylase subunit alpha [EC:4.1.1.79]	True	False
+K06281	628.93	full	hydrogenase large subunit [EC:1.12.99.6]	False	True
+K06881	199.47	domain	bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3]	True	False
+K06914	189.83	full	tyramine---L-glutamate ligase [EC:6.3.4.24]	True	False
+K07072	192.03	domain	(4-(4-[2-(gamma-L-glutamylamino)ethyl]phenoxymethyl)furan-2-yl)methanamine synthase [EC:2.5.1.131]	True	False
+K07144	100.63	full	5-(aminomethyl)-3-furanmethanol phosphate kinase [EC:2.7.4.31]	True	False
+K07306	582.87	full	anaerobic dimethyl sulfoxide reductase subunit A [EC:1.8.5.3]	True	False
+K07307	182.8	domain	anaerobic dimethyl sulfoxide reductase subunit B	True	False
+K07308	209.47	full	anaerobic dimethyl sulfoxide reductase subunit C	True	False
+K07811	1313.53	full	trimethylamine-N-oxide reductase (cytochrome c) [EC:1.7.2.3]	True	False
+K07812	1171.57	domain	trimethylamine-N-oxide reductase (cytochrome c) [EC:1.7.2.3]	True	False
+K07821	505.57	full	trimethylamine-N-oxide reductase (cytochrome c), cytochrome c-type subunit TorY	True	False
+K08093	180.17	domain	3-hexulose-6-phosphate synthase [EC:4.1.2.43]	True	False
+K08094	97.3	full	6-phospho-3-hexuloisomerase [EC:5.3.1.27]	True	False
+K08097	113.27	full	phosphosulfolactate synthase [EC:4.4.1.19]	True	False
+K08264	390.93	full	heterodisulfide reductase subunit D [EC:1.8.98.1]	True	False
+K08265	205.3	full	heterodisulfide reductase subunit E [EC:1.8.98.1]	True	False
+K08352	578.13	domain	thiosulfate reductase / polysulfide reductase chain A [EC:1.8.5.5]	True	True
+K08353	306.13	full	thiosulfate reductase electron transport protein	True	False
+K08354	232.2	full	thiosulfate reductase cytochrome b subunit	True	False
+K08357	709.13	domain	tetrathionate reductase subunit A	True	False
+K08358	239.77	full	tetrathionate reductase subunit B	True	False
+K08359	176.17	full	tetrathionate reductase subunit C	True	False
+K08685	278.43	full	quinohemoprotein amine dehydrogenase [EC:1.4.9.1]	True	False
+K08691	387.8	domain	malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25]	True	False
+K08692	461.57	full	malate-CoA ligase subunit alpha [EC:6.2.1.9]	True	False
+K08738	61.6	domain	cytochrome c	True	False
+K08901	34.47	full	photosystem II oxygen-evolving enhancer protein 3	True	False
+K08902	67.97	full	photosystem II Psb27 protein	True	False
+K08903	111.53	full	photosystem II 13kDa protein	True	False
+K08904	106.8	full	photosystem II Psb28-2 protein	True	False
+K08905	122.73	full	photosystem I subunit V	True	False
+K08906	69.97	domain	cytochrome c6	True	False
+K08907	198.03	domain	light-harvesting complex I chlorophyll a/b binding protein 1	True	False
+K08908	331.23	domain	light-harvesting complex I chlorophyll a/b binding protein 2	True	False
+K08909	300.07	domain	light-harvesting complex I chlorophyll a/b binding protein 3	True	False
+K08910	322.53	full	light-harvesting complex I chlorophyll a/b binding protein 4	True	False
+K08911	304.17	domain	light-harvesting complex I chlorophyll a/b binding protein 5	True	False
+K08912	605.73	full	light-harvesting complex II chlorophyll a/b binding protein 1	True	False
+K08913	490.47	domain	light-harvesting complex II chlorophyll a/b binding protein 2	True	False
+K08914	473.0	domain	light-harvesting complex II chlorophyll a/b binding protein 3	True	False
+K08915	175.1	domain	light-harvesting complex II chlorophyll a/b binding protein 4	True	False
+K08916	315.87	domain	light-harvesting complex II chlorophyll a/b binding protein 5	True	False
+K08917	284.07	full	light-harvesting complex II chlorophyll a/b binding protein 6	True	False
+K09709	209.13	full	3-methylfumaryl-CoA hydratase [EC:4.2.1.153]	True	False
+K09733	166.83	full	(5-formylfuran-3-yl)methyl phosphate synthase [EC:4.2.3.153]	True	False
+K10150	449.13	full	cysteine synthase / O-phosphoserine sulfhydrylase / cystathionine beta-synthase [EC:2.5.1.47 2.5.1.65 4.2.1.22]	True	False
+K10534	630.47	domain	nitrate reductase (NAD(P)H) [EC:1.7.1.1 1.7.1.2 1.7.1.3]	True	False
+K10535	285.9	full	hydroxylamine dehydrogenase [EC:1.7.2.6]	True	True
+K10713	157.87	domain	5,6,7,8-tetrahydromethanopterin hydro-lyase [EC:4.2.1.147]	True	False
+K10714	312.97	full	methylene-tetrahydromethanopterin dehydrogenase [EC:1.5.1.-]	True	False
+K10764	532.93	full	O-succinylhomoserine sulfhydrylase [EC:2.5.1.-]	True	False
+K10831	364.07	domain	taurine transport system ATP-binding protein [EC:7.6.2.7]	True	False
+K10944	353.03	full	methane monooxygenase subunit A [EC:1.14.18.3]	True	True
+K10945	125.73	full	methane/ammonia monooxygenase subunit B	True	True
+K10946	130.33	full	methane/ammonia monooxygenase subunit C	True	True
+K10977	552.93	full	methanogen homocitrate synthase [EC:2.3.3.14 2.3.3.-]	True	False
+K10978	474.83	full	methanogen homoisocitrate dehydrogenase [EC:1.1.1.87 1.1.1.-]	True	False
+K11180	314.67	full	dissimilatory sulfite reductase alpha subunit [EC:1.8.1.22]	True	True
+K11181	342.03	full	dissimilatory sulfite reductase beta subunit [EC:1.8.1.22]	True	True
+K11212	145.57	full	LPPG:FO 2-phospho-L-lactate transferase [EC:2.7.8.28]	True	False
+K11260	77.13	domain	4Fe-4S ferredoxin	True	False
+K11261	46.13	domain	formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12]	True	False
+K11351	76.97	full	NADH dehydrogenase (ubiquinone) 1 beta subcomplex subunit 11	True	False
+K11352	72.87	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 12	True	False
+K11353	46.1	full	NADH dehydrogenase (ubiquinone) 1 alpha subcomplex subunit 13	True	False
+K11529	134.77	full	glycerate 2-kinase [EC:2.7.1.165]	True	False
+K11532	480.5	full	fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37]	True	False
+K11645	296.8	full	fructose-bisphosphate aldolase, class I [EC:4.1.2.13]	True	False
+K11725	238.0	full	phospholysine phosphohistidine inorganic pyrophosphate phosphatase [EC:3.6.1.1 3.1.3.-]	True	False
+K11726	505.03	full	nucleosome-remodeling factor 38 kDa subunit [EC:3.6.1.1]	True	False
+K11779	519.47	full	FO synthase [EC:2.5.1.147 4.3.1.32]	True	False
+K11780	412.33	domain	7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase [EC:4.3.1.32]	True	False
+K11781	477.83	domain	5-amino-6-(D-ribitylamino)uracil---L-tyrosine 4-hydroxyphenyl transferase [EC:2.5.1.147]	True	False
+K12234	157.03	full	coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase [EC:6.3.2.31 6.3.2.34]	True	False
+K13034	595.33	domain	L-3-cyanoalanine synthase/ cysteine synthase [EC:2.5.1.47 4.4.1.9]	True	False
+K13039	216.9	domain	sulfopyruvate decarboxylase subunit beta [EC:4.1.1.79]	True	False
+K13378	592.03	full	NADH-quinone oxidoreductase subunit C/D [EC:7.1.1.2]	True	False
+K13380	1307.13	full	NADH-quinone oxidoreductase subunit B/C/D [EC:7.1.1.2]	True	False
+K13788	566.03	full	phosphate acetyltransferase [EC:2.3.1.8]	True	False
+K13810	951.03	full	transaldolase / glucose-6-phosphate isomerase [EC:2.2.1.2 5.3.1.9]	True	False
+K13811	457.93	full	3'-phosphoadenosine 5'-phosphosulfate synthase [EC:2.7.7.4 2.7.1.25]	True	False
+K13812	331.7	full	bifunctional enzyme Fae/Hps [EC:4.2.1.147 4.1.2.43]	True	False
+K13831	312.73	full	3-hexulose-6-phosphate synthase / 6-phospho-3-hexuloisomerase [EC:4.1.2.43 5.3.1.27]	True	False
+K13942	573.07	full	5,10-methenyltetrahydromethanopterin hydrogenase [EC:1.12.98.2]	True	False
+K14028	1058.1	full	methanol dehydrogenase (cytochrome c) subunit 1 [EC:1.1.2.7]	True	True
+K14029	131.1	full	methanol dehydrogenase (cytochrome c) subunit 2 [EC:1.1.2.7]	True	True
+K14067	613.63	domain	malate-CoA ligase subunit beta [EC:6.2.1.9]	True	False
+K14080	382.77	full	[methyl-Co(III) methanol/glycine betaine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.246 2.1.1.377]	True	False
+K14081	300.63	full	methanol corrinoid protein	True	False
+K14082	427.43	full	[methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.247]	True	False
+K14083	160.67	full	trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250]	True	False
+K14084	281.63	full	trimethylamine corrinoid protein	True	False
+K14126	612.63	full	F420-non-reducing hydrogenase large subunit [EC:1.12.99.- 1.8.98.5]	True	False
+K14127	182.9	domain	F420-non-reducing hydrogenase iron-sulfur subunit [EC:1.12.99.- 1.8.98.5 1.8.98.6]	True	False
+K14128	247.57	full	F420-non-reducing hydrogenase small subunit [EC:1.12.99.- 1.8.98.5]	True	False
+K14138	962.3	full	acetyl-CoA synthase [EC:2.3.1.169]	True	True
+K14172	332.97	domain	light-harvesting complex II chlorophyll a/b binding protein 7	True	False
+K14272	713.97	domain	glutamate--glyoxylate aminotransferase [EC:2.6.1.4 2.6.1.2 2.6.1.44]	True	False
+K14332	119.33	full	photosystem I subunit PsaO	True	False
+K14449	259.37	full	2-methylfumaryl-CoA hydratase [EC:4.2.1.148]	True	False
+K14454	630.33	full	aspartate aminotransferase, cytoplasmic [EC:2.6.1.1]	True	False
+K14455	688.93	full	aspartate aminotransferase, mitochondrial [EC:2.6.1.1]	True	False
+K14465	479.53	domain	succinate semialdehyde reductase (NADPH) [EC:1.1.1.-]	True	False
+K14466	887.87	full	4-hydroxybutyrate---CoA ligase (AMP-forming) [EC:6.2.1.40]	True	False
+K14467	915.73	domain	4-hydroxybutyrate---CoA ligase (AMP-forming) [EC:6.2.1.40]	True	False
+K14468	1672.13	full	malonyl-CoA reductase / 3-hydroxypropionate dehydrogenase (NADP+) [EC:1.2.1.75 1.1.1.298]	True	False
+K14469	1869.43	full	acrylyl-CoA reductase (NADPH) / 3-hydroxypropionyl-CoA dehydratase / 3-hydroxypropionyl-CoA synthetase [EC:1.3.1.84 4.2.1.116 6.2.1.36]	True	False
+K14470	457.13	full	2-methylfumaryl-CoA isomerase [EC:5.4.1.3]	True	False
+K14471	823.37	full	succinyl-CoA:(S)-malate CoA-transferase subunit A [EC:2.8.3.22]	True	False
+K14472	825.83	full	succinyl-CoA:(S)-malate CoA-transferase subunit B [EC:2.8.3.22]	True	False
+K14534	416.63	full	4-hydroxybutyryl-CoA dehydratase / vinylacetyl-CoA-Delta-isomerase [EC:4.2.1.120 5.3.3.3]	True	False
+K14940	306.7	full	gamma-F420-2:alpha-L-glutamate ligase [EC:6.3.2.32]	True	False
+K14941	84.63	full	2-phospho-L-lactate/phosphoenolpyruvate guanylyltransferase [EC:2.7.7.68 2.7.7.105]	True	False
+K15016	439.47	domain	enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35]	True	False
+K15017	700.83	full	malonyl-CoA/succinyl-CoA reductase (NADPH) [EC:1.2.1.75 1.2.1.76]	True	False
+K15018	1306.43	full	3-hydroxypropionyl-coenzyme A synthetase [EC:6.2.1.36]	True	False
+K15019	333.97	domain	3-hydroxypropionyl-coenzyme A dehydratase [EC:4.2.1.116]	True	False
+K15020	348.73	domain	acryloyl-coenzyme A reductase [EC:1.3.1.84]	True	False
+K15022	698.47	domain	formate dehydrogenase (NADP+) beta subunit [EC:1.17.1.10]	True	False
+K15023	270.77	domain	5-methyltetrahydrofolate corrinoid/iron sulfur protein methyltransferase [EC:2.1.1.258]	True	False
+K15024	268.13	domain	putative phosphotransacetylase [EC:2.3.1.8]	True	False
+K15036	1059.07	full	acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3 2.1.3.15]	True	False
+K15037	139.77	domain	biotin carboxyl carrier protein	True	False
+K15038	697.4	domain	succinyl-CoA reductase [EC:1.2.1.76]	True	False
+K15039	591.63	full	3-hydroxypropionate dehydrogenase (NADP+) [EC:1.1.1.298]	True	False
+K15052	899.93	domain	propionyl-CoA carboxylase [EC:6.4.1.3 2.1.3.15]	True	False
+K15228	174.8	full	methylamine dehydrogenase light chain [EC:1.4.9.1]	True	False
+K15229	309.53	full	methylamine dehydrogenase heavy chain [EC:1.4.9.1]	True	False
+K15230	908.23	full	ATP-citrate lyase alpha-subunit [EC:2.3.3.8]	True	False
+K15231	526.8	full	ATP-citrate lyase beta-subunit [EC:2.3.3.8]	True	False
+K15232	874.87	full	citryl-CoA synthetase large subunit [EC:6.2.1.18]	True	False
+K15233	685.13	full	citryl-CoA synthetase small subunit	True	False
+K15234	520.23	full	citryl-CoA lyase [EC:4.1.3.34]	True	False
+K15371	290.97	full	glutamate dehydrogenase [EC:1.4.1.2]	True	False
+K15408	1005.9	full	cytochrome c oxidase subunit I+III [EC:7.1.1.9]	True	False
+K15422	427.13	full	3'(2'), 5'-bisphosphate nucleotidase / inositol polyphosphate 1-phosphatase [EC:3.1.3.7 3.1.3.57]	True	False
+K15551	234.17	full	taurine transport system substrate-binding protein	True	False
+K15552	274.17	domain	taurine transport system permease protein	True	False
+K15553	184.2	full	sulfonate transport system substrate-binding protein	True	False
+K15554	238.57	full	sulfonate transport system permease protein	True	False
+K15555	330.87	domain	sulfonate transport system ATP-binding protein [EC:7.6.2.14]	True	False
+K15576	501.53	full	nitrate/nitrite transport system substrate-binding protein	True	False
+K15577	288.87	domain	nitrate/nitrite transport system permease protein	True	False
+K15578	408.73	full	nitrate/nitrite transport system ATP-binding protein [EC:7.3.2.4]	True	False
+K15579	392.5	domain	nitrate/nitrite transport system ATP-binding protein	True	False
+K15633	70.67	full	2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]	True	False
+K15634	201.1	domain	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]	True	False
+K15635	105.53	full	2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]	True	False
+K15759	253.2	full	Golgi-resident PAP phosphatase [EC:3.1.3.7]	True	False
+K15762	94.43	domain	toluene monooxygenase system ferredoxin subunit	True	False
+K15765	325.17	full	toluene monooxygenase electron transfer component [EC:1.18.1.3]	True	False
+K15862	893.0	full	cytochrome c oxidase cbb3-type subunit I/II [EC:7.1.1.9]	True	False
+K15863	962.47	full	NADH-quinone oxidoreductase subunit L/M [EC:7.1.1.2]	True	False
+K15864	450.57	full	nitrite reductase (NO-forming) / hydroxylamine reductase [EC:1.7.2.1 1.7.99.1]	True	True
+K15876	102.57	domain	cytochrome c nitrite reductase small subunit	True	True
+K15877	464.07	full	fungal nitric oxide reductase [EC:1.7.1.14]	True	False
+K15986	147.3	full	manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1]	True	False
+K16157	1168.7	full	methane monooxygenase component A alpha chain [EC:1.14.13.25]	True	True
+K16158	556.63	full	methane monooxygenase component A beta chain [EC:1.14.13.25]	True	False
+K16159	212.97	full	methane monooxygenase component A gamma chain [EC:1.14.13.25]	True	False
+K16160	233.57	full	methane monooxygenase regulatory protein B	True	False
+K16161	407.67	full	methane monooxygenase component C [EC:1.14.13.25]	True	False
+K16162	87.43	full	methane monooxygenase component D	True	False
+K16176	259.63	full	methylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.248]	True	False
+K16177	338.77	full	monomethylamine corrinoid protein	True	False
+K16178	497.03	full	dimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.249]	True	False
+K16179	275.3	full	dimethylamine corrinoid protein	True	False
+K16254	195.0	full	mxaJ protein	True	False
+K16255	140.5	full	cytochrome c-L	True	False
+K16256	183.0	full	mxaA protein	True	False
+K16257	285.93	full	mxaC protein	True	False
+K16258	99.7	full	mxaK protein	True	False
+K16259	280.77	full	mxaL protein	True	False
+K16260	202.27	full	mxaD protein	True	False
+K16305	358.37	full	fructose-bisphosphate aldolase / 6-deoxy-5-ketofructose 1-phosphate synthase [EC:4.1.2.13 2.2.1.11]	True	False
+K16306	327.27	full	fructose-bisphosphate aldolase / 2-amino-3,7-dideoxy-D-threo-hept-6-ulosonate synthase [EC:4.1.2.13 2.2.1.10]	True	False
+K16370	327.43	domain	6-phosphofructokinase 2 [EC:2.7.1.11]	True	False
+K16792	625.37	full	methanogen homoaconitase large subunit [EC:4.2.1.114]	True	False
+K16793	235.2	full	methanogen homoaconitase small subunit [EC:4.2.1.114]	True	False
+K16936	154.03	full	thiosulfate dehydrogenase (quinone) small subunit [EC:1.8.5.2]	True	False
+K16937	215.57	full	thiosulfate dehydrogenase (quinone) large subunit [EC:1.8.5.2]	True	False
+K16950	410.43	full	anaerobic sulfite reductase subunit A	True	True
+K16951	241.63	full	anaerobic sulfite reductase subunit B	True	True
+K16952	364.6	full	sulfur oxygenase/reductase [EC:1.13.11.55]	True	True
+K16953	148.07	full	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	True	False
+K16954	462.67	full	methylthiol:coenzyme M methyltransferase [EC:2.1.1.251]	True	False
+K16955	417.27	full	methylated-thiol--corrinoid protein	True	False
+K16964	1476.97	full	dimethylsulfide dehydrogenase subunit alpha [EC:1.8.2.4]	True	False
+K16965	579.63	full	dimethylsulfide dehydrogenase subunit beta	True	False
+K16966	380.07	full	dimethylsulfide dehydrogenase subunit gamma	True	False
+K16967		-	dimethyl-sulfide monooxygenase [EC:1.14.13.131]	True	False
+K16968	455.43	full	methanesulfonate monooxygenase subunit alpha [EC:1.14.13.111]	True	False
+K16969	136.7	full	methanesulfonate monooxygenase subunit beta [EC:1.14.13.111]	True	False
+K17066	444.53	domain	alcohol oxidase [EC:1.1.3.13]	True	False
+K17067	504.93	full	formaldehyde dismutase / methanol dehydrogenase [EC:1.2.98.1 1.1.99.37]	True	False
+K17068		-	formaldehyde dismutase [EC:1.2.98.1]	True	False
+K17069	778.23	full	O-acetylhomoserine/O-acetylserine sulfhydrylase [EC:2.5.1.49 2.5.1.47]	True	False
+K17100	882.13	full	dihydroxyacetone synthase [EC:2.2.1.3]	True	False
+K17217	606.17	full	cystathionine gamma-lyase / homocysteine desulfhydrase [EC:4.4.1.1 4.4.1.2]	True	False
+K17218	240.27	domain	sulfide:quinone oxidoreductase [EC:1.8.5.4]	True	True
+K17219	1684.23	full	sulfur reductase molybdopterin subunit	True	True
+K17220	479.57	full	sulfur reductase FeS subunit	True	False
+K17221	674.8	full	sulfur reductase membrane anchor	True	False
+K17222	161.27	full	L-cysteine S-thiosulfotransferase [EC:2.8.5.2]	True	True
+K17223	74.2	domain	L-cysteine S-thiosulfotransferase [EC:2.8.5.2]	True	True
+K17224	365.2	domain	S-sulfosulfanyl-L-cysteine sulfohydrolase [EC:3.1.6.20]	True	True
+K17225	431.7	full	sulfane dehydrogenase subunit SoxC	True	True
+K17226	85.0	full	sulfur-oxidizing protein SoxY	True	True
+K17227	77.4	domain	sulfur-oxidizing protein SoxZ	True	True
+K17228	330.33	full	dimethylsulfone monooxygenase [EC:1.14.14.35]	True	False
+K17229	360.03	full	sulfide dehydrogenase [flavocytochrome c] flavoprotein chain [EC:1.8.2.3]	True	True
+K17230	79.6	domain	cytochrome subunit of sulfide dehydrogenase	True	True
+K17285	190.27	full	methanethiol oxidase [EC:1.8.3.4]	True	False
+K17486	471.83	full	dimethylsulfoniopropionate demethylase [EC:2.1.1.269]	True	False
+K17725	181.0	full	sulfur dioxygenase [EC:1.13.11.18]	True	False
+K17877	1514.77	full	nitrite reductase (NAD(P)H) [EC:1.7.1.4]	True	False
+K17993	567.77	full	sulfhydrogenase subunit alpha [EC:1.12.1.3 1.12.1.5]	True	False
+K17994	281.37	full	sulfhydrogenase subunit delta [EC:1.12.1.3 1.12.1.5]	True	False
+K17995	427.77	full	sulfhydrogenase subunit gamma (sulfur reductase) [EC:1.12.98.4]	True	False
+K17996	458.67	full	sulfhydrogenase subunit beta (sulfur reductase) [EC:1.12.98.4]	True	False
+K18209	659.57	full	fumarate reductase (CoM/CoB) subunit A [EC:1.3.4.1]	True	False
+K18210	339.07	full	fumarate reductase (CoM/CoB) subunit B [EC:1.3.4.1]	True	False
+K18245	415.23	domain	carbonic anhydrase 2 [EC:4.2.1.1]	True	False
+K18246	382.27	full	carbonic anhydrase 4 [EC:4.2.1.1]	True	False
+K18277	427.53	full	trimethylamine monooxygenase [EC:1.14.13.148]	True	False
+K18367	492.9	full	CoA-dependent NAD(P)H sulfur oxidoreductase [EC:1.8.1.18]	True	False
+K18556	759.5	full	NADH-dependent fumarate reductase subunit A [EC:1.3.1.6]	True	False
+K18557	352.93	full	NADH-dependent fumarate reductase subunit B [EC:1.3.1.6]	True	False
+K18558	579.47	full	NADH-dependent fumarate reductase subunit C	True	False
+K18559	794.6	full	NADH-dependent fumarate reductase subunit D	True	False
+K18560	310.47	full	NADH-dependent fumarate reductase subunit E	True	False
+K18593	1256.33	full	4-hydroxybutyrate---CoA ligase (ADP-forming) [EC:6.2.1.56]	True	False
+K18594	1243.23	full	3-hydroxypropionyl-CoA synthetase (ADP-forming) [EC:6.2.1.-]	True	False
+K18602	485.7	full	malonic semialdehyde reductase [EC:1.1.1.-]	True	False
+K18603	853.03	full	acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3]	True	False
+K18604	936.6	full	acetyl-CoA/propionyl-CoA carboxylase [EC:6.4.1.2 6.4.1.3 2.1.3.15]	True	False
+K18605	209.23	full	biotin carboxyl carrier protein	True	False
+K18859	147.07	full	succinate dehydrogenase subunit D	True	False
+K18860	127.53	full	succinate dehydrogenase subunit D	True	False
+K18861	928.83	full	4-hydroxybutyrate---CoA ligase (AMP-forming) [EC:6.2.1.40]	True	False
+K18933	310.43	domain	tyrosine decarboxylase / aspartate 1-decarboxylase [EC:4.1.1.25 4.1.1.11]	True	False
+K19713	156.27	full	thiosulfate dehydrogenase [EC:1.8.2.2]	True	True
+K19793	447.63	full	(5-formylfuran-3-yl)methyl phosphate transaminase [EC:2.6.1.108]	True	False
+K19823	385.1	full	nitroalkane oxidase [EC:1.7.3.1]	True	False
+K20034	712.3	domain	3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44]	True	False
+K20035	561.9	full	3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41]	True	False
+K20036	313.5	full	(methylthio)acryloyl-CoA hydratase [EC:4.2.1.155]	True	False
+K20713	705.63	full	R-phycocyanin alpha-cysteine-84 phycourobilin lyase/isomerase [EC:4.4.1.33]	True	False
+K20932	624.47	full	hydrazine synthase subunit [EC:1.7.2.7]	True	True
+K20933	753.97	full	hydrazine synthase subunit [EC:1.7.2.7]	True	True
+K20934	743.53	full	hydrazine synthase subunit [EC:1.7.2.7]	True	True
+K20935	1334.77	full	hydrazine dehydrogenase [EC:1.7.2.8]	True	True
+K21071	341.4	domain	ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.7.1.90]	True	False
+K21307	503.5	domain	sulfite dehydrogenase (quinone) subunit SoeA [EC:1.8.5.6]	True	False
+K21308	298.6	full	sulfite dehydrogenase (quinone) subunit SoeB	True	False
+K21309	159.03	full	sulfite dehydrogenase (quinone) subunit SoeC	True	False
+K21310	147.43	full	methanethiol S-methyltransferase [EC:2.1.1.334]	True	False
+K22015	932.77	full	formate dehydrogenase (hydrogenase) / hydrogen-dependent carbon dioxide reductase [EC:1.17.98.4 1.17.98.5]	True	False
+K22081	230.0	full	methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21]	True	False
+K22082	191.03	domain	methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21]	True	False
+K22083	296.53	domain	methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21]	True	False
+K22084	674.3	full	methylglutamate dehydrogenase subunit A [EC:1.5.99.5]	True	False
+K22085	110.3	full	methylglutamate dehydrogenase subunit B [EC:1.5.99.5]	True	False
+K22086	1340.17	full	methylglutamate dehydrogenase subunit C [EC:1.5.99.5]	True	False
+K22087	154.7	domain	methylglutamate dehydrogenase subunit D [EC:1.5.99.5]	True	False
+K22305	222.33	domain	phosphoserine phosphatase [EC:3.1.3.3]	True	False
+K22468	287.67	domain	polyphosphate kinase [EC:2.7.4.34]	True	False
+K22470	633.87	full	eukaryotic sulfide quinone oxidoreductase [EC:1.8.5.8]	True	False
+K22480	1078.23	full	heterodisulfide reductase subunit A1 [EC:1.8.7.3]	True	False
+K22481	343.53	full	heterodisulfide reductase subunit B1 [EC:1.8.7.3]	True	False
+K22482	183.87	full	heterodisulfide reductase subunit C1 [EC:1.8.7.3]	True	False
+K22501	72.6	full	cytochrome bd-II ubiquinol oxidase subunit AppX [EC:7.1.1.7]	True	False
+K22515	600.97	full	formate dehydrogenase beta subunit [EC:1.17.1.9]	True	False
+K22516	987.07	full	formate dehydrogenase (coenzyme F420) alpha subunit [EC:1.17.98.3 1.8.98.6]	True	False
+K22622	108.37	domain	S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6]	True	False
+K22896	899.97	full	vanadium-dependent nitrogenase alpha chain [EC:1.18.6.2]	True	False
+K22897	840.93	full	vanadium-dependent nitrogenase beta chain [EC:1.18.6.2]	True	False
+K22898	150.5	full	vanadium nitrogenase delta subunit [EC:1.18.6.2]	True	False
+K22899	570.87	full	vanadium nitrogenase iron protein	True	False
+K22966	161.63	domain	sulfate adenylyltransferase (ADP) / adenylylsulfatase [EC:2.7.7.5 3.6.2.1]	True	False
+K23163	490.1	full	sulfate/thiosulfate transport system substrate-binding protein	True	False
+K23304	347.67	full	serine O-acetyltransferase [EC:2.3.1.30]	True	False
+K23995	870.8	full	lanthanide-dependent methanol dehydrogenase [EC:1.1.2.10]	True	True
+K24007	52.17	domain	cytochrome aa3-type oxidase subunit SoxD	True	False
+K24008	694.8	full	cytochrome aa3-type oxidase subunit III	True	False
+K24009	497.63	full	cytochrome aa3-type oxidase subunit I [EC:7.1.1.4]	True	False
+K24010	186.23	full	cytochrome aa3-type oxidase subunit II [EC:7.1.1.4]	True	False
+K24011	1088.63	full	cytochrome aa3-type oxidase subunit I/III [EC:7.1.1.4]	True	False
+K24182	1417.33	full	6-phosphofructokinase [EC:2.7.1.11]	True	False
+K24393	414.8	full	sulfopyruvate decarboxylase [EC:4.1.1.79]	True	False
+K24666	484.23	full	2-hydroxy-4-(methylsulfanyl)butanoate S-methyltransferase [EC:2.1.1.373]	True	False
+K24998	505.8	full	dehydro coenzyme F420 reductase / coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase [EC:1.3.8.17 6.3.2.31 6.3.2.34]	True	False
+K25007	391.0	full	methylenetetrahydrofolate reductase (NADH) small subunit	True	False
+K25008	1230.3	full	ion-translocating oxidoreductase complex subunit C [EC:7.-.-.-]	True	False
+K25123	630.93	full	iron hydrogenase HydA2 [EC:1.12.7.-]	True	False
+K25124	207.87	full	FeS-containing electron transfer protein	True	False
+K25221	462.33	full	[methyl-Co(III) glycine betaine-specific corrinoid protein]---tetrahydrofolate methyltransferase [EC:2.1.1.378]	True	False
+K25528	212.6	full	phosphoserine phosphatase [EC:3.1.3.3]	True	False
+K25774	1025.33	full	4-hydroxybutyrate---CoA ligase (AMP-forming) [EC:6.2.1.40]	True	False
+K25801	85.27	full	succinate dehydrogenase (ubiquinone) subunit 4	True	False
+K25915	459.37	full	[methyl-Co(III) methoxylated-aromatic-compound-specific corrinoid protein]---tetrahydrofolate methyltransferase [EC:2.1.1.385]	True	False
+K25995	373.97	full	succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1 7.1.1.12]	True	False
+K25996	180.93	full	succinate dehydrogenase subunit C	True	False
+K26138	109.33	domain	nitrite reductase [NAD(P)H] small subunit [EC:1.7.1.4]	True	False
+K26139	794.23	domain	nitrite reductase [NAD(P)H] large subunit [EC:1.7.1.4]	True	False
+K26318	858.0	full	fumarate reductase (cytochrome) [EC:1.3.2.4]	True	False
+K26930	480.87	full	[methyl-Co(III) quaternary-amine-specific corrinoid protein]---tetrahydrofolate methyltransferase [EC:2.1.1.389]	True	False
+K27109	126.0	full	cytochrome c oxidase subunit IV [EC:7.1.1.9]	True	False
+K27148	1155.0	full	nitric oxide dismutase	True	False
+K27187	129.9	full	[DsrC]-trisulfide reductase subunit M [EC:1.8.5.10]	True	False
+K27188	459.53	full	[DsrC]-trisulfide reductase subunit K [EC:1.8.5.10]	True	False
+K27189	85.83	full	[DsrC]-trisulfide reductase subunit J	True	False
+K27190	259.83	full	[DsrC]-trisulfide reductase subunit O	True	False
+K27191	317.43	full	[DsrC]-trisulfide reductase subunit P	True	False
+K27196	681.1	full	dissimilatory sulfite reductase flavoprotein subunit	True	False
+K27802	1451.87	domain	aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99]	True	False
+K27925	616.7	full	tetrathionate hydrolase [EC:3.12.1.2]	True	False
+K28064	430.43	full	methionine S-methyltransferase [EC:2.1.1.12]	True	False
+K28065		-	MTHB methyltransferase / DMSHB decarboxylase	True	False
+K28066	468.47	full	DMSHB decarboxylase	True	False
+K28067	713.47	full	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	True	False
+K28068	185.5	full	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	True	False
+K28069	544.1	full	dimethylpropiothetin dethiomethylase [EC:4.4.1.3]	True	False
+K28070	747.63	full	CoA transferase	True	False
+K28071	500.8	full	CoA hydratase	True	False
+K28072	1452.83	full	DMSP lyase	True	False
+K28073	962.47	full	DMSP lyase	True	False
+K28205	697.93	full	phosphoserine transaminase [EC:2.6.1.52]	True	False
+K28462	319.5	full	phosphoribulokinase [EC:2.7.1.19]	True	False
+K28482	1549.77	full	fumarate reductase (NADH) [EC:1.3.1.6]	True	False
+K28483	527.83	full	acrylate reductase flavoprotein subunit [EC:1.3.-.-]	True	False
+K28484	99.97	full	acrylate reductase cytochrome subunit [EC:1.3.-.-]	True	False
+K28504	273.23	domain	ammonia monooxygenase subunit A [EC:1.14.99.39]	True	False
+K28715	503.77	full	sulfoacetaldehyde sulfurtransferase [EC:2.8.1.17]	True	False
+K28726	667.0	full	pyruvate synthase (flavodoxin) subunit A [EC:1.2.8.1]	True	False
+K28727	536.87	full	pyruvate synthase (flavodoxin) subunit B [EC:1.2.8.1]	True	False
+K28728	273.7	full	pyruvate synthase (flavodoxin) subunit C [EC:1.2.8.1]	True	False
+K28729	171.13	full	pyruvate synthase (flavodoxin) subunit D [EC:1.2.8.1]	True	False
+K28761	458.6	full	formamidase [EC:3.5.1.49]	True	False
+K28955	576.83	full	carbonic anhydrase [EC:4.2.1.1]	True	False
+K28956	237.87	domain	carbonic anhydrase [EC:4.2.1.1]	True	False
+K28979	1043.03	full	trimethylamine-oxide aldolase [EC:4.1.2.32]	True	False

@@ -1,0 +1,25 @@
+level,group,n,arm,auprc,delta,n_lower
+genus,< 10% positive,5,RF,0.4005,,
+genus,10-30% positive,6,RF,0.6661,,
+genus,> 30% positive,3,RF,0.8583,,
+genus,< 10% positive,5,RFCB_none,0.3896,-0.0109,3.0000
+genus,10-30% positive,6,RFCB_none,0.6557,-0.0104,4.0000
+genus,> 30% positive,3,RFCB_none,0.8628,0.0044,0.0000
+genus,< 10% positive,5,RFCB_under,0.3237,-0.0768,3.0000
+genus,10-30% positive,6,RFCB_under,0.6677,0.0016,3.0000
+genus,> 30% positive,3,RFCB_under,0.8655,0.0072,0.0000
+genus,< 10% positive,5,RFCB_over,0.3499,-0.0506,2.0000
+genus,10-30% positive,6,RFCB_over,0.6730,0.0069,3.0000
+genus,> 30% positive,3,RFCB_over,0.8609,0.0025,1.0000
+family,< 10% positive,5,RF,0.3340,,
+family,10-30% positive,6,RF,0.6156,,
+family,> 30% positive,3,RF,0.8339,,
+family,< 10% positive,5,RFCB_none,0.4074,0.0734,1.0000
+family,10-30% positive,6,RFCB_none,0.5990,-0.0166,3.0000
+family,> 30% positive,3,RFCB_none,0.8331,-0.0008,2.0000
+family,< 10% positive,5,RFCB_under,0.3788,0.0449,2.0000
+family,10-30% positive,6,RFCB_under,0.5981,-0.0175,3.0000
+family,> 30% positive,3,RFCB_under,0.8289,-0.0050,1.0000
+family,< 10% positive,5,RFCB_over,0.3596,0.0256,1.0000
+family,10-30% positive,6,RFCB_over,0.6162,0.0007,3.0000
+family,> 30% positive,3,RFCB_over,0.8358,0.0019,1.0000

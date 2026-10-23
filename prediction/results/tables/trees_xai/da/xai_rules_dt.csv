@@ -1,0 +1,265 @@
+task,trait,fold,rule,depth,heldout_support,heldout_precision,heldout_recall
+da,donor_sulfur_oxidation,0,K17227 absent AND K27925 absent AND K05587 present AND K01624 absent,4,1,1.0000,0.0357
+da,donor_sulfur_oxidation,0,K17227 absent AND K27925 absent AND K05587 present AND K01624 present,4,1,0.0000,0.0000
+da,donor_sulfur_oxidation,0,K17227 absent AND K27925 present,2,0,,0.0000
+da,donor_sulfur_oxidation,0,K17227 present AND K23163 absent AND K00244 absent AND K07306 absent,4,15,1.0000,0.5357
+da,donor_sulfur_oxidation,0,K17227 present AND K23163 absent AND K00244 absent AND K07306 present,4,0,,0.0000
+da,donor_sulfur_oxidation,0,K17227 present AND K23163 absent AND K00244 present AND K27802 absent,4,2,1.0000,0.0714
+da,donor_sulfur_oxidation,0,K17227 present AND K23163 present AND K00126 present AND K15578 absent,4,2,0.5000,0.0357
+da,donor_sulfur_oxidation,1,K17227 absent AND K27925 present,2,5,1.0000,0.1852
+da,donor_sulfur_oxidation,1,K17227 present AND K23163 absent,2,12,0.9167,0.4074
+da,donor_sulfur_oxidation,2,K17227 absent AND K27925 present,2,3,1.0000,0.1071
+da,donor_sulfur_oxidation,2,K17227 present AND K23163 absent,2,25,0.8800,0.7857
+da,donor_sulfur_oxidation,2,K17227 present AND K23163 present,2,3,0.0000,0.0000
+da,donor_sulfur_oxidation,3,K17227 absent AND K27925 present,2,7,1.0000,0.2692
+da,donor_sulfur_oxidation,3,K17227 present AND K23163 absent AND K16965 absent,3,11,1.0000,0.4231
+da,donor_sulfur_oxidation,3,K17227 present AND K23163 absent AND K16965 present,3,1,1.0000,0.0385
+da,donor_sulfur_oxidation,3,K17227 present AND K23163 present AND K15578 absent,3,1,0.0000,0.0000
+da,donor_sulfur_oxidation,4,K17218 absent AND K00424 absent AND K27191 present AND K01595 present AND K14534 absent AND K00239 absent,6,2,1.0000,0.0909
+da,donor_sulfur_oxidation,4,K17218 absent AND K00424 absent AND K27191 present AND K01595 present AND K14534 absent AND K00239 present,6,2,0.5000,0.0455
+da,donor_sulfur_oxidation,4,K17218 absent AND K00424 present,2,0,,0.0000
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 absent AND K18367 absent AND K02439 absent AND K00424 present,5,3,1.0000,0.1364
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 absent AND K18367 absent AND K02439 present,4,0,,0.0000
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 absent AND K18367 present AND K01601 absent AND K14467 absent,5,1,1.0000,0.0455
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 absent AND K18367 present AND K01601 absent AND K14467 present AND K16952 present,6,0,,0.0000
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 present AND K23163 absent AND K16965 absent AND K00247 absent AND K07306 absent,6,10,1.0000,0.4545
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 present AND K23163 absent AND K16965 absent AND K00247 absent AND K07306 present,6,0,,0.0000
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 present AND K23163 absent AND K16965 absent AND K00247 present,5,0,,0.0000
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 present AND K23163 absent AND K16965 present,4,0,,0.0000
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 present AND K23163 present AND K01958 present AND K11532 absent,5,1,1.0000,0.0455
+da,donor_sulfur_oxidation,4,K17218 present AND K17227 present AND K23163 present AND K01958 present AND K11532 present,5,0,,0.0000
+da,donor_ammonia_oxidation,0,K10945 absent AND K00148 absent AND K08906 absent AND K00317 present AND K00370 present,5,0,,0.0000
+da,donor_ammonia_oxidation,0,K10945 absent AND K00148 absent AND K08906 present,3,0,,0.0000
+da,donor_ammonia_oxidation,0,K10945 absent AND K00148 present AND K01602 present AND K01086 absent,4,2,0.0000,0.0000
+da,donor_ammonia_oxidation,0,K10945 present AND K01807 present AND K00127 absent,3,6,1.0000,0.8571
+da,donor_ammonia_oxidation,0,K10945 present AND K01807 present AND K00127 present,3,0,,0.0000
+da,donor_ammonia_oxidation,1,K10945 absent AND K08906 absent AND K00360 present,3,1,1.0000,0.1667
+da,donor_ammonia_oxidation,1,K10945 absent AND K08906 present,2,0,,0.0000
+da,donor_ammonia_oxidation,1,K10945 present AND K00386 absent AND K00123 absent,3,2,1.0000,0.3333
+da,donor_ammonia_oxidation,1,K10945 present AND K00386 absent AND K00123 present,3,1,1.0000,0.1667
+da,donor_ammonia_oxidation,2,K10945 absent AND K03396 absent AND K08906 absent AND K00360 present,4,3,0.3333,0.1429
+da,donor_ammonia_oxidation,2,K10945 absent AND K03396 absent AND K08906 present,3,0,,0.0000
+da,donor_ammonia_oxidation,2,K10945 absent AND K03396 present AND K20034 present,3,0,,0.0000
+da,donor_ammonia_oxidation,2,K10945 present AND K05922 absent AND K00124 absent,3,6,1.0000,0.8571
+da,donor_ammonia_oxidation,2,K10945 present AND K05922 absent AND K00124 present,3,0,,0.0000
+da,donor_ammonia_oxidation,3,K10945 absent AND K00360 present,2,2,0.0000,0.0000
+da,donor_ammonia_oxidation,3,K10945 present AND K00127 absent,2,7,0.4286,0.7500
+da,donor_ammonia_oxidation,3,K10945 present AND K00127 present,2,0,,0.0000
+da,donor_ammonia_oxidation,4,K10945 absent AND K01958 present AND K01679 present,3,7,0.0000,0.0000
+da,donor_ammonia_oxidation,4,K10945 present AND K00386 absent AND K00926 absent,3,9,0.8889,1.0000
+da,donor_ammonia_oxidation,4,K10945 present AND K00386 absent AND K00926 present,3,0,,0.0000
+da,donor_nitrite_oxidation,0,K00332 present AND K01738 present,2,15,0.2667,1.0000
+da,donor_nitrite_oxidation,1,K00368 absent AND K08906 present,2,0,,0.0000
+da,donor_nitrite_oxidation,1,K00368 present AND K15554 absent AND K00332 present,3,7,0.1429,0.5000
+da,donor_nitrite_oxidation,2,K00368 absent AND K03886 present AND K01895 absent,3,0,,0.0000
+da,donor_nitrite_oxidation,2,K00368 present AND K01738 present AND K04561 absent AND K00266 present AND K01725 absent,5,1,0.0000,0.0000
+da,donor_nitrite_oxidation,2,K00368 present AND K01738 present AND K04561 absent AND K00266 present AND K01725 present,5,0,,0.0000
+da,donor_nitrite_oxidation,3,K00368 absent AND K00366 present,2,5,0.0000,0.0000
+da,donor_nitrite_oxidation,3,K00368 present AND K01738 present AND K00406 absent AND K06881 absent AND K08691 absent,5,0,,0.0000
+da,donor_nitrite_oxidation,3,K00368 present AND K01738 present AND K00406 absent AND K06881 absent AND K08691 present AND K00029 absent,6,0,,0.0000
+da,donor_nitrite_oxidation,4,K00368 absent AND K03886 present,2,3,0.0000,0.0000
+da,donor_nitrite_oxidation,4,K00368 present AND K15554 absent AND K02277 absent,3,10,0.2000,0.6667
+da,donor_hydrogen_oxidation,0,K11261 absent AND K03612 absent AND K06281 present,3,8,0.7500,0.1538
+da,donor_hydrogen_oxidation,0,K11261 present AND K00958 absent AND K03841 absent,3,10,1.0000,0.2564
+da,donor_hydrogen_oxidation,0,K11261 present AND K00958 absent AND K03841 present,3,1,0.0000,0.0000
+da,donor_hydrogen_oxidation,0,K11261 present AND K00958 present AND K15986 present,3,5,1.0000,0.1282
+da,donor_hydrogen_oxidation,1,K01678 absent AND K00123 present,2,23,0.6957,0.3721
+da,donor_hydrogen_oxidation,1,K01678 present AND K05299 absent,2,18,0.8889,0.3721
+da,donor_hydrogen_oxidation,1,K01678 present AND K05299 present,2,6,1.0000,0.1395
+da,donor_hydrogen_oxidation,2,K01678 absent AND K00123 present,2,21,0.4762,0.2632
+da,donor_hydrogen_oxidation,2,K01678 present AND K00407 absent,2,25,0.9200,0.6053
+da,donor_hydrogen_oxidation,3,K01678 absent AND K00123 absent AND K00340 absent,3,1,1.0000,0.0192
+da,donor_hydrogen_oxidation,3,K01678 absent AND K00123 present AND K03885 absent,3,12,0.9167,0.2115
+da,donor_hydrogen_oxidation,3,K01678 present AND K00406 absent AND K00127 absent,3,10,1.0000,0.1923
+da,donor_hydrogen_oxidation,3,K01678 present AND K00406 absent AND K00127 present,3,6,1.0000,0.1154
+da,donor_hydrogen_oxidation,4,K11261 absent AND K03617 absent AND K03885 absent,3,16,0.3750,0.1667
+da,donor_hydrogen_oxidation,4,K11261 absent AND K03617 present AND K00126 present,3,2,0.5000,0.0278
+da,donor_hydrogen_oxidation,4,K11261 present AND K02636 absent AND K08358 absent,3,23,0.8696,0.5556
+da,donor_hydrogen_oxidation,4,K11261 present AND K02636 absent AND K08358 present,3,5,0.4000,0.0556
+da,donor_CO_oxidation,0,K03841 absent AND K00459 absent AND K00320 present AND K02112 absent AND K01895 present AND K01601 absent,6,10,0.0000,0.0000
+da,donor_CO_oxidation,0,K03841 absent AND K00459 absent AND K00320 present AND K02112 present AND K00440 absent,5,1,0.0000,0.0000
+da,donor_CO_oxidation,0,K03841 absent AND K00459 absent AND K00320 present AND K02112 present AND K00440 present,5,0,,0.0000
+da,donor_CO_oxidation,0,K03841 absent AND K00459 present AND K01676 absent AND K00830 absent AND K15554 absent AND K01535 absent,6,2,0.0000,0.0000
+da,donor_CO_oxidation,0,K03841 absent AND K00459 present AND K01676 absent AND K00830 absent AND K15554 present AND K25008 absent,6,2,0.0000,0.0000
+da,donor_CO_oxidation,0,K03841 absent AND K00459 present AND K01676 absent AND K00830 absent AND K15554 present AND K25008 present,6,0,,0.0000
+da,donor_CO_oxidation,0,K03841 present AND K00410 absent AND K15762 present AND K01738 absent,4,5,0.0000,0.0000
+da,donor_CO_oxidation,0,K03841 present AND K00410 present,2,0,,0.0000
+da,donor_CO_oxidation,1,K00197 absent AND K03520 present,2,16,0.4375,0.5833
+da,donor_CO_oxidation,1,K00197 present AND K10535 absent,2,10,0.4000,0.3333
+da,donor_CO_oxidation,2,K06881 absent AND K00410 absent AND K14084 absent AND K03119 present,4,0,,0.0000
+da,donor_CO_oxidation,2,K06881 absent AND K00410 absent AND K14084 present,3,0,,0.0000
+da,donor_CO_oxidation,2,K06881 absent AND K00410 present,2,0,,0.0000
+da,donor_CO_oxidation,2,K06881 present AND K03841 absent AND K14466 absent AND K01624 present,4,11,0.6364,0.6364
+da,donor_CO_oxidation,3,K03841 absent AND K00925 absent AND K13831 present,3,2,0.0000,0.0000
+da,donor_CO_oxidation,3,K03841 absent AND K00925 present AND K01602 absent,3,11,0.4545,0.4545
+da,donor_CO_oxidation,3,K03841 present AND K15762 present AND K01847 present,3,7,0.0000,0.0000
+da,donor_CO_oxidation,4,K03841 absent AND K00459 absent AND K08097 present AND K22482 absent,4,7,0.0000,0.0000
+da,donor_CO_oxidation,4,K03841 absent AND K00459 present AND K01676 absent AND K02305 absent,4,14,0.3571,0.5556
+da,donor_CO_oxidation,4,K03841 present AND K14534 absent AND K00360 present,3,0,,0.0000
+da,donor_CO_oxidation,4,K03841 present AND K14534 present,2,1,0.0000,0.0000
+da,donor_iron_oxidation,0,K27925 absent AND K03972 present,2,27,0.0741,0.4000
+da,donor_iron_oxidation,0,K27925 present AND K00626 absent,2,4,0.5000,0.4000
+da,donor_iron_oxidation,1,K17218 absent AND K00240 absent AND K03518 present,3,1,1.0000,0.1111
+da,donor_iron_oxidation,1,K17218 present AND K17229 absent AND K10945 absent,3,31,0.1613,0.5556
+da,donor_iron_oxidation,1,K17218 present AND K17229 present AND K01455 present,3,2,0.0000,0.0000
+da,donor_iron_oxidation,2,K27925 present AND K14467 absent,2,3,0.6667,0.1818
+da,donor_iron_oxidation,3,K00176 absent AND K00262 absent AND K17229 absent AND K10945 absent,4,22,0.4091,0.8182
+da,donor_iron_oxidation,3,K00176 absent AND K00262 absent AND K17229 present AND K05301 present,4,6,0.0000,0.0000
+da,donor_iron_oxidation,3,K00176 absent AND K00262 present AND K08359 present,3,0,,0.0000
+da,donor_iron_oxidation,3,K00176 present AND K25221 present,2,0,,0.0000
+da,donor_iron_oxidation,4,K24010 absent AND K11261 absent AND K17229 absent AND K00640 absent AND K01507 absent,5,4,0.0000,0.0000
+da,donor_iron_oxidation,4,K24010 absent AND K11261 absent AND K17229 absent AND K00640 present AND K10945 absent AND K01678 absent,6,11,0.2727,0.4286
+da,donor_iron_oxidation,4,K24010 absent AND K11261 absent AND K17229 present AND K00386 present AND K00390 absent,5,1,0.0000,0.0000
+da,donor_iron_oxidation,4,K24010 absent AND K11261 present AND K25221 present AND K03518 present AND K15551 absent,5,0,,0.0000
+da,donor_iron_oxidation,4,K24010 absent AND K11261 present AND K25221 present AND K03518 present AND K15551 present,5,0,,0.0000
+da,donor_iron_oxidation,4,K24010 present AND K14467 absent AND K14449 absent AND K00958 absent,4,1,1.0000,0.1429
+da,donor_iron_oxidation,4,K24010 present AND K14467 absent AND K14449 absent AND K00958 present,4,0,,0.0000
+da,donor_iron_oxidation,4,K24010 present AND K14467 absent AND K14449 present,3,0,,0.0000
+da,donor_iron_oxidation,4,K24010 present AND K14467 present,2,0,,0.0000
+da,donor_other,0,K11529 absent AND K25221 absent AND K16965 present,3,0,,0.0000
+da,donor_other,0,K11529 absent AND K25221 present AND K00850 present,3,0,,0.0000
+da,donor_other,0,K11529 present AND K02257 present AND K28956 present,3,7,0.0000,0.0000
+da,donor_other,1,K01678 absent AND K27196 absent AND K00196 absent AND K01808 absent,4,20,0.1000,0.5000
+da,donor_other,1,K01678 absent AND K27196 absent AND K00196 present AND K00641 present,4,1,0.0000,0.0000
+da,donor_other,1,K01678 present AND K00531 present,2,0,,0.0000
+da,donor_other,2,K12234 absent AND K15551 absent AND K27187 absent AND K15986 absent,4,29,0.1379,0.8000
+da,donor_other,2,K12234 absent AND K15551 present AND K03953 absent AND K00150 absent,4,2,0.0000,0.0000
+da,donor_other,3,K20035 absent AND K01848 absent AND K15408 absent AND K16965 present,4,2,0.0000,0.0000
+da,donor_other,3,K20035 absent AND K01848 absent AND K15408 present AND K00202 absent,4,0,,0.0000
+da,donor_other,3,K20035 absent AND K01848 present AND K01847 absent AND K01725 absent AND K11180 absent AND K18604 absent,6,8,0.1250,0.2000
+da,donor_other,3,K20035 present AND K00370 absent AND K21310 present,3,0,,0.0000
+da,donor_other,3,K20035 present AND K00370 present AND K22082 absent AND K17725 absent AND K08738 absent AND K02259 absent,6,2,0.5000,0.2000
+da,donor_other,3,K20035 present AND K00370 present AND K22082 absent AND K17725 absent AND K08738 absent AND K02259 present,6,1,0.0000,0.0000
+da,donor_other,3,K20035 present AND K00370 present AND K22082 absent AND K17725 absent AND K08738 present,5,4,0.0000,0.0000
+da,donor_other,4,K20035 absent AND K00641 absent AND K27187 absent AND K02121 absent,4,10,0.1000,0.3333
+da,donor_other,4,K20035 absent AND K00641 present AND K28504 present,3,7,0.0000,0.0000
+da,donor_other,4,K20035 present AND K21071 absent AND K12234 absent AND K00265 present,4,8,0.0000,0.0000
+da,donor_other,4,K20035 present AND K21071 present AND K00185 present,3,0,,0.0000
+da,acceptor_oxygen,0,K05601 absent AND K14127 absent AND K00177 absent AND K16370 absent AND K14467 absent AND K08357 absent,6,32,0.9062,0.7838
+da,acceptor_oxygen,0,K05601 absent AND K14127 absent AND K00177 absent AND K16370 absent AND K14467 present AND K02575 present,6,0,,0.0000
+da,acceptor_oxygen,0,K05601 absent AND K14127 absent AND K00177 absent AND K16370 present AND K20035 absent AND K01725 absent,6,1,1.0000,0.0270
+da,acceptor_oxygen,0,K05601 absent AND K14127 absent AND K00177 absent AND K16370 present AND K20035 present AND K00261 absent,6,0,,0.0000
+da,acceptor_oxygen,0,K05601 absent AND K14127 absent AND K00177 absent AND K16370 present AND K20035 present AND K00261 present,6,0,,0.0000
+da,acceptor_oxygen,0,K05601 absent AND K14127 absent AND K00177 present AND K28728 present,4,0,,0.0000
+da,acceptor_oxygen,0,K05601 present AND K22082 absent AND K15371 present AND K03615 present,4,3,0.3333,0.0270
+da,acceptor_oxygen,0,K05601 present AND K22082 present AND K15555 present,3,6,0.0000,0.0000
+da,acceptor_oxygen,1,K05601 absent AND K00198 absent,2,38,0.7632,0.9062
+da,acceptor_oxygen,1,K05601 present AND K02259 present,2,0,,0.0000
+da,acceptor_oxygen,2,K05601 absent AND K03388 absent AND K01006 absent AND K05884 absent,4,27,0.7037,0.5278
+da,acceptor_oxygen,2,K05601 absent AND K03388 absent AND K01006 present AND K00174 absent,4,8,0.8750,0.1944
+da,acceptor_oxygen,2,K05601 present AND K26139 absent AND K04561 present AND K02586 absent,4,0,,0.0000
+da,acceptor_oxygen,2,K05601 present AND K26139 present,2,2,0.0000,0.0000
+da,acceptor_oxygen,3,K00177 absent AND K05601 absent,2,42,0.8333,0.8974
+da,acceptor_oxygen,3,K00177 present AND K13378 present,2,2,0.0000,0.0000
+da,acceptor_oxygen,4,K05601 absent AND K14128 absent AND K08352 absent,3,36,0.7778,0.8485
+da,acceptor_oxygen,4,K05601 absent AND K14128 absent AND K08352 present,3,5,1.0000,0.1515
+da,acceptor_oxygen,4,K05601 present AND K02259 absent AND K17725 present,3,1,0.0000,0.0000
+da,acceptor_oxygen,4,K05601 present AND K02259 present,2,0,,0.0000
+da,acceptor_nitrate,0,K00371 absent AND K02567 absent AND K02276 absent AND K07307 absent AND K15864 absent AND K10831 present,6,0,,0.0000
+da,acceptor_nitrate,0,K00371 absent AND K02567 absent AND K02276 absent AND K07307 absent AND K15864 present,5,0,,0.0000
+da,acceptor_nitrate,0,K00371 absent AND K02567 absent AND K02276 absent AND K07307 present,4,0,,0.0000
+da,acceptor_nitrate,0,K00371 absent AND K02567 absent AND K02276 present AND K02277 absent AND K00262 absent AND K21071 present,6,2,0.0000,0.0000
+da,acceptor_nitrate,0,K00371 absent AND K02567 absent AND K02276 present AND K02277 absent AND K00262 present AND K11645 absent,6,1,1.0000,0.0526
+da,acceptor_nitrate,0,K00371 absent AND K02567 present AND K14128 absent AND K15635 absent AND K25995 absent AND K00926 absent,6,3,0.6667,0.1053
+da,acceptor_nitrate,0,K00371 absent AND K02567 present AND K14128 absent AND K15635 absent AND K25995 absent AND K00926 present,6,2,0.5000,0.0526
+da,acceptor_nitrate,0,K00371 absent AND K02567 present AND K14128 absent AND K15635 absent AND K25995 present,5,2,0.5000,0.0526
+da,acceptor_nitrate,0,K00371 present AND K27925 absent AND K08097 absent AND K00366 absent AND K15876 absent AND K00370 absent,6,0,,0.0000
+da,acceptor_nitrate,0,K00371 present AND K27925 absent AND K08097 absent AND K00366 absent AND K15876 absent AND K00370 present,6,12,0.6667,0.4211
+da,acceptor_nitrate,0,K00371 present AND K27925 absent AND K08097 absent AND K00366 absent AND K15876 present,5,1,0.0000,0.0000
+da,acceptor_nitrate,0,K00371 present AND K27925 absent AND K08097 absent AND K00366 present AND K17230 absent,5,0,,0.0000
+da,acceptor_nitrate,0,K00371 present AND K27925 absent AND K08097 present AND K01807 absent,4,0,,0.0000
+da,acceptor_nitrate,1,K02276 absent AND K02567 absent AND K15576 present,3,5,0.0000,0.0000
+da,acceptor_nitrate,1,K02276 absent AND K02567 present AND K05606 absent,3,3,1.0000,0.1429
+da,acceptor_nitrate,1,K02276 present AND K00262 absent AND K01673 present,3,7,0.5714,0.1905
+da,acceptor_nitrate,1,K02276 present AND K00262 present AND K01011 absent,3,1,0.0000,0.0000
+da,acceptor_nitrate,1,K02276 present AND K00262 present AND K01011 present,3,15,0.6667,0.4762
+da,acceptor_nitrate,2,K02275 absent AND K02567 absent AND K00185 present,3,1,0.0000,0.0000
+da,acceptor_nitrate,2,K02275 absent AND K02567 present AND K15635 absent,3,4,0.5000,0.1176
+da,acceptor_nitrate,2,K02275 present AND K00370 absent AND K04561 present,3,1,1.0000,0.0588
+da,acceptor_nitrate,2,K02275 present AND K00370 present AND K00366 absent,3,10,0.4000,0.2353
+da,acceptor_nitrate,2,K02275 present AND K00370 present AND K00366 present,3,0,,0.0000
+da,acceptor_nitrate,3,K02276 absent AND K02567 present,2,6,0.8333,0.2083
+da,acceptor_nitrate,3,K02276 present AND K01491 present,2,26,0.6538,0.7083
+da,acceptor_nitrate,4,K02575 absent AND K02567 present,2,7,0.5714,0.1905
+da,acceptor_nitrate,4,K02575 present AND K27925 absent,2,14,0.6429,0.4286
+da,acceptor_sulfate,0,K27187 absent AND K00176 present AND K15986 absent AND K01963 present AND K00172 absent,5,1,0.0000,0.0000
+da,acceptor_sulfate,0,K27187 absent AND K00176 present AND K15986 absent AND K01963 present AND K00172 present AND K00641 absent,6,1,0.0000,0.0000
+da,acceptor_sulfate,0,K27187 present AND K27196 absent AND K15231 absent AND K15020 absent,4,17,0.8824,1.0000
+da,acceptor_sulfate,0,K27187 present AND K27196 absent AND K15231 absent AND K15020 present,4,0,,0.0000
+da,acceptor_sulfate,0,K27187 present AND K27196 absent AND K15231 present,3,0,,0.0000
+da,acceptor_sulfate,0,K27187 present AND K27196 present AND K01958 present AND K01011 absent,4,0,,0.0000
+da,acceptor_sulfate,1,K11180 absent AND K00176 present AND K06281 absent AND K00127 present,4,0,,0.0000
+da,acceptor_sulfate,1,K11180 absent AND K00176 present AND K06281 present AND K00937 absent,4,1,1.0000,0.0769
+da,acceptor_sulfate,1,K11180 absent AND K00176 present AND K06281 present AND K00937 present,4,3,0.0000,0.0000
+da,acceptor_sulfate,1,K11180 present AND K27196 absent AND K03388 absent,3,4,0.5000,0.1538
+da,acceptor_sulfate,1,K11180 present AND K27196 absent AND K03388 present AND K20034 absent,4,8,1.0000,0.6154
+da,acceptor_sulfate,1,K11180 present AND K27196 absent AND K03388 present AND K20034 present,4,1,1.0000,0.0769
+da,acceptor_sulfate,1,K11180 present AND K27196 present AND K01958 present AND K01011 absent,4,0,,0.0000
+da,acceptor_sulfate,2,K27187 absent AND K22305 absent AND K15022 present AND K00265 absent,4,1,1.0000,0.0833
+da,acceptor_sulfate,2,K27187 absent AND K22305 present AND K00196 present,3,1,0.0000,0.0000
+da,acceptor_sulfate,2,K27187 present AND K27196 absent AND K03885 absent AND K00395 absent,4,2,0.5000,0.0833
+da,acceptor_sulfate,2,K27187 present AND K27196 absent AND K03885 absent AND K00395 present,4,4,1.0000,0.3333
+da,acceptor_sulfate,2,K27187 present AND K27196 absent AND K03885 present,3,0,,0.0000
+da,acceptor_sulfate,3,K27187 present AND K27196 absent,2,8,1.0000,0.8000
+da,acceptor_sulfate,4,K27187 absent AND K15022 absent AND K06019 present AND K03737 absent,4,0,,0.0000
+da,acceptor_sulfate,4,K27187 absent AND K15022 present,2,2,0.0000,0.0000
+da,acceptor_sulfate,4,K27187 present AND K27196 absent AND K00958 present AND K01938 absent,4,8,1.0000,0.6154
+da,acceptor_sulfate,4,K27187 present AND K27196 absent AND K00958 present AND K01938 present,4,0,,0.0000
+da,acceptor_sulfate,4,K27187 present AND K27196 present AND K01958 present AND K01011 absent,4,0,,0.0000
+da,acceptor_sulfur,0,K00335 absent AND K15553 absent,2,11,0.4545,0.5556
+da,acceptor_sulfur,0,K00335 present AND K15876 present,2,14,0.1429,0.2222
+da,acceptor_sulfur,1,K28462 absent AND K15553 absent AND K00385 absent,3,35,0.4000,0.9333
+da,acceptor_sulfur,1,K28462 absent AND K15553 present AND K00185 present,3,1,0.0000,0.0000
+da,acceptor_sulfur,1,K28462 present AND K07812 present,2,0,,0.0000
+da,acceptor_sulfur,2,K01601 absent AND K00335 absent,2,19,0.3158,0.5455
+da,acceptor_sulfur,2,K01601 present AND K03533 present,2,0,,0.0000
+da,acceptor_sulfur,3,K00937 absent AND K15553 absent AND K01679 absent AND K10978 absent,4,17,0.1176,0.4000
+da,acceptor_sulfur,3,K00937 absent AND K15553 absent AND K01679 present AND K01622 present,4,0,,0.0000
+da,acceptor_sulfur,3,K00937 present AND K08357 absent AND K18367 present AND K01500 absent,4,3,0.0000,0.0000
+da,acceptor_sulfur,3,K00937 present AND K08357 present AND K15634 absent,3,2,0.0000,0.0000
+da,acceptor_sulfur,4,K00831 absent AND K00577 absent AND K02277 absent AND K16179 absent,4,13,0.2308,0.3000
+da,acceptor_sulfur,4,K00831 present AND K15635 present AND K01679 absent AND K00441 present,4,5,0.0000,0.0000
+da,acceptor_CO2_methanogen_acetogen,0,K00338 absent AND K17218 absent,2,15,0.6667,0.7692
+da,acceptor_CO2_methanogen_acetogen,0,K00338 present AND K00185 present,2,1,0.0000,0.0000
+da,acceptor_CO2_methanogen_acetogen,1,K00194 absent AND K18209 present,2,2,1.0000,0.1667
+da,acceptor_CO2_methanogen_acetogen,1,K00194 present AND K00958 absent,2,8,1.0000,0.6667
+da,acceptor_CO2_methanogen_acetogen,2,K00197 absent AND K18209 present,2,1,1.0000,0.0556
+da,acceptor_CO2_methanogen_acetogen,2,K00197 present AND K00958 absent,2,15,1.0000,0.8333
+da,acceptor_CO2_methanogen_acetogen,3,K00194 absent AND K00399 present,2,3,0.6667,0.1429
+da,acceptor_CO2_methanogen_acetogen,3,K00194 present AND K00958 absent AND K11261 absent,3,0,,0.0000
+da,acceptor_CO2_methanogen_acetogen,3,K00194 present AND K00958 absent AND K11261 present,3,11,0.9091,0.7143
+da,acceptor_CO2_methanogen_acetogen,3,K00194 present AND K00958 present AND K05979 present,3,3,0.0000,0.0000
+da,acceptor_CO2_methanogen_acetogen,4,K00338 absent AND K10535 absent AND K02257 absent AND K03841 absent AND K00531 absent AND K00193 absent,6,5,1.0000,0.2778
+da,acceptor_CO2_methanogen_acetogen,4,K00338 absent AND K10535 absent AND K02257 absent AND K03841 absent AND K00531 absent AND K00193 present,6,10,0.6000,0.3333
+da,acceptor_CO2_methanogen_acetogen,4,K00338 absent AND K10535 absent AND K02257 absent AND K03841 absent AND K00531 present,5,0,,0.0000
+da,acceptor_CO2_methanogen_acetogen,4,K00338 absent AND K10535 absent AND K02257 absent AND K03841 present AND K10977 absent,5,0,,0.0000
+da,acceptor_CO2_methanogen_acetogen,4,K00338 absent AND K10535 absent AND K02257 absent AND K03841 present AND K10977 present,5,0,,0.0000
+da,acceptor_CO2_methanogen_acetogen,4,K00338 absent AND K10535 present AND K00184 present,3,0,,0.0000
+da,acceptor_CO2_methanogen_acetogen,4,K00338 present AND K15024 absent AND K00239 absent AND K02257 present AND K17725 absent,5,0,,0.0000
+da,acceptor_CO2_methanogen_acetogen,4,K00338 present AND K15024 present,2,5,0.8000,0.2222
+da,acceptor_iron,0,K10764 absent AND K00031 present,2,25,0.0800,0.3333
+da,acceptor_iron,0,K10764 present AND K22305 present,2,1,0.0000,0.0000
+da,acceptor_iron,1,K00412 absent AND K00385 absent AND K10945 absent AND K17218 absent AND K01673 absent AND K06281 absent,6,4,0.0000,0.0000
+da,acceptor_iron,1,K00412 absent AND K00385 absent AND K10945 absent AND K17218 absent AND K01673 present AND K01959 present,6,1,1.0000,0.1250
+da,acceptor_iron,1,K00412 absent AND K00385 absent AND K10945 absent AND K17218 present AND K00031 present AND K01455 absent,6,11,0.3636,0.5000
+da,acceptor_iron,1,K00412 present AND K15762 present AND K02297 present AND K03972 present,4,0,,0.0000
+da,acceptor_iron,2,K01082 absent AND K00368 absent AND K03615 absent,3,36,0.1111,0.6667
+da,acceptor_iron,2,K01082 present AND K03886 present,2,0,,0.0000
+da,acceptor_iron,3,K03616 absent AND K02275 absent AND K00031 absent AND K01595 present,4,2,0.0000,0.0000
+da,acceptor_iron,3,K03616 absent AND K02275 absent AND K00031 present AND K01895 present,4,14,0.0714,0.2000
+da,acceptor_iron,3,K03616 present AND K02109 absent,2,0,,0.0000
+da,acceptor_iron,4,K08094 absent AND K00031 present AND K03615 absent AND K03972 present,4,5,0.4000,0.2857
+da,acceptor_iron,4,K08094 present AND K01595 absent AND K03422 absent,3,1,0.0000,0.0000
+da,acceptor_iron,4,K08094 present AND K01595 present AND K00937 absent AND K00374 absent,4,1,0.0000,0.0000
+da,acceptor_other,0,K00185 absent AND K22083 absent AND K23995 absent AND K00937 absent,4,17,0.0588,0.2000
+da,acceptor_other,0,K00185 absent AND K22083 absent AND K23995 present AND K17225 present,4,0,,0.0000
+da,acceptor_other,0,K00185 present AND K00240 present AND K16179 absent,3,1,1.0000,0.2000
+da,acceptor_other,0,K00185 present AND K00240 present AND K16179 present,3,0,,0.0000
+da,acceptor_other,1,K08352 absent AND K00148 absent AND K01070 present AND K00018 present,4,2,0.0000,0.0000
+da,acceptor_other,1,K08352 absent AND K00148 present AND K02160 absent AND K28956 present,4,0,,0.0000
+da,acceptor_other,1,K08352 present AND K17230 absent AND K00240 present AND K00442 absent,4,18,0.0556,0.2000
+da,acceptor_other,2,K01725 absent AND K02117 absent AND K03615 absent,3,24,0.0833,0.6667
+da,acceptor_other,2,K01725 absent AND K02117 present AND K00148 present,3,0,,0.0000
+da,acceptor_other,3,K03615 absent AND K01535 absent AND K01725 absent AND K00031 present,4,15,0.1333,0.5000
+da,acceptor_other,4,K00937 absent AND K00425 present,2,15,0.0667,0.1667
+da,acceptor_other,4,K00937 present AND K00148 present,2,2,0.0000,0.0000

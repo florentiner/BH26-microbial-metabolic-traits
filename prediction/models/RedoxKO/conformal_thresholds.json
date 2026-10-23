@@ -1,0 +1,64 @@
+{
+ "model": "RedoxKO (results/models/RF)",
+ "model_sha256": "310d84ef335579bace4d5118af33c8e46a9fe2810327171742e2177227b6362a",
+ "method": "Mondrian split-conformal, non-conformity 1 - p(class), calibrated on family-level out-of-fold scores of the 358 training genomes, target coverage 90%",
+ "source": "src/149_conformal_rf.py -> results/additional/rf_x3_quantiles.json",
+ "thresholds": {
+  "acceptor_CO2_methanogen_acetogen": {
+   "0": 0.17066666666666666,
+   "1": 0.6806666666666668
+  },
+  "acceptor_iron": {
+   "0": 0.24266666666666667,
+   "1": 0.9846666666666667
+  },
+  "acceptor_nitrate": {
+   "0": 0.4633333333333333,
+   "1": 0.7923963115219241
+  },
+  "acceptor_other": {
+   "0": 0.22328971203202727,
+   "1": 0.9700190476190476
+  },
+  "acceptor_oxygen": {
+   "0": 0.7891298240591293,
+   "1": 0.640786203448223
+  },
+  "acceptor_sulfate": {
+   "0": 0.2660585247769765,
+   "1": 0.8193333333333334
+  },
+  "acceptor_sulfur": {
+   "0": 0.28,
+   "1": 0.9166666666666666
+  },
+  "donor_CO_oxidation": {
+   "0": 0.23429375771849914,
+   "1": 0.9433333333333334
+  },
+  "donor_ammonia_oxidation": {
+   "0": 0.14933333333333335,
+   "1": 0.9786666666666667
+  },
+  "donor_hydrogen_oxidation": {
+   "0": 0.7038750364354182,
+   "1": 0.6041361663911766
+  },
+  "donor_iron_oxidation": {
+   "0": 0.17200000000000001,
+   "1": 0.95
+  },
+  "donor_nitrite_oxidation": {
+   "0": 0.13785979259576323,
+   "1": 0.8632285282571911
+  },
+  "donor_other": {
+   "0": 0.27627535369149975,
+   "1": 0.9886666666666667
+  },
+  "donor_sulfur_oxidation": {
+   "0": 0.416,
+   "1": 0.7646666666666667
+  }
+ }
+}

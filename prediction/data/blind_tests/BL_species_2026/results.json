@@ -1,0 +1,47 @@
+{
+ "tests": 51,
+ "positives": 45,
+ "species": 49,
+ "papers": 46,
+ "per_category": {
+  "acceptor_nitrate": {
+   "count": 1,
+   "sum": 0
+  },
+  "acceptor_oxygen": {
+   "count": 49,
+   "sum": 45
+  },
+  "donor_sulfur_oxidation": {
+   "count": 1,
+   "sum": 0
+  }
+ },
+ "RedoxKO": {
+  "per_category_auroc": {
+   "acceptor_oxygen": 0.9666666666666667
+  },
+  "macro_auroc": NaN,
+  "macro_auroc_ci": null,
+  "categories_in_auroc": [
+   "acceptor_oxygen"
+  ],
+  "released_calls": 50,
+  "released_accuracy": 0.92,
+  "released_mcc": 0.5555555555555556
+ },
+ "RedoxKO-LX": {
+  "per_category_auroc": {
+   "acceptor_oxygen": 0.8888888888888888
+  },
+  "macro_auroc": NaN,
+  "macro_auroc_ci": null,
+  "categories_in_auroc": [
+   "acceptor_oxygen"
+  ],
+  "released_calls": 50,
+  "released_accuracy": 0.76,
+  "released_mcc": 0.363696483726654
+ },
+ "descriptive_only": true
+}

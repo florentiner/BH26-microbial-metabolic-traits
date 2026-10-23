@@ -1,0 +1,27 @@
+{
+  "arm": "B2",
+  "trained_on": "358 labelled genomes (all)",
+  "date": "2026-09-18",
+  "traits": [
+    "donor_sulfur_oxidation",
+    "donor_ammonia_oxidation",
+    "donor_nitrite_oxidation",
+    "donor_hydrogen_oxidation",
+    "donor_CO_oxidation",
+    "donor_iron_oxidation",
+    "donor_other",
+    "acceptor_oxygen",
+    "acceptor_nitrate",
+    "acceptor_sulfate",
+    "acceptor_sulfur",
+    "acceptor_CO2_methanogen_acetogen",
+    "acceptor_iron",
+    "acceptor_other"
+  ],
+  "feature_set": "energy_panel",
+  "kofam_release": "2026-08-25 (profiles.tar.gz Last-Modified)",
+  "esm2_model": "facebook/esm2_t12_35M_UR50D@6fbf070e65b0b7291e7bbcd451118c216cff79d8",
+  "bacformer_model": "macwiatrak/bacformer-masked-complete-genomes@d1c461f1db75902e6502e5ba7588ea1a4ea96b29",
+  "labels_sha256": "d0be271455723b929f975dcb3e94022d48c554a3776f7c3eeaf44aef1a3a0dfb",
+  "cv_performance_file": "results/metrics_per_trait.csv (outer CV; refit has no held-out estimate)"
+}

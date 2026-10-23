@@ -1,0 +1,2 @@
+trait,KO,n_folds_top10,mean_rank,mean_score,stability,ig_direction,mean_abs_ig,known_marker
+acceptor_CO2_methanogen_acetogen,K17725,3,6.6667,0.1647,0.6000,-0.6114,0.1647,False

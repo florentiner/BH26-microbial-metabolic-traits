@@ -1,0 +1,211 @@
+trait,rank,KO,definition,importance_auprc_drop,is_rule_marker
+donor_sulfur_oxidation,1,K27925,tetrathionate hydrolase [EC:3.12.1.2],0.0085,False
+donor_sulfur_oxidation,2,K01595,phosphoenolpyruvate carboxylase [EC:4.1.1.31],0.0083,False
+donor_sulfur_oxidation,3,K17227,sulfur-oxidizing protein SoxZ,0.0070,True
+donor_sulfur_oxidation,4,K02567,nitrate reductase (cytochrome) [EC:1.9.6.1],0.0051,False
+donor_sulfur_oxidation,5,K17229,sulfide dehydrogenase [flavocytochrome c] flavoprotein chain [EC:1.8.2.3],0.0040,True
+donor_sulfur_oxidation,6,K17218,sulfide:quinone oxidoreductase [EC:1.8.5.4],0.0036,True
+donor_sulfur_oxidation,7,K02048,sulfate/thiosulfate transport system substrate-binding protein,0.0029,False
+donor_sulfur_oxidation,8,K00410,ubiquinol-cytochrome c reductase cytochrome b/c1 subunit,0.0026,False
+donor_sulfur_oxidation,9,K17223,L-cysteine S-thiosulfotransferase [EC:2.8.5.2],0.0025,True
+donor_sulfur_oxidation,10,K02827,cytochrome aa3-600 menaquinol oxidase subunit I [EC:7.1.1.5],0.0025,False
+donor_sulfur_oxidation,11,K02047,sulfate/thiosulfate transport system permease protein,0.0023,False
+donor_sulfur_oxidation,12,K14470,2-methylfumaryl-CoA isomerase [EC:5.4.1.3],0.0021,False
+donor_sulfur_oxidation,13,K00424,cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7],0.0020,False
+donor_sulfur_oxidation,14,K00371,"nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-]",0.0020,False
+donor_sulfur_oxidation,15,K01011,thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2],0.0020,False
+donor_ammonia_oxidation,1,K10945,methane/ammonia monooxygenase subunit B,0.1103,True
+donor_ammonia_oxidation,2,K10946,methane/ammonia monooxygenase subunit C,0.0300,True
+donor_ammonia_oxidation,3,K10535,hydroxylamine dehydrogenase [EC:1.7.2.6],0.0186,True
+donor_ammonia_oxidation,4,K00390,phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10],0.0185,False
+donor_ammonia_oxidation,5,K00360,assimilatory nitrate reductase electron transfer subunit [EC:1.7.99.-],0.0176,False
+donor_ammonia_oxidation,6,K18277,trimethylamine monooxygenase [EC:1.14.13.148],0.0166,False
+donor_ammonia_oxidation,7,K02259,heme a synthase [EC:1.17.99.9],0.0152,False
+donor_ammonia_oxidation,8,K17228,dimethylsulfone monooxygenase [EC:1.14.14.35],0.0130,False
+donor_ammonia_oxidation,9,K15635,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]",0.0094,False
+donor_ammonia_oxidation,10,K15633,"2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12]",0.0087,False
+donor_ammonia_oxidation,11,K01679,"fumarate hydratase, class II [EC:4.2.1.2]",0.0085,False
+donor_ammonia_oxidation,12,K00170,pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1],0.0081,False
+donor_ammonia_oxidation,13,K00031,isocitrate dehydrogenase [EC:1.1.1.42],0.0081,False
+donor_ammonia_oxidation,14,K28979,trimethylamine-oxide aldolase [EC:4.1.2.32],0.0073,False
+donor_ammonia_oxidation,15,K28956,carbonic anhydrase [EC:4.2.1.1],0.0073,False
+donor_nitrite_oxidation,1,K00368,nitrite reductase (NO-forming) [EC:1.7.2.1],0.0162,False
+donor_nitrite_oxidation,2,K01738,cysteine synthase [EC:2.5.1.47],0.0161,False
+donor_nitrite_oxidation,3,K01895,acetyl-CoA synthetase [EC:6.2.1.1],0.0128,False
+donor_nitrite_oxidation,4,K02203,phosphoserine / homoserine phosphotransferase [EC:3.1.3.3 2.7.1.39],0.0108,False
+donor_nitrite_oxidation,5,K13039,sulfopyruvate decarboxylase subunit beta [EC:4.1.1.79],0.0078,False
+donor_nitrite_oxidation,6,K02636,cytochrome b6-f complex iron-sulfur subunit [EC:7.1.1.6],0.0073,False
+donor_nitrite_oxidation,7,K03886,"quinol---cytochrome c reductase iron-sulfur subunit, bacillus type [EC:7.1.1.8]",0.0050,False
+donor_nitrite_oxidation,8,K00332,NADH-quinone oxidoreductase subunit C [EC:7.1.1.2],0.0047,False
+donor_nitrite_oxidation,9,K06034,sulfopyruvate decarboxylase subunit alpha [EC:4.1.1.79],0.0033,False
+donor_nitrite_oxidation,10,K00261,glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3],0.0032,False
+donor_nitrite_oxidation,11,K01676,"fumarate hydratase, class I [EC:4.2.1.2]",0.0031,False
+donor_nitrite_oxidation,12,K00372,assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-],0.0031,False
+donor_nitrite_oxidation,13,K13810,transaldolase / glucose-6-phosphate isomerase [EC:2.2.1.2 5.3.1.9],0.0030,False
+donor_nitrite_oxidation,14,K00459,nitronate monooxygenase [EC:1.13.12.16],0.0028,False
+donor_nitrite_oxidation,15,K21071,ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.7.1.90],0.0028,False
+donor_hydrogen_oxidation,1,K01678,fumarate hydratase subunit beta [EC:4.2.1.2],0.0183,False
+donor_hydrogen_oxidation,2,K00340,NADH-quinone oxidoreductase subunit K [EC:7.1.1.2],0.0170,False
+donor_hydrogen_oxidation,3,K08357,tetrathionate reductase subunit A,0.0147,False
+donor_hydrogen_oxidation,4,K15986,manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1],0.0098,False
+donor_hydrogen_oxidation,5,K06281,hydrogenase large subunit [EC:1.12.99.6],0.0087,True
+donor_hydrogen_oxidation,6,K03885,NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9],0.0086,False
+donor_hydrogen_oxidation,7,K00343,NADH-quinone oxidoreductase subunit N [EC:7.1.1.2],0.0075,False
+donor_hydrogen_oxidation,8,K15553,sulfonate transport system substrate-binding protein,0.0064,False
+donor_hydrogen_oxidation,9,K11261,formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12],0.0058,False
+donor_hydrogen_oxidation,10,K00338,NADH-quinone oxidoreductase subunit I [EC:7.1.1.2],0.0041,False
+donor_hydrogen_oxidation,11,K01849,"methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2]",0.0041,False
+donor_hydrogen_oxidation,12,K00058,D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399],0.0040,False
+donor_hydrogen_oxidation,13,K01082,"3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7]",0.0038,False
+donor_hydrogen_oxidation,14,K00341,NADH-quinone oxidoreductase subunit L [EC:7.1.1.2],0.0037,False
+donor_hydrogen_oxidation,15,K00335,NADH-quinone oxidoreductase subunit F [EC:7.1.1.2],0.0034,False
+donor_CO_oxidation,1,K03841,"fructose-1,6-bisphosphatase I [EC:3.1.3.11]",0.0290,False
+donor_CO_oxidation,2,K01677,fumarate hydratase subunit alpha [EC:4.2.1.2],0.0244,False
+donor_CO_oxidation,3,K00850,6-phosphofructokinase 1 [EC:2.7.1.11],0.0229,False
+donor_CO_oxidation,4,K03972,thiosulfate sulfurtransferase [EC:2.8.1.1],0.0216,False
+donor_CO_oxidation,5,K00018,glycerate dehydrogenase [EC:1.1.1.29],0.0193,False
+donor_CO_oxidation,6,K01938,formate--tetrahydrofolate ligase [EC:6.3.4.3],0.0187,False
+donor_CO_oxidation,7,K21071,ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.7.1.90],0.0172,False
+donor_CO_oxidation,8,K06881,bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3],0.0160,False
+donor_CO_oxidation,9,K00126,formate dehydrogenase subunit delta [EC:1.17.1.9],0.0154,False
+donor_CO_oxidation,10,K00937,polyphosphate kinase [EC:2.7.4.1],0.0149,False
+donor_CO_oxidation,11,K03518,aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3],0.0149,True
+donor_CO_oxidation,12,K05884,L-2-hydroxycarboxylate dehydrogenase (NAD+) [EC:1.1.1.337],0.0132,False
+donor_CO_oxidation,13,K01958,pyruvate carboxylase [EC:6.4.1.1],0.0121,False
+donor_CO_oxidation,14,K00459,nitronate monooxygenase [EC:1.13.12.16],0.0116,False
+donor_CO_oxidation,15,K00625,phosphate acetyltransferase [EC:2.3.1.8],0.0112,False
+donor_iron_oxidation,1,K02827,cytochrome aa3-600 menaquinol oxidase subunit I [EC:7.1.1.5],0.0233,False
+donor_iron_oxidation,2,K17229,sulfide dehydrogenase [flavocytochrome c] flavoprotein chain [EC:1.8.2.3],0.0140,False
+donor_iron_oxidation,3,K27925,tetrathionate hydrolase [EC:3.12.1.2],0.0094,False
+donor_iron_oxidation,4,K24007,cytochrome aa3-type oxidase subunit SoxD,0.0077,False
+donor_iron_oxidation,5,K28956,carbonic anhydrase [EC:4.2.1.1],0.0051,False
+donor_iron_oxidation,6,K01847,methylmalonyl-CoA mutase [EC:5.4.99.2],0.0046,False
+donor_iron_oxidation,7,K02045,sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3],0.0043,False
+donor_iron_oxidation,8,K00368,nitrite reductase (NO-forming) [EC:1.7.2.1],0.0041,False
+donor_iron_oxidation,9,K00245,succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1],0.0040,False
+donor_iron_oxidation,10,K00926,carbamate kinase [EC:2.7.2.2],0.0038,False
+donor_iron_oxidation,11,K01535,H+-transporting ATPase [EC:7.1.2.1],0.0037,False
+donor_iron_oxidation,12,K27187,[DsrC]-trisulfide reductase subunit M [EC:1.8.5.10],0.0036,False
+donor_iron_oxidation,13,K17230,cytochrome subunit of sulfide dehydrogenase,0.0033,False
+donor_iron_oxidation,14,K16951,anaerobic sulfite reductase subunit B,0.0032,False
+donor_iron_oxidation,15,K01678,fumarate hydratase subunit beta [EC:4.2.1.2],0.0032,False
+donor_other,1,K28956,carbonic anhydrase [EC:4.2.1.1],0.0106,False
+donor_other,2,K00370,"nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]",0.0084,False
+donor_other,3,K03520,aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3],0.0067,False
+donor_other,4,K01011,thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2],0.0060,False
+donor_other,5,K00124,formate dehydrogenase iron-sulfur subunit,0.0057,False
+donor_other,6,K06281,hydrogenase large subunit [EC:1.12.99.6],0.0053,False
+donor_other,7,K20035,3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41],0.0053,False
+donor_other,8,K02575,"MFS transporter, NNP family, nitrate/nitrite transporter",0.0051,False
+donor_other,9,K03616,H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2],0.0044,False
+donor_other,10,K27187,[DsrC]-trisulfide reductase subunit M [EC:1.8.5.10],0.0041,False
+donor_other,11,K15555,sulfonate transport system ATP-binding protein [EC:7.6.2.14],0.0036,False
+donor_other,12,K20034,3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44],0.0036,False
+donor_other,13,K15554,sulfonate transport system permease protein,0.0035,False
+donor_other,14,K04561,nitric oxide reductase subunit B [EC:1.7.2.5],0.0034,False
+donor_other,15,K03519,aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3],0.0033,False
+acceptor_oxygen,1,K16370,6-phosphofructokinase 2 [EC:2.7.1.11],0.0098,False
+acceptor_oxygen,2,K00261,glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3],0.0080,False
+acceptor_oxygen,3,K27925,tetrathionate hydrolase [EC:3.12.1.2],0.0030,False
+acceptor_oxygen,4,K24011,cytochrome aa3-type oxidase subunit I/III [EC:7.1.1.4],0.0029,False
+acceptor_oxygen,5,K24008,cytochrome aa3-type oxidase subunit III,0.0028,False
+acceptor_oxygen,6,K00127,formate dehydrogenase subunit gamma,0.0026,False
+acceptor_oxygen,7,K03616,H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2],0.0026,False
+acceptor_oxygen,8,K22083,methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21],0.0025,False
+acceptor_oxygen,9,K17229,sulfide dehydrogenase [flavocytochrome c] flavoprotein chain [EC:1.8.2.3],0.0024,False
+acceptor_oxygen,10,K13378,NADH-quinone oxidoreductase subunit C/D [EC:7.1.1.2],0.0024,False
+acceptor_oxygen,11,K16952,sulfur oxygenase/reductase [EC:1.13.11.55],0.0024,False
+acceptor_oxygen,12,K17218,sulfide:quinone oxidoreductase [EC:1.8.5.4],0.0023,False
+acceptor_oxygen,13,K00370,"nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]",0.0019,False
+acceptor_oxygen,14,K00426,cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7],0.0018,True
+acceptor_oxygen,15,K01725,cyanate lyase [EC:4.2.1.104],0.0017,False
+acceptor_nitrate,1,K02567,nitrate reductase (cytochrome) [EC:1.9.6.1],0.0172,True
+acceptor_nitrate,2,K15864,nitrite reductase (NO-forming) / hydroxylamine reductase [EC:1.7.2.1 1.7.99.1],0.0084,True
+acceptor_nitrate,3,K02568,"nitrate reductase (cytochrome), electron transfer subunit",0.0073,True
+acceptor_nitrate,4,K10831,taurine transport system ATP-binding protein [EC:7.6.2.7],0.0066,False
+acceptor_nitrate,5,K00373,nitrate reductase molybdenum cofactor assembly chaperone NarJ/NarW,0.0066,True
+acceptor_nitrate,6,K00374,nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-],0.0056,True
+acceptor_nitrate,7,K02575,"MFS transporter, NNP family, nitrate/nitrite transporter",0.0053,False
+acceptor_nitrate,8,K00376,nitrous-oxide reductase [EC:1.7.2.4],0.0051,True
+acceptor_nitrate,9,K05606,methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1],0.0045,False
+acceptor_nitrate,10,K27109,cytochrome c oxidase subunit IV [EC:7.1.1.9],0.0044,False
+acceptor_nitrate,11,K24998,dehydro coenzyme F420 reductase / coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase [EC:1.3.8.17 6.3.2.31 6.3.2.34],0.0044,False
+acceptor_nitrate,12,K15371,glutamate dehydrogenase [EC:1.4.1.2],0.0041,False
+acceptor_nitrate,13,K00371,"nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-]",0.0038,True
+acceptor_nitrate,14,K00370,"nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]",0.0036,True
+acceptor_nitrate,15,K00392,sulfite reductase (ferredoxin) [EC:1.8.7.1],0.0033,False
+acceptor_sulfate,1,K18860,succinate dehydrogenase subunit D,0.0099,False
+acceptor_sulfate,2,K15554,sulfonate transport system permease protein,0.0080,False
+acceptor_sulfate,3,K01834,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]",0.0067,False
+acceptor_sulfate,4,K00170,pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1],0.0062,False
+acceptor_sulfate,5,K11180,dissimilatory sulfite reductase alpha subunit [EC:1.8.1.22],0.0061,True
+acceptor_sulfate,6,K00333,NADH-quinone oxidoreductase subunit D [EC:7.1.1.2],0.0059,False
+acceptor_sulfate,7,K00185,dimethyl sulfoxide reductase membrane subunit,0.0053,False
+acceptor_sulfate,8,K02635,cytochrome b6,0.0053,False
+acceptor_sulfate,9,K14128,F420-non-reducing hydrogenase small subunit [EC:1.12.99.- 1.8.98.5],0.0053,False
+acceptor_sulfate,10,K07306,anaerobic dimethyl sulfoxide reductase subunit A [EC:1.8.5.3],0.0050,False
+acceptor_sulfate,11,K08352,thiosulfate reductase / polysulfide reductase chain A [EC:1.8.5.5],0.0050,False
+acceptor_sulfate,12,K00176,2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3],0.0047,False
+acceptor_sulfate,13,K06281,hydrogenase large subunit [EC:1.12.99.6],0.0047,False
+acceptor_sulfate,14,K02259,heme a synthase [EC:1.17.99.9],0.0046,False
+acceptor_sulfate,15,K13788,phosphate acetyltransferase [EC:2.3.1.8],0.0046,False
+acceptor_sulfur,1,K02567,nitrate reductase (cytochrome) [EC:1.9.6.1],0.0323,False
+acceptor_sulfur,2,K08352,thiosulfate reductase / polysulfide reductase chain A [EC:1.8.5.5],0.0274,True
+acceptor_sulfur,3,K14467,4-hydroxybutyrate---CoA ligase (AMP-forming) [EC:6.2.1.40],0.0240,False
+acceptor_sulfur,4,K24011,cytochrome aa3-type oxidase subunit I/III [EC:7.1.1.4],0.0234,False
+acceptor_sulfur,5,K00123,formate dehydrogenase major subunit [EC:1.17.1.9],0.0216,False
+acceptor_sulfur,6,K00370,"nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-]",0.0210,False
+acceptor_sulfur,7,K01011,thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2],0.0207,False
+acceptor_sulfur,8,K00373,nitrate reductase molybdenum cofactor assembly chaperone NarJ/NarW,0.0191,False
+acceptor_sulfur,9,K03737,pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.8.1],0.0182,False
+acceptor_sulfur,10,K00371,"nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-]",0.0179,False
+acceptor_sulfur,11,K03885,NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9],0.0178,False
+acceptor_sulfur,12,K01006,"pyruvate, orthophosphate dikinase [EC:2.7.9.1]",0.0174,False
+acceptor_sulfur,13,K05922,quinone-reactive Ni/Fe-hydrogenase large subunit [EC:1.12.5.1],0.0168,False
+acceptor_sulfur,14,K01007,"pyruvate, water dikinase [EC:2.7.9.2]",0.0156,False
+acceptor_sulfur,15,K27925,tetrathionate hydrolase [EC:3.12.1.2],0.0150,False
+acceptor_CO2_methanogen_acetogen,1,K00958,sulfate adenylyltransferase [EC:2.7.7.4],0.0355,False
+acceptor_CO2_methanogen_acetogen,2,K11261,formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12],0.0187,False
+acceptor_CO2_methanogen_acetogen,3,K00194,"acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245]",0.0128,False
+acceptor_CO2_methanogen_acetogen,4,K14084,trimethylamine corrinoid protein,0.0069,False
+acceptor_CO2_methanogen_acetogen,5,K00640,serine O-acetyltransferase [EC:2.3.1.30],0.0067,False
+acceptor_CO2_methanogen_acetogen,6,K01622,"fructose 1,6-bisphosphate aldolase/phosphatase [EC:4.1.2.13 3.1.3.11]",0.0064,False
+acceptor_CO2_methanogen_acetogen,7,K11645,"fructose-bisphosphate aldolase, class I [EC:4.1.2.13]",0.0063,False
+acceptor_CO2_methanogen_acetogen,8,K00196,anaerobic carbon-monoxide dehydrogenase iron sulfur subunit,0.0053,False
+acceptor_CO2_methanogen_acetogen,9,K00926,carbamate kinase [EC:2.7.2.2],0.0046,False
+acceptor_CO2_methanogen_acetogen,10,K00831,phosphoserine aminotransferase [EC:2.6.1.52],0.0044,False
+acceptor_CO2_methanogen_acetogen,11,K01679,"fumarate hydratase, class II [EC:4.2.1.2]",0.0043,False
+acceptor_CO2_methanogen_acetogen,12,K01738,cysteine synthase [EC:2.5.1.47],0.0039,False
+acceptor_CO2_methanogen_acetogen,13,K15553,sulfonate transport system substrate-binding protein,0.0038,False
+acceptor_CO2_methanogen_acetogen,14,K00174,2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11],0.0036,False
+acceptor_CO2_methanogen_acetogen,15,K00175,2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11],0.0035,False
+acceptor_iron,1,K00185,dimethyl sulfoxide reductase membrane subunit,0.0293,False
+acceptor_iron,2,K00184,dimethyl sulfoxide reductase iron-sulfur subunit,0.0195,False
+acceptor_iron,3,K08358,tetrathionate reductase subunit B,0.0187,False
+acceptor_iron,4,K01595,phosphoenolpyruvate carboxylase [EC:4.1.1.31],0.0128,False
+acceptor_iron,5,K02827,cytochrome aa3-600 menaquinol oxidase subunit I [EC:7.1.1.5],0.0101,False
+acceptor_iron,6,K01678,fumarate hydratase subunit beta [EC:4.2.1.2],0.0090,False
+acceptor_iron,7,K07306,anaerobic dimethyl sulfoxide reductase subunit A [EC:1.8.5.3],0.0083,False
+acceptor_iron,8,K00260,glutamate dehydrogenase [EC:1.4.1.2],0.0082,False
+acceptor_iron,9,K01834,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]",0.0080,False
+acceptor_iron,10,K05577,NAD(P)H-quinone oxidoreductase subunit 5 [EC:7.1.1.2],0.0074,False
+acceptor_iron,11,K25915,[methyl-Co(III) methoxylated-aromatic-compound-specific corrinoid protein]---tetrahydrofolate methyltransferase [EC:2.1.1.385],0.0047,False
+acceptor_iron,12,K00031,isocitrate dehydrogenase [EC:1.1.1.42],0.0044,False
+acceptor_iron,13,K08094,6-phospho-3-hexuloisomerase [EC:5.3.1.27],0.0041,False
+acceptor_iron,14,K17218,sulfide:quinone oxidoreductase [EC:1.8.5.4],0.0034,False
+acceptor_iron,15,K15231,ATP-citrate lyase beta-subunit [EC:2.3.3.8],0.0030,False
+acceptor_other,1,K03385,nitrite reductase (cytochrome c-552) [EC:1.7.2.2],0.0240,False
+acceptor_other,2,K01678,fumarate hydratase subunit beta [EC:4.2.1.2],0.0234,False
+acceptor_other,3,K00240,succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1],0.0172,False
+acceptor_other,4,K00239,succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1],0.0150,False
+acceptor_other,5,K08358,tetrathionate reductase subunit B,0.0147,False
+acceptor_other,6,K19793,(5-formylfuran-3-yl)methyl phosphate transaminase [EC:2.6.1.108],0.0131,False
+acceptor_other,7,K03615,H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.1.1.11 7.2.1.2],0.0128,False
+acceptor_other,8,K00148,glutathione-independent formaldehyde dehydrogenase [EC:1.2.1.46],0.0124,False
+acceptor_other,9,K08097,phosphosulfolactate synthase [EC:4.4.1.19],0.0116,False
+acceptor_other,10,K00926,carbamate kinase [EC:2.7.2.2],0.0111,False
+acceptor_other,11,K01834,"2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11]",0.0097,False
+acceptor_other,12,K00184,dimethyl sulfoxide reductase iron-sulfur subunit,0.0083,False
+acceptor_other,13,K01535,H+-transporting ATPase [EC:7.1.2.1],0.0082,False
+acceptor_other,14,K00185,dimethyl sulfoxide reductase membrane subunit,0.0082,False
+acceptor_other,15,K00425,cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7],0.0077,False

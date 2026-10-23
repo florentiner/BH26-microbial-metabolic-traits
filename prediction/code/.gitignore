@@ -1,0 +1,5 @@
+# created by setup_layout.sh and by running the predictor
+results/
+data/
+ko_presence_586genomes.tsv
+__pycache__/

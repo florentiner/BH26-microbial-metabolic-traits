@@ -1,0 +1,27 @@
+{
+  "arm": "B2XLE_large",
+  "trained_on": "358 labelled genomes (all)",
+  "date": "2026-09-19",
+  "traits": [
+    "donor_sulfur_oxidation",
+    "donor_ammonia_oxidation",
+    "donor_nitrite_oxidation",
+    "donor_hydrogen_oxidation",
+    "donor_CO_oxidation",
+    "donor_iron_oxidation",
+    "donor_other",
+    "acceptor_oxygen",
+    "acceptor_nitrate",
+    "acceptor_sulfate",
+    "acceptor_sulfur",
+    "acceptor_CO2_methanogen_acetogen",
+    "acceptor_iron",
+    "acceptor_other"
+  ],
+  "feature_set": "energy_panel + bacformer_large_mean",
+  "kofam_release": "2026-08-25 (profiles.tar.gz Last-Modified)",
+  "esm2_model": "facebook/esm2_t12_35M_UR50D@6fbf070e65b0b7291e7bbcd451118c216cff79d8",
+  "bacformer_model": "macwiatrak/bacformer-large-masked-complete-genomes@84f85c37a05e55559142b842c1569e265183b554 (ESM-C 300M = Synthyra/ESMplusplus_small@f840ce88 protein vectors)",
+  "labels_sha256": "d0be271455723b929f975dcb3e94022d48c554a3776f7c3eeaf44aef1a3a0dfb",
+  "cv_performance_file": "results/metrics_per_trait.csv (outer CV; refit has no held-out estimate)"
+}

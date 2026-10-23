@@ -1,0 +1,9 @@
+arm,split_level,n_traits,macro_auprc,macro_auprc_ci_low,macro_auprc_ci_high,macro_auroc,macro_mcc,macro_brier,macro_delta_vs_null,n_traits_better_than_null_q_lt_0_05
+PA,genus,20,0.2127,0.2008,0.2257,0.7062,0.2601,0.1742,-0.1269,2
+PB1,genus,20,0.4669,0.4480,0.5043,0.8885,0.4614,0.0433,0.1273,11
+null_prevalence,genus,20,0.0616,0.0591,0.0656,0.4729,,0.0468,-0.2781,0
+null_taxNN,genus,20,0.3397,0.3203,0.3737,0.7929,,0.0380,0.0000,0
+PA,family,20,0.2127,0.1999,0.2282,0.7062,0.2589,0.1742,-0.0683,3
+PB1,family,20,0.4241,0.3976,0.4634,0.8657,0.4165,0.0459,0.1431,11
+null_prevalence,family,20,0.0582,0.0557,0.0648,0.4408,,0.0469,-0.2228,0
+null_taxNN,family,20,0.2811,0.2513,0.3218,0.7219,,0.0435,0.0000,0

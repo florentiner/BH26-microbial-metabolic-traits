@@ -1,0 +1,21 @@
+task,model,trait,n_known_markers_in_features,n_stable_top,n_stable_top_known,expected_by_chance,p_hypergeom,stable_top_kos,q_bh
+pw,L1,denitrification,12,8,2,0.01264,6.376e-05,"K16558, K04561, K19345, K15916, K07218, K07387, K05555, K02568",0.0002391
+pw,L1,dnra,9,3,1,0.003555,0.003552,"K03223, K03385, K11106",0.008879
+pw,L1,nitrate_reduction,16,7,4,0.01475,4.583e-10,"K02567, K00373, K00370, K02575, K00371, K00688, K01772",6.875e-09
+pw,L1,nitrogen_fixation,4,5,0,0.002634,1,"K02592, K03736, K02635, K12073, K08481",1
+pw,L1,methanogenesis,54,9,3,0.064,2.77e-05,"K03421, K03422, K18210, K00402, K00401, K00399, K00400, K21612, K24409",0.0002078
+pw,L1,acetogenesis,22,2,1,0.005794,0.005786,"K14138, K22516",0.0124
+pw,L1,sulfate_reduction,13,5,1,0.008559,0.008532,"K16885, K27196, K07720, K21936, K16887",0.016
+pw,L1,sulfur_reduction,13,2,1,0.003424,0.003421,"K03738, K08352",0.008879
+pw,L1,sulfur_oxidation,17,5,2,0.01119,4.699e-05,"K17227, K17224, K27187, K04036, K03426",0.0002349
+pw,L1,iron_reduction,0,4,0,0,,"K02994, K09137, K02123, K03385",
+pw,L1,iron_oxidation,0,3,0,0,,"K19058, K07039, K25180",
+pw,L1,manganese_reduction,0,4,0,0,,"K03738, K10535, K28380, K03769",
+pw,L1,arsenate_reduction,0,5,0,0,,"K20940, K28466, K01607, K27874, K21559",
+pw,L1,fumarate_reduction,0,2,0,0,,"K07792, K07318",
+pw,L1,hydrogen_oxidation,3,5,0,0.001975,1,"K01678, K08930, K01895, K01912, K21071",1
+pw,L1,fermentation,32,5,0,0.02107,1,"K00656, K03635, K01845, K00537, K01270",1
+pw,L1,aerobic_chemoheterotrophy,25,7,1,0.02304,0.02283,"K01678, K02275, K02217, K03294, K27492, K00374, K03152",0.03805
+pw,L1,photoautotrophy,16,4,0,0.008428,1,"K04036, K02293, K21134, K08930",1
+pw,L1,photoheterotrophy,2,6,0,0.00158,1,"K08927, K04034, K11336, K18905, K00808, K21034",1
+pw,L1,methylotrophy,22,3,0,0.008691,1,"K20454, K04480, K16254",1

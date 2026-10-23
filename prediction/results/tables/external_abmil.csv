@@ -1,0 +1,10 @@
+trait,auprc
+acceptor_CO2_methanogen_acetogen,0.4265
+acceptor_iron,0.0927
+acceptor_nitrate,0.6392
+acceptor_oxygen,0.9357
+acceptor_sulfate,0.5037
+acceptor_sulfur,0.6115
+donor_hydrogen_oxidation,0.0802
+donor_iron_oxidation,0.2170
+donor_sulfur_oxidation,0.1393

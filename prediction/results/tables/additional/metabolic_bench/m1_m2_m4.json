@@ -1,0 +1,113 @@
+{
+  "mapping_validation": "1716/1716",
+  "external": {
+    "n_pairs": 4962,
+    "n_genomes": 562,
+    "categories": [
+      "acceptor_CO2_methanogen_acetogen",
+      "acceptor_iron",
+      "acceptor_nitrate",
+      "acceptor_oxygen",
+      "acceptor_sulfate",
+      "acceptor_sulfur",
+      "donor_hydrogen_oxidation",
+      "donor_iron_oxidation",
+      "donor_sulfur_oxidation"
+    ],
+    "all": {
+      "macro_auroc_RedoxKO": 0.7952182156155179,
+      "macro_auroc_METABOLIC": 0.7422556582522594,
+      "macro_mcc_RedoxKO": 0.424481619322627,
+      "macro_mcc_METABOLIC": 0.35093403878866314,
+      "sens_RedoxKO": 0.684757505773672,
+      "spec_RedoxKO": 0.86962890625,
+      "prec_RedoxKO": 0.5261756876663709,
+      "sens_METABOLIC": 0.7979214780600462,
+      "spec_METABOLIC": 0.649658203125,
+      "prec_METABOLIC": 0.32502351834430854
+    },
+    "M1_d_macro_auroc": 0.0529625573632585,
+    "M1_ci": [
+      0.025413218777554786,
+      0.0785337145681784
+    ],
+    "M1_success": true,
+    "M1b_d_macro_mcc": 0.07354758053396387,
+    "M1b_ci": [
+      0.024229546894689372,
+      0.11368685485484666
+    ],
+    "released_categories": [
+      "acceptor_CO2_methanogen_acetogen",
+      "acceptor_oxygen",
+      "acceptor_sulfate",
+      "acceptor_sulfur",
+      "donor_sulfur_oxidation"
+    ],
+    "released": {
+      "macro_auroc_RedoxKO": 0.9250621955413907,
+      "macro_auroc_METABOLIC": 0.7809567875746861,
+      "macro_mcc_RedoxKO": 0.6513520159359052,
+      "macro_mcc_METABOLIC": 0.4326296406373215,
+      "sens_RedoxKO": 0.7552182163187856,
+      "spec_RedoxKO": 0.9611339734796525,
+      "prec_RedoxKO": 0.8240165631469979,
+      "sens_METABOLIC": 0.793168880455408,
+      "spec_METABOLIC": 0.7690900777320531,
+      "prec_METABOLIC": 0.4528710725893825
+    },
+    "M1b_released_d_macro_mcc": 0.21872237529858368,
+    "M1b_released_ci": [
+      0.13643338762114687,
+      0.2893108547540334
+    ]
+  },
+  "M2_wins": {
+    "external|auroc": {
+      "METABOLIC": 1,
+      "RedoxKO": 6,
+      "tie": 2
+    },
+    "external|mcc": {
+      "METABOLIC": 2,
+      "RedoxKO": 3,
+      "tie": 4
+    },
+    "external|sens": {
+      "METABOLIC": 4,
+      "RedoxKO": 1,
+      "tie": 4
+    },
+    "external|spec": {
+      "METABOLIC": 1,
+      "RedoxKO": 6,
+      "tie": 2
+    },
+    "new species|auroc": {
+      "METABOLIC": 0,
+      "RedoxKO": 1,
+      "tie": 8
+    },
+    "new species|mcc": {
+      "METABOLIC": 1,
+      "RedoxKO": 1,
+      "tie": 7
+    },
+    "new species|sens": {
+      "METABOLIC": 2,
+      "RedoxKO": 0,
+      "tie": 7
+    },
+    "new species|spec": {
+      "METABOLIC": 1,
+      "RedoxKO": 2,
+      "tie": 6
+    }
+  },
+  "M4_speed": {
+    "METABOLIC_primary100_6threads_s_per_genome": 59.99,
+    "METABOLIC_withheld43_8threads_s_per_genome": 37.58139534883721,
+    "RedoxKO_panel_scan_s_per_genome": 3.3,
+    "RedoxKO_full_prediction_from_accession_s": 14.6
+  }
+}

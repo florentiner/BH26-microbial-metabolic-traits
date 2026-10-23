@@ -1,0 +1,3 @@
+trait,cls,hits,correct,phyla,precision_in_unseen_phyla
+uses_O2,has trait,763,736,12,0.9646
+uses_O2,lacks trait,667,525,12,0.7871

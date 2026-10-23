@@ -1,0 +1,25 @@
+{
+  "n_genomes": 586,
+  "n_marker_kos": 84,
+  "n_groups": 15,
+  "n_with_curated_labels": 358,
+  "n_with_oxygen": 315,
+  "n_with_isolation_source": 321,
+  "n_permutations": 2000,
+  "n_genus_draws": 200,
+  "kos_in_multiple_groups": [
+    "K00198",
+    "K00370",
+    "K00371",
+    "K00394",
+    "K00395",
+    "K00958",
+    "K03520",
+    "K10944",
+    "K10945",
+    "K10946",
+    "K11180",
+    "K11181",
+    "K16157"
+  ]
+}

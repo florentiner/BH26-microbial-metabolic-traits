@@ -1,0 +1,17 @@
+functional_group,phenotype,metric,n_false_negatives,n_true_positives,median_false_negatives,median_true_positives,delta,p_mannwhitney,q_bh
+Hydrogen oxidizing,donor_hydrogen_oxidation,checkm2_completeness,91,111,99.9700,99.9900,-0.0200,0.0113,0.0900
+Hydrogen oxidizing,donor_hydrogen_oxidation,checkm2_contamination,91,111,0.3900,0.5900,-0.2000,0.3460,0.5956
+Formate oxidizing,donor_other,checkm2_completeness,6,17,99.9900,100.0000,-0.0100,0.5743,0.7658
+Formate oxidizing,donor_other,checkm2_contamination,6,17,0.2900,0.2200,0.0700,0.7261,0.7745
+Methane oxidizing (methanotroph),donor_other,checkm2_completeness,10,13,99.9900,100.0000,-0.0100,0.2737,0.5474
+Methane oxidizing (methanotroph),donor_other,checkm2_contamination,10,13,0.5650,0.1700,0.3950,0.0169,0.0900
+Nitrate-reducing (denitrifiers),acceptor_nitrate,checkm2_completeness,9,91,100.0000,100.0000,0.0000,0.9161,0.9161
+Nitrate-reducing (denitrifiers),acceptor_nitrate,checkm2_contamination,9,91,0.2300,0.4200,-0.1900,0.6732,0.7745
+Nitrate-reducing (DNRA),acceptor_nitrate,checkm2_completeness,59,41,100.0000,100.0000,0.0000,0.7159,0.7745
+Nitrate-reducing (DNRA),acceptor_nitrate,checkm2_contamination,59,41,0.3200,0.4800,-0.1600,0.4920,0.7156
+Sulfur-reducing,acceptor_sulfur,checkm2_completeness,8,39,99.8750,99.9900,-0.1150,0.2211,0.5053
+Sulfur-reducing,acceptor_sulfur,checkm2_contamination,8,39,0.2350,0.4100,-0.1750,0.3723,0.5956
+Methanogens (hydrogenotrophic),acceptor_CO2_methanogen_acetogen,checkm2_completeness,25,47,100.0000,99.9200,0.0800,0.0010,0.0156
+Methanogens (hydrogenotrophic),acceptor_CO2_methanogen_acetogen,checkm2_contamination,25,47,1.5700,0.5000,1.0700,0.0407,0.1085
+Acetogens (homoacetogens),acceptor_CO2_methanogen_acetogen,checkm2_completeness,8,64,99.7700,99.9800,-0.2100,0.0325,0.1085
+Acetogens (homoacetogens),acceptor_CO2_methanogen_acetogen,checkm2_contamination,8,64,0.2200,1.1050,-0.8850,0.0376,0.1085

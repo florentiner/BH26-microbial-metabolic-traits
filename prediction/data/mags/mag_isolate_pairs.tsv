@@ -1,0 +1,380 @@
+isolate	set	species	mag	bin	completeness	contamination	isolation_source
+GCF_000006765.1	external	s__Pseudomonas aeruginosa	GCA_027446065.1	70-90	87.17	2.45	sediment
+GCF_000006765.1	external	s__Pseudomonas aeruginosa	GCA_037202035.1	90-100	100.0	0.06	none
+GCF_000006945.2	external	s__Salmonella enterica	GCA_913056535.1	70-90	89.14	0.17	marine metagenome
+GCF_000006945.2	external	s__Salmonella enterica	GCA_031431995.1	90-100	100.0	0.07	none
+GCF_000007985.2	external	s__Geobacter sulfurreducens	GCA_002482655.1	70-90	73.6	0.02	Anode biofilm
+GCF_000007985.2	external	s__Geobacter sulfurreducens	GCA_035326245.1	90-100	99.97	0.59	none
+GCF_000009045.1	external	s__Bacillus subtilis	GCA_002322735.1	70-90	71.16	0.01	wastewater
+GCF_000009045.1	external	s__Bacillus subtilis	GCA_039593675.1	90-100	93.76	1.7	none
+GCF_000010305.1	external	s__Gemmatimonas aurantiaca	GCA_003543295.1	70-90	86.44	0.98	metagenome
+GCF_000011105.1	external	s__Pyrococcus horikoshii	GCA_013329775.1	90-100	99.75	0.19	none
+GCF_000011905.1	external	s__Dehalococcoides mccartyi	GCA_047308305.1	90-100	99.87	0.5	none
+GCF_000012545.1	external	s__Methanosphaera stadtmanae	GCA_023445835.1	50-70	62.25	0.87	feces
+GCF_000012545.1	external	s__Methanosphaera stadtmanae	GCA_958425675.1	70-90	89.95	0.01	human feces metagenome
+GCF_000012545.1	external	s__Methanosphaera stadtmanae	GCA_948444175.1	90-100	99.71	0.25	mouse gut metagenome
+GCF_000012825.1	external	s__Phocaeicola vulgatus	GCA_947507195.1	50-70	58.3	0.13	mouse gut metagenome
+GCF_000012825.1	external	s__Phocaeicola vulgatus	GCA_048526885.1	70-90	89.86	0.73	none
+GCF_000012825.1	external	s__Phocaeicola vulgatus	GCA_048404095.1	90-100	100.0	0.97	none
+GCF_000013085.1	external	s__Rhodospirillum rubrum	GCA_003530895.1	70-90	75.12	1.36	terrestrial
+GCF_000013085.1	external	s__Rhodospirillum rubrum	GCA_032086735.1	90-100	99.56	0.79	none
+GCF_000014705.1	external	s__Shewanella frigidimarina	GCA_041555415.1	70-90	77.37	1.43	none
+GCF_000014705.1	external	s__Shewanella frigidimarina	GCA_963975305.1	90-100	99.99	0.89	none
+GCF_000014805.1	external	s__Aeromonas hydrophila	GCA_964031895.1	70-90	84.29	0.99	none
+GCF_000014805.1	external	s__Aeromonas hydrophila	GCA_051653725.1	90-100	100.0	1.21	none
+GCF_000014945.1	external	s__Methanothrix_B thermoacetophila	GCA_014361255.1	90-100	99.84	0.1	Shengli oilfield at Shandong province
+GCF_000015105.1	external	s__Ruthia magnifica	GCA_965251255.1	90-100	99.95	0.01	none
+GCF_000018945.1	external	s__Thermotoga neapolitana	GCA_030156075.1	50-70	51.96	0.07	produced fluids from hydraulically fractured shales DJB-5 day 773
+GCF_000018945.1	external	s__Thermotoga neapolitana	GCA_030153245.1	70-90	83.21	0.16	Produced fluids from hydraulically fractured shales
+GCF_000018945.1	external	s__Thermotoga neapolitana	GCA_003501185.1	90-100	92.12	2.8	metagenome
+GCF_000019405.1	external	s__Histophilus somni	GCA_048159405.1	90-100	100.0	0.22	none
+GCF_000020385.1	external	s__Trichlorobacter lovleyi	GCA_027321085.1	90-100	95.26	0.84	sediment
+GCF_000021285.1	external	s__Thermosipho africanus	GCA_030157105.1	70-90	85.26	0.1	produced fluids from hydraulically fractured shales DJB-1 day 1372
+GCF_000021285.1	external	s__Thermosipho africanus	GCA_020054775.1	90-100	96.57	1.95	produced fluids from hydraulically fractured shales
+GCF_000021645.1	external	s__Dictyoglomus turgidum	GCA_039794125.1	70-90	82.18	1.01	none
+GCF_000021645.1	external	s__Dictyoglomus turgidum	GCA_049970835.1	90-100	99.85	0.81	none
+GCF_000021765.1	external	s__Thauera aminoaromatica	GCA_041913225.1	50-70	63.64	2.12	none
+GCF_000021765.1	external	s__Thauera aminoaromatica	GCA_035330645.1	70-90	74.12	3.62	none
+GCF_000021765.1	external	s__Thauera aminoaromatica	GCA_017993915.1	90-100	93.4	0.52	wastewater
+GCF_000024325.1	external	s__Desulfohalobium retbaense	GCA_041694495.1	90-100	99.62	2.06	none
+GCF_000024425.1	external	s__Meiothermus ruber	GCA_026417835.1	70-90	70.13	0.62	alkaline hot spring water
+GCF_000024425.1	external	s__Meiothermus ruber	GCA_023511895.1	90-100	99.95	4.32	hot spring sediment
+GCF_000024845.1	external	s__Rhodothermus marinus	GCA_017577685.2	90-100	99.37	0.24	ZC4 (Zoo Composter number 4) at the Sao Paulo Zoo
+GCF_000145615.1	external	s__Thermoanaerobacterium thermosaccharolyticum	GCA_047777535.1	90-100	100.0	6.4	none
+GCF_000146675.1	external	s__Prevotella marshii	GCA_963544445.1	70-90	83.13	1.84	none
+GCF_000146675.1	external	s__Prevotella marshii	GCA_963521855.1	90-100	95.03	0.38	none
+GCF_000147675.1	external	s__Peptostreptococcus stomatis	GCA_963456785.1	70-90	72.51	0.05	none
+GCF_000147675.1	external	s__Peptostreptococcus stomatis	GCA_902496525.1	90-100	99.62	0.1	none
+GCF_000147875.1	external	s__Methanolacinia petrolearia	GCA_965227985.1	90-100	95.47	0.53	none
+GCF_000152265.2	external	s__Ferroplasma acidiphilum	GCA_027375415.1	50-70	55.22	0.54	sediment
+GCF_000152265.2	external	s__Ferroplasma acidiphilum	GCA_027309725.1	70-90	89.83	0.9	water
+GCF_000152265.2	external	s__Ferroplasma acidiphilum	GCA_027375655.1	90-100	97.38	3.0	sediment
+GCF_000156655.1	external	s__Holdemanella biformis	GCA_037233665.1	50-70	66.03	0.67	none
+GCF_000156655.1	external	s__Holdemanella biformis	GCA_052280105.1	70-90	81.83	2.84	none
+GCF_000156655.1	external	s__Holdemanella biformis	GCA_018375115.1	90-100	96.63	0.61	infant feces
+GCF_000165795.1	external	s__Aminomonas paucivorans	GCA_040308035.1	90-100	97.1	0.45	none
+GCF_000167355.1	external	s__Desulfuromonas acetoxidans	GCA_963556095.3	90-100	100.0	1.75	none
+GCF_000176915.2	external	s__Pseudodesulfovibrio aespoeensis	GCA_018897745.1	70-90	81.61	0.1	Olkiluoto
+GCF_000176915.2	external	s__Pseudodesulfovibrio aespoeensis	GCA_018902535.1	90-100	99.98	0.06	Olkiluoto
+GCF_000178875.2	external	s__Shewanella baltica	GCA_003516645.1	70-90	81.04	2.1	metagenome
+GCF_000178875.2	external	s__Shewanella baltica	GCA_963676695.1	90-100	100.0	0.34	none
+GCF_000186885.1	external	s__Desulfobulbus propionicus	GCA_029267735.1	90-100	93.55	0.67	native outdoor hot spring sediment
+GCF_000195915.1	external	s__Thermoplasma acidophilum	GCA_026627405.1	70-90	81.95	2.95	acidic hydrothermal system
+GCF_000196275.1	external	s__Deinococcus geothermalis	GCA_002384255.1	90-100	100.0	0.51	Sand Stone
+GCF_000204415.1	external	s__Methanothrix soehngenii	GCA_036817285.1	50-70	57.7	0.0	none
+GCF_000204415.1	external	s__Methanothrix soehngenii	GCA_035413665.1	70-90	89.49	0.18	none
+GCF_000204415.1	external	s__Methanothrix soehngenii	GCA_036840985.1	90-100	91.45	1.62	none
+GCF_000210095.1	external	s__Ruminococcus_F champanellensis	GCA_023438605.1	50-70	57.84	1.22	feces
+GCF_000210095.1	external	s__Ruminococcus_F champanellensis	GCA_958371885.1	70-90	88.96	1.15	human feces metagenome
+GCF_000210095.1	external	s__Ruminococcus_F champanellensis	GCA_965143885.1	90-100	99.45	1.0	none
+GCF_000213975.1	external	s__Centipeda periodontii	GCA_963547915.1	70-90	78.89	1.81	none
+GCF_000215085.1	external	s__Desulfotomaculum ruminis	GCA_023425085.1	90-100	92.81	0.85	feces
+GCF_000230655.2	external	s__Thermotoga maritima	GCA_000444765.1	90-100	99.58	0.6	formation water in Gippsland Basin
+GCF_000231015.2	external	s__Desulfurococcus amylolyticus	GCA_049970475.1	90-100	93.3	0.18	none
+GCF_000235565.1	external	s__Methanocrinis harundinaceus	GCA_002503805.1	70-90	74.54	0.47	waste water
+GCF_000235565.1	external	s__Methanocrinis harundinaceus	GCA_001603195.1	90-100	95.17	2.67	3 replicate cellulose-degrading anaerobic digesters sampled at day 96 and day 362
+GCF_000236665.1	external	s__Azospira oryzae	GCA_023394895.1	50-70	54.1	0.16	feces
+GCF_000236665.1	external	s__Azospira oryzae	GCA_036801765.1	70-90	86.32	0.9	none
+GCF_000236665.1	external	s__Azospira oryzae	GCA_030247495.1	90-100	99.99	0.03	continuous bioreactor NO_5109 inoculated with denitrifying sludge is constantly fed with nitric oxide and formate
+GCF_000251105.1	external	s__Methanocella conradii	GCA_030019315.1	90-100	99.98	0.49	groundwater
+GCF_000270245.1	external	s__Microlunatus phosphovorus	GCA_036723495.1	70-90	89.37	3.58	none
+GCF_000270245.1	external	s__Microlunatus phosphovorus	GCA_937872995.1	90-100	90.04	4.19	wastewater metagenome
+GCF_000279145.1	external	s__Melioribacter roseus	GCA_049325435.1	90-100	99.96	0.19	none
+GCF_000284615.1	external	s__Marinobacter nauticus	GCA_041592895.1	50-70	69.46	1.9	none
+GCF_000284615.1	external	s__Marinobacter nauticus	GCA_003531465.1	70-90	79.79	2.77	marine
+GCF_000284615.1	external	s__Marinobacter nauticus	GCA_913063185.1	90-100	96.03	0.27	marine metagenome
+GCF_000308215.1	external	s__Methanomassiliicoccus luminyensis	GCA_036799525.1	70-90	88.32	4.84	none
+GCF_000309885.1	external	s__Thermus oshimai	GCA_037481675.1	90-100	98.21	0.03	none
+GCF_000310225.1	external	s__Thauera phenylacetica	GCA_036727115.1	70-90	83.19	4.66	none
+GCF_000310225.1	external	s__Thauera phenylacetica	GCA_047638035.1	90-100	99.9	0.93	none
+GCF_000328665.1	external	s__Methanomethylovorans hollandica	GCA_002508385.1	90-100	91.62	0.0	waste water
+GCF_000332155.1	external	s__Kamptonema formosum	GCA_051859225.1	90-100	99.84	0.0	none
+GCF_000340375.1	external	s__Eggerthia catenaformis	GCA_965242075.1	90-100	100.0	0.39	none
+GCF_000376545.2	external	s__Epibacterium mobile	GCA_017795145.1	70-90	78.42	0.46	Xenic protist cell culture
+GCF_000376545.2	external	s__Epibacterium mobile	GCA_048265305.1	90-100	99.97	3.69	none
+GCF_000378465.1	external	s__Elioraea tepidiphila	GCA_036800765.1	70-90	80.13	1.98	none
+GCF_000378465.1	external	s__Elioraea tepidiphila	GCA_036750555.1	90-100	100.0	0.21	none
+GCF_000412675.1	external	s__Aquipseudomonas putida	GCA_037975975.1	70-90	84.0	0.92	none
+GCF_000412675.1	external	s__Aquipseudomonas putida	GCA_943913085.1	90-100	98.74	0.0	human skin
+GCF_000420505.1	external	s__Alloscardovia omnicolens	GCA_963510655.1	50-70	53.8	0.18	none
+GCF_000420505.1	external	s__Alloscardovia omnicolens	GCA_965144255.1	70-90	83.26	1.79	none
+GCF_000420505.1	external	s__Alloscardovia omnicolens	GCA_965239895.1	90-100	97.54	0.14	none
+GCF_000424105.1	external	s__Lachnospira multipara	GCA_017388535.1	50-70	53.97	0.19	ruminant gastrointestinal tract
+GCF_000424105.1	external	s__Lachnospira multipara	GCA_947164055.1	90-100	90.72	4.62	sheep gut metagenome
+GCF_000425165.1	external	s__Photobacterium halotolerans	GCA_049688135.1	90-100	100.0	1.81	none
+GCF_000428765.1	external	s__Brevundimonas aveniformis	GCA_937919975.1	70-90	88.13	1.08	metagenome
+GCF_000477535.1	external	s__Prevotella salivae	GCA_963508635.1	50-70	62.69	1.23	none
+GCF_000477535.1	external	s__Prevotella salivae	GCA_963507635.1	70-90	78.99	0.33	none
+GCF_000477535.1	external	s__Prevotella salivae	GCA_963538915.1	90-100	91.62	0.3	none
+GCF_000498655.1	external	s__Zymomonas mobilis	GCA_047724035.1	90-100	99.65	0.03	none
+GCF_000504085.1	external	s__Pseudothermotoga_B elfii	GCA_003506195.1	70-90	89.11	1.58	oil production facility
+GCF_000504085.1	external	s__Pseudothermotoga_B elfii	GCA_036790745.1	90-100	95.94	0.44	none
+GCF_000504105.1	external	s__Pseudothermotoga_A hypogea	GCA_030019015.1	90-100	97.19	1.78	groundwater
+GCF_000504205.1	external	s__Methanolobus tindarius	GCA_030154145.1	70-90	87.19	1.15	Produced fluids from hydraulically fractured shales
+GCF_000504205.1	external	s__Methanolobus tindarius	GCA_030156565.1	90-100	90.2	0.15	produced fluids from hydraulically fractured shales DJB-2 day 1480
+GCF_000512895.1	external	s__Dehalobacter restrictus	GCA_040500375.1	90-100	100.0	1.87	none
+GCF_000519045.1	external	s__Azonexus agitatus	GCA_024709905.1	70-90	83.2	3.99	river sediments grown in denitrifying medium in anaerobic bioreactor system
+GCF_000519045.1	external	s__Azonexus agitatus	GCA_041913205.1	90-100	96.61	0.97	none
+GCF_000620065.1	external	s__Meiothermus cerbereus	GCA_036773985.1	70-90	85.56	2.41	none
+GCF_000685215.1	external	s__Hyphomonas jannaschiana	GCA_020425305.1	70-90	81.07	0.68	activated sludge from Shatin waste water treatment plant collected monthly from 2007 through 2015
+GCF_000685215.1	external	s__Hyphomonas jannaschiana	GCA_041986985.1	90-100	99.99	0.75	none
+GCF_000686645.1	external	s__Desulfofundulus australicus	GCA_030157065.1	70-90	81.75	1.15	produced fluids from hydraulically fractured shales DJB-2 day 1375
+GCF_000687145.1	external	s__Thermoanaerobaculum aquaticum	GCA_002923295.1	70-90	87.71	1.13	ammonia-oxidizing enrichment culture
+GCF_000687145.1	external	s__Thermoanaerobaculum aquaticum	GCA_025998615.1	90-100	96.0	0.01	sediments collected from the Katase hot spring field
+GCF_000701665.1	external	s__Agathobaculum desmolans	GCA_902480135.1	70-90	81.7	2.25	human gut
+GCF_000701665.1	external	s__Agathobaculum desmolans	GCA_963557005.1	90-100	98.02	0.55	none
+GCF_000711215.1	external	s__Methanomicrobium mobile	GCA_016291305.1	90-100	93.34	0.41	rumen
+GCF_000711905.1	external	s__Methermicoccus shengliensis	GCA_013330515.1	70-90	86.53	0.0	none
+GCF_000722615.1	new	s__Neorhizobium pelagicum	GCA_013911945.1	50-70	56.36	0.13	seawater from mariculture cage of adult gilthead seabream (Sparus aurata)
+GCF_000722615.1	new	s__Neorhizobium pelagicum	GCA_018821575.1	90-100	99.97	0.44	Aspo HRL
+GCF_000756655.1	external	s__Alcanivorax jadensis	GCA_002716245.1	70-90	83.79	2.85	marine water sample
+GCF_000756655.1	external	s__Alcanivorax jadensis	GCA_043559425.1	90-100	98.65	0.8	none
+GCF_000800805.1	external	s__Methanoplasma termitum	GCA_009782125.1	90-100	95.15	0.13	P5 gut compartment
+GCF_000812185.1	external	s__Nitrosopelagicus brevis	GCA_036154055.1	50-70	53.02	0.42	none
+GCF_000812185.1	external	s__Nitrosopelagicus brevis	GCA_027249765.1	70-90	76.85	0.15	seawater
+GCF_000812185.1	external	s__Nitrosopelagicus brevis	GCA_022450745.1	90-100	94.66	0.12	ocean water sample from Hawaii Ocean Time-series (HOT) cruises
+GCF_000816085.1	external	s__Staphylococcus hyicus	GCA_043426975.1	90-100	92.79	0.0	none
+GCF_000816105.1	external	s__Thermococcus guaymasensis	GCA_021162705.1	70-90	87.66	0.52	marine hydrothermal sediment
+GCF_000816575.1	external	s__Geobacter anodireducens	GCA_036679005.1	90-100	100.0	0.54	none
+GCF_000949255.1	external	s__Ferrimicrobium acidiphilum	GCA_027412595.1	50-70	67.78	1.43	sediment
+GCF_000949255.1	external	s__Ferrimicrobium acidiphilum	GCA_027412535.1	70-90	80.11	3.91	sediment
+GCF_000949255.1	external	s__Ferrimicrobium acidiphilum	GCA_027412935.1	90-100	90.33	2.26	sediment
+GCF_000961515.1	external	s__Paraburkholderia fungorum	GCA_045810425.1	70-90	74.32	1.05	none
+GCF_000961515.1	external	s__Paraburkholderia fungorum	GCA_936925495.1	90-100	100.0	1.13	human skin metagenome
+GCF_000967305.2	external	s__Alcaligenes faecalis	GCA_023438975.1	70-90	79.04	1.21	feces
+GCF_000967305.2	external	s__Alcaligenes faecalis	GCA_002484125.1	90-100	99.46	0.34	wood
+GCF_001045435.1	external	s__Kaistella koreensis	GCA_937858965.1	90-100	97.96	0.73	wastewater metagenome
+GCF_001046875.1	external	s__Nostocoides_A jenkinsii	GCA_022641475.1	70-90	81.12	0.03	anaerobic bioreactor effluent; Thin stillage fed; 6 d SRT; 35C; pH 5.5
+GCF_001306175.1	external	s__Ardenticatena maritima	GCA_003694685.1	70-90	75.37	0.93	iron-rich hot spring
+GCF_001314995.1	external	s__Bacteroides ovatus	GCA_023390895.1	50-70	69.85	0.76	feces
+GCF_001314995.1	external	s__Bacteroides ovatus	GCA_037435785.1	70-90	88.11	2.23	none
+GCF_001314995.1	external	s__Bacteroides ovatus	GCA_034127615.1	90-100	94.5	0.73	none
+GCF_001402935.1	external	s__Acidiplasma aeolicum	GCA_021845385.1	50-70	60.45	1.74	acid mine drainage sediment
+GCF_001402935.1	external	s__Acidiplasma aeolicum	GCA_027368325.1	70-90	88.87	4.49	sediment
+GCF_001402935.1	external	s__Acidiplasma aeolicum	GCA_027331845.1	90-100	93.73	1.24	sediment
+GCF_001402945.1	external	s__Acidiplasma aeolicum	GCA_021845385.1	50-70	60.45	1.74	acid mine drainage sediment
+GCF_001402945.1	external	s__Acidiplasma aeolicum	GCA_027368325.1	70-90	88.87	4.49	sediment
+GCF_001402945.1	external	s__Acidiplasma aeolicum	GCA_027331845.1	90-100	93.73	1.24	sediment
+GCF_001477135.1	external	s__Paenibacillus polymyxa_C	GCA_047726785.1	90-100	100.0	0.02	none
+GCF_001561915.1	external	s__Tepidibacillus_B infernus	GCA_047739315.1	90-100	100.0	0.15	none
+GCF_001586235.1	external	s__Corynebacterium simulans	GCA_902482775.1	50-70	68.93	1.63	human gut
+GCF_001586235.1	external	s__Corynebacterium simulans	GCA_032487175.1	70-90	87.95	1.98	none
+GCF_001586235.1	external	s__Corynebacterium simulans	GCA_963511385.1	90-100	100.0	0.37	none
+GCF_001653755.1	external	s__Dokdonia donghaensis	GCA_047631395.1	50-70	53.47	0.05	none
+GCF_001653755.1	external	s__Dokdonia donghaensis	GCA_042093655.1	70-90	84.05	0.01	none
+GCF_001675355.1	external	s__Tepidimonas fonticaldi	GCA_026419095.1	50-70	64.7	2.06	alkaline hot spring water
+GCF_001675355.1	external	s__Tepidimonas fonticaldi	GCA_046294275.1	70-90	73.34	0.21	none
+GCF_001705075.2	external	s__Acidiferrobacter thiooxydans	GCA_027439625.1	50-70	59.46	1.31	sediment
+GCF_001705075.2	external	s__Acidiferrobacter thiooxydans	GCA_027439605.1	70-90	84.35	1.28	sediment
+GCF_001705075.2	external	s__Acidiferrobacter thiooxydans	GCA_021799395.1	90-100	94.71	0.34	acid mine drainage sediment
+GCF_001750685.1	new	s__Geosporobacter ferrireducens	GCA_009711625.1	90-100	100.0	7.54	MES reactor inoculated with Red Sea brine pool sample
+GCF_001887715.1	external	s__Syntrophotalea acetylenica	GCA_050253115.1	70-90	88.19	3.54	none
+GCF_001887715.1	external	s__Syntrophotalea acetylenica	GCA_034006885.1	90-100	100.0	1.6	none
+GCF_001888925.1	external	s__Lactobacillus delbrueckii	GCA_052101235.1	50-70	55.11	0.11	none
+GCF_001888925.1	external	s__Lactobacillus delbrueckii	GCA_036455765.1	70-90	84.43	0.87	none
+GCF_001888925.1	external	s__Lactobacillus delbrueckii	GCA_963510265.1	90-100	94.34	1.32	none
+GCF_002077135.1	external	s__Metallibacterium scheffleri	GCA_027455245.1	50-70	65.75	0.75	sediment
+GCF_002077135.1	external	s__Metallibacterium scheffleri	GCA_028876905.1	70-90	84.91	4.05	rare earth elements-acid mine drainage (REEs-AMD) contaminated river water
+GCF_002077135.1	external	s__Metallibacterium scheffleri	GCA_021785475.1	90-100	94.72	0.61	acid mine drainage sediment
+GCF_002078355.1	external	s__Ferroplasma acidiphilum	GCA_027375415.1	50-70	55.22	0.54	sediment
+GCF_002078355.1	external	s__Ferroplasma acidiphilum	GCA_027375515.1	70-90	82.67	1.36	sediment
+GCF_002078355.1	external	s__Ferroplasma acidiphilum	GCA_027375655.1	90-100	97.38	3.0	sediment
+GCF_002162375.1	external	s__Oleiphilus messinensis	GCA_022361325.1	90-100	96.8	5.75	Porites lutea and Goniastrea edwardsi coral colonies
+GCF_002251735.1	new	s__Elstera cyanobacteriorum	GCA_026647075.1	90-100	97.29	0.16	Laboratory-scale bioreactor
+GCF_002277955.1	new	s__Thermogutta terrifontis	GCA_037481635.1	90-100	99.99	0.22	none
+GCF_002287195.1	external	s__Methanosphaera cuniculi	GCA_902494985.1	70-90	87.84	0.96	human gut
+GCF_002287195.1	external	s__Methanosphaera cuniculi	GCA_959604805.1	90-100	99.82	0.0	human feces metagenome
+GCF_002356295.1	new	s__Labilibaculum antarcticum	GCA_041821345.1	50-70	67.14	0.55	none
+GCF_002843385.1	new	s__Labilibaculum manganireducens	GCA_963665805.2	90-100	100.0	1.1	none
+GCF_002998535.1	external	s__Bacteroides heparinolyticus	GCA_041818315.1	50-70	58.5	0.68	none
+GCF_002998535.1	external	s__Bacteroides heparinolyticus	GCA_041856795.1	70-90	88.25	0.02	none
+GCF_002998535.1	external	s__Bacteroides heparinolyticus	GCA_022772185.1	90-100	99.47	0.04	feces
+GCF_003148465.1	external	s__Oceanotoga teriensis	GCA_030445905.1	90-100	99.8	2.32	Produced fluids from hydraulically fractured shales
+GCF_003332275.1	new	s__Edaphovirga cremea	GCA_046712565.1	90-100	99.79	1.61	none
+GCF_003353065.1	new	s__Cyclonatronum proteinivorum	GCA_007117295.1	50-70	62.05	0.03	hypersaline soda lake brine
+GCF_003628755.1	external	s__Christensenella minuta	GCA_958346725.1	70-90	82.65	0.53	human feces metagenome
+GCF_003628755.1	external	s__Christensenella minuta	GCA_023447995.1	90-100	99.67	1.37	feces
+GCF_003633895.1	external	s__Vogesella indigofera	GCA_041920095.1	90-100	99.98	0.78	none
+GCF_003633955.1	external	s__Oceanibaculum indicum	GCA_022449305.1	90-100	95.88	0.04	ocean water sample from Hawaii Ocean Time-series (HOT) cruises
+GCF_003711245.1	external	s__Methanomethylophilus alvi	GCA_023401385.1	70-90	88.57	0.17	feces
+GCF_003711245.1	external	s__Methanomethylophilus alvi	GCA_051876895.1	90-100	99.91	0.01	none
+GCF_003730015.1	external	s__Epilithonimonas hominis	GCA_003457445.1	70-90	82.26	0.46	terrestrial
+GCF_003730015.1	external	s__Epilithonimonas hominis	GCA_031984445.1	90-100	99.99	0.05	none
+GCF_003987395.1	external	s__Pseudidiomarina aquimaris	GCA_002450685.1	70-90	71.01	1.83	saline water (ENVO:00002010); including plankton (ENVO:xxxxxxxx)
+GCF_003987395.1	external	s__Pseudidiomarina aquimaris	GCA_048265235.1	90-100	100.0	1.18	none
+GCF_004022565.1	new	s__Pusillimonas_D thiosulfatoxidans	GCA_015478875.1	90-100	99.88	1.27	fecal sample from diarrhoea affected cattle B
+GCF_004214815.1	external	s__Aliarcobacter thereius	GCA_020741495.1	70-90	84.91	0.55	none
+GCF_004340645.1	external	s__Methanohalophilus euhalobius	GCA_003940385.1	70-90	84.85	0.67	hydraulically fractured well fluid
+GCF_004340645.1	external	s__Methanohalophilus euhalobius	GCA_001726015.1	90-100	99.9	0.82	Hydraulically fractured well fluid
+GCF_004342625.1	external	s__Tepidimonas ignava	GCA_026417915.1	70-90	84.67	2.48	alkaline hot spring water
+GCF_004342625.1	external	s__Tepidimonas ignava	GCA_046295195.1	90-100	90.14	1.16	none
+GCF_004366375.1	external	s__Halanaerobium congolense	GCA_001723995.1	50-70	69.3	2.25	Hydraulically fractured well fluid
+GCF_004366375.1	external	s__Halanaerobium congolense	GCA_036817865.1	70-90	86.22	1.1	none
+GCF_004366375.1	external	s__Halanaerobium congolense	GCA_003070805.1	90-100	99.93	7.99	aqueous sample from a deep subsurface shale carbon reservoir
+GCF_005083985.2	external	s__Caminibacter pacificus	GCA_013154195.1	70-90	78.58	4.63	Deepsea hydrothermal sulfide chimney
+GCF_005221285.1	external	s__Neisseria flavescens	GCA_965242275.1	90-100	99.97	0.14	none
+GCF_006094495.1	external	s__Priestia megaterium	GCA_049691295.1	70-90	75.38	0.63	none
+GCF_006094495.1	external	s__Priestia megaterium	GCA_049650585.1	90-100	100.0	0.27	none
+GCF_006540085.1	external	s__Microbacterium oxydans	GCA_002477105.1	50-70	67.93	0.53	metal
+GCF_007991015.1	external	s__Oceanithermus desulfurans	GCA_027009945.1	70-90	84.56	2.92	marine hydrothermal vent
+GCF_007991015.1	external	s__Oceanithermus desulfurans	GCA_015487395.1	90-100	99.4	2.18	deep-sea hydrothermal deposit
+GCF_008039615.1	new	s__Vineibacter terrae	GCA_036261995.1	90-100	95.8	1.48	none
+GCF_008245085.1	external	s__Pyrococcus furiosus	GCA_030153625.1	90-100	95.98	1.03	Produced fluids from hydraulically fractured shales
+GCF_009183365.2	external	s__Shewanella algae	GCA_963674875.1	90-100	100.0	0.2	none
+GCF_009193255.1	external	s__Arthrobacter_B koreensis	GCA_029239215.1	90-100	94.68	0.21	agricultural soil
+GCF_009428905.1	external	s__Desulfofundulus_A thermobenzoicus	GCA_014896425.1	70-90	84.93	1.15	coal
+GCF_009428905.1	external	s__Desulfofundulus_A thermobenzoicus	GCA_012840295.1	90-100	94.09	1.67	anaerobic digestion of organic wastes under variable temperature conditions and feedstocks
+GCF_009469765.1	external	s__Azonexus hortensis	GCA_041919435.1	70-90	87.64	0.51	none
+GCF_009730055.1	external	s__Yersinia intermedia	GCA_041730555.1	70-90	76.25	2.35	none
+GCF_009746125.1	new	s__Casimicrobium huifangae	GCA_046347895.1	50-70	67.89	3.31	none
+GCF_009746125.1	new	s__Casimicrobium huifangae	GCA_041915845.1	70-90	86.43	6.2	none
+GCF_009746125.1	new	s__Casimicrobium huifangae	GCA_044225105.1	90-100	97.0	2.57	none
+GCF_009768935.1	new	s__Rectinema subterraneum	GCA_003501645.1	50-70	69.76	1.92	hydrocarbon
+GCF_009768935.1	new	s__Rectinema subterraneum	GCA_003539135.1	70-90	81.72	1.14	hydrocarbon
+GCF_009768935.1	new	s__Rectinema subterraneum	GCA_027358015.1	90-100	97.81	0.59	sediment
+GCF_009806145.1	external	s__Marinicauda pacifica	GCA_042093755.1	90-100	99.93	0.25	none
+GCF_009913655.1	external	s__Lactiplantibacillus plantarum	GCA_949457655.1	50-70	51.16	0.05	mouse gut metagenome
+GCF_009913655.1	external	s__Lactiplantibacillus plantarum	GCA_052108315.1	70-90	73.86	2.07	none
+GCF_009913655.1	external	s__Lactiplantibacillus plantarum	GCA_052107495.1	90-100	93.45	3.33	none
+GCF_010669245.1	external	s__Pseudolactococcus raffinolactis	GCA_017987035.1	50-70	64.77	1.75	wastewater
+GCF_010669245.1	external	s__Pseudolactococcus raffinolactis	GCA_049286405.1	70-90	85.91	0.84	none
+GCF_010669245.1	external	s__Pseudolactococcus raffinolactis	GCA_049293155.1	90-100	98.79	2.05	none
+GCF_012910885.1	external	s__Azoarcus_F taiwanensis	GCA_030603965.1	70-90	89.61	0.77	cold seep
+GCF_012910885.1	external	s__Azoarcus_F taiwanensis	GCA_035443985.1	90-100	94.25	1.75	none
+GCF_013181415.1	external	s__Ferrovum myxofaciens	GCA_019456365.1	50-70	63.83	0.17	acid mine drainage in low-pH Fe(II)-oxidizing bioreactor
+GCF_013181415.1	external	s__Ferrovum myxofaciens	GCA_027316745.1	70-90	84.71	3.67	biofilm
+GCF_013181415.1	external	s__Ferrovum myxofaciens	GCA_051132545.1	90-100	99.79	0.27	none
+GCF_013372125.1	external	s__Campylobacter_A curvus	GCA_963540485.1	70-90	73.05	0.92	none
+GCF_013372125.1	external	s__Campylobacter_A curvus	GCA_963543335.1	90-100	91.36	0.25	none
+GCF_013388255.1	external	s__Methanolobus zinderi	GCA_036799505.1	90-100	95.66	1.2	none
+GCF_013388375.1	external	s__Xanthomonas campestris	GCA_937928125.1	90-100	99.62	0.48	metagenome
+GCF_013694095.1	new	s__Thermogemmata fonticola	GCA_026414625.1	70-90	88.42	0.79	alkaline hot spring water
+GCF_013694095.1	new	s__Thermogemmata fonticola	GCA_037478775.1	90-100	92.15	0.86	none
+GCF_014126615.1	new	s__Allorhizobium thiooxidans	GCA_030018035.1	70-90	89.45	2.74	groundwater
+GCF_014199935.1	external	s__Methylobacterium rhodinum	GCA_049276595.1	90-100	99.98	3.05	none
+GCF_015209595.1	new	s__Pontibacterium sinense	GCA_947497735.1	90-100	99.91	1.15	unknown
+GCF_015624465.1	external	s__Brucella melitensis	GCA_003514345.1	90-100	99.99	0.11	metagenome
+GCF_016019955.1	new	s__Shimia marinus_A	GCA_030148925.1	70-90	87.18	0.77	ballast tank
+GCF_016019955.1	new	s__Shimia marinus_A	GCA_965601855.1	90-100	99.97	0.0	none
+GCF_016406325.1	external	s__Shewanella putrefaciens	GCA_020216695.1	90-100	95.8	0.18	microbial mat
+GCF_016446285.1	external	s__Desulfobulbus oligotrophicus	GCA_034007945.1	90-100	99.98	0.32	none
+GCF_016583825.1	external	s__Thiohalocapsa halophila	GCA_009908515.1	90-100	98.07	5.54	Microbial Mat
+GCF_016583905.1	external	s__Lamprobacter modestohalophilus	GCA_021736845.1	50-70	63.57	2.22	aquatic biome
+GCF_016583905.1	external	s__Lamprobacter modestohalophilus	GCA_021736865.1	70-90	89.56	1.11	aquatic biome
+GCF_016599875.1	external	s__Comamonas testosteroni	GCA_943913115.1	50-70	60.68	0.77	human skin
+GCF_016599875.1	external	s__Comamonas testosteroni	GCA_963517375.1	90-100	98.42	0.02	none
+GCF_016698705.1	external	s__Burkholderia gladioli	GCA_040946845.1	50-70	55.24	0.24	none
+GCF_016698705.1	external	s__Burkholderia gladioli	GCA_040946925.1	70-90	85.28	0.97	none
+GCF_016698705.1	external	s__Burkholderia gladioli	GCA_038040145.1	90-100	96.1	3.47	none
+GCF_016862575.1	external	s__Catellatospora bangladeshensis	GCA_023443165.1	50-70	65.81	1.16	feces
+GCF_016900615.1	external	s__Bifidobacterium pullorum_B	GCA_047007425.1	50-70	64.64	2.25	none
+GCF_016900615.1	external	s__Bifidobacterium pullorum_B	GCA_904391685.1	70-90	81.27	1.44	metagenome
+GCF_016900615.1	external	s__Bifidobacterium pullorum_B	GCA_048344655.1	90-100	91.42	0.18	none
+GCF_019048125.1	external	s__Klebsiella aerogenes	GCA_934270975.1	70-90	83.35	1.06	human feces
+GCF_019048125.1	external	s__Klebsiella aerogenes	GCA_018374035.1	90-100	100.0	0.18	infant feces
+GCF_020381325.1	external	s__Providencia vermicola	GCA_023402655.1	70-90	78.82	2.79	feces
+GCF_020381325.1	external	s__Providencia vermicola	GCA_040393005.1	90-100	93.23	1.21	none
+GCF_020525545.1	external	s__Klebsiella variicola	GCA_041909005.1	50-70	59.38	1.74	none
+GCF_020525545.1	external	s__Klebsiella variicola	GCA_009360855.1	70-90	88.34	1.75	activated sludge of kraft-pulp mill effluents
+GCF_020525545.1	external	s__Klebsiella variicola	GCA_034131385.1	90-100	96.28	0.01	none
+GCF_020641395.2	external	s__Stenotrophomonas maltophilia	GCA_003487985.1	50-70	62.34	0.0	terrestrial
+GCF_020641395.2	external	s__Stenotrophomonas maltophilia	GCA_031998125.1	70-90	86.42	0.35	none
+GCF_020641395.2	external	s__Stenotrophomonas maltophilia	GCA_032052275.1	90-100	99.5	0.83	none
+GCF_022430525.1	external	s__Cetobacterium_A sp905216205	GCA_051656565.1	70-90	79.15	2.18	none
+GCF_022430525.1	external	s__Cetobacterium_A sp905216205	GCA_051655965.1	90-100	98.54	7.38	none
+GCF_022603395.1	new	s__Desulfoferrobacter suflitae	GCA_007244385.1	90-100	97.69	5.15	paraffin-degrading consortium; enrichment culture inoculated with marine sediment; grown with octacosane under sulfate-reducing conditions
+GCF_023283985.1	external	s__Shewanella electrodiphila	GCA_003353675.1	90-100	92.0	4.53	hypoxic fjord sediment
+GCF_023518055.1	external	s__Aggregatibacter actinomycetemcomitans	GCA_963514405.1	90-100	100.0	0.09	none
+GCF_024181585.1	external	s__Treponema_D buccale	GCA_963525235.1	50-70	67.34	0.39	none
+GCF_024181585.1	external	s__Treponema_D buccale	GCA_042639235.1	70-90	88.25	2.13	none
+GCF_024181585.1	external	s__Treponema_D buccale	GCA_963545335.1	90-100	97.68	0.52	none
+GCF_024741215.1	new	s__Gabonibacter massiliensis	GCA_023386355.1	90-100	100.0	5.12	feces
+GCF_026226615.1	external	s__Geovibrio ferrireducens	GCA_021209425.1	70-90	78.57	3.2	Textile industry effluent
+GCF_026226615.1	external	s__Geovibrio ferrireducens	GCA_023395255.1	90-100	99.87	0.17	feces
+GCF_029588855.1	external	s__Thauera mechernichensis	GCA_030603795.1	70-90	77.75	1.55	cold seep
+GCF_029588855.1	external	s__Thauera mechernichensis	GCA_024710225.1	90-100	94.89	4.2	river sediments grown in denitrifying medium in anaerobic bioreactor system
+GCF_030160455.1	external	s__Limnobacter litoralis	GCA_036278955.1	90-100	100.0	2.41	none
+GCF_030297015.1	new	s__Brooklawnia propionicigenes	GCA_020438565.1	50-70	63.77	0.7	activated sludge from Shatin waste water treatment plant collected monthly from 2007 through 2015
+GCF_030297015.1	new	s__Brooklawnia propionicigenes	GCA_040774065.1	70-90	76.33	1.89	none
+GCF_030297015.1	new	s__Brooklawnia propionicigenes	GCA_963741465.1	90-100	98.41	1.51	none
+GCF_030814065.1	external	s__Mesobacillus stamsii	GCA_027344335.1	50-70	69.91	0.47	sediment
+GCF_030814065.1	external	s__Mesobacillus stamsii	GCA_021820725.1	70-90	70.9	0.04	acid mine drainage sediment
+GCF_035481585.1	external	s__Salipiger marinus	GCA_003509995.1	70-90	80.44	0.03	marine
+GCF_035481585.1	external	s__Salipiger marinus	GCA_963973055.1	90-100	99.97	2.39	none
+GCF_036287335.1	external	s__Dietzia cinnamea	GCA_030826545.1	70-90	73.74	0.43	human skin
+GCF_036323495.1	external	s__Limnobacter thiooxidans	GCA_027530465.1	90-100	99.02	0.05	lake water
+GCF_036847465.1	external	s__Thermovirga lienii	GCA_030446055.1	70-90	83.14	0.91	Produced fluids from hydraulically fractured shales
+GCF_036847465.1	external	s__Thermovirga lienii	GCA_036847465.1	90-100	99.34	1.7	none
+GCF_036860675.1	new	s__Rosettibacter primus	GCA_029907415.1	90-100	94.05	1.4	enrichment culture from terrestrial mud volcano
+GCF_037478135.1	new	s__Denitratimonas sp037478135	GCA_041677105.1	70-90	85.38	3.13	none
+GCF_037478135.1	new	s__Denitratimonas sp037478135	GCA_041655675.1	90-100	97.63	1.21	none
+GCF_038751955.1	external	s__Methanocalculus natronophilus	GCA_003552845.1	70-90	85.51	0.06	hypersaline soda lake sediment
+GCF_038751955.1	external	s__Methanocalculus natronophilus	GCA_003559825.1	90-100	90.26	0.62	hypersaline soda lake sediment
+GCF_039531305.1	external	s__Terrabacter lapilli	GCA_035718625.1	90-100	91.37	6.12	none
+GCF_039541555.1	external	s__Brevibacterium pityocampae	GCA_946223215.1	90-100	99.95	0.42	human skin
+GCF_039619325.1	external	s__Methylobacterium fujisawaense	GCA_003987805.1	70-90	88.89	1.72	Granular activated carbon
+GCF_039619325.1	external	s__Methylobacterium fujisawaense	GCA_002727035.1	90-100	99.97	4.26	North Pacific Ocean
+GCF_040369555.1	new	s__Apilactobacillus sp025290035	GCA_025290035.1	70-90	86.78	0.13	gut
+GCF_040790665.1	external	s__Sulfitobacter pontiacus	GCA_002684135.1	50-70	61.83	1.26	marine water sample
+GCF_040790665.1	external	s__Sulfitobacter pontiacus	GCA_950063235.1	70-90	89.29	0.12	marine metagenome
+GCF_040790665.1	external	s__Sulfitobacter pontiacus	GCA_950063015.1	90-100	100.0	0.58	marine metagenome
+GCF_040797145.1	external	s__Labrys neptuniae	GCA_047605565.1	90-100	100.0	5.69	none
+GCF_040955415.1	external	s__Castellaniella ginsengisoli	GCA_965652235.1	70-90	89.25	2.18	none
+GCF_040955415.1	external	s__Castellaniella ginsengisoli	GCA_049683795.1	90-100	94.16	1.2	none
+GCF_041102575.1	new	s__Tenuifilum osseticum	GCA_035452705.1	70-90	86.68	0.33	none
+GCF_041102575.1	new	s__Tenuifilum osseticum	GCA_018056955.1	90-100	92.96	1.3	wastewater
+GCF_041154365.1	new	s__Fidelibacter multiformis	GCA_049974985.1	90-100	94.39	0.13	none
+GCF_045689975.1	external	s__Dietzia kunjamensis	GCA_003497475.1	50-70	56.51	0.71	hydrocarbon
+GCF_045689975.1	external	s__Dietzia kunjamensis	GCA_036679205.1	70-90	88.32	0.12	none
+GCF_045689975.1	external	s__Dietzia kunjamensis	GCA_036961365.1	90-100	100.0	0.19	none
+GCF_046603895.1	external	s__Enterocloster lavalensis	GCA_934882855.1	70-90	83.56	6.51	human gut
+GCF_046603895.1	external	s__Enterocloster lavalensis	GCA_031293285.1	90-100	96.15	5.28	none
+GCF_047324105.1	external	s__Brucella melitensis	GCA_003452125.1	90-100	100.0	0.39	metagenome
+GCF_050496105.1	external	s__Pyrococcus furiosus	GCA_030153625.1	90-100	95.98	1.03	Produced fluids from hydraulically fractured shales
+GCF_050994965.1	external	s__Geobacillus stearothermophilus	GCA_958349565.1	70-90	71.02	0.47	human feces metagenome
+GCF_050994965.1	external	s__Geobacillus stearothermophilus	GCA_017515625.1	90-100	94.91	0.05	ruminant gastrointestinal tract
+GCF_051162045.1	new	s__Anaerozeibacter quisquiliarum	GCA_034933125.1	70-90	79.92	1.96	none
+GCF_051162045.1	new	s__Anaerozeibacter quisquiliarum	GCA_034927375.1	90-100	94.38	1.42	none
+GCF_052044255.1	external	s__Heyndrickxia oleronia	GCA_022647225.1	90-100	96.6	0.25	anaerobic bioreactor effluent; Solids-removed thin stillage fed; 6 d SRT; 55C; pH 5.0
+GCF_900100715.1	external	s__Methanolobus vulcani	GCA_030153985.1	70-90	83.04	2.15	Produced fluids from hydraulically fractured shales
+GCF_900107685.1	external	s__Paraburkholderia sartisoli	GCA_004297925.1	90-100	96.17	0.07	groundwater
+GCF_900112885.1	external	s__Clostridium_R aminophilum	GCA_032140125.1	90-100	98.76	0.03	none
+GCF_900129195.1	external	s__Desulfotomaculum putei	GCA_036800945.1	90-100	98.02	0.03	none
+GCF_900129285.1	external	s__Desulfofundulus australicus	GCA_030157065.1	70-90	81.75	1.15	produced fluids from hydraulically fractured shales DJB-2 day 1375
+GCF_900142215.1	external	s__Anaerocolumna jejuensis	GCA_023391965.1	90-100	91.52	4.27	feces
+GCF_900163565.1	external	s__Agrococcus casei	GCA_052105995.1	70-90	88.6	0.89	none
+GCF_900163565.1	external	s__Agrococcus casei	GCA_052089405.1	90-100	96.79	0.98	none
+GCF_900176655.1	new	s__Collinsella vaginalis	GCA_902461215.1	50-70	59.2	1.25	human gut
+GCF_900187175.1	external	s__Odoribacter splanchnicus	GCA_958439355.1	50-70	68.91	0.13	human feces metagenome
+GCF_900187175.1	external	s__Odoribacter splanchnicus	GCA_048463315.1	70-90	87.99	1.69	none
+GCF_900187175.1	external	s__Odoribacter splanchnicus	GCA_046990205.1	90-100	99.99	3.05	none
+GCF_900215245.1	external	s__Aquipseudomonas fluorescens	GCA_034667985.1	70-90	89.54	0.1	none
+GCF_900215245.1	external	s__Aquipseudomonas fluorescens	GCA_049686235.1	90-100	94.23	3.17	none
+GCF_900215605.1	external	s__Cohaesibacter gelatinilyticus	GCA_002306245.1	90-100	100.0	0.74	bioreactor
+GCF_900217235.1	external	s__Pseudodesulfovibrio profundus	GCA_913043795.1	70-90	74.93	0.41	marine metagenome
+GCF_900217235.1	external	s__Pseudodesulfovibrio profundus	GCA_937896605.1	90-100	99.98	2.18	marine metagenome
+GCF_900446755.1	external	s__Carnobacterium divergens	GCA_963524605.1	90-100	99.91	0.23	none
+GCF_900454465.1	external	s__Pannonibacter phragmitetus	GCA_046294475.1	70-90	73.53	0.32	none
+GCF_900454955.1	external	s__Prevotella disiens	GCA_946891515.1	50-70	68.14	0.48	vaginal metagenome
+GCF_900454955.1	external	s__Prevotella disiens	GCA_963512425.1	70-90	87.6	0.62	none
+GCF_900454955.1	external	s__Prevotella disiens	GCA_947087115.1	90-100	93.76	0.1	vaginal metagenome
+GCF_900475375.1	external	s__Elizabethkingia meningoseptica	GCA_002294465.1	90-100	100.0	0.22	wood
+GCF_900475885.1	external	s__Haemophilus influenzae	GCA_902485415.1	90-100	100.0	0.0	human gut
+GCF_900637325.1	external	s__Wolinella succinogenes	GCA_050176235.1	70-90	73.51	1.35	none
+GCF_900637325.1	external	s__Wolinella succinogenes	GCA_036677515.1	90-100	99.97	0.09	none
+GCF_900637655.1	external	s__Prevotella oris	GCA_937950115.1	70-90	88.68	1.8	human gut metagenome
+GCF_900637655.1	external	s__Prevotella oris	GCA_963542715.1	90-100	99.12	0.09	none
+GCF_901482695.1	external	s__Sphingobacterium thalpophilum	GCA_002381505.1	70-90	76.92	2.76	epidermal mucus of Anguilla anguilla fishes in Ebro delta
+GCF_901482695.1	external	s__Sphingobacterium thalpophilum	GCA_039595275.1	90-100	97.09	0.81	none
+GCF_902383905.1	external	s__Methanomassiliicoccus_A intestinalis	GCA_958409965.1	70-90	83.82	0.84	human feces metagenome
+GCF_902383905.1	external	s__Methanomassiliicoccus_A intestinalis	GCA_937973875.1	90-100	99.25	0.87	human gut metagenome
+GCF_903886475.1	external	s__Streptococcus thermophilus	GCA_052098935.1	50-70	56.69	0.92	none
+GCF_903886475.1	external	s__Streptococcus thermophilus	GCA_052087365.1	70-90	83.53	0.83	none
+GCF_903886475.1	external	s__Streptococcus thermophilus	GCA_046966485.1	90-100	99.77	0.23	none
+GCF_921292965.1	external	s__Vibrio natriegens	GCA_963676115.1	70-90	76.18	0.03	none
+GCF_921292965.1	external	s__Vibrio natriegens	GCA_049324735.1	90-100	100.0	0.87	none
+GCF_945859885.1	external	s__Pseudoalteromonas tetraodonis	GCA_047636315.1	50-70	56.55	0.12	none
+GCF_945859885.1	external	s__Pseudoalteromonas tetraodonis	GCA_002732915.1	70-90	78.54	1.82	marine subsurface aquifer
+GCF_945859885.1	external	s__Pseudoalteromonas tetraodonis	GCA_046712425.1	90-100	100.0	0.15	none
+GCF_963662975.1	external	s__Pseudodesulfuromonas thiophila	GCA_028698325.1	70-90	88.44	0.37	NEUS_E leachate from a leachate well at an active municipal landfill in the North Eastern United States
+GCF_963662975.1	external	s__Pseudodesulfuromonas thiophila	GCA_963662975.1	90-100	100.0	0.58	none

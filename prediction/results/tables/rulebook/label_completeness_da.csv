@@ -1,0 +1,4 @@
+task,trait,core_marker,carriers,carriers_labelled,share_of_carriers_labelled,share_of_trait_with_marker,n_phyla_with_marker
+da,acceptor_sulfate,dsrAB + aprA,74,51,0.6892,0.8095,8
+da,donor_ammonia_oxidation,amoABC,7,4,0.5714,0.1250,2
+da,acceptor_oxygen,aa3 oxidase coxABC,103,81,0.7864,0.4576,6

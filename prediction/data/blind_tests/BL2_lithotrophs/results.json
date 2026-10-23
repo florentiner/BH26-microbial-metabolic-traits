@@ -1,0 +1,305 @@
+{
+ "tests": 168,
+ "positives": 130,
+ "species": 76,
+ "papers": 73,
+ "per_category": {
+  "acceptor_CO2_methanogen_acetogen": {
+   "count": 3,
+   "sum": 1
+  },
+  "acceptor_iron": {
+   "count": 14,
+   "sum": 11
+  },
+  "acceptor_nitrate": {
+   "count": 18,
+   "sum": 9
+  },
+  "acceptor_oxygen": {
+   "count": 29,
+   "sum": 28
+  },
+  "acceptor_sulfate": {
+   "count": 22,
+   "sum": 13
+  },
+  "acceptor_sulfur": {
+   "count": 30,
+   "sum": 23
+  },
+  "donor_CO_oxidation": {
+   "count": 9,
+   "sum": 8
+  },
+  "donor_hydrogen_oxidation": {
+   "count": 18,
+   "sum": 13
+  },
+  "donor_iron_oxidation": {
+   "count": 4,
+   "sum": 4
+  },
+  "donor_sulfur_oxidation": {
+   "count": 21,
+   "sum": 20
+  }
+ },
+ "RedoxKO": {
+  "per_category_auroc": {
+   "acceptor_CO2_methanogen_acetogen": 1.0,
+   "acceptor_iron": 0.42424242424242425,
+   "acceptor_nitrate": 0.8395061728395061,
+   "acceptor_oxygen": 1.0,
+   "acceptor_sulfate": 0.9145299145299145,
+   "acceptor_sulfur": 0.8416149068322981,
+   "donor_CO_oxidation": 0.25,
+   "donor_hydrogen_oxidation": 0.7846153846153846,
+   "donor_sulfur_oxidation": 0.8
+  },
+  "macro_auroc": 0.7616120892288364,
+  "macro_auroc_ci": [
+   0.6433290131636685,
+   0.8886892393320964
+  ],
+  "categories_in_auroc": [
+   "acceptor_CO2_methanogen_acetogen",
+   "acceptor_iron",
+   "acceptor_nitrate",
+   "acceptor_oxygen",
+   "acceptor_sulfate",
+   "acceptor_sulfur",
+   "donor_CO_oxidation",
+   "donor_hydrogen_oxidation",
+   "donor_sulfur_oxidation"
+  ],
+  "released_calls": 105,
+  "released_accuracy": 0.7047619047619048,
+  "released_mcc": 0.4130826247882629,
+  "bl2": {
+   "donor_all_tiers": {
+    "tests": 52,
+    "positives": 45,
+    "categories": [
+     "donor_CO_oxidation",
+     "donor_hydrogen_oxidation",
+     "donor_sulfur_oxidation"
+    ],
+    "per_category_auroc": {
+     "donor_CO_oxidation": 0.25,
+     "donor_hydrogen_oxidation": 0.7846153846153846,
+     "donor_sulfur_oxidation": 0.8
+    },
+    "macro_auroc": 0.6115384615384615,
+    "macro_auroc_ci": [
+     0.375,
+     0.9093379446640317
+    ]
+   },
+   "donor_tier1": {
+    "tests": 3,
+    "positives": 2,
+    "categories": [
+     "donor_CO_oxidation"
+    ],
+    "per_category_auroc": {
+     "donor_CO_oxidation": 0.5
+    },
+    "macro_auroc": NaN,
+    "macro_auroc_ci": null
+   },
+   "donor_tier2": {
+    "tests": 49,
+    "positives": 43,
+    "categories": [
+     "donor_hydrogen_oxidation",
+     "donor_sulfur_oxidation"
+    ],
+    "per_category_auroc": {
+     "donor_hydrogen_oxidation": 0.7846153846153846,
+     "donor_sulfur_oxidation": 0.8
+    },
+    "macro_auroc": 0.7923076923076924,
+    "macro_auroc_ci": [
+     0.5829991087344029,
+     0.9270266159823612
+    ]
+   },
+   "all_tier1": {
+    "tests": 11,
+    "positives": 6,
+    "categories": [
+     "acceptor_nitrate",
+     "acceptor_oxygen",
+     "donor_CO_oxidation"
+    ],
+    "per_category_auroc": {
+     "acceptor_nitrate": 1.0,
+     "acceptor_oxygen": 1.0,
+     "donor_CO_oxidation": 0.5
+    },
+    "macro_auroc": 0.8333333333333334,
+    "macro_auroc_ci": [
+     0.5,
+     1.0
+    ]
+   },
+   "all_tier2": {
+    "tests": 157,
+    "positives": 124,
+    "categories": [
+     "acceptor_CO2_methanogen_acetogen",
+     "acceptor_iron",
+     "acceptor_nitrate",
+     "acceptor_sulfate",
+     "acceptor_sulfur",
+     "donor_hydrogen_oxidation",
+     "donor_sulfur_oxidation"
+    ],
+    "per_category_auroc": {
+     "acceptor_CO2_methanogen_acetogen": 1.0,
+     "acceptor_iron": 0.42424242424242425,
+     "acceptor_nitrate": 0.8125,
+     "acceptor_sulfate": 0.9134615384615384,
+     "acceptor_sulfur": 0.8152173913043478,
+     "donor_hydrogen_oxidation": 0.7846153846153846,
+     "donor_sulfur_oxidation": 0.8
+    },
+    "macro_auroc": 0.7928623912319565,
+    "macro_auroc_ci": [
+     0.6522149233760259,
+     0.9070510422548465
+    ]
+   }
+  }
+ },
+ "RedoxKO-LX": {
+  "per_category_auroc": {
+   "acceptor_CO2_methanogen_acetogen": 1.0,
+   "acceptor_iron": 0.42424242424242425,
+   "acceptor_nitrate": 0.7530864197530863,
+   "acceptor_oxygen": 1.0,
+   "acceptor_sulfate": 0.888888888888889,
+   "acceptor_sulfur": 0.8322981366459627,
+   "donor_CO_oxidation": 0.125,
+   "donor_hydrogen_oxidation": 0.7692307692307693,
+   "donor_sulfur_oxidation": 0.85
+  },
+  "macro_auroc": 0.7380829598623478,
+  "macro_auroc_ci": [
+   0.6105372925685425,
+   0.8774468821923055
+  ],
+  "categories_in_auroc": [
+   "acceptor_CO2_methanogen_acetogen",
+   "acceptor_iron",
+   "acceptor_nitrate",
+   "acceptor_oxygen",
+   "acceptor_sulfate",
+   "acceptor_sulfur",
+   "donor_CO_oxidation",
+   "donor_hydrogen_oxidation",
+   "donor_sulfur_oxidation"
+  ],
+  "released_calls": 105,
+  "released_accuracy": 0.7428571428571429,
+  "released_mcc": 0.45689976775676266,
+  "bl2": {
+   "donor_all_tiers": {
+    "tests": 52,
+    "positives": 45,
+    "categories": [
+     "donor_CO_oxidation",
+     "donor_hydrogen_oxidation",
+     "donor_sulfur_oxidation"
+    ],
+    "per_category_auroc": {
+     "donor_CO_oxidation": 0.125,
+     "donor_hydrogen_oxidation": 0.7692307692307693,
+     "donor_sulfur_oxidation": 0.85
+    },
+    "macro_auroc": 0.5814102564102565,
+    "macro_auroc_ci": [
+     0.32051282051282054,
+     0.9219432773109244
+    ]
+   },
+   "donor_tier1": {
+    "tests": 3,
+    "positives": 2,
+    "categories": [
+     "donor_CO_oxidation"
+    ],
+    "per_category_auroc": {
+     "donor_CO_oxidation": 0.5
+    },
+    "macro_auroc": NaN,
+    "macro_auroc_ci": null
+   },
+   "donor_tier2": {
+    "tests": 49,
+    "positives": 43,
+    "categories": [
+     "donor_hydrogen_oxidation",
+     "donor_sulfur_oxidation"
+    ],
+    "per_category_auroc": {
+     "donor_hydrogen_oxidation": 0.7692307692307693,
+     "donor_sulfur_oxidation": 0.85
+    },
+    "macro_auroc": 0.8096153846153846,
+    "macro_auroc_ci": [
+     0.5776435574229691,
+     0.9545454545454546
+    ]
+   },
+   "all_tier1": {
+    "tests": 11,
+    "positives": 6,
+    "categories": [
+     "acceptor_nitrate",
+     "acceptor_oxygen",
+     "donor_CO_oxidation"
+    ],
+    "per_category_auroc": {
+     "acceptor_nitrate": 1.0,
+     "acceptor_oxygen": 1.0,
+     "donor_CO_oxidation": 0.5
+    },
+    "macro_auroc": 0.8333333333333334,
+    "macro_auroc_ci": [
+     0.5,
+     1.0
+    ]
+   },
+   "all_tier2": {
+    "tests": 157,
+    "positives": 124,
+    "categories": [
+     "acceptor_CO2_methanogen_acetogen",
+     "acceptor_iron",
+     "acceptor_nitrate",
+     "acceptor_sulfate",
+     "acceptor_sulfur",
+     "donor_hydrogen_oxidation",
+     "donor_sulfur_oxidation"
+    ],
+    "per_category_auroc": {
+     "acceptor_CO2_methanogen_acetogen": 1.0,
+     "acceptor_iron": 0.42424242424242425,
+     "acceptor_nitrate": 0.734375,
+     "acceptor_sulfate": 0.8846153846153846,
+     "acceptor_sulfur": 0.8115942028985508,
+     "donor_hydrogen_oxidation": 0.7692307692307693,
+     "donor_sulfur_oxidation": 0.85
+    },
+    "macro_auroc": 0.7820082544267326,
+    "macro_auroc_ci": [
+     0.6547160362031286,
+     0.8871078413744229
+    ]
+   }
+  }
+ },
+ "descriptive_only": false
+}

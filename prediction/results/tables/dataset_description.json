@@ -1,0 +1,122 @@
+{
+ "task1": {
+  "genomes": 358,
+  "categories": 14,
+  "taxa": {
+   "phylum": 18,
+   "class": 39,
+   "order": 64,
+   "family": 112,
+   "genus": 185,
+   "species": 355
+  },
+  "positives_per_genome": {
+   "mean": 2.84,
+   "median": 3.0,
+   "min": 0,
+   "max": 8
+  },
+  "genomes_with_no_positive": 1,
+  "phyla": {
+   "Pseudomonadota": 128,
+   "Bacillota": 49,
+   "Methanobacteriota": 43,
+   "Thermodesulfobacteriota": 32,
+   "Thermoproteota": 22,
+   "Actinomycetota": 18,
+   "Campylobacterota": 14,
+   "Nitrososphaerota": 12,
+   "Aquificota": 11,
+   "Nitrospirota": 8,
+   "Chlorobiota": 7,
+   "Verrucomicrobiota": 4,
+   "Chloroflexota": 4,
+   "Nitrospinota": 2,
+   "Planctomycetota": 1,
+   "Thermodesulfobiota": 1,
+   "Thermomicrobiota": 1,
+   "Thermosulfidibacterota": 1
+  },
+  "domain": {
+   "Bacteria": 281,
+   "Archaea": 77
+  },
+  "folds": {
+   "genus": 5,
+   "family": 5
+  },
+  "genera_with_more_than_one_genome": 75,
+  "largest_genera": {
+   "Mycolicibacterium": 8,
+   "Methanobacterium": 8,
+   "Acetobacterium": 8,
+   "Clostridium": 7,
+   "Methanocaldococcus": 7
+  },
+  "label_columns_from": [
+   "genome_id",
+   "genus",
+   "family",
+   "group_genus",
+   "group_family",
+   "fold_genus",
+   "fold_family",
+   "organism_name",
+   "domain",
+   "phylum",
+   "class",
+   "order"
+  ]
+ },
+ "task2": {
+  "genomes": 3378,
+  "traits": 20,
+  "taxa": {
+   "phylum": 31,
+   "class": 74,
+   "order": 153,
+   "family": 321,
+   "genus": 1243,
+   "species": 3378
+  },
+  "positives_per_genome": {
+   "mean": 1.28,
+   "median": 1.0,
+   "min": 0,
+   "max": 9
+  },
+  "genomes_with_no_positive": 286,
+  "phyla": {
+   "Proteobacteria": 1338,
+   "Actinobacteria": 709,
+   "Firmicutes": 647,
+   "Bacteroidetes": 228,
+   "Euryarchaeota": 210,
+   "Crenarchaeota": 35,
+   "Spirochaetes": 23,
+   "Deinococcus-Thermus": 23,
+   "Cyanobacteria": 21,
+   "Aquificae": 20,
+   "Thermotogae": 15,
+   "Chloroflexi": 14
+  },
+  "domain": {
+   "Bacteria": 3124,
+   "Archaea": 254
+  },
+  "folds": {
+   "genus": 5,
+   "family": 5
+  },
+  "traits_with_100pct_faprotax_positives": [
+   "manganese_reduction",
+   "arsenate_reduction",
+   "fumarate_reduction",
+   "hydrogen_oxidation",
+   "fermentation",
+   "photoautotrophy",
+   "photoheterotrophy",
+   "methylotrophy"
+  ]
+ }
+}

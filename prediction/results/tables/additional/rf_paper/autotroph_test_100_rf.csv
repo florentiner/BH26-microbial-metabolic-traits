@@ -1,0 +1,4 @@
+subset,species,tests,macro_auroc,categories,mcc,sensitivity,specificity,macro_auroc_lo,macro_auroc_hi,mcc_lo,mcc_hi,sensitivity_lo,sensitivity_hi,specificity_lo,specificity_hi
+100 autotroph-like species,99,220,0.7645,9,0.4065,0.5960,0.8406,0.6430,0.8586,0.2671,0.5387,0.4902,0.7027,0.7308,0.9268
+existing only,70,160,0.8261,9,0.2819,0.5172,0.7955,,,,,,,,
+harvested only,29,60,0.8000,6,0.7680,0.8571,0.9200,,,,,,,,

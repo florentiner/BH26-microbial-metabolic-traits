@@ -1,0 +1,10 @@
+arm,trait,n_pos,auprc,auprc_B2
+FM_BFL_MLP,acceptor_sulfate,32,0.4686,0.7611
+FM_BFL_MLP,acceptor_sulfur,102,0.5514,0.6145
+FM_BFL_MLP,acceptor_CO2_methanogen_acetogen,56,0.5069,0.8255
+FM_BFL_MLP,acceptor_iron,59,0.0906,0.0962
+FM_BFL_MLP,acceptor_nitrate,227,0.6362,0.7397
+FM_BFL_MLP,acceptor_oxygen,289,0.9777,0.9656
+FM_BFL_MLP,donor_hydrogen_oxidation,34,0.0878,0.1309
+FM_BFL_MLP,donor_sulfur_oxidation,48,0.2123,0.4010
+FM_BFL_MLP,donor_iron_oxidation,19,0.1900,0.0669

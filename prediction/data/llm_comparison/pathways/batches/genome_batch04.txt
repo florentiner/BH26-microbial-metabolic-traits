@@ -1,0 +1,1629 @@
+You are an expert microbial physiologist. For each genome below you get ONLY genome annotation evidence:
+significant KofamScan hits (KEGG Orthology) in energy metabolism, retrieved from the RDF Portal BH26 Microbes
+database (the data behind TogoMCP). Each line: KO | KEGG definition | number of proteins | best score/threshold.
+
+Task: for every genome and every trait, give the probability (0.00-1.00) that the organism uses that energy
+metabolism pathway, as it would be recorded in a curated microbial trait database. Reason from the gene content
+(complete pathways and complexes, marker specificity, ambiguous KOs such as narGH vs nxrAB, sdh vs frd, or
+dsrAB used in both oxidative and reductive directions). Do NOT use any tool, file, web search or outside lookup:
+judge from the evidence given. Genomes are anonymised; do not guess identities.
+
+Traits (key: meaning):
+- denitrification: Denitrification: nitrate/nitrite reduced to N2O or N2
+- dnra: Dissimilatory nitrate reduction to ammonium (DNRA)
+- nitrate_reduction: Dissimilatory nitrate reduction (any route, includes denitrification and DNRA)
+- nitrogen_fixation: N2 fixation to ammonia (nitrogenase)
+- methanogenesis: Methanogenesis (any substrate)
+- acetogenesis: Acetogenesis: reductive acetyl-CoA (Wood-Ljungdahl) pathway to acetate
+- sulfate_reduction: Dissimilatory sulfate reduction
+- sulfur_reduction: Dissimilatory reduction of elemental sulfur, thiosulfate or polysulfide
+- sulfur_oxidation: Oxidation of reduced sulfur compounds for energy
+- iron_reduction: Dissimilatory Fe(III) reduction
+- iron_oxidation: Fe(II) oxidation for energy
+- manganese_reduction: Dissimilatory Mn(IV) reduction
+- arsenate_reduction: Dissimilatory arsenate reduction
+- fumarate_reduction: Fumarate respiration (fumarate as terminal electron acceptor)
+- hydrogen_oxidation: H2 oxidation as an energy source
+- fermentation: Fermentative energy metabolism (substrate-level phosphorylation, no external acceptor)
+- aerobic_chemoheterotrophy: Aerobic growth on organic carbon
+- photoautotrophy: Photoautotrophy (light energy, CO2 as carbon source)
+- photoheterotrophy: Photoheterotrophy (light energy, organic carbon)
+- methylotrophy: Growth on C1 compounds such as methanol, methylamines or methane
+
+Return ONLY a JSON object: {"<genome_code>": {"<trait_key>": probability, ...}, ...} with all 20 keys for every
+genome. Write it to the output path given by the orchestrator.
+
+### genome_code: P048
+104 significant energy-metabolism KOs:
+K00024 | malate dehydrogenase [EC:1.1.1.37] | 1 | 1.10
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 1 | 2.00
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 1.02
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 1 | 1.54
+K00124 | formate dehydrogenase iron-sulfur subunit | 1 | 2.26
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 1 | 1.25
+K00148 | glutathione-independent formaldehyde dehydrogenase [EC:1.2.1.46] | 1 | 1.52
+K00174 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11] | 1 | 2.64
+K00175 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11] | 1 | 1.82
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 2 | 1.14
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 2 | 1.71
+K00241 | succinate dehydrogenase cytochrome b subunit | 1 | 3.16
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.14
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 1 | 1.17
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 2 | 2.06
+K00299 | FMN reductase [EC:1.5.1.38] | 2 | 2.56
+K00320 | 5,10-methylenetetrahydromethanopterin reductase [EC:1.5.98.2] | 3 | 1.28
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 1 | 1.15
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 1 | 1.13
+K00333 | NADH-quinone oxidoreductase subunit D [EC:7.1.1.2] | 1 | 1.06
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 1 | 1.04
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 1 | 1.17
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 1 | 1.69
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.13
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 1 | 1.51
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.27
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 1 | 1.63
+K00367 | ferredoxin-nitrate reductase [EC:1.7.7.2] | 1 | 1.01
+K00368 | nitrite reductase (NO-forming) [EC:1.7.2.1] | 1 | 1.15
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 1 | 1.47
+K00425 | cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7] | 2 | 4.14
+K00426 | cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7] | 2 | 3.88
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 1 | 2.05
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 3 | 7.99
+K00615 | transketolase [EC:2.2.1.1] | 2 | 3.49
+K00616 | transaldolase [EC:2.2.1.2] | 2 | 1.90
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 1 | 1.18
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 1 | 3.08
+K00641 | homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46] | 1 | 4.93
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 1 | 1.95
+K00925 | acetate kinase [EC:2.7.2.1] | 1 | 4.48
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 5.36
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.89
+K00956 | sulfate adenylyltransferase subunit 1 [EC:2.7.7.4] | 1 | 1.16
+K00957 | sulfate adenylyltransferase subunit 2 [EC:2.7.7.4] | 1 | 2.89
+K01006 | pyruvate, orthophosphate dikinase [EC:2.7.9.1] | 1 | 4.02
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 2 | 1.65
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 1 | 1.08
+K01507 | inorganic pyrophosphatase [EC:3.6.1.1] | 2 | 7.45
+K01595 | phosphoenolpyruvate carboxylase [EC:4.1.1.31] | 1 | 22.48
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 1 | 3.37
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 2 | 5.34
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.80
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.15
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.25
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 12.40
+K01807 | ribose 5-phosphate isomerase A [EC:5.3.1.6] | 1 | 3.69
+K01808 | ribose 5-phosphate isomerase B [EC:5.3.1.6] | 1 | 1.17
+K01848 | methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2] | 2 | 1.09
+K01849 | methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2] | 1 | 1.21
+K01895 | acetyl-CoA synthetase [EC:6.2.1.1] | 1 | 1.25
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 1 | 1.21
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 1 | 1.11
+K01915 | glutamine synthetase [EC:6.3.1.2] | 3 | 8.00
+K02045 | sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3] | 1 | 1.11
+K02046 | sulfate/thiosulfate transport system permease protein | 1 | 1.22
+K02047 | sulfate/thiosulfate transport system permease protein | 1 | 1.18
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.34
+K02109 | F-type H+-transporting ATPase subunit b | 1 | 3.00
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 1.99
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.83
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.28
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.06
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.43
+K02257 | heme o synthase [EC:2.5.1.141] | 1 | 3.06
+K02259 | heme a synthase [EC:1.17.99.9] | 1 | 2.25
+K02274 | cytochrome c oxidase subunit I [EC:7.1.1.9] | 2 | 1.11
+K02275 | cytochrome c oxidase subunit II [EC:7.1.1.9] | 2 | 1.33
+K02276 | cytochrome c oxidase subunit III [EC:7.1.1.9] | 1 | 1.17
+K02446 | fructose-1,6-bisphosphatase II [EC:3.1.3.11] | 1 | 1.03
+K02575 | MFS transporter, NNP family, nitrate/nitrite transporter | 2 | 2.27
+K03518 | aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3] | 3 | 1.13
+K03519 | aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3] | 1 | 1.30
+K03520 | aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3] | 2 | 1.27
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 1 | 2.46
+K03886 | quinol---cytochrome c reductase iron-sulfur subunit, bacillus type [EC:7.1.1.8] | 1 | 1.13
+K03887 | quinol---cytochrome c reductase cytochrome b subunit, bacillus type [EC:7.1.1.8] | 1 | 1.02
+K03888 | quinol---cytochrome c reductase cytochrome c subunit, bacillus type [EC:7.1.1.8] | 1 | 1.11
+K05606 | methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] | 1 | 2.06
+K06881 | bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3] | 1 | 1.52
+K08691 | malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25] | 1 | 1.24
+K08906 | cytochrome c6 | 1 | 1.05
+K11212 | LPPG:FO 2-phospho-L-lactate transferase [EC:2.7.8.28] | 1 | 2.00
+K11779 | FO synthase [EC:2.5.1.147 4.3.1.32] | 1 | 2.08
+K12234 | coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase [EC:6.3.2.31 6.3.2.34] | 1 | 2.03
+K13788 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.74
+K14941 | 2-phospho-L-lactate/phosphoenolpyruvate guanylyltransferase [EC:2.7.7.68 2.7.7.105] | 1 | 1.96
+K15371 | glutamate dehydrogenase [EC:1.4.1.2] | 2 | 7.06
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 10.04
+K15986 | manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 2.30
+K21071 | ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.7.1.90] | 1 | 1.38
+K26138 | nitrite reductase [NAD(P)H] small subunit [EC:1.7.1.4] | 1 | 1.07
+K26139 | nitrite reductase [NAD(P)H] large subunit [EC:1.7.1.4] | 1 | 1.01
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.10
+### genome_code: P049
+156 significant energy-metabolism KOs:
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 3 | 2.36
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 1.82
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 3 | 1.32
+K00121 | S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1] | 1 | 1.14
+K00124 | formate dehydrogenase iron-sulfur subunit | 2 | 2.11
+K00127 | formate dehydrogenase subunit gamma | 2 | 3.15
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 2 | 1.59
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 2 | 1.26
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 2 | 1.98
+K00241 | succinate dehydrogenase cytochrome b subunit | 1 | 1.43
+K00242 | succinate dehydrogenase membrane anchor subunit | 1 | 1.40
+K00244 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.57
+K00245 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 1 | 1.40
+K00246 | succinate dehydrogenase subunit C | 1 | 3.56
+K00247 | succinate dehydrogenase subunit D | 1 | 4.40
+K00261 | glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3] | 1 | 1.04
+K00262 | glutamate dehydrogenase (NADP+) [EC:1.4.1.4] | 1 | 1.71
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.07
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 2 | 1.21
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 1 | 2.13
+K00299 | FMN reductase [EC:1.5.1.38] | 1 | 1.93
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 1 | 1.38
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 1 | 1.24
+K00334 | NADH-quinone oxidoreductase subunit E [EC:7.1.1.2] | 1 | 1.28
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 1 | 1.11
+K00336 | NADH-quinone oxidoreductase subunit G [EC:7.1.1.2] | 1 | 1.05
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 1 | 1.17
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 1 | 1.55
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.33
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 1 | 1.32
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.28
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 1 | 1.11
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 1 | 1.60
+K00361 | nitrite reductase [NAD(P)H] [EC:1.7.1.4] | 1 | 1.43
+K00362 | nitrite reductase (NADH) large subunit [EC:1.7.1.15] | 2 | 1.18
+K00363 | nitrite reductase (NADH) small subunit [EC:1.7.1.15] | 1 | 1.13
+K00370 | nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-] | 2 | 2.76
+K00371 | nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-] | 1 | 2.65
+K00372 | assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-] | 1 | 1.10
+K00373 | nitrate reductase molybdenum cofactor assembly chaperone NarJ/NarW | 1 | 2.99
+K00374 | nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-] | 2 | 1.74
+K00380 | sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2] | 1 | 1.32
+K00381 | sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2] | 2 | 1.73
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 1 | 1.64
+K00424 | cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7] | 1 | 1.70
+K00425 | cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7] | 3 | 5.49
+K00426 | cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7] | 3 | 6.75
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 2 | 2.25
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 8.31
+K00615 | transketolase [EC:2.2.1.1] | 6 | 3.77
+K00616 | transaldolase [EC:2.2.1.2] | 3 | 3.09
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 3 | 1.19
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 2 | 3.14
+K00651 | homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31] | 1 | 1.77
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 1 | 4.16
+K00850 | 6-phosphofructokinase 1 [EC:2.7.1.11] | 1 | 1.06
+K00860 | adenylylsulfate kinase [EC:2.7.1.25] | 1 | 1.05
+K00925 | acetate kinase [EC:2.7.2.1] | 3 | 4.83
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 5.42
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.03
+K00956 | sulfate adenylyltransferase subunit 1 [EC:2.7.7.4] | 1 | 1.33
+K00957 | sulfate adenylyltransferase subunit 2 [EC:2.7.7.4] | 1 | 3.36
+K01007 | pyruvate, water dikinase [EC:2.7.9.2] | 1 | 2.81
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 1 | 1.68
+K01070 | S-formylglutathione hydrolase [EC:3.1.2.12] | 1 | 3.72
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 2.32
+K01082 | 3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7] | 1 | 1.52
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 1 | 1.10
+K01501 | nitrilase [EC:3.5.5.1] | 1 | 1.60
+K01507 | inorganic pyrophosphatase [EC:3.6.1.1] | 2 | 7.12
+K01595 | phosphoenolpyruvate carboxylase [EC:4.1.1.31] | 1 | 27.51
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 2 | 8.68
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 4 | 4.92
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 3 | 13.13
+K01675 | fumarate hydratase D [EC:4.2.1.2] | 1 | 1.61
+K01676 | fumarate hydratase, class I [EC:4.2.1.2] | 2 | 2.62
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.39
+K01682 | aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 2.37
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.81
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.15
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.47
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 2 | 12.61
+K01807 | ribose 5-phosphate isomerase A [EC:5.3.1.6] | 1 | 5.31
+K01808 | ribose 5-phosphate isomerase B [EC:5.3.1.6] | 1 | 1.13
+K01834 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 2.71
+K01895 | acetyl-CoA synthetase [EC:6.2.1.1] | 1 | 1.38
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 1 | 1.42
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 1 | 1.18
+K01915 | glutamine synthetase [EC:6.3.1.2] | 2 | 7.41
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 1 | 1.12
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.29
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.22
+K02045 | sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3] | 1 | 1.20
+K02046 | sulfate/thiosulfate transport system permease protein | 1 | 1.44
+K02047 | sulfate/thiosulfate transport system permease protein | 1 | 1.48
+K02048 | sulfate/thiosulfate transport system substrate-binding protein | 1 | 1.07
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.34
+K02109 | F-type H+-transporting ATPase subunit b | 1 | 3.06
+K02110 | F-type H+-transporting ATPase subunit c | 1 | 1.07
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 1.96
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.82
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.49
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.50
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.53
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 1 | 2.09
+K02257 | heme o synthase [EC:2.5.1.141] | 1 | 2.48
+K02297 | cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3] | 1 | 1.49
+K02298 | cytochrome o ubiquinol oxidase subunit I [EC:7.1.1.3] | 1 | 1.23
+K02299 | cytochrome o ubiquinol oxidase subunit III | 1 | 1.36
+K02300 | cytochrome o ubiquinol oxidase subunit IV | 1 | 1.98
+K02439 | thiosulfate sulfurtransferase [EC:2.8.1.1] | 1 | 1.97
+K02446 | fructose-1,6-bisphosphatase II [EC:3.1.3.11] | 1 | 1.10
+K02575 | MFS transporter, NNP family, nitrate/nitrite transporter | 1 | 2.73
+K02586 | nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1] | 1 | 1.27
+K02588 | nitrogenase iron protein NifH | 1 | 1.33
+K02591 | nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1] | 1 | 1.27
+K03119 | taurine dioxygenase [EC:1.14.11.17] | 1 | 1.47
+K03612 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit G | 1 | 1.84
+K03613 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E | 1 | 1.37
+K03614 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2] | 1 | 1.39
+K03615 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.1.1.11 7.2.1.2] | 1 | 4.12
+K03616 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2] | 1 | 3.46
+K03617 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A | 1 | 1.35
+K03737 | pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.8.1] | 2 | 4.32
+K03841 | fructose-1,6-bisphosphatase I [EC:3.1.3.11] | 1 | 2.34
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 1 | 2.01
+K04091 | alkanesulfonate monooxygenase [EC:1.14.14.5 1.14.14.34] | 2 | 1.91
+K05601 | hydroxylamine reductase [EC:1.7.99.1] | 1 | 7.13
+K07306 | anaerobic dimethyl sulfoxide reductase subunit A [EC:1.8.5.3] | 2 | 1.94
+K07307 | anaerobic dimethyl sulfoxide reductase subunit B | 2 | 1.89
+K07308 | anaerobic dimethyl sulfoxide reductase subunit C | 2 | 1.99
+K10831 | taurine transport system ATP-binding protein [EC:7.6.2.7] | 1 | 1.14
+K11529 | glycerate 2-kinase [EC:2.7.1.165] | 1 | 3.80
+K11645 | fructose-bisphosphate aldolase, class I [EC:4.1.2.13] | 1 | 1.37
+K13378 | NADH-quinone oxidoreductase subunit C/D [EC:7.1.1.2] | 1 | 1.52
+K13788 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.68
+K15024 | putative phosphotransacetylase [EC:2.3.1.8] | 1 | 1.13
+K15551 | taurine transport system substrate-binding protein | 1 | 1.92
+K15552 | taurine transport system permease protein | 1 | 1.37
+K15553 | sulfonate transport system substrate-binding protein | 4 | 1.69
+K15554 | sulfonate transport system permease protein | 2 | 1.43
+K15555 | sulfonate transport system ATP-binding protein [EC:7.6.2.14] | 2 | 1.04
+K15576 | nitrate/nitrite transport system substrate-binding protein | 1 | 1.15
+K15577 | nitrate/nitrite transport system permease protein | 1 | 1.39
+K15578 | nitrate/nitrite transport system ATP-binding protein [EC:7.3.2.4] | 1 | 1.05
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 11.37
+K15634 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 1.05
+K16370 | 6-phosphofructokinase 2 [EC:2.7.1.11] | 1 | 1.26
+K17228 | dimethylsulfone monooxygenase [EC:1.14.14.35] | 1 | 1.83
+K20034 | 3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44] | 1 | 1.08
+K22015 | formate dehydrogenase (hydrogenase) / hydrogen-dependent carbon dioxide reductase [EC:1.17.98.4 1.17.98.5] | 2 | 1.43
+K22468 | polyphosphate kinase [EC:2.7.4.34] | 1 | 1.56
+K23163 | sulfate/thiosulfate transport system substrate-binding protein | 1 | 1.18
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.11
+K28462 | phosphoribulokinase [EC:2.7.1.19] | 1 | 1.61
+K28482 | fumarate reductase (NADH) [EC:1.3.1.6] | 1 | 1.22
+### genome_code: P050
+98 significant energy-metabolism KOs:
+K00024 | malate dehydrogenase [EC:1.1.1.37] | 1 | 1.10
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 1 | 1.08
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 2 | 1.45
+K00123 | formate dehydrogenase major subunit [EC:1.17.1.9] | 1 | 1.03
+K00124 | formate dehydrogenase iron-sulfur subunit | 1 | 1.16
+K00127 | formate dehydrogenase subunit gamma | 1 | 1.16
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 2 | 1.24
+K00174 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11] | 3 | 2.42
+K00175 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11] | 3 | 1.60
+K00176 | 2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3] | 1 | 1.23
+K00177 | 2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3] | 1 | 1.45
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.04
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 1 | 1.24
+K00241 | succinate dehydrogenase cytochrome b subunit | 1 | 2.83
+K00262 | glutamate dehydrogenase (NADP+) [EC:1.4.1.4] | 3 | 1.77
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 1 | 1.25
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 1 | 2.00
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 2 | 1.54
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 2 | 1.29
+K00332 | NADH-quinone oxidoreductase subunit C [EC:7.1.1.2] | 1 | 1.11
+K00333 | NADH-quinone oxidoreductase subunit D [EC:7.1.1.2] | 1 | 1.16
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 2 | 1.29
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 2 | 1.51
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.32
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 2 | 1.58
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.56
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 2 | 1.28
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 2 | 1.75
+K00425 | cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7] | 1 | 4.55
+K00426 | cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7] | 1 | 3.26
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 1 | 1.22
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 8.53
+K00615 | transketolase [EC:2.2.1.1] | 1 | 3.44
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 1.53
+K00625 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.03
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 1 | 3.62
+K00641 | homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46] | 1 | 5.86
+K00925 | acetate kinase [EC:2.7.2.1] | 3 | 4.87
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 6.45
+K01006 | pyruvate, orthophosphate dikinase [EC:2.7.9.1] | 1 | 4.55
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 2.46
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 1 | 1.15
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 1 | 9.61
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 1 | 4.28
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 1 | 8.22
+K01676 | fumarate hydratase, class I [EC:4.2.1.2] | 1 | 2.48
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.33
+K01682 | aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 2.02
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.86
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.10
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.55
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 12.77
+K01808 | ribose 5-phosphate isomerase B [EC:5.3.1.6] | 1 | 1.29
+K01847 | methylmalonyl-CoA mutase [EC:5.4.99.2] | 1 | 1.73
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 1 | 1.34
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 1 | 1.09
+K01915 | glutamine synthetase [EC:6.3.1.2] | 1 | 7.24
+K01958 | pyruvate carboxylase [EC:6.4.1.1] | 1 | 2.25
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 1 | 1.12
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.31
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.25
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.53
+K02109 | F-type H+-transporting ATPase subunit b | 2 | 2.56
+K02110 | F-type H+-transporting ATPase subunit c | 1 | 1.55
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 2.14
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.88
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.34
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.51
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.51
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 1 | 1.71
+K02446 | fructose-1,6-bisphosphatase II [EC:3.1.3.11] | 1 | 1.03
+K03385 | nitrite reductase (cytochrome c-552) [EC:1.7.2.2] | 1 | 2.15
+K03612 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit G | 1 | 1.69
+K03613 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E | 1 | 1.40
+K03614 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2] | 1 | 1.52
+K03615 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.1.1.11 7.2.1.2] | 1 | 2.06
+K03616 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2] | 1 | 2.40
+K03617 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A | 1 | 1.26
+K03737 | pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.8.1] | 1 | 4.32
+K03841 | fructose-1,6-bisphosphatase I [EC:3.1.3.11] | 1 | 1.46
+K05601 | hydroxylamine reductase [EC:1.7.99.1] | 2 | 7.87
+K05606 | methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] | 1 | 2.44
+K06881 | bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3] | 1 | 1.68
+K10535 | hydroxylamine dehydrogenase [EC:1.7.2.6] | 1 | 1.24
+K15019 | 3-hydroxypropionyl-coenzyme A dehydratase [EC:4.2.1.116] | 1 | 1.02
+K15022 | formate dehydrogenase (NADP+) beta subunit [EC:1.17.1.10] | 1 | 1.13
+K15371 | glutamate dehydrogenase [EC:1.4.1.2] | 2 | 4.72
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 11.33
+K15635 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 5.24
+K15876 | cytochrome c nitrite reductase small subunit | 1 | 1.84
+K15986 | manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 2.36
+K16951 | anaerobic sulfite reductase subunit B | 1 | 1.04
+K18367 | CoA-dependent NAD(P)H sulfur oxidoreductase [EC:1.8.1.18] | 1 | 1.02
+K19713 | thiosulfate dehydrogenase [EC:1.8.2.2] | 1 | 2.31
+K21071 | ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.7.1.90] | 1 | 1.32
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.02
+K28483 | acrylate reductase flavoprotein subunit [EC:1.3.-.-] | 2 | 1.29
+K28484 | acrylate reductase cytochrome subunit [EC:1.3.-.-] | 1 | 1.29
+### genome_code: P051
+72 significant energy-metabolism KOs:
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 6.11
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 2 | 1.51
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 1 | 1.38
+K00150 | glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) [EC:1.2.1.59] | 1 | 1.01
+K00174 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11] | 4 | 2.37
+K00175 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11] | 4 | 1.64
+K00176 | 2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3] | 3 | 1.32
+K00177 | 2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3] | 3 | 1.63
+K00196 | anaerobic carbon-monoxide dehydrogenase iron sulfur subunit | 1 | 1.09
+K00260 | glutamate dehydrogenase [EC:1.4.1.2] | 1 | 1.07
+K00261 | glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3] | 1 | 1.07
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 1 | 1.35
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 1 | 1.14
+K00334 | NADH-quinone oxidoreductase subunit E [EC:7.1.1.2] | 1 | 1.09
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 1 | 1.44
+K00385 | anaerobic sulfite reductase subunit C | 1 | 2.03
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 1 | 1.87
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 2 | 1.97
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 8.38
+K00615 | transketolase [EC:2.2.1.1] | 3 | 3.69
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 1.52
+K00625 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.11
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 1 | 3.65
+K00651 | homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31] | 1 | 1.93
+K00850 | 6-phosphofructokinase 1 [EC:2.7.1.11] | 1 | 1.15
+K00925 | acetate kinase [EC:2.7.2.1] | 1 | 5.30
+K00926 | carbamate kinase [EC:2.7.2.2] | 2 | 4.77
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 6.62
+K00957 | sulfate adenylyltransferase subunit 2 [EC:2.7.7.4] | 1 | 2.17
+K01006 | pyruvate, orthophosphate dikinase [EC:2.7.9.1] | 1 | 4.64
+K01500 | methenyltetrahydrofolate cyclohydrolase [EC:3.5.4.9] | 1 | 1.13
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 1 | 8.53
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 3 | 4.49
+K01677 | fumarate hydratase subunit alpha [EC:4.2.1.2] | 1 | 1.38
+K01678 | fumarate hydratase subunit beta [EC:4.2.1.2] | 1 | 1.21
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.92
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.25
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.33
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 2 | 13.48
+K01808 | ribose 5-phosphate isomerase B [EC:5.3.1.6] | 1 | 1.48
+K01847 | methylmalonyl-CoA mutase [EC:5.4.99.2] | 1 | 1.00
+K01848 | methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2] | 1 | 1.20
+K01849 | methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2] | 1 | 1.23
+K01915 | glutamine synthetase [EC:6.3.1.2] | 2 | 8.39
+K01938 | formate--tetrahydrofolate ligase [EC:6.3.4.3] | 1 | 1.08
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.22
+K02109 | F-type H+-transporting ATPase subunit b | 1 | 2.63
+K02110 | F-type H+-transporting ATPase subunit c | 1 | 1.21
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 2.10
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.88
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.47
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.36
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.18
+K02586 | nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1] | 1 | 1.28
+K02588 | nitrogenase iron protein NifH | 1 | 1.31
+K02591 | nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1] | 1 | 1.13
+K03737 | pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.8.1] | 2 | 4.65
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 1 | 2.05
+K05601 | hydroxylamine reductase [EC:1.7.99.1] | 1 | 8.26
+K05606 | methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] | 1 | 2.45
+K05979 | 2-phosphosulfolactate phosphatase [EC:3.1.3.71] | 1 | 3.97
+K06881 | bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3] | 1 | 1.81
+K15024 | putative phosphotransacetylase [EC:2.3.1.8] | 1 | 1.12
+K15554 | sulfonate transport system permease protein | 1 | 1.12
+K15555 | sulfonate transport system ATP-binding protein [EC:7.6.2.14] | 1 | 1.08
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 11.81
+K15986 | manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 2.86
+K16950 | anaerobic sulfite reductase subunit A | 1 | 1.27
+K16951 | anaerobic sulfite reductase subunit B | 1 | 1.66
+K18367 | CoA-dependent NAD(P)H sulfur oxidoreductase [EC:1.8.1.18] | 1 | 1.02
+K22083 | methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21] | 1 | 1.36
+K22305 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 1.15
+### genome_code: P052
+180 significant energy-metabolism KOs:
+K00018 | glycerate dehydrogenase [EC:1.1.1.29] | 1 | 1.34
+K00024 | malate dehydrogenase [EC:1.1.1.37] | 1 | 1.18
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 1 | 2.75
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 7.87
+K00123 | formate dehydrogenase major subunit [EC:1.17.1.9] | 2 | 1.35
+K00124 | formate dehydrogenase iron-sulfur subunit | 1 | 1.98
+K00126 | formate dehydrogenase subunit delta [EC:1.17.1.9] | 1 | 2.09
+K00127 | formate dehydrogenase subunit gamma | 1 | 2.67
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 1 | 1.18
+K00200 | formylmethanofuran dehydrogenase subunit A [EC:1.2.7.12] | 1 | 2.39
+K00201 | formylmethanofuran dehydrogenase subunit B [EC:1.2.7.12] | 1 | 1.61
+K00202 | formylmethanofuran dehydrogenase subunit C [EC:1.2.7.12] | 1 | 1.90
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.30
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 1 | 1.95
+K00241 | succinate dehydrogenase cytochrome b subunit | 1 | 1.42
+K00242 | succinate dehydrogenase membrane anchor subunit | 1 | 1.24
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.18
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 1 | 1.25
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 1 | 2.36
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 1 | 1.49
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 1 | 1.35
+K00332 | NADH-quinone oxidoreductase subunit C [EC:7.1.1.2] | 1 | 1.11
+K00333 | NADH-quinone oxidoreductase subunit D [EC:7.1.1.2] | 1 | 1.13
+K00334 | NADH-quinone oxidoreductase subunit E [EC:7.1.1.2] | 1 | 1.96
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 1 | 1.01
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 1 | 1.17
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 1 | 1.53
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.41
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 1 | 1.59
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.62
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 1 | 1.29
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 1 | 1.65
+K00366 | ferredoxin-nitrite reductase [EC:1.7.7.1] | 1 | 1.06
+K00372 | assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-] | 1 | 1.13
+K00381 | sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2] | 1 | 1.08
+K00386 | sulfite dehydrogenase (cytochrome) subunit B [EC:1.8.2.1] | 2 | 1.42
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 1 | 1.96
+K00404 | cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9] | 1 | 1.06
+K00405 | cytochrome c oxidase cbb3-type subunit II | 1 | 1.06
+K00406 | cytochrome c oxidase cbb3-type subunit III | 2 | 2.94
+K00407 | cytochrome c oxidase cbb3-type subunit IV | 1 | 2.44
+K00411 | ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8] | 1 | 3.82
+K00412 | ubiquinol-cytochrome c reductase cytochrome b subunit | 1 | 1.99
+K00413 | ubiquinol-cytochrome c reductase cytochrome c1 subunit | 1 | 6.48
+K00425 | cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7] | 1 | 5.02
+K00426 | cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7] | 1 | 5.79
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 8.15
+K00615 | transketolase [EC:2.2.1.1] | 1 | 3.63
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 2.98
+K00625 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.01
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 1 | 1.14
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 3 | 3.25
+K00641 | homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46] | 3 | 6.70
+K00672 | formylmethanofuran--tetrahydromethanopterin N-formyltransferase [EC:2.3.1.101] | 1 | 2.13
+K00830 | alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase [EC:2.6.1.44 2.6.1.45 2.6.1.51] | 1 | 1.01
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 1 | 1.62
+K00860 | adenylylsulfate kinase [EC:2.7.1.25] | 1 | 1.01
+K00925 | acetate kinase [EC:2.7.2.1] | 1 | 4.36
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 5.15
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.94
+K00955 | bifunctional enzyme CysN/CysC [EC:2.7.7.4 2.7.1.25] | 1 | 1.35
+K00956 | sulfate adenylyltransferase subunit 1 [EC:2.7.7.4] | 1 | 1.24
+K00957 | sulfate adenylyltransferase subunit 2 [EC:2.7.7.4] | 1 | 3.22
+K01006 | pyruvate, orthophosphate dikinase [EC:2.7.9.1] | 2 | 4.54
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 1 | 1.73
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 1.92
+K01082 | 3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7] | 1 | 1.23
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 1 | 1.04
+K01499 | methenyltetrahydromethanopterin cyclohydrolase [EC:3.5.4.27] | 1 | 1.60
+K01507 | inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 7.32
+K01535 | H+-transporting ATPase [EC:7.1.2.1] | 1 | 2.14
+K01595 | phosphoenolpyruvate carboxylase [EC:4.1.1.31] | 1 | 25.24
+K01601 | ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39] | 1 | 2.50
+K01602 | ribulose-bisphosphate carboxylase small chain [EC:4.1.1.39] | 1 | 3.05
+K01623 | fructose-bisphosphate aldolase, class I [EC:4.1.2.13] | 2 | 14.06
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 1 | 4.02
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 3 | 11.81
+K01674 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.13
+K01676 | fumarate hydratase, class I [EC:4.2.1.2] | 1 | 2.62
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.22
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.76
+K01725 | cyanate lyase [EC:4.2.1.104] | 1 | 2.55
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.21
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 2 | 1.37
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 10.19
+K01807 | ribose 5-phosphate isomerase A [EC:5.3.1.6] | 1 | 5.84
+K01834 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 1.75
+K01895 | acetyl-CoA synthetase [EC:6.2.1.1] | 1 | 1.42
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 2 | 1.31
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 2 | 1.12
+K01915 | glutamine synthetase [EC:6.3.1.2] | 1 | 7.92
+K01938 | formate--tetrahydrofolate ligase [EC:6.3.4.3] | 1 | 1.02
+K01958 | pyruvate carboxylase [EC:6.4.1.1] | 1 | 2.17
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 1 | 1.13
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.16
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.09
+K02045 | sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3] | 1 | 1.17
+K02046 | sulfate/thiosulfate transport system permease protein | 1 | 1.49
+K02047 | sulfate/thiosulfate transport system permease protein | 1 | 1.64
+K02108 | F-type H+-transporting ATPase subunit a | 2 | 1.42
+K02109 | F-type H+-transporting ATPase subunit b | 3 | 2.33
+K02110 | F-type H+-transporting ATPase subunit c | 1 | 1.42
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 2 | 2.10
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 2 | 1.84
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.62
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.23
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.38
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 1 | 1.63
+K02257 | heme o synthase [EC:2.5.1.141] | 1 | 2.73
+K02258 | cytochrome c oxidase assembly protein subunit 11 | 1 | 3.64
+K02259 | heme a synthase [EC:1.17.99.9] | 1 | 5.05
+K02274 | cytochrome c oxidase subunit I [EC:7.1.1.9] | 1 | 1.19
+K02275 | cytochrome c oxidase subunit II [EC:7.1.1.9] | 2 | 1.33
+K02276 | cytochrome c oxidase subunit III [EC:7.1.1.9] | 1 | 1.47
+K02297 | cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3] | 1 | 1.25
+K02298 | cytochrome o ubiquinol oxidase subunit I [EC:7.1.1.3] | 1 | 1.17
+K02299 | cytochrome o ubiquinol oxidase subunit III | 1 | 1.05
+K02300 | cytochrome o ubiquinol oxidase subunit IV | 1 | 1.56
+K02439 | thiosulfate sulfurtransferase [EC:2.8.1.1] | 2 | 1.24
+K02575 | MFS transporter, NNP family, nitrate/nitrite transporter | 1 | 2.63
+K02586 | nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1] | 1 | 1.34
+K02588 | nitrogenase iron protein NifH | 1 | 1.28
+K02591 | nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1] | 2 | 1.33
+K03518 | aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3] | 1 | 1.09
+K03519 | aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3] | 2 | 1.34
+K03520 | aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3] | 2 | 1.23
+K03737 | pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.8.1] | 1 | 4.27
+K03841 | fructose-1,6-bisphosphatase I [EC:3.1.3.11] | 1 | 1.71
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 2 | 2.50
+K03937 | NADH dehydrogenase (ubiquinone) Fe-S protein 4 | 1 | 1.00
+K04091 | alkanesulfonate monooxygenase [EC:1.14.14.5 1.14.14.34] | 1 | 1.82
+K05301 | sulfite dehydrogenase (cytochrome) subunit A [EC:1.8.2.1] | 2 | 1.25
+K07072 | (4-(4-[2-(gamma-L-glutamylamino)ethyl]phenoxymethyl)furan-2-yl)methanamine synthase [EC:2.5.1.131] | 1 | 2.19
+K07144 | 5-(aminomethyl)-3-furanmethanol phosphate kinase [EC:2.7.4.31] | 1 | 2.32
+K08691 | malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25] | 1 | 1.28
+K08692 | malate-CoA ligase subunit alpha [EC:6.2.1.9] | 1 | 1.21
+K08738 | cytochrome c | 3 | 2.05
+K09733 | (5-formylfuran-3-yl)methyl phosphate synthase [EC:4.2.3.153] | 1 | 1.59
+K10713 | 5,6,7,8-tetrahydromethanopterin hydro-lyase [EC:4.2.1.147] | 3 | 1.64
+K10714 | methylene-tetrahydromethanopterin dehydrogenase [EC:1.5.1.-] | 1 | 1.43
+K10764 | O-succinylhomoserine sulfhydrylase [EC:2.5.1.-] | 1 | 1.22
+K11261 | formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12] | 1 | 1.14
+K11529 | glycerate 2-kinase [EC:2.7.1.165] | 1 | 4.22
+K14028 | methanol dehydrogenase (cytochrome c) subunit 1 [EC:1.1.2.7] | 1 | 1.13
+K14029 | methanol dehydrogenase (cytochrome c) subunit 2 [EC:1.1.2.7] | 1 | 1.19
+K14067 | malate-CoA ligase subunit beta [EC:6.2.1.9] | 1 | 1.10
+K15553 | sulfonate transport system substrate-binding protein | 3 | 1.53
+K15554 | sulfonate transport system permease protein | 2 | 1.33
+K15555 | sulfonate transport system ATP-binding protein [EC:7.6.2.14] | 2 | 1.04
+K15576 | nitrate/nitrite transport system substrate-binding protein | 1 | 1.12
+K15577 | nitrate/nitrite transport system permease protein | 1 | 1.29
+K15762 | toluene monooxygenase system ferredoxin subunit | 2 | 1.34
+K16157 | methane monooxygenase component A alpha chain [EC:1.14.13.25] | 1 | 1.01
+K16158 | methane monooxygenase component A beta chain [EC:1.14.13.25] | 1 | 1.24
+K16159 | methane monooxygenase component A gamma chain [EC:1.14.13.25] | 1 | 1.23
+K16160 | methane monooxygenase regulatory protein B | 1 | 1.02
+K16161 | methane monooxygenase component C [EC:1.14.13.25] | 1 | 1.25
+K16162 | methane monooxygenase component D | 1 | 1.27
+K16254 | mxaJ protein | 3 | 2.15
+K16255 | cytochrome c-L | 1 | 1.85
+K16256 | mxaA protein | 1 | 1.63
+K16257 | mxaC protein | 1 | 1.39
+K16258 | mxaK protein | 1 | 1.82
+K16259 | mxaL protein | 1 | 1.54
+K16260 | mxaD protein | 1 | 1.10
+K17218 | sulfide:quinone oxidoreductase [EC:1.8.5.4] | 1 | 1.50
+K17225 | sulfane dehydrogenase subunit SoxC | 1 | 1.45
+K17226 | sulfur-oxidizing protein SoxY | 1 | 3.33
+K17230 | cytochrome subunit of sulfide dehydrogenase | 2 | 1.32
+K19713 | thiosulfate dehydrogenase [EC:1.8.2.2] | 1 | 2.33
+K20035 | 3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41] | 2 | 1.55
+K20036 | (methylthio)acryloyl-CoA hydratase [EC:4.2.1.155] | 1 | 1.21
+K22468 | polyphosphate kinase [EC:2.7.4.34] | 1 | 1.45
+K22515 | formate dehydrogenase beta subunit [EC:1.17.1.9] | 1 | 1.45
+K22622 | S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6] | 1 | 2.59
+K23163 | sulfate/thiosulfate transport system substrate-binding protein | 1 | 1.11
+K23995 | lanthanide-dependent methanol dehydrogenase [EC:1.1.2.10] | 4 | 1.22
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.09
+K28462 | phosphoribulokinase [EC:2.7.1.19] | 1 | 1.56
+K28956 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.01
+### genome_code: P053
+109 significant energy-metabolism KOs:
+K00024 | malate dehydrogenase [EC:1.1.1.37] | 1 | 1.21
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 7.65
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 1 | 1.60
+K00121 | S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1] | 1 | 1.04
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 1 | 1.21
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.32
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 1 | 2.08
+K00241 | succinate dehydrogenase cytochrome b subunit | 1 | 1.39
+K00242 | succinate dehydrogenase membrane anchor subunit | 1 | 1.58
+K00262 | glutamate dehydrogenase (NADP+) [EC:1.4.1.4] | 1 | 1.70
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.18
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 1 | 1.25
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 1 | 2.23
+K00299 | FMN reductase [EC:1.5.1.38] | 1 | 1.39
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 1 | 1.44
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 1 | 1.36
+K00333 | NADH-quinone oxidoreductase subunit D [EC:7.1.1.2] | 1 | 1.11
+K00334 | NADH-quinone oxidoreductase subunit E [EC:7.1.1.2] | 1 | 1.72
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 1 | 1.04
+K00336 | NADH-quinone oxidoreductase subunit G [EC:7.1.1.2] | 1 | 1.03
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 1 | 1.14
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 1 | 1.66
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.43
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 1 | 1.50
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.53
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 1 | 1.22
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 1 | 1.53
+K00381 | sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2] | 1 | 1.09
+K00386 | sulfite dehydrogenase (cytochrome) subunit B [EC:1.8.2.1] | 1 | 1.23
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 1 | 1.92
+K00404 | cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9] | 1 | 1.11
+K00405 | cytochrome c oxidase cbb3-type subunit II | 1 | 1.13
+K00406 | cytochrome c oxidase cbb3-type subunit III | 1 | 3.30
+K00407 | cytochrome c oxidase cbb3-type subunit IV | 1 | 1.85
+K00411 | ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8] | 1 | 3.04
+K00412 | ubiquinol-cytochrome c reductase cytochrome b subunit | 1 | 1.95
+K00413 | ubiquinol-cytochrome c reductase cytochrome c1 subunit | 1 | 6.27
+K00425 | cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7] | 1 | 5.37
+K00426 | cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7] | 1 | 5.91
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 3 | 1.41
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 8.09
+K00615 | transketolase [EC:2.2.1.1] | 1 | 3.58
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 1.43
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 1 | 1.09
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 1 | 2.82
+K00641 | homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46] | 1 | 6.63
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 1 | 1.68
+K00860 | adenylylsulfate kinase [EC:2.7.1.25] | 1 | 1.01
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 4.93
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.69
+K00955 | bifunctional enzyme CysN/CysC [EC:2.7.7.4 2.7.1.25] | 1 | 1.44
+K00956 | sulfate adenylyltransferase subunit 1 [EC:2.7.7.4] | 1 | 1.32
+K00957 | sulfate adenylyltransferase subunit 2 [EC:2.7.7.4] | 1 | 3.05
+K01006 | pyruvate, orthophosphate dikinase [EC:2.7.9.1] | 1 | 4.51
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 1 | 1.51
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 1.99
+K01082 | 3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7] | 1 | 1.10
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 1 | 1.14
+K01507 | inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 7.04
+K01595 | phosphoenolpyruvate carboxylase [EC:4.1.1.31] | 1 | 6.05
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 1 | 9.10
+K01623 | fructose-bisphosphate aldolase, class I [EC:4.1.2.13] | 1 | 2.30
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 1 | 12.81
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.46
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.48
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 11.40
+K01808 | ribose 5-phosphate isomerase B [EC:5.3.1.6] | 1 | 1.21
+K01834 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 2.31
+K01847 | methylmalonyl-CoA mutase [EC:5.4.99.2] | 1 | 1.69
+K01895 | acetyl-CoA synthetase [EC:6.2.1.1] | 1 | 1.35
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 1 | 1.34
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 1 | 1.14
+K01915 | glutamine synthetase [EC:6.3.1.2] | 1 | 7.60
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 1 | 1.16
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 2 | 1.20
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.06
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.41
+K02109 | F-type H+-transporting ATPase subunit b | 2 | 1.68
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 2.13
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.86
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 4.11
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.35
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 1 | 1.99
+K02257 | heme o synthase [EC:2.5.1.141] | 1 | 2.73
+K02258 | cytochrome c oxidase assembly protein subunit 11 | 1 | 3.79
+K02259 | heme a synthase [EC:1.17.99.9] | 1 | 4.32
+K02274 | cytochrome c oxidase subunit I [EC:7.1.1.9] | 1 | 1.19
+K02275 | cytochrome c oxidase subunit II [EC:7.1.1.9] | 1 | 1.33
+K02276 | cytochrome c oxidase subunit III [EC:7.1.1.9] | 1 | 1.38
+K03882 | NADH-ubiquinone oxidoreductase chain 4L [EC:7.1.1.2] | 1 | 1.01
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 1 | 1.89
+K03939 | NADH dehydrogenase (ubiquinone) Fe-S protein 6 | 1 | 1.25
+K05606 | methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] | 1 | 2.40
+K08738 | cytochrome c | 4 | 2.39
+K09709 | 3-methylfumaryl-CoA hydratase [EC:4.2.1.153] | 1 | 1.68
+K10764 | O-succinylhomoserine sulfhydrylase [EC:2.5.1.-] | 1 | 1.09
+K11532 | fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37] | 1 | 1.10
+K14468 | malonyl-CoA reductase / 3-hydroxypropionate dehydrogenase (NADP+) [EC:1.2.1.75 1.1.1.298] | 1 | 1.28
+K14469 | acrylyl-CoA reductase (NADPH) / 3-hydroxypropionyl-CoA dehydratase / 3-hydroxypropionyl-CoA synthetase [EC:1.3.1.84 4.2.1.116 6.2.1.36] | 1 | 1.74
+K14470 | 2-methylfumaryl-CoA isomerase [EC:5.4.1.3] | 1 | 1.15
+K15228 | methylamine dehydrogenase light chain [EC:1.4.9.1] | 1 | 1.41
+K15229 | methylamine dehydrogenase heavy chain [EC:1.4.9.1] | 1 | 1.32
+K15371 | glutamate dehydrogenase [EC:1.4.1.2] | 1 | 5.65
+K17218 | sulfide:quinone oxidoreductase [EC:1.8.5.4] | 1 | 2.44
+K17226 | sulfur-oxidizing protein SoxY | 1 | 2.77
+K20034 | 3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44] | 1 | 1.02
+K20035 | 3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41] | 2 | 1.60
+K22468 | polyphosphate kinase [EC:2.7.4.34] | 1 | 1.45
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.09
+### genome_code: P054
+147 significant energy-metabolism KOs:
+K00024 | malate dehydrogenase [EC:1.1.1.37] | 1 | 1.18
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 1 | 1.08
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 7.53
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 1 | 1.58
+K00121 | S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1] | 1 | 1.01
+K00123 | formate dehydrogenase major subunit [EC:1.17.1.9] | 1 | 1.34
+K00126 | formate dehydrogenase subunit delta [EC:1.17.1.9] | 1 | 1.96
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 1 | 1.20
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.31
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 1 | 2.05
+K00242 | succinate dehydrogenase membrane anchor subunit | 1 | 1.29
+K00261 | glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3] | 1 | 1.16
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.02
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 1 | 1.25
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 1 | 1.92
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 1 | 1.35
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 1 | 1.39
+K00332 | NADH-quinone oxidoreductase subunit C [EC:7.1.1.2] | 1 | 1.03
+K00333 | NADH-quinone oxidoreductase subunit D [EC:7.1.1.2] | 1 | 1.15
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 1 | 1.04
+K00336 | NADH-quinone oxidoreductase subunit G [EC:7.1.1.2] | 1 | 1.00
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 1 | 1.18
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 1 | 1.58
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.44
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 1 | 1.57
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.61
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 1 | 1.25
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 1 | 1.63
+K00381 | sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2] | 1 | 1.04
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 2 | 1.96
+K00404 | cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9] | 1 | 1.09
+K00405 | cytochrome c oxidase cbb3-type subunit II | 1 | 1.14
+K00406 | cytochrome c oxidase cbb3-type subunit III | 1 | 3.33
+K00407 | cytochrome c oxidase cbb3-type subunit IV | 1 | 2.67
+K00411 | ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8] | 1 | 3.51
+K00412 | ubiquinol-cytochrome c reductase cytochrome b subunit | 1 | 1.87
+K00413 | ubiquinol-cytochrome c reductase cytochrome c1 subunit | 1 | 5.11
+K00424 | cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7] | 1 | 1.92
+K00425 | cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7] | 1 | 5.02
+K00426 | cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7] | 1 | 6.44
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 7.97
+K00615 | transketolase [EC:2.2.1.1] | 1 | 3.51
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 1.52
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 3 | 1.17
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 2 | 3.14
+K00651 | homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31] | 1 | 1.74
+K00830 | alanine-glyoxylate transaminase / serine-glyoxylate transaminase / serine-pyruvate transaminase [EC:2.6.1.44 2.6.1.45 2.6.1.51] | 1 | 1.00
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 1 | 1.79
+K00925 | acetate kinase [EC:2.7.2.1] | 2 | 4.39
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 2 | 5.62
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.81
+K00958 | sulfate adenylyltransferase [EC:2.7.7.4] | 1 | 3.03
+K01006 | pyruvate, orthophosphate dikinase [EC:2.7.9.1] | 1 | 3.02
+K01007 | pyruvate, water dikinase [EC:2.7.9.2] | 1 | 2.69
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 2 | 1.76
+K01070 | S-formylglutathione hydrolase [EC:3.1.2.12] | 2 | 3.43
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 2.21
+K01082 | 3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7] | 1 | 1.38
+K01455 | formamidase [EC:3.5.1.49] | 1 | 2.79
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 1 | 1.14
+K01601 | ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39] | 2 | 2.56
+K01602 | ribulose-bisphosphate carboxylase small chain [EC:4.1.1.39] | 1 | 3.10
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 1 | 9.06
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 1 | 4.09
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 1 | 10.88
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.44
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.73
+K01725 | cyanate lyase [EC:4.2.1.104] | 1 | 2.75
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.39
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 11.49
+K01807 | ribose 5-phosphate isomerase A [EC:5.3.1.6] | 1 | 5.86
+K01847 | methylmalonyl-CoA mutase [EC:5.4.99.2] | 1 | 1.78
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 2 | 1.35
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 2 | 1.13
+K01915 | glutamine synthetase [EC:6.3.1.2] | 4 | 7.67
+K01938 | formate--tetrahydrofolate ligase [EC:6.3.4.3] | 1 | 1.04
+K01958 | pyruvate carboxylase [EC:6.4.1.1] | 1 | 2.23
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 1 | 1.15
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.20
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.14
+K02108 | F-type H+-transporting ATPase subunit a | 3 | 1.48
+K02109 | F-type H+-transporting ATPase subunit b | 4 | 2.55
+K02110 | F-type H+-transporting ATPase subunit c | 2 | 1.52
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 3 | 2.09
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 3 | 1.83
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.82
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.08
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.38
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 1 | 1.83
+K02259 | heme a synthase [EC:1.17.99.9] | 1 | 3.05
+K02586 | nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1] | 1 | 1.34
+K02588 | nitrogenase iron protein NifH | 1 | 1.30
+K02591 | nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1] | 1 | 1.32
+K03518 | aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3] | 1 | 1.08
+K03519 | aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3] | 1 | 1.05
+K03520 | aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3] | 2 | 1.32
+K03533 | TorA specific chaperone | 1 | 1.02
+K03612 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit G | 1 | 1.66
+K03613 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E | 1 | 1.33
+K03614 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2] | 1 | 1.27
+K03615 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.1.1.11 7.2.1.2] | 1 | 2.28
+K03616 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2] | 1 | 3.01
+K03617 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A | 1 | 1.27
+K03841 | fructose-1,6-bisphosphatase I [EC:3.1.3.11] | 1 | 1.72
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 1 | 2.44
+K03939 | NADH dehydrogenase (ubiquinone) Fe-S protein 6 | 1 | 1.25
+K05606 | methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] | 1 | 2.97
+K07812 | trimethylamine-N-oxide reductase (cytochrome c) [EC:1.7.2.3] | 1 | 1.06
+K08094 | 6-phospho-3-hexuloisomerase [EC:5.3.1.27] | 1 | 1.65
+K08691 | malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25] | 2 | 1.27
+K08692 | malate-CoA ligase subunit alpha [EC:6.2.1.9] | 1 | 1.19
+K08738 | cytochrome c | 5 | 2.11
+K09709 | 3-methylfumaryl-CoA hydratase [EC:4.2.1.153] | 2 | 1.55
+K10764 | O-succinylhomoserine sulfhydrylase [EC:2.5.1.-] | 1 | 1.08
+K10831 | taurine transport system ATP-binding protein [EC:7.6.2.7] | 1 | 1.14
+K11529 | glycerate 2-kinase [EC:2.7.1.165] | 1 | 3.63
+K11532 | fructose-1,6-bisphosphatase II / sedoheptulose-1,7-bisphosphatase [EC:3.1.3.11 3.1.3.37] | 1 | 1.04
+K14067 | malate-CoA ligase subunit beta [EC:6.2.1.9] | 1 | 1.09
+K14083 | trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250] | 2 | 3.38
+K14449 | 2-methylfumaryl-CoA hydratase [EC:4.2.1.148] | 1 | 2.03
+K14470 | 2-methylfumaryl-CoA isomerase [EC:5.4.1.3] | 1 | 1.26
+K15551 | taurine transport system substrate-binding protein | 1 | 1.57
+K15552 | taurine transport system permease protein | 1 | 1.43
+K15554 | sulfonate transport system permease protein | 2 | 1.15
+K15576 | nitrate/nitrite transport system substrate-binding protein | 1 | 1.17
+K15577 | nitrate/nitrite transport system permease protein | 1 | 1.32
+K15578 | nitrate/nitrite transport system ATP-binding protein [EC:7.3.2.4] | 1 | 1.02
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 10.59
+K15986 | manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 2.52
+K16370 | 6-phosphofructokinase 2 [EC:2.7.1.11] | 1 | 1.16
+K17218 | sulfide:quinone oxidoreductase [EC:1.8.5.4] | 2 | 2.02
+K17222 | L-cysteine S-thiosulfotransferase [EC:2.8.5.2] | 1 | 1.90
+K17223 | L-cysteine S-thiosulfotransferase [EC:2.8.5.2] | 1 | 1.76
+K17224 | S-sulfosulfanyl-L-cysteine sulfohydrolase [EC:3.1.6.20] | 1 | 2.38
+K17225 | sulfane dehydrogenase subunit SoxC | 1 | 1.44
+K17226 | sulfur-oxidizing protein SoxY | 3 | 3.12
+K17227 | sulfur-oxidizing protein SoxZ | 1 | 1.43
+K17229 | sulfide dehydrogenase [flavocytochrome c] flavoprotein chain [EC:1.8.2.3] | 1 | 1.56
+K20034 | 3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44] | 1 | 1.04
+K20035 | 3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41] | 2 | 1.51
+K22468 | polyphosphate kinase [EC:2.7.4.34] | 2 | 1.80
+K22622 | S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6] | 1 | 3.73
+K23995 | lanthanide-dependent methanol dehydrogenase [EC:1.1.2.10] | 1 | 1.22
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.09
+K28068 | dimethylpropiothetin dethiomethylase [EC:4.4.1.3] | 1 | 1.00
+K28462 | phosphoribulokinase [EC:2.7.1.19] | 1 | 1.50
+K28956 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.08
+### genome_code: P055
+185 significant energy-metabolism KOs:
+K00024 | malate dehydrogenase [EC:1.1.1.37] | 1 | 1.07
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 2 | 1.11
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 1.70
+K00121 | S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1] | 1 | 1.14
+K00123 | formate dehydrogenase major subunit [EC:1.17.1.9] | 2 | 1.30
+K00124 | formate dehydrogenase iron-sulfur subunit | 2 | 1.02
+K00127 | formate dehydrogenase subunit gamma | 2 | 3.38
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 1 | 1.19
+K00169 | pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1] | 2 | 1.34
+K00172 | pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1] | 2 | 1.11
+K00174 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11] | 4 | 2.69
+K00175 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11] | 4 | 1.89
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 2 | 1.29
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 4 | 2.03
+K00241 | succinate dehydrogenase cytochrome b subunit | 4 | 1.42
+K00242 | succinate dehydrogenase membrane anchor subunit | 1 | 1.25
+K00244 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.42
+K00245 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 1 | 1.26
+K00246 | succinate dehydrogenase subunit C | 1 | 2.73
+K00247 | succinate dehydrogenase subunit D | 1 | 3.31
+K00262 | glutamate dehydrogenase (NADP+) [EC:1.4.1.4] | 1 | 1.71
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.20
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 2 | 1.26
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 2 | 2.10
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 2 | 1.38
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 2 | 1.38
+K00332 | NADH-quinone oxidoreductase subunit C [EC:7.1.1.2] | 2 | 1.06
+K00333 | NADH-quinone oxidoreductase subunit D [EC:7.1.1.2] | 2 | 1.18
+K00334 | NADH-quinone oxidoreductase subunit E [EC:7.1.1.2] | 2 | 1.39
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 2 | 1.11
+K00336 | NADH-quinone oxidoreductase subunit G [EC:7.1.1.2] | 1 | 1.08
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 2 | 1.23
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 2 | 1.57
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 2 | 1.51
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 2 | 1.60
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.57
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 2 | 1.18
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 2 | 1.66
+K00367 | ferredoxin-nitrate reductase [EC:1.7.7.2] | 1 | 1.01
+K00370 | nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-] | 1 | 2.50
+K00371 | nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-] | 1 | 2.46
+K00372 | assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-] | 1 | 1.17
+K00373 | nitrate reductase molybdenum cofactor assembly chaperone NarJ/NarW | 1 | 2.42
+K00374 | nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-] | 1 | 1.44
+K00376 | nitrous-oxide reductase [EC:1.7.2.4] | 1 | 2.27
+K00381 | sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2] | 1 | 1.13
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 1 | 1.95
+K00404 | cytochrome c oxidase cbb3-type subunit I [EC:7.1.1.9] | 1 | 1.13
+K00405 | cytochrome c oxidase cbb3-type subunit II | 1 | 1.07
+K00406 | cytochrome c oxidase cbb3-type subunit III | 1 | 3.64
+K00407 | cytochrome c oxidase cbb3-type subunit IV | 1 | 2.64
+K00411 | ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8] | 4 | 2.71
+K00412 | ubiquinol-cytochrome c reductase cytochrome b subunit | 1 | 2.04
+K00413 | ubiquinol-cytochrome c reductase cytochrome c1 subunit | 1 | 2.98
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 4 | 1.53
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 4 | 8.40
+K00615 | transketolase [EC:2.2.1.1] | 1 | 3.81
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 1.55
+K00625 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.02
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 4 | 1.17
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 2 | 3.54
+K00641 | homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46] | 1 | 6.61
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 1 | 4.36
+K00860 | adenylylsulfate kinase [EC:2.7.1.25] | 1 | 1.01
+K00925 | acetate kinase [EC:2.7.2.1] | 1 | 4.32
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 5.46
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.72
+K00955 | bifunctional enzyme CysN/CysC [EC:2.7.7.4 2.7.1.25] | 1 | 1.47
+K00956 | sulfate adenylyltransferase subunit 1 [EC:2.7.7.4] | 2 | 1.34
+K00957 | sulfate adenylyltransferase subunit 2 [EC:2.7.7.4] | 2 | 3.42
+K00988 | sulfate adenylyltransferase (ADP) / ATP adenylyltransferase [EC:2.7.7.5 2.7.7.53] | 1 | 1.96
+K01007 | pyruvate, water dikinase [EC:2.7.9.2] | 1 | 2.81
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 1 | 1.70
+K01070 | S-formylglutathione hydrolase [EC:3.1.2.12] | 1 | 4.04
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 2.36
+K01082 | 3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7] | 1 | 1.44
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 2 | 1.17
+K01507 | inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 6.94
+K01595 | phosphoenolpyruvate carboxylase [EC:4.1.1.31] | 1 | 29.15
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 1 | 4.68
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 3 | 13.02
+K01674 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.08
+K01676 | fumarate hydratase, class I [EC:4.2.1.2] | 1 | 1.75
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.33
+K01682 | aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 2.26
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 2 | 2.78
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.15
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.47
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 12.03
+K01807 | ribose 5-phosphate isomerase A [EC:5.3.1.6] | 1 | 5.28
+K01834 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 2.40
+K01847 | methylmalonyl-CoA mutase [EC:5.4.99.2] | 1 | 1.78
+K01895 | acetyl-CoA synthetase [EC:6.2.1.1] | 1 | 1.29
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 1 | 1.23
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 1 | 1.12
+K01915 | glutamine synthetase [EC:6.3.1.2] | 1 | 7.39
+K01958 | pyruvate carboxylase [EC:6.4.1.1] | 1 | 2.25
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 3 | 1.11
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.34
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.14
+K02045 | sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3] | 2 | 1.33
+K02046 | sulfate/thiosulfate transport system permease protein | 2 | 1.63
+K02047 | sulfate/thiosulfate transport system permease protein | 2 | 1.75
+K02048 | sulfate/thiosulfate transport system substrate-binding protein | 1 | 1.04
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.29
+K02109 | F-type H+-transporting ATPase subunit b | 1 | 2.39
+K02110 | F-type H+-transporting ATPase subunit c | 1 | 1.23
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 2.04
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.80
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.42
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.59
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.47
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 2 | 2.02
+K02203 | phosphoserine / homoserine phosphotransferase [EC:3.1.3.3 2.7.1.39] | 1 | 2.24
+K02257 | heme o synthase [EC:2.5.1.141] | 1 | 2.86
+K02258 | cytochrome c oxidase assembly protein subunit 11 | 1 | 3.15
+K02259 | heme a synthase [EC:1.17.99.9] | 1 | 3.90
+K02274 | cytochrome c oxidase subunit I [EC:7.1.1.9] | 2 | 1.16
+K02275 | cytochrome c oxidase subunit II [EC:7.1.1.9] | 2 | 1.61
+K02276 | cytochrome c oxidase subunit III [EC:7.1.1.9] | 4 | 1.30
+K02277 | cytochrome c oxidase subunit IV [EC:7.1.1.9] | 1 | 1.66
+K02305 | nitric oxide reductase subunit C | 1 | 2.39
+K02567 | nitrate reductase (cytochrome) [EC:1.9.6.1] | 1 | 1.87
+K02568 | nitrate reductase (cytochrome), electron transfer subunit | 1 | 3.10
+K02575 | MFS transporter, NNP family, nitrate/nitrite transporter | 3 | 2.63
+K02586 | nitrogenase molybdenum-iron protein alpha chain [EC:1.18.6.1] | 1 | 1.32
+K02588 | nitrogenase iron protein NifH | 1 | 1.31
+K02591 | nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1] | 1 | 1.31
+K03518 | aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3] | 1 | 1.09
+K03519 | aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3] | 2 | 1.27
+K03612 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit G | 3 | 1.63
+K03613 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E | 3 | 1.25
+K03614 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2] | 3 | 1.34
+K03615 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.1.1.11 7.2.1.2] | 3 | 2.74
+K03616 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2] | 3 | 3.80
+K03617 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A | 3 | 1.25
+K03841 | fructose-1,6-bisphosphatase I [EC:3.1.3.11] | 1 | 2.26
+K03972 | thiosulfate sulfurtransferase [EC:2.8.1.1] | 1 | 1.13
+K04561 | nitric oxide reductase subunit B [EC:1.7.2.5] | 1 | 3.74
+K05979 | 2-phosphosulfolactate phosphatase [EC:3.1.3.71] | 1 | 2.60
+K08352 | thiosulfate reductase / polysulfide reductase chain A [EC:1.8.5.5] | 2 | 1.39
+K08357 | tetrathionate reductase subunit A | 1 | 2.07
+K08358 | tetrathionate reductase subunit B | 3 | 1.50
+K08359 | tetrathionate reductase subunit C | 1 | 2.40
+K08685 | quinohemoprotein amine dehydrogenase [EC:1.4.9.1] | 1 | 2.43
+K08738 | cytochrome c | 4 | 1.97
+K10764 | O-succinylhomoserine sulfhydrylase [EC:2.5.1.-] | 1 | 1.17
+K11212 | LPPG:FO 2-phospho-L-lactate transferase [EC:2.7.8.28] | 2 | 2.99
+K11261 | formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12] | 1 | 1.30
+K11529 | glycerate 2-kinase [EC:2.7.1.165] | 1 | 4.29
+K11779 | FO synthase [EC:2.5.1.147 4.3.1.32] | 2 | 2.29
+K12234 | coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase [EC:6.3.2.31 6.3.2.34] | 2 | 2.12
+K14083 | trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250] | 1 | 3.32
+K14941 | 2-phospho-L-lactate/phosphoenolpyruvate guanylyltransferase [EC:2.7.7.68 2.7.7.105] | 2 | 1.91
+K15016 | enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35] | 2 | 1.20
+K15052 | propionyl-CoA carboxylase [EC:6.4.1.3 2.1.3.15] | 1 | 1.04
+K15371 | glutamate dehydrogenase [EC:1.4.1.2] | 1 | 7.10
+K15553 | sulfonate transport system substrate-binding protein | 1 | 1.26
+K15554 | sulfonate transport system permease protein | 2 | 1.22
+K15555 | sulfonate transport system ATP-binding protein [EC:7.6.2.14] | 1 | 1.09
+K15576 | nitrate/nitrite transport system substrate-binding protein | 1 | 1.16
+K15577 | nitrate/nitrite transport system permease protein | 1 | 1.42
+K15578 | nitrate/nitrite transport system ATP-binding protein [EC:7.3.2.4] | 1 | 1.03
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 9.31
+K15634 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 1.31
+K15762 | toluene monooxygenase system ferredoxin subunit | 1 | 1.64
+K15765 | toluene monooxygenase electron transfer component [EC:1.18.1.3] | 1 | 1.37
+K15864 | nitrite reductase (NO-forming) / hydroxylamine reductase [EC:1.7.2.1 1.7.99.1] | 1 | 2.03
+K17218 | sulfide:quinone oxidoreductase [EC:1.8.5.4] | 1 | 1.69
+K17226 | sulfur-oxidizing protein SoxY | 2 | 2.64
+K17227 | sulfur-oxidizing protein SoxZ | 1 | 1.64
+K17229 | sulfide dehydrogenase [flavocytochrome c] flavoprotein chain [EC:1.8.2.3] | 1 | 1.44
+K17230 | cytochrome subunit of sulfide dehydrogenase | 3 | 1.44
+K19713 | thiosulfate dehydrogenase [EC:1.8.2.2] | 3 | 2.40
+K20034 | 3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44] | 3 | 1.15
+K20035 | 3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41] | 3 | 1.60
+K20036 | (methylthio)acryloyl-CoA hydratase [EC:4.2.1.155] | 2 | 1.24
+K21071 | ATP-dependent phosphofructokinase / diphosphate-dependent phosphofructokinase [EC:2.7.1.11 2.7.1.90] | 1 | 1.04
+K22515 | formate dehydrogenase beta subunit [EC:1.17.1.9] | 1 | 1.44
+K23163 | sulfate/thiosulfate transport system substrate-binding protein | 1 | 1.17
+K26138 | nitrite reductase [NAD(P)H] small subunit [EC:1.7.1.4] | 1 | 1.63
+K26139 | nitrite reductase [NAD(P)H] large subunit [EC:1.7.1.4] | 1 | 1.46
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.06
+K28462 | phosphoribulokinase [EC:2.7.1.19] | 1 | 1.55
+K28956 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.13
+### genome_code: P056
+148 significant energy-metabolism KOs:
+K00024 | malate dehydrogenase [EC:1.1.1.37] | 1 | 1.18
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 1 | 1.06
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 8.06
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 2 | 1.65
+K00121 | S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1] | 2 | 1.03
+K00123 | formate dehydrogenase major subunit [EC:1.17.1.9] | 1 | 1.36
+K00126 | formate dehydrogenase subunit delta [EC:1.17.1.9] | 1 | 2.35
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 2 | 1.23
+K00148 | glutathione-independent formaldehyde dehydrogenase [EC:1.2.1.46] | 1 | 1.48
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.30
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 1 | 1.97
+K00241 | succinate dehydrogenase cytochrome b subunit | 1 | 1.27
+K00242 | succinate dehydrogenase membrane anchor subunit | 1 | 1.60
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.19
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 1 | 1.20
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 2 | 2.13
+K00299 | FMN reductase [EC:1.5.1.38] | 1 | 2.07
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 1 | 1.50
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 1 | 1.36
+K00332 | NADH-quinone oxidoreductase subunit C [EC:7.1.1.2] | 1 | 1.11
+K00333 | NADH-quinone oxidoreductase subunit D [EC:7.1.1.2] | 1 | 1.15
+K00334 | NADH-quinone oxidoreductase subunit E [EC:7.1.1.2] | 1 | 2.03
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 1 | 1.04
+K00336 | NADH-quinone oxidoreductase subunit G [EC:7.1.1.2] | 1 | 1.07
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 1 | 1.16
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 1 | 1.54
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.46
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 1 | 1.58
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.66
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 1 | 1.28
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 1 | 1.71
+K00372 | assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-] | 1 | 1.23
+K00381 | sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2] | 2 | 1.09
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 1 | 1.81
+K00411 | ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8] | 1 | 3.60
+K00412 | ubiquinol-cytochrome c reductase cytochrome b subunit | 1 | 1.96
+K00413 | ubiquinol-cytochrome c reductase cytochrome c1 subunit | 1 | 6.98
+K00424 | cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7] | 1 | 1.92
+K00425 | cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7] | 2 | 5.38
+K00426 | cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7] | 2 | 6.50
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 2 | 2.09
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 8.29
+K00615 | transketolase [EC:2.2.1.1] | 2 | 3.57
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 2.85
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 3 | 1.17
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 4 | 3.14
+K00651 | homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31] | 1 | 1.75
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 2 | 1.76
+K00925 | acetate kinase [EC:2.7.2.1] | 1 | 3.75
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 5.49
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.86
+K00956 | sulfate adenylyltransferase subunit 1 [EC:2.7.7.4] | 1 | 1.15
+K00957 | sulfate adenylyltransferase subunit 2 [EC:2.7.7.4] | 1 | 3.02
+K01006 | pyruvate, orthophosphate dikinase [EC:2.7.9.1] | 1 | 4.43
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 1 | 1.65
+K01070 | S-formylglutathione hydrolase [EC:3.1.2.12] | 2 | 3.56
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 2.18
+K01082 | 3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7] | 1 | 1.27
+K01501 | nitrilase [EC:3.5.5.1] | 2 | 2.13
+K01507 | inorganic pyrophosphatase [EC:3.6.1.1] | 2 | 7.61
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 1 | 9.19
+K01623 | fructose-bisphosphate aldolase, class I [EC:4.1.2.13] | 1 | 2.19
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 2 | 12.39
+K01676 | fumarate hydratase, class I [EC:4.2.1.2] | 1 | 2.66
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.46
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.78
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.21
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.39
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 3 | 11.22
+K01807 | ribose 5-phosphate isomerase A [EC:5.3.1.6] | 1 | 5.54
+K01834 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 1.97
+K01847 | methylmalonyl-CoA mutase [EC:5.4.99.2] | 1 | 1.66
+K01848 | methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2] | 1 | 1.00
+K01849 | methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2] | 1 | 1.00
+K01895 | acetyl-CoA synthetase [EC:6.2.1.1] | 1 | 1.43
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 1 | 1.26
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 1 | 1.09
+K01915 | glutamine synthetase [EC:6.3.1.2] | 6 | 7.65
+K01938 | formate--tetrahydrofolate ligase [EC:6.3.4.3] | 1 | 1.06
+K01958 | pyruvate carboxylase [EC:6.4.1.1] | 1 | 2.17
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 1 | 1.13
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.22
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.10
+K02045 | sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3] | 1 | 1.21
+K02046 | sulfate/thiosulfate transport system permease protein | 1 | 1.58
+K02047 | sulfate/thiosulfate transport system permease protein | 1 | 1.64
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.37
+K02109 | F-type H+-transporting ATPase subunit b | 2 | 2.17
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 2.08
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.86
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.89
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.12
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.44
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 2 | 1.80
+K02257 | heme o synthase [EC:2.5.1.141] | 1 | 2.78
+K02258 | cytochrome c oxidase assembly protein subunit 11 | 1 | 3.55
+K02259 | heme a synthase [EC:1.17.99.9] | 1 | 4.99
+K02274 | cytochrome c oxidase subunit I [EC:7.1.1.9] | 1 | 1.19
+K02275 | cytochrome c oxidase subunit II [EC:7.1.1.9] | 2 | 1.32
+K02276 | cytochrome c oxidase subunit III [EC:7.1.1.9] | 2 | 1.50
+K02277 | cytochrome c oxidase subunit IV [EC:7.1.1.9] | 1 | 1.80
+K02297 | cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3] | 1 | 1.62
+K02298 | cytochrome o ubiquinol oxidase subunit I [EC:7.1.1.3] | 1 | 1.20
+K02299 | cytochrome o ubiquinol oxidase subunit III | 1 | 1.24
+K02300 | cytochrome o ubiquinol oxidase subunit IV | 1 | 2.27
+K03396 | S-(hydroxymethyl)glutathione synthase [EC:4.4.1.22] | 3 | 2.87
+K03518 | aerobic carbon-monoxide dehydrogenase small subunit [EC:1.2.5.3] | 1 | 1.09
+K03519 | aerobic carbon-monoxide dehydrogenase medium subunit [EC:1.2.5.3] | 1 | 1.07
+K03520 | aerobic carbon-monoxide dehydrogenase large subunit [EC:1.2.5.3] | 1 | 1.30
+K03841 | fructose-1,6-bisphosphatase I [EC:3.1.3.11] | 1 | 1.81
+K03879 | NADH-ubiquinone oxidoreductase chain 2 [EC:7.1.1.2] | 1 | 1.05
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 1 | 2.45
+K04091 | alkanesulfonate monooxygenase [EC:1.14.14.5 1.14.14.34] | 4 | 1.70
+K05606 | methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] | 1 | 2.84
+K08738 | cytochrome c | 3 | 2.32
+K10764 | O-succinylhomoserine sulfhydrylase [EC:2.5.1.-] | 1 | 1.16
+K10831 | taurine transport system ATP-binding protein [EC:7.6.2.7] | 1 | 1.09
+K11261 | formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12] | 1 | 1.12
+K11529 | glycerate 2-kinase [EC:2.7.1.165] | 2 | 4.10
+K14083 | trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250] | 2 | 4.09
+K15052 | propionyl-CoA carboxylase [EC:6.4.1.3 2.1.3.15] | 1 | 1.02
+K15371 | glutamate dehydrogenase [EC:1.4.1.2] | 1 | 6.14
+K15551 | taurine transport system substrate-binding protein | 1 | 1.58
+K15552 | taurine transport system permease protein | 1 | 1.26
+K15553 | sulfonate transport system substrate-binding protein | 3 | 1.58
+K15554 | sulfonate transport system permease protein | 9 | 1.38
+K15555 | sulfonate transport system ATP-binding protein [EC:7.6.2.14] | 4 | 1.13
+K15576 | nitrate/nitrite transport system substrate-binding protein | 1 | 1.15
+K15577 | nitrate/nitrite transport system permease protein | 1 | 1.30
+K15578 | nitrate/nitrite transport system ATP-binding protein [EC:7.3.2.4] | 1 | 1.05
+K16953 | dimethylpropiothetin dethiomethylase [EC:4.4.1.3] | 1 | 1.48
+K17228 | dimethylsulfone monooxygenase [EC:1.14.14.35] | 1 | 1.87
+K18277 | trimethylamine monooxygenase [EC:1.14.13.148] | 1 | 2.00
+K20035 | 3-(methylsulfanyl)propanoyl-CoA dehydrogenase [EC:1.3.99.41] | 2 | 1.65
+K22081 | methylamine---glutamate N-methyltransferase subunit A [EC:2.1.1.21] | 1 | 1.86
+K22082 | methylamine---glutamate N-methyltransferase subunit B [EC:2.1.1.21] | 1 | 1.90
+K22083 | methylamine---glutamate N-methyltransferase subunit C [EC:2.1.1.21] | 1 | 2.19
+K22084 | methylglutamate dehydrogenase subunit A [EC:1.5.99.5] | 2 | 1.18
+K22085 | methylglutamate dehydrogenase subunit B [EC:1.5.99.5] | 2 | 1.18
+K22086 | methylglutamate dehydrogenase subunit C [EC:1.5.99.5] | 2 | 1.18
+K22087 | methylglutamate dehydrogenase subunit D [EC:1.5.99.5] | 2 | 1.03
+K22468 | polyphosphate kinase [EC:2.7.4.34] | 2 | 1.70
+K23163 | sulfate/thiosulfate transport system substrate-binding protein | 1 | 1.15
+K26138 | nitrite reductase [NAD(P)H] small subunit [EC:1.7.1.4] | 1 | 1.58
+K26139 | nitrite reductase [NAD(P)H] large subunit [EC:1.7.1.4] | 1 | 1.40
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.10
+K28956 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.09
+K28979 | trimethylamine-oxide aldolase [EC:4.1.2.32] | 1 | 1.28
+### genome_code: P057
+105 significant energy-metabolism KOs:
+K00018 | glycerate dehydrogenase [EC:1.1.1.29] | 1 | 1.07
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 1.10
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 1 | 1.19
+K00123 | formate dehydrogenase major subunit [EC:1.17.1.9] | 1 | 1.00
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 2 | 1.28
+K00150 | glyceraldehyde-3-phosphate dehydrogenase (NAD(P)+) (phosphorylating) [EC:1.2.1.59] | 1 | 1.01
+K00169 | pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1] | 2 | 1.81
+K00170 | pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1] | 2 | 1.28
+K00171 | pyruvate ferredoxin oxidoreductase delta subunit [EC:1.2.7.1] | 2 | 1.10
+K00172 | pyruvate ferredoxin oxidoreductase gamma subunit [EC:1.2.7.1] | 1 | 1.27
+K00174 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11] | 4 | 1.52
+K00175 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11] | 2 | 1.16
+K00176 | 2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3] | 3 | 1.24
+K00177 | 2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3] | 4 | 1.64
+K00194 | acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245] | 1 | 1.41
+K00196 | anaerobic carbon-monoxide dehydrogenase iron sulfur subunit | 1 | 1.07
+K00197 | acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma [EC:2.1.1.245] | 1 | 1.76
+K00198 | anaerobic carbon-monoxide dehydrogenase catalytic subunit [EC:1.2.7.4] | 3 | 1.90
+K00262 | glutamate dehydrogenase (NADP+) [EC:1.4.1.4] | 1 | 1.74
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.08
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 4 | 1.33
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 2 | 1.60
+K00334 | NADH-quinone oxidoreductase subunit E [EC:7.1.1.2] | 2 | 1.11
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 4 | 1.39
+K00385 | anaerobic sulfite reductase subunit C | 1 | 2.04
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 2 | 1.88
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 8.05
+K00615 | transketolase [EC:2.2.1.1] | 6 | 1.76
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 1.44
+K00625 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.13
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 4 | 1.23
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 1 | 3.32
+K00651 | homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31] | 1 | 1.94
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 1 | 4.44
+K00850 | 6-phosphofructokinase 1 [EC:2.7.1.11] | 1 | 1.11
+K00925 | acetate kinase [EC:2.7.2.1] | 1 | 5.14
+K00926 | carbamate kinase [EC:2.7.2.2] | 3 | 4.76
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 6.38
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.74
+K01006 | pyruvate, orthophosphate dikinase [EC:2.7.9.1] | 2 | 4.59
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 2 | 1.24
+K01500 | methenyltetrahydrofolate cyclohydrolase [EC:3.5.4.9] | 2 | 1.35
+K01501 | nitrilase [EC:3.5.5.1] | 1 | 1.69
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 1 | 9.05
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 8 | 4.49
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 1 | 3.95
+K01677 | fumarate hydratase subunit alpha [EC:4.2.1.2] | 1 | 1.49
+K01678 | fumarate hydratase subunit beta [EC:4.2.1.2] | 1 | 1.24
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.91
+K01725 | cyanate lyase [EC:4.2.1.104] | 1 | 2.11
+K01738 | cysteine synthase [EC:2.5.1.47] | 2 | 1.08
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.41
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 12.89
+K01808 | ribose 5-phosphate isomerase B [EC:5.3.1.6] | 1 | 1.42
+K01848 | methylmalonyl-CoA mutase, N-terminal domain [EC:5.4.99.2] | 1 | 1.12
+K01849 | methylmalonyl-CoA mutase, C-terminal domain [EC:5.4.99.2] | 1 | 1.18
+K01915 | glutamine synthetase [EC:6.3.1.2] | 3 | 7.87
+K01938 | formate--tetrahydrofolate ligase [EC:6.3.4.3] | 2 | 1.04
+K01958 | pyruvate carboxylase [EC:6.4.1.1] | 1 | 2.23
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 1 | 1.15
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.17
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.23
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.26
+K02109 | F-type H+-transporting ATPase subunit b | 1 | 2.40
+K02110 | F-type H+-transporting ATPase subunit c | 1 | 1.37
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 2.15
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.86
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.65
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.28
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.19
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 1 | 1.62
+K02575 | MFS transporter, NNP family, nitrate/nitrite transporter | 1 | 1.79
+K02588 | nitrogenase iron protein NifH | 3 | 1.29
+K02591 | nitrogenase molybdenum-iron protein beta chain [EC:1.18.6.1] | 2 | 1.14
+K03612 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit G | 1 | 1.34
+K03613 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E | 1 | 1.19
+K03614 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2] | 1 | 1.42
+K03615 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.1.1.11 7.2.1.2] | 1 | 2.09
+K03616 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2] | 1 | 2.27
+K03617 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A | 1 | 1.10
+K03737 | pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.8.1] | 2 | 4.48
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 1 | 2.17
+K04041 | fructose-1,6-bisphosphatase III [EC:3.1.3.11] | 1 | 2.18
+K05601 | hydroxylamine reductase [EC:1.7.99.1] | 2 | 8.26
+K05606 | methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] | 1 | 2.24
+K05979 | 2-phosphosulfolactate phosphatase [EC:3.1.3.71] | 1 | 3.72
+K06019 | pyrophosphatase PpaX [EC:3.6.1.1] | 1 | 1.35
+K06881 | bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3] | 1 | 1.76
+K11261 | formylmethanofuran dehydrogenase subunit E [EC:1.2.7.12] | 3 | 4.33
+K14138 | acetyl-CoA synthase [EC:2.3.1.169] | 1 | 1.17
+K14534 | 4-hydroxybutyryl-CoA dehydratase / vinylacetyl-CoA-Delta-isomerase [EC:4.2.1.120 5.3.3.3] | 1 | 1.90
+K15019 | 3-hydroxypropionyl-coenzyme A dehydratase [EC:4.2.1.116] | 1 | 1.00
+K15023 | 5-methyltetrahydrofolate corrinoid/iron sulfur protein methyltransferase [EC:2.1.1.258] | 3 | 1.32
+K15024 | putative phosphotransacetylase [EC:2.3.1.8] | 3 | 1.13
+K15553 | sulfonate transport system substrate-binding protein | 1 | 1.16
+K15554 | sulfonate transport system permease protein | 1 | 1.11
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 11.78
+K15986 | manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 2.88
+K16179 | dimethylamine corrinoid protein | 2 | 1.16
+K16950 | anaerobic sulfite reductase subunit A | 1 | 1.36
+K16951 | anaerobic sulfite reductase subunit B | 1 | 1.68
+K22015 | formate dehydrogenase (hydrogenase) / hydrogen-dependent carbon dioxide reductase [EC:1.17.98.4 1.17.98.5] | 2 | 1.37
+K25123 | iron hydrogenase HydA2 [EC:1.12.7.-] | 1 | 1.31
+K25124 | FeS-containing electron transfer protein | 2 | 1.14
+K28956 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.10
+### genome_code: P058
+113 significant energy-metabolism KOs:
+K00018 | glycerate dehydrogenase [EC:1.1.1.29] | 1 | 1.09
+K00024 | malate dehydrogenase [EC:1.1.1.37] | 1 | 1.03
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 1 | 1.00
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 1 | 1.32
+K00127 | formate dehydrogenase subunit gamma | 1 | 1.63
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 1 | 1.07
+K00169 | pyruvate ferredoxin oxidoreductase alpha subunit [EC:1.2.7.1] | 1 | 1.60
+K00170 | pyruvate ferredoxin oxidoreductase beta subunit [EC:1.2.7.1] | 1 | 1.07
+K00174 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit alpha [EC:1.2.7.3 1.2.7.11] | 1 | 1.67
+K00175 | 2-oxoglutarate/2-oxoacid ferredoxin oxidoreductase subunit beta [EC:1.2.7.3 1.2.7.11] | 1 | 1.43
+K00176 | 2-oxoglutarate ferredoxin oxidoreductase subunit delta [EC:1.2.7.3] | 1 | 1.41
+K00177 | 2-oxoglutarate ferredoxin oxidoreductase subunit gamma [EC:1.2.7.3] | 1 | 1.15
+K00233 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1 7.1.1.12] | 1 | 1.21
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.18
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 3 | 1.67
+K00262 | glutamate dehydrogenase (NADP+) [EC:1.4.1.4] | 2 | 1.65
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 1 | 1.15
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 1 | 1.23
+K00333 | NADH-quinone oxidoreductase subunit D [EC:7.1.1.2] | 1 | 1.06
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 1 | 1.03
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 1 | 1.36
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.10
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 1 | 1.41
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.35
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 1 | 1.13
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 1 | 1.41
+K00376 | nitrous-oxide reductase [EC:1.7.2.4] | 1 | 2.52
+K00386 | sulfite dehydrogenase (cytochrome) subunit B [EC:1.8.2.1] | 1 | 1.44
+K00406 | cytochrome c oxidase cbb3-type subunit III | 1 | 2.02
+K00407 | cytochrome c oxidase cbb3-type subunit IV | 1 | 1.10
+K00411 | ubiquinol-cytochrome c reductase iron-sulfur subunit [EC:7.1.1.8] | 1 | 1.47
+K00412 | ubiquinol-cytochrome c reductase cytochrome b subunit | 1 | 1.44
+K00413 | ubiquinol-cytochrome c reductase cytochrome c1 subunit | 1 | 1.23
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 1 | 1.37
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 7.75
+K00615 | transketolase [EC:2.2.1.1] | 2 | 3.31
+K00616 | transaldolase [EC:2.2.1.2] | 1 | 1.46
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 1 | 3.23
+K00641 | homoserine O-acetyltransferase/O-succinyltransferase [EC:2.3.1.31 2.3.1.46] | 1 | 5.56
+K00925 | acetate kinase [EC:2.7.2.1] | 1 | 4.85
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 5.58
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.41
+K01007 | pyruvate, water dikinase [EC:2.7.9.2] | 1 | 2.63
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 1.77
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 1 | 1.12
+K01535 | H+-transporting ATPase [EC:7.1.2.1] | 1 | 1.94
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 1 | 8.92
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 1 | 4.77
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 2 | 12.17
+K01674 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.25
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.29
+K01682 | aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 2.15
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.62
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.13
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.18
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 8.76
+K01808 | ribose 5-phosphate isomerase B [EC:5.3.1.6] | 1 | 1.22
+K01895 | acetyl-CoA synthetase [EC:6.2.1.1] | 1 | 1.22
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 1 | 1.26
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 1 | 1.13
+K01915 | glutamine synthetase [EC:6.3.1.2] | 1 | 6.78
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.11
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.16
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.29
+K02109 | F-type H+-transporting ATPase subunit b | 2 | 1.69
+K02110 | F-type H+-transporting ATPase subunit c | 1 | 1.30
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 2.10
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.80
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 1.71
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.15
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.28
+K02122 | V/A-type H+/Na+-transporting ATPase subunit F | 1 | 1.19
+K02123 | V/A-type H+/Na+-transporting ATPase subunit I | 1 | 1.27
+K02124 | V/A-type H+/Na+-transporting ATPase subunit K | 1 | 1.04
+K02305 | nitric oxide reductase subunit C | 1 | 1.98
+K02567 | nitrate reductase (cytochrome) [EC:1.9.6.1] | 1 | 1.67
+K02568 | nitrate reductase (cytochrome), electron transfer subunit | 1 | 5.29
+K02575 | MFS transporter, NNP family, nitrate/nitrite transporter | 1 | 2.01
+K03841 | fructose-1,6-bisphosphatase I [EC:3.1.3.11] | 1 | 1.17
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 1 | 1.38
+K03972 | thiosulfate sulfurtransferase [EC:2.8.1.1] | 2 | 1.17
+K04561 | nitric oxide reductase subunit B [EC:1.7.2.5] | 1 | 3.16
+K05301 | sulfite dehydrogenase (cytochrome) subunit A [EC:1.8.2.1] | 1 | 1.10
+K05922 | quinone-reactive Ni/Fe-hydrogenase large subunit [EC:1.12.5.1] | 2 | 1.22
+K06281 | hydrogenase large subunit [EC:1.12.99.6] | 1 | 1.05
+K06881 | bifunctional oligoribonuclease and PAP phosphatase NrnA [EC:3.1.3.7 3.1.13.3] | 1 | 1.49
+K08358 | tetrathionate reductase subunit B | 1 | 1.02
+K13788 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.62
+K15022 | formate dehydrogenase (NADP+) beta subunit [EC:1.17.1.10] | 1 | 1.04
+K15230 | ATP-citrate lyase alpha-subunit [EC:2.3.3.8] | 1 | 1.17
+K15231 | ATP-citrate lyase beta-subunit [EC:2.3.3.8] | 1 | 1.33
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 9.71
+K15864 | nitrite reductase (NO-forming) / hydroxylamine reductase [EC:1.7.2.1 1.7.99.1] | 1 | 1.10
+K15986 | manganese-dependent inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 2.68
+K16305 | fructose-bisphosphate aldolase / 6-deoxy-5-ketofructose 1-phosphate synthase [EC:4.1.2.13 2.2.1.11] | 1 | 1.26
+K17218 | sulfide:quinone oxidoreductase [EC:1.8.5.4] | 6 | 1.95
+K17222 | L-cysteine S-thiosulfotransferase [EC:2.8.5.2] | 1 | 1.18
+K17223 | L-cysteine S-thiosulfotransferase [EC:2.8.5.2] | 1 | 1.39
+K17224 | S-sulfosulfanyl-L-cysteine sulfohydrolase [EC:3.1.6.20] | 1 | 1.91
+K17225 | sulfane dehydrogenase subunit SoxC | 1 | 1.38
+K17226 | sulfur-oxidizing protein SoxY | 2 | 1.78
+K17227 | sulfur-oxidizing protein SoxZ | 2 | 1.39
+K18367 | CoA-dependent NAD(P)H sulfur oxidoreductase [EC:1.8.1.18] | 1 | 1.17
+K21310 | methanethiol S-methyltransferase [EC:2.1.1.334] | 1 | 1.89
+K22468 | polyphosphate kinase [EC:2.7.4.34] | 3 | 1.55
+K22622 | S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6] | 1 | 2.83
+K25995 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1 7.1.1.12] | 1 | 1.10
+K25996 | succinate dehydrogenase subunit C | 1 | 1.78
+K28726 | pyruvate synthase (flavodoxin) subunit A [EC:1.2.8.1] | 1 | 1.13
+K28727 | pyruvate synthase (flavodoxin) subunit B [EC:1.2.8.1] | 1 | 1.12
+K28728 | pyruvate synthase (flavodoxin) subunit C [EC:1.2.8.1] | 1 | 1.22
+K28729 | pyruvate synthase (flavodoxin) subunit D [EC:1.2.8.1] | 1 | 1.28
+K28956 | carbonic anhydrase [EC:4.2.1.1] | 1 | 1.14
+### genome_code: P059
+153 significant energy-metabolism KOs:
+K00029 | malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] | 2 | 2.37
+K00031 | isocitrate dehydrogenase [EC:1.1.1.42] | 1 | 1.82
+K00058 | D-3-phosphoglycerate dehydrogenase / 2-oxoglutarate reductase [EC:1.1.1.95 1.1.1.399] | 2 | 1.30
+K00121 | S-(hydroxymethyl)glutathione dehydrogenase / alcohol dehydrogenase [EC:1.1.1.284 1.1.1.1] | 1 | 1.14
+K00124 | formate dehydrogenase iron-sulfur subunit | 2 | 2.10
+K00127 | formate dehydrogenase subunit gamma | 2 | 3.13
+K00134 | glyceraldehyde 3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.12] | 2 | 1.59
+K00239 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 2 | 1.26
+K00240 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 2 | 1.98
+K00241 | succinate dehydrogenase cytochrome b subunit | 1 | 1.38
+K00242 | succinate dehydrogenase membrane anchor subunit | 1 | 1.40
+K00244 | succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1] | 1 | 1.56
+K00245 | succinate dehydrogenase iron-sulfur subunit [EC:1.3.5.1] | 1 | 1.39
+K00246 | succinate dehydrogenase subunit C | 1 | 3.60
+K00247 | succinate dehydrogenase subunit D | 1 | 4.39
+K00261 | glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3] | 1 | 1.04
+K00262 | glutamate dehydrogenase (NADP+) [EC:1.4.1.4] | 1 | 1.72
+K00265 | glutamate synthase (NADPH) large chain [EC:1.4.1.13] | 1 | 1.07
+K00266 | glutamate synthase (NADPH) small chain [EC:1.4.1.13] | 3 | 1.21
+K00297 | methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] | 1 | 2.14
+K00299 | FMN reductase [EC:1.5.1.38] | 1 | 1.93
+K00330 | NADH-quinone oxidoreductase subunit A [EC:7.1.1.2] | 1 | 1.38
+K00331 | NADH-quinone oxidoreductase subunit B [EC:7.1.1.2] | 1 | 1.24
+K00334 | NADH-quinone oxidoreductase subunit E [EC:7.1.1.2] | 1 | 1.25
+K00335 | NADH-quinone oxidoreductase subunit F [EC:7.1.1.2] | 1 | 1.10
+K00336 | NADH-quinone oxidoreductase subunit G [EC:7.1.1.2] | 1 | 1.06
+K00337 | NADH-quinone oxidoreductase subunit H [EC:7.1.1.2] | 1 | 1.17
+K00338 | NADH-quinone oxidoreductase subunit I [EC:7.1.1.2] | 1 | 1.54
+K00339 | NADH-quinone oxidoreductase subunit J [EC:7.1.1.2] | 1 | 1.33
+K00340 | NADH-quinone oxidoreductase subunit K [EC:7.1.1.2] | 1 | 1.32
+K00341 | NADH-quinone oxidoreductase subunit L [EC:7.1.1.2] | 1 | 1.28
+K00342 | NADH-quinone oxidoreductase subunit M [EC:7.1.1.2] | 1 | 1.11
+K00343 | NADH-quinone oxidoreductase subunit N [EC:7.1.1.2] | 1 | 1.60
+K00361 | nitrite reductase [NAD(P)H] [EC:1.7.1.4] | 1 | 1.41
+K00362 | nitrite reductase (NADH) large subunit [EC:1.7.1.15] | 2 | 1.18
+K00363 | nitrite reductase (NADH) small subunit [EC:1.7.1.15] | 1 | 1.14
+K00370 | nitrate reductase / nitrite oxidoreductase, alpha subunit [EC:1.7.5.1 1.7.99.-] | 3 | 2.76
+K00371 | nitrate reductase / nitrite oxidoreductase, beta subunit [EC:1.7.5.1 1.7.99.-] | 2 | 2.70
+K00372 | assimilatory nitrate reductase catalytic subunit [EC:1.7.99.-] | 1 | 1.10
+K00373 | nitrate reductase molybdenum cofactor assembly chaperone NarJ/NarW | 2 | 2.99
+K00374 | nitrate reductase gamma subunit [EC:1.7.5.1 1.7.99.-] | 4 | 2.01
+K00380 | sulfite reductase (NADPH) flavoprotein alpha-component [EC:1.8.1.2] | 1 | 1.33
+K00381 | sulfite reductase (NADPH) hemoprotein beta-component [EC:1.8.1.2] | 1 | 1.73
+K00390 | phosphoadenosine phosphosulfate reductase [EC:1.8.4.8 1.8.4.10] | 1 | 1.64
+K00424 | cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7] | 1 | 1.70
+K00425 | cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7] | 3 | 5.47
+K00426 | cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7] | 3 | 6.74
+K00459 | nitronate monooxygenase [EC:1.13.12.16] | 2 | 2.33
+K00600 | glycine hydroxymethyltransferase [EC:2.1.2.1] | 1 | 8.29
+K00615 | transketolase [EC:2.2.1.1] | 3 | 3.81
+K00616 | transaldolase [EC:2.2.1.2] | 2 | 3.10
+K00626 | acetyl-CoA C-acetyltransferase [EC:2.3.1.9] | 2 | 1.19
+K00640 | serine O-acetyltransferase [EC:2.3.1.30] | 2 | 3.15
+K00651 | homoserine O-succinyltransferase/O-acetyltransferase [EC:2.3.1.46 2.3.1.31] | 1 | 1.77
+K00831 | phosphoserine aminotransferase [EC:2.6.1.52] | 1 | 4.15
+K00850 | 6-phosphofructokinase 1 [EC:2.7.1.11] | 1 | 1.06
+K00860 | adenylylsulfate kinase [EC:2.7.1.25] | 1 | 1.04
+K00925 | acetate kinase [EC:2.7.2.1] | 2 | 4.58
+K00926 | carbamate kinase [EC:2.7.2.2] | 2 | 4.42
+K00927 | phosphoglycerate kinase [EC:2.7.2.3] | 1 | 5.43
+K00937 | polyphosphate kinase [EC:2.7.4.1] | 1 | 3.02
+K00956 | sulfate adenylyltransferase subunit 1 [EC:2.7.7.4] | 1 | 1.32
+K00957 | sulfate adenylyltransferase subunit 2 [EC:2.7.7.4] | 1 | 3.34
+K01007 | pyruvate, water dikinase [EC:2.7.9.2] | 1 | 2.80
+K01011 | thiosulfate/3-mercaptopyruvate sulfurtransferase [EC:2.8.1.1 2.8.1.2] | 1 | 1.70
+K01070 | S-formylglutathione hydrolase [EC:3.1.2.12] | 1 | 3.75
+K01079 | phosphoserine phosphatase [EC:3.1.3.3] | 1 | 2.32
+K01082 | 3'(2'), 5'-bisphosphate nucleotidase [EC:3.1.3.7] | 1 | 1.50
+K01491 | methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] | 1 | 1.10
+K01507 | inorganic pyrophosphatase [EC:3.6.1.1] | 1 | 6.96
+K01595 | phosphoenolpyruvate carboxylase [EC:4.1.1.31] | 1 | 27.64
+K01610 | phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] | 1 | 8.76
+K01624 | fructose-bisphosphate aldolase, class II [EC:4.1.2.13] | 2 | 4.93
+K01673 | carbonic anhydrase [EC:4.2.1.1] | 4 | 13.13
+K01675 | fumarate hydratase D [EC:4.2.1.2] | 1 | 1.61
+K01676 | fumarate hydratase, class I [EC:4.2.1.2] | 2 | 2.61
+K01679 | fumarate hydratase, class II [EC:4.2.1.2] | 1 | 1.40
+K01682 | aconitate hydratase 2 / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 2.37
+K01689 | enolase 1/2/3 [EC:4.2.1.11] | 1 | 2.81
+K01725 | cyanate lyase [EC:4.2.1.104] | 1 | 2.68
+K01738 | cysteine synthase [EC:2.5.1.47] | 1 | 1.15
+K01783 | ribulose-phosphate 3-epimerase [EC:5.1.3.1] | 1 | 1.47
+K01803 | triosephosphate isomerase (TIM) [EC:5.3.1.1] | 1 | 12.61
+K01807 | ribose 5-phosphate isomerase A [EC:5.3.1.6] | 1 | 5.33
+K01834 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 2.70
+K01895 | acetyl-CoA synthetase [EC:6.2.1.1] | 1 | 1.39
+K01902 | succinyl-CoA synthetase alpha subunit [EC:6.2.1.5] | 1 | 1.42
+K01903 | succinyl-CoA synthetase beta subunit [EC:6.2.1.5] | 1 | 1.19
+K01915 | glutamine synthetase [EC:6.3.1.2] | 2 | 7.57
+K01961 | acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2 6.3.4.14] | 1 | 1.12
+K01962 | acetyl-CoA carboxylase carboxyl transferase subunit alpha [EC:6.4.1.2 2.1.3.15] | 1 | 1.29
+K01963 | acetyl-CoA carboxylase carboxyl transferase subunit beta [EC:6.4.1.2 2.1.3.15] | 1 | 1.23
+K02045 | sulfate/thiosulfate transport system ATP-binding protein [EC:7.3.2.3] | 1 | 1.20
+K02046 | sulfate/thiosulfate transport system permease protein | 1 | 1.43
+K02047 | sulfate/thiosulfate transport system permease protein | 1 | 1.49
+K02048 | sulfate/thiosulfate transport system substrate-binding protein | 1 | 1.08
+K02108 | F-type H+-transporting ATPase subunit a | 1 | 1.34
+K02109 | F-type H+-transporting ATPase subunit b | 1 | 3.06
+K02110 | F-type H+-transporting ATPase subunit c | 1 | 1.07
+K02111 | F-type H+/Na+-transporting ATPase subunit alpha [EC:7.1.2.2 7.2.2.1] | 1 | 1.96
+K02112 | F-type H+/Na+-transporting ATPase subunit beta [EC:7.1.2.2 7.2.2.1] | 1 | 1.83
+K02113 | F-type H+-transporting ATPase subunit delta | 1 | 3.33
+K02114 | F-type H+-transporting ATPase subunit epsilon | 1 | 1.52
+K02115 | F-type H+-transporting ATPase subunit gamma | 1 | 1.53
+K02160 | acetyl-CoA carboxylase biotin carboxyl carrier protein | 1 | 2.10
+K02257 | heme o synthase [EC:2.5.1.141] | 1 | 2.48
+K02297 | cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3] | 1 | 1.49
+K02298 | cytochrome o ubiquinol oxidase subunit I [EC:7.1.1.3] | 1 | 1.23
+K02299 | cytochrome o ubiquinol oxidase subunit III | 1 | 1.38
+K02300 | cytochrome o ubiquinol oxidase subunit IV | 1 | 1.98
+K02439 | thiosulfate sulfurtransferase [EC:2.8.1.1] | 1 | 2.01
+K02446 | fructose-1,6-bisphosphatase II [EC:3.1.3.11] | 1 | 1.10
+K02575 | MFS transporter, NNP family, nitrate/nitrite transporter | 2 | 2.75
+K03119 | taurine dioxygenase [EC:1.14.11.17] | 1 | 1.48
+K03532 | trimethylamine-N-oxide reductase (cytochrome c), cytochrome c-type subunit TorC | 1 | 1.28
+K03612 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit G | 1 | 1.82
+K03613 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit E | 1 | 1.37
+K03614 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit D [EC:7.1.1.11 7.2.1.2] | 1 | 1.41
+K03615 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit C [EC:7.1.1.11 7.2.1.2] | 1 | 4.25
+K03616 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit B [EC:7.1.1.11 7.2.1.2] | 1 | 3.47
+K03617 | H+/Na+-translocating ferredoxin:NAD+ oxidoreductase subunit A | 1 | 1.35
+K03737 | pyruvate-ferredoxin/flavodoxin oxidoreductase [EC:1.2.7.1 1.2.8.1] | 1 | 4.31
+K03841 | fructose-1,6-bisphosphatase I [EC:3.1.3.11] | 1 | 2.34
+K03885 | NADH:quinone reductase (non-electrogenic) [EC:1.6.5.9] | 3 | 2.03
+K04091 | alkanesulfonate monooxygenase [EC:1.14.14.5 1.14.14.34] | 1 | 1.89
+K05601 | hydroxylamine reductase [EC:1.7.99.1] | 1 | 7.18
+K07306 | anaerobic dimethyl sulfoxide reductase subunit A [EC:1.8.5.3] | 2 | 1.92
+K07307 | anaerobic dimethyl sulfoxide reductase subunit B | 2 | 1.89
+K07308 | anaerobic dimethyl sulfoxide reductase subunit C | 2 | 1.97
+K07812 | trimethylamine-N-oxide reductase (cytochrome c) [EC:1.7.2.3] | 1 | 1.09
+K10831 | taurine transport system ATP-binding protein [EC:7.6.2.7] | 1 | 1.13
+K11645 | fructose-bisphosphate aldolase, class I [EC:4.1.2.13] | 1 | 1.37
+K13378 | NADH-quinone oxidoreductase subunit C/D [EC:7.1.1.2] | 1 | 1.52
+K13788 | phosphate acetyltransferase [EC:2.3.1.8] | 1 | 1.69
+K15024 | putative phosphotransacetylase [EC:2.3.1.8] | 1 | 1.13
+K15551 | taurine transport system substrate-binding protein | 1 | 1.90
+K15552 | taurine transport system permease protein | 1 | 1.36
+K15553 | sulfonate transport system substrate-binding protein | 2 | 1.67
+K15554 | sulfonate transport system permease protein | 2 | 1.42
+K15555 | sulfonate transport system ATP-binding protein [EC:7.6.2.14] | 2 | 1.04
+K15576 | nitrate/nitrite transport system substrate-binding protein | 1 | 1.14
+K15577 | nitrate/nitrite transport system permease protein | 1 | 1.39
+K15578 | nitrate/nitrite transport system ATP-binding protein [EC:7.3.2.4] | 1 | 1.05
+K15633 | 2,3-bisphosphoglycerate-independent phosphoglycerate mutase [EC:5.4.2.12] | 1 | 11.34
+K15634 | 2,3-bisphosphoglycerate-dependent phosphoglycerate mutase [EC:5.4.2.11] | 1 | 1.07
+K16370 | 6-phosphofructokinase 2 [EC:2.7.1.11] | 1 | 1.26
+K20034 | 3-(methylthio)propionyl---CoA ligase [EC:6.2.1.44] | 1 | 1.01
+K22015 | formate dehydrogenase (hydrogenase) / hydrogen-dependent carbon dioxide reductase [EC:1.17.98.4 1.17.98.5] | 3 | 1.41
+K22468 | polyphosphate kinase [EC:2.7.4.34] | 1 | 1.56
+K23163 | sulfate/thiosulfate transport system substrate-binding protein | 1 | 1.18
+K27802 | aconitate hydratase A / 2-methylisocitrate dehydratase [EC:4.2.1.3 4.2.1.99] | 1 | 1.12
+K28462 | phosphoribulokinase [EC:2.7.1.19] | 1 | 1.60
+K28482 | fumarate reductase (NADH) [EC:1.3.1.6] | 1 | 1.21

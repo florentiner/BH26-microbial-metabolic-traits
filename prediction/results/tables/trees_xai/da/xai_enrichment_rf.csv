@@ -1,0 +1,15 @@
+task,model,trait,n_known_markers_in_features,n_stable_top,n_stable_top_known,expected_by_chance,p_hypergeom,stable_top_kos,q_bh
+da,RF,donor_sulfur_oxidation,16,6,4,0.1641,5.467e-06,"K17223, K17224, K27925, K17218, K00424, K17222",3.28e-05
+da,RF,donor_ammonia_oxidation,4,2,2,0.01368,3.512e-05,"K10945, K10946",0.0001405
+da,RF,donor_nitrite_oxidation,5,3,0,0.02564,1,"K00332, K15554, K00390",1
+da,RF,donor_hydrogen_oxidation,3,6,1,0.03077,0.03051,"K06281, K00342, K01678, K15986, K00338, K03885",0.07322
+da,RF,donor_CO_oxidation,4,2,0,0.01368,1,"K01938, K15553",1
+da,RF,donor_iron_oxidation,0,4,0,0,,"K17229, K27925, K00177, K00262",
+da,RF,donor_other,8,1,0,0.01368,1,K00370,1
+da,RF,acceptor_oxygen,12,5,0,0.1026,1,"K02257, K03389, K00197, K14127, K03388",1
+da,RF,acceptor_nitrate,16,8,7,0.2188,2.012e-11,"K04561, K00373, K02575, K02568, K00374, K02305, K00362, K00376",2.414e-10
+da,RF,acceptor_sulfate,8,10,2,0.1368,0.00698,"K11181, K00124, K27187, K00177, K27188, K00127, K00176, K08352, K27190, K00958",0.02094
+da,RF,acceptor_sulfur,5,2,0,0.01709,1,"K01007, K00831",1
+da,RF,acceptor_CO2_methanogen_acetogen,16,4,1,0.1094,0.1053,"K11261, K00194, K16950, K14138",0.2105
+da,RF,acceptor_iron,0,1,0,0,,K00031,
+da,RF,acceptor_other,4,5,0,0.03419,1,"K07306, K00184, K01725, K00185, K00031",1

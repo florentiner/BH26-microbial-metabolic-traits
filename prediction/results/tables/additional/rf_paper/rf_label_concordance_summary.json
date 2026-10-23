@@ -1,0 +1,30 @@
+{
+  "n_training_genomes_with_madin_pathway_record": 179,
+  "traits_evaluable": [
+    "acceptor_sulfate",
+    "acceptor_sulfur",
+    "acceptor_CO2_methanogen_acetogen",
+    "acceptor_nitrate",
+    "donor_hydrogen_oxidation",
+    "donor_sulfur_oxidation",
+    "donor_iron_oxidation",
+    "acceptor_oxygen"
+  ],
+  "mean_frac_madin_species_with_faprotax_source": 0.7348740381574786,
+  "mean_agreement": 0.8466190576578475,
+  "mean_kappa": 0.6136360468544413,
+  "mean_kappa_excluding_H2_definitional_mismatch": 0.680987978696267,
+  "mean_disagreement_among_either_positive": 0.43865127780265467,
+  "like_for_like_binary": {
+    "madin_predicting_our_labels": 0.6757888785387158,
+    "our_labels_predicting_madin": 0.5664155255293346,
+    "model_vs_our_labels_binarised": 0.6106473270791057,
+    "model_vs_madin_labels_binarised": 0.5075549217120333,
+    "mean_kappa_model_vs_madin": 0.5416445926198805
+  },
+  "continuous_scores": {
+    "model_vs_our_labels": 0.7640915918255671,
+    "model_vs_madin_labels": 0.6308308654950627
+  },
+  "interpretation": "Comparable quantities are model-vs-independent-curation and curation-vs-curation, both binarised. A model trained on one curation is not bounded by how well another curation predicts it; what these numbers bound is how well any outside source reproduces a given curation. Closed-world on both sides."
+}

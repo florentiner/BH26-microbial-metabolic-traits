@@ -1,0 +1,229 @@
+genome_id,organism,genus_in_training_set,acceptor_CO2_methanogen_acetogen,acceptor_iron,acceptor_nitrate,acceptor_other,acceptor_oxygen,acceptor_sulfate,acceptor_sulfur,donor_CO_oxidation,donor_ammonia_oxidation,donor_hydrogen_oxidation,donor_iron_oxidation,donor_nitrite_oxidation,donor_other,donor_sulfur_oxidation
+GCF_000009145.1,Nitrosomonas europaea ATCC 19718,True,0.0,,1.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,0.0
+GCF_000009205.2,Clostridioides difficile 630,False,1.0,,0.0,,0.0,0.0,0.0,,0.0,1.0,,,,0.0
+GCF_000010785.1,Hydrogenobacter thermophilus TK-6,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_000012485.1,Pelodictyon luteolum DSM 273,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,0.0
+GCF_000014865.1,Magnetococcus marinus MC-1,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_000015205.1,Pyrobaculum islandicum DSM 4184,True,0.0,,0.0,,0.0,1.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_000016385.1,Pyrobaculum arsenaticum DSM 13514,True,0.0,,0.0,,1.0,1.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_000020645.1,Pelodictyon phaeoclathratiforme BU-1,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000021485.1,Acidithiobacillus ferrooxidans ATCC 23270,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000021725.1,Nautilia profundicola AmH,False,0.0,,1.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_000024605.1,Ammonifex degensii KC4,False,0.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_000025545.1,Thioalkalivibrio sp. K90mix,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000025605.1,Thermocrinis albus DSM 14484,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_000025705.1,Sideroxydans lithotrophicus ES-1,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000092205.1,Desulfurivibrio alkaliphilus AHT 2,False,0.0,,0.0,,0.0,1.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_000092905.1,Kyrpidia tusciae DSM 2912,False,0.0,,1.0,,1.0,0.0,0.0,1.0,0.0,0.0,,,,0.0
+GCF_000143965.1,Desulfarculus baarsii DSM 2075,False,0.0,,0.0,,0.0,1.0,1.0,1.0,0.0,1.0,,,,0.0
+GCF_000147355.1,Sulfurimonas autotrophica DSM 16294,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,0.0,,,,1.0
+GCF_000153765.1,Mariprofundus ferrooxydans PV-1,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,0.0
+GCF_000174415.1,Dethiobacter alkaliphilus AHT 1,False,0.0,,0.0,,0.0,0.0,0.0,,0.0,1.0,,,,0.0
+GCF_000185805.1,Thermovibrio ammonificans HB-1,True,0.0,,1.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_000186245.1,Nitratifractor salsuginis DSM 16511,False,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_000191045.1,Desulfurobacterium thermolithotrophum DSM 11699,True,0.0,,0.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_000194625.1,Archaeoglobus veneficus SNP6,True,0.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_000214415.1,Methanotorris igneus Kol 5,True,1.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_000217795.1,Thermodesulfatator indicus DSM 15286,False,0.0,,0.0,,0.0,1.0,1.0,,0.0,1.0,,,,1.0
+GCF_000220175.1,Nitrosarchaeum koreense MY1,True,0.0,,0.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,0.0
+GCF_000223395.1,Pyrolobus fumarii 1A,False,0.0,,0.0,,0.0,0.0,1.0,,0.0,1.0,,,,1.0
+GCF_000223985.1,Thiocapsa marina 5811,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000227685.2,Thioalkalivibrio paradoxus ARh 1,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000242875.2,Candidatus Nitrosopumilus salarius BD31,True,0.0,,0.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,0.0
+GCF_000266945.1,Desulfomonile tiedjei DSM 6799,False,0.0,,0.0,,0.0,1.0,1.0,,0.0,1.0,,,,0.0
+GCF_000297055.2,Sulfuricella denitrificans skB26,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000297415.1,Methylacidiphilum fumariolicum SolV,True,0.0,,0.0,,1.0,0.0,0.0,0.0,1.0,1.0,,,,0.0
+GCF_000303155.1,Candidatus Nitrososphaera gargensis Ga9.2,False,0.0,,0.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,0.0
+GCF_000307735.3,Cupriavidus sp. HPC(L),True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,0.0
+GCF_000327045.1,Thioflavicoccus mobilis 8321,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000371805.1,Methanocaldococcus villosus KIN24-T80,True,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_000373385.1,Thiobacillus thioparus DSM 505,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000381085.1,Thiomicrorhabdus arctica DSM 13458,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000385565.1,Archaeoglobus sulfaticallidus PM70-1,True,0.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_000420085.1,Desulfospira joergensenii DSM 10085,False,0.0,,0.0,,0.0,1.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_000421585.1,Thermodesulfatator atlanticus DSM 21156,False,0.0,,0.0,,0.0,1.0,1.0,,0.0,1.0,,,,1.0
+GCF_000427565.1,Carboxydothermus ferrireducens DSM 11255,True,0.0,,1.0,,0.0,1.0,1.0,1.0,0.0,1.0,,,,0.0
+GCF_000445475.1,Sulfurimonas hongkongensis,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_000473085.1,Azorhizobium doebereinerae UFLA1-100,False,0.0,,1.0,,1.0,0.0,0.0,1.0,0.0,1.0,,,,1.0
+GCF_000482785.1,Derxia gummosa DSM 723,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_000512735.1,Thermocrinis ruber,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_000526715.1,Hydrogenovibrio kuenenii DSM 12350,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000619805.1,Sulfurihydrogenibium subterraneum DSM 15120,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_000686645.1,Desulfofundulus thermocisternus DSM 10259,True,0.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_000702425.1,Thermocrinis jamiesonii,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_000711195.1,Thiomicrospira pelophila DSM 1534,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000711315.1,Hydrogenovibrio marinus DSM 11271,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000723185.1,Candidatus Nitrosotenuis uzonensis,True,0.0,,0.0,,1.0,0.0,0.0,,1.0,0.0,,,,0.0
+GCF_000745425.1,Beijerinckia mobilis,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,1.0,,,,0.0
+GCF_000754095.2,Acidihalobacter prosperus,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000789255.1,Geoglobus acetivorans,False,0.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_000818395.1,Noviherbaspirillum autotrophicum,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_000828615.1,Thiolapillus brandeum,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000828635.1,Sulfuritalea hydrogenivorans sk43H,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_000832065.1,Nitrosospira sp. NpAV,True,0.0,,1.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,0.0
+GCF_000987835.1,Sulfurovum lithotrophicum,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_001006045.1,Geoglobus ahangari,False,0.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_001029285.1,Desulfosporosinus acididurans,True,0.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_001263415.1,Thermincola carboxydiphila,False,1.0,,0.0,,0.0,1.0,0.0,,0.0,1.0,,,,0.0
+GCF_001304615.2,Methanosarcina flavescens,True,1.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_001305575.3,Beggiatoa leptomitoformis,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_001462395.1,Pyrodictium occultum,False,0.0,,0.0,,0.0,0.0,1.0,,0.0,1.0,,,,1.0
+GCF_001571145.1,Hydrogenophaga flava NBRC 102514,True,0.0,,1.0,,1.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_001595645.1,Sulfurovum riftiae,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_001636835.1,Clostridium coskatii,True,1.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_001642325.1,Thermodesulfatator autotrophicus,False,0.0,,0.0,,0.0,1.0,1.0,,0.0,1.0,,,,1.0
+GCF_001652585.1,Thermosulfurimonas dismutans,True,0.0,,0.0,,0.0,1.0,1.0,0.0,0.0,0.0,,,,1.0
+GCF_001663815.1,Halothiobacillus diazotrophicus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_001746755.1,Magnetovibrio blakemorei,False,0.0,,1.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_001753675.2,Candidatus Brocadia sapporoensis,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,0.0
+GCF_001870125.1,Candidatus Nitrosocosmicus hydrocola,True,0.0,,0.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,0.0
+GCF_001895085.1,Mariprofundus micogutta,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,0.0
+GCF_001950255.1,Carboxydothermus pertinax,True,0.0,,1.0,,0.0,1.0,1.0,1.0,0.0,1.0,,,,0.0
+GCF_001955735.1,Rhodoferax antarcticus,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_001968985.1,Desulfurobacterium indicum,True,0.0,,0.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_002080475.1,Andreesenella formicacetica,False,1.0,,0.0,,0.0,0.0,0.0,,0.0,1.0,,,,0.0
+GCF_002109495.1,Magnetofaba australis IT-1,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_002116695.1,Acidianus manzaensis,True,0.0,,0.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_002119425.1,Desulfurella amilsii,True,0.0,,0.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_002355415.1,Sulfurifustis variabilis,False,0.0,,1.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_002355735.1,Sulfuricaulis limicola,False,0.0,,1.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_002356555.2,Halorhodospira halochloris,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_002532075.1,Candidatus Chloroploca asiatica,True,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_002607855.1,Desulforamulus profundi,False,0.0,,0.0,,0.0,1.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_002804065.1,Kyrpidia spormannii,False,0.0,,0.0,,1.0,0.0,0.0,1.0,0.0,0.0,,,,1.0
+GCF_002995805.1,Neomoorella stamsii,True,1.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_003046545.1,Rhodovulum imhoffii,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_003053725.1,Rhodovulum kholense,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_003057965.1,Thermodesulfobium acidiphilum,True,0.0,,1.0,,0.0,1.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_003201835.2,Acidianus brierleyi,True,0.0,,0.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_003217355.1,Rhodobacter viridis,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_003368535.1,Ammonifex thiophilus,False,0.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_003385755.1,Methanothermobacter defluvii,True,1.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_003387045.1,Paracoccus versutus,True,0.0,,1.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,1.0
+GCF_003633715.1,Thermovibrio guaymasensis,True,0.0,,0.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_003663955.1,Sulfurisoma sediminicola,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_003721225.2,Acidithiobacillus sulfuriphilus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_003751635.1,Inmirania thermothiophila,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_003815015.1,Thermodesulfitimonas autotrophica,False,0.0,,0.0,,0.0,1.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_003864975.1,Sulfuriferula thiophila,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_003966655.1,Acidithiobacillus ferridurans,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_003992725.1,Rhodomicrobium lacus,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,1.0,,,,0.0
+GCF_004293625.1,Thiomicrorhabdus indica,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_004323595.1,Sulfuricystis thermophila,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_004339085.1,Thiogranum longum,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_004339575.1,Phorcysia thermohydrogeniphila,False,0.0,,1.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_004343155.1,Marichromatium gracile,True,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_004345735.1,Rhodovulum adriaticum,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_004346685.1,Sulfurirhabdus autotrophica,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_004786015.1,Hydrogenovibrio crunogenus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_005217605.1,Sulfurimonas crateris,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,0.0,,,,1.0
+GCF_005843985.1,Caminibacter mediatlanticus TB-2,True,0.0,,1.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_005885815.1,Thiomicrorhabdus sediminis,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_006265165.1,Chlorobaculum thiosulfatiphilum,True,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_006265245.1,Prosthecochloris vibrioformis,True,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_007475525.1,Methylacidiphilum kamchatkense Kam1,True,0.0,,0.0,,1.0,0.0,0.0,0.0,1.0,1.0,,,,0.0
+GCF_007641255.1,Sporomusa termitida,True,1.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_007668225.1,Cereibacter sediminicola,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_008014345.1,Pelomicrobium methylotrophicum,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_008362905.1,Deferribacter autotrophicus,False,0.0,,0.0,,0.0,0.0,1.0,,0.0,1.0,,,,0.0
+GCF_009068765.1,Sulfurimonas hydrogeniphila,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_009192995.1,Sulfurimonas indica,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_009258045.1,Sulfurimonas xiamenensis,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_009258225.1,Sulfurimonas lithotrophica,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_009720725.1,Allochromatium palmeri,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_009861625.1,Candidatus Nitrosocosmicus agrestis,True,0.0,,0.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,0.0
+GCF_009937995.1,Sulfuriferula nivalis,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_010378095.2,Acidithiobacillus ferrianus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_011207455.1,Thermosulfuriphilus ammonigenes,False,0.0,,0.0,,0.0,1.0,1.0,0.0,0.0,0.0,,,,0.0
+GCF_011398155.1,Thiosulfativibrio zosterae,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_011398355.1,Thiosulfatimonas sediminis,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_011764585.1,Sulfurimicrobium lacus,False,0.0,,1.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_012979235.1,Dissulfurirhabdus thermomarina,False,0.0,,0.0,,0.0,1.0,0.0,,0.0,1.0,,,,0.0
+GCF_013282625.1,Thiomicrorhabdus xiamenensis,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_013385175.1,Allochromatium humboldtianum,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_013387455.1,Mariprofundus sp. NF,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,0.0
+GCF_013387475.1,Mariprofundus sp. KV,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,0.0
+GCF_013391695.1,Thiomicrorhabdus cannonii,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_013391765.2,Thiomicrorhabdus heinhorstiae,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_013752735.1,Bradyrhizobium japonicum,False,0.0,,1.0,,1.0,0.0,0.0,1.0,0.0,1.0,,,,1.0
+GCF_014195655.1,Ancylobacter tetraedralis,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_014235185.1,Pseudonocardia petroleophila,True,0.0,,1.0,,1.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_014863355.1,Aminobacter carboxidus,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,0.0,,,,0.0
+GCF_014905095.1,Sulfurimonas marina,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_014905115.1,Sulfurimonas sediminis,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_014905135.1,Sulfurimonas paralvinellae,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_014931715.1,Sulfurovum indicum,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_015100395.1,Nitrosophilus alvini,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_016583625.1,Halorhodospira abdelmalekii,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_016583835.1,Thiococcus pfennigii,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_016583985.1,Thiocapsa imhoffii,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_016617615.1,Persephonella atlantica,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_016757965.1,Archaeoglobus neptunius,True,0.0,,0.0,,0.0,1.0,1.0,1.0,0.0,1.0,,,,0.0
+GCF_016919005.1,Desulfopila inferna,False,0.0,,0.0,,0.0,1.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_017357525.1,Methanofollis aquaemaris,True,1.0,,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_017357865.1,Aceticella autotrophica,False,1.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_017571465.1,Thiomicrorhabdus marina,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_017874455.1,Methanobacterium aggregans,True,1.0,,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_018069895.1,Roseovarius autotrophicus,False,0.0,,1.0,,1.0,0.0,0.0,,0.0,1.0,,,,1.0
+GCF_018141185.1,Methanobacterium alkalithermotolerans,True,1.0,,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_018704065.1,Desulfovulcanus ferrireducens,False,0.0,,0.0,,0.0,1.0,0.0,,0.0,1.0,,,,0.0
+GCF_018854775.1,Acidithiobacillus ferriphilus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_019704315.1,Stygiolobus caldivivus,True,0.0,,0.0,,1.0,0.0,1.0,0.0,0.0,0.0,,,,1.0
+GCF_019931065.1,Methanobacterium spitsbergense,True,1.0,,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_020911965.1,Sulfurovum mangrovi,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_021228795.1,Thiocapsa bogorovii,False,0.0,,0.0,,0.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_022026155.1,Dissulfurimicrobium hydrothermale,False,0.0,,0.0,,0.0,1.0,0.0,,0.0,1.0,,,,0.0
+GCF_023016525.1,Ancylobacter koreensis,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_023130475.1,Aciditerrimonas ferrireducens,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,0.0
+GCF_023195885.1,Methylonatrum kenyense,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_023277115.1,Acidithiobacillus acidisediminis,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_023913775.1,Acidovorax facilis,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_024733845.1,Neomoorella sulfitireducens,True,1.0,,1.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_025397995.1,Methanothermobacter wolfeii,True,1.0,,0.0,,0.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_027922285.1,Ancylobacter dichloromethanicus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_027922345.1,Ancylobacter defluvii,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_027943725.1,Nitrosophilus kaiyonis,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_027946175.1,Nitratiruptor tergarcus DSM 16512,False,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_029318635.1,Varunaivibrio sulfuroxidans,False,0.0,,1.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_030296055.1,Hydrogenimonas cancrithermarum,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_030577135.1,Sulfurimonas microaerophilic,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_030813795.1,Desulfofundulus luciae,True,0.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_032714495.1,Methanorbis rubei,False,1.0,,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_032850805.1,Hydrogenimonas thermophila,True,0.0,,1.0,,1.0,1.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_033842475.1,Acidiphilium acidophilum,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,0.0,,,,1.0
+GCF_035593305.1,Carboxydichorda subterranea,False,0.0,,0.0,,1.0,0.0,0.0,,0.0,0.0,,,,0.0
+GCF_036967215.1,Sulfolobus tengchongensis,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_038070005.1,Thermithiobacillus plumbiphilus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_039623705.1,Sulfobacillus thermotolerans,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_039645995.1,Sulfurimonas diazotrophicus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_040436365.1,Hydrogenimonas leucolamina,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_041020385.1,Rhodovulum iodosum,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_042648585.1,Hydrogenophaga luteola,True,0.0,,1.0,,1.0,0.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_048305125.1,Variovorax paradoxus NBRC 15149,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_050433505.1,Methanobacterium oryzae,True,1.0,,0.0,,0.0,0.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_054656815.1,Nautilia lithotrophica,False,0.0,,1.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_054656895.1,Thiomicrorhabdus hydrogeniphila,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_054656935.1,Aquifex pyrophilus,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_054657155.1,Caminibacter profundus,True,0.0,,1.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_054657595.1,Desulfocicer niacini,True,0.0,,0.0,,0.0,1.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_054961475.1,Thiobacillus denitrificans DSM 12475,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_055378705.1,Thiobacillus thiophilus,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_055379455.1,Thiobacter subterraneus,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_055379715.1,Pyrodictium brockii,False,0.0,,0.0,,0.0,0.0,1.0,,0.0,1.0,,,,1.0
+GCF_055383025.1,Hydrogenovibrio thermophilus,True,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_055385215.1,Sulfurovum aggregans,True,0.0,,1.0,,1.0,0.0,1.0,0.0,0.0,1.0,,,,1.0
+GCF_055385515.1,Hydrogenivirga okinawensis,True,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_055388085.1,Nautilia abyssi,False,0.0,,1.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_055392295.1,Methanothermus sociabilis,False,1.0,,0.0,,0.0,0.0,0.0,,0.0,1.0,,,,0.0
+GCF_055392745.1,Thioreductor micantisoli,False,0.0,,0.0,,0.0,0.0,1.0,,0.0,1.0,,,,0.0
+GCF_900102855.1,Thiohalomonas denitrificans,False,0.0,,1.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_900103135.1,Halarsenatibacter silvermanii,False,0.0,,0.0,,0.0,0.0,0.0,,0.0,1.0,,,,0.0
+GCF_900114115.1,Desulfomicrobium apsheronum,True,0.0,,0.0,,0.0,1.0,0.0,0.0,0.0,1.0,,,,0.0
+GCF_900115975.1,Desulfoscipio geothermicus DSM 3669,True,0.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_900129195.1,Desulforamulus putei DSM 12395,False,0.0,,0.0,,0.0,1.0,0.0,1.0,0.0,1.0,,,,0.0
+GCF_900141795.1,Sulfurivirga caldicuralii,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,0.0,,,,1.0
+GCF_900142435.1,Thermocrinis minervae,False,0.0,,0.0,,1.0,0.0,0.0,0.0,0.0,1.0,,,,1.0
+GCF_900177045.1,Candidatus Nitrosotalea okcheonensis,True,0.0,,0.0,,1.0,0.0,0.0,0.0,1.0,0.0,,,,0.0
+GCF_900182585.1,Balnearium lithotrophicum,False,0.0,,0.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_900188395.1,Desulfurobacterium atlanticum,True,0.0,,0.0,,0.0,0.0,1.0,0.0,0.0,1.0,,,,0.0
+GCF_978936825.1,Dissulfuribacter thermophilus,False,0.0,,0.0,,0.0,1.0,1.0,,0.0,0.0,,,,1.0

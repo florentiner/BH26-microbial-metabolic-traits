@@ -1,0 +1,120 @@
+{
+  "n_training_genomes": 358,
+  "n_varying_kos": 7814,
+  "HF1_HF2_primary100": {
+    "n_tests": 255,
+    "macro_auroc_RedoxKO": 0.7320981291990933,
+    "macro_auroc_full": 0.6860210673911428,
+    "d_macro_auroc": -0.04607706180795057,
+    "d_macro_auroc_ci": [
+      -0.13080390417933194,
+      0.034189655564403815
+    ],
+    "success_lower_gt_0": false,
+    "mcc_RedoxKO": 0.364246398192887,
+    "mcc_full": 0.3888888888888889,
+    "d_mcc": 0.024642490696001884,
+    "d_mcc_ci": [
+      -0.06181014197189323,
+      0.10814403834034023
+    ],
+    "sens_RedoxKO": 0.5163398692810458,
+    "sens_full": 0.5555555555555556,
+    "spec_RedoxKO": 0.8431372549019608,
+    "spec_full": 0.8333333333333334
+  },
+  "HF3_withheld43": {
+    "n_tests": 75,
+    "macro_auroc_RedoxKO": 0.5042929292929293,
+    "macro_auroc_full": 0.652020202020202,
+    "d_macro_auroc": 0.1477272727272727,
+    "d_macro_auroc_ci": [
+      -0.09796874999999998,
+      0.41795146404521394
+    ],
+    "success_lower_gt_0": false,
+    "mcc_RedoxKO": 0.4879556219509579,
+    "mcc_full": 0.5556712842424802,
+    "d_mcc": 0.06771566229152237,
+    "d_mcc_ci": [
+      0.0,
+      0.15027820362417807
+    ],
+    "sens_RedoxKO": 0.5208333333333334,
+    "sens_full": 0.6041666666666666,
+    "spec_RedoxKO": 0.9629629629629629,
+    "spec_full": 0.9629629629629629
+  },
+  "HF3_same_sign": {
+    "d_macro_auroc": false,
+    "d_mcc": true
+  },
+  "HF4_cv_genus": {
+    "macro_auprc_RedoxKO": 0.5755920322641257,
+    "macro_auprc_full": 0.5888045336962835,
+    "d": 0.013212501432157797,
+    "d_ci": [
+      -0.019073295616050083,
+      0.038007396068257863
+    ],
+    "non_inferior_margin_-0.02": true,
+    "per_trait": {
+      "donor_sulfur_oxidation": {
+        "RedoxKO": 0.8755839436415717,
+        "full": 0.8800604314491152
+      },
+      "donor_ammonia_oxidation": {
+        "RedoxKO": 0.8167967013235146,
+        "full": 0.9081528351569126
+      },
+      "donor_nitrite_oxidation": {
+        "RedoxKO": 0.33726312216098864,
+        "full": 0.40654091314888524
+      },
+      "donor_hydrogen_oxidation": {
+        "RedoxKO": 0.8731417840003199,
+        "full": 0.8668999204500604
+      },
+      "donor_CO_oxidation": {
+        "RedoxKO": 0.44216783591694636,
+        "full": 0.44622100598577225
+      },
+      "donor_iron_oxidation": {
+        "RedoxKO": 0.4818656644491283,
+        "full": 0.5027015151027842
+      },
+      "donor_other": {
+        "RedoxKO": 0.09491676117468587,
+        "full": 0.09536915430080553
+      },
+      "acceptor_oxygen": {
+        "RedoxKO": 0.8283833993683104,
+        "full": 0.8434956301189103
+      },
+      "acceptor_nitrate": {
+        "RedoxKO": 0.6775236769600532,
+        "full": 0.693728932583822
+      },
+      "acceptor_sulfate": {
+        "RedoxKO": 0.8870964176234242,
+        "full": 0.9134965513464401
+      },
+      "acceptor_sulfur": {
+        "RedoxKO": 0.5299116791910601,
+        "full": 0.47563558903520753
+      },
+      "acceptor_CO2_methanogen_acetogen": {
+        "RedoxKO": 0.862933713147985,
+        "full": 0.8664289965247213
+      },
+      "acceptor_iron": {
+        "RedoxKO": 0.21436435547901936,
+        "full": 0.2573932134407216
+      },
+      "acceptor_other": {
+        "RedoxKO": 0.1363393972607503,
+        "full": 0.0871387831038115
+      }
+    }
+  }
+}

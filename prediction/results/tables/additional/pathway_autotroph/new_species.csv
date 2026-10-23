@@ -1,0 +1,7 @@
+subset,model,species,tests,traits,macro_auroc,mcc
+all species,"EnergyKO-M (final, all genomes)",99,203,7,0.6732,0.1929
+all species,EnergyKO-M_auto,99,203,7,0.7005,0.2564
+all species,ET_auto,99,203,7,0.6042,0.1695
+autotroph-like species,"EnergyKO-M (final, all genomes)",44,87,7,0.8200,0.1355
+autotroph-like species,EnergyKO-M_auto,44,87,7,0.8595,0.1193
+autotroph-like species,ET_auto,44,87,7,0.7591,0.0685

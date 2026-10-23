@@ -1,0 +1,8 @@
+trait,KO,n_folds_top10,mean_rank,mean_score,stability,coef,known_marker
+uses_O2,K01772,5,1.4000,0.3961,1.0000,0.3961,False
+uses_O2,K05919,4,3.0000,0.3512,0.8000,-0.3512,False
+uses_O2,K00179,5,3.2000,0.2926,1.0000,-0.2926,False
+uses_O2,K04070,4,4.7500,0.2229,0.8000,-0.2229,False
+uses_O2,K01678,3,6.0000,0.2061,0.6000,-0.2061,False
+uses_O2,K01673,3,6.6667,0.2479,0.6000,0.2479,False
+uses_O2,K01274,3,7.6667,0.2250,0.6000,0.2250,False

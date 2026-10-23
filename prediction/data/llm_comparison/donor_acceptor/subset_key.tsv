@@ -1,0 +1,97 @@
+genome_id	organism_name	code
+GCF_000008665.1	Archaeoglobus fulgidus DSM 4304	G079
+GCF_054656995.1	Methanobacterium movens	G071
+GCF_000145295.1	Methanothermobacter marburgensis str. Marburg	G015
+GCF_902827225.1	Methanocaldococcus lauensis	G078
+GCF_001602375.1	Methanoculleus horonobensis	G058
+GCF_046244385.1	Methanospirillum stamsii	G030
+GCF_000969885.1	Methanosarcina thermophila TM-1	G050
+GCF_900248165.1	Candidatus Nitrosocaldus cavascurensis	G004
+GCF_002906215.1	Candidatus Nitrosocaldus islandicus	G018
+GCF_000241145.1	Candidatus Nitrosarchaeum limnium BG20	G020
+GCF_000956175.1	Nitrosopumilus adriaticus	G076
+GCF_002787055.1	Candidatus Nitrosotenuis aquarius	G014
+GCF_000685395.1	Candidatus Nitrosotenuis chungbukensis	G027
+GCF_000632495.1	Candidatus Acidianus copahuensis	G012
+GCF_000204925.1	Metallosphaera cuprina Ar-4	G085
+GCF_003201675.2	Metallosphaera hakonensis JCM 8857 = DSM 7519	G075
+GCF_000243315.1	Metallosphaera yellowstonensis MK1	G053
+GCF_009729035.1	Stygiolobus azoricus	G095
+GCF_000012285.1	Sulfolobus acidocaldarius DSM 639	G092
+GCF_000007225.1	Pyrobaculum aerophilum str. IM2	G063
+GCF_000019805.1	Pyrobaculum neutrophilum V24Sta	G034
+GCF_002102175.1	Mycobacterium gastri	G062
+GCF_002102345.1	Mycolicibacterium peregrinum	G060
+GCF_000008625.1	Aquifex aeolicus VF5	G074
+GCF_900215515.1	Persephonella hydrogeniphila	G057
+GCF_000021565.1	Persephonella marina EX-H1	G040
+GCF_000021545.1	Sulfurihydrogenibium azorense Az-Fu1	G069
+GCF_000173615.1	Sulfurihydrogenibium yellowstonense SS-5	G029
+GCF_048984885.1	Alicyclobacillus tolerans	G059
+GCF_001653195.1	Hydrogenibacillus schlegelii	G022
+GCF_001675165.1	Clostridium ragsdalei P11	G051
+GCF_008086615.1	Acetobacterium tundrae	G082
+GCF_000807675.2	Eubacterium limosum	G019
+GCF_900129285.1	Desulfofundulus australicus DSM 11792	G087
+GCF_003627965.1	Desulfofundulus salinus	G086
+GCF_001592105.1	Desulfolucanica intricata	G032
+GCF_000144695.1	Acetohalobium arabaticum DSM 5501	G009
+GCF_900112085.1	Acetitomaculum ruminis DSM 5522	G048
+GCF_010669205.1	Blautia producta ATCC 27340 = DSM 2950	G056
+GCF_000012865.1	Carboxydothermus hydrogenoformans Z-2901	G061
+GCF_000763575.1	Thermoanaerobacter kivui	G023
+GCF_001941975.2	Sporomusa sphaeroides DSM 2875	G024
+GCF_000183725.1	Sulfuricurvum kujiense DSM 16994	G035
+GCF_002335445.1	Lebetimonas natsushimae	G008
+GCF_000006985.1	Chlorobaculum tepidum TLS	G036
+GCF_011601315.1	Candidatus Chlorobium masyuteum	G072
+GCF_000341545.2	Nitrospina gracilis 3/211	G090
+GCF_946900835.1	Nitrospina watsonii	G001
+GCF_001458695.1	Candidatus Nitrospira inopinata	G007
+GCF_905220995.1	Nitrospira defluvii	G049
+GCF_059568365.1	Nitrospira marina	G038
+GCF_001273775.1	Nitrospira moscoviensis	G084
+GCF_009662475.1	Acidithiobacillus thiooxidans ATCC 19377	G045
+GCF_000218565.1	Afipia carboxidovorans OM5	G073
+GCF_029030725.1	Afipia carboxydohydrogena	G021
+GCF_005871085.1	Xanthobacter autotrophicus	G088
+GCF_008364685.1	Xanthobacter oligotrophicus	G080
+GCF_004063735.1	Paracoccus denitrificans	G047
+GCF_008824185.1	Paracoccus pantotrophus	G094
+GCF_024128855.1	Rhodovulum tesquicola	G055
+GCF_000714535.1	Thioclava pacifica DSM 10166	G089
+GCF_008364955.1	Azospirillum lipoferum	G017
+GCF_000219915.2	Advenella kashmirensis WT001	G046
+GCF_042665235.1	Hydrogenophaga defluvii	G033
+GCF_001571225.1	Hydrogenophaga palleronii NBRC 102513	G041
+GCF_000696225.1	Serpentinimonas barnesii	G005
+GCF_000828895.1	Serpentinimonas raichei	G043
+GCF_039822265.1	Thiobacter aerophilus	G002
+GCF_000174355.1	Pseudogulbenkiania ferrooxidans 2002	G011
+GCF_000619905.2	Nitrosospira briensis C-128	G044
+GCF_003966565.1	Sulfuricystis multivorans	G068
+GCF_002795825.1	Mariprofundus ferrinatatus	G039
+GCF_009664085.1	Thermochromatium tepidum ATCC 43061	G037
+GCF_014145225.1	Thiospirillum jenense	G067
+GCF_000153205.1	Nitrococcus mobilis Nb-231	G066
+GCF_000385215.1	Thioalkalivibrio thiocyanoxidans ARh2	G083
+GCF_034479635.1	Guyparkeria halophila	G025
+GCF_023555375.1	Guyparkeria hydrothermalis	G010
+GCF_004366735.1	Thiohalophilus thiocyanatoxydans	G054
+GCF_000934765.1	Thiomicrospira microaerophila	G052
+GCF_017349355.1	Thiothrix fructosivorans	G091
+GCF_021650935.1	Thiothrix winogradskyi	G064
+GCF_002149925.1	Thioflexithrix psekupsensis	G028
+GCF_019049855.1	Hydrogenophilus thiooxidans	G006
+GCF_000195295.1	Desulfobacca acetoxidans DSM 11109	G093
+GCF_900142135.1	Desulfatibacillum alkenivorans DSM 16219	G026
+GCF_000421285.1	Desulfotignum balticum DSM 7044	G013
+GCF_001293685.1	Desulfatitalea tepidiphila	G065
+GCF_009688945.1	Desulfosarcina alkanivorans	G031
+GCF_019703855.1	Desulfomarina profundi	G016
+GCF_000341395.1	Desulfocapsa sulfexigens DSM 10523	G042
+GCF_000620765.1	Desulfovermiculus halophilus DSM 18834	G070
+GCF_000174435.1	Desulfonatronospira thiodismutans ASO3-1	G081
+GCF_007625075.1	Oceanidesulfovibrio indonesiensis	G003
+GCF_000746255.1	Thermodesulfobacterium hydrogeniphilum	G000
+GCF_001547735.1	Thermosulfidibacter takaii ABI70S6	G077

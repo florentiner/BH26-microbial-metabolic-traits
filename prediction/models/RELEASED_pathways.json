@@ -1,0 +1,10 @@
+{
+  "arm": "PB3",
+  "path": "results/models/pathways/PB3/model.joblib",
+  "selected_by": "highest genus-level macro AUPRC among PB1/PB2/PB3/PE",
+  "n_reliable_traits": 11,
+  "n_traits": 20,
+  "deployment_arm_togomcp": "PE",
+  "deployment_fallback": "PB3",
+  "deployment_note": "Decision of the authors 2026-09-22: deploy the deep-learning fusion PE (PB2 KO model + Bacformer-large probe) for TogoMCP, with the released PB3 as the CPU-only fallback. Basis: on 99 novel organisms PE ranks first by AUROC (0.701 vs PB3 0.673; +0.028 [-0.056, +0.128], not resolved) while PB3 is ahead on AUPRC (0.812 vs 0.806) and on released calls (MCC 0.193 vs 0.179). Internally PE is below PB3 (0.486 vs 0.501 genus). Both trained on all 3 378 labelled genomes with per-trait class balancing."
+}

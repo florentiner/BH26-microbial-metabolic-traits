@@ -1,0 +1,26 @@
+task,trait,fold,cls,rule,heldout_support,heldout_correct
+ox,uses_O2,0,1,IF aceE (K00163) present AND coxA (K02274) present AND pflA-like (K04070) absent THEN has uses_O2,245,240
+ox,uses_O2,0,1,IF aceE (K00163) present AND cyoA (K02297) absent AND coxL (K03520) present THEN has uses_O2,72,72
+ox,uses_O2,0,1,IF aceE (K00163) present AND coxL (K03520) present THEN has uses_O2,101,99
+ox,uses_O2,0,0,IF K01589 (K01589) absent AND coxB (K02275) absent AND pflA-like (K04070) present THEN lacks uses_O2,74,74
+ox,uses_O2,0,0,IF cooS (K00198) present AND ccoP (K00406) absent AND coxB (K02275) absent THEN lacks uses_O2,68,67
+ox,uses_O2,1,1,IF aceE (K00163) present AND cyoA (K02297) absent AND coxL (K03520) present THEN has uses_O2,42,42
+ox,uses_O2,1,1,IF ccoO (K00405) absent AND coxL (K03520) present AND pflA-like (K04070) absent THEN has uses_O2,57,56
+ox,uses_O2,1,1,IF ccoP (K00406) absent AND coxL (K03520) present AND pflA-like (K04070) absent THEN has uses_O2,55,54
+ox,uses_O2,1,0,IF K01589 (K01589) absent AND ctaA (K02259) absent AND pflA-like (K04070) present THEN lacks uses_O2,55,53
+ox,uses_O2,1,0,IF cooS (K00198) present AND ccoP (K00406) absent AND coxL (K03520) absent THEN lacks uses_O2,50,48
+ox,uses_O2,2,1,IF ccoN (K00404) absent AND K01596 (K01596) present AND ctaA (K02259) present THEN has uses_O2,128,123
+ox,uses_O2,2,1,IF ccoP (K00406) absent AND K01596 (K01596) present AND ctaA (K02259) present THEN has uses_O2,125,121
+ox,uses_O2,2,1,IF ccoP (K00406) absent AND K01596 (K01596) present AND coxA (K02274) present THEN has uses_O2,126,119
+ox,uses_O2,2,0,IF cooS (K00198) present AND cyoA (K02297) absent AND pflA-like (K04070) present THEN lacks uses_O2,39,39
+ox,uses_O2,2,0,IF aceE (K00163) absent AND cooS (K00198) present AND pflA-like (K04070) present THEN lacks uses_O2,39,39
+ox,uses_O2,3,1,IF K01589 (K01589) present AND K01596 (K01596) present AND coxA (K02274) present THEN has uses_O2,145,142
+ox,uses_O2,3,1,IF aceE (K00163) present AND K01596 (K01596) present AND coxA (K02274) present THEN has uses_O2,143,141
+ox,uses_O2,3,1,IF coxA (K02274) present AND cyoA (K02297) present AND coxL (K03520) absent THEN has uses_O2,65,64
+ox,uses_O2,3,0,IF cooS (K00198) present AND cyoA (K02297) absent AND pflA-like (K04070) present THEN lacks uses_O2,38,38
+ox,uses_O2,3,0,IF aceE (K00163) absent AND cooS (K00198) present AND pflA-like (K04070) present THEN lacks uses_O2,39,39
+ox,uses_O2,4,1,IF cyoA (K02297) present AND coxL (K03520) absent AND K07390 (K07390) present THEN has uses_O2,57,56
+ox,uses_O2,4,1,IF aceE (K00163) present AND cyoA (K02297) present AND coxL (K03520) absent THEN has uses_O2,43,42
+ox,uses_O2,4,1,IF ccoP (K00406) absent AND K01589 (K01589) present AND coxB (K02275) present THEN has uses_O2,231,226
+ox,uses_O2,4,0,IF K01589 (K01589) absent AND coxB (K02275) absent AND pflA-like (K04070) present THEN lacks uses_O2,59,58
+ox,uses_O2,4,0,IF aceE (K00163) absent AND cooS (K00198) present AND pflA-like (K04070) present THEN lacks uses_O2,23,23

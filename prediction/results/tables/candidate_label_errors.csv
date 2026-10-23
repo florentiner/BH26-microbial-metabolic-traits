@@ -1,0 +1,249 @@
+genome_id,trait,n_arms,mean_prob,organism_name,genus,family,marker_groups_complete,block_all_zero,in_marker_contradiction_list
+GCF_001950325.1,acceptor_sulfate,2,0.9991739988327026,Carboxydothermus islandicus,Carboxydothermus,Thermoanaerobacteraceae,"sat,dsrAB",True,True
+GCF_903064525.1,donor_ammonia_oxidation,2,0.995644748210907,Methylacidimicrobium sp. AP8,Methylacidimicrobium,,amoABC,False,True
+GCF_017901175.1,donor_sulfur_oxidation,2,0.9930965900421143,Thiothrix unzii,Thiothrix,Thiotrichaceae,"sqr,fccAB,dsrAB,aprAB_sat",True,False
+GCF_902143375.2,donor_ammonia_oxidation,2,0.9928081631660461,Methylacidimicrobium tartarophylax,Methylacidimicrobium,,amoABC,False,True
+GCF_902143385.2,donor_ammonia_oxidation,2,0.9927410185337067,Methylacidimicrobium cyclopophantes,Methylacidimicrobium,,amoABC,False,True
+GCF_008086595.1,acceptor_CO2_methanogen_acetogen,2,0.991290271282196,Acetobacterium paludosum,Acetobacterium,Eubacteriaceae,acsB,True,False
+GCF_009760915.1,acceptor_nitrate,2,0.9896151423454285,Azohydromonas aeria,Azohydromonas,Sphaerotilaceae,"narGHJI,napAB,norBC,nosZ",False,False
+GCF_001543895.1,donor_ammonia_oxidation,2,0.9850537776947021,Carbonactinospora thermoautotrophica,Carbonactinospora,Carbonactinosporaceae,,False,False
+GCF_030160815.1,acceptor_oxygen,2,0.9831754565238953,Hydrogenophaga electricum,Hydrogenophaga,Comamonadaceae,"coxABC,ccoNOQP,cydAB",False,True
+GCF_900088825.1,acceptor_oxygen,2,0.9794731438159943,Thiomonas delicata,Thiomonas,,"coxABC,ccoNOQP,cydAB",True,True
+GCF_026891975.1,donor_hydrogen_oxidation,2,0.9785022735595703,Methanocorpusculum petauri,Methanocorpusculum,Methanocorpusculaceae,,True,False
+GCF_026891975.1,acceptor_CO2_methanogen_acetogen,2,0.9687966108322144,Methanocorpusculum petauri,Methanocorpusculum,Methanocorpusculaceae,mcrABG,True,True
+GCF_900088825.1,donor_sulfur_oxidation,2,0.9674527943134308,Thiomonas delicata,Thiomonas,,"sqr,soxABXYZ,tsdA",False,False
+GCF_003688665.1,donor_sulfur_oxidation,2,0.9672310054302216,Hydrogenothermus marinus,Hydrogenothermus,Hydrogenothermaceae,sqr,False,False
+GCF_009729545.1,donor_iron_oxidation,2,0.9628501832485199,Acidianus infernus,Acidianus,Sulfolobaceae,,False,False
+GCF_021654415.1,donor_iron_oxidation,2,0.9626289308071136,Metallosphaera javensis (ex Sakai et al. 2022),Metallosphaera,Sulfolobaceae,,False,False
+GCF_000213215.1,donor_iron_oxidation,2,0.9608206748962402,Acidianus hospitalis W1,Acidianus,Sulfolobaceae,,False,False
+GCF_024128855.1,acceptor_oxygen,2,0.9601267874240875,Rhodovulum tesquicola,Rhodovulum,Paracoccaceae,"ccoNOQP,cydAB",True,True
+GCF_000253115.1,acceptor_oxygen,2,0.9566916227340698,Thiomonas arsenitoxydans,Thiomonas,,"coxABC,ccoNOQP,cydAB",True,True
+GCF_000355765.4,acceptor_oxygen,2,0.9550690352916718,Nitrosospira lacus,Nitrosospira,Nitrosomonadaceae,coxABC,True,True
+GCF_902827225.1,acceptor_CO2_methanogen_acetogen,2,0.9520538747310638,Methanocaldococcus lauensis,Methanocaldococcus,Methanocaldococcaceae,mcrABG,True,True
+GCF_000024625.1,acceptor_CO2_methanogen_acetogen,2,0.9518158733844757,Methanocaldococcus vulcanius M7,Methanocaldococcus,Methanocaldococcaceae,mcrABG,False,True
+GCF_002257705.2,acceptor_sulfate,2,0.9489525854587555,Sporomusa silvacetica DSM 10669,Sporomusa,Sporomusaceae,aprAB,False,False
+GCF_018390695.1,donor_hydrogen_oxidation,2,0.9479055404663086,Ancylobacter sonchi,Ancylobacter,Xanthobacteraceae,,True,False
+GCF_049554935.1,acceptor_CO2_methanogen_acetogen,2,0.9457674324512482,Methanocaldococcus indicus,Methanocaldococcus,Methanocaldococcaceae,mcrABG,False,True
+GCF_001263355.1,donor_CO_oxidation,2,0.9455737173557281,Acetobacterium bakii,Acetobacterium,Eubacteriaceae,cooS,False,False
+GCF_055384745.1,donor_hydrogen_oxidation,2,0.9422432780265808,Desulfurobacterium pacificum,Desulfurobacterium,Desulfurobacteriaceae,,True,False
+GCF_009729515.1,acceptor_sulfur,2,0.940330982208252,Sulfuracidifex metallicus DSM 6482 = JCM 9184,Sulfuracidifex,Sulfolobaceae,,False,False
+GCF_003752135.1,acceptor_other,2,0.9390391409397125,Caminibacter pacificus,Caminibacter,Nautiliaceae,,False,False
+GCF_029909795.1,acceptor_oxygen,2,0.9370620846748352,Paracoccus versutus,Paracoccus,Paracoccaceae,"coxABC,ccoNOQP",True,True
+GCF_014284495.1,donor_CO_oxidation,2,0.9370201230049133,Acetobacterium malicum,Acetobacterium,Eubacteriaceae,cooS,False,False
+GCF_000092305.1,acceptor_CO2_methanogen_acetogen,2,0.9339072108268738,Methanocaldococcus infernus ME,Methanocaldococcus,Methanocaldococcaceae,mcrABG,False,True
+GCF_001399755.1,acceptor_oxygen,2,0.9337766766548157,Thiohalorhabdus denitrificans,Thiohalorhabdus,Thiohalorhabdaceae,"ccoNOQP,cydAB",False,True
+GCF_004421105.1,acceptor_oxygen,2,0.9304974973201752,Nitrosococcus wardiae,Nitrosococcus,Chromatiaceae,"coxABC,cydAB",True,True
+GCF_000733775.1,acceptor_nitrate,2,0.9296063780784607,Thiomonas sp. FB-Cd,Thiomonas,,norBC,False,False
+GCF_048300925.1,donor_iron_oxidation,2,0.9277084171772003,Thermithiobacillus tepidarius DSM 3134,Thermithiobacillus,Thermithiobacillaceae,,False,False
+GCF_001941975.2,donor_CO_oxidation,2,0.9208802878856659,Sporomusa sphaeroides DSM 2875,Sporomusa,Sporomusaceae,cooS,False,False
+GCF_000243315.1,acceptor_iron,2,0.9146284461021423,Metallosphaera yellowstonensis MK1,Metallosphaera,Sulfolobaceae,,False,False
+GCF_034356035.1,donor_CO_oxidation,2,0.9127775728702545,Blautia hydrogenotrophica DSM 10507,Blautia,Lachnospiraceae,cooS,False,False
+GCF_900101285.1,acceptor_other,2,0.9123549163341522,Desulfurella multipotens,Desulfurella,Desulfurellaceae,,True,False
+GCF_003046585.1,donor_nitrite_oxidation,2,0.9113502502441406,Nitrosomonas aestuarii,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_000219125.1,acceptor_sulfate,2,0.909795492887497,Acetonema longum DSM 6540,Acetonema,Acetonemataceae,dsrAB,False,True
+GCF_900103035.1,donor_nitrite_oxidation,2,0.9086520075798035,Nitrosomonas mobilis,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_000445445.2,acceptor_sulfate,2,0.9058395326137543,Sporomusa ovata DSM 2662,Sporomusa,Sporomusaceae,,False,False
+GCF_009729515.1,acceptor_iron,2,0.9055019617080688,Sulfuracidifex metallicus DSM 6482 = JCM 9184,Sulfuracidifex,Sulfolobaceae,,False,False
+GCF_012317585.1,donor_hydrogen_oxidation,2,0.902633935213089,Thermosulfurimonas marina,Thermosulfurimonas,Thermodesulfobacteriaceae,,False,False
+GCF_000153205.1,acceptor_oxygen,2,0.9007263481616974,Nitrococcus mobilis Nb-231,Nitrococcus,Ectothiorhodospiraceae,coxABC,False,True
+GCF_900168025.1,donor_CO_oxidation,2,0.8946530520915985,Acetoanaerobium noterae,Acetoanaerobium,Filifactoraceae,cooS,False,False
+GCF_004342485.1,acceptor_nitrate,2,0.8924638330936432,Roseateles saccharophilus,Roseateles,Sphaerotilaceae,"narGHJI,nosZ",False,False
+GCF_009729035.1,donor_sulfur_oxidation,2,0.8912482261657715,Stygiolobus azoricus,Stygiolobus,Sulfolobaceae,sqr,False,False
+GCF_000253055.1,donor_sulfur_oxidation,2,0.8874825239181519,Thermoproteus tenax Kra 1,Thermoproteus,Thermoproteaceae,"sqr,dsrAB,aprAB_sat",False,False
+GCF_900107165.1,donor_nitrite_oxidation,2,0.8845157623291016,Nitrosomonas halophila,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_000430725.1,acceptor_oxygen,2,0.8830920159816742,Azohydromonas australica DSM 1124,Azohydromonas,Sphaerotilaceae,"coxABC,ccoNOQP",False,True
+GCF_003751385.1,acceptor_sulfur,2,0.8819915652275085,Desulfosoma caldarium,Desulfosoma,Syntrophobacteraceae,psrABC,False,False
+GCF_001941975.2,acceptor_sulfate,2,0.8806334435939789,Sporomusa sphaeroides DSM 2875,Sporomusa,Sporomusaceae,aprAB,False,False
+GCF_013304825.1,donor_CO_oxidation,2,0.8787433505058289,Blautia schinkii,Blautia,Lachnospiraceae,cooS,False,False
+GCF_000744435.1,acceptor_other,2,0.8781197369098663,Hippea jasoniae,Hippea,Hippeaceae,,False,False
+GCF_000213215.1,acceptor_oxygen,2,0.8779149055480957,Acidianus hospitalis W1,Acidianus,Sulfolobaceae,,False,False
+GCF_001543895.1,acceptor_nitrate,2,0.8771954774856567,Carbonactinospora thermoautotrophica,Carbonactinospora,Carbonactinosporaceae,narGHJI,False,False
+GCF_000305935.1,donor_CO_oxidation,2,0.8770389258861542,Thermacetogenium phaeum DSM 12270,Thermacetogenium,Thermoanaerobacteraceae,cooS,False,False
+GCF_002787055.1,acceptor_oxygen,2,0.8745160102844238,Candidatus Nitrosotenuis aquarius,Candidatus Nitrosotenuis,,,True,True
+GCF_039524635.1,acceptor_oxygen,2,0.8699403405189514,Streptomyces thermocarboxydovorans,Streptomyces,Streptomycetaceae,"coxABC,cydAB",False,True
+GCF_900143275.1,donor_nitrite_oxidation,2,0.8699114918708801,Nitrosomonas cryotolerans ATCC 49181,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_029909795.1,acceptor_nitrate,2,0.8692036271095276,Paracoccus versutus,Paracoccus,Paracoccaceae,"narGHJI,norBC,nosZ",True,False
+GCF_016593255.1,acceptor_nitrate,2,0.8647521734237671,Hydrogenimonas urashimensis,Hydrogenimonas,Hydrogenimonadaceae,"napAB,norBC,nosZ",False,False
+GCF_000025505.1,acceptor_other,2,0.864604651927948,Ferroglobus placidus DSM 10642,Ferroglobus,Archaeoglobaceae,,False,False
+GCF_000243315.1,acceptor_sulfur,2,0.8636710941791534,Metallosphaera yellowstonensis MK1,Metallosphaera,Sulfolobaceae,sreABC,False,False
+GCF_000955905.1,acceptor_oxygen,2,0.8635573387145996,Candidatus Nitrosotenuis cloacae,Candidatus Nitrosotenuis,,,True,True
+GCF_001592105.1,donor_hydrogen_oxidation,2,0.8635163009166718,Desulfolucanica intricata,Desulfolucanica,Peptococcaceae,,True,False
+GCF_002845745.1,donor_sulfur_oxidation,2,0.8622419238090515,Telmatospirillum siberiense,Telmatospirillum,Rhodospirillaceae,fccAB,False,False
+GCF_009760915.1,donor_hydrogen_oxidation,2,0.860022634267807,Azohydromonas aeria,Azohydromonas,Sphaerotilaceae,,True,False
+GCF_900103035.1,donor_other,2,0.8591891229152679,Nitrosomonas mobilis,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_048288345.1,donor_CO_oxidation,2,0.85872682929039,Rhodococcus opacus,Rhodococcus,Nocardiaceae,coxLMS,False,False
+GCF_000014765.1,donor_nitrite_oxidation,2,0.8583680987358093,Nitrosomonas eutropha C91,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_000195295.1,donor_hydrogen_oxidation,2,0.8564430773258209,Desulfobacca acetoxidans DSM 11109,Desulfobacca,Desulfobaccaceae,,True,False
+GCF_048565275.1,donor_hydrogen_oxidation,2,0.8562304377555847,Desulfosarcina variabilis str. Montpellier,Desulfosarcina,Desulfosarcinaceae,,True,False
+GCF_040450955.1,acceptor_sulfur,2,0.8561165928840637,Thermodesulfovibrio autotrophicus,Thermodesulfovibrio,Thermodesulfovibrionaceae,psrABC,False,False
+GCF_900215515.1,acceptor_sulfur,2,0.8542075753211975,Persephonella hydrogeniphila,Persephonella,Hydrogenothermaceae,,False,False
+GCF_900129305.1,donor_hydrogen_oxidation,2,0.8528997004032135,Desulfacinum infernum DSM 9756,Desulfacinum,Syntrophobacteraceae,,True,False
+GCF_900088825.1,acceptor_nitrate,2,0.8523977696895599,Thiomonas delicata,Thiomonas,,norBC,True,False
+GCF_000024205.1,acceptor_CO2_methanogen_acetogen,2,0.851712703704834,Desulfofarcimen acetoxidans DSM 771,Desulfofarcimen,Peptococcaceae,acsB,False,False
+GCF_008364685.1,donor_sulfur_oxidation,2,0.8494871258735657,Xanthobacter oligotrophicus,Xanthobacter,Xanthobacteraceae,"fccAB,soxABXYZ,tsdA",False,False
+GCF_000016605.1,acceptor_iron,2,0.8461716175079346,Metallosphaera sedula DSM 5348,Metallosphaera,Sulfolobaceae,,False,False
+GCF_009428885.1,donor_iron_oxidation,2,0.8461383581161499,Acidianus ambivalens,Acidianus,Sulfolobaceae,,False,False
+GCF_017349355.1,acceptor_nitrate,2,0.8445461392402649,Thiothrix fructosivorans,Thiothrix,Thiotrichaceae,"narGHJI,norBC",True,False
+GCF_000420385.1,acceptor_other,2,0.8432573676109314,Hippea alviniae EP5-r,Hippea,Hippeaceae,,False,False
+GCF_004339465.1,acceptor_nitrate,2,0.8429782688617706,Ancylobacter aquaticus,Ancylobacter,Xanthobacteraceae,"napAB,norBC",False,False
+GCF_001548275.1,acceptor_iron,2,0.8429408073425293,Caldimicrobium thiodismutans,Caldimicrobium,Thermodesulfobacteriaceae,,False,False
+GCF_040105105.1,acceptor_oxygen,2,0.8421512842178345,Polaromonas hydrogenivorans,Polaromonas,Comamonadaceae,"coxABC,ccoNOQP,cydAB",False,True
+GCF_000377645.1,acceptor_nitrate,2,0.8417338728904724,Thiomonas sp. FB-6,Thiomonas,,narGHJI,False,False
+GCF_000233715.2,donor_CO_oxidation,2,0.8405254185199738,Desulfoscipio gibsoniae DSM 7213,Desulfoscipio,Desulfallaceae,cooS,False,False
+GCF_001950325.1,acceptor_other,2,0.8400335609912872,Carboxydothermus islandicus,Carboxydothermus,Thermoanaerobacteraceae,,True,False
+GCF_001583415.1,acceptor_other,2,0.8391638398170471,Mycolicibacterium phlei,Mycolicibacterium,Mycobacteriaceae,,False,False
+GCF_009192875.1,acceptor_other,2,0.8391638398170471,Mycolicibacterium phlei DSM 43239 = CCUG 21000,Mycolicibacterium,Mycobacteriaceae,,False,False
+GCF_021654855.1,acceptor_oxygen,2,0.8367443084716797,Thiomicrorhabdus immobilis,Thiomicrorhabdus,Piscirickettsiaceae,,True,False
+GCF_029030725.1,acceptor_nitrate,2,0.8318423926830292,Afipia carboxydohydrogena,Afipia,Nitrobacteraceae,"narGHJI,norBC",False,False
+GCF_003011925.2,donor_nitrite_oxidation,2,0.8282260298728943,Nitrosomonas supralitoralis,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_017901135.1,acceptor_nitrate,2,0.8278341293334961,Thiothrix litoralis,Thiothrix,Thiotrichaceae,"narGHJI,norBC",False,False
+GCF_002207765.1,donor_hydrogen_oxidation,2,0.8264460861682892,Calderihabitans maritimus,Calderihabitans,Calderihabitantaceae,,False,False
+GCF_900142135.1,donor_hydrogen_oxidation,2,0.8262453377246857,Desulfatibacillum alkenivorans DSM 16219,Desulfatibacillum,Desulfatibacillaceae,,True,False
+GCF_039524715.1,donor_CO_oxidation,2,0.8257219791412354,Streptomyces thermocarboxydus,Streptomyces,Streptomycetaceae,coxLMS,False,False
+GCF_000253115.1,acceptor_nitrate,2,0.8230062127113342,Thiomonas arsenitoxydans,Thiomonas,,narGHJI,True,False
+GCF_003051105.1,donor_nitrite_oxidation,2,0.8206162750720978,Nitrosomonas nitrosa,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_009688945.1,donor_hydrogen_oxidation,2,0.8198211193084717,Desulfosarcina alkanivorans,Desulfosarcina,Desulfosarcinaceae,,False,False
+GCF_029909795.1,donor_hydrogen_oxidation,2,0.817988932132721,Paracoccus versutus,Paracoccus,Paracoccaceae,,False,False
+GCF_002102175.1,acceptor_oxygen,2,0.814675360918045,Mycobacterium gastri,Mycobacterium,Mycobacteriaceae,"coxABC,cydAB",False,True
+GCF_001594015.1,donor_CO_oxidation,2,0.8130489587783813,Moorella mulderi DSM 14980,Neomoorella,Neomoorellaceae,cooS,False,False
+GCF_900115005.1,donor_CO_oxidation,2,0.8113962709903717,Pseudonocardia ammonioxydans,Pseudonocardia,Pseudonocardiaceae,coxLMS,False,False
+GCF_000526195.1,acceptor_other,2,0.8051649332046509,Hippea sp. KM1,Hippea,Hippeaceae,,False,False
+GCF_009688965.1,acceptor_CO2_methanogen_acetogen,2,0.8046046495437622,Desulfosarcina widdelii,Desulfosarcina,Desulfosarcinaceae,acsB,False,False
+GCF_001950325.1,donor_hydrogen_oxidation,2,0.8045080006122589,Carboxydothermus islandicus,Carboxydothermus,Thermoanaerobacteraceae,,False,False
+GCF_016807805.1,acceptor_nitrate,2,0.8044090569019318,Xanthobacter dioxanivorans,Xanthobacter,Xanthobacteraceae,,False,False
+GCF_902859695.1,acceptor_oxygen,2,0.7927568852901459,Achromobacter ruhlandii,Achromobacter,Alcaligenaceae,"coxABC,ccoNOQP,cydAB",False,True
+GCF_900101285.1,acceptor_sulfate,2,0.7901663780212402,Desulfurella multipotens,Desulfurella,Desulfurellaceae,dsrAB,True,True
+GCF_016807805.1,donor_sulfur_oxidation,2,0.7892353236675262,Xanthobacter dioxanivorans,Xanthobacter,Xanthobacteraceae,"soxABXYZ,tsdA",False,False
+GCF_902827225.1,acceptor_iron,2,0.7874298691749573,Methanocaldococcus lauensis,Methanocaldococcus,Methanocaldococcaceae,,True,False
+GCF_008086595.1,donor_CO_oxidation,2,0.7860181927680969,Acetobacterium paludosum,Acetobacterium,Eubacteriaceae,cooS,False,False
+GCF_000174435.1,acceptor_iron,2,0.7854549884796143,Desulfonatronospira thiodismutans ASO3-1,Desulfonatronospira,Desulfonatronovibrionaceae,,False,False
+GCF_008086615.1,donor_CO_oxidation,2,0.7840878367424011,Acetobacterium tundrae,Acetobacterium,Eubacteriaceae,cooS,False,False
+GCF_000746255.1,acceptor_sulfur,2,0.7838552892208099,Thermodesulfobacterium hydrogeniphilum,Thermodesulfobacterium,Thermodesulfobacteriaceae,,False,False
+GCF_000204925.1,acceptor_iron,2,0.780372679233551,Metallosphaera cuprina Ar-4,Metallosphaera,Sulfolobaceae,,False,False
+GCF_003201675.2,acceptor_iron,2,0.7789582014083862,Metallosphaera hakonensis JCM 8857 = DSM 7519,Metallosphaera,Sulfolobaceae,,False,False
+GCF_000305935.1,acceptor_iron,2,0.7739611566066742,Thermacetogenium phaeum DSM 12270,Thermacetogenium,Thermoanaerobacteraceae,,False,False
+GCF_000227665.2,acceptor_oxygen,2,0.7678828239440918,Thiomicrospira aerophila AL3,Thiomicrospira,Piscirickettsiaceae,,True,False
+GCF_900101285.1,acceptor_sulfur,2,0.7665097117424011,Desulfurella multipotens,Desulfurella,Desulfurellaceae,psrABC,True,False
+GCF_029030725.1,donor_nitrite_oxidation,2,0.7635459005832672,Afipia carboxydohydrogena,Afipia,Nitrobacteraceae,nxrAB,False,False
+GCF_014701235.1,donor_hydrogen_oxidation,2,0.760913074016571,Dissulfurispira thermophila,Dissulfurispira,Dissulfurispiraceae,,False,False
+GCF_000971475.1,acceptor_oxygen,2,0.7604238986968994,Sulfuricella sp. T08,Sulfuricella,Sulfuricellaceae,"coxABC,ccoNOQP",False,True
+GCF_000253055.1,acceptor_other,2,0.7511922717094421,Thermoproteus tenax Kra 1,Thermoproteus,Thermoproteaceae,,False,False
+GCF_042665235.1,acceptor_oxygen,2,0.7488249242305756,Hydrogenophaga defluvii,Hydrogenophaga,Comamonadaceae,"coxABC,ccoNOQP",False,True
+GCF_039524715.1,acceptor_oxygen,2,0.748601108789444,Streptomyces thermocarboxydus,Streptomyces,Streptomycetaceae,"coxABC,cydAB",False,True
+GCF_001189915.1,acceptor_nitrate,2,0.7441208362579346,Herbaspirillum autotrophicum,Herbaspirillum,Oxalobacteraceae,,False,False
+GCF_946900835.1,acceptor_oxygen,2,0.7417430877685547,Nitrospina watsonii,Nitrospina,Nitrospinaceae,,True,True
+GCF_000696225.1,donor_sulfur_oxidation,2,0.7368399351835251,Serpentinimonas barnesii,Serpentinimonas,Comamonadaceae,"sqr,fccAB,soxABXYZ",False,False
+GCF_013343295.1,acceptor_iron,2,0.7332810759544373,Metallosphaera tengchongensis,Metallosphaera,Sulfolobaceae,,False,False
+GCF_000227725.2,acceptor_oxygen,2,0.7296328246593475,Thiorhodospira sibirica ATCC 700588,Thiorhodospira,Ectothiorhodospiraceae,ccoNOQP,True,True
+GCF_014873765.1,acceptor_sulfur,2,0.7258495390415192,Desulfomicrobium macestii,Desulfomicrobium,Desulfomicrobiaceae,psrABC,False,False
+GCF_039524635.1,donor_CO_oxidation,2,0.7161449790000916,Streptomyces thermocarboxydovorans,Streptomyces,Streptomycetaceae,coxLMS,True,False
+GCF_000183725.1,acceptor_sulfur,2,0.7154971957206726,Sulfuricurvum kujiense DSM 16994,Sulfuricurvum,Sulfurimonadaceae,,False,False
+GCF_900129955.1,donor_CO_oxidation,2,0.7126607894897461,Clostridium magnum DSM 2767,Clostridium,Clostridiaceae,cooS,False,False
+GCF_000212395.1,acceptor_sulfur,2,0.7105839252471924,Thermodesulfobium narugense DSM 14796,Thermodesulfobium,Thermodesulfobiaceae,psrABC,False,False
+GCF_025822705.1,acceptor_oxygen,2,0.7081542909145355,Mycolicibacterium flavescens,Mycolicibacterium,Mycobacteriaceae,"coxABC,cydAB",False,True
+GCF_004346085.1,acceptor_oxygen,2,0.7067229151725769,Sulfuritortus calidifontis,Sulfuritortus,Thiobacillaceae,"coxABC,ccoNOQP",False,True
+GCF_008364685.1,acceptor_nitrate,2,0.7031553387641907,Xanthobacter oligotrophicus,Xanthobacter,Xanthobacteraceae,narGHJI,False,False
+GCF_000802205.1,acceptor_oxygen,2,0.7025806903839111,Candidatus Nitrosocosmicus oleophilus,Candidatus Nitrosocosmicus,Nitrososphaeraceae,,True,True
+GCF_033096405.1,donor_hydrogen_oxidation,2,0.7018575966358185,Achromobacter xylosoxidans,Achromobacter,Alcaligenaceae,,False,False
+GCF_000214705.1,acceptor_sulfur,2,0.70076122879982,Desulfofundulus kuznetsovii DSM 6115,Desulfofundulus,Peptococcaceae,psrABC,False,False
+GCF_000174435.1,acceptor_sulfur,2,0.6953960955142975,Desulfonatronospira thiodismutans ASO3-1,Desulfonatronospira,Desulfonatronovibrionaceae,psrABC,False,False
+GCF_001571085.1,donor_other,2,0.6950734853744507,Azohydromonas lata NBRC 102462,Azohydromonas,Sphaerotilaceae,,False,False
+GCF_030813595.1,donor_sulfur_oxidation,2,0.69313545525074,Ancylobacter vacuolatus,Ancylobacter,Xanthobacteraceae,"fccAB,tsdA",False,False
+GCF_013168275.1,donor_iron_oxidation,2,0.6894817352294922,Candidatus Nitrotoga sp. AM1P,Candidatus Nitrotoga,Gallionellaceae,,False,False
+GCF_000733775.1,donor_hydrogen_oxidation,2,0.6883453726768494,Thiomonas sp. FB-Cd,Thiomonas,,,False,False
+GCF_002845745.1,acceptor_nitrate,2,0.6846452951431274,Telmatospirillum siberiense,Telmatospirillum,Rhodospirillaceae,"napAB,nrfAH",False,False
+GCF_001594015.1,acceptor_sulfur,2,0.6808804571628571,Moorella mulderi DSM 14980,Neomoorella,Neomoorellaceae,psrABC,False,False
+GCF_019703855.1,donor_sulfur_oxidation,2,0.6777625977993011,Desulfomarina profundi,Desulfomarina,Desulfobulbaceae,"sqr,dsrAB,aprAB_sat",False,False
+GCF_000011205.1,donor_other,2,0.677413821220398,Sulfurisphaera tokodaii str. 7,Sulfurisphaera,Sulfolobaceae,,False,False
+GCF_000242915.1,acceptor_sulfur,2,0.6757209897041321,Sulfurimonas gotlandica GD1,Sulfurimonas,Sulfurimonadaceae,,False,False
+GCF_905220995.1,donor_sulfur_oxidation,2,0.6691062152385712,Nitrospira defluvii,Nitrospira,Nitrospiraceae,"sqr,tsdA",False,False
+GCF_000735195.1,donor_iron_oxidation,2,0.6683611869812012,Chloroflexus sp. MS-G,Chloroflexus,Chloroflexaceae,,False,False
+GCF_900129285.1,acceptor_sulfur,2,0.6677286624908447,Desulfofundulus australicus DSM 11792,Desulfofundulus,Peptococcaceae,psrABC,False,False
+GCF_001189915.1,donor_sulfur_oxidation,2,0.6657349169254303,Herbaspirillum autotrophicum,Herbaspirillum,Oxalobacteraceae,"sqr,soxABXYZ",False,False
+GCF_027925305.1,acceptor_sulfur,2,0.6651195287704468,Desulforhabdus amnigena,Desulforhabdus,Syntrophobacteraceae,psrABC,False,False
+GCF_009760915.1,donor_other,2,0.664497047662735,Azohydromonas aeria,Azohydromonas,Sphaerotilaceae,,True,False
+GCF_001653195.1,donor_iron_oxidation,2,0.6613521873950958,Hydrogenibacillus schlegelii,Hydrogenibacillus,Thermicanaceae,,False,False
+GCF_022968795.1,acceptor_nitrate,2,0.6596834063529968,Desulfatitalea alkaliphila,Desulfatitalea,Desulfosarcinaceae,nrfAH,False,False
+GCF_900107165.1,acceptor_nitrate,2,0.6520462930202484,Nitrosomonas halophila,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_003627965.1,acceptor_sulfur,2,0.6491545736789703,Desulfofundulus salinus,Desulfofundulus,Peptococcaceae,psrABC,False,False
+GCF_002257705.2,acceptor_sulfur,2,0.6475255489349365,Sporomusa silvacetica DSM 10669,Sporomusa,Sporomusaceae,psrABC,False,False
+GCF_003337735.1,acceptor_sulfate,2,0.6423553377389908,Thioalbus denitrificans,Thioalbus,Ectothiorhodospiraceae,"sat,aprAB,dsrAB",False,True
+GCF_001293685.1,acceptor_nitrate,2,0.636943519115448,Desulfatitalea tepidiphila,Desulfatitalea,Desulfosarcinaceae,,False,False
+GCF_900101285.1,acceptor_nitrate,2,0.6356541812419891,Desulfurella multipotens,Desulfurella,Desulfurellaceae,,True,False
+GCF_003932505.1,acceptor_nitrate,2,0.6351273357868195,Thiohalobacter thiocyanaticus,Thiohalobacter,Thiohalobacteraceae,nosZ,False,False
+GCF_019703855.1,acceptor_sulfur,2,0.6347496211528778,Desulfomarina profundi,Desulfomarina,Desulfobulbaceae,psrABC,False,False
+GCF_000755505.1,donor_nitrite_oxidation,2,0.6319040060043335,Leptospirillum ferriphilum,Leptospirillum,Nitrospiraceae,,False,False
+GCF_009729035.1,acceptor_oxygen,2,0.6298264265060425,Stygiolobus azoricus,Stygiolobus,Sulfolobaceae,,False,False
+GCF_014701235.1,acceptor_nitrate,2,0.6293942332267761,Dissulfurispira thermophila,Dissulfurispira,Dissulfurispiraceae,norBC,False,False
+GCF_000219125.1,acceptor_nitrate,2,0.6293049454689026,Acetonema longum DSM 6540,Acetonema,Acetonemataceae,"norBC,nrfAH",False,False
+GCF_002102345.1,acceptor_oxygen,2,0.612201601266861,Mycolicibacterium peregrinum,Mycolicibacterium,Mycobacteriaceae,"coxABC,cydAB",False,True
+GCF_900101285.1,acceptor_oxygen,2,0.6001885533332825,Desulfurella multipotens,Desulfurella,Desulfurellaceae,cydAB,True,False
+GCF_000445445.2,acceptor_sulfur,2,0.5978210121393204,Sporomusa ovata DSM 2662,Sporomusa,Sporomusaceae,psrABC,False,False
+GCF_025822705.1,acceptor_other,2,0.5957503765821457,Mycolicibacterium flavescens,Mycolicibacterium,Mycobacteriaceae,,False,False
+GCF_048565275.1,acceptor_CO2_methanogen_acetogen,2,0.5954639464616776,Desulfosarcina variabilis str. Montpellier,Desulfosarcina,Desulfosarcinaceae,acsB,False,False
+GCF_900088825.1,donor_hydrogen_oxidation,2,0.5874306410551071,Thiomonas delicata,Thiomonas,,,False,False
+GCF_004001245.1,acceptor_oxygen,2,0.581369012594223,Sulfurivermis fontis,Sulfurivermis,Thiohalomonadaceae,"ccoNOQP,cydAB",False,True
+GCF_000828915.1,donor_other,2,0.5804453790187836,Serpentinimonas maccroryi,Serpentinimonas,Comamonadaceae,,False,False
+GCF_900248165.1,acceptor_oxygen,2,0.5800786018371582,Candidatus Nitrosocaldus cavascurensis,Candidatus Nitrosocaldus,Candidatus Nitrosocaldaceae,,True,True
+GCF_003051105.1,acceptor_nitrate,2,0.5787809193134308,Nitrosomonas nitrosa,Nitrosomonas,Nitrosomonadaceae,,False,False
+GCF_900243745.1,acceptor_iron,2,0.5745136737823486,Desulfovibrio falkowii,Desulfovibrio,Desulfovibrionaceae,,False,False
+GCF_055380895.1,acceptor_sulfate,2,0.5728682726621628,Thermovibrio ruber,Thermovibrio,Desulfurobacteriaceae,sat,False,False
+GCF_900103035.1,acceptor_nitrate,2,0.571225643157959,Nitrosomonas mobilis,Nitrosomonas,Nitrosomonadaceae,norBC,False,False
+GCF_000224005.2,acceptor_oxygen,2,0.5702419430017471,Marichromatium purpuratum 984,Marichromatium,Chromatiaceae,"ccoNOQP,cydAB",True,True
+GCF_019703855.1,acceptor_nitrate,2,0.5701304078102112,Desulfomarina profundi,Desulfomarina,Desulfobulbaceae,napAB,False,False
+GCF_000621325.1,acceptor_oxygen,2,0.5681888908147812,Thiothrix lacustris DSM 21227,Thiothrix,Thiotrichaceae,"ccoNOQP,cydAB",False,True
+GCF_000744435.1,acceptor_oxygen,2,0.5658804476261139,Hippea jasoniae,Hippea,Hippeaceae,cydAB,False,False
+GCF_004762035.2,donor_hydrogen_oxidation,2,0.5617682933807373,Candidatus Chloroploca mongolica,Candidatus Chloroploca,Oscillochloridaceae,,False,False
+GCF_900156255.1,acceptor_other,2,0.5596076548099518,Paracoccus thiocyanatus,Paracoccus,Paracoccaceae,,False,False
+GCF_000215975.1,donor_sulfur_oxidation,2,0.5476407259702682,Thermodesulfobacterium geofontis OPF15,Thermodesulfobacterium,Thermodesulfobacteriaceae,"dsrAB,aprAB_sat",False,False
+GCF_000934745.1,acceptor_iron,2,0.5424818247556686,Desulfonatronum thioautotrophicum,Desulfonatronum,Desulfonatronaceae,,False,False
+GCF_002207765.1,acceptor_sulfur,2,0.5406562387943268,Calderihabitans maritimus,Calderihabitans,Calderihabitantaceae,,False,False
+GCF_001950325.1,acceptor_CO2_methanogen_acetogen,2,0.5405954942107201,Carboxydothermus islandicus,Carboxydothermus,Thermoanaerobacteraceae,acsB,True,False
+GCF_001950325.1,acceptor_iron,2,0.5403623133897781,Carboxydothermus islandicus,Carboxydothermus,Thermoanaerobacteraceae,,True,False
+GCF_014202105.1,donor_other,2,0.5391267687082291,Sulfurisphaera ohwakuensis,Sulfurisphaera,Sulfolobaceae,,False,False
+GCF_001189915.1,donor_iron_oxidation,2,0.5326067507266998,Herbaspirillum autotrophicum,Herbaspirillum,Oxalobacteraceae,,False,False
+GCF_000173615.1,donor_iron_oxidation,2,0.5247163027524948,Sulfurihydrogenibium yellowstonense SS-5,Sulfurihydrogenibium,Hydrogenothermaceae,,False,False
+GCF_003752135.1,acceptor_oxygen,2,0.5127345323562622,Caminibacter pacificus,Caminibacter,Nautiliaceae,cydAB,False,False
+GCF_009688945.1,acceptor_CO2_methanogen_acetogen,2,0.5107122361660004,Desulfosarcina alkanivorans,Desulfosarcina,Desulfosarcinaceae,acsB,False,False
+GCF_000017145.1,acceptor_nitrate,2,0.5043300837278366,Sinorhizobium medicae WSM419,Sinorhizobium,Rhizobiaceae,"napAB,norBC",False,False
+GCF_003261095.1,acceptor_sulfur,2,0.49908825755119324,Desulfobacter hydrogenophilus,Desulfobacter,Desulfobacteraceae,psrABC,False,False
+GCF_000253055.1,acceptor_oxygen,2,0.4956257492303848,Thermoproteus tenax Kra 1,Thermoproteus,Thermoproteaceae,,False,False
+GCF_000012865.1,acceptor_CO2_methanogen_acetogen,2,0.4792412668466568,Carboxydothermus hydrogenoformans Z-2901,Carboxydothermus,Thermoanaerobacteraceae,acsB,False,False
+GCF_022968795.1,donor_CO_oxidation,2,0.4792304039001465,Desulfatitalea alkaliphila,Desulfatitalea,Desulfosarcinaceae,cooS,False,False
+GCF_001592105.1,donor_CO_oxidation,2,0.4695000648498535,Desulfolucanica intricata,Desulfolucanica,Peptococcaceae,cooS,True,False
+GCF_900107695.1,acceptor_oxygen,2,0.4634254425764084,Thiothrix caldifontis,Thiothrix,Thiotrichaceae,"coxABC,ccoNOQP,cydAB",False,True
+GCF_001273775.1,donor_sulfur_oxidation,2,0.45650528371334076,Nitrospira moscoviensis,Nitrospira,Nitrospiraceae,"sqr,tsdA",False,False
+GCF_037477935.1,acceptor_sulfur,2,0.4505012556910515,Neomoorella humiferrea,Neomoorella,Neomoorellaceae,psrABC,False,False
+GCF_001571085.1,donor_sulfur_oxidation,2,0.43429143726825714,Azohydromonas lata NBRC 102462,Azohydromonas,Sphaerotilaceae,"fccAB,tsdA",False,False
+GCF_048565275.1,donor_CO_oxidation,2,0.4340737983584404,Desulfosarcina variabilis str. Montpellier,Desulfosarcina,Desulfosarcinaceae,cooS,True,False
+GCF_000017945.1,acceptor_iron,2,0.42580653727054596,Ignicoccus hospitalis KIN4/I,Ignicoccus,Desulfurococcaceae,,False,False
+GCF_017901175.1,acceptor_oxygen,2,0.4045596271753311,Thiothrix unzii,Thiothrix,Thiotrichaceae,"ccoNOQP,cydAB",False,True
+GCF_914271435.1,donor_CO_oxidation,2,0.403664268553257,Cupriavidus laharis,Cupriavidus,Burkholderiaceae,coxLMS,False,False
+GCF_001267435.1,acceptor_sulfur,2,0.3901629149913788,Neomoorella thermoacetica,Neomoorella,Neomoorellaceae,psrABC,False,False
+GCF_000018865.1,donor_iron_oxidation,2,0.37927377223968506,Chloroflexus aurantiacus J-10-fl,Chloroflexus,Chloroflexaceae,,False,False
+GCF_002287175.1,acceptor_iron,2,0.3730497658252716,Methanobacterium bryantii,Methanobacterium,Methanobacteriaceae,,False,False
+GCF_000021945.1,donor_iron_oxidation,2,0.3596404194831848,Chloroflexus aggregans DSM 9485,Chloroflexus,Chloroflexaceae,,False,False
+GCF_054656775.1,donor_other,2,0.35742134042084217,Desulfurobacterium crinifex,Desulfurobacterium,Desulfurobacteriaceae,,False,False
+GCF_055384745.1,donor_other,2,0.3564502727240324,Desulfurobacterium pacificum,Desulfurobacterium,Desulfurobacteriaceae,,True,False
+GCF_000284315.1,donor_nitrite_oxidation,2,0.348513588309288,Leptospirillum ferrooxidans C2-3,Leptospirillum,Nitrospiraceae,,False,False
+GCF_003945385.1,donor_CO_oxidation,2,0.34622538834810257,Pseudonocardia autotrophica,Pseudonocardia,Pseudonocardiaceae,coxLMS,False,False
+GCF_001602375.1,donor_CO_oxidation,2,0.34576040506362915,Methanoculleus horonobensis,Methanoculleus,Methanomicrobiaceae,cooS,False,False
+GCF_017349355.1,acceptor_oxygen,2,0.3452654778957367,Thiothrix fructosivorans,Thiothrix,Thiotrichaceae,"ccoNOQP,cydAB",True,True
+GCF_003664005.1,acceptor_iron,2,0.32121609151363373,Hydrogenivirga caldilitoris,Hydrogenivirga,Aquificaceae,,False,False
+GCF_048984885.1,acceptor_sulfur,2,0.3149707391858101,Alicyclobacillus tolerans,Alicyclobacillus,Alicyclobacillaceae,,False,False
+GCF_054656995.1,acceptor_iron,2,0.3128347098827362,Methanobacterium movens,Methanobacterium,Methanobacteriaceae,,False,False
+GCF_000745485.1,acceptor_iron,2,0.29652050882577896,Methanobacterium veterum,Methanobacterium,Methanobacteriaceae,,False,False
+GCF_000746075.1,acceptor_iron,2,0.29652050882577896,Methanobacterium arcticum,Methanobacterium,Methanobacteriaceae,,False,False
+GCF_001458695.1,acceptor_iron,2,0.2798173576593399,Candidatus Nitrospira inopinata,Nitrospira,Nitrospiraceae,,False,False
+GCF_041154675.1,donor_other,2,0.2718008328229189,Sulfurisphaera javensis,Sulfurisphaera,Sulfolobaceae,,False,False
+GCF_000696225.1,donor_other,2,0.2704060524702072,Serpentinimonas barnesii,Serpentinimonas,Comamonadaceae,,False,False
+GCF_003096175.1,donor_other,2,0.23857303149998188,Clostridium drakei,Clostridium,Clostridiaceae,,False,False
+GCF_012933365.1,donor_other,2,0.1748998872935772,Sulfobacillus harzensis,Sulfobacillus,Clostridiales Family XVII. Incertae Sedis,,False,False
+GCF_000828895.1,donor_other,2,0.17457910627126694,Serpentinimonas raichei,Serpentinimonas,Comamonadaceae,,False,False
+GCF_000020365.1,donor_other,2,0.1543896235525608,Desulforapulum autotrophicum HRM2,Desulforapulum,Desulfobacteraceae,,False,False
+GCF_003688665.1,donor_other,2,0.1190235111862421,Hydrogenothermus marinus,Hydrogenothermus,Hydrogenothermaceae,,False,False
+GCF_000377645.1,donor_other,2,0.09854988195002079,Thiomonas sp. FB-6,Thiomonas,,,False,False
+GCF_055383445.1,donor_other,2,0.07340378127992153,Thiomonas islandica,Thiomonas,,,False,False
+GCF_048300925.1,donor_other,2,0.06481575407087803,Thermithiobacillus tepidarius DSM 3134,Thermithiobacillus,Thermithiobacillaceae,,False,False
+GCF_001399755.1,donor_other,2,0.05220748670399189,Thiohalorhabdus denitrificans,Thiohalorhabdus,Thiohalorhabdaceae,,False,False
+GCF_900182795.1,donor_other,2,0.03946264926344156,Venenivibrio stagnispumantis,Venenivibrio,Hydrogenothermaceae,,False,False

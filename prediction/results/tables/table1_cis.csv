@@ -1,0 +1,23 @@
+model,level,auprc,lo,hi
+Frequency baseline,genus,0.1850,0.1788,0.2031
+Curated marker rules,genus,0.3173,0.2978,0.3391
+Taxonomic baseline,genus,0.4724,0.4398,0.5127
+ESM-2,genus,0.5440,0.5067,0.5908
+Attention-based MIL,genus,0.5479,0.5242,0.5990
+Bacformer-large,genus,0.5769,0.5336,0.6232
+RedoxKO,genus,0.5756,0.5446,0.6298
+RedoxKO-ens,genus,0.6019,0.5681,0.6472
+Random forest,genus,0.6124,0.5722,0.6550
+RedoxKO-ens + ESM-2,genus,0.6160,0.5799,0.6633
+RedoxKO-ens-BF,genus,0.6250,0.5861,0.6672
+Frequency baseline,family,0.1782,0.1692,0.2037
+Curated marker rules,family,0.3173,0.2915,0.3443
+Taxonomic baseline,family,0.3798,0.3485,0.4343
+ESM-2,family,0.4970,0.4667,0.5435
+Attention-based MIL,family,0.4946,0.4706,0.5500
+Bacformer-large,family,0.5308,0.4883,0.5680
+RedoxKO,family,0.5599,0.5239,0.6214
+RedoxKO-ens,family,0.5729,0.5376,0.6199
+Random forest,family,0.5618,0.5284,0.6161
+RedoxKO-ens + ESM-2,family,0.5837,0.5532,0.6316
+RedoxKO-ens-BF,family,0.5849,0.5415,0.6261

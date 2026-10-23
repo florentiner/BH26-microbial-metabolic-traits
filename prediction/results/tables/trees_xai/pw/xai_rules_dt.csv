@@ -1,0 +1,364 @@
+task,trait,fold,rule,depth,heldout_support,heldout_precision,heldout_recall
+pw,denitrification,0,K00376 absent AND K13017 present,2,125,0.0080,0.0500
+pw,denitrification,0,K00376 present AND K24868 absent,2,56,0.1071,0.3000
+pw,denitrification,0,K00376 present AND K24868 present,2,39,0.2821,0.5500
+pw,denitrification,1,K19342 absent AND K00500 present,2,108,0.0185,0.1176
+pw,denitrification,1,K19342 present AND K04561 present,2,82,0.0976,0.4706
+pw,denitrification,2,K04561 absent AND K25153 absent AND K15912 present,3,0,,0.0000
+pw,denitrification,2,K04561 absent AND K25153 present AND K00015 present,3,13,0.0000,0.0000
+pw,denitrification,2,K04561 present AND K14696 absent AND K19342 absent,3,64,0.0000,0.0000
+pw,denitrification,2,K04561 present AND K14696 absent AND K19342 present,3,54,0.2778,0.7143
+pw,denitrification,3,K19342 absent AND K13017 present,2,101,0.0198,0.1000
+pw,denitrification,3,K19342 present AND K04561 present,2,88,0.1591,0.7000
+pw,denitrification,4,K04561 absent AND K24951 present,2,23,0.0000,0.0000
+pw,denitrification,4,K04561 present AND K19342 present,2,65,0.1692,0.5500
+pw,dnra,0,K05524 absent AND K01878 absent AND K09699 absent AND K19164 present AND K09000 present,5,2,0.0000,0.0000
+pw,dnra,0,K05524 absent AND K01878 absent AND K09699 present AND K03820 absent AND K03315 absent AND K01303 present,6,3,0.0000,0.0000
+pw,dnra,0,K05524 absent AND K01878 present AND K13015 absent AND K24136 absent AND K09118 absent AND K25086 absent,6,86,0.1163,0.7692
+pw,dnra,0,K05524 present AND K09155 present,2,0,,0.0000
+pw,dnra,1,K02259 absent AND K01878 absent AND K16203 present,3,17,0.0000,0.0000
+pw,dnra,1,K02259 absent AND K01878 present AND K00992 absent,3,93,0.0323,0.4286
+pw,dnra,1,K02259 present AND K00177 absent AND K01212 present,3,10,0.0000,0.0000
+pw,dnra,1,K02259 present AND K00177 present AND K15770 present,3,6,0.1667,0.1429
+pw,dnra,2,K02259 absent AND K02120 absent AND K00992 absent AND K09770 absent,4,73,0.1233,0.6000
+pw,dnra,2,K02259 absent AND K02120 present AND K26913 present,3,0,,0.0000
+pw,dnra,2,K02259 present AND K01208 absent AND K22319 present AND K14052 present,4,4,0.0000,0.0000
+pw,dnra,2,K02259 present AND K01208 present AND K07027 present AND K02171 absent,4,5,0.2000,0.0667
+pw,dnra,3,K01151 absent AND K01212 present AND K03310 present,3,3,0.3333,0.0714
+pw,dnra,3,K01151 present AND K12234 absent AND K03799 absent AND K01515 absent AND K09457 present AND K01678 present,6,4,0.2500,0.0714
+pw,dnra,3,K01151 present AND K12234 absent AND K03799 present AND K15783 absent AND K02124 absent AND K04719 absent,6,77,0.1039,0.5714
+pw,dnra,4,K07139 absent AND K19005 absent AND K01212 absent AND K21142 present AND K15740 present,5,1,0.0000,0.0000
+pw,dnra,4,K07139 absent AND K19005 absent AND K01212 present AND K22319 present,4,0,,0.0000
+pw,dnra,4,K07139 absent AND K19005 present AND K00344 absent AND K06041 absent AND K00077 present AND K09117 absent,6,1,0.0000,0.0000
+pw,dnra,4,K07139 absent AND K19005 present AND K00344 absent AND K06041 absent AND K00077 present AND K09117 present,6,6,0.5000,0.2727
+pw,dnra,4,K07139 present AND K03799 absent AND K13018 present AND K07487 present AND K23518 present AND K00626 present,6,1,0.0000,0.0000
+pw,dnra,4,K07139 present AND K03799 present AND K00023 absent AND K01560 absent AND K01501 absent AND K04042 present,6,53,0.0755,0.3636
+pw,nitrate_reduction,0,K02575 absent AND K01772 absent AND K06886 absent AND K19340 present,4,2,0.0000,0.0000
+pw,nitrate_reduction,0,K02575 absent AND K01772 absent AND K06886 present AND K00029 present,4,2,1.0000,0.0054
+pw,nitrate_reduction,0,K02575 absent AND K01772 present AND K02567 absent AND K16869 present,4,10,0.6000,0.0161
+pw,nitrate_reduction,0,K02575 absent AND K01772 present AND K02567 present AND K00878 absent,4,41,0.6829,0.0753
+pw,nitrate_reduction,0,K02575 present AND K00371 absent AND K02585 absent AND K03315 absent,4,82,0.5976,0.1317
+pw,nitrate_reduction,0,K02575 present AND K00371 absent AND K02585 absent AND K03315 present,4,24,0.8333,0.0538
+pw,nitrate_reduction,0,K02575 present AND K00371 absent AND K02585 present AND K02572 present,4,1,1.0000,0.0027
+pw,nitrate_reduction,0,K02575 present AND K00371 present AND K11940 absent AND K00696 absent,4,191,0.9162,0.4704
+pw,nitrate_reduction,0,K02575 present AND K00371 present AND K11940 present AND K06908 absent,4,14,0.7143,0.0269
+pw,nitrate_reduction,1,K02575 absent AND K06886 absent AND K02567 absent AND K07231 present,4,6,0.3333,0.0054
+pw,nitrate_reduction,1,K02575 absent AND K06886 absent AND K02567 present AND K07574 absent,4,8,0.3750,0.0081
+pw,nitrate_reduction,1,K02575 absent AND K06886 present AND K02568 absent AND K16869 present,4,21,0.7143,0.0403
+pw,nitrate_reduction,1,K02575 absent AND K06886 present AND K02568 present AND K02042 absent,4,17,0.7647,0.0349
+pw,nitrate_reduction,1,K02575 absent AND K06886 present AND K02568 present AND K02042 present,4,14,0.6429,0.0242
+pw,nitrate_reduction,1,K02575 present AND K00370 absent AND K16053 absent AND K01903 present,4,110,0.6727,0.1989
+pw,nitrate_reduction,1,K02575 present AND K00370 absent AND K16053 present AND K11779 absent,4,20,0.7000,0.0376
+pw,nitrate_reduction,1,K02575 present AND K00370 present AND K11940 absent AND K09765 absent,4,155,0.8581,0.3575
+pw,nitrate_reduction,1,K02575 present AND K00370 present AND K11940 absent AND K09765 present,4,30,0.9000,0.0726
+pw,nitrate_reduction,1,K02575 present AND K00370 present AND K11940 present AND K22294 absent,4,21,0.4762,0.0269
+pw,nitrate_reduction,2,K02575 absent AND K00254 absent AND K02862 absent AND K02567 present,4,13,0.6154,0.0220
+pw,nitrate_reduction,2,K02575 absent AND K00254 absent AND K02862 present AND K13695 absent,4,12,0.8333,0.0275
+pw,nitrate_reduction,2,K02575 absent AND K00254 present AND K08226 absent AND K00975 absent,4,48,0.6042,0.0799
+pw,nitrate_reduction,2,K02575 absent AND K00254 present AND K08226 present AND K18982 present,4,1,1.0000,0.0028
+pw,nitrate_reduction,2,K02575 present AND K00371 absent AND K01903 absent AND K24119 present,4,0,,0.0000
+pw,nitrate_reduction,2,K02575 present AND K00371 absent AND K01903 present AND K00342 absent,4,52,0.7692,0.1102
+pw,nitrate_reduction,2,K02575 present AND K00371 present AND K06890 absent AND K00333 absent,4,81,0.9012,0.2011
+pw,nitrate_reduction,2,K02575 present AND K00371 present AND K06890 absent AND K00333 present,4,96,0.8333,0.2204
+pw,nitrate_reduction,2,K02575 present AND K00371 present AND K06890 present AND K01055 absent,4,23,0.6522,0.0413
+pw,nitrate_reduction,3,K02575 absent AND K01772 absent AND K09190 present,3,1,1.0000,0.0029
+pw,nitrate_reduction,3,K02575 absent AND K01772 present AND K02567 present,3,43,0.7442,0.0925
+pw,nitrate_reduction,3,K02575 present AND K00371 absent AND K01903 present,3,148,0.5541,0.2370
+pw,nitrate_reduction,3,K02575 present AND K00371 present AND K11940 absent,3,175,0.8571,0.4335
+pw,nitrate_reduction,3,K02575 present AND K00371 present AND K11940 present,3,29,0.6552,0.0549
+pw,nitrate_reduction,4,K02575 absent AND K01772 absent AND K08976 present,3,2,0.0000,0.0000
+pw,nitrate_reduction,4,K02575 absent AND K01772 present AND K02567 present,3,47,0.6170,0.0803
+pw,nitrate_reduction,4,K02575 present AND K00370 absent AND K01903 present,3,133,0.6090,0.2244
+pw,nitrate_reduction,4,K02575 present AND K00370 present AND K11940 absent,3,200,0.8500,0.4709
+pw,nitrate_reduction,4,K02575 present AND K00370 present AND K11940 present,3,28,0.7500,0.0582
+pw,nitrogen_fixation,0,K02592 absent AND K09667 absent AND K13815 present,3,8,0.0000,0.0000
+pw,nitrogen_fixation,0,K02592 absent AND K09667 present AND K01834 present,3,37,0.0811,0.1111
+pw,nitrogen_fixation,0,K02592 present AND K07447 absent AND K04487 absent,3,0,,0.0000
+pw,nitrogen_fixation,0,K02592 present AND K07447 present AND K18940 absent,3,79,0.2278,0.6667
+pw,nitrogen_fixation,1,K02592 absent AND K09667 present,2,49,0.0816,0.1111
+pw,nitrogen_fixation,1,K02592 present AND K01151 absent,2,51,0.3922,0.5556
+pw,nitrogen_fixation,1,K02592 present AND K01151 present,2,53,0.1887,0.2778
+pw,nitrogen_fixation,2,K02592 absent AND K09667 absent AND K16559 present,3,1,0.0000,0.0000
+pw,nitrogen_fixation,2,K02592 absent AND K09667 present AND K09892 absent,3,17,0.0588,0.0333
+pw,nitrogen_fixation,2,K02592 present AND K24105 absent AND K18332 absent,3,70,0.3286,0.7667
+pw,nitrogen_fixation,3,K02587 absent AND K04035 present,2,18,0.1111,0.0588
+pw,nitrogen_fixation,3,K02587 present AND K11785 absent,2,92,0.2500,0.6765
+pw,nitrogen_fixation,3,K02587 present AND K11785 present,2,27,0.1481,0.1176
+pw,nitrogen_fixation,4,K02592 absent AND K02635 present,2,0,,0.0000
+pw,nitrogen_fixation,4,K02592 present AND K01151 absent,2,42,0.4524,0.6786
+pw,nitrogen_fixation,4,K02592 present AND K01151 present,2,50,0.0800,0.1429
+pw,methanogenesis,0,K03421 present,1,27,1.0000,1.0000
+pw,methanogenesis,1,K03421 present,1,24,1.0000,1.0000
+pw,methanogenesis,2,K03421 present,1,28,1.0000,1.0000
+pw,methanogenesis,3,K03421 present AND K07220 absent,2,6,1.0000,0.2143
+pw,methanogenesis,3,K03421 present AND K07220 present,2,22,1.0000,0.7857
+pw,methanogenesis,4,K03421 present AND K02019 absent,2,15,1.0000,0.6000
+pw,methanogenesis,4,K03421 present AND K02019 present,2,10,1.0000,0.4000
+pw,acetogenesis,0,K14138 absent AND K20447 absent AND K25916 present AND K07496 absent,4,0,,0.0000
+pw,acetogenesis,0,K14138 absent AND K20447 present AND K08602 absent,3,0,,0.0000
+pw,acetogenesis,0,K14138 present AND K07166 present AND K05516 absent AND K00112 absent AND K01695 present AND K23270 absent,6,6,0.6667,0.5714
+pw,acetogenesis,1,K14138 absent AND K22516 present,2,35,0.0000,0.0000
+pw,acetogenesis,1,K14138 present AND K07071 absent,2,9,0.4444,0.6667
+pw,acetogenesis,2,K14138 absent AND K20447 present,2,1,0.0000,0.0000
+pw,acetogenesis,2,K14138 present AND K09136 absent,2,13,0.4615,0.8571
+pw,acetogenesis,3,K14138 absent AND K20447 present AND K03786 absent,3,0,,0.0000
+pw,acetogenesis,3,K14138 present AND K10535 absent AND K26993 absent,3,20,0.1500,0.4286
+pw,acetogenesis,4,K18332 absent AND K25916 present AND K14097 present,3,2,0.0000,0.0000
+pw,acetogenesis,4,K18332 present AND K11261 present AND K01914 absent AND K00549 absent AND K28350 absent AND K03402 present,6,11,0.0909,0.1667
+pw,sulfate_reduction,0,K11181 absent AND K27271 absent AND K23916 present,3,8,0.0000,0.0000
+pw,sulfate_reduction,0,K11181 absent AND K27271 present AND K09768 absent,3,4,0.0000,0.0000
+pw,sulfate_reduction,0,K11181 present AND K07236 absent AND K00395 present,3,26,0.6538,0.9444
+pw,sulfate_reduction,1,K16885 absent AND K27271 present,2,23,0.0000,0.0000
+pw,sulfate_reduction,1,K16885 present AND K07235 absent,2,29,0.5517,0.8421
+pw,sulfate_reduction,2,K16886 absent AND K27271 present AND K09765 present,3,9,0.0000,0.0000
+pw,sulfate_reduction,2,K16886 present AND K07236 absent AND K22550 absent,3,13,0.7692,0.5882
+pw,sulfate_reduction,3,K11180 absent AND K25220 absent AND K01027 present,3,13,0.0000,0.0000
+pw,sulfate_reduction,3,K11180 absent AND K25220 present AND K12137 present,3,5,0.0000,0.0000
+pw,sulfate_reduction,3,K11180 present AND K07236 absent AND K00395 present,3,27,0.7778,0.9130
+pw,sulfate_reduction,4,K11180 absent AND K27260 absent AND K23916 present,3,8,0.0000,0.0000
+pw,sulfate_reduction,4,K11180 absent AND K27260 present AND K00991 absent,3,1,0.0000,0.0000
+pw,sulfate_reduction,4,K11180 present AND K00674 absent AND K00395 present,3,28,0.7857,0.9565
+pw,sulfur_reduction,0,K03738 absent AND K03170 absent AND K08352 absent AND K17898 absent AND K07709 absent AND K03742 present,6,0,,0.0000
+pw,sulfur_reduction,0,K03738 absent AND K03170 absent AND K08352 absent AND K17898 absent AND K07709 present AND K03698 present,6,0,,0.0000
+pw,sulfur_reduction,0,K03738 absent AND K03170 absent AND K08352 absent AND K17898 present AND K00974 absent,5,3,0.3333,0.0244
+pw,sulfur_reduction,0,K03738 absent AND K03170 absent AND K08352 present AND K06923 absent AND K05571 absent AND K03594 present,6,5,0.4000,0.0488
+pw,sulfur_reduction,0,K03738 absent AND K03170 present AND K00390 absent AND K16881 absent AND K06194 absent AND K15746 absent,6,3,1.0000,0.0732
+pw,sulfur_reduction,0,K03738 absent AND K03170 present AND K00390 absent AND K16881 absent AND K06194 absent AND K15746 present,6,1,1.0000,0.0244
+pw,sulfur_reduction,0,K03738 present AND K02291 absent AND K06976 absent AND K00399 absent AND K11733 absent AND K12952 absent,6,51,0.5490,0.6829
+pw,sulfur_reduction,0,K03738 present AND K02291 present AND K20327 present,3,0,,0.0000
+pw,sulfur_reduction,1,K06990 absent AND K25996 absent AND K09116 absent AND K03170 present,4,0,,0.0000
+pw,sulfur_reduction,1,K06990 absent AND K25996 absent AND K09116 present AND K03722 present,4,4,0.2500,0.0175
+pw,sulfur_reduction,1,K06990 absent AND K25996 present AND K11527 present AND K02167 absent,4,2,0.5000,0.0175
+pw,sulfur_reduction,1,K06990 present AND K00560 absent AND K14941 absent AND K01488 absent,4,93,0.4946,0.8070
+pw,sulfur_reduction,1,K06990 present AND K00560 absent AND K14941 present AND K11179 present,4,0,,0.0000
+pw,sulfur_reduction,1,K06990 present AND K00560 present AND K13954 absent AND K09133 present,4,2,1.0000,0.0351
+pw,sulfur_reduction,1,K06990 present AND K00560 present AND K13954 present AND K01433 absent,4,1,0.0000,0.0000
+pw,sulfur_reduction,2,K03738 absent AND K03170 absent AND K08352 absent AND K13290 absent AND K18017 absent AND K03742 present,6,0,,0.0000
+pw,sulfur_reduction,2,K03738 absent AND K03170 absent AND K08352 absent AND K13290 absent AND K18017 present AND K07562 absent,6,0,,0.0000
+pw,sulfur_reduction,2,K03738 absent AND K03170 absent AND K08352 absent AND K13290 present AND K23975 present,5,0,,0.0000
+pw,sulfur_reduction,2,K03738 absent AND K03170 absent AND K08352 present AND K11755 present AND K03594 present AND K05020 absent,6,1,0.0000,0.0000
+pw,sulfur_reduction,2,K03738 absent AND K03170 present AND K02049 absent AND K00186 absent AND K24868 absent AND K09822 absent,6,11,0.3636,0.0976
+pw,sulfur_reduction,2,K03738 absent AND K03170 present AND K02049 absent AND K00186 absent AND K24868 absent AND K09822 present,6,2,0.5000,0.0244
+pw,sulfur_reduction,2,K03738 present AND K02291 absent AND K03660 absent AND K01725 absent AND K17318 absent AND K07719 absent,6,59,0.4576,0.6585
+pw,sulfur_reduction,2,K03738 present AND K02291 absent AND K03660 present AND K10979 present AND K18940 absent,5,0,,0.0000
+pw,sulfur_reduction,3,K06990 absent AND K03738 absent AND K08176 absent AND K05245 present AND K15836 present,5,0,,0.0000
+pw,sulfur_reduction,3,K06990 absent AND K03738 absent AND K08176 present AND K09017 present,4,1,0.0000,0.0000
+pw,sulfur_reduction,3,K06990 absent AND K03738 present AND K06999 absent AND K07646 absent AND K27959 absent AND K04072 absent,6,6,0.0000,0.0000
+pw,sulfur_reduction,3,K06990 present AND K00560 absent AND K14941 absent AND K01488 absent AND K10027 absent AND K07406 absent,6,93,0.4194,0.7647
+pw,sulfur_reduction,3,K06990 present AND K00560 present AND K11782 absent AND K16293 absent AND K15631 present,5,0,,0.0000
+pw,sulfur_reduction,3,K06990 present AND K00560 present AND K11782 absent AND K16293 present,4,9,0.1111,0.0196
+pw,sulfur_reduction,3,K06990 present AND K00560 present AND K11782 present AND K27187 present AND K22044 absent,5,1,1.0000,0.0196
+pw,sulfur_reduction,3,K06990 present AND K00560 present AND K11782 present AND K27187 present AND K22044 present,5,1,0.0000,0.0000
+pw,sulfur_reduction,4,K06990 absent AND K08352 absent AND K07138 present,3,16,0.0625,0.0256
+pw,sulfur_reduction,4,K06990 absent AND K08352 present AND K02414 present,3,16,0.0625,0.0256
+pw,sulfur_reduction,4,K06990 present AND K02291 absent AND K03660 absent,3,79,0.4304,0.8718
+pw,sulfur_reduction,4,K06990 present AND K02291 present AND K01652 absent,3,2,0.0000,0.0000
+pw,sulfur_oxidation,0,K17227 absent AND K28385 absent AND K04036 absent AND K27187 present,4,27,0.0370,0.0333
+pw,sulfur_oxidation,0,K17227 absent AND K28385 absent AND K04036 present AND K07059 present,4,5,0.4000,0.0667
+pw,sulfur_oxidation,0,K17227 absent AND K28385 present AND K01178 present AND K02379 absent,4,1,0.0000,0.0000
+pw,sulfur_oxidation,0,K17227 absent AND K28385 present AND K01178 present AND K02379 present,4,2,1.0000,0.0667
+pw,sulfur_oxidation,0,K17227 present AND K01750 absent AND K02824 absent AND K07192 absent,4,46,0.4348,0.6667
+pw,sulfur_oxidation,0,K17227 present AND K01750 present AND K07243 present AND K21677 absent,4,0,,0.0000
+pw,sulfur_oxidation,1,K17227 absent AND K28385 absent AND K04036 absent AND K27188 present,4,38,0.0526,0.0741
+pw,sulfur_oxidation,1,K17227 absent AND K28385 absent AND K04036 present AND K07059 present,4,1,0.0000,0.0000
+pw,sulfur_oxidation,1,K17227 absent AND K28385 present AND K03499 absent AND K07329 absent,4,4,0.2500,0.0370
+pw,sulfur_oxidation,1,K17227 absent AND K28385 present AND K03499 absent AND K07329 present,4,0,,0.0000
+pw,sulfur_oxidation,1,K17227 present AND K13541 absent AND K10844 absent AND K02824 absent,4,50,0.3400,0.6296
+pw,sulfur_oxidation,2,K17227 absent AND K28385 absent AND K04036 absent AND K02205 present,4,10,0.1000,0.0312
+pw,sulfur_oxidation,2,K17227 absent AND K28385 absent AND K04036 present AND K21071 absent,4,12,0.1667,0.0625
+pw,sulfur_oxidation,2,K17227 absent AND K28385 present AND K03753 present AND K07304 absent,4,0,,0.0000
+pw,sulfur_oxidation,2,K17227 absent AND K28385 present AND K03753 present AND K07304 present,4,4,1.0000,0.1250
+pw,sulfur_oxidation,2,K17227 present AND K01750 absent AND K16088 absent AND K07192 absent,4,40,0.2750,0.3438
+pw,sulfur_oxidation,2,K17227 present AND K01750 present AND K00845 absent AND K17218 absent,4,2,0.0000,0.0000
+pw,sulfur_oxidation,3,K17218 absent AND K09949 absent AND K02205 present,3,0,,0.0000
+pw,sulfur_oxidation,3,K17218 absent AND K09949 present AND K00797 absent,3,37,0.0270,0.0323
+pw,sulfur_oxidation,3,K17218 present AND K08981 absent AND K18353 absent,3,157,0.1656,0.8387
+pw,sulfur_oxidation,3,K17218 present AND K08981 present AND K25599 present,3,0,,0.0000
+pw,sulfur_oxidation,4,K17227 absent AND K17218 absent AND K27188 absent AND K02205 absent AND K05358 present AND K00712 present,6,0,,0.0000
+pw,sulfur_oxidation,4,K17227 absent AND K17218 absent AND K27188 absent AND K02205 present AND K09984 present,5,5,0.0000,0.0000
+pw,sulfur_oxidation,4,K17227 absent AND K17218 absent AND K27188 present AND K15495 absent AND K07168 present AND K01552 absent,6,3,0.3333,0.0333
+pw,sulfur_oxidation,4,K17227 absent AND K17218 present AND K03648 absent AND K07340 absent AND K00830 absent AND K09118 absent,6,23,0.2174,0.1667
+pw,sulfur_oxidation,4,K17227 absent AND K17218 present AND K03648 present AND K03415 present AND K03427 absent AND K24843 absent,6,2,0.0000,0.0000
+pw,sulfur_oxidation,4,K17227 present AND K02824 absent AND K13541 absent AND K00090 absent AND K12945 absent AND K18277 absent,6,61,0.2951,0.6000
+pw,iron_reduction,0,K03738 absent AND K06282 absent AND K03856 present AND K25307 absent,4,32,0.0000,0.0000
+pw,iron_reduction,0,K03738 absent AND K06282 present AND K00874 absent AND K00116 absent,4,37,0.0811,0.1765
+pw,iron_reduction,0,K03738 present AND K03118 present AND K04069 present AND K03152 absent,4,55,0.1636,0.5294
+pw,iron_reduction,1,K04562 absent AND K01934 absent AND K08281 present AND K02015 absent AND K09791 present AND K02876 present,6,1,0.0000,0.0000
+pw,iron_reduction,1,K04562 absent AND K01934 present AND K00531 present AND K07316 present,4,0,,0.0000
+pw,iron_reduction,1,K04562 present AND K03738 absent AND K00965 absent AND K28484 present AND K02777 present,5,0,,0.0000
+pw,iron_reduction,1,K04562 present AND K03738 absent AND K00965 present AND K06182 absent AND K02841 absent AND K02423 absent,6,6,0.0000,0.0000
+pw,iron_reduction,1,K04562 present AND K03738 present AND K02053 absent AND K06909 absent AND K01738 present AND K23302 absent,6,31,0.1290,0.2222
+pw,iron_reduction,2,K03738 absent AND K06282 absent AND K15022 absent AND K24689 present,4,11,0.0909,0.0500
+pw,iron_reduction,2,K03738 absent AND K06282 absent AND K15022 present AND K00819 present,4,0,,0.0000
+pw,iron_reduction,2,K03738 absent AND K06282 present AND K04750 absent AND K12536 absent,4,19,0.0000,0.0000
+pw,iron_reduction,2,K03738 present AND K03539 absent AND K23303 absent AND K07127 absent,4,68,0.1765,0.6000
+pw,iron_reduction,3,K06990 absent AND K08352 absent AND K28385 present,3,5,0.0000,0.0000
+pw,iron_reduction,3,K06990 absent AND K08352 present AND K05967 present,3,0,,0.0000
+pw,iron_reduction,3,K06990 present AND K03856 absent AND K03831 present,3,38,0.0789,0.1667
+pw,iron_reduction,3,K06990 present AND K03856 present AND K04041 absent,3,65,0.1077,0.3889
+pw,iron_reduction,4,K03738 absent AND K08352 absent AND K03648 absent AND K03651 absent AND K01664 absent AND K00276 present,6,1,0.0000,0.0000
+pw,iron_reduction,4,K03738 absent AND K08352 absent AND K03648 absent AND K03651 absent AND K01664 present AND K01438 absent,6,10,0.1000,0.0667
+pw,iron_reduction,4,K03738 absent AND K08352 absent AND K03648 present AND K13007 present AND K06039 present,5,0,,0.0000
+pw,iron_reduction,4,K03738 absent AND K08352 present AND K00124 present AND K02482 present AND K13237 absent AND K12536 absent,6,1,0.0000,0.0000
+pw,iron_reduction,4,K03738 present AND K04566 absent AND K23303 absent AND K17226 absent AND K03118 absent AND K18831 present,6,0,,0.0000
+pw,iron_reduction,4,K03738 present AND K04566 absent AND K23303 absent AND K17226 absent AND K03118 present AND K07156 absent,6,38,0.2105,0.5333
+pw,iron_oxidation,0,K03783 absent AND K03299 absent AND K02217 absent AND K06978 absent AND K07260 absent AND K06933 absent,6,91,0.0769,0.8750
+pw,iron_oxidation,0,K03783 present AND K00531 present AND K02654 absent,3,4,0.0000,0.0000
+pw,iron_oxidation,1,K03648 absent AND K06933 absent AND K06978 absent AND K07104 absent AND K02217 absent AND K03316 absent,6,44,0.0909,0.4000
+pw,iron_oxidation,1,K03648 present AND K21019 present AND K07646 absent AND K02510 present AND K22310 present,5,2,0.0000,0.0000
+pw,iron_oxidation,2,K03299 absent AND K03783 absent AND K00639 absent AND K06933 absent AND K06978 absent AND K05881 absent,6,92,0.0761,0.7778
+pw,iron_oxidation,2,K03299 absent AND K03783 present AND K02906 absent,3,0,,0.0000
+pw,iron_oxidation,3,K03648 absent AND K06933 absent AND K07393 absent AND K02217 absent,4,69,0.0580,0.5000
+pw,iron_oxidation,3,K03648 absent AND K06933 absent AND K07393 present AND K02303 absent,4,1,0.0000,0.0000
+pw,iron_oxidation,3,K03648 present AND K21703 present AND K26939 absent AND K07814 present,4,4,0.2500,0.1250
+pw,iron_oxidation,4,K26937 absent AND K05881 absent AND K11784 absent,3,94,0.0532,0.5556
+pw,iron_oxidation,4,K26937 present AND K09822 absent AND K07537 present,3,5,0.0000,0.0000
+pw,iron_oxidation,4,K26937 present AND K09822 present AND K04063 absent,3,24,0.0417,0.1111
+pw,manganese_reduction,0,K03738 absent AND K08646 present,2,9,0.0000,0.0000
+pw,manganese_reduction,0,K03738 present AND K03666 present,2,43,0.1163,0.8333
+pw,manganese_reduction,1,K03738 absent AND K01283 present AND K06282 present AND K01214 absent AND K07112 absent,5,0,,0.0000
+pw,manganese_reduction,1,K03738 present AND K03666 present AND K00882 absent AND K02204 absent AND K06942 present AND K02041 absent,6,11,0.0909,0.1667
+pw,manganese_reduction,2,K09749 absent AND K10535 present AND K05594 present,3,1,0.0000,0.0000
+pw,manganese_reduction,2,K09749 present AND K06917 absent AND K03918 present,3,0,,0.0000
+pw,manganese_reduction,2,K09749 present AND K06917 present AND K00065 absent AND K16090 absent,4,32,0.1562,0.8333
+pw,manganese_reduction,3,K09749 absent AND K13990 present AND K06412 present,3,0,,0.0000
+pw,manganese_reduction,3,K09749 present AND K06917 absent AND K13829 present,3,3,0.0000,0.0000
+pw,manganese_reduction,3,K09749 present AND K06917 present AND K07300 absent AND K07175 present AND K07127 absent AND K02472 absent,6,41,0.0976,0.5714
+pw,manganese_reduction,4,K09749 absent AND K28380 present AND K00242 absent,3,0,,0.0000
+pw,manganese_reduction,4,K09749 present AND K06917 absent AND K27097 present,3,1,0.0000,0.0000
+pw,manganese_reduction,4,K09749 present AND K06917 present AND K13020 absent AND K00459 present,4,43,0.0930,0.5000
+pw,arsenate_reduction,0,K07735 absent AND K00239 present AND K12234 absent AND K15256 absent AND K15629 absent AND K03718 absent,6,52,0.0385,0.2500
+pw,arsenate_reduction,0,K07735 present AND K28060 present AND K19068 present,3,2,0.0000,0.0000
+pw,arsenate_reduction,1,K28466 absent AND K25183 absent AND K01002 present,3,20,0.0000,0.0000
+pw,arsenate_reduction,1,K28466 absent AND K25183 present AND K01835 absent,3,24,0.0000,0.0000
+pw,arsenate_reduction,1,K28466 present AND K01679 present AND K06901 present,3,2,0.5000,0.1667
+pw,arsenate_reduction,2,K28466 absent AND K01207 absent AND K07402 present,3,57,0.0000,0.0000
+pw,arsenate_reduction,2,K28466 absent AND K01207 present AND K03194 present,3,21,0.0000,0.0000
+pw,arsenate_reduction,2,K28466 present AND K01679 present AND K06901 present,3,1,1.0000,0.2000
+pw,arsenate_reduction,3,K08352 absent AND K02798 present,2,46,0.0000,0.0000
+pw,arsenate_reduction,3,K08352 present AND K12339 absent,2,65,0.0462,0.6000
+pw,arsenate_reduction,4,K08352 absent AND K09699 present AND K21471 absent AND K01273 absent,4,44,0.0227,0.1667
+pw,arsenate_reduction,4,K08352 present AND K05516 absent AND K16566 absent AND K00761 present,4,11,0.0000,0.0000
+pw,fumarate_reduction,0,K03385 absent AND K21555 absent AND K00112 absent AND K06229 present,4,26,0.0000,0.0000
+pw,fumarate_reduction,0,K03385 absent AND K21555 absent AND K00112 present AND K00847 absent,4,9,0.1111,0.0556
+pw,fumarate_reduction,0,K03385 absent AND K21555 present AND K12984 present AND K00077 absent,4,5,0.4000,0.1111
+pw,fumarate_reduction,0,K03385 present AND K03711 present AND K01907 absent AND K03558 present,4,44,0.2955,0.7222
+pw,fumarate_reduction,1,K03385 absent AND K22226 absent AND K00821 absent AND K07226 present,4,3,0.3333,0.0556
+pw,fumarate_reduction,1,K03385 absent AND K22226 absent AND K00821 present AND K03823 present,4,41,0.0000,0.0000
+pw,fumarate_reduction,1,K03385 absent AND K22226 present AND K00605 present AND K00830 absent,4,21,0.0476,0.0556
+pw,fumarate_reduction,1,K03385 present AND K03711 present AND K01183 absent AND K09695 absent,4,25,0.2400,0.3333
+pw,fumarate_reduction,2,K03385 absent AND K21555 absent AND K01667 present AND K06213 absent,4,4,0.0000,0.0000
+pw,fumarate_reduction,2,K03385 absent AND K21555 present AND K12984 present AND K00077 absent,4,2,0.5000,0.0625
+pw,fumarate_reduction,2,K03385 present AND K02221 present AND K01907 absent AND K03711 present,4,39,0.2564,0.6250
+pw,fumarate_reduction,3,K03385 absent AND K21555 absent AND K00112 present,3,24,0.0000,0.0000
+pw,fumarate_reduction,3,K03385 absent AND K21555 present AND K12984 present,3,2,0.0000,0.0000
+pw,fumarate_reduction,3,K03385 present AND K00281 absent AND K03711 present,3,36,0.3056,0.6471
+pw,fumarate_reduction,4,K03385 absent AND K13819 absent AND K01667 present,3,42,0.0000,0.0000
+pw,fumarate_reduction,4,K03385 absent AND K13819 present AND K00077 absent,3,11,0.0909,0.0526
+pw,fumarate_reduction,4,K03385 present AND K07407 absent AND K03711 present,3,36,0.3056,0.5789
+pw,hydrogen_oxidation,0,K04652 absent AND K02594 present,2,36,0.0000,0.0000
+pw,hydrogen_oxidation,0,K04652 present AND K00849 absent,2,164,0.1341,0.7097
+pw,hydrogen_oxidation,1,K04652 absent AND K21703 absent AND K00394 present,3,9,0.0000,0.0000
+pw,hydrogen_oxidation,1,K04652 absent AND K21703 present AND K28280 present,3,10,0.1000,0.0294
+pw,hydrogen_oxidation,1,K04652 present AND K00849 absent AND K26731 absent,3,142,0.1901,0.7941
+pw,hydrogen_oxidation,1,K04652 present AND K00849 present AND K02041 present,3,25,0.0000,0.0000
+pw,hydrogen_oxidation,2,K04652 absent AND K21703 absent AND K22226 present,3,22,0.0455,0.0286
+pw,hydrogen_oxidation,2,K04652 absent AND K21703 present AND K28280 present,3,1,0.0000,0.0000
+pw,hydrogen_oxidation,2,K04652 present AND K06201 absent AND K09167 absent,3,147,0.2109,0.8857
+pw,hydrogen_oxidation,3,K04652 absent AND K02019 absent AND K25916 present,3,4,0.0000,0.0000
+pw,hydrogen_oxidation,3,K04652 absent AND K02019 present AND K09780 absent,3,38,0.0000,0.0000
+pw,hydrogen_oxidation,3,K04652 present AND K00849 absent AND K07401 absent,3,151,0.1854,0.8750
+pw,hydrogen_oxidation,3,K04652 present AND K00849 present AND K12410 absent,3,10,0.0000,0.0000
+pw,hydrogen_oxidation,4,K04652 absent AND K02019 absent AND K21034 present,3,4,0.0000,0.0000
+pw,hydrogen_oxidation,4,K04652 present AND K00849 absent AND K11784 absent,3,92,0.1630,0.4545
+pw,hydrogen_oxidation,4,K04652 present AND K00849 absent AND K11784 present,3,41,0.3415,0.4242
+pw,hydrogen_oxidation,4,K04652 present AND K00849 present AND K12410 absent,3,10,0.0000,0.0000
+pw,fermentation,0,K03635 absent AND K00453 absent AND K03562 absent,3,107,0.6636,0.7320
+pw,fermentation,0,K03635 absent AND K00453 present AND K01956 absent,3,1,0.0000,0.0000
+pw,fermentation,0,K03635 present AND K03150 present AND K03738 present,3,26,0.1923,0.0515
+pw,fermentation,1,K03635 absent AND K00453 absent AND K06176 absent AND K01682 absent,4,68,0.6618,0.5056
+pw,fermentation,1,K03635 absent AND K00453 absent AND K06176 present AND K03457 present,4,3,0.3333,0.0112
+pw,fermentation,1,K03635 absent AND K00453 present AND K09890 present,3,0,,0.0000
+pw,fermentation,1,K03635 present AND K04069 absent AND K02505 absent AND K13730 present,4,5,0.0000,0.0000
+pw,fermentation,1,K03635 present AND K04069 absent AND K02505 present,3,0,,0.0000
+pw,fermentation,1,K03635 present AND K04069 present AND K04767 present AND K00344 absent,4,34,0.2941,0.1124
+pw,fermentation,2,K00240 absent AND K09141 absent AND K18446 absent,3,54,0.6111,0.3333
+pw,fermentation,2,K00240 absent AND K09141 present AND K01273 present,3,6,0.3333,0.0202
+pw,fermentation,2,K00240 present AND K03737 present AND K07100 absent,3,90,0.4111,0.3737
+pw,fermentation,3,K03635 absent AND K00453 absent AND K00428 absent,3,120,0.4833,0.6105
+pw,fermentation,3,K03635 present AND K04069 absent AND K07781 present,3,0,,0.0000
+pw,fermentation,3,K03635 present AND K04069 present AND K04767 present,3,55,0.1455,0.0842
+pw,fermentation,4,K03635 absent AND K01895 absent AND K00658 absent AND K02835 present,4,70,0.6143,0.5059
+pw,fermentation,4,K03635 absent AND K01895 absent AND K00658 present AND K01278 present,4,3,0.3333,0.0118
+pw,fermentation,4,K03635 absent AND K01895 present AND K06373 absent AND K12454 present,4,0,,0.0000
+pw,fermentation,4,K03635 absent AND K01895 present AND K06373 present AND K05921 absent,4,15,0.3333,0.0588
+pw,fermentation,4,K03635 present AND K03150 absent AND K00656 absent AND K07469 present,4,5,0.4000,0.0235
+pw,fermentation,4,K03635 present AND K03150 absent AND K00656 present AND K16784 present,4,15,0.2667,0.0471
+pw,fermentation,4,K03635 present AND K03150 present AND K02259 absent AND K01893 present,4,18,0.3889,0.0824
+pw,fermentation,4,K03635 present AND K03150 present AND K02259 present AND K00955 present,4,3,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 absent AND K11209 absent AND K07401 absent AND K01254 absent AND K03339 absent AND K17285 present,6,1,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 absent AND K11209 absent AND K07401 absent AND K01254 absent AND K03339 present,5,2,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 absent AND K11209 absent AND K07401 absent AND K01254 present,4,1,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 absent AND K11209 absent AND K07401 present AND K00931 absent AND K07241 absent AND K19147 absent,6,0,,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 absent AND K11209 present AND K01585 absent AND K00347 absent AND K03695 present AND K03692 absent,6,7,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 absent AND K11209 present AND K01585 present AND K16138 present AND K08659 absent,5,2,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 present AND K02575 absent AND K03303 absent AND K13816 absent AND K09836 absent AND K13378 absent,6,80,0.2625,0.2471
+pw,aerobic_chemoheterotrophy,0,K02275 present AND K02575 absent AND K03303 present AND K03405 absent AND K07095 absent AND K07160 absent,6,5,0.2000,0.0118
+pw,aerobic_chemoheterotrophy,0,K02275 present AND K02575 absent AND K03303 present AND K03405 absent AND K07095 present AND K01856 present,6,0,,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 present AND K02575 absent AND K03303 present AND K03405 present AND K00038 absent AND K01897 present,6,6,0.3333,0.0235
+pw,aerobic_chemoheterotrophy,0,K02275 present AND K02575 present AND K21214 absent AND K07144 absent AND K09949 absent AND K00219 absent,6,157,0.1338,0.2471
+pw,aerobic_chemoheterotrophy,0,K02275 present AND K02575 present AND K21214 absent AND K07144 absent AND K09949 present AND K04763 present,6,12,0.4167,0.0588
+pw,aerobic_chemoheterotrophy,0,K02275 present AND K02575 present AND K21214 absent AND K07144 present AND K10240 present,5,0,,0.0000
+pw,aerobic_chemoheterotrophy,0,K02275 present AND K02575 present AND K21214 present AND K02224 absent,4,4,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,1,K02275 absent AND K11209 present,2,46,0.1739,0.0964
+pw,aerobic_chemoheterotrophy,1,K02275 present AND K02575 absent,2,124,0.2742,0.4096
+pw,aerobic_chemoheterotrophy,1,K02275 present AND K02575 present,2,281,0.1210,0.4096
+pw,aerobic_chemoheterotrophy,2,K02259 absent AND K11209 absent AND K14048 present AND K22083 absent,4,5,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,2,K02259 absent AND K11209 present AND K06176 absent AND K02823 absent,4,10,0.4000,0.0444
+pw,aerobic_chemoheterotrophy,2,K02259 absent AND K11209 present AND K06176 present AND K16138 present,4,1,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,2,K02259 present AND K02575 absent AND K02804 absent AND K01620 present,4,95,0.3158,0.3333
+pw,aerobic_chemoheterotrophy,2,K02259 present AND K02575 absent AND K02804 present AND K11414 present,4,2,0.5000,0.0111
+pw,aerobic_chemoheterotrophy,2,K02259 present AND K02575 present AND K24998 absent AND K03522 present,4,235,0.1660,0.4333
+pw,aerobic_chemoheterotrophy,2,K02259 present AND K02575 present AND K24998 present AND K24192 present,4,4,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,3,K02259 absent AND K06886 absent AND K03339 absent AND K18336 present,4,2,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,3,K02259 absent AND K06886 absent AND K03339 present AND K13920 absent,4,2,0.5000,0.0102
+pw,aerobic_chemoheterotrophy,3,K02259 absent AND K06886 present AND K03563 absent AND K07300 absent,4,7,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,3,K02259 present AND K24998 absent AND K05916 absent AND K01620 present,4,181,0.3094,0.5714
+pw,aerobic_chemoheterotrophy,3,K02259 present AND K24998 absent AND K05916 present AND K02217 absent,4,105,0.1810,0.1939
+pw,aerobic_chemoheterotrophy,3,K02259 present AND K24998 present AND K16370 absent AND K23987 present,4,0,,0.0000
+pw,aerobic_chemoheterotrophy,3,K02259 present AND K24998 present AND K16370 present AND K21417 present,4,0,,0.0000
+pw,aerobic_chemoheterotrophy,4,K02259 absent AND K11209 absent AND K07231 present AND K00558 absent,4,2,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,4,K02259 absent AND K11209 present AND K06219 absent AND K04767 absent,4,8,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,4,K02259 absent AND K11209 present AND K06219 present AND K08998 absent,4,1,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,4,K02259 present AND K24998 absent AND K22109 absent AND K03152 absent,4,353,0.2295,0.8351
+pw,aerobic_chemoheterotrophy,4,K02259 present AND K24998 absent AND K22109 present AND K06897 present,4,2,0.0000,0.0000
+pw,aerobic_chemoheterotrophy,4,K02259 present AND K24998 present AND K10538 absent AND K02313 absent,4,0,,0.0000
+pw,aerobic_chemoheterotrophy,4,K02259 present AND K24998 present AND K10538 present AND K07559 absent,4,0,,0.0000
+pw,photoautotrophy,0,K04036 present AND K22515 absent AND K02020 present,3,19,0.5789,1.0000
+pw,photoautotrophy,1,K04036 present AND K08963 present,2,23,0.4783,1.0000
+pw,photoautotrophy,2,K04036 present AND K22515 absent AND K16167 absent AND K07478 present AND K08963 present AND K05794 absent,6,11,0.6364,0.7000
+pw,photoautotrophy,2,K04036 present AND K22515 absent AND K16167 absent AND K07478 present AND K08963 present AND K05794 present,6,2,1.0000,0.2000
+pw,photoautotrophy,3,K04036 present AND K22515 absent AND K09992 absent AND K07478 present,4,17,0.5882,1.0000
+pw,photoautotrophy,4,K04036 present AND K08963 present,2,19,0.6316,1.0000
+pw,photoheterotrophy,0,K11336 present AND K05913 absent,2,30,0.4667,1.0000
+pw,photoheterotrophy,1,K11336 present AND K05913 absent AND K02123 absent AND K08167 absent AND K03695 present AND K19271 absent,6,19,0.3684,0.5000
+pw,photoheterotrophy,2,K11336 present AND K05913 absent,2,32,0.5625,1.0000
+pw,photoheterotrophy,3,K11336 present AND K05913 absent,2,26,0.5385,1.0000
+pw,photoheterotrophy,4,K08927 present AND K01826 absent,2,44,0.3409,0.8824
+pw,methylotrophy,0,K01897 absent AND K04751 present AND K07407 absent,3,95,0.0421,0.3636
+pw,methylotrophy,0,K01897 present AND K14028 absent AND K06610 present,3,19,0.0000,0.0000
+pw,methylotrophy,0,K01897 present AND K14028 present AND K00163 absent,3,1,1.0000,0.0909
+pw,methylotrophy,1,K23995 absent AND K04480 absent AND K01466 absent AND K18068 absent AND K25262 present AND K13655 present,6,1,0.0000,0.0000
+pw,methylotrophy,1,K23995 absent AND K04480 absent AND K01466 absent AND K18068 present AND K18930 present,5,2,0.0000,0.0000
+pw,methylotrophy,1,K23995 absent AND K04480 absent AND K01466 present AND K07006 absent AND K15772 absent AND K04751 present,6,11,0.0000,0.0000
+pw,methylotrophy,1,K23995 absent AND K04480 present AND K07561 absent AND K03980 absent AND K02116 absent AND K01512 absent,6,1,0.0000,0.0000
+pw,methylotrophy,1,K23995 absent AND K04480 present AND K07561 absent AND K03980 absent AND K02116 absent AND K01512 present,6,1,1.0000,0.0909
+pw,methylotrophy,1,K23995 present AND K01684 absent AND K03325 present AND K16844 absent AND K00882 absent AND K06182 absent,6,11,0.4545,0.4545
+pw,methylotrophy,2,K16254 absent AND K04480 present,2,13,0.0000,0.0000
+pw,methylotrophy,2,K16254 present AND K14056 absent,2,12,0.2500,0.3333
+pw,methylotrophy,3,K23995 absent AND K00179 absent AND K22343 absent AND K14188 present,4,10,0.0000,0.0000
+pw,methylotrophy,3,K23995 absent AND K00179 absent AND K22343 present AND K15777 absent,4,7,0.1429,0.0909
+pw,methylotrophy,3,K23995 absent AND K00179 present AND K08177 absent AND K01496 present,4,68,0.0147,0.0909
+pw,methylotrophy,3,K23995 present AND K01684 absent AND K13255 absent AND K02008 absent,4,23,0.0870,0.1818
+pw,methylotrophy,4,K23995 absent AND K04480 present,2,10,0.1000,0.1111
+pw,methylotrophy,4,K23995 present AND K01684 absent,2,39,0.0769,0.3333

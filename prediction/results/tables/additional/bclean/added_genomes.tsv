@@ -1,0 +1,547 @@
+genome_id	species	genus	family	phylum	data_source
+GCF_014596935.1	Aestuariibaculum suncheonense	Aestuariibaculum	Flavobacteriaceae	Bacteroidetes	fierer
+GCF_034375205.1	Altererythrobacter marinus	Altererythrobacter	Erythrobacteraceae	Proteobacteria	fierer
+GCF_015767265.1	Aureivirga marina	Aureivirga	Flavobacteriaceae	Bacteroidetes	fierer
+GCF_019780885.1	Azospirillum formosense	Azospirillum	Rhodospirillaceae	Proteobacteria	fierer
+GCF_039523295.1	Colwellia asteriadis	Colwellia	Colwelliaceae	Proteobacteria	fierer
+GCF_009720825.1	Duganella radicis	Duganella	Oxalobacteraceae	Proteobacteria	fierer
+GCF_025234795.1	Exiguobacterium aquaticum	Exiguobacterium		Firmicutes	fierer
+GCF_014652355.1	Gemmobacter lanyuensis	Gemmobacter	Rhodobacteraceae	Proteobacteria	fierer
+GCF_017874695.1	Halarchaeum nitratireducens	Halarchaeum	Halobacteriaceae	Euryarchaeota	fierer, bergeys
+GCF_019823105.1	Halobaculum magnesiiphilum	Halobaculum	Halorubraceae	Euryarchaeota	fierer
+GCF_024498335.1	Halobellus inordinatus	Halobellus	Haloferacaceae	Euryarchaeota	fierer
+GCF_042664875.1	Haloferula chungangensis	Haloferula	Verrucomicrobiaceae	Verrucomicrobia	fierer
+GCF_026343955.1	Kaistia defluvii	Kaistia	Rhizobiaceae	Proteobacteria	fierer
+GCF_007995015.1	Luteibaculum oceani	Luteibaculum	Cryomorphaceae	Bacteroidetes	fierer
+GCF_042676845.1	Maribacter chungangensis	Maribacter	Flavobacteriaceae	Bacteroidetes	fierer
+GCF_016735695.1	Microvirga zambiensis	Microvirga	Methylobacteriaceae	Proteobacteria	fierer
+GCF_014652135.1	Mongoliitalea lutea	Mongoliitalea	Cyclobacteriaceae	Bacteroidetes	fierer
+GCF_034262375.1	Mucilaginibacter sabulilitoris	Mucilaginibacter	Sphingobacteriaceae	Bacteroidetes	fierer
+GCF_008630635.1	Neptunomonas concharum	Neptunomonas	Oceanospirillaceae	Proteobacteria	fierer
+GCF_900607235.1	Olivibacter jilunii	Olivibacter	Sphingobacteriaceae	Bacteroidetes	fierer
+GCF_009711185.1	Paracoccus limosus	Paracoccus	Rhodobacteraceae	Proteobacteria	fierer
+GCF_003010935.1	Phyllobacterium endophyticum	Phyllobacterium	Phyllobacteriaceae	Proteobacteria	fierer
+GCF_042676045.1	Pseudahrensia aquimaris	Pseudahrensia	Phyllobacteriaceae	Proteobacteria	fierer
+GCF_014653435.1	Rheinheimera longhuensis	Rheinheimera	Chromatiaceae	Proteobacteria	fierer
+GCF_042432165.1	Rheinheimera tilapiae	Rheinheimera	Chromatiaceae	Proteobacteria	fierer
+GCF_039541695.1	Chelativorans composti	Chelativorans	Phyllobacteriaceae	Proteobacteria	fierer
+GCF_042434315.1	Winogradskyella pulchriflava	Winogradskyella	Flavobacteriaceae	Bacteroidetes	fierer, bergeys
+GCF_000381985.1	Novispirillum itersonii	Novispirillum	Rhodospirillaceae	Proteobacteria	amend-shock, engqvist, gold, microbe-directory, patric, bergeys
+GCF_000012725.1	Nitrobacter winogradskyi	Nitrobacter	Bradyrhizobiaceae	Proteobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb, silva, bergeys
+GCF_054182965.1	Nitrosomonas europaea	Nitrosomonas	Nitrosomonadaceae	Proteobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb, silva, bergeys
+GCF_000024765.1	Halothiobacillus neapolitanus	Halothiobacillus	Halothiobacillaceae	Proteobacteria	amend-shock, engqvist, genbank, gold, jemma-refseq, kegg, pasteur, patric, protraits, rrndb, bergeys
+GCF_001578075.1	Microcystis aeruginosa	Microcystis	Microcystaceae	Cyanobacteria	edwards, engqvist, genbank, gold, jemma-refseq, kegg, kremer, microbe-directory, nielsensl, patric, protraits, rrndb
+GCF_000734015.1	Thermodesulfobacterium commune	Thermodesulfobacterium	Thermodesulfobacteriaceae	Thermodesulfobacteria	amend-shock, corkrey, engqvist, genbank, gold, jemma-refseq, kegg, patric, rrndb, bergeys
+GCF_022370415.1	Mycobacterium smegmatis	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, patric, protraits, rrndb, bergeys
+GCF_000723425.2	Mycobacterium marinum	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, patric, protraits, rrndb
+GCF_900453455.1	Mycobacterium chubuense	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, protraits, rrndb
+GCF_000184435.1	Mycobacterium gilvum	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, patric, protraits, rrndb
+GCF_000058485.1	Frankia alni	Frankia	Frankiaceae	Actinobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb
+GCF_001458655.1	Methanobacterium formicicum	Methanobacterium	Methanobacteriaceae	Euryarchaeota	amend-shock, engqvist, genbank, gold, jemma-refseq, kegg, methanogen, microbe-directory, patric, roden-jin, rrndb
+GCF_000016525.1	Methanobrevibacter smithii	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, genbank, gold, jemma-refseq, kegg, methanogen, microbe-directory, patric, protraits, rrndb
+GCF_024807035.1	Methanococcus voltae	Methanococcus	Methanococcaceae	Euryarchaeota	corkrey, engqvist, genbank, gold, jemma-refseq, kegg, methanogen, microbe-directory, patric, protraits, rrndb
+GCF_002287215.1	Methanocorpusculum parvum	Methanocorpusculum	Methanocorpusculaceae	Euryarchaeota	engqvist, gold, methanogen, patric
+GCF_000275865.1	Methanofollis liminatans	Methanofollis	Methanomicrobiaceae	Euryarchaeota	engqvist, gold, methanogen, microbe-directory
+GCF_019175345.1	Sulfolobus shibatae	Sulfolobus	Sulfolobaceae	Crenarchaeota	amend-shock, engqvist, gold, bergeys
+GCF_000233695.2	Desulfobacter postgatei	Desulfobacter	Desulfobacteraceae	Proteobacteria	engqvist, gold, microbe-directory, protraits, roden-jin
+GCF_000243255.1	Methanoplanus limicola	Methanoplanus	Methanomicrobiaceae	Euryarchaeota	engqvist, gold, methanogen, microbe-directory
+GCF_900176145.1	Sulfobacillus thermosulfidooxidans	Sulfobacillus	Clostridiales Family XVII. Incertae Sedis	Firmicutes	amend-shock, corkrey, engqvist, gold, microbe-directory, patric, bergeys
+GCF_949794035.1	Serratia proteamaculans	Serratia	Yersiniaceae	Proteobacteria	engqvist, genbank, gold, kegg, microbe-directory, pasteur, patric, protraits, rrndb
+GCF_000020985.1	Thermodesulfovibrio yellowstonii	Thermodesulfovibrio	Nitrospiraceae	Nitrospirae	amend-shock, engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb, bergeys
+GCF_004006375.1	Komagataeibacter xylinus	Komagataeibacter	Acetobacteraceae	Proteobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, patric, protraits, rrndb
+GCF_023278185.1	Bradyrhizobium elkanii	Bradyrhizobium	Bradyrhizobiaceae	Proteobacteria	engqvist, gold, microbe-directory, patric, protraits
+GCF_900186885.1	Veillonella parvula	Veillonella	Veillonellaceae	Firmicutes	amend-shock, engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb
+GCF_014696555.1	Calothrix parietina	Calothrix	Rivulariaceae	Cyanobacteria	engqvist, genbank, gold, jemma-refseq, kegg, patric, protraits, rrndb
+GCF_900215655.1	Hydrogenobacter hydrogenophilus	Hydrogenobacter	Aquificaceae	Aquificae	amend-shock, corkrey, engqvist, gold
+GCF_002086695.1	Mycobacterium rhodesiae	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, protraits, rrndb, bergeys
+GCF_000970085.1	Methanosarcina siciliae	Methanosarcina	Methanosarcinaceae	Euryarchaeota	amend-shock, corkrey, engqvist, genbank, gold, jemma-refseq, kegg, methanogen, rrndb
+GCF_001618845.1	Mesorhizobium ciceri	Mesorhizobium	Phyllobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, patric, protraits, rrndb
+GCF_001006005.1	Serratia fonticola	Serratia	Yersiniaceae	Proteobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, pasteur, patric, protraits, rrndb
+GCF_001639295.1	Methanobrevibacter curvatus	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, gold, methanogen
+GCF_039532525.1	Dactylosporangium salmoneum	Dactylosporangium	Micromonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_001639265.1	Methanobrevibacter filiformis	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, gold, methanogen
+GCF_000024925.1	Sanguibacter keddieii	Sanguibacter	Sanguibacteraceae	Actinobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, patric, protraits, rrndb
+GCF_000155555.1	Coleofasciculus chthonoplastes	Coleofasciculus	Coleofasciculaceae	Cyanobacteria	engqvist, gold, microbe-directory, patric, protraits
+GCF_912073625.1	Methanobrevibacter oralis	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, gold, methanogen
+GCF_001686985.1	Mesorhizobium amorphae	Mesorhizobium	Phyllobacteriaceae	Proteobacteria	engqvist, genbank, gold, jemma-refseq, kegg, pasteur, patric, protraits, rrndb, bergeys
+GCF_000430905.1	Methanocorpusculum bavaricum	Methanocorpusculum	Methanocorpusculaceae	Euryarchaeota	corkrey, engqvist, gold, methanogen
+GCF_000427465.1	Sinorhizobium arboris	Sinorhizobium	Rhizobiaceae	Proteobacteria	engqvist, gold, protraits
+GCF_003367075.2	Cylindrospermopsis raciborskii	Cylindrospermopsis	Aphanizomenonaceae	Cyanobacteria	engqvist, gold, kremer, microbe-directory, protraits
+GCF_013377755.1	Methanofollis tationis	Methanofollis	Methanomicrobiaceae	Euryarchaeota	corkrey, engqvist, gold, methanogen
+GCF_000024185.1	Methanobrevibacter ruminantium	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, genbank, gold, jemma-refseq, kegg, methanogen, microbe-directory, patric, protraits, rrndb
+GCF_000015765.1	Methanocorpusculum labreanum	Methanocorpusculum	Methanocorpusculaceae	Euryarchaeota	corkrey, engqvist, genbank, gold, jemma-refseq, kegg, methanogen, microbe-directory, patric, protraits, rrndb
+GCF_016894385.1	Cupriavidus oxalaticus	Cupriavidus	Burkholderiaceae	Proteobacteria	engqvist, gold, pasteur, patric, roden-jin
+GCF_000317575.1	Stanieria cyanosphaera	Stanieria	Dermocarpellaceae	Cyanobacteria	genbank, gold, jemma-refseq, kegg, microbe-directory, protraits, rrndb
+GCF_000013345.1	Frankia casuarinae	Frankia	Frankiaceae	Actinobacteria	genbank, gold, jemma-refseq, kegg, patric, protraits, rrndb
+GCF_055394095.1	Methanosarcina baltica	Methanosarcina	Methanosarcinaceae	Euryarchaeota	corkrey, engqvist, gold, methanogen
+GCF_019669965.1	Methanoculleus chikugoensis	Methanoculleus	Methanomicrobiaceae	Euryarchaeota	corkrey, engqvist, gold, methanogen
+GCF_026000695.1	Arthrospira platensis	Arthrospira	Microcoleaceae	Cyanobacteria	engqvist, gold, kegg, microbe-directory, patric, protraits
+GCF_046197875.1	Methanobrevibacter acididurans	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	gold, methanogen
+GCF_054063775.1	Bradyrhizobium lupini	Bradyrhizobium	Bradyrhizobiaceae	Proteobacteria	engqvist, gold, microbe-directory, pasteur, protraits
+GCF_000317535.1	Cylindrospermum stagnale	Cylindrospermum	Nostocaceae	Cyanobacteria	gold, kegg, microbe-directory, patric, protraits
+GCF_001590965.1	Novosphingobium lentum	Novosphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur, patric
+GCF_010731295.1	Mycobacterium boenickei	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_001245615.1	Mycobacterium neworleansense	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_001570425.1	Mycobacterium brisbanense	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_025823315.1	Mycobacterium houstonense	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_003610195.1	Halopiger aswanensis	Halopiger	Natrialbaceae	Euryarchaeota	engqvist, fierer, gold
+GCF_025137635.1	Aliiroseovarius crassostreae	Aliiroseovarius	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_000018105.1	Acaryochloris marina	Acaryochloris	Acaryochloridaceae	Cyanobacteria	corkrey, engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb, silva
+GCF_000372745.1	Streptomyces scabrisporus	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold, patric
+GCF_000069785.1	Cupriavidus taiwanensis	Cupriavidus	Burkholderiaceae	Proteobacteria	engqvist, gold, kegg, microbe-directory, pasteur, patric, protraits, bergeys
+GCF_000970265.1	Methanosarcina lacustris	Methanosarcina	Methanosarcinaceae	Euryarchaeota	corkrey, engqvist, genbank, gold, jemma-refseq, kegg, methanogen, rrndb
+GCF_016726365.1	Rothia aeria	Rothia	Micrococcaceae	Actinobacteria	bacdive-microa, engqvist, fierer, genbank, gold, microbe-directory, pasteur, patric, rrndb, bergeys
+GCF_900100155.1	Ancylobacter rudongensis	Ancylobacter	Xanthobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_000018405.1	Desulfococcus oleovorans	Desulfococcus	Desulfobacteraceae	Proteobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb
+GCF_003206155.1	Salinicola halophilus	Salinicola	Halomonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_000193375.1	Thermoproteus uzoniensis	Thermoproteus	Thermoproteaceae	Crenarchaeota	amend-shock, corkrey, engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, rrndb, bergeys
+GCF_947090115.1	Veillonella montpellierensis	Veillonella	Veillonellaceae	Firmicutes	engqvist, fierer, gold, pasteur
+GCF_003814835.1	Methanobrevibacter gottschalkii	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, gold, methanogen
+GCF_003111625.1	Methanobrevibacter thaueri	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, gold, methanogen
+GCF_003111605.1	Methanobrevibacter woesei	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, gold, methanogen
+GCF_000621965.1	Methanobrevibacter wolinii	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, gold, methanogen
+GCF_000331025.1	Desulfovibrio hydrothermalis	Desulfovibrio	Desulfovibrionaceae	Proteobacteria	engqvist, gold, kegg, microbe-directory, pasteur, patric, protraits
+GCF_003044065.1	Alkalicoccus saliphilus	Alkalicoccus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_042643265.1	Virgibacillus sediminis	Virgibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_042654125.1	Virgibacillus kekensis	Virgibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_054654275.1	Streptomyces drozdowiczii	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_003049785.1	Dickeya dadantii	Dickeya	Pectobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb
+GCF_003403135.1	Dickeya dianthicola	Dickeya	Pectobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, protraits
+GCF_002887555.1	Dickeya zeae	Dickeya	Pectobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, microbe-directory, patric, protraits, rrndb
+GCF_025914035.1	Methanoculleus submarinus	Methanoculleus	Methanomicrobiaceae	Euryarchaeota	corkrey, engqvist, gold, methanogen
+GCF_000378625.1	Colwellia piezophila	Colwellia	Colwelliaceae	Proteobacteria	corkrey, engqvist, fierer, gold, microbe-directory, patric
+GCF_010729305.1	Mycobacterium psychrotolerans	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_000686905.1	Marinospirillum insulare	Marinospirillum	Oceanospirillaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000021905.1	Desulfatibacillum aliphaticivorans	Desulfatibacillum	Desulfobacteraceae	Proteobacteria	engqvist, fierer, gold, patric, protraits
+GCF_000829515.1	Jeotgalibacillus campisalis	Jeotgalibacillus	Planococcaceae	Firmicutes	engqvist, fierer, gold, pasteur, bergeys
+GCF_000154725.1	Kordia algicida	Kordia	Flavobacteriaceae	Bacteroidetes	fierer, gold, microbe-directory, patric, protraits
+GCF_053485795.1	Thalassotalea ganghwensis	Thalassotalea	Colwelliaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_023061185.1	Chromohalobacter japonicus	Chromohalobacter	Halomonadaceae	Proteobacteria	fierer, gold
+GCF_006503695.1	Tepidiphilus succinatimandens	Tepidiphilus	Hydrogenophilaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_006239215.1	Paracoccus haeundaensis	Paracoccus	Rhodobacteraceae	Proteobacteria	fierer, gold
+GCF_000429145.1	Aestuariibacter salexigens	Aestuariibacter	Alteromonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur, patric
+GCF_020687825.1	Aestuariibacter halophilus	Aestuariibacter	Alteromonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_030159795.1	Methylophaga aminisulfidivorans	Methylophaga	Piscirickettsiaceae	Proteobacteria	fierer, gold, microbe-directory, protraits
+GCF_900103415.1	Methanobrevibacter millerae	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, genbank, gold, jemma-refseq, kegg, methanogen, patric, rrndb
+GCF_004341165.1	Reinekea marinisedimentorum	Reinekea	Saccharospirillaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_000265405.1	Belliella baltica	Belliella	Cyclobacteriaceae	Bacteroidetes	engqvist, fierer, genbank, gold, jemma-refseq, kegg, microbe-directory, pasteur, patric, protraits, rrndb
+GCF_054072455.1	Methylobacillus pratensis	Methylobacillus	Methylophilaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000340985.1	Nocardiopsis valliformis	Nocardiopsis	Nocardiopsaceae	Actinobacteria	engqvist, fierer, gold, microbe-directory, patric
+GCF_000341085.1	Nocardiopsis ganjiahuensis	Nocardiopsis	Nocardiopsaceae	Actinobacteria	engqvist, fierer, gold, microbe-directory, patric
+GCF_000317495.1	Crinalium epipsammum	Crinalium	Gomontiellaceae	Cyanobacteria	engqvist, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb
+GCF_000341025.1	Nocardiopsis salina	Nocardiopsis	Nocardiopsaceae	Actinobacteria	engqvist, fierer, gold, microbe-directory, pasteur, patric
+GCF_009725995.2	Zobellia laminariae	Zobellia	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold, pasteur, bergeys
+GCF_044597075.1	Zobellia russellii	Zobellia	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold, pasteur, bergeys
+GCF_035919665.1	Chromobacterium subtsugae	Chromobacterium	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold, patric
+GCF_022870845.1	Uruburuella suis	Uruburuella	Neisseriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_003010915.2	Gulosibacter molinativorax	Gulosibacter	Microbacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur, patric
+GCF_014203705.1	Kitasatospora gansuensis	Kitasatospora	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_039542905.1	Kitasatospora terrestris	Kitasatospora	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_042661005.1	Kitasatospora paranensis	Kitasatospora	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000613185.1	Mycobacterium cosmeticum	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_900100255.1	Asticcacaulis taihuensis	Asticcacaulis	Caulobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_001955655.1	Viridibacillus arenosi	Viridibacillus	Planococcaceae	Firmicutes	engqvist, fierer, gold
+GCF_014201465.1	Anoxybacillus tepidamans	Anoxybacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold, bergeys
+GCF_040545335.1	Phenylobacterium koreense	Phenylobacterium	Caulobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_048146105.1	Azonexus caeni	Azonexus	Azonexaceae	Proteobacteria	fierer, gold
+GCF_900114715.1	Salibacterium qingdaonense	Salibacterium	Bacillaceae	Firmicutes	engqvist, fierer, gold, pasteur
+GCF_039529735.1	Agromyces neolithicus	Agromyces	Microbacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_000429325.1	Desulfovibrio putealis	Desulfovibrio	Desulfovibrionaceae	Proteobacteria	engqvist, gold, patric, protraits
+GCF_000420305.1	Sphingopyxis baekryungensis	Sphingopyxis	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, pasteur, protraits
+GCF_000421545.1	Agromyces italicus	Agromyces	Microbacteriaceae	Actinobacteria	engqvist, fierer, gold, microbe-directory, pasteur, patric, protraits
+GCF_021228295.1	Agromyces humatus	Agromyces	Microbacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_009749405.1	Agromyces lapidis	Agromyces	Microbacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_039530945.1	Nocardiopsis rosea	Nocardiopsis	Nocardiopsaceae	Actinobacteria	engqvist, fierer, gold
+GCF_029714545.1	Bradyrhizobium pachyrhizi	Bradyrhizobium	Bradyrhizobiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_900176595.1	Aquiflexum balticum	Aquiflexum	Cyclobacteriaceae	Bacteroidetes	engqvist, fierer, gold, pasteur, bergeys
+GCF_030161435.1	Thalassotalea loyana	Thalassotalea	Colwelliaceae	Proteobacteria	fierer, gold
+GCF_013347285.1	Azospirillum oryzae	Azospirillum	Rhodospirillaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_014644535.1	Roseomonas lacus	Roseomonas	Acetobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_001441535.1	Altererythrobacter troitsensis	Altererythrobacter	Erythrobacteraceae	Proteobacteria	fierer, gold
+GCF_010730355.1	Mycobacterium florentinum	Mycobacterium	Mycobacteriaceae	Actinobacteria	bacdive-microa, engqvist, fierer, gold, pasteur
+GCF_000422245.1	Desulfovibrio alkalitolerans	Desulfovibrio	Desulfovibrionaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, protraits
+GCF_001563245.1	Methanobrevibacter olleyae	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, genbank, gold, kegg, methanogen, rrndb
+GCF_001592935.1	Roseivirga echinicomitans	Roseivirga	Flammeovirgaceae	Bacteroidetes	fierer, gold, bergeys
+GCF_000166135.1	Frankia inefficax	Frankia	Frankiaceae	Actinobacteria	genbank, gold, jemma-refseq, kegg, patric, protraits, rrndb
+GCF_019633745.1	Methanofollis formosanus	Methanofollis	Methanomicrobiaceae	Euryarchaeota	engqvist, gold, methanogen
+GCF_017309605.1	Serratia ureilytica	Serratia	Yersiniaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_014202765.1	Silvimonas terrae	Silvimonas	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_013149785.1	Isoptericola halotolerans	Isoptericola	Promicromonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000420725.1	Marinococcus halotolerans	Marinococcus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_054782955.1	Nesterenkonia halophila	Nesterenkonia	Micrococcaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000425645.1	Gaetbulibacter saemankumensis	Gaetbulibacter	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold, pasteur, patric, protraits
+GCF_000263195.1	Emticicia oligotrophica	Emticicia	Cytophagaceae	Bacteroidetes	engqvist, fierer, genbank, gold, jemma-refseq, kegg, microbe-directory, protraits
+GCF_022374875.2	Mycobacterium rufum	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_900112745.1	Shimia marina	Shimia	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_009727155.1	Massilia dura	Massilia	Oxalobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_004322755.1	Massilia albidiflava	Massilia	Oxalobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_004421005.1	Massilia plicata	Massilia	Oxalobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_004341885.1	Shinella granuli	Shinella	Rhizobiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_039529615.1	Kribbella karoonensis	Kribbella	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_054784135.1	Kribbella swartbergensis	Kribbella	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_039539045.1	Streptomyces marokkonensis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900113865.1	Streptosporangium canum	Streptosporangium	Streptosporangiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000826645.1	Psychroserpens mesophilus	Psychroserpens	Flavobacteriaceae	Bacteroidetes	fierer, gold
+GCF_003054025.1	Capnocytophaga leadbetteri	Capnocytophaga	Flavobacteriaceae	Bacteroidetes	bacdive-microa, engqvist, fierer, genbank, gold, rrndb
+GCF_004364635.1	Halospina denitrificans	Halospina		Proteobacteria	engqvist, fierer, gold
+GCF_024171785.1	Goodfellowiella coeruleoviolacea	Goodfellowiella	Pseudonocardiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_001730235.1	Vulcanibacillus modesticaldus	Vulcanibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_000429365.1	Pseudodonghicola xiamenensis	Pseudodonghicola	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold, patric
+GCF_006716765.1	Actinomadura hallensis	Actinomadura	Thermomonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_001431405.1	Pseudoxanthomonas dokdonensis	Pseudoxanthomonas	Xanthomonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_015099595.1	Rhodococcus jialingiae	Rhodococcus	Nocardiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_009392895.1	Natronorubrum aibiense	Natronorubrum	Natrialbaceae	Euryarchaeota	fierer, gold
+GCF_030295955.1	Thalassotalea agarivorans	Thalassotalea	Colwelliaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000014785.1	Alkalilimnicola ehrlichii	Alkalilimnicola	Ectothiorhodospiraceae	Proteobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb
+GCF_000517625.1	Halostagnicola larsenii	Halostagnicola	Natrialbaceae	Euryarchaeota	engqvist, fierer, genbank, gold, jemma-refseq, kegg, rrndb
+GCF_000747075.1	Arenimonas malthae	Arenimonas	Xanthomonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_042683165.1	Virgibacillus halophilus	Virgibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold, pasteur
+GCF_000430805.1	Chitinilyticum aquatile	Chitinilyticum	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold, patric
+GCF_000380505.1	Kaistia granuli	Kaistia	Rhizobiaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, protraits
+GCF_964020785.1	Rhizobacter fulvus	Rhizobacter		Proteobacteria	engqvist, fierer, gold
+GCF_030486595.1	Variovorax ginsengisoli	Variovorax	Comamonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_059568735.1	Dyadobacter ginsengisoli	Dyadobacter	Cytophagaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_001418005.1	Chelatococcus sambhunathii	Chelatococcus	Chelatococcaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000745835.1	Belnapia moabensis	Belnapia	Acetobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_014651595.1	Pseudovibrio japonicus	Pseudovibrio	Rhodobacteraceae	Proteobacteria	fierer, gold
+GCF_009646335.1	Caenimonas koreensis	Caenimonas	Comamonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_025118245.1	Ochrobactrum pseudintermedium	Ochrobactrum	Brucellaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_000337475.1	Haloterrigena limicola	Haloterrigena	Natrialbaceae	Euryarchaeota	fierer, gold, microbe-directory
+GCF_019456675.1	Mycobacterium pallens	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur, rrndb
+GCF_003515705.1	Oceanobacillus profundus	Oceanobacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold, pasteur
+GCF_900108225.1	Thalassococcus halodurans	Thalassococcus	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_018736065.1	Flammeovirga kamogawensis	Flammeovirga	Flammeovirgaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_011683915.1	Pelagibius litoralis	Pelagibius	Rhodospirillaceae	Proteobacteria	fierer, gold
+GCF_023721415.1	Galbibacter mesophilus	Galbibacter	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold, pasteur
+GCF_003149185.1	Sediminitomix flava	Sediminitomix	Flammeovirgaceae	Bacteroidetes	engqvist, fierer, gold, pasteur
+GCF_000988745.2	Moraxella bovoculi	Moraxella	Moraxellaceae	Proteobacteria	bacdive-microa, engqvist, fierer, genbank, gold, kegg, patric, rrndb
+GCF_010731595.1	Mycobacterium seoulense	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_010723225.1	Mycobacterium senuense	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000337735.1	Natronorubrum sulfidifaciens	Natronorubrum	Natrialbaceae	Euryarchaeota	fierer, gold, microbe-directory, protraits
+GCF_022370635.2	Mycobacterium crocinum	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_020148005.1	Modicisalibacter tunisiensis	Modicisalibacter	Halomonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_023227715.1	Methanobacterium alcaliphilum	Methanobacterium	Methanobacteriaceae	Euryarchaeota	amend-shock, engqvist, gold, methanogen
+GCF_000420045.1	Perlucidibaca piscinae	Perlucidibaca	Moraxellaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, protraits
+GCF_000377765.1	Gracilibacillus lacisalsi	Gracilibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold, microbe-directory, patric
+GCF_900115865.1	Donghicola eburneus	Donghicola	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_009749385.1	Agromyces allii	Agromyces	Microbacteriaceae	Actinobacteria	engqvist, fierer, gold, pasteur, bergeys
+GCF_014207435.1	Salirhabdus euzebyi	Salirhabdus	Bacillaceae	Firmicutes	engqvist, fierer, gold, pasteur
+GCF_009936155.1	Chromobacterium haemolyticum	Chromobacterium	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_033472595.1	Methanoculleus receptaculi	Methanoculleus	Methanomicrobiaceae	Euryarchaeota	corkrey, engqvist, gold, methanogen
+GCF_000421525.1	Aestuariimicrobium kwangyangense	Aestuariimicrobium	Propionibacteriaceae	Actinobacteria	engqvist, fierer, gold, microbe-directory, pasteur, patric, protraits
+GCF_000720335.1	Marmoricola aequoreus	Marmoricola	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold, pasteur, bergeys
+GCF_004346645.1	Gulbenkiania mobilis	Gulbenkiania	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_042678665.1	Luteimonas composti	Luteimonas	Xanthomonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_059568765.1	Salinicoccus kunmingensis	Salinicoccus	Staphylococcaceae	Firmicutes	engqvist, fierer, gold
+GCF_001998865.1	Tessaracoccus flavescens	Tessaracoccus	Propionibacteriaceae	Actinobacteria	engqvist, fierer, genbank, gold, kegg, rrndb
+GCF_018802645.1	Paludibacterium yongneupense	Paludibacterium	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000620145.1	Deefgea rivuli	Deefgea	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_004103825.1	Hansschlegelia zhihuaiae	Hansschlegelia	Methylocystaceae	Proteobacteria	engqvist, fierer, gold
+GCF_900110585.1	Aquisalimonas asiatica	Aquisalimonas	Ectothiorhodospiraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_039530285.1	Actinomadura alba	Actinomadura	Thermomonosporaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_007994225.1	Stackebrandtia albiflava	Stackebrandtia	Glycomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900109575.1	Pseudosphingobacterium domesticum	Pseudosphingobacterium	Sphingobacteriaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_900114445.1	Salinicoccus halodurans	Salinicoccus	Staphylococcaceae	Firmicutes	engqvist, fierer, genbank, gold, jemma-refseq, kegg, rrndb
+GCF_038433355.1	Ochrobactrum cytisi	Ochrobactrum	Brucellaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_000993785.3	Streptomyces xiamenensis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, patric, rrndb
+GCF_001646865.1	Rhodococcus kunmingensis	Rhodococcus	Nocardiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000337095.1	Halogeometricum pallidum	Halogeometricum	Haloferacaceae	Euryarchaeota	fierer, gold, microbe-directory, bergeys
+GCF_900129865.1	Virgibacillus chiguensis	Virgibacillus	Bacillaceae	Firmicutes	fierer, gold
+GCF_000298255.1	Solibacillus isronensis	Solibacillus	Planococcaceae	Firmicutes	engqvist, fierer, gold, microbe-directory, patric
+GCF_001277235.1	Cronobacter dublinensis	Cronobacter	Enterobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, microbe-directory, patric, rrndb
+GCF_001277195.1	Cronobacter muytjensii	Cronobacter	Enterobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, pasteur, rrndb
+GCF_041222865.1	Cronobacter turicensis	Cronobacter	Enterobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, microbe-directory, patric, protraits, rrndb
+GCF_001277215.2	Cronobacter malonaticus	Cronobacter	Enterobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, microbe-directory, patric, rrndb
+GCF_000166355.1	Caldicellulosiruptor hydrothermalis	Caldicellulosiruptor	Thermoanaerobacterales Family III. Incertae Sedis	Firmicutes	corkrey, engqvist, fierer, genbank, gold, kegg, microbe-directory, patric, protraits, rrndb
+GCF_000166775.1	Caldicellulosiruptor kronotskyensis	Caldicellulosiruptor	Thermoanaerobacterales Family III. Incertae Sedis	Firmicutes	corkrey, engqvist, fierer, genbank, gold, kegg, microbe-directory, protraits, rrndb
+GCF_039523075.1	Caenispirillum bisanense	Caenispirillum	Rhodospirillaceae	Proteobacteria	fierer, gold
+GCF_001996005.1	Salinivibrio siamensis	Salinivibrio	Vibrionaceae	Proteobacteria	engqvist, fierer, gold
+GCF_900107485.1	Proteiniborus ethanoligenes	Proteiniborus		Firmicutes	engqvist, fierer, gold
+GCF_030814845.1	Azospirillum rugosum	Azospirillum	Rhodospirillaceae	Proteobacteria	engqvist, fierer, gold
+GCF_007992115.1	Aeromicrobium flavum	Aeromicrobium	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold, pasteur, patric
+GCF_000422765.1	Neptunomonas japonica	Neptunomonas	Oceanospirillaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000970285.1	Methanosarcina horonobensis	Methanosarcina	Methanosarcinaceae	Euryarchaeota	engqvist, genbank, gold, jemma-refseq, kegg, methanogen, rrndb
+GCF_038368255.1	Azonexus hydrophilus	Azonexus	Azonexaceae	Proteobacteria	engqvist, fierer, gold, patric, protraits
+GCF_000385175.1	Salinicoccus albus	Salinicoccus	Staphylococcaceae	Firmicutes	engqvist, fierer, gold, microbe-directory
+GCF_900104305.1	Filomicrobium insigne	Filomicrobium	Hyphomicrobiaceae	Proteobacteria	fierer, gold
+GCF_002959855.1	Veillonella denticariosi	Veillonella	Veillonellaceae	Firmicutes	engqvist, fierer, gold, pasteur, patric
+GCF_016863535.1	Verrucosispora lutea	Verrucosispora	Micromonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900102465.1	Thalassobaculum litoreum	Thalassobaculum	Rhodospirillaceae	Proteobacteria	engqvist, fierer, gold
+GCF_002959775.1	Veillonella rogosae	Veillonella	Veillonellaceae	Firmicutes	engqvist, fierer, gold, patric
+GCF_022385335.1	Streptomyces deccanensis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_042433125.1	Roseomonas vinacea	Roseomonas	Acetobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_029525555.1	Cohnella ginsengisoli	Cohnella	Paenibacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_000421825.1	Humibacter albus	Humibacter	Microbacteriaceae	Actinobacteria	engqvist, fierer, gold, microbe-directory, patric, protraits
+GCF_000276805.1	Moritella dasanensis	Moritella	Moritellaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, patric
+GCF_000161995.1	Jonquetella anthropi	Jonquetella	Synergistaceae	Synergistetes	engqvist, fierer, gold, microbe-directory, pasteur, patric, protraits
+GCF_900182875.1	Novosphingobium panipatense	Novosphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_003206135.1	Salinicola salarius	Salinicola	Halomonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_039536785.1	Actinomadura miaoliensis	Actinomadura	Thermomonosporaceae	Actinobacteria	fierer, gold
+GCF_000805385.1	Mycobacterium setense	Mycobacterium	Mycobacteriaceae	Actinobacteria	bacdive-microa, engqvist, fierer, gold
+GCF_031458325.1	Marmoricola bigeumensis	Marmoricola	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold, bergeys
+GCF_039531045.1	Kribbella hippodromi	Kribbella	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000379085.1	Halomicrobium katesii	Halomicrobium	Haloarculaceae	Euryarchaeota	engqvist, fierer, gold, microbe-directory
+GCF_000365025.1	Robiginitomaculum antarcticum	Robiginitomaculum	Hyphomonadaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory
+GCF_900112245.1	Maribacter stanieri	Maribacter	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_900115595.1	Tranquillimonas alkanivorans	Tranquillimonas	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_021290985.1	Rheinheimera soli	Rheinheimera	Chromatiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_001017775.3	Pandoraea thiooxydans	Pandoraea	Burkholderiaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, pasteur, rrndb
+GCF_000420285.1	Simiduia agarivorans	Simiduia	Cellvibrionaceae	Proteobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, patric, protraits, rrndb
+GCF_014645535.1	Silvimonas iriomotensis	Silvimonas	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_014645555.1	Silvimonas amylolytica	Silvimonas	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_039531695.1	Catenulispora yoronensis	Catenulispora	Catenulisporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_003182475.1	Mangrovibacter plantisponsor	Mangrovibacter	Enterobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_042656905.1	Massilia aerilata	Massilia	Oxalobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_016595495.1	Persicirhabdus sediminis	Persicirhabdus	Verrucomicrobiaceae	Verrucomicrobia	engqvist, fierer, gold
+GCF_000374005.1	Kiloniella laminariae	Kiloniella	Kiloniellaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, patric
+GCF_013368775.1	Planomicrobium glaciei	Planomicrobium	Planococcaceae	Firmicutes	engqvist, fierer, gold, patric
+GCF_000426645.1	Nakamurella lactea	Nakamurella	Nakamurellaceae	Actinobacteria	engqvist, fierer, gold, protraits
+GCF_039530625.1	Kribbella sancticallisti	Kribbella	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000269805.1	Actinomyces massiliensis	Actinomyces	Actinomycetaceae	Actinobacteria	engqvist, fierer, gold, microbe-directory, pasteur
+GCF_014645195.1	Novosphingobium indicum	Novosphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer
+GCF_014199335.1	Stakelama sediminis	Stakelama	Sphingomonadaceae	Proteobacteria	engqvist, fierer
+GCF_959600285.1	Veillonella magna	Veillonella	Veillonellaceae	Firmicutes	engqvist, fierer, gold, pasteur
+GCF_021129195.1	Chromobacterium aquaticum	Chromobacterium	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_003426025.1	Paraliobacillus quinghaiensis	Paraliobacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_000359605.1	Gracilibacillus halophilus	Gracilibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold, microbe-directory, patric
+GCF_055385405.1	Geofilum rubicundum	Geofilum	Marinilabiliaceae	Bacteroidetes	fierer, gold
+GCF_000143085.1	Nitrosococcus watsonii	Nitrosococcus	Chromatiaceae	Proteobacteria	genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb
+GCF_042432965.1	Virgibacillus soli	Virgibacillus	Bacillaceae	Firmicutes	engqvist, fierer, pasteur
+GCF_042678485.1	Seohaeicola saemankumensis	Seohaeicola	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_900103695.1	Sediminibacillus halophilus	Sediminibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold, patric
+GCF_004363175.1	Maritalea mobilis	Maritalea	Hyphomicrobiaceae	Proteobacteria	fierer, gold
+GCF_900156675.1	Oleibacter marinus	Oleibacter	Oceanospirillaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_000948975.2	Thalassomonas actiniarum	Thalassomonas	Colwelliaceae	Proteobacteria	fierer, gold, patric
+GCF_028657945.1	Thalassomonas haliotis	Thalassomonas	Colwelliaceae	Proteobacteria	fierer, gold
+GCF_003843875.1	Aquisalibacillus elongatus	Aquisalibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_963853645.1	Mycobacterium riyadhense	Mycobacterium	Mycobacteriaceae	Actinobacteria	bacdive-microa, engqvist, fierer, gold
+GCF_012163145.1	Roseomonas frigidaquae	Roseomonas	Acetobacteraceae	Proteobacteria	fierer, gold
+GCF_001571385.1	Methanofollis ethanolicus	Methanofollis	Methanomicrobiaceae	Euryarchaeota	gold, methanogen
+GCF_030814895.1	Azospirillum picis	Azospirillum	Rhodospirillaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000350085.1	Mesorhizobium metallidurans	Mesorhizobium	Phyllobacteriaceae	Proteobacteria	fierer, gold, microbe-directory, protraits
+GCF_055380485.1	Methanobacterium flexile	Methanobacterium	Methanobacteriaceae	Euryarchaeota	corkrey, engqvist, gold, methanogen
+GCF_900100975.1	Methylophilus rhizosphaerae	Methylophilus	Methylophilaceae	Proteobacteria	fierer, gold
+GCF_000428845.1	Dyadobacter alkalitolerans	Dyadobacter	Cytophagaceae	Bacteroidetes	engqvist, fierer, gold, patric
+GCF_039531875.1	Sinomonas flava	Sinomonas	Micrococcaceae	Actinobacteria	fierer, gold
+GCF_001998325.1	Nocardiopsis sinuspersici	Nocardiopsis	Nocardiopsaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900167155.1	Enterovibrio nigricans	Enterovibrio	Vibrionaceae	Proteobacteria	engqvist, fierer, gold, patric
+GCF_900176415.1	Cellulophaga tyrosinoxydans	Cellulophaga	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_013408535.1	Actinopolymorpha cephalotaxi	Actinopolymorpha	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold
+GCF_004362515.1	Alloactinosynnema album	Alloactinosynnema	Pseudonocardiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900114385.1	Geodermatophilus ruber	Geodermatophilus	Geodermatophilaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000337495.1	Haloterrigena salina	Haloterrigena	Natrialbaceae	Euryarchaeota	engqvist, fierer, gold, microbe-directory, protraits
+GCF_000772535.1	Chelonobacter oris	Chelonobacter	Pasteurellaceae	Proteobacteria	bacdive-microa, engqvist, fierer, gold
+GCF_039537125.1	Streptomyces plumbiresistens	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_019645815.1	Mycobacterium heraklionense	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, gold
+GCF_029854435.1	Rhizobium petrolearium	Rhizobium	Rhizobiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000775615.1	Pontibacillus litoralis	Pontibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_004361835.1	Stakelama pacifica	Stakelama	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_001562415.1	Thermotalea metallivorans	Thermotalea	Clostridiaceae	Firmicutes	corkrey, fierer, gold, patric
+GCF_000445105.1	Sphingobium lactosutens	Sphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, protraits
+GCF_900102885.1	Paracoccus chinensis	Paracoccus	Rhodobacteraceae	Proteobacteria	fierer, gold
+GCF_900167525.1	Krasilnikoviella flava	Krasilnikoviella	Promicromonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_039523175.1	Dokdonella soli	Dokdonella	Rhodanobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_900167435.1	Marinactinospora thermotolerans	Marinactinospora	Nocardiopsaceae	Actinobacteria	engqvist, fierer, gold
+GCF_003987335.1	Aliidiomarina maris	Aliidiomarina	Idiomarinaceae	Proteobacteria	engqvist, fierer, gold
+GCF_001277175.1	Cronobacter universalis	Cronobacter	Enterobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, microbe-directory, patric, rrndb
+GCF_000230995.2	Mesorhizobium australicum	Mesorhizobium	Phyllobacteriaceae	Proteobacteria	fierer, genbank, gold, kegg, microbe-directory, protraits, rrndb
+GCF_010994085.1	Gracilibacillus saliphilus	Gracilibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_014203155.1	Shinella fusca	Shinella	Rhizobiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_042655085.1	Massilia niabensis	Massilia	Oxalobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_001418325.1	Streptomyces atriruber	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_001419745.1	Streptomyces silaceus	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold, rrndb
+GCF_900105445.1	Paraoerskovia marina	Paraoerskovia	Cellulomonadaceae	Actinobacteria	engqvist, fierer, gold
+GCF_042675985.1	Oceanobacillus locisalsi	Oceanobacillus	Bacillaceae	Firmicutes	engqvist, fierer
+GCF_020150375.1	Hafnia paralvei	Hafnia	Hafniaceae	Proteobacteria	engqvist, fierer, genbank, gold, pasteur
+GCF_016907695.1	Actinokineospora baliensis	Actinokineospora	Pseudonocardiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_016863575.1	Verrucosispora sediminis	Verrucosispora	Micromonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900102135.1	Microvirga guangxiensis	Microvirga	Methylobacteriaceae	Proteobacteria	fierer, gold
+GCF_000620785.1	Pseudonocardia acaciae	Pseudonocardia	Pseudonocardiaceae	Actinobacteria	engqvist, fierer, gold, pasteur
+GCF_039543405.1	Streptomyces thinghirensis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer
+GCF_000025965.1	Aromatoleum aromaticum	Aromatoleum	Rhodocyclaceae	Proteobacteria	amend-shock, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, protraits, rrndb, silva
+GCF_009363135.1	Kosakonia arachidis	Kosakonia	Enterobacteriaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_900110105.1	Mucilaginibacter gossypiicola	Mucilaginibacter	Sphingobacteriaceae	Bacteroidetes	fierer, gold
+GCF_017569325.2	Mucilaginibacter gossypii	Mucilaginibacter	Sphingobacteriaceae	Bacteroidetes	fierer, gold
+GCF_900114455.1	Halogranum rubrum	Halogranum	Haloferacaceae	Euryarchaeota	fierer, gold, bergeys
+GCF_900156425.1	Haladaptatus litoreus	Haladaptatus	Halobacteriaceae	Euryarchaeota	fierer, gold, bergeys
+GCF_900115785.1	Halogeometricum limi	Halogeometricum	Haloferacaceae	Euryarchaeota	fierer, gold
+GCF_003355475.1	Brachybacterium saurashtrense	Brachybacterium	Dermabacteraceae	Actinobacteria	engqvist, fierer, genbank, gold
+GCF_050971785.1	Actinomadura scrupuli	Actinomadura	Thermomonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000429485.1	Aliagarivorans marinus	Aliagarivorans	Alteromonadaceae	Proteobacteria	engqvist, fierer, gold, patric
+GCF_000429505.1	Aliagarivorans taiwanensis	Aliagarivorans	Alteromonadaceae	Proteobacteria	engqvist, fierer, gold, patric
+GCF_010994055.1	Gracilibacillus thailandensis	Gracilibacillus	Bacillaceae	Firmicutes	engqvist, fierer
+GCF_021129235.1	Kineosporia mesophila	Kineosporia	Kineosporiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_016862935.1	Plantactinospora mayteni	Plantactinospora	Micromonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_006874475.1	Microbispora hainanensis	Microbispora	Streptosporangiaceae	Actinobacteria	engqvist, fierer
+GCF_016415625.1	Shimwellia pseudoproteus	Shimwellia	Enterobacteriaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_963677365.1	Marinifilum fragile	Marinifilum	Marinifilaceae	Bacteroidetes	fierer, gold
+GCF_016881405.1	Deefgea chitinilytica	Deefgea	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_900109685.1	Chitinophaga rupis	Chitinophaga	Chitinophagaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_004341205.1	Thermolongibacillus altinsuensis	Thermolongibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_900101075.1	Salinicoccus qingdaonensis	Salinicoccus	Staphylococcaceae	Firmicutes	engqvist, fierer, gold
+GCF_040580765.1	Lentibacter algarum	Lentibacter	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_004363235.1	Dongia mobilis	Dongia	Rhodospirillaceae	Proteobacteria	fierer, gold
+GCF_003259935.1	Anoxybacillus vitaminiphilus	Anoxybacillus	Bacillaceae	Firmicutes	fierer, gold
+GCF_004362405.1	Kinneretia asaccharophila	Kinneretia	Comamonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_003663795.1	Actinokineospora cianjurensis	Actinokineospora	Pseudonocardiaceae	Actinobacteria	fierer, gold
+GCF_006715095.1	Yimella lutea	Yimella	Dermacoccaceae	Actinobacteria	engqvist, fierer, gold
+GCF_042664895.1	Iodobacter arcticus	Iodobacter	Chromobacteriaceae	Proteobacteria	engqvist, fierer, pasteur
+GCF_900107605.1	Acidovorax soli	Acidovorax	Comamonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_013407835.1	Agromyces atrinae	Agromyces	Microbacteriaceae	Actinobacteria	engqvist, fierer
+GCF_003634275.1	Orbus hercynius	Orbus	Orbaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000176035.2	Mesorhizobium opportunistum	Mesorhizobium	Phyllobacteriaceae	Proteobacteria	fierer, genbank, gold, kegg, microbe-directory, patric, protraits, rrndb
+GCF_016865585.1	Jeongeupia naejangsanensis	Jeongeupia	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_900156635.1	Neptunomonas antarctica	Neptunomonas	Oceanospirillaceae	Proteobacteria	engqvist, fierer, gold
+GCF_900116205.1	Halostagnicola kamekurae	Halostagnicola	Natrialbaceae	Euryarchaeota	engqvist, fierer, gold
+GCF_003201605.1	Streptohalobacillus salinus	Streptohalobacillus	Bacillaceae	Firmicutes	bacdive-microa, engqvist, fierer, gold
+GCF_900110695.1	Virgibacillus subterraneus	Virgibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_039531485.1	Dactylosporangium maewongense	Dactylosporangium	Micromonosporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900108095.1	Natronorubrum sediminis	Natronorubrum	Natrialbaceae	Euryarchaeota	fierer, gold
+GCF_900104175.1	Lentzea jiangxiensis	Lentzea	Pseudonocardiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_002936955.1	Oceanisphaera arctica	Oceanisphaera	Aeromonadaceae	Proteobacteria	fierer, patric
+GCF_002104455.1	Colwellia chukchiensis	Colwellia	Colwelliaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000757425.2	Tatumella morbirosei	Tatumella	Erwiniaceae	Proteobacteria	engqvist, fierer, gold, patric
+GCF_004352845.1	Luteimonas terricola	Luteimonas	Xanthomonadaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_029223485.1	Streptomyces coacervatus	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_963575615.1	Listeria rocourtiae	Listeria	Listeriaceae	Firmicutes	engqvist, fierer, gold, pasteur, patric
+GCF_003402235.1	Parahaliea mediterranea	Parahaliea	Halieaceae	Proteobacteria	engqvist, fierer, gold
+GCF_003710965.1	Brevibacillus nitrificans	Brevibacillus	Paenibacillaceae	Firmicutes	engqvist, fierer
+GCF_039537145.1	Streptomyces shaanxiensis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer
+GCF_039543425.1	Streptomyces youssoufiensis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_028553785.1	Paracoccus fistulariae	Paracoccus	Rhodobacteraceae	Proteobacteria	fierer, gold
+GCF_013377855.1	Undibacterium oligocarboniphilum	Undibacterium	Oxalobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_046195335.1	Methanospirillum lacunae	Methanospirillum	Methanospirillaceae	Euryarchaeota	engqvist, fierer, gold, methanogen
+GCF_900102215.1	Fontibacillus panacisegetis	Fontibacillus	Paenibacillaceae	Firmicutes	engqvist, fierer, gold, pasteur
+GCF_054782935.1	Nesterenkonia suensis	Nesterenkonia	Micrococcaceae	Actinobacteria	engqvist, fierer
+GCF_046614825.1	Streptomyces nanhaiensis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer, gold
+GCF_003385775.1	Parasphingopyxis lamellibrachiae	Parasphingopyxis	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_040105315.1	Pseudonocardia tropica	Pseudonocardia	Pseudonocardiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_042430095.1	Chromobacterium piscinae	Chromobacterium	Chromobacteriaceae	Proteobacteria	engqvist, fierer, gold
+GCF_013408795.1	Spinactinospora alkalitolerans	Spinactinospora	Nocardiopsaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000732195.1	Rhizobium vignae	Rhizobium	Rhizobiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_014199205.1	Roseomonas pecuniae	Roseomonas	Acetobacteraceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_003386795.1	Thermasporomyces composti	Thermasporomyces	Nocardioidaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900108165.1	Halobellus limi	Halobellus	Haloferacaceae	Euryarchaeota	fierer, gold
+GCF_039539445.1	Salinactinospora qingdaonensis	Salinactinospora	Nocardiopsaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900099675.1	Myroides phaeus	Myroides	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_020885515.1	Candidatus Atelocyanobacterium thalassa	Candidatus Atelocyanobacterium	Aphanothecaceae	Cyanobacteria	genbank, gold, jemma-refseq, kegg, protraits, rrndb
+GCF_014202905.1	Chitinivorax tropicus	Chitinivorax		Proteobacteria	engqvist, fierer
+GCF_000213655.1	Alteromonas naphthalenivorans	Alteromonas	Alteromonadaceae	Proteobacteria	genbank, gold, kegg, protraits, rrndb
+GCF_042676145.1	Methylophilus glucosoxydans	Methylophilus	Methylophilaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000260985.4	Methylophaga nitratireducenticrescens	Methylophaga	Piscirickettsiaceae	Proteobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, patric, protraits, rrndb
+GCF_009914475.1	Acinetobacter indicus	Acinetobacter	Moraxellaceae	Proteobacteria	engqvist, fierer, genbank, gold, microbe-directory, pasteur, protraits
+GCF_010731695.1	Mycobacterium litorale	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer, genbank, gold, kegg, rrndb
+GCF_002216005.1	Natranaerobius trueperi	Natranaerobius	Natranaerobiaceae	Firmicutes	corkrey, engqvist, fierer, gold
+GCF_900114435.1	Halomicrobium zhouii	Halomicrobium	Haloarculaceae	Euryarchaeota	fierer, gold
+GCF_039539505.1	Gibbsiella dentisursi	Gibbsiella	Enterobacteriaceae	Proteobacteria	engqvist, fierer
+GCF_001294205.1	Amantichitinum ursilacus	Amantichitinum	Neisseriaceae	Proteobacteria	engqvist, fierer, gold, pasteur
+GCF_008124865.1	Fodinibius salinus	Fodinibius	Balneolaceae	Balneolaeota	fierer, gold
+GCF_034627025.1	Microvirga lotononidis	Microvirga	Methylobacteriaceae	Proteobacteria	fierer, gold, protraits
+GCF_000709345.1	Polaromonas glacialis	Polaromonas	Comamonadaceae	Proteobacteria	engqvist, fierer
+GCF_000214725.1	Methanobacterium paludis	Methanobacterium	Methanobacteriaceae	Euryarchaeota	corkrey, engqvist, genbank, gold, jemma-refseq, kegg, protraits, rrndb
+GCF_900129685.1	Thalassobius maritimus	Thalassobius	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_009789595.1	Massilia flava	Massilia	Oxalobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_000214155.1	Mycobacterium sinense	Mycobacterium	Mycobacteriaceae	Actinobacteria	genbank, gold, jemma-refseq, kegg, protraits, rrndb
+GCF_000331535.1	Fulvivirga imtechensis	Fulvivirga	Flammeovirgaceae	Bacteroidetes	fierer, gold, patric
+GCF_043197915.1	Actinomadura geliboluensis	Actinomadura	Thermomonosporaceae	Actinobacteria	engqvist, fierer
+GCF_003217475.1	Williamsia limnetica	Williamsia	Williamsiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_002886185.1	Salipaludibacillus neizhouensis	Salipaludibacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_001938985.1	Rhizobium taibaishanense	Rhizobium	Rhizobiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_042655885.1	Streptomyces chlorus	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer
+GCF_014645795.1	Longimycelium tulufanense	Longimycelium	Pseudonocardiaceae	Actinobacteria	engqvist, fierer
+GCF_003688555.1	Eilatimonas milleporae	Eilatimonas		Proteobacteria	engqvist, fierer, gold
+GCF_039541515.1	Variovorax defluvii	Variovorax	Comamonadaceae	Proteobacteria	engqvist, fierer
+GCF_042676185.1	Tropicimonas aquimaris	Tropicimonas	Rhodobacteraceae	Proteobacteria	fierer, gold
+GCF_000807855.2	Flammeovirga pacifica	Flammeovirga	Flammeovirgaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_016862555.1	Asanoa siamensis	Asanoa	Micromonosporaceae	Actinobacteria	engqvist, fierer
+GCF_003337485.1	Saliterribacillus persicus	Saliterribacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_900113025.1	Alteribacillus iranensis	Alteribacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_002886255.1	Alteribacillus bidgolensis	Alteribacillus	Bacillaceae	Firmicutes	engqvist, fierer, gold
+GCF_002869505.1	Halioglobus japonicus	Halioglobus	Halieaceae	Proteobacteria	engqvist, fierer, genbank, kegg, rrndb
+GCF_014652275.1	Halioglobus pacificus	Halioglobus	Halieaceae	Proteobacteria	engqvist, fierer, genbank, gold, rrndb
+GCF_001751365.1	Streptomyces abyssalis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer
+GCF_900101615.1	Belnapia rosea	Belnapia	Acetobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_028401405.1	Streptomyces heilongjiangensis	Streptomyces	Streptomycetaceae	Actinobacteria	engqvist, fierer
+GCF_003987015.1	Aliidiomarina taiwanensis	Aliidiomarina	Idiomarinaceae	Proteobacteria	fierer, gold
+GCF_008831155.1	Gulosibacter chungangensis	Gulosibacter	Microbacteriaceae	Actinobacteria	engqvist, fierer
+GCF_039539745.1	Oceanisphaera sediminis	Oceanisphaera	Aeromonadaceae	Proteobacteria	engqvist, fierer
+GCF_007830035.1	Luteimonas cucumeris	Luteimonas	Xanthomonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_007004645.1	Aliiroseovarius halocynthiae	Aliiroseovarius	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_900110875.1	Pseudovibrio axinellae	Pseudovibrio	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_900102905.1	Albidovulum xiamenense	Albidovulum	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_021044685.1	Bradyrhizobium daqingense	Bradyrhizobium	Bradyrhizobiaceae	Proteobacteria	fierer, gold
+GCF_900101095.1	Actinopolyspora mzabensis	Actinopolyspora	Actinopolysporaceae	Actinobacteria	engqvist, fierer, gold
+GCF_900129875.1	Marivita hallyeonensis	Marivita	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_000349205.1	Methylophaga lonarensis	Methylophaga	Piscirickettsiaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory
+GCF_900115165.1	Roseovarius lutimaris	Roseovarius	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_003534205.1	Listeria weihenstephanensis	Listeria	Listeriaceae	Firmicutes	engqvist, fierer, genbank, gold, patric
+GCF_900188335.1	Tropicimonas sediminicola	Tropicimonas	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_003337425.1	Extensimonas vulgaris	Extensimonas	Comamonadaceae	Proteobacteria	fierer, gold
+GCF_009684715.1	Otariodibacter oris	Otariodibacter	Pasteurellaceae	Proteobacteria	bacdive-microa, engqvist, fierer
+GCF_900108245.1	Bosea lathyri	Bosea	Bradyrhizobiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_900102525.1	Bosea robiniae	Bosea	Bradyrhizobiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_042675525.1	Actinomadura sediminis	Actinomadura	Thermomonosporaceae	Actinobacteria	engqvist, fierer
+GCF_014652315.1	Jeongeupia chitinilytica	Jeongeupia	Chromobacteriaceae	Proteobacteria	engqvist, fierer
+GCF_900113275.1	Neptunomonas qingdaonensis	Neptunomonas	Oceanospirillaceae	Proteobacteria	fierer, gold
+GCF_055397825.1	Methanothermobacter crinale	Methanothermobacter	Methanobacteriaceae	Euryarchaeota	corkrey, engqvist, methanogen
+GCF_043575855.1	Kutzneria buriramensis	Kutzneria	Pseudonocardiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_054779695.1	Nocardiopsis coralliicola	Nocardiopsis	Nocardiopsaceae	Actinobacteria	engqvist, fierer
+GCF_043677095.1	Natronococcus roseus	Natronococcus	Natrialbaceae	Euryarchaeota	engqvist, fierer
+GCF_049103755.1	Aquihabitans daechungensis	Aquihabitans	Iamiaceae	Actinobacteria	engqvist, fierer
+GCF_900103975.1	Geodermatophilus soli	Geodermatophilus	Geodermatophilaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000093025.1	Methylotenera versatilis	Methylotenera	Methylophilaceae	Proteobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, patric, protraits, rrndb
+GCF_022370835.2	Mycobacterium parakoreense	Mycobacterium	Mycobacteriaceae	Actinobacteria	engqvist, fierer
+GCF_001050295.1	Listeria fleischmannii	Listeria	Listeriaceae	Firmicutes	engqvist, fierer, gold, patric, protraits
+GCF_022879615.1	Caballeronia grimmiae	Caballeronia	Burkholderiaceae	Proteobacteria	engqvist, fierer, gold
+GCF_042681465.1	Pasteurella oralis	Pasteurella	Pasteurellaceae	Proteobacteria	engqvist, fierer
+GCF_014202315.1	Thermocatellispora tengchongensis	Thermocatellispora	Streptosporangiaceae	Actinobacteria	engqvist, fierer
+GCF_900110135.1	Pseudorhodobacter antarcticus	Pseudorhodobacter	Rhodobacteraceae	Proteobacteria	fierer, gold
+GCF_000224715.1	Serinicoccus profundi	Serinicoccus	Intrasporangiaceae	Actinobacteria	engqvist, fierer, gold, microbe-directory
+GCF_039542345.1	Orbus sasakiae	Orbus	Orbaceae	Proteobacteria	engqvist, fierer
+GCF_022968135.1	Rhizobium tarimense	Rhizobium	Rhizobiaceae	Proteobacteria	fierer, gold
+GCF_000312665.1	Rhizobium mesoamericanum	Rhizobium	Rhizobiaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, protraits
+GCF_001046645.1	Sphingobium czechense	Sphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_002102265.1	Mycobacterium longobardum	Mycobacterium	Mycobacteriaceae	Actinobacteria	bacdive-microa, engqvist, fierer
+GCF_900188235.1	Lutibacter agarilyticus	Lutibacter	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_002959935.1	Veillonella tobetsuensis	Veillonella	Veillonellaceae	Firmicutes	fierer, gold, patric
+GCF_900113695.1	Albimonas pacifica	Albimonas	Rhodobacteraceae	Proteobacteria	fierer, gold
+GCF_003351175.1	Rhizobium grahamii	Rhizobium	Rhizobiaceae	Proteobacteria	engqvist, fierer, gold, microbe-directory, pasteur, protraits
+GCF_021403115.1	Sphingobium sufflavum	Sphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer
+GCF_004341245.1	Plasticicumulans lactativorans	Plasticicumulans	Competibacteraceae	Proteobacteria	engqvist, fierer
+GCF_014196425.1	Hansschlegelia beijingensis	Hansschlegelia	Methylocystaceae	Proteobacteria	engqvist, fierer
+GCF_030296575.1	Paraoerskovia sediminicola	Paraoerskovia	Cellulomonadaceae	Actinobacteria	engqvist, fierer
+GCF_900119185.1	Sinomicrobium oceani	Sinomicrobium	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold
+GCF_000211815.1	Moorea producens	Moorea	Oscillatoriaceae	Cyanobacteria	genbank, gold, kegg, protraits, rrndb
+GCF_000296695.1	Rheinheimera nanhaiensis	Rheinheimera	Chromatiaceae	Proteobacteria	fierer, gold, microbe-directory
+GCF_001277255.1	Cronobacter condimenti	Cronobacter	Enterobacteriaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, microbe-directory, patric, rrndb
+GCF_030344935.1	Arenitalea lutea	Arenitalea	Flavobacteriaceae	Bacteroidetes	fierer, gold, protraits
+GCF_004216715.1	Cecembia calidifontis	Cecembia	Cyclobacteriaceae	Bacteroidetes	engqvist, fierer
+GCF_900111545.1	Oceanicella actignis	Oceanicella	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_000600005.1	Snodgrassella alvi	Snodgrassella	Neisseriaceae	Proteobacteria	bacdive-microa, engqvist, fierer, genbank, gold, jemma-refseq, kegg, patric, rrndb
+GCF_042665075.1	Hirschia litorea	Hirschia	Hyphomonadaceae	Proteobacteria	fierer, gold
+GCF_000264495.1	Thermogladius calderae	Thermogladius	Desulfurococcaceae	Crenarchaeota	genbank, gold, jemma-refseq, kegg, microbe-directory, protraits, rrndb
+GCF_900112525.1	Geodermatophilus taihuensis	Geodermatophilus	Geodermatophilaceae	Actinobacteria	engqvist, fierer, gold
+GCF_009649735.1	Salinibacillus xinjiangensis	Salinibacillus	Bacillaceae	Firmicutes	fierer
+GCF_900108505.1	Halopenitus malekzadehii	Halopenitus	Halorubraceae	Euryarchaeota	fierer, gold
+GCF_042677145.1	Paraperlucidibaca wandonensis	Paraperlucidibaca	Moraxellaceae	Proteobacteria	engqvist, fierer
+GCF_054777235.1	Humibacter antri	Humibacter	Microbacteriaceae	Actinobacteria	engqvist, fierer
+GCF_013409065.1	Spelaeicoccus albus	Spelaeicoccus	Brevibacteriaceae	Actinobacteria	engqvist, fierer
+GCF_003003255.1	Pseudoruegeria haliotis	Pseudoruegeria	Rhodobacteraceae	Proteobacteria	engqvist, fierer, gold
+GCF_014196455.1	Kaistia hirudinis	Kaistia	Rhizobiaceae	Proteobacteria	engqvist, fierer, pasteur
+GCF_900182705.1	Gracilimonas mengyeensis	Gracilimonas	Balneolaceae	Balneolaeota	engqvist, fierer, gold
+GCF_013410565.1	Streptomonospora nanhaiensis	Streptomonospora	Nocardiopsaceae	Actinobacteria	engqvist, fierer
+GCF_054778995.1	Streptomonospora sediminis	Streptomonospora	Nocardiopsaceae	Actinobacteria	engqvist, fierer
+GCF_039543885.1	Rothia endophytica	Rothia	Micrococcaceae	Actinobacteria	engqvist, fierer
+GCF_000445125.1	Novosphingobium lindaniclasticum	Novosphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_001046655.1	Sphingobium baderi	Sphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer, genbank, gold, kegg, microbe-directory, protraits, rrndb
+GCF_014202935.1	Rehaibacterium terrae	Rehaibacterium	Xanthomonadaceae	Proteobacteria	engqvist, fierer
+GCF_900156495.1	Williamsia sterculiae	Williamsia	Williamsiaceae	Actinobacteria	engqvist, fierer, gold
+GCF_000427335.1	Winogradskyella psychrotolerans	Winogradskyella	Flavobacteriaceae	Bacteroidetes	engqvist, fierer, gold, microbe-directory, pasteur, patric, bergeys
+GCF_029007355.1	Methanobrevibacter boviskoreani	Methanobrevibacter	Methanobacteriaceae	Euryarchaeota	engqvist, fierer, gold, methanogen
+GCF_000359745.1	Rhizobium freirei	Rhizobium	Rhizobiaceae	Proteobacteria	fierer, gold, microbe-directory, patric, protraits
+GCF_000576575.1	Intrasporangium chromatireducens	Intrasporangium	Intrasporangiaceae	Actinobacteria	engqvist, fierer, gold, patric
+GCF_000603945.1	Actinotalea ferrariae	Actinotalea	Cellulomonadaceae	Actinobacteria	fierer, gold
+GCF_014197035.1	Sphingobium scionense	Sphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_001046635.1	Novosphingobium barchaimii	Novosphingobium	Sphingomonadaceae	Proteobacteria	engqvist, fierer, gold
+GCF_000503895.1	Hyphomicrobium nitrativorans	Hyphomicrobium	Hyphomicrobiaceae	Proteobacteria	engqvist, fierer, genbank, gold, jemma-refseq, kegg, microbe-directory, patric, rrndb
+GCF_001017125.1	Methanoculleus sediminis	Methanoculleus	Methanomicrobiaceae	Euryarchaeota	gold, methanogen

@@ -1,0 +1,3 @@
+comparison,n,n_curated_pos,n_madin_pos,raw_agreement,cohens_kappa,curated_pos_madin_neg,curated_neg_madin_pos
+curated acceptor_oxygen vs Madin O2-capable (aerobe/facultative/microaerophile),214,94,104,0.8598,0.7187,10,20
+curated acceptor_oxygen vs Madin strict aerobe only,214,94,78,0.7850,0.5555,31,15

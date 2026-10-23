@@ -1,0 +1,97 @@
+{
+  "model": "random forest (RedoxKO procedure, src/143_final_rf.py)",
+  "n_added_with_features": 546,
+  "added_positives": {
+    "acceptor_nitrate": 457,
+    "acceptor_CO2_methanogen_acetogen": 36
+  },
+  "training_positives": {
+    "acceptor_nitrate": 102,
+    "acceptor_CO2_methanogen_acetogen": 75
+  },
+  "newspecies": {
+    "primary100:acceptor_nitrate": {
+      "n_tests": 57,
+      "n_pos": 17,
+      "n_papers": 56,
+      "auroc_RF": 0.8448529411764706,
+      "auroc_Bclean_RF": 0.6426470588235293,
+      "mcc_RF": 0.5471026110048515,
+      "mcc_Bclean_RF": 0.2120692376396396,
+      "d_auroc": -0.20220588235294124,
+      "d_auroc_ci": [
+        -0.3428354759497328,
+        -0.06684793345977572
+      ],
+      "d_mcc": -0.3350333733652119,
+      "d_mcc_ci": [
+        -0.6231046753845498,
+        -0.03120830433447103
+      ]
+    },
+    "primary100:acceptor_CO2_methanogen_acetogen": {
+      "n_tests": 5,
+      "n_pos": 3,
+      "n_papers": 5,
+      "auroc_RF": 1.0,
+      "auroc_Bclean_RF": 1.0,
+      "mcc_RF": 0.6123724356957946,
+      "mcc_Bclean_RF": 0.6666666666666666,
+      "d_auroc": 0.0,
+      "d_auroc_ci": [
+        0.0,
+        0.0
+      ],
+      "d_mcc": 0.05429423097087205,
+      "d_mcc_ci": [
+        -0.6666666666666666,
+        1.0
+      ]
+    },
+    "withheld43:acceptor_nitrate": {
+      "n_tests": 15,
+      "n_pos": 4,
+      "n_papers": 15,
+      "auroc_RF": 0.75,
+      "auroc_Bclean_RF": 0.7272727272727272,
+      "mcc_RF": 0.6504436355879909,
+      "mcc_Bclean_RF": 0.2618924633082486,
+      "d_auroc": -0.022727272727272818,
+      "d_auroc_ci": [
+        -0.4166666666666667,
+        0.388888888888889
+      ],
+      "d_mcc": -0.3885511722797423,
+      "d_mcc_ci": [
+        -0.7817821097640076,
+        0.2721655269759087
+      ]
+    },
+    "withheld43:acceptor_CO2_methanogen_acetogen": {
+      "n_tests": 1,
+      "note": "too few tests or one class only"
+    }
+  },
+  "cv_genus": {
+    "acceptor_nitrate": {
+      "auprc_RF": 0.6882855286195917,
+      "auprc_Bclean_RF": 0.671348372941853,
+      "d_auprc": -0.01693715567773868,
+      "d_auprc_ci": [
+        -0.07993601490297177,
+        0.04152545241019597
+      ],
+      "non_inferior_margin_-0.02": false
+    },
+    "acceptor_CO2_methanogen_acetogen": {
+      "auprc_RF": 0.8704076308092502,
+      "auprc_Bclean_RF": 0.8776120535353392,
+      "d_auprc": 0.00720442272608901,
+      "d_auprc_ci": [
+        -0.03232693405733229,
+        0.040528067719742794
+      ],
+      "non_inferior_margin_-0.02": false
+    }
+  }
+}

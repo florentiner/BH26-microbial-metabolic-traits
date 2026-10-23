@@ -1,0 +1,9 @@
+KO,enzyme,prevalence_in_O2_capable,prevalence_in_anaerobes,difference
+K02275,aa3 cytochrome c oxidase (coxB),0.731,0.027,0.703
+K02274,aa3 cytochrome c oxidase (coxA),0.654,0.027,0.627
+K02276,aa3 cytochrome c oxidase (coxC),0.615,0.027,0.588
+K00406,cbb3 oxidase (ccoP),0.663,0.109,0.554
+K00404,cbb3 oxidase (ccoN),0.596,0.073,0.523
+K00405,cbb3 oxidase (ccoO),0.596,0.118,0.478
+K00425,cytochrome bd (cydA),0.683,0.455,0.228
+K00426,cytochrome bd (cydB),0.615,0.418,0.197

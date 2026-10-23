@@ -1,0 +1,77 @@
+{
+  "genomes": 170,
+  "pairs": 835,
+  "categories": [
+    "acceptor_CO2_methanogen_acetogen",
+    "acceptor_nitrate",
+    "acceptor_oxygen",
+    "acceptor_sulfate",
+    "acceptor_sulfur"
+  ],
+  "macro_auroc_RedoxKO": 0.9928404030528091,
+  "macro_auroc_METABOLIC": 0.8302783733253658,
+  "d_macro_auroc": 0.16256202972744327,
+  "d_macro_auroc_ci": [
+    0.13197539814430276,
+    0.18306019893540557
+  ],
+  "success": true,
+  "macro_mcc_RedoxKO": 0.8768072323652779,
+  "macro_mcc_METABOLIC": 0.5607367894252376,
+  "d_macro_mcc": 0.3160704429400402,
+  "d_macro_mcc_ci": [
+    0.17949864931192067,
+    0.4110880775217619
+  ],
+  "sens_R": 0.8712121212121212,
+  "spec_R": 0.9877408056042032,
+  "sens_M": 0.7689393939393939,
+  "spec_M": 0.9001751313485113,
+  "per_category": [
+    {
+      "category": "acceptor_CO2_methanogen_acetogen",
+      "n": 170,
+      "pos": 35,
+      "auroc_R": 1.0,
+      "auroc_M": 0.97,
+      "mcc_R": 0.982,
+      "mcc_M": 0.875
+    },
+    {
+      "category": "acceptor_nitrate",
+      "n": 170,
+      "pos": 100,
+      "auroc_R": 0.979,
+      "auroc_M": 0.828,
+      "mcc_R": 0.702,
+      "mcc_M": 0.659
+    },
+    {
+      "category": "acceptor_oxygen",
+      "n": 155,
+      "pos": 98,
+      "auroc_R": 0.999,
+      "auroc_M": 0.953,
+      "mcc_R": 0.945,
+      "mcc_M": 0.903
+    },
+    {
+      "category": "acceptor_sulfate",
+      "n": 170,
+      "pos": 5,
+      "auroc_R": 1.0,
+      "auroc_M": 0.879,
+      "mcc_R": 0.892,
+      "mcc_M": 0.29
+    },
+    {
+      "category": "acceptor_sulfur",
+      "n": 170,
+      "pos": 26,
+      "auroc_R": 0.986,
+      "auroc_M": 0.521,
+      "mcc_R": 0.864,
+      "mcc_M": 0.076
+    }
+  ]
+}

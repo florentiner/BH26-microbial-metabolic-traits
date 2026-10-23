@@ -1,0 +1,1508 @@
+[
+ {
+  "species": "Sabulicella flocculans",
+  "strain": "DSY-14T",
+  "genus": "Sabulicella",
+  "refseq_accession": "GCF_045449635.1",
+  "year_described": 2026,
+  "description_reference": "Jiang A, Du X, Liu Y, Jiao D, Chen H, Wang X, Zhang Y, Wang S, Li W, Zeng H, Huang Y, Qiu D (2026). Sabulicella flocculans sp. nov., a Floc-Forming Bacterium of the Genus Sabulicella Isolated from Activated Sludge. Current microbiology 83(6):295. doi:10.1007/s00284-026-04850-0",
+  "description_url": "https://doi.org/10.1007/s00284-026-04850-0",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41961310/"
+  ],
+  "oxygen_relationship": "A novel Gram-stain-negative, cocci-to-oval-shaped, non-sporeforming, floc-forming, aerobic bacterial strain DSY-14T, was isolated from a wastewater treatment plant located in Shenzhen city, China.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth)",
+    "quote": "A novel Gram-stain-negative, cocci-to-oval-shaped, non-sporeforming, floc-forming, aerobic bacterial strain DSY-14T, was isolated from a wastewater treatment plant located in Shenzhen city, China.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41961310/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Kamagatella elastica",
+  "strain": "SANAT",
+  "genus": "Kamagatella",
+  "refseq_accession": "GCF_036323355.1",
+  "year_described": 2026,
+  "description_reference": "Kondo R, Kataoka T (2026). Kamagatella elastica gen. nov., sp. nov., an anaerobic bacterium representing the family Kamagatellaceae fam. nov. within the order Tissierellales, isolated from a xenic culture of an anaerobic bacterivorous protist. Antonie van Leeuwenhoek 119(5):94. doi:10.1007/s10482-026-02305-x",
+  "description_url": "https://doi.org/10.1007/s10482-026-02305-x",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41961148/"
+  ],
+  "oxygen_relationship": "Cells were strictly anaerobic, non-motile rods and gave a negative Gram-stain reaction.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Parvimonas oralis",
+  "strain": "G1425T",
+  "genus": "Parvimonas",
+  "refseq_accession": "GCF_977017665.1",
+  "year_described": 2026,
+  "description_reference": "Gao F, Yan T, Weng Z, Zhang M, Yang Q, Zhao L, Xie J, Liu T, Yang C, Kang Z, Pu J, Zheng H, Xu J, Dong K (2026). Parvimonas oralis sp. nov. and Parvimonas pharyngis sp. nov., isolated from the pharyngeal swabs of coal miners. International journal of systematic and evolutionary microbiology 76(4). doi:10.1099/ijsem.0.007123",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007123",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41949913/"
+  ],
+  "oxygen_relationship": "Four Gram-stain-positive, catalase-negative, oxidase-negative, strictly anaerobic, non-spore-forming, non-motile, coccoid bacteria (G1425T/G1967 and G1604T/G1641) were isolated from the pharyngeal swabs of coal miners in Shanxi Province of China.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Chitinimonas violaceus",
+  "strain": "PSY-7T",
+  "genus": "Chitinimonas",
+  "refseq_accession": "GCF_052601015.1",
+  "year_described": 2026,
+  "description_reference": "Huang Y, Liu Y, Jiang A, Zhang Y, Jiao D, Wang X, Li W, Zeng H, Qiu D (2026). Chitinimonas violaceus sp. nov., a violacein-producing and floc-forming bacterium isolated from the activated sludge of a municipal sewage treatment plant in Zhuhai, China. Antonie van Leeuwenhoek 119(5):89. doi:10.1007/s10482-026-02306-w",
+  "description_url": "https://doi.org/10.1007/s10482-026-02306-w",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41944891/"
+  ],
+  "oxygen_relationship": "A novel Gram-stain-negative, aerobic, motile, rod-shaped, violacein-producing and floc-forming bacterium, designated strain PSY-7 T, was isolated from the activated sludge of a municipal sewage treatment plant in Zhuhai, China.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth)",
+    "quote": "A novel Gram-stain-negative, aerobic, motile, rod-shaped, violacein-producing and floc-forming bacterium, designated strain PSY-7 T, was isolated from the activated sludge of a municipal sewage treatment plant in Zhuhai, China.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41944891/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Apolloniradiicaulis salifontis",
+  "strain": "MS644T",
+  "genus": "Apolloniradiicaulis",
+  "refseq_accession": "GCF_053756655.1",
+  "year_described": 2026,
+  "description_reference": "Messner K, Pereira C, Kyndt JA, Palmer M, Yurkov V (2026). Apolloniradiicaulis salifontis gen. nov., sp. nov., a New Prosthecate Aerobic Anoxygenic Phototroph Isolated from Lake Winnipegosis Region Salt Springs. Microorganisms 14(3):525. doi:10.3390/microorganisms14030525",
+  "description_url": "https://doi.org/10.3390/microorganisms14030525",
+  "evidence_tier": "A",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41900285/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13029026/fullTextXML",
+   "https://europepmc.org/article/PMC/PMC13029026"
+  ],
+  "oxygen_relationship": "It can grow aerobically and in microaerobic conditions, but not anaerobically. It did not grow in any of the anaerobic conditions, including chemoheterotrophically, photoheterotrophically, by fermentation or denitrification.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "tested_negative",
+    "substrates": "Na2S2O3 (aerobic photoautotrophy); Na2S or Na2S2O3 (anaerobic, PNSbM)",
+    "quote": "Aerobic photoautotrophy in light was evaluated in liquid PNSbM without organics, supplemented with (g/L): NaHCO3, 1.5 and Na2S2O3, 0.5 as an inorganic carbon and sulfur source/electron donor, respectively [39]. ... Aerobic photoautotrophic growth was not observed.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13029026/fullTextXML"
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic and microaerobic growth)",
+    "quote": "It can grow aerobically and in microaerobic conditions, but not anaerobically.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13029026/fullTextXML"
+   },
+   "acceptor_nitrate": {
+    "status": "tested_negative",
+    "substrates": "KNO3 with Na-succinate as electron donor, anaerobic denitrification test",
+    "quote": "Anaerobic denitrification was assessed similarly, except Na-Succinate was added as the carbon source/electron donor and NH4Cl was substituted with KNO3 (0.3 g/L). ... It did not grow in any of the anaerobic conditions, including chemoheterotrophically, photoheterotrophically, by fermentation or denitrification.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13029026/fullTextXML"
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Plantibacter lichenum",
+  "strain": "YIM 135249T",
+  "genus": "Plantibacter",
+  "refseq_accession": "GCF_050587525.1",
+  "year_described": 2026,
+  "description_reference": "Chen GH, Yang R, Luo DF, Gan HT, Wang HY, Wang LS, Zhu GL, Jiang CL, Zhang L, Liu XT, Wang XY, Jiang Y (2026). Plantibacter lichenum sp. nov., isolated from two lichen samples collected from Shangri-La, Southwest of China. International journal of systematic and evolutionary microbiology 76(3). doi:10.1099/ijsem.0.007110",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007110",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41874546/"
+  ],
+  "oxygen_relationship": "The strains were Gram-stain-positive, catalase-positive, oxidase-negative, aerobic, yellow-pigmented, non-motile and short rod-shaped.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth)",
+    "quote": "The strains were Gram-stain-positive, catalase-positive, oxidase-negative, aerobic, yellow-pigmented, non-motile and short rod-shaped.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41874546/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Ruicaihuangia ninglii",
+  "strain": "LJ205T",
+  "genus": "Ruicaihuangia",
+  "refseq_accession": "GCF_009755725.1",
+  "year_described": 2026,
+  "description_reference": "Luo W, Tao Y, Zhou J, Lei W, Xiao Q, Pu J, Zheng H, Yang J, Xu J (2026). Ruicaihuangia ninglii sp. nov., Ruicaihuangia jiafui sp. nov. and Homoserinibacter chengtaonis sp. nov., three new members of the family Microbacteriaceae isolated from the Qinghai-Tibet Plateau, China. International journal of systematic and evolutionary microbiology 76(3). doi:10.1099/ijsem.0.007096",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007096",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41818060/"
+  ],
+  "oxygen_relationship": "Strains LJ205T and TR449 were strictly aerobic, whereas strains ZJ450T, ZJ454, ZJ70T, and ZJ77 were facultatively anaerobic.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (strictly aerobic growth)",
+    "quote": "Strains LJ205T and TR449 were strictly aerobic, whereas strains ZJ450T, ZJ454, ZJ70T, and ZJ77 were facultatively anaerobic.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41818060/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Homoserinibacter chengtaonis",
+  "strain": "ZJ70T",
+  "genus": "Homoserinibacter",
+  "refseq_accession": "GCF_011751865.2",
+  "year_described": 2026,
+  "description_reference": "Luo W, Tao Y, Zhou J, Lei W, Xiao Q, Pu J, Zheng H, Yang J, Xu J (2026). Ruicaihuangia ninglii sp. nov., Ruicaihuangia jiafui sp. nov. and Homoserinibacter chengtaonis sp. nov., three new members of the family Microbacteriaceae isolated from the Qinghai-Tibet Plateau, China. International journal of systematic and evolutionary microbiology 76(3). doi:10.1099/ijsem.0.007096",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007096",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41818060/"
+  ],
+  "oxygen_relationship": "Strains LJ205T and TR449 were strictly aerobic, whereas strains ZJ450T, ZJ454, ZJ70T, and ZJ77 were facultatively anaerobic.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (facultatively anaerobic, grows aerobically)",
+    "quote": "Strains LJ205T and TR449 were strictly aerobic, whereas strains ZJ450T, ZJ454, ZJ70T, and ZJ77 were facultatively anaerobic.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41818060/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Arboribacterium acericorticis",
+  "strain": "IAD-21T",
+  "genus": "Arboribacterium",
+  "refseq_accession": "GCF_023169805.1",
+  "year_described": 2026,
+  "description_reference": "Kobayashi K, Takahashi M, Kimura N, Aoyagi H (2026). Arboribacterium acericorticis gen. nov., sp. nov., an under-represented oligotrophic bacterium of the phylum Abditibacteriota isolated from the bark of Acer palmatum. International journal of systematic and evolutionary microbiology 76(3). doi:10.1099/ijsem.0.007087",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007087",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41817573/"
+  ],
+  "oxygen_relationship": "Strain IAD-21T is a Gram-negative, oligotrophic, slow-growing, aerobic heterotrophic bacterium, and its cells are tetrad or sarcina cocci.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth)",
+    "quote": "Strain IAD-21T is a Gram-negative, oligotrophic, slow-growing, aerobic heterotrophic bacterium, and its cells are tetrad or sarcina cocci.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41817573/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Allocellulophaga tsushimaensis",
+  "strain": "TSM-5T",
+  "genus": "Allocellulophaga",
+  "refseq_accession": "GCF_055383085.1",
+  "year_described": 2026,
+  "description_reference": "Nakajima Y, Wong SK, Muramatsu Y, Cuadra MJ, Zenimoto K, Ou K, Chiura HX, Nakamura K, Gotoh Y, Hayashi T, Nakagawa Y, Yoshizawa S (2026). Phylogenomic reclassification of Cellulophaga species to Paracellulophaga gen. nov. and description of Allocellulophaga tsushimaensis gen. nov., sp. nov., a novel bacterium from coastal seawater of Tsushima Island, Japan. Antonie van Leeuwenhoek 119(4):66. doi:10.1007/s10482-026-02275-0",
+  "description_url": "https://doi.org/10.1007/s10482-026-02275-0",
+  "evidence_tier": "A",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41796260/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12968099/fullTextXML",
+   "https://europepmc.org/article/PMC/PMC12968099"
+  ],
+  "oxygen_relationship": "Growth occurs at pH 4–10, with 0–4% NaCl, and at 10–30ºC under aerobic condition. Anaerobic growth was not observed.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth)",
+    "quote": "Growth occurs at pH 4–10, with 0–4% NaCl, and at 10–30ºC under aerobic condition.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12968099/fullTextXML"
+   },
+   "acceptor_nitrate": {
+    "status": "tested_positive",
+    "substrates": "nitrate reduction (API 20NE NO3 reduction test; activity test, not a growth test; anaerobic growth was not observed)",
+    "quote": "All strains are positive for assimilation of alkaline phosphatase, esterase (C4), esterase lipase (C8), lipase (C14), leucine arylamidase, valine arylamidase, cystine arylamidase, trypsin, α-chymotrypsin, acid phosphate, β-glucosidase, N-acetyl-β-glucosaminidase (API ZYM); NO3 reduction, arginine dihydrolase, urease, esculinase (API 20NE); arabinose (API 20E);",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12968099/fullTextXML"
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Endoryza foliicola",
+  "strain": "sgz302552T",
+  "genus": "Endoryza",
+  "refseq_accession": "GCF_050589245.1",
+  "year_described": 2026,
+  "description_reference": "Jiang HY, Liu GH, Xu YJ, Shen HC, Gao P, Zhou SG (2026). Methylobacterium endophyticum sp. nov. and Endoryza foliicola gen. nov., sp. nov., two novel endophytic bacterial species isolated from rice phyllosphere. International journal of systematic and evolutionary microbiology 76(3). doi:10.1099/ijsem.0.007090",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007090",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41779016/"
+  ],
+  "oxygen_relationship": "Cells were Gram-stain-negative, aerobic, rod-shaped and motile.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth)",
+    "quote": "Cells were Gram-stain-negative, aerobic, rod-shaped and motile.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41779016/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Gardnerella lacydonensis",
+  "strain": "Marseille-Q9181T",
+  "genus": "Gardnerella",
+  "refseq_accession": "GCF_048545055.1",
+  "year_described": 2026,
+  "description_reference": "Allini Ntiguemassa P, Beye M, Orain N, Bellali S, Alibar S, Andrieu C, Hammoud A, Dubourg G, Mediannikov O, Levasseur A, Fenollar F (2026). Further dissection of Gardnerella vaginalis: description of Gardnerella lacydonensis sp. nov. (formerly genomic species 2), Gardnerella bretellae sp. nov. (formerly genomic species 9), Gardnerella massiliensis sp. nov. (formerly genomic species 14) and Gardnerella phocaeensis sp. nov. International journal of systematic and evolutionary microbiology 76(3). doi:10.1099/ijsem.0.007028",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007028",
+  "evidence_tier": "A",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41779015/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12959845/fullTextXML",
+   "https://europepmc.org/article/PMC/PMC12959845"
+  ],
+  "oxygen_relationship": "Cells are facultative anaerobic and microaerophilic, non-motile, non-spore-forming and Gram-negative coccobacilli. Aerobic growth was only observed for strains Marseille-Q2328T and Marseille-Q9179T.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_negative",
+    "substrates": "aerobic atmosphere on Columbia blood agar (no growth of Q9181T; growth only under microaerophilic and anaerobic atmospheres)",
+    "quote": "Moreover, optimal growth conditions were determined on Columbia agar enriched with 5% sheep blood (bioMérieux) for 72 h at different growth temperatures (28, 37, 45 and 56 °C) and different atmospheres: aerobic, anaerobic using the GasPak™ EZ Anaerobe gas generation system (Becton Dickinson) and microaerophilic using the GasPak™ Campy pocket system (Becton Dickinson). ... Aerobic growth was only observed for strains Marseille-Q2328T and Marseille-Q9179T.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12959845/fullTextXML"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Pseudochrobactrum albidum",
+  "strain": "HB0163T",
+  "genus": "Pseudochrobactrum",
+  "refseq_accession": "GCF_051851455.1",
+  "year_described": 2026,
+  "description_reference": "Zheng Q, Zhang W, Su Y, Yang Y, Bai X, Hu H, Qiu S, Huang X, Wang T, Chen C (2026). Pseudochrobactrum albidum sp. nov., a N,N-dimethylformamide-Degrading Bacterium Isolated from Activated Sludge of a Wastewater Treatment Plant. Current microbiology 83(4):216. doi:10.1007/s00284-026-04745-0",
+  "description_url": "https://doi.org/10.1007/s00284-026-04745-0",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41774166/"
+  ],
+  "oxygen_relationship": "Cells are Gram-stain-negative, aerobic, oxidase-positive, non-motile rods (0.4-0.6 × 1.0-1.5 μm).",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth)",
+    "quote": "Cells are Gram-stain-negative, aerobic, oxidase-positive, non-motile rods (0.4-0.6 × 1.0-1.5 μm).",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41774166/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Mannheimia kashgarensis",
+  "strain": "E16BAT",
+  "genus": "Mannheimia",
+  "refseq_accession": "GCF_041807705.1",
+  "year_described": 2026,
+  "description_reference": "Yang L, Zhu Y, Wu R, Duan S, Liu B, Li J (2026). Mannheimia kashgarensis sp. nov., isolated from the nasopharynx of sheep with ovine respiratory disease. International journal of systematic and evolutionary microbiology 76(3). doi:10.1099/ijsem.0.007089",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007089",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41773481/"
+  ],
+  "oxygen_relationship": "Two Gram-stain-negative, facultative anaerobic, pleomorphic rod-shaped strains, designated E16BAT and E15BD, were isolated from the nasopharynx of two different sheep exhibiting clinical signs of ovine respiratory disease at a commercial farm in Kashgar, Xinjiang, China.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (facultative anaerobe, grows aerobically)",
+    "quote": "Two Gram-stain-negative, facultative anaerobic, pleomorphic rod-shaped strains, designated E16BAT and E15BD, were isolated from the nasopharynx of two different sheep exhibiting clinical signs of ovine respiratory disease at a commercial farm in Kashgar, Xinjiang, China.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41773481/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Hubeiibacter jixunmingi",
+  "strain": "c1-l78T",
+  "genus": "Hubeiibacter",
+  "refseq_accession": "GCF_041928215.1",
+  "year_described": 2026,
+  "description_reference": "Xiao Q, Du Y, Luo W, Yang H, Liu Y, Zheng H, Luo X, Yang J, Zheng J, Kang H, Hao Y, Li S, Xu J (2026). Hubeiibacter gen. nov., a new genus of Moraxellaceae: identification of Hubeiibacter jixunmingi sp. nov. isolated from blowhole swab samples of Yangtze finless porpoise (Neophocaena asiaeorientalis asiaeorientalis). International journal of systematic and evolutionary microbiology 76(2). doi:10.1099/ijsem.0.007092",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007092",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/41746692/"
+  ],
+  "oxygen_relationship": "The strains are Gram-stain-negative, oxidase-positive, catalase-positive, obligately aerobic, non-motile, non-haemolytic, proteolytic and short-rod-shaped bacteria.",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (obligately aerobic growth)",
+    "quote": "The strains are Gram-stain-negative, oxidase-positive, catalase-positive, obligately aerobic, non-motile, non-haemolytic, proteolytic and short-rod-shaped bacteria.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/41746692/"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ }
+]

@@ -1,0 +1,244 @@
+task,trait,cls,held_out_phylum,rule,hits,correct
+pw,denitrification,lacks trait,Firmicutes,IF aceE (K00163) absent AND petC (K00413) absent AND norB (K04561) absent THEN lacks denitrification,583,576
+pw,denitrification,lacks trait,Firmicutes,IF korC (K00177) present AND narI (K00374) absent AND petC (K00413) absent THEN lacks denitrification,192,187
+pw,denitrification,lacks trait,Firmicutes,IF korC (K00177) present AND narI (K00374) absent AND napB (K02568) absent THEN lacks denitrification,192,187
+pw,denitrification,lacks trait,Proteobacteria,IF nosZ (K00376) absent AND pdhC (K00627) present AND narK (K02575) present THEN lacks denitrification,460,451
+pw,denitrification,lacks trait,Proteobacteria,IF narJ (K00373) present AND nosZ (K00376) absent AND narK (K02575) present THEN lacks denitrification,312,303
+pw,denitrification,lacks trait,Proteobacteria,IF narH (K00371) present AND nosZ (K00376) absent AND narK (K02575) present THEN lacks denitrification,314,305
+pw,dnra,lacks trait,Aquificae,IF coxL (K03520) present AND pflA-like (K04070) absent THEN lacks dnra,0,0
+pw,dnra,lacks trait,Aquificae,IF ctaA (K02259) present AND coxL (K03520) present THEN lacks dnra,0,0
+pw,dnra,lacks trait,Aquificae,IF pdhC (K00627) present AND coxL (K03520) present THEN lacks dnra,0,0
+pw,dnra,lacks trait,Firmicutes,IF nirB (K00362) absent AND ctaA (K02259) present AND nrfA (K03385) absent THEN lacks dnra,280,278
+pw,dnra,lacks trait,Firmicutes,IF korA (K00174) absent AND nirB (K00362) absent AND nrfA (K03385) absent THEN lacks dnra,236,227
+pw,dnra,lacks trait,Firmicutes,IF korA (K00174) absent AND nirB (K00362) absent AND hcp (K05601) absent THEN lacks dnra,149,141
+pw,dnra,lacks trait,Proteobacteria,IF nirD (K00363) present AND pdhC (K00627) present THEN lacks dnra,313,305
+pw,dnra,lacks trait,Proteobacteria,IF aceE (K00163) present AND korA (K00174) present THEN lacks dnra,123,121
+pw,dnra,lacks trait,Proteobacteria,IF coxL (K03520) present AND pflA-like (K04070) absent THEN lacks dnra,345,345
+pw,nitrate_reduction,has trait,Actinobacteria,IF korA (K00174) present AND narJ (K00373) present AND napA (K02567) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Actinobacteria,IF korA (K00174) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Actinobacteria,IF korA (K00174) present AND narH (K00371) present AND nosZ (K00376) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Aquificae,IF korA (K00174) present AND narJ (K00373) present AND napA (K02567) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Aquificae,IF korA (K00174) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Aquificae,IF korA (K00174) present AND narH (K00371) present AND nosZ (K00376) present THEN has nitrate_reduction,2,2
+pw,nitrate_reduction,has trait,Bacteroidetes,IF korA (K00174) present AND narJ (K00373) present AND napA (K02567) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Bacteroidetes,IF korA (K00174) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Bacteroidetes,IF korA (K00174) present AND narH (K00371) present AND nosZ (K00376) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Deferribacteres,IF korA (K00174) present AND narJ (K00373) present AND napA (K02567) present THEN has nitrate_reduction,2,1
+pw,nitrate_reduction,has trait,Deferribacteres,IF korA (K00174) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,1,1
+pw,nitrate_reduction,has trait,Deferribacteres,IF korA (K00174) present AND narH (K00371) present AND nosZ (K00376) present THEN has nitrate_reduction,1,1
+pw,nitrate_reduction,has trait,Deinococcus-Thermus,IF korA (K00174) present AND narJ (K00373) present AND napA (K02567) present THEN has nitrate_reduction,2,2
+pw,nitrate_reduction,has trait,Deinococcus-Thermus,IF korA (K00174) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,2,2
+pw,nitrate_reduction,has trait,Deinococcus-Thermus,IF korA (K00174) present AND narH (K00371) present AND nosZ (K00376) present THEN has nitrate_reduction,2,2
+pw,nitrate_reduction,has trait,Euryarchaeota,IF korA (K00174) present AND narJ (K00373) present AND napA (K02567) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Euryarchaeota,IF korA (K00174) present AND korD (K00176) absent AND nirS (K15864) present THEN has nitrate_reduction,1,1
+pw,nitrate_reduction,has trait,Euryarchaeota,IF narG (K00370) present AND narI (K00374) present AND norB (K04561) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Firmicutes,IF korA (K00174) present AND korD (K00176) absent AND nirS (K15864) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Firmicutes,IF korD (K00176) absent AND narK (K02575) present AND nirS (K15864) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Firmicutes,IF narK (K02575) present AND nirS (K15864) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Proteobacteria,IF narH (K00371) present AND pdhC (K00627) present AND norB (K04561) present THEN has nitrate_reduction,236,201
+pw,nitrate_reduction,has trait,Proteobacteria,IF narH (K00371) present AND narK (K02575) present AND norB (K04561) present THEN has nitrate_reduction,246,211
+pw,nitrate_reduction,has trait,Proteobacteria,IF narG (K00370) present AND narH (K00371) present AND pdhC (K00627) present THEN has nitrate_reduction,440,349
+pw,nitrate_reduction,has trait,Verrucomicrobia,IF korA (K00174) present AND narJ (K00373) present AND napA (K02567) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Verrucomicrobia,IF korA (K00174) present AND narG (K00370) present AND nosZ (K00376) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,has trait,Verrucomicrobia,IF korA (K00174) present AND narH (K00371) present AND nosZ (K00376) present THEN has nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Actinobacteria,IF nirK (K00368) present AND pdhC (K00627) absent AND norB (K04561) absent THEN lacks nitrate_reduction,22,6
+pw,nitrate_reduction,lacks trait,Actinobacteria,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Actinobacteria,IF cooS (K00198) present AND narI (K00374) absent AND napA (K02567) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Aquificae,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,2,1
+pw,nitrate_reduction,lacks trait,Aquificae,IF cooS (K00198) present AND narI (K00374) absent AND napA (K02567) absent THEN lacks nitrate_reduction,2,1
+pw,nitrate_reduction,lacks trait,Aquificae,IF cooS (K00198) present AND napA (K02567) absent AND norB (K04561) absent THEN lacks nitrate_reduction,2,1
+pw,nitrate_reduction,lacks trait,Bacteroidetes,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,1,1
+pw,nitrate_reduction,lacks trait,Bacteroidetes,IF cooS (K00198) present AND narI (K00374) absent AND napA (K02567) absent THEN lacks nitrate_reduction,1,1
+pw,nitrate_reduction,lacks trait,Bacteroidetes,IF cooS (K00198) present AND napA (K02567) absent AND norB (K04561) absent THEN lacks nitrate_reduction,1,1
+pw,nitrate_reduction,lacks trait,Deferribacteres,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Deferribacteres,IF cooS (K00198) present AND narI (K00374) absent AND napA (K02567) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Deferribacteres,IF cooS (K00198) present AND napA (K02567) absent AND norB (K04561) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Deinococcus-Thermus,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Deinococcus-Thermus,IF cooS (K00198) present AND narI (K00374) absent AND napA (K02567) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Deinococcus-Thermus,IF cooS (K00198) present AND napA (K02567) absent AND norB (K04561) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Euryarchaeota,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,58,57
+pw,nitrate_reduction,lacks trait,Euryarchaeota,IF cooS (K00198) present AND narI (K00374) absent AND napA (K02567) absent THEN lacks nitrate_reduction,59,57
+pw,nitrate_reduction,lacks trait,Euryarchaeota,IF cooS (K00198) present AND napA (K02567) absent AND norB (K04561) absent THEN lacks nitrate_reduction,58,57
+pw,nitrate_reduction,lacks trait,Firmicutes,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,146,133
+pw,nitrate_reduction,lacks trait,Firmicutes,IF aceE (K00163) absent AND korD (K00176) absent AND cooS (K00198) present THEN lacks nitrate_reduction,68,57
+pw,nitrate_reduction,lacks trait,Firmicutes,IF cooS (K00198) present AND narG (K00370) absent AND napA (K02567) absent THEN lacks nitrate_reduction,164,148
+pw,nitrate_reduction,lacks trait,Proteobacteria,IF korD (K00176) absent AND cooS (K00198) present AND narK (K02575) absent THEN lacks nitrate_reduction,6,5
+pw,nitrate_reduction,lacks trait,Proteobacteria,IF korD (K00176) absent AND cooS (K00198) present AND norB (K04561) absent THEN lacks nitrate_reduction,7,5
+pw,nitrate_reduction,lacks trait,Proteobacteria,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,68,65
+pw,nitrate_reduction,lacks trait,Verrucomicrobia,IF cooS (K00198) present AND napA (K02567) absent AND narK (K02575) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Verrucomicrobia,IF cooS (K00198) present AND narI (K00374) absent AND napA (K02567) absent THEN lacks nitrate_reduction,0,0
+pw,nitrate_reduction,lacks trait,Verrucomicrobia,IF cooS (K00198) present AND napA (K02567) absent AND norB (K04561) absent THEN lacks nitrate_reduction,0,0
+pw,nitrogen_fixation,lacks trait,Cyanobacteria,IF korA (K00174) present AND nifK (K02591) absent AND coxL (K03520) absent THEN lacks nitrogen_fixation,0,0
+pw,nitrogen_fixation,lacks trait,Cyanobacteria,IF ctaA (K02259) absent AND nifD (K02586) absent AND nifK (K02591) absent THEN lacks nitrogen_fixation,0,0
+pw,nitrogen_fixation,lacks trait,Cyanobacteria,IF aceE (K00163) absent AND korA (K00174) present AND nifK (K02591) absent THEN lacks nitrogen_fixation,0,0
+pw,nitrogen_fixation,lacks trait,Euryarchaeota,IF korA (K00174) present AND nifD (K02586) absent AND coxL (K03520) absent THEN lacks nitrogen_fixation,137,136
+pw,nitrogen_fixation,lacks trait,Euryarchaeota,IF korA (K00174) present AND nifK (K02591) absent AND coxL (K03520) absent THEN lacks nitrogen_fixation,132,132
+pw,nitrogen_fixation,lacks trait,Euryarchaeota,IF ctaA (K02259) absent AND nifD (K02586) absent THEN lacks nitrogen_fixation,128,127
+pw,nitrogen_fixation,lacks trait,Firmicutes,IF korA (K00174) present AND nifK (K02591) absent AND coxL (K03520) absent THEN lacks nitrogen_fixation,275,275
+pw,nitrogen_fixation,lacks trait,Firmicutes,IF ctaA (K02259) absent AND nifK (K02591) absent THEN lacks nitrogen_fixation,227,226
+pw,nitrogen_fixation,lacks trait,Firmicutes,IF ctaA (K02259) absent AND nifD (K02586) absent AND hdrB2 (K03389) absent THEN lacks nitrogen_fixation,220,220
+pw,nitrogen_fixation,lacks trait,Proteobacteria,IF korA (K00174) present AND nifK (K02591) absent AND coxL (K03520) absent THEN lacks nitrogen_fixation,141,141
+pw,nitrogen_fixation,lacks trait,Proteobacteria,IF aceE (K00163) absent AND korA (K00174) present AND nifK (K02591) absent THEN lacks nitrogen_fixation,100,100
+pw,nitrogen_fixation,lacks trait,Proteobacteria,IF ctaA (K02259) absent AND nifD (K02586) absent AND nifK (K02591) absent THEN lacks nitrogen_fixation,253,253
+pw,sulfate_reduction,has trait,Firmicutes,IF hdrA2 (K03388) present AND hdrB2 (K03389) absent AND dsrA (K11180) present THEN has sulfate_reduction,8,8
+pw,sulfate_reduction,has trait,Firmicutes,IF hdrB2 (K03389) absent AND pflA-like (K04070) present AND dsrO (K27190) present THEN has sulfate_reduction,2,1
+pw,sulfate_reduction,has trait,Proteobacteria,IF hdrA2 (K03388) present AND dsrA (K11180) present AND asrB (K16951) absent THEN has sulfate_reduction,72,43
+pw,sulfate_reduction,has trait,Proteobacteria,IF aprA (K00394) present AND hdrB2 (K03389) absent AND dsrO (K27190) present THEN has sulfate_reduction,59,21
+pw,sulfate_reduction,has trait,Proteobacteria,IF aprA (K00394) present AND asrB (K16951) absent AND dsrM (K27187) present THEN has sulfate_reduction,97,43
+pw,sulfate_reduction,has trait,Thermodesulfobacteria,IF aprB (K00395) present AND hdrA2 (K03388) present AND hdrB2 (K03389) absent THEN has sulfate_reduction,3,3
+pw,sulfate_reduction,lacks trait,Firmicutes,IF korA (K00174) present AND aprB (K00395) absent AND hcp (K05601) absent THEN lacks sulfate_reduction,123,123
+pw,sulfate_reduction,lacks trait,Firmicutes,IF korA (K00174) present AND hcp (K05601) absent AND dsrA (K11180) absent THEN lacks sulfate_reduction,123,123
+pw,sulfate_reduction,lacks trait,Firmicutes,IF korA (K00174) present AND korD (K00176) absent AND aprB (K00395) absent THEN lacks sulfate_reduction,189,189
+pw,sulfate_reduction,lacks trait,Proteobacteria,IF korD (K00176) absent AND aprA (K00394) absent AND pflA-like (K04070) absent THEN lacks sulfate_reduction,1101,1100
+pw,sulfate_reduction,lacks trait,Proteobacteria,IF korD (K00176) absent AND pflA-like (K04070) absent AND dsrA (K11180) absent THEN lacks sulfate_reduction,1088,1087
+pw,sulfate_reduction,lacks trait,Proteobacteria,IF korD (K00176) absent AND pflA-like (K04070) absent AND asrA (K16950) absent THEN lacks sulfate_reduction,1128,1126
+pw,sulfate_reduction,lacks trait,Thermodesulfobacteria,IF korA (K00174) present AND korD (K00176) absent AND dsrA (K11180) absent THEN lacks sulfate_reduction,0,0
+pw,sulfate_reduction,lacks trait,Thermodesulfobacteria,IF korA (K00174) present AND korD (K00176) absent AND aprB (K00395) absent THEN lacks sulfate_reduction,0,0
+pw,sulfate_reduction,lacks trait,Thermodesulfobacteria,IF korA (K00174) present AND aprB (K00395) absent AND hcp (K05601) absent THEN lacks sulfate_reduction,0,0
+pw,sulfur_reduction,lacks trait,Aquificae,IF korA (K00174) absent AND hcp (K05601) present AND psrA (K08352) absent THEN lacks sulfur_reduction,0,0
+pw,sulfur_reduction,lacks trait,Aquificae,IF hdrA2 (K03388) absent AND dmsA (K07306) present AND psrA (K08352) absent THEN lacks sulfur_reduction,0,0
+pw,sulfur_reduction,lacks trait,Aquificae,IF korA (K00174) absent AND pflA-like (K04070) present AND hcp (K05601) present THEN lacks sulfur_reduction,0,0
+pw,sulfur_reduction,lacks trait,Crenarchaeota,IF korA (K00174) absent AND hcp (K05601) present AND psrA (K08352) absent THEN lacks sulfur_reduction,0,0
+pw,sulfur_reduction,lacks trait,Crenarchaeota,IF hdrA2 (K03388) absent AND dmsA (K07306) present AND psrA (K08352) absent THEN lacks sulfur_reduction,0,0
+pw,sulfur_reduction,lacks trait,Crenarchaeota,IF korD (K00176) present AND hcp (K05601) absent AND dfx (K05919) absent THEN lacks sulfur_reduction,1,0
+pw,sulfur_reduction,lacks trait,Euryarchaeota,IF korA (K00174) absent AND hcp (K05601) present AND psrA (K08352) absent THEN lacks sulfur_reduction,3,3
+pw,sulfur_reduction,lacks trait,Euryarchaeota,IF hdrA2 (K03388) absent AND dmsA (K07306) present AND psrA (K08352) absent THEN lacks sulfur_reduction,7,7
+pw,sulfur_reduction,lacks trait,Euryarchaeota,IF korA (K00174) absent AND pflA-like (K04070) present AND hcp (K05601) present THEN lacks sulfur_reduction,3,3
+pw,sulfur_reduction,lacks trait,Firmicutes,IF korD (K00176) absent AND hcp (K05601) present AND psrA (K08352) absent THEN lacks sulfur_reduction,170,169
+pw,sulfur_reduction,lacks trait,Firmicutes,IF hdrB2 (K03389) absent AND dmsA (K07306) present AND psrA (K08352) absent THEN lacks sulfur_reduction,26,24
+pw,sulfur_reduction,lacks trait,Firmicutes,IF korA (K00174) absent AND hdrB2 (K03389) absent AND psrA (K08352) absent THEN lacks sulfur_reduction,232,232
+pw,sulfur_reduction,lacks trait,Proteobacteria,IF korA (K00174) absent AND hdrB2 (K03389) absent AND psrA (K08352) absent THEN lacks sulfur_reduction,946,944
+pw,sulfur_reduction,lacks trait,Proteobacteria,IF korA (K00174) absent AND hdrB2 (K03389) absent AND dmsA (K07306) absent THEN lacks sulfur_reduction,897,893
+pw,sulfur_reduction,lacks trait,Proteobacteria,IF korA (K00174) absent AND cooS (K00198) absent AND hdrB2 (K03389) absent THEN lacks sulfur_reduction,999,989
+pw,sulfur_reduction,lacks trait,Thermotogae,IF korA (K00174) absent AND hcp (K05601) present AND psrA (K08352) absent THEN lacks sulfur_reduction,0,0
+pw,sulfur_reduction,lacks trait,Thermotogae,IF hdrA2 (K03388) absent AND dmsA (K07306) present AND psrA (K08352) absent THEN lacks sulfur_reduction,0,0
+pw,sulfur_reduction,lacks trait,Thermotogae,IF korA (K00174) absent AND pflA-like (K04070) present AND hcp (K05601) present THEN lacks sulfur_reduction,0,0
+pw,sulfur_oxidation,lacks trait,Chlorobi,IF aceE (K00163) present AND korA (K00174) present AND soxY (K17226) absent THEN lacks sulfur_oxidation,0,0
+pw,sulfur_oxidation,lacks trait,Chlorobi,IF sqr (K17218) absent AND soxA (K17222) absent AND tsdA (K19713) present THEN lacks sulfur_oxidation,0,0
+pw,sulfur_oxidation,lacks trait,Chlorobi,IF sqr (K17218) absent AND soxB (K17224) absent AND tsdA (K19713) present THEN lacks sulfur_oxidation,0,0
+pw,sulfur_oxidation,lacks trait,Crenarchaeota,IF aceE (K00163) present AND korA (K00174) present AND soxY (K17226) absent THEN lacks sulfur_oxidation,0,0
+pw,sulfur_oxidation,lacks trait,Crenarchaeota,IF sqr (K17218) absent AND soxA (K17222) absent AND tsdA (K19713) present THEN lacks sulfur_oxidation,0,0
+pw,sulfur_oxidation,lacks trait,Crenarchaeota,IF sqr (K17218) absent AND soxB (K17224) absent AND tsdA (K19713) present THEN lacks sulfur_oxidation,0,0
+pw,sulfur_oxidation,lacks trait,Firmicutes,IF aceE (K00163) present AND korA (K00174) present AND soxY (K17226) absent THEN lacks sulfur_oxidation,0,0
+pw,sulfur_oxidation,lacks trait,Firmicutes,IF korA (K00174) present AND korD (K00176) absent AND sqr (K17218) absent THEN lacks sulfur_oxidation,160,158
+pw,sulfur_oxidation,lacks trait,Firmicutes,IF korA (K00174) present AND korC (K00177) absent AND sqr (K17218) absent THEN lacks sulfur_oxidation,160,158
+pw,sulfur_oxidation,lacks trait,Proteobacteria,IF sat (K00958) absent AND sqr (K17218) absent THEN lacks sulfur_oxidation,586,577
+pw,sulfur_oxidation,lacks trait,Proteobacteria,IF aceE (K00163) present AND soxC (K17225) absent THEN lacks sulfur_oxidation,729,694
+pw,sulfur_oxidation,lacks trait,Proteobacteria,IF aceE (K00163) present AND fccB (K17229) absent AND tsdA (K19713) absent THEN lacks sulfur_oxidation,515,502
+pw,iron_reduction,lacks trait,Crenarchaeota,IF korA (K00174) absent AND petC (K00413) absent AND pdhC (K00627) present THEN lacks iron_reduction,0,0
+pw,iron_reduction,lacks trait,Crenarchaeota,IF korA (K00174) absent AND petC (K00413) absent AND ctaA (K02259) present THEN lacks iron_reduction,0,0
+pw,iron_reduction,lacks trait,Crenarchaeota,IF aceE (K00163) present AND korA (K00174) absent AND petC (K00413) absent THEN lacks iron_reduction,0,0
+pw,iron_reduction,lacks trait,Firmicutes,IF korA (K00174) absent AND petC (K00413) absent AND pdhC (K00627) present THEN lacks iron_reduction,135,135
+pw,iron_reduction,lacks trait,Firmicutes,IF korA (K00174) absent AND petC (K00413) absent AND ctaA (K02259) present THEN lacks iron_reduction,115,115
+pw,iron_reduction,lacks trait,Firmicutes,IF aceE (K00163) present AND korA (K00174) absent AND petC (K00413) absent THEN lacks iron_reduction,0,0
+pw,iron_reduction,lacks trait,Proteobacteria,IF korC (K00177) absent AND ctaA (K02259) present AND coxL (K03520) absent THEN lacks iron_reduction,580,564
+pw,iron_reduction,lacks trait,Proteobacteria,IF korC (K00177) absent AND pdhC (K00627) present AND coxL (K03520) absent THEN lacks iron_reduction,762,744
+pw,iron_reduction,lacks trait,Proteobacteria,IF korA (K00174) absent AND petC (K00413) absent AND dmsA (K07306) absent THEN lacks iron_reduction,72,71
+pw,iron_oxidation,lacks trait,Euryarchaeota,IF aceE (K00163) present AND petC (K00413) absent AND pdhC (K00627) present THEN lacks iron_oxidation,0,0
+pw,iron_oxidation,lacks trait,Euryarchaeota,IF korA (K00174) absent AND petC (K00413) absent AND pdhC (K00627) present THEN lacks iron_oxidation,2,2
+pw,iron_oxidation,lacks trait,Euryarchaeota,IF petC (K00413) absent AND hdrB2 (K03389) absent AND hcp (K05601) present THEN lacks iron_oxidation,12,12
+pw,iron_oxidation,lacks trait,Proteobacteria,IF aceE (K00163) present AND pdhC (K00627) present THEN lacks iron_oxidation,903,890
+pw,iron_oxidation,lacks trait,Proteobacteria,IF korA (K00174) absent AND coxL (K03520) absent AND pflA-like (K04070) absent THEN lacks iron_oxidation,728,710
+pw,iron_oxidation,lacks trait,Proteobacteria,IF korA (K00174) absent AND pdhC (K00627) present THEN lacks iron_oxidation,954,938
+pw,manganese_reduction,lacks trait,Firmicutes,IF korA (K00174) absent AND hcp (K05601) absent THEN lacks manganese_reduction,149,149
+pw,manganese_reduction,lacks trait,Firmicutes,IF korC (K00177) absent AND petC (K00413) absent THEN lacks manganese_reduction,444,441
+pw,manganese_reduction,lacks trait,Firmicutes,IF petC (K00413) absent AND ctaA (K02259) present AND hdrA2 (K03388) absent THEN lacks manganese_reduction,296,295
+pw,manganese_reduction,lacks trait,Proteobacteria,IF korC (K00177) absent AND cooS (K00198) absent THEN lacks manganese_reduction,1134,1128
+pw,manganese_reduction,lacks trait,Proteobacteria,IF korC (K00177) absent AND dfx (K05919) absent AND dmsA (K07306) absent THEN lacks manganese_reduction,1006,1002
+pw,manganese_reduction,lacks trait,Proteobacteria,IF korC (K00177) absent AND pflA-like (K04070) absent AND dmsA (K07306) absent THEN lacks manganese_reduction,1012,1008
+pw,arsenate_reduction,lacks trait,Firmicutes,IF aceE (K00163) absent AND pflA-like (K04070) absent AND dfx (K05919) absent THEN lacks arsenate_reduction,362,352
+pw,arsenate_reduction,lacks trait,Firmicutes,IF aceE (K00163) absent AND pflA-like (K04070) absent AND hcp (K05601) absent THEN lacks arsenate_reduction,261,259
+pw,arsenate_reduction,lacks trait,Firmicutes,IF pflA-like (K04070) absent AND dfx (K05919) absent THEN lacks arsenate_reduction,362,352
+pw,arsenate_reduction,lacks trait,Proteobacteria,IF aceE (K00163) absent AND korA (K00174) absent AND dmsA (K07306) absent THEN lacks arsenate_reduction,199,199
+pw,arsenate_reduction,lacks trait,Proteobacteria,IF aceE (K00163) present AND korA (K00174) present AND pflA-like (K04070) absent THEN lacks arsenate_reduction,117,116
+pw,arsenate_reduction,lacks trait,Proteobacteria,IF aceE (K00163) absent AND korA (K00174) absent AND cooS (K00198) absent THEN lacks arsenate_reduction,200,200
+pw,fumarate_reduction,lacks trait,Firmicutes,IF korA (K00174) present AND hdrC2 (K03390) absent AND coxL (K03520) present THEN lacks fumarate_reduction,23,23
+pw,fumarate_reduction,lacks trait,Firmicutes,IF korA (K00174) present AND hdrB2 (K03389) absent AND coxL (K03520) present THEN lacks fumarate_reduction,23,23
+pw,fumarate_reduction,lacks trait,Firmicutes,IF aceE (K00163) absent AND hdrA2 (K03388) absent AND coxL (K03520) present THEN lacks fumarate_reduction,29,29
+pw,fumarate_reduction,lacks trait,Proteobacteria,IF aceE (K00163) present AND korA (K00174) present THEN lacks fumarate_reduction,123,119
+pw,fumarate_reduction,lacks trait,Proteobacteria,IF aceE (K00163) present AND coxL (K03520) absent THEN lacks fumarate_reduction,694,665
+pw,fumarate_reduction,lacks trait,Proteobacteria,IF cooS (K00198) absent AND coxL (K03520) absent AND dmsA (K07306) absent THEN lacks fumarate_reduction,775,741
+pw,hydrogen_oxidation,lacks trait,Aquificae,IF aceE (K00163) present AND korA (K00174) absent AND petC (K00413) absent THEN lacks hydrogen_oxidation,0,0
+pw,hydrogen_oxidation,lacks trait,Aquificae,IF ctaA (K02259) present AND hyaB (K06281) absent AND hyaA (K06282) present THEN lacks hydrogen_oxidation,0,0
+pw,hydrogen_oxidation,lacks trait,Aquificae,IF pdhC (K00627) present AND hyaB (K06281) absent AND hyaA (K06282) present THEN lacks hydrogen_oxidation,0,0
+pw,hydrogen_oxidation,lacks trait,Euryarchaeota,IF aceE (K00163) present AND korA (K00174) absent AND petC (K00413) absent THEN lacks hydrogen_oxidation,0,0
+pw,hydrogen_oxidation,lacks trait,Euryarchaeota,IF ctaA (K02259) present AND hyaB (K06281) absent AND hyaA (K06282) present THEN lacks hydrogen_oxidation,2,2
+pw,hydrogen_oxidation,lacks trait,Euryarchaeota,IF pdhC (K00627) present AND hyaB (K06281) absent AND hyaA (K06282) present THEN lacks hydrogen_oxidation,1,1
+pw,hydrogen_oxidation,lacks trait,Firmicutes,IF aceE (K00163) present AND korA (K00174) absent AND petC (K00413) absent THEN lacks hydrogen_oxidation,0,0
+pw,hydrogen_oxidation,lacks trait,Firmicutes,IF pdhC (K00627) absent AND ctaA (K02259) present AND pflA-like (K04070) absent THEN lacks hydrogen_oxidation,6,6
+pw,hydrogen_oxidation,lacks trait,Firmicutes,IF pdhC (K00627) absent AND ctaA (K02259) present AND hyaB (K06281) absent THEN lacks hydrogen_oxidation,5,5
+pw,hydrogen_oxidation,lacks trait,Proteobacteria,IF korA (K00174) absent AND cooS (K00198) absent AND hdrB2 (K03389) absent THEN lacks hydrogen_oxidation,999,968
+pw,hydrogen_oxidation,lacks trait,Proteobacteria,IF korA (K00174) absent AND cooS (K00198) absent AND hyaA (K06282) absent THEN lacks hydrogen_oxidation,801,790
+pw,hydrogen_oxidation,lacks trait,Proteobacteria,IF korA (K00174) absent AND pdhC (K00627) present THEN lacks hydrogen_oxidation,954,925
+pw,fermentation,has trait,Actinobacteria,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaB (K02257) absent THEN has fermentation,4,4
+pw,fermentation,has trait,Actinobacteria,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaA (K02259) absent THEN has fermentation,4,4
+pw,fermentation,has trait,Actinobacteria,IF pdhC (K00627) absent AND buk (K00929) present AND ldhA (K03778) present THEN has fermentation,0,0
+pw,fermentation,has trait,Bacteroidetes,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaB (K02257) absent THEN has fermentation,31,20
+pw,fermentation,has trait,Bacteroidetes,IF buk (K00929) present AND hdrA2 (K03388) absent AND pflA-like (K04070) present THEN has fermentation,1,1
+pw,fermentation,has trait,Bacteroidetes,IF ldh (K00016) present AND hdrC2 (K03390) absent AND pflA-like (K04070) present THEN has fermentation,2,0
+pw,fermentation,has trait,Chloroflexi,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaB (K02257) absent THEN has fermentation,0,0
+pw,fermentation,has trait,Chloroflexi,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaA (K02259) absent THEN has fermentation,0,0
+pw,fermentation,has trait,Chloroflexi,IF pdhC (K00627) absent AND buk (K00929) present AND ldhA (K03778) present THEN has fermentation,0,0
+pw,fermentation,has trait,Firmicutes,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaB (K02257) absent THEN has fermentation,214,161
+pw,fermentation,has trait,Firmicutes,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaA (K02259) absent THEN has fermentation,214,161
+pw,fermentation,has trait,Firmicutes,IF aceE (K00163) absent AND pflB (K00656) present AND ctaB (K02257) absent THEN has fermentation,234,173
+pw,fermentation,has trait,Proteobacteria,IF pflB (K00656) present AND ctaA (K02259) absent AND adhE (K04072) present THEN has fermentation,92,19
+pw,fermentation,has trait,Proteobacteria,IF cooS (K00198) absent AND ctaA (K02259) absent AND adhE (K04072) present THEN has fermentation,95,19
+pw,fermentation,has trait,Proteobacteria,IF ctaA (K02259) absent AND hdrB2 (K03389) absent AND adhE (K04072) present THEN has fermentation,96,20
+pw,fermentation,has trait,Spirochaetes,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaB (K02257) absent THEN has fermentation,11,11
+pw,fermentation,has trait,Spirochaetes,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaA (K02259) absent THEN has fermentation,11,11
+pw,fermentation,has trait,Spirochaetes,IF ldh (K00016) present AND hdrC2 (K03390) absent AND pflA-like (K04070) present THEN has fermentation,12,12
+pw,fermentation,has trait,Thermotogae,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaB (K02257) absent THEN has fermentation,1,1
+pw,fermentation,has trait,Thermotogae,IF pdhC (K00627) absent AND pflB (K00656) present AND ctaA (K02259) absent THEN has fermentation,1,1
+pw,fermentation,has trait,Thermotogae,IF pdhC (K00627) absent AND buk (K00929) present AND ldhA (K03778) present THEN has fermentation,1,1
+pw,fermentation,lacks trait,Actinobacteria,IF cooS (K00198) absent AND ack (K00925) absent AND hdrB2 (K03389) present THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Actinobacteria,IF korD (K00176) absent AND hdrC2 (K03390) present AND pflA-like (K04070) absent THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Actinobacteria,IF korD (K00176) absent AND cooS (K00198) absent AND hdrC2 (K03390) present THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Bacteroidetes,IF pflB (K00656) absent AND ack (K00925) absent AND ldhA (K03778) present THEN lacks fermentation,34,31
+pw,fermentation,lacks trait,Bacteroidetes,IF cooS (K00198) absent AND ack (K00925) absent AND hdrB2 (K03389) present THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Bacteroidetes,IF korD (K00176) absent AND hdrC2 (K03390) present AND pflA-like (K04070) absent THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Chloroflexi,IF cooS (K00198) absent AND ack (K00925) absent AND hdrB2 (K03389) present THEN lacks fermentation,2,1
+pw,fermentation,lacks trait,Chloroflexi,IF korD (K00176) absent AND hdrC2 (K03390) present AND pflA-like (K04070) absent THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Chloroflexi,IF korD (K00176) absent AND cooS (K00198) absent AND hdrC2 (K03390) present THEN lacks fermentation,1,1
+pw,fermentation,lacks trait,Firmicutes,IF korD (K00176) absent AND hdrC2 (K03390) present AND pflA-like (K04070) absent THEN lacks fermentation,1,1
+pw,fermentation,lacks trait,Firmicutes,IF korD (K00176) absent AND cooS (K00198) absent AND hdrC2 (K03390) present THEN lacks fermentation,1,0
+pw,fermentation,lacks trait,Firmicutes,IF korC (K00177) absent AND hdrC2 (K03390) present THEN lacks fermentation,3,1
+pw,fermentation,lacks trait,Proteobacteria,IF ldh (K00016) absent AND ack (K00925) absent AND hdrB2 (K03389) present THEN lacks fermentation,14,8
+pw,fermentation,lacks trait,Proteobacteria,IF ldh (K00016) absent AND ack (K00925) absent AND hdrA2 (K03388) present THEN lacks fermentation,22,15
+pw,fermentation,lacks trait,Proteobacteria,IF ldh (K00016) absent AND ack (K00925) absent AND hdrC2 (K03390) present THEN lacks fermentation,19,12
+pw,fermentation,lacks trait,Spirochaetes,IF cooS (K00198) absent AND ack (K00925) absent AND hdrB2 (K03389) present THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Spirochaetes,IF korD (K00176) absent AND hdrC2 (K03390) present AND pflA-like (K04070) absent THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Spirochaetes,IF korD (K00176) absent AND cooS (K00198) absent AND hdrC2 (K03390) present THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Thermotogae,IF cooS (K00198) absent AND ack (K00925) absent AND hdrB2 (K03389) present THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Thermotogae,IF korD (K00176) absent AND hdrC2 (K03390) present AND pflA-like (K04070) absent THEN lacks fermentation,0,0
+pw,fermentation,lacks trait,Thermotogae,IF korD (K00176) absent AND cooS (K00198) absent AND hdrC2 (K03390) present THEN lacks fermentation,0,0
+pw,aerobic_chemoheterotrophy,lacks trait,Actinobacteria,IF petC (K00413) absent AND cydA (K00425) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,14,14
+pw,aerobic_chemoheterotrophy,lacks trait,Actinobacteria,IF petC (K00413) absent AND cydB (K00426) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,14,14
+pw,aerobic_chemoheterotrophy,lacks trait,Actinobacteria,IF petC (K00413) absent AND pdhC (K00627) absent AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,8,8
+pw,aerobic_chemoheterotrophy,lacks trait,Bacteroidetes,IF petC (K00413) absent AND cydB (K00426) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,54,53
+pw,aerobic_chemoheterotrophy,lacks trait,Bacteroidetes,IF petC (K00413) absent AND cydA (K00425) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,54,53
+pw,aerobic_chemoheterotrophy,lacks trait,Bacteroidetes,IF petC (K00413) absent AND pdhC (K00627) absent AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,44,44
+pw,aerobic_chemoheterotrophy,lacks trait,Chloroflexi,IF petC (K00413) absent AND cydA (K00425) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,1,1
+pw,aerobic_chemoheterotrophy,lacks trait,Chloroflexi,IF petC (K00413) absent AND cydB (K00426) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,1,1
+pw,aerobic_chemoheterotrophy,lacks trait,Chloroflexi,IF petC (K00413) absent AND pdhC (K00627) absent AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,4,4
+pw,aerobic_chemoheterotrophy,lacks trait,Euryarchaeota,IF petC (K00413) absent AND cydA (K00425) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,15,15
+pw,aerobic_chemoheterotrophy,lacks trait,Euryarchaeota,IF petC (K00413) absent AND cydB (K00426) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,13,13
+pw,aerobic_chemoheterotrophy,lacks trait,Euryarchaeota,IF petC (K00413) absent AND pdhC (K00627) absent AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,151,151
+pw,aerobic_chemoheterotrophy,lacks trait,Firmicutes,IF petC (K00413) absent AND pdhC (K00627) absent AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,314,308
+pw,aerobic_chemoheterotrophy,lacks trait,Firmicutes,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,264,257
+pw,aerobic_chemoheterotrophy,lacks trait,Firmicutes,IF petC (K00413) absent AND ctaB (K02257) absent AND coxB (K02275) absent THEN lacks aerobic_chemoheterotrophy,337,329
+pw,aerobic_chemoheterotrophy,lacks trait,Proteobacteria,IF petC (K00413) absent AND cydA (K00425) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,100,100
+pw,aerobic_chemoheterotrophy,lacks trait,Proteobacteria,IF petC (K00413) absent AND cydB (K00426) present AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,99,99
+pw,aerobic_chemoheterotrophy,lacks trait,Proteobacteria,IF petC (K00413) absent AND pdhC (K00627) absent AND ctaB (K02257) absent THEN lacks aerobic_chemoheterotrophy,76,76
+pw,photoautotrophy,lacks trait,Chlorobi,IF pufL (K08928) absent THEN lacks photoautotrophy,11,0
+pw,photoautotrophy,lacks trait,Chlorobi,IF aceE (K00163) absent AND petC (K00413) absent THEN lacks photoautotrophy,11,0
+pw,photoautotrophy,lacks trait,Chlorobi,IF aceE (K00163) present AND rbcL (K01601) absent THEN lacks photoautotrophy,0,0
+pw,photoautotrophy,lacks trait,Proteobacteria,IF rbcL (K01601) absent AND hdrB2 (K03389) absent AND pufL (K08928) absent THEN lacks photoautotrophy,906,906
+pw,photoautotrophy,lacks trait,Proteobacteria,IF rbcL (K01601) absent AND hdrA2 (K03388) absent AND pufL (K08928) absent THEN lacks photoautotrophy,876,876
+pw,photoautotrophy,lacks trait,Proteobacteria,IF ctaB (K02257) present AND pufL (K08928) absent THEN lacks photoautotrophy,943,943
+pw,methylotrophy,lacks trait,Firmicutes,IF ctaA (K02259) absent AND hdrB2 (K03389) absent AND mxaF (K14028) absent THEN lacks methylotrophy,295,291
+pw,methylotrophy,lacks trait,Firmicutes,IF ctaA (K02259) absent AND hdrB2 (K03389) absent AND xoxF (K23995) absent THEN lacks methylotrophy,295,291
+pw,methylotrophy,lacks trait,Firmicutes,IF korA (K00174) present AND hdrB2 (K03389) absent AND coxL (K03520) absent THEN lacks methylotrophy,326,324
+pw,methylotrophy,lacks trait,Proteobacteria,IF korA (K00174) present AND korD (K00176) absent AND coxL (K03520) absent THEN lacks methylotrophy,82,82
+pw,methylotrophy,lacks trait,Proteobacteria,IF korA (K00174) present AND korC (K00177) absent AND coxL (K03520) absent THEN lacks methylotrophy,83,83
+pw,methylotrophy,lacks trait,Proteobacteria,IF korA (K00174) present AND ctaB (K02257) present AND coxL (K03520) absent THEN lacks methylotrophy,118,117

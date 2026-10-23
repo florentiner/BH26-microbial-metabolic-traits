@@ -1,0 +1,1532 @@
+[
+ {
+  "species": "Ureaplasma rhincodontis",
+  "strain": "TOSA-KAIYUT",
+  "genus": "Ureaplasma",
+  "refseq_accession": "GCF_057537535.1",
+  "year_described": 2026,
+  "description_reference": "Segawa T, Nakajima Y, Ito T, Saito Y, Kiyatake I, Yoshii Y, Itou T, 2026, Ureaplasma rhincodontis sp. nov. isolated from the faeces of whale shark (Rhincodon typus). International journal of systematic and evolutionary microbiology, doi:10.1099/ijsem.0.007317",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007317",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42867144/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42867144%20AND%20SRC:MED",
+   "https://doi.org/10.1099/ijsem.0.007317 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "Grew in PPLO broth under both aerobic and anaerobic conditions; titres higher and colonies only under anaerobic conditions",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "growth under aerobic conditions (O2)",
+    "quote": "TOSA-KAIYUT grew in serum- and urea-supplemented pleuropneumonia-like organism (PPLO) broth under both aerobic and anaerobic conditions at 25 °C; however, colour-changing unit titres were 10-100-fold higher under anaerobic conditions and colony formation on PPLO agar occurred only under anaerobic conditions.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42867144/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Pantoea citricola",
+  "strain": "DMYE4T",
+  "genus": "Pantoea",
+  "refseq_accession": "GCF_056678915.1",
+  "year_described": 2026,
+  "description_reference": "Zhang J, Rong X, Chen Q, Li J, Feng GD, Zhu H, Yang S, 2026, Pantoea citricola sp. nov. and Pantoea folii sp. nov., two bacteria with plant-growth-promoting traits isolated from the phyllosphere of honey pomelo (Citrus maxima). International journal of systematic and evolutionary microbiology, doi:10.1099/ijsem.0.007319",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007319",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42841878/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42841878%20AND%20SRC:MED",
+   "https://doi.org/10.1099/ijsem.0.007319 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "facultatively anaerobic",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (facultatively anaerobic)",
+    "quote": "Two yellow-pigmented, Gram-negative, facultatively anaerobic, motile and rod-shaped bacterial strains, designated DMYE4T and HJE1T, were isolated from healthy leaves of honey pomelo (Citrus maxima) in Dabu County, Guangdong Province, PR China.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42841878/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Dorea chungnamensis",
+  "strain": "YH-dor228T",
+  "genus": "Dorea",
+  "refseq_accession": "GCF_039832125.1",
+  "year_described": 2026,
+  "description_reference": "Paek J, Bai L, Jang JP, Shin Y, Kim H, Kim SH, Shin JH, Kook JK, Chang YH, 2026, Description of Dorea chungnamensis sp. nov., an Aerotolerant Anaerobe Isolated from Pig Feces. Current microbiology, doi:10.1007/s00284-026-05115-6",
+  "description_url": "https://doi.org/10.1007/s00284-026-05115-6",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42714644/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42714644%20AND%20SRC:MED",
+   "https://doi.org/10.1007/s00284-026-05115-6 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "aerotolerant anaerobe (no explicit aerobic growth result in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Pseudaquabacterium prasiolae",
+  "strain": "OR-4T",
+  "genus": "Pseudaquabacterium",
+  "refseq_accession": "GCF_025290835.2",
+  "year_described": 2026,
+  "description_reference": "Lee JK, Choi SH, Jung SH, Kwon YE, Kim JM, Jeon CO, 2026, Pseudaquabacterium prasiolae sp. nov., Isolated from the Freshwater Green Alga Prasiola japonica, and Rubrivivax soli sp. nov., Isolated from Soil, with Reclassification of Aquabacterium humicola as Pseudaquabacterium humicola comb. nov. Current microbiology, doi:10.1007/s00284-026-05151-2",
+  "description_url": "https://doi.org/10.1007/s00284-026-05151-2",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42711584/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42711584%20AND%20SRC:MED",
+   "https://doi.org/10.1007/s00284-026-05151-2 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "strictly aerobic",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (strictly aerobic)",
+    "quote": "Two Gram-stain-negative, catalase- and oxidase-positive, strictly aerobic, non-flagellated rod-shaped bacteria, designated OR-4T and RP6-9T, were isolated from the freshwater green alga Prasiola japonica and soil in Republic of Korea, respectively.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42711584/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Aleya cavernae",
+  "strain": "BS-20T",
+  "genus": "Aleya",
+  "refseq_accession": "GCF_039995105.1",
+  "year_described": 2026,
+  "description_reference": "Miller SL, Lu N, Shears PR, King J, Sankaranarayanan K, Lawson PA, 2026, Aleya cavernae gen. nov., sp. nov., and Lacrimispora cavernae sp. nov., novel taxa isolated from bat guano. International journal of systematic and evolutionary microbiology, doi:10.1099/ijsem.0.007260",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007260",
+  "evidence_tier": "A",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42615434/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42615434%20AND%20SRC:MED",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13488357/fullTextXML"
+  ],
+  "oxygen_relationship": "facultatively anaerobic; grown aerobically on TSA plus 5% sheep blood",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic growth on TSA plus 5% sheep blood)",
+    "quote": "For cellular fatty acids analysis, strain BS-2 T was grown anaerobically on BHI plus 5% sheep’s blood medium at 37 °C for 2 days, whereas BS-20 T was grown aerobically on TSA plus 5% sheep’s blood medium at 30 °C for 2 days.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13488357/fullTextXML"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Neotabrizicola paludis",
+  "strain": "sgz301269T",
+  "genus": "Neotabrizicola",
+  "refseq_accession": "GCF_044142105.1",
+  "year_described": 2026,
+  "description_reference": "Zhang SY, Lu XF, Gao P, Yao L, Jiang HY, Liu GH, Zhou SG, 2026, Isolation and characterization of two novel species Neorhizobium fuzhouense sp. nov. and Neotabrizicola paludis sp. nov. Antonie van Leeuwenhoek, doi:10.1007/s10482-026-02405-8",
+  "description_url": "https://doi.org/10.1007/s10482-026-02405-8",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42603210/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42603210%20AND%20SRC:MED",
+   "https://doi.org/10.1007/s10482-026-02405-8 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "aerobic",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic)",
+    "quote": "Two novel aerobic bacterial strains, designated SGZ-38T and sgz301269T, were isolated from the root of Pennisetum sp. and paddy soil, respectively.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42603210/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Mitsuokella apri",
+  "strain": "WILCCON 0060T",
+  "genus": "Mitsuokella",
+  "refseq_accession": "GCF_047974105.1",
+  "year_described": 2026,
+  "description_reference": "Lee JKY, Heng YC, Silvaraju S, Kittelmann S, 2026, Mitsuokella apri sp. nov., a novel species of the family Selenomonadaceae isolated from faeces of a wild boar (Sus scrofa). Antonie van Leeuwenhoek, doi:10.1007/s10482-026-02407-6",
+  "description_url": "https://doi.org/10.1007/s10482-026-02407-6",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42601554/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42601554%20AND%20SRC:MED",
+   "https://doi.org/10.1007/s10482-026-02407-6 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "obligately anaerobic (no explicit aerobic growth test in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Borborobacter xinjiangensis",
+  "strain": "NGMCC 1.201702T",
+  "genus": "Borborobacter",
+  "refseq_accession": "GCF_047739745.1",
+  "year_described": 2026,
+  "description_reference": "Li X, Tao Y, Li M, Zhang Q, Wu G, Hu J, Bai S, Su L, Li X, 2026, Borborobacter xinjiangensis sp. nov., a moderately halophilic bacterium isolated from grapevine rootstock in Xinjiang, China. Archives of microbiology, doi:10.1007/s00203-026-05123-x",
+  "description_url": "https://doi.org/10.1007/s00203-026-05123-x",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42573622/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42573622%20AND%20SRC:MED",
+   "https://doi.org/10.1007/s00203-026-05123-x (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "facultatively anaerobic",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (facultatively anaerobic)",
+    "quote": "A Gram-negative, facultatively anaerobic, non-motile, and non-spore-forming rod-shaped bacterium, designated strain NGMCC 1.201702T, was isolated from grapevine rootstock in a vineyard in the Xinjiang Uygur Autonomous Region, China.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42573622/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Gorillibacterium terrae",
+  "strain": "sgz500922T",
+  "genus": "Gorillibacterium",
+  "refseq_accession": "GCF_051594785.1",
+  "year_described": 2026,
+  "description_reference": "Liu GH, Shen HC, Xu YJ, Gao P, Yao L, Zhou SG, 2026, Two novel diazotrophic Paenibacillaceae bacteria, Gorillibacterium terrae sp. nov. and Oryzibacillus soli gen. nov., sp. nov., isolated from rice fields. International journal of systematic and evolutionary microbiology, doi:10.1099/ijsem.0.007259",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007259",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42530972/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42530972%20AND%20SRC:MED",
+   "https://doi.org/10.1099/ijsem.0.007259 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "aerobic",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic)",
+    "quote": "Two novel aerobic, Gram-stain-positive, endospore-forming and short rod-shaped bacterial strains, designated as sgz500922T and sgz5001074T, were isolated from paddy soils in Fujian, PR China.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42530972/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Oryzibacillus soli",
+  "strain": "sgz5001074T",
+  "genus": "Oryzibacillus",
+  "refseq_accession": "GCF_051594765.1",
+  "year_described": 2026,
+  "description_reference": "Liu GH, Shen HC, Xu YJ, Gao P, Yao L, Zhou SG, 2026, Two novel diazotrophic Paenibacillaceae bacteria, Gorillibacterium terrae sp. nov. and Oryzibacillus soli gen. nov., sp. nov., isolated from rice fields. International journal of systematic and evolutionary microbiology, doi:10.1099/ijsem.0.007259",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007259",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42530972/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42530972%20AND%20SRC:MED",
+   "https://doi.org/10.1099/ijsem.0.007259 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "aerobic",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic)",
+    "quote": "Two novel aerobic, Gram-stain-positive, endospore-forming and short rod-shaped bacterial strains, designated as sgz500922T and sgz5001074T, were isolated from paddy soils in Fujian, PR China.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42530972/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Ammonicoccus luteus",
+  "strain": "GXG 6511T",
+  "genus": "Ammonicoccus",
+  "refseq_accession": "GCF_050880385.1",
+  "year_described": 2026,
+  "description_reference": "Yang F, Liu H, Li J, Li C, Li D, Sun Y, Yang L, Jiang M, 2026, Ammonicoccus luteus sp. nov., a novel actinobacterium isolated from the intestine of Argyrosomus argentatus. Archives of microbiology, doi:10.1007/s00203-026-05064-5",
+  "description_url": "https://doi.org/10.1007/s00203-026-05064-5",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42517974/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42517974%20AND%20SRC:MED",
+   "https://doi.org/10.1007/s00203-026-05064-5 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "facultatively anaerobic; weaker growth under anaerobic than aerobic conditions",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (aerobic vs anaerobic growth compared)",
+    "quote": "Under anaerobic conditions, strain GXG 6511T showed weaker growth than under aerobic conditions.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42517974/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Eximiradius proteiniborus",
+  "strain": "OB-3-phT",
+  "genus": "Eximiradius",
+  "refseq_accession": "GCF_058546985.1",
+  "year_described": 2026,
+  "description_reference": "Podosokorskaya OA, Elcheninov AG, Klyukina AA, Frolov EN, Merkel AY, 2026, Eximiradius proteiniborus gen. nov., sp. nov., the first cultivated representative of the \"Candidatus Kapaibacteriia\" (lineage OPB56) and a proposal of Eximiradiaceae fam. nov., Eximiradiales ord. nov., Eximiradiia class. nov. within the phylum Bacteroidota. Systematic and applied microbiology, doi:10.1016/j.syapm.2026.126753",
+  "description_url": "https://doi.org/10.1016/j.syapm.2026.126753",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42508267/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42508267%20AND%20SRC:MED",
+   "https://doi.org/10.1016/j.syapm.2026.126753 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "strictly anaerobic (no explicit aerobic growth test in abstract; respiration statement is genome-based, not used)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Neffella xylocopae",
+  "strain": "AC157XtpT",
+  "genus": "Neffella",
+  "refseq_accession": "GCF_045014155.1",
+  "year_described": 2026,
+  "description_reference": "Silva Cerqueira AE, Holley JC, Hatcher SC, Vidigal PMP, Phillips LE, Moran NA, 2026, Neffella xylocopae gen. nov., sp. nov., a novel host-specific gut symbiont of Xylocopa carpenter bees in the family Orbaceae. International journal of systematic and evolutionary microbiology, doi:10.1099/ijsem.0.007119",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007119",
+  "evidence_tier": "A",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42455639/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42455639%20AND%20SRC:MED",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13372188/fullTextXML"
+  ],
+  "oxygen_relationship": "anaerobic; better growth anaerobically than under 5% CO2; minimal to no growth under ambient atmosphere",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_negative",
+    "substrates": "ambient atmosphere (air) and 5% CO2 incubation vs anaerobic",
+    "quote": "Minimal to no growth was observed under ambient atmospheric conditions.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13372188/fullTextXML"
+   },
+   "acceptor_nitrate": {
+    "status": "tested_negative",
+    "substrates": "nitrate (nitrate reductase / nitrate reduction test)",
+    "quote": "Negative for catalase, oxidase, urease, nitrate reductase, indole production and β -galactosidase, variable for β -glucosidase and positive for N -acetyl- β -glucosaminidase activities.",
+    "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13372188/fullTextXML"
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Marinibium conchae",
+  "strain": "MH2013T",
+  "genus": "Marinibium",
+  "refseq_accession": "GCF_015595035.1",
+  "year_described": 2026,
+  "description_reference": "Lee YM, Jayan JN, Moon HJ, Lee SC, Srinivasan S, Lee SS, 2026, Characterization of Marinibium conchae gen. nov. sp. nov., a novel psychrotolerant mesophilic bacterium from mussels. International journal of systematic and evolutionary microbiology, doi:10.1099/ijsem.0.007217",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007217",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42446518/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42446518%20AND%20SRC:MED",
+   "https://doi.org/10.1099/ijsem.0.007217 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "facultatively anaerobic",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "tested_positive",
+    "substrates": "O2 (facultatively anaerobic)",
+    "quote": "Cells were short rods, Gram-stain-negative, facultatively anaerobic, motile by flagella, oxidase- and catalase-positive.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/42446518/ (abstract)"
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ },
+ {
+  "species": "Porcibacter vitabionis",
+  "strain": "YH-ros2226T",
+  "genus": "Porcibacter",
+  "refseq_accession": "GCF_046263755.1",
+  "year_described": 2026,
+  "description_reference": "Paek J, Bai L, Jang JP, Shin Y, Kim H, Kim SH, Shin JH, Kook JK, Chang YH, 2026, Description of Porcibacter vitabionis gen. nov., sp. nov., an anaerobe isolated from pig faeces. International journal of systematic and evolutionary microbiology, doi:10.1099/ijsem.0.007214",
+  "description_url": "https://doi.org/10.1099/ijsem.0.007214",
+  "evidence_tier": "B",
+  "other_sources": [
+   "https://pubmed.ncbi.nlm.nih.gov/42405947/",
+   "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:42405947%20AND%20SRC:MED",
+   "https://doi.org/10.1099/ijsem.0.007214 (publisher page not accessible: paywall/403)"
+  ],
+  "oxygen_relationship": "anaerobic (no explicit aerobic growth test in abstract)",
+  "categories": {
+   "donor_sulfur_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_ammonia_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_nitrite_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_hydrogen_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_CO_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_iron_oxidation": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "donor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_oxygen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_nitrate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfate": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_sulfur": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_CO2_methanogen_acetogen": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_iron": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   },
+   "acceptor_other": {
+    "status": "not_tested",
+    "substrates": "",
+    "quote": "",
+    "source": ""
+   }
+  }
+ }
+]

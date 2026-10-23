@@ -1,0 +1,59 @@
+date,variant,hypothesis,reference,genus_macro_auprc,genus_reference_macro_auprc,genus_delta,genus_delta_ci_low,genus_delta_ci_high,family_macro_auprc,family_reference_macro_auprc,family_delta,family_delta_ci_low,family_delta_ci_high,passes_genus_family_rule,s3_mean_delta_genus,promoted,genus_n_genomes_compared,family_n_genomes_compared
+2026-09-17T20:53,B2cnt,R1 KO copy number (log1p counts) instead of presence,B2,0.5766,0.5756,0.0010,-0.0225,0.0146,0.5483,0.5599,-0.0116,-0.0473,0.0149,False,,False,,
+2026-09-17T20:54,B2tax,R2 energy panel + leakage-free taxonomic prior,B2,0.5753,0.5756,-0.0003,-0.0107,0.0093,0.5503,0.5599,-0.0096,-0.0246,0.0030,False,,False,,
+2026-09-17T20:59,LG,R3 MagicLamp LithoGenie/FeGenie HMM counts alone,B2,0.5853,0.5756,0.0097,-0.0292,0.0306,0.5481,0.5599,-0.0119,-0.0799,0.0226,False,,False,,
+2026-09-17T20:59,B2LG,R3 energy panel + LithoGenie/FeGenie HMM counts,B2,0.5875,0.5756,0.0119,-0.0146,0.0274,0.5613,0.5599,0.0014,-0.0312,0.0253,False,,False,,
+2026-09-17T21:09,SEL,"R7 per-trait feature-set selection {B2, LG, B2LG} x models inside inner CV",B2,0.5887,0.5756,0.0131,-0.0173,0.0280,0.5635,0.5599,0.0035,-0.0543,0.0283,False,,False,,
+2026-09-17T21:19,STACK,R5 cross-trait stacking: level-2 logistic on 14 level-1 (B2+LG logistic) scores,B2,0.5896,0.5756,0.0140,-0.0239,0.0314,0.5499,0.5599,-0.0100,-0.0440,0.0270,False,,False,,
+2026-09-17T21:34,ENS,R8 equal-weight average of the same model trained on B2 and on LG features,B2,0.5890,0.5756,0.0134,-0.0084,0.0291,0.5686,0.5599,0.0087,-0.0327,0.0309,False,0.0151,False,,
+2026-09-17T22:08,ENSH,R11 ENS with multiheme cytochrome (CXXCH motif) features added to the LG group,B2,0.5889,0.5756,0.0133,-0.0088,0.0302,0.5694,0.5599,0.0095,-0.0202,0.0300,False,,False,,
+2026-09-17T23:17,C,R4 pooled ESM-2 35M embeddings (pre-registered arm C),B2,0.5440,0.5756,-0.0316,-0.0758,0.0005,0.4970,0.5599,-0.0630,-0.1099,-0.0202,False,,False,358.0000,358.0000
+2026-09-17T23:17,E,R4 Bacformer-base frozen (pre-registered arm E),B2,0.5513,0.5756,-0.0243,-0.0671,0.0059,0.5220,0.5599,-0.0379,-0.0857,0.0042,False,,False,358.0000,358.0000
+2026-09-17T23:18,E_MAG,R4 Bacformer-base MAG checkpoint,B2,0.5404,0.5756,-0.0352,-0.0824,-0.0079,0.4965,0.5599,-0.0634,-0.1223,-0.0192,False,,False,358.0000,358.0000
+2026-09-17T23:24,E,R4 Bacformer-base frozen (pre-registered arm E),C,0.5513,0.5440,0.0073,-0.0272,0.0409,0.5220,0.4970,0.0251,-0.0094,0.0632,False,,False,358.0000,358.0000
+2026-09-17T23:42,B3,"R12 full significant-KO profile from TogoMCP BH26 RDF (all KOs, not only the energy panel)",B2,0.5902,0.5698,0.0204,-0.0170,0.0430,0.5556,0.5532,0.0024,-0.0506,0.0308,False,,False,306.0000,306.0000
+2026-09-17T23:42,B3ENS,R12b average of B3 model and LithoGenie model,B2,0.6050,0.5698,0.0352,-0.0019,0.0510,0.5801,0.5532,0.0270,-0.0247,0.0522,False,,False,306.0000,306.0000
+2026-09-18T00:45,B2E,R13 average of B2 model and Bacformer-base probe,B2,0.6042,0.5756,0.0286,0.0087,0.0479,0.5832,0.5599,0.0233,-0.0111,0.0481,True,0.0333,True,358.0000,358.0000
+2026-09-18T00:45,B2C,R13 average of B2 model and pooled ESM-2 probe,B2,0.6010,0.5756,0.0254,0.0033,0.0426,0.5759,0.5599,0.0159,-0.0144,0.0399,True,0.0239,True,358.0000,358.0000
+2026-09-18T00:48,B2LGE,"R14 average of B2 model, LithoGenie model and Bacformer-base probe",B2E,0.6107,0.6042,0.0065,-0.0138,0.0244,0.5959,0.5832,0.0127,-0.0152,0.0303,False,,False,358.0000,358.0000
+2026-09-18T00:48,B2C,R13 average of B2 model and pooled ESM-2 probe,B2E,0.6010,0.6042,-0.0032,-0.0237,0.0113,0.5759,0.5832,-0.0073,-0.0298,0.0141,False,,False,358.0000,358.0000
+2026-09-18T00:49,ENS,R8 equal-weight average of the same model trained on B2 and on LG features,B2E,0.5890,0.6042,-0.0152,-0.0437,0.0062,0.5686,0.5832,-0.0146,-0.0492,0.0100,False,,False,358.0000,358.0000
+2026-09-18T00:49,B3ENS,R12b average of B3 model and LithoGenie model,B2E,0.6050,0.5988,0.0062,-0.0347,0.0294,0.5801,0.5848,-0.0047,-0.0531,0.0234,False,,False,306.0000,306.0000
+2026-09-18T01:18,B2B1r,R15 control: B2 + marker-subset model (no embeddings),B2,0.5793,0.5756,0.0037,-0.0160,0.0230,0.5774,0.5599,0.0175,-0.0095,0.0348,False,,False,358.0000,358.0000
+2026-09-18T01:18,B2RP,"R15 control: B2 + logistic probe on a random projection of the KO panel (embedding-shaped, no PLM)",B2,0.5740,0.5756,-0.0016,-0.0164,0.0138,0.5422,0.5599,-0.0177,-0.0392,0.0097,False,,False,358.0000,358.0000
+2026-09-18T01:19,B2XL,R15 control: B2 with logreg+xgb averaged (no second feature block),B2,0.6019,0.5756,0.0263,0.0027,0.0386,0.5729,0.5599,0.0130,-0.0252,0.0350,True,,False,358.0000,358.0000
+2026-09-18T01:19,B2E,R13 average of B2 model and Bacformer-base probe,B2B1r,0.6042,0.5793,0.0249,0.0018,0.0467,0.5832,0.5774,0.0058,-0.0180,0.0358,True,,False,358.0000,358.0000
+2026-09-18T01:41,B2E,R13 average of B2 model and Bacformer-base probe,B2XL,0.6042,0.6019,0.0023,-0.0156,0.0314,0.5832,0.5729,0.0103,-0.0146,0.0405,False,,False,358.0000,358.0000
+2026-09-18T01:41,B2C,R13 average of B2 model and pooled ESM-2 probe,B2XL,0.6010,0.6019,-0.0009,-0.0166,0.0227,0.5759,0.5729,0.0030,-0.0162,0.0313,False,,False,358.0000,358.0000
+2026-09-18T01:41,B2LGE,"R14 average of B2 model, LithoGenie model and Bacformer-base probe",B2XL,0.6107,0.6019,0.0088,-0.0088,0.0390,0.5959,0.5729,0.0230,-0.0008,0.0456,False,,False,358.0000,358.0000
+2026-09-18T01:42,ENS,R8 equal-weight average of the same model trained on B2 and on LG features,B2XL,0.5890,0.6019,-0.0129,-0.0310,0.0159,0.5686,0.5729,-0.0043,-0.0285,0.0202,False,,False,358.0000,358.0000
+2026-09-18T01:46,B2XLE,R16 B2XL (logreg+xgb on KO panel) averaged with Bacformer-base probe: PLM beyond learner ensembling,B2XL,0.6099,0.6019,0.0080,-0.0077,0.0288,0.5791,0.5729,0.0062,-0.0160,0.0355,False,,False,358.0000,358.0000
+2026-09-18T01:46,B2XLC,R16 B2XL averaged with pooled ESM-2 probe,B2XL,0.6160,0.6019,0.0141,-0.0033,0.0337,0.5837,0.5729,0.0108,-0.0126,0.0366,False,,False,358.0000,358.0000
+2026-09-18T04:13,B2XL,R15 control: B2 with logreg+xgb averaged (no second feature block),B2,0.6019,0.5756,0.0263,0.0027,0.0386,0.5729,0.5599,0.0130,-0.0252,0.0350,True,0.0273,True,358.0000,358.0000
+2026-09-18T04:13,B2XLE,R16 B2XL (logreg+xgb on KO panel) averaged with Bacformer-base probe: PLM beyond learner ensembling,B2,0.6099,0.5756,0.0343,0.0092,0.0516,0.5791,0.5599,0.0192,-0.0217,0.0498,True,0.0364,True,358.0000,358.0000
+2026-09-18T04:14,B2XLC,R16 B2XL averaged with pooled ESM-2 probe,B2,0.6160,0.5756,0.0405,0.0116,0.0584,0.5837,0.5599,0.0237,-0.0135,0.0537,True,0.0304,True,358.0000,358.0000
+2026-09-18T04:14,B2LGE,"R14 average of B2 model, LithoGenie model and Bacformer-base probe",B2,0.6107,0.5756,0.0351,0.0120,0.0557,0.5959,0.5599,0.0360,-0.0034,0.0580,True,0.0346,True,358.0000,358.0000
+2026-09-18T04:14,B2E,R13 average of B2 model and Bacformer-base probe,B2,0.6042,0.5756,0.0286,0.0087,0.0479,0.5832,0.5599,0.0233,-0.0111,0.0481,True,0.0333,True,358.0000,358.0000
+2026-09-18T04:15,B2C,R13 average of B2 model and pooled ESM-2 probe,B2,0.6010,0.5756,0.0254,0.0033,0.0426,0.5759,0.5599,0.0159,-0.0144,0.0399,True,0.0239,True,358.0000,358.0000
+2026-09-18T04:15,ENS,R8 equal-weight average of the same model trained on B2 and on LG features,B2,0.5890,0.5756,0.0134,-0.0084,0.0291,0.5686,0.5599,0.0087,-0.0327,0.0309,False,0.0151,False,358.0000,358.0000
+2026-09-18T04:15,B2E,R13 average of B2 model and Bacformer-base probe,B2XL,0.6042,0.6019,0.0023,-0.0156,0.0314,0.5832,0.5729,0.0103,-0.0146,0.0405,False,0.0060,False,358.0000,358.0000
+2026-09-18T04:16,B2XLE,R16 B2XL (logreg+xgb on KO panel) averaged with Bacformer-base probe: PLM beyond learner ensembling,B2XL,0.6099,0.6019,0.0080,-0.0077,0.0288,0.5791,0.5729,0.0062,-0.0160,0.0355,False,0.0091,False,358.0000,358.0000
+2026-09-18T04:16,B2XLC,R16 B2XL averaged with pooled ESM-2 probe,B2XL,0.6160,0.6019,0.0141,-0.0033,0.0337,0.5837,0.5729,0.0108,-0.0126,0.0366,False,0.0031,False,358.0000,358.0000
+2026-09-18T04:16,B2LGE,"R14 average of B2 model, LithoGenie model and Bacformer-base probe",B2XL,0.6107,0.6019,0.0088,-0.0088,0.0390,0.5959,0.5729,0.0230,-0.0008,0.0456,False,0.0073,False,358.0000,358.0000
+2026-09-18T04:26,C_large,R6 pooled ESM-C 300M embeddings (protocol arm C with the large encoder),B2,0.5738,0.5756,-0.0018,-0.0550,0.0281,0.5089,0.5599,-0.0510,-0.1107,-0.0132,False,,False,358.0000,358.0000
+2026-09-18T04:26,E_large,"R6 Bacformer-large frozen (protocol arm E, preferred checkpoint)",B2,0.5769,0.5756,0.0013,-0.0533,0.0312,0.5308,0.5599,-0.0292,-0.1006,0.0030,False,,False,358.0000,358.0000
+2026-09-18T04:26,E_large_MAG,R6 Bacformer-large MAG checkpoint,B2,0.5598,0.5756,-0.0158,-0.0685,0.0126,0.5321,0.5599,-0.0279,-0.1068,0.0045,False,,False,358.0000,358.0000
+2026-09-18T04:27,B2E_large,R6 average of B2 model and Bacformer-large probe,B2,0.6125,0.5756,0.0369,0.0061,0.0558,0.5795,0.5599,0.0195,-0.0324,0.0416,True,,False,358.0000,358.0000
+2026-09-18T04:27,B2XLE_large,R6 B2XL averaged with Bacformer-large probe,B2,0.6250,0.5756,0.0494,0.0115,0.0694,0.5849,0.5599,0.0250,-0.0303,0.0442,True,,False,358.0000,358.0000
+2026-09-18T04:27,E_large,"R6 Bacformer-large frozen (protocol arm E, preferred checkpoint)",B2XL,0.5769,0.6019,-0.0250,-0.0659,0.0050,0.5308,0.5729,-0.0421,-0.0932,-0.0156,False,,False,358.0000,358.0000
+2026-09-18T04:28,B2E_large,R6 average of B2 model and Bacformer-large probe,B2XL,0.6125,0.6019,0.0106,-0.0090,0.0352,0.5795,0.5729,0.0066,-0.0211,0.0270,False,,False,358.0000,358.0000
+2026-09-18T04:28,B2XLE_large,R6 B2XL averaged with Bacformer-large probe,B2XL,0.6250,0.6019,0.0231,-0.0029,0.0469,0.5849,0.5729,0.0120,-0.0197,0.0269,False,,False,358.0000,358.0000
+2026-09-18T04:28,C_large,R6 pooled ESM-C 300M embeddings (protocol arm C with the large encoder),C,0.5738,0.5440,0.0298,-0.0107,0.0567,0.5089,0.4970,0.0120,-0.0337,0.0477,False,,False,358.0000,358.0000
+2026-09-18T04:29,E_large,"R6 Bacformer-large frozen (protocol arm E, preferred checkpoint)",E,0.5769,0.5513,0.0256,-0.0177,0.0552,0.5308,0.5220,0.0087,-0.0532,0.0469,False,,False,358.0000,358.0000
+2026-09-18T04:48,B2XLE_large,R6 B2XL averaged with Bacformer-large probe,B2,0.6250,0.5756,0.0494,0.0115,0.0694,0.5849,0.5599,0.0250,-0.0303,0.0442,True,0.0444,True,358.0000,358.0000
+2026-09-18T04:49,B2E_large,R6 average of B2 model and Bacformer-large probe,B2,0.6125,0.5756,0.0369,0.0061,0.0558,0.5795,0.5599,0.0195,-0.0324,0.0416,True,0.0342,True,358.0000,358.0000
+2026-09-18T06:44,D,R4 ABMIL over ESM-2 protein bags (pre-registered arm D),B2,0.5440,0.5756,-0.0316,-0.0666,0.0004,0.4859,0.5599,-0.0741,-0.1250,-0.0147,False,,False,358.0000,358.0000
+2026-09-18T11:57,D_nopf,Q3 clean contrast: ABMIL without the KO bag prefilter (pure attention over all proteins),C,0.5479,0.5440,0.0039,-0.0242,0.0451,0.4946,0.4970,-0.0024,-0.0268,0.0358,False,,False,358.0000,358.0000
+2026-09-18T11:57,D_nopf,Q3 clean contrast: ABMIL without the KO bag prefilter (pure attention over all proteins),B2,0.5479,0.5756,-0.0277,-0.0620,0.0050,0.4946,0.5599,-0.0653,-0.1109,-0.0167,False,,False,358.0000,358.0000
+2026-09-18T12:00,D_nopf,Q3 clean contrast: ABMIL without the KO bag prefilter (pure attention over all proteins),C,0.5479,0.5440,0.0039,-0.0242,0.0451,0.4946,0.4970,-0.0024,-0.0268,0.0358,False,,False,358.0000,358.0000
+2026-09-18T12:00,D_nopf,Q3 clean contrast: ABMIL without the KO bag prefilter (pure attention over all proteins),B2,0.5479,0.5756,-0.0277,-0.0620,0.0050,0.4946,0.5599,-0.0653,-0.1109,-0.0167,False,,False,358.0000,358.0000

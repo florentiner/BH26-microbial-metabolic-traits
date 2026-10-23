@@ -1,0 +1,15 @@
+task,model,trait,n_known_markers_in_features,n_stable_top,n_stable_top_known,expected_by_chance,p_hypergeom,stable_top_kos,q_bh
+da,DT,donor_sulfur_oxidation,16,4,1,0.1094,0.1053,"K17227, K27925, K23163, K14449",0.5643
+da,DT,donor_ammonia_oxidation,4,6,1,0.04103,0.0405,"K10945, K00360, K08906, K14466, K14467, K14468",0.4455
+da,DT,donor_nitrite_oxidation,5,8,0,0.06838,1,"K00368, K01738, K14449, K14465, K14466, K14467, K00018, K14468",1
+da,DT,donor_hydrogen_oxidation,3,6,0,0.03077,1,"K01678, K00123, K00018, K14466, K14465, K14467",1
+da,DT,donor_CO_oxidation,4,2,0,0.01368,1,"K03841, K14466",1
+da,DT,donor_iron_oxidation,0,2,0,0,,"K17229, K10945",
+da,DT,donor_other,8,0,0,0,,,
+da,DT,acceptor_oxygen,12,5,0,0.1026,1,"K05601, K14449, K14465, K14466, K14467",1
+da,DT,acceptor_nitrate,16,6,1,0.1641,0.1539,"K02276, K02567, K00018, K14465, K14466, K14467",0.5643
+da,DT,acceptor_sulfate,8,4,0,0.0547,1,"K27187, K27196, K01958, K01011",1
+da,DT,acceptor_sulfur,5,6,0,0.05128,1,"K15553, K14449, K14465, K14466, K14467, K14468",1
+da,DT,acceptor_CO2_methanogen_acetogen,16,6,0,0.1641,1,"K00958, K14465, K14466, K14467, K14468, K14470",1
+da,DT,acceptor_iron,0,5,0,0,,"K00031, K00018, K14449, K14465, K14466",
+da,DT,acceptor_other,4,4,0,0.02735,1,"K00148, K14465, K14466, K14467",1

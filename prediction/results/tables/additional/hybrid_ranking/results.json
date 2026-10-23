@@ -1,0 +1,50 @@
+{
+  "primary100": {
+    "n_tests": 255,
+    "n_papers": 98,
+    "macro_auroc_combined": 0.7347668731811834,
+    "macro_auroc_RedoxKO": 0.7320981291990933,
+    "macro_auroc_METABOLIC": 0.6391857615663664,
+    "pooled_auroc_combined": 0.8109381007304883,
+    "pooled_auroc_RedoxKO": 0.7199474561066257,
+    "pooled_auroc_METABOLIC": 0.7598039215686275,
+    "HH1_combined_minus_RedoxKO": 0.0026687439820900494,
+    "HH1_ci": [
+      -0.06572155628119099,
+      0.06810212274907584
+    ],
+    "HH1_success": false,
+    "HH2_combined_minus_METABOLIC": 0.09558111161481697,
+    "HH2_ci": [
+      0.006692365367779282,
+      0.16572872298864944
+    ],
+    "HH2_success": true
+  },
+  "withheld43": {
+    "n_tests": 75,
+    "n_papers": 41,
+    "macro_auroc_combined": 0.5098484848484849,
+    "macro_auroc_RedoxKO": 0.5042929292929293,
+    "macro_auroc_METABOLIC": 0.45568181818181813,
+    "pooled_auroc_combined": 0.8541666666666666,
+    "pooled_auroc_RedoxKO": 0.7947530864197532,
+    "pooled_auroc_METABOLIC": 0.7847222222222221,
+    "HH1_combined_minus_RedoxKO": 0.005555555555555536,
+    "HH1_ci": [
+      -0.033333333333333215,
+      0.08910704486466443
+    ],
+    "HH1_success": false,
+    "HH2_combined_minus_METABOLIC": 0.05416666666666675,
+    "HH2_ci": [
+      -0.17709134615384614,
+      0.28704861111111113
+    ],
+    "HH2_success": false
+  },
+  "HH3_confirmation": {
+    "HH1_same_sign": true,
+    "HH2_same_sign": true
+  }
+}

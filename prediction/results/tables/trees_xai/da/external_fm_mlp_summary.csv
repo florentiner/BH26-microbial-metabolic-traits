@@ -1,0 +1,4 @@
+arm,macro_auprc,macro_auprc_B2,delta_vs_B2,delta_ci_low,delta_ci_high
+FM_BFL_MLP,0.4135,0.5113,-0.0978,-0.1344,-0.0533
+FT_BFL0,0.4458,0.5113,-0.0655,-0.1065,-0.0226
+FT_BFL2,0.4481,0.5113,-0.0632,-0.1035,-0.0179

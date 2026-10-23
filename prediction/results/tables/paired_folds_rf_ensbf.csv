@@ -1,0 +1,15 @@
+allocation,level,ensBF_minus_RedoxKO,ci_low,ci_high,significant
+paper,genus,0.0126,-0.0204,0.0446,False
+paper,family,0.0231,-0.0280,0.0505,False
+seed1,genus,0.0517,0.0127,0.0684,True
+seed1,family,0.0406,-0.0163,0.0638,False
+seed2,genus,0.0136,-0.0114,0.0424,False
+seed2,family,0.0556,-0.0035,0.0797,False
+seed3,genus,0.0339,-0.0038,0.0578,False
+seed3,family,0.0345,-0.0169,0.0616,False
+seed4,genus,0.0480,0.0003,0.0700,True
+seed4,family,0.0491,-0.0068,0.0672,False
+seed5,genus,0.0443,0.0055,0.0669,True
+seed5,family,0.0326,-0.0190,0.0585,False
+gtdb,genus,0.0069,-0.0371,0.0312,False
+gtdb,family,0.0165,-0.0159,0.0417,False

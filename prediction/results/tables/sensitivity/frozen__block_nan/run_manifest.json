@@ -1,0 +1,45 @@
+{
+  "analysis": {
+    "split": "frozen",
+    "label_mode": "block_nan",
+    "subset": null
+  },
+  "git_commit": "852e512e7b5a76bf9d879553c090f4a88033eba3",
+  "src_dirty": true,
+  "code_sha256": {
+    "01_download_genomes.py": "92ebc4fe3f944933a2c57873c062591811fdf64f3cc2c3cc6cc2e004bf179019",
+    "02_build_protein_tables.py": "fe266cafe675b4843648444afa0195dc39171bb332a4c0807ead93cab716b442",
+    "03_embed_esm2.py": "c6688abf99b875fee9f0f1e3db2dd1cb469858a2d54d8309e1dcd5ba2bc047fc",
+    "04_kofam_scan.py": "29edccdfa8c72266bde30e6cd4091f826d4b50c6b12270e7b1e77da5f6f79ffe",
+    "05_labels_splits.py": "6bde16060eabe64d158a380416813dc35656edd11955a399d71f185ae3df9264",
+    "05b_gtdb_quality.py": "1ec671c481e067a532eb1867406ad9b67b3f19460f6f7e05aa45fcd459b3f81f",
+    "06_run_arms.py": "41ce50ae6cf5345743c16e7dfce22e80ccfd1f8ab10e4d507cd6c5b89a948d3d",
+    "06b_arm_D_abmil.py": "410b933ff46ad39980a265d7a2679613fd4717e83a73a99951a4a2d0204d8d64",
+    "07_genome_embeddings.py": "fe31ac3b08aac31036a2746b83df11dd41c2264decf1d030c95a7f24486aa66a",
+    "08_metrics.py": "48e8fe22f793d42eb8940530f98e62dd7d41cf5c8d492770e97c0bbb5a11e0d7",
+    "09_train_final.py": "ca37247220ea7f873e6bb49f7925b483187fca840d2a7d6cf8bea7c8b330d812",
+    "10_label_audit.py": "ad03eaff6a84692702ba680d56181ef59b72b1eb4c75d49467181ba5e69e46c3",
+    "11_figures.py": "c399e528933fb6119b551db421a4a27b51a9fa2001a959d6194dff2a458f4460",
+    "12_reproducibility_checks.py": "803c82eb9b8256cdb580c5397b9fbc4f80d4c1146c67e9e5bb46992379c12dac",
+    "13_sensitivity_summary.py": "89da8889b6b78e7ec1c2effaf65f9397c1d9c7ce6d697a1d6afea1c9fc418948",
+    "predict.py": "2a3861123f23d97e46514ee1eb4c32f0f2871369d8859b3a23a4cb8864c5413f",
+    "redox_common.py": "2377f8df8849169a139958db8896ee767b76c14fa604eb1973609f1fe0cb46ad"
+  },
+  "splits_sha256": "ae0cdef16851fbf003fc0a4b6c1dbb30e9a5907745b587470dacfd8407ff1146",
+  "labels_sha256": "d0be271455723b929f975dcb3e94022d48c554a3776f7c3eeaf44aef1a3a0dfb",
+  "input_table_sha256": "75c2458b61b2cc61e3d39bbc29c810cc1103e073b390f241989559752865faf5",
+  "ko_matrix_sha256": "df3e811846c962b4e09737ce09f096de663852dddee8d66875f38f23c0079c65",
+  "kofam_ko_list_sha256": "fd22f28e3dc6deaf1d579b9c80022d04acd69543e4639f08b2d34f5708bd920b",
+  "preregistration_sha256": "00488ae9969662ca168d9f7358e18c2c9aaf3c6dbc2412a02b461e6e9bd830f8",
+  "deviations_sha256": "09889942d23ebad6a5bc7a00b602dcf952276d5ee1c90afd839a1185631ef72c",
+  "requirements_lock_sha256": "6b69b9b834beabc6335f0ad1f1624728a9403998d6e3e6a883b27e4f2c29e7fb",
+  "n_bootstrap": 1000,
+  "bootstrap_seed": 20260917,
+  "oof_files": {
+    "A.parquet": "01fabd73c10d1cae0ad69a8254fbb610f51ae22446b556f73d853a490c5a4262",
+    "B1.parquet": "669a6839c3bc1149440145db17034fdb2768a0dc0605f382489468fd185cfd98",
+    "B1r.parquet": "61a156e169266428e0f1933f7aa3225219601d98a272465054cbbdf26c7aa9cc",
+    "B2.parquet": "08bacb4d0ebf331a6b6f3ebce62ebb6ff496cd7d4e6574f04bc183297bda6e48",
+    "nulls.parquet": "e6c4a7e7fdf5bbc20d54dc45891c6dfc350c846cce8488ee44809f8cac42dcb6"
+  }
+}

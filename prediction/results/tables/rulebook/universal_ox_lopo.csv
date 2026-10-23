@@ -1,0 +1,73 @@
+task,trait,cls,held_out_phylum,rule,hits,correct
+ox,uses_O2,has trait,Acidobacteria,IF pdhC (K00627) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Acidobacteria,IF pdhC (K00627) absent AND coxC (K02276) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Acidobacteria,IF ccoP (K00406) present AND ctaB (K02257) present AND coxB (K02275) absent THEN has uses_O2,0,0
+ox,uses_O2,has trait,Actinobacteria,IF ccoP (K00406) present AND ctaB (K02257) present AND coxB (K02275) absent THEN has uses_O2,0,0
+ox,uses_O2,has trait,Actinobacteria,IF aceE (K00163) absent AND cydA (K00425) absent AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Actinobacteria,IF pdhC (K00627) present AND coxB (K02275) absent AND coxC (K02276) present THEN has uses_O2,1,1
+ox,uses_O2,has trait,Aquificae,IF pdhC (K00627) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Aquificae,IF pdhC (K00627) absent AND coxC (K02276) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Aquificae,IF ccoP (K00406) present AND ctaB (K02257) present AND coxB (K02275) absent THEN has uses_O2,0,0
+ox,uses_O2,has trait,Bacteroidetes,IF pdhC (K00627) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Bacteroidetes,IF pdhC (K00627) absent AND coxC (K02276) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Bacteroidetes,IF aceE (K00163) absent AND cydA (K00425) absent AND coxL (K03520) present THEN has uses_O2,2,2
+ox,uses_O2,has trait,Chloroflexi,IF aceE (K00163) present AND cyoB (K02298) absent AND coxL (K03520) present THEN has uses_O2,3,2
+ox,uses_O2,has trait,Chloroflexi,IF ccoN (K00404) absent AND coxB (K02275) present AND coxL (K03520) present THEN has uses_O2,7,6
+ox,uses_O2,has trait,Chloroflexi,IF ccoN (K00404) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,7,6
+ox,uses_O2,has trait,Crenarchaeota,IF aceE (K00163) absent AND petC (K00413) absent AND coxL (K03520) present THEN has uses_O2,16,10
+ox,uses_O2,has trait,Crenarchaeota,IF pdhC (K00627) absent AND coxL (K03520) present THEN has uses_O2,15,10
+ox,uses_O2,has trait,Crenarchaeota,IF ccoP (K00406) present AND ctaB (K02257) present AND coxB (K02275) absent THEN has uses_O2,0,0
+ox,uses_O2,has trait,Cyanobacteria,IF pdhC (K00627) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Cyanobacteria,IF pdhC (K00627) absent AND coxC (K02276) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Cyanobacteria,IF ccoP (K00406) present AND ctaB (K02257) present AND coxB (K02275) absent THEN has uses_O2,0,0
+ox,uses_O2,has trait,Deinococcus-Thermus,IF pdhC (K00627) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Deinococcus-Thermus,IF pdhC (K00627) absent AND coxC (K02276) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Deinococcus-Thermus,IF ccoP (K00406) present AND ctaB (K02257) present AND coxB (K02275) absent THEN has uses_O2,0,0
+ox,uses_O2,has trait,Euryarchaeota,IF cydA (K00425) absent AND coxA (K02274) absent AND coxC (K02276) present THEN has uses_O2,5,4
+ox,uses_O2,has trait,Euryarchaeota,IF cydB (K00426) absent AND coxA (K02274) absent AND coxC (K02276) present THEN has uses_O2,5,4
+ox,uses_O2,has trait,Euryarchaeota,IF ccoP (K00406) present AND ctaB (K02257) present AND coxB (K02275) absent THEN has uses_O2,0,0
+ox,uses_O2,has trait,Firmicutes,IF pdhC (K00627) absent AND coxC (K02276) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Firmicutes,IF pdhC (K00627) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,2,2
+ox,uses_O2,has trait,Firmicutes,IF ccoP (K00406) present AND ctaB (K02257) present AND coxB (K02275) absent THEN has uses_O2,0,0
+ox,uses_O2,has trait,Proteobacteria,IF cydB (K00426) present AND coxL (K03520) present THEN has uses_O2,249,239
+ox,uses_O2,has trait,Proteobacteria,IF aceE (K00163) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,91,85
+ox,uses_O2,has trait,Proteobacteria,IF ccoP (K00406) present AND coxA (K02274) present THEN has uses_O2,685,668
+ox,uses_O2,has trait,Verrucomicrobia,IF pdhC (K00627) absent AND ctaA (K02259) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Verrucomicrobia,IF pdhC (K00627) absent AND coxC (K02276) present AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,has trait,Verrucomicrobia,IF aceE (K00163) absent AND cydA (K00425) absent AND coxL (K03520) present THEN has uses_O2,0,0
+ox,uses_O2,lacks trait,Acidobacteria,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Acidobacteria,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Acidobacteria,IF ctaA (K02259) absent AND coxL (K03520) absent THEN lacks uses_O2,2,2
+ox,uses_O2,lacks trait,Actinobacteria,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,4,2
+ox,uses_O2,lacks trait,Actinobacteria,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,4,2
+ox,uses_O2,lacks trait,Actinobacteria,IF ctaA (K02259) absent AND coxL (K03520) absent THEN lacks uses_O2,15,9
+ox,uses_O2,lacks trait,Aquificae,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Aquificae,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Aquificae,IF ctaA (K02259) absent AND coxL (K03520) absent THEN lacks uses_O2,11,7
+ox,uses_O2,lacks trait,Bacteroidetes,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,3,2
+ox,uses_O2,lacks trait,Bacteroidetes,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,5,2
+ox,uses_O2,lacks trait,Bacteroidetes,IF aceE (K00163) absent AND cydB (K00426) absent AND coxC (K02276) absent THEN lacks uses_O2,6,2
+ox,uses_O2,lacks trait,Chloroflexi,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,3,3
+ox,uses_O2,lacks trait,Chloroflexi,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,3,3
+ox,uses_O2,lacks trait,Chloroflexi,IF ctaA (K02259) absent AND coxL (K03520) absent THEN lacks uses_O2,4,4
+ox,uses_O2,lacks trait,Crenarchaeota,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,31,17
+ox,uses_O2,lacks trait,Crenarchaeota,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,31,17
+ox,uses_O2,lacks trait,Crenarchaeota,IF ctaA (K02259) absent AND coxL (K03520) absent THEN lacks uses_O2,15,11
+ox,uses_O2,lacks trait,Cyanobacteria,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Cyanobacteria,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Cyanobacteria,IF ctaA (K02259) absent AND coxL (K03520) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Deinococcus-Thermus,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxC (K02276) absent THEN lacks uses_O2,10,0
+ox,uses_O2,lacks trait,Deinococcus-Thermus,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Deinococcus-Thermus,IF ccoP (K00406) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,4,0
+ox,uses_O2,lacks trait,Euryarchaeota,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,147,139
+ox,uses_O2,lacks trait,Euryarchaeota,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,149,138
+ox,uses_O2,lacks trait,Euryarchaeota,IF ctaA (K02259) absent AND coxL (K03520) absent THEN lacks uses_O2,173,151
+ox,uses_O2,lacks trait,Firmicutes,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,241,212
+ox,uses_O2,lacks trait,Firmicutes,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,236,211
+ox,uses_O2,lacks trait,Firmicutes,IF ccoO (K00405) absent AND ctaA (K02259) absent AND coxL (K03520) absent THEN lacks uses_O2,303,260
+ox,uses_O2,lacks trait,Proteobacteria,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,7,4
+ox,uses_O2,lacks trait,Proteobacteria,IF cydB (K00426) absent AND pdhC (K00627) absent AND ctaA (K02259) absent THEN lacks uses_O2,27,10
+ox,uses_O2,lacks trait,Proteobacteria,IF aceE (K00163) absent AND ccoP (K00406) absent AND coxC (K02276) absent THEN lacks uses_O2,74,65
+ox,uses_O2,lacks trait,Verrucomicrobia,IF ccoP (K00406) absent AND cydB (K00426) absent AND coxB (K02275) absent THEN lacks uses_O2,1,0
+ox,uses_O2,lacks trait,Verrucomicrobia,IF aceE (K00163) absent AND cydB (K00426) absent AND ctaA (K02259) absent THEN lacks uses_O2,0,0
+ox,uses_O2,lacks trait,Verrucomicrobia,IF aceE (K00163) absent AND ccoO (K00405) absent AND coxC (K02276) absent THEN lacks uses_O2,4,0

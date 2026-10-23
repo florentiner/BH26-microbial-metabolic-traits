@@ -1,0 +1,9 @@
+arm,split_level,n_traits,macro_auprc,macro_auprc_ci_low,macro_auprc_ci_high,macro_delta_vs_null
+RF,genus,14,0.6070,0.5746,0.6532,0.1314
+B2,genus,14,0.5668,0.5416,0.6254,0.0912
+null_prevalence,genus,14,0.1853,0.1785,0.2041,-0.2903
+null_taxNN,genus,14,0.4757,0.4440,0.5170,0.0000
+RF,family,14,0.5594,0.5232,0.6168,0.1724
+B2,family,14,0.5560,0.5191,0.6247,0.1689
+null_prevalence,family,14,0.1794,0.1707,0.2069,-0.2076
+null_taxNN,family,14,0.3870,0.3598,0.4387,0.0000

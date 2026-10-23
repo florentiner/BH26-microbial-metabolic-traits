@@ -1,0 +1,9 @@
+task,trait,main,strict
+Donors & acceptors,acceptor: nitrate,0.7568,0.8125
+Donors & acceptors,"acceptor: CO₂ (methanogens, acetogens)",0.7922,0.8108
+Donors & acceptors,acceptor: oxygen,0.8245,0.8129
+Donors & acceptors,donor: ammonia oxidation,0.8387,0.8387
+Donors & acceptors,donor: hydrogen oxidation,0.9083,0.8962
+Donors & acceptors,acceptor: sulfate,0.9362,0.8846
+Donors & acceptors,donor: sulfur oxidation,0.9385,0.8367
+Oxygen use,oxygen use,0.9741,0.9789

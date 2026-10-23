@@ -1,0 +1,10 @@
+test,trait,higher_in,lower_in,frac_a,frac_b,p,kind,q_bh,supported
+X4-E1,donor_hydrogen_oxidation,hydrothermal,marine_surface,0.5833333333333334,0.26666666666666666,0.0004037834475721558,Fisher one-sided on released calls,0.0006056751713582337,True
+X4-E2,donor_sulfur_oxidation,hydrothermal,human_gut,0.21666666666666667,0.0,5.8991325921796724e-05,Fisher one-sided on released calls,0.00013273048332404264,True
+X4-E4,acceptor_CO2_methanogen_acetogen,digester,marine_surface,0.1,0.03333333333333333,0.1360814607312129,Fisher one-sided on released calls,0.1360814607312129,False
+X4-E5a,acceptor_oxygen,marine_surface,human_gut,0.7666666666666667,0.15,4.229708418011002e-12,Fisher one-sided on released calls,3.806737576209902e-11,True
+X4-E5b,acceptor_oxygen,marine_surface,digester,0.7666666666666667,0.16666666666666666,1.8717271550067788e-11,Fisher one-sided on released calls,8.422772197530505e-11,True
+X4-E3 vs hydrothermal,donor_iron_oxidation,acid_mine,hydrothermal,0.2945760190486908,0.20891778916120524,0.0005846125203497536,Mann-Whitney one-sided on raw scores (medians shown),0.0007516446690211117,True
+X4-E3 vs human_gut,donor_iron_oxidation,acid_mine,human_gut,0.2945760190486908,0.23818507790565485,0.006101396450097578,Mann-Whitney one-sided on raw scores (medians shown),0.006864071006359776,True
+X4-E3 vs digester,donor_iron_oxidation,acid_mine,digester,0.2945760190486908,0.1961049288511276,2.0966507369736186e-05,Mann-Whitney one-sided on raw scores (medians shown),6.289952210920856e-05,True
+X4-E3 vs marine_surface,donor_iron_oxidation,acid_mine,marine_surface,0.2945760190486908,0.2243149727582931,0.0004022296588519419,Mann-Whitney one-sided on raw scores (medians shown),0.0006056751713582337,True

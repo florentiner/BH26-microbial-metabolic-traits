@@ -1,0 +1,5 @@
+subset,model,auroc_diff,auroc_lo,auroc_hi,mcc_diff,mcc_lo,mcc_hi
+all species,EnergyKO-M_auto,0.0273,-0.0500,0.1143,0.0635,-0.0597,0.1801
+all species,ET_auto,-0.0690,-0.1612,0.0175,-0.0233,-0.1391,0.0898
+autotroph-like species,EnergyKO-M_auto,0.0395,-0.0736,0.1407,-0.0162,-0.1538,0.1375
+autotroph-like species,ET_auto,-0.0609,-0.1766,0.0208,-0.0670,-0.1907,0.0781
